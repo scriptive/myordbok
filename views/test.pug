@@ -1,0 +1,11 @@
+extends layout
+block content
+  app-root
+  h1= title
+  p Welcome to #{title}
+
+  link(rel='stylesheet', href='/angular/styles.bundle.css')
+  script(type='text/javascript', src='/angular/assets/zone.min.js')
+  script(type='text/javascript', src='/angular/inline.bundle.js')
+  script(type='text/javascript', src='/angular/main.bundle.js')
+  script(type='text/javascript', src='/angular/polyfills.bundle.js')

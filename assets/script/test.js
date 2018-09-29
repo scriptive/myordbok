@@ -1,0 +1,1 @@
+console.log('yes -> public/javascripts/test.js loaded');

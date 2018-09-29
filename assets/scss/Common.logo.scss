@@ -1,0 +1,45 @@
+ol#MyOrdbok-logo{
+  display: block; max-width: 310px;margin: 0 auto;
+  // height:32px; width: 200px;
+  background-image: url(../img/MyOrdbok.logo.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  color: #CCCCCC;
+  text-align: center;
+  list-style: none;
+  li{
+    a{
+      display: block;
+      padding-top:35px;
+      span{
+        // display: inline-block; font-size: 12px;margin-top:30px; color:#318ed7; text-align: center; text-shadow: #BBB 0px 0px 1px; padding: 0px 1px;
+        // display: inline-block; font-size:100%;margin-top:65px; color:#318ed7; text-align: center; text-shadow: #BBB 0px 0px 1px; padding: 0px 1px;
+
+        display: inline-block; color:#318ed7; text-shadow: #BBB 0px 0px 1px;
+        font-size:80%;
+        &:last-child{
+          &:before{
+            display: inline-block;
+            padding: 2px;
+            content: " - ";
+            color: #ccc;
+          }
+        }
+        &:first-child{
+          color:#676767;
+        }
+      }
+    }
+    &:hover{
+      span{
+        &:first-child{
+          color:#318ed7;
+        }
+        &:last-child{
+          color:#676767;
+        }
+      }
+    }
+  }
+}

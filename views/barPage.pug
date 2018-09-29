@@ -1,0 +1,16 @@
+ul
+  li.actives
+    div.toggle.panel.zA.icon-panel
+
+    mixin li(v)
+      li(class=v.route class={active: v.active} class={hasChild: v.child})
+        a(href=(v.url=='*' ? '/' : v.url))
+          span #{v.text}
+        if v.child
+          ol.child
+            each s, route in v.child
+              +li(s)
+
+    ol.menu.page
+      each v, route in navPage
+        +li(v)

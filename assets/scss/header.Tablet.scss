@@ -1,0 +1,28 @@
+div.column {
+  vertical-align: top;
+  ol#MyOrdbok-logo{
+    height:40px; width: 40px;background-image: url(../img/MyOrdbok.png);
+    &::before{
+      content: attr(data-lang);
+      display: inline-block; font-size: 12px; color:#fff; text-align: center; text-shadow: 0px 0px 1px #BBB;
+      position: absolute; top:0; right: 2px;
+      @include box-shadow(0px, 0px, 1px, 1px, #fff);
+      width: 18px;line-height: 18px; height:18px;
+      border-radius: 30px;
+      overflow: hidden;
+      background-color:$ColorMain;
+      text-transform: lowercase;
+    }
+    li{
+      a{
+        padding-top:40px;
+        span{
+          display: none;
+        }
+      }
+    }
+  }
+  form[name=search]{
+    width: 99%; margin:2px 0 2px 1%;
+  }
+}

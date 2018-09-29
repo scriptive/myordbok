@@ -1,0 +1,39 @@
+doctype html
+html(lang='en')
+  head
+    block head
+      meta(charset='utf-8')
+      title= title
+      base(href='/')
+      link(rel='icon', href='favicon.png' type='image/png')
+  body.home
+    div#time Hello World
+    div.primary
+      block bar
+        div.portal#bar
+          div
+            div.navigate
+              div.column
+                include barPage
+              div.column
+                include barUser
+      block header
+      block content
+        div.portal#content
+          div.resize.center
+            div.modest
+              div.logo
+                ol(data-lang="en").menu.dictionary#MyOrdbok-logo
+                  li.dictionary
+                    a(href="/dictionary")
+                      span English
+                      span Myanmar
+              div.search
+                form(name='search' method='get' action='/definition').abc
+                  p
+                    input(type="search" name="q" value="" placeholder=" ...Search" autocomplete="off")
+                  p
+                    button(type="submit" id="search") &#xe83d;
+                  div#suggest
+      block footer
+  script(type='text/javascript', src='/bundle.js')
