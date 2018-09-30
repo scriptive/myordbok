@@ -2,7 +2,7 @@
 
 /static
 /dist
-/assets/tmp
+tmp
 
 # Logs
 logs

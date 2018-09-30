@@ -7,7 +7,7 @@ html(lang='en')
       base(href='/')
       link(rel='icon', href='favicon.png' type='image/png')
   body.home
-    div#time Hello World
+    h1#delete Hello World
     div.primary
       block bar
         div.portal#bar
@@ -36,4 +36,6 @@ html(lang='en')
                     button(type="submit" id="search") &#xe83d;
                   div#suggest
       block footer
-  script(type='text/javascript', src='/bundle.js')
+
+    script(type='text/javascript', src='/script.js')
+    link(rel='stylesheet', href='/style.css')

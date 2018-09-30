@@ -1,25 +1,66 @@
-// module.exports ={};
-var webpack = require('webpack');
-
+var path = require('path');
 module.exports = {
   mode: 'development',
-  context: __dirname,
-  entry: [
-    // Add the client which connects to our middleware
-    // You can use full urls like 'webpack-hot-middleware/client?path=http://localhost:3000/__webpack_hmr'
-    // useful if you run your app from another point like django
-    'webpack-hot-middleware/client?path=/__webpack_hmr&timeout=20000',
-    // And then the actual application
-    './static/client.js'
-  ],
-  output: {
-    path: __dirname,
-    publicPath: '/',
-    filename: 'bundle.js'
+  devtool: 'inline-source-map',
+  entry: {
+    script: path.resolve(__dirname, 'assets/webpack/index.js')
   },
-  devtool: '#source-map',
+  output: {
+    path: path.resolve(__dirname, 'static'),
+    filename:'[name].js',
+    publicPath: '/'
+  },
   plugins: [
-    new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoEmitOnErrorsPlugin()
   ],
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /(node_modules|bower_components)/,
+        loader: "babel-loader",
+        options: {
+          presets: []
+        }
+      },
+      {
+        test: /Myanmar3.*$/,
+        loader: 'file-loader',
+        query: {
+          name: '[name].[ext]'
+        }
+      },
+      {
+        test: /favicon.png$/,
+        // NOTE: file-loader?name=[name].[ext] retain original file name
+        loader: 'file-loader',
+        // loader: 'url-loader?limit=1024&name=[name].[ext]',
+        // loader: 'url-loader?limit=1024&name=/assets/[name].[ext]',
+        // loader: 'file-loader?name=[name].[ext]',
+        query: {
+          mimetype: 'image/x-png',
+          name: '[name].[ext]'
+        }
+      },
+      {
+        test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
+        // NOTE: file-loader or url-loader
+        loader: 'file-loader',
+        exclude: [/Myanmar3.*$/,/favicon.png$/],
+        options: {
+          limit: 10000
+        }
+      },
+      {
+        test: /\.(sa|sc|c)ss$/,
+        use: [
+          // {
+          //   loader: 'style-loader',
+          // },
+          'style-loader',
+          'css-loader',
+          'sass-loader'
+        ]
+      }
+    ]
+  }
 };

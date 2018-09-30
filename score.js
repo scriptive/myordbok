@@ -1,7 +1,7 @@
 module.exports = {
   score:{
-    styleMiddleWare: {
-      // prefix: '/css',
+    styleMiddleWare_: {
+      prefix: '/css',
       indentedSyntax: false,
       // debug: true,
       response:false,
@@ -9,8 +9,10 @@ module.exports = {
       // outputStyle: 'compressed',
       sourceMap: false
     },
-    scriptMiddleWare: {
+    scriptMiddleWare_: {
       prefix:'/jsmiddlewareoutput'
-    }
+    },
+    styleMiddleWare:false,
+    scriptMiddleWare:false
   }
 };
