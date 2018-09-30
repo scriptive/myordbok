@@ -1,10 +1,10 @@
 # webpack
 
 - webpack.*.js
-  - [ ] middleware
-  - [ ] production
-  - [ ] development
-  - [ ] dev server
+  - [x] middleware
+  - [x] production
+  - [x] development
+  - [x] dev server
 
 ```shell
 # Common
