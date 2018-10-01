@@ -1,9 +1,13 @@
-const {express,path} = require.main.exports();
-const {score} = require('.././score');
+var app = require('../'),
+    {express,path} = app.Core.evh();
+// var core = require.main.exports,
 
-let moby = require('moby');
-let util = require('util');
-let notation = require('myanmar-notation');
+// const {express,path} = require.main.exports();
+// const {score} = require('../score');
+
+var util = require('util'),
+    moby = require('moby'),
+    notation = require('myanmar-notation');
 
 // const Timer = require('./class.timer');
 let config={
@@ -41,11 +45,12 @@ module.exports = class Definition {
   constructor(request) {
     this.request=request;
     this.result={};
-    this.database=score.sql;
+    this.database=app.sql;
+    // this.database=score.sql;
     // this.database=new process.database();
   }
 
-  search___(callback) {
+  search___notation(callback) {
     // NOTE: the search() property is only for temporarily, and when using search_NEXT() uncomment database connection from constructor!
     // let abc = new notation(this.request.q).result;
     let abc = notation.get(this.request.q);

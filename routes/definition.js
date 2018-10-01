@@ -1,17 +1,10 @@
-// const {express,path} = require('@scriptive/evh');
-const {express,path} = require.main.exports();
-const {score} = require('.././score');
+var app = require('../');
+//     {express,path} = app.Core.evh(),
+//     {score} = require('../score'),
+//     querystring = require('querystring'),
+//     Definition = require('./classDefinition');
 
-const querystring = require('querystring');
-const Definition = require('./classDefinition');
-
-// const {express} = require('express-virtual');
-// const path = require('path'),
-//       querystring = require('querystring'),
-//       Definition = require('./class.definition');
-
-const router = express.Router();
-
+let router = app.router();
 router.get('/', function(req, res, next) {
   /*
   let param={},
@@ -59,6 +52,4 @@ router.get('/', function(req, res, next) {
   // res.render('definition/numeric', { title: 'MyOrdbok' });
 
 });
-
-
 module.exports = router;

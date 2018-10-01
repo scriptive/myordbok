@@ -1,8 +1,7 @@
-var core = require.main.exports,
-    {express,path,application} = core.evh(),
-    {score} = require(path.join(__dirname, 'score'));
+var Core = require.main.exports,
+    {application} = Core.evh();
 
-// module.exports = {score};
+module.exports = {Core};
 // var MyOrdbok = module.exports = function(){};
 // MyOrdbok.score = score;
 

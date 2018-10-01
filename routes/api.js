@@ -1,12 +1,3 @@
-// var core = require.main.exports,
-//     {express} = core.scriptiveModule(),
-//     Definition = require('./classDefinition');
-//
-// var core = require.main.exports,
-//   {express} = core(),
-//   Definition = require('./classDefinition');
-
-
 var app = require('../'),
     Definition = require('./classDefinition');
 
