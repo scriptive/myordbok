@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Bird kind of bird",
+      "orig": "တိန်ကျစ်ငှက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "tein kyit nghaat"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ငှက်",
+      "alternative": [
+        {
+          "word_postproc": "Bird",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Birds",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 8,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "တိန်ကျစ်ငှက်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "တိန် ကျစ်",
+      "alternative": [
+        {
+          "word_postproc": "kind of bird",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

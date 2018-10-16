@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "and anguish",
+      "orig": "ပူပန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "puupaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be worried,anxious about sth"
+      ],
+      "entry": [
+        {
+          "word": "be worried,anxious about sth"
+        }
+      ],
+      "base_form": "ပူပန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပူပန်",
+      "alternative": [
+        {
+          "word_postproc": "and anguish",
+          "score": 573,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "anguish",
+          "score": 399,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "troubled",
+          "score": 23,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "concern about",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the heat of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ပူပန်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

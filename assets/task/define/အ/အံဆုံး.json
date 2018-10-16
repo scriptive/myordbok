@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "STUDIES",
+      "orig": "အံဆုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "aan sone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "wisdom tooth"
+      ],
+      "entry": [
+        {
+          "word": "wisdom tooth"
+        }
+      ],
+      "base_form": "အံဆုံး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အံ",
+      "alternative": [
+        {
+          "word_postproc": "STUDIES",
+          "score": 988,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "teeth",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Latvian",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fit",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "molar",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "အံဆုံး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

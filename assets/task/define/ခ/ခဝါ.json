@@ -1,0 +1,71 @@
+{
+  "sentences": [
+    {
+      "trans": "b",
+      "orig": "ခဝါ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hk war"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "laundry"
+      ],
+      "entry": [
+        {
+          "word": "laundry",
+          "reverse_translation": [
+            "လေှျာ်ဖွတ်ရန်စရာ"
+          ]
+        }
+      ],
+      "base_form": "ခဝါ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခ",
+      "alternative": [
+        {
+          "word_postproc": "b",
+          "score": 748,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "B.",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 1
+        }
+      ],
+      "raw_src_segment": "ခဝါ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

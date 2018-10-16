@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "polish",
+      "orig": "တိုက်ချွတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "tite hkyawat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "polish",
+        "clean"
+      ],
+      "entry": [
+        {
+          "word": "polish",
+          "reverse_translation": [
+            "အရောင်တင်"
+          ]
+        },
+        {
+          "word": "clean",
+          "reverse_translation": [
+            "ဆေးကေြာ"
+          ]
+        }
+      ],
+      "base_form": "တိုက်ချွတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တိုက် ချွတ်",
+      "alternative": [
+        {
+          "word_postproc": "polish",
+          "score": 898,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "clean",
+          "score": 101,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "တိုက်ချွတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

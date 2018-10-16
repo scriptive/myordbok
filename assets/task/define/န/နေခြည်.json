@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "sunbeam",
+      "orig": "နေခြည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nayhkyi"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "sunbeam",
+        "sun rays."
+      ],
+      "entry": [
+        {
+          "word": "sunbeam",
+          "score": 0.014717029
+        },
+        {
+          "word": "sun rays.",
+          "score": 0.014717029
+        }
+      ],
+      "base_form": "နေခြည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နေခြည်",
+      "alternative": [
+        {
+          "word_postproc": "sunbeam",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Love",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "unless",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sun rays",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "unless you",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "နေခြည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

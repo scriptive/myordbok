@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "withstand",
+      "orig": "ခံရပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkan raut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "standfast",
+        "withstand",
+        "request"
+      ],
+      "entry": [
+        {
+          "word": "withstand",
+          "reverse_translation": [
+            "ခုခံ"
+          ]
+        },
+        {
+          "word": "request",
+          "reverse_translation": [
+            "တောင်းပန်"
+          ]
+        }
+      ],
+      "base_form": "ခံရပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခံ ရပ်",
+      "alternative": [
+        {
+          "word_postproc": "withstand",
+          "score": 837,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "stand",
+          "score": 148,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to stand",
+          "score": 11,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "endure",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "place",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ခံရပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

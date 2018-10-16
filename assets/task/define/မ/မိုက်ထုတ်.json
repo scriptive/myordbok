@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "foolish",
+      "orig": "မိုက်ထုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "mite htote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "pan gold from မိုက်"
+      ],
+      "entry": [
+        {
+          "word": "pan gold from မိုက်"
+        }
+      ],
+      "base_form": "မိုက်ထုတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မိုက်",
+      "alternative": [
+        {
+          "word_postproc": "foolish",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A foolish",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A fool",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fool",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "မိုက်ထုတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

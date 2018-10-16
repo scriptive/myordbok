@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "Mark",
+      "orig": "ကြီးမာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyee mar"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မာ",
+      "alternative": [
+        {
+          "word_postproc": "Mark",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hard",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Macedonia",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Martha",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ကြီးမာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

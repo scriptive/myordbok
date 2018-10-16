@@ -1,0 +1,96 @@
+{
+  "sentences": [
+    {
+      "trans": "girl",
+      "orig": "မိန်းကလေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "meinkalayy"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "girl",
+        "young lady",
+        "maiden",
+        "damsel"
+      ],
+      "entry": [
+        {
+          "word": "girl",
+          "reverse_translation": [
+            "မိန်းမကလေး"
+          ],
+          "synset_id": [
+            81988
+          ],
+          "score": 0.16842748
+        }
+      ],
+      "base_form": "မိန်းကလေး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မိန်းကလေး",
+      "alternative": [
+        {
+          "word_postproc": "girl",
+          "score": 739,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Female",
+          "score": 229,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "girls",
+          "score": 29,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The girls",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The girl",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "မိန်းကလေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "sentences": [
+    {
+      "trans": "stomach",
+      "orig": "ဝမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "wam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "womb",
+        "stomach",
+        "bowels",
+        "abdomen",
+        "stool",
+        "mind",
+        "nature",
+        "face",
+        "obverse",
+        "hold"
+      ],
+      "entry": [
+        {
+          "word": "womb",
+          "reverse_translation": [
+            "သားအိမ်"
+          ],
+          "score": 0.068050854
+        },
+        {
+          "word": "stomach",
+          "reverse_translation": [
+            "ဝမ်း"
+          ],
+          "synset_id": [
+            91959
+          ],
+          "score": 0.061000392
+        },
+        {
+          "word": "abdomen",
+          "reverse_translation": [
+            "ဝမ်း"
+          ],
+          "synset_id": [
+            91959
+          ],
+          "score": 0.00066714711
+        },
+        {
+          "word": "mind",
+          "reverse_translation": [
+            "သဘောဉာဏ်"
+          ]
+        },
+        {
+          "word": "nature",
+          "reverse_translation": [
+            "သဘာဝ",
+            "အတွင်းသဘော"
+          ]
+        },
+        {
+          "word": "face",
+          "reverse_translation": [
+            "မျက်နှာ"
+          ]
+        }
+      ],
+      "base_form": "ဝမ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝမ်း",
+      "alternative": [
+        {
+          "word_postproc": "stomach",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "belly is",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bowels is",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bowels with",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "belly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဝမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

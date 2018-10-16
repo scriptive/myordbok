@@ -1,0 +1,135 @@
+{
+  "sentences": [
+    {
+      "trans": "green",
+      "orig": "စိမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcaim"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "green",
+        "raw",
+        "unfamiliar",
+        "unripe",
+        "uncooked",
+        "not friendly",
+        "not intimate"
+      ],
+      "entry": [
+        {
+          "word": "green",
+          "reverse_translation": [
+            "စိမ်းလန်းသော"
+          ],
+          "synset_id": [
+            56045
+          ],
+          "score": 0.28650481
+        },
+        {
+          "word": "raw",
+          "reverse_translation": [
+            "မပြုပြင်ရသေးသော"
+          ],
+          "score": 0.034218118
+        },
+        {
+          "word": "unfamiliar",
+          "reverse_translation": [
+            "မသိမကျွမ်းသော"
+          ],
+          "score": 0.0037210477
+        }
+      ],
+      "base_form": "စိမ်း",
+      "pos_enum": 3
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "be unfamiliar",
+        "be not well-versed in",
+        "forsake",
+        "abandon"
+      ],
+      "entry": [
+        {
+          "word": "abandon",
+          "reverse_translation": [
+            "စွန့်ပစ်"
+          ],
+          "synset_id": [
+            103465
+          ]
+        }
+      ],
+      "base_form": "စိမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စိမ်း",
+      "alternative": [
+        {
+          "word_postproc": "green",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "greenish",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "green thing",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "it raw",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "her green",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "စိမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

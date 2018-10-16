@@ -1,0 +1,96 @@
+{
+  "sentences": [
+    {
+      "trans": "In any contentment",
+      "orig": "တင်းတိမ်ရောင့်ရဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "tainn tain raw in  rell"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တင်း တိမ်",
+      "alternative": [
+        {
+          "word_postproc": "In any",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Contented",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Hold it",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Content",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Hold",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "တင်းတိမ်ရောင့်ရဲ",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "ရော င့ ် ရဲ",
+      "alternative": [
+        {
+          "word_postproc": "contentment",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "satisfy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 8,
+          "end": 16
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

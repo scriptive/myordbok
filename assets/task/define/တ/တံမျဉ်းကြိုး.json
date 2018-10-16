@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Ruling line",
+      "orig": "တံမျဉ်းကြိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "tan myain kyaoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "string used to mark a line",
+        "ruling line"
+      ],
+      "entry": [
+        {
+          "word": "string used to mark a line"
+        },
+        {
+          "word": "ruling line"
+        }
+      ],
+      "base_form": "တံမျဉ်းကြိုး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တံ မျဉ်း ကြိုး",
+      "alternative": [
+        {
+          "word_postproc": "Ruling line",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "တံမျဉ်းကြိုး",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

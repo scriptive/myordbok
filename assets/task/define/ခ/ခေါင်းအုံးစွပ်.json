@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Pillow case",
+      "orig": "ခေါင်းအုံးစွပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaungg aone hcwut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "pillow case"
+      ],
+      "entry": [
+        {
+          "word": "pillow case"
+        }
+      ],
+      "base_form": "ခေါင်းအုံးစွပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခေါင်း အုံး စွပ်",
+      "alternative": [
+        {
+          "word_postproc": "Pillow case",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ခေါင်းအုံးစွပ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "sentences": [
+    {
+      "trans": "Kind of tree",
+      "orig": "စရည်းပင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hc raee pain"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စ ရည်း",
+      "alternative": [
+        {
+          "word_postproc": "Kind of tree",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Big glazed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Large earthen vessel",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "စရည်းပင်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

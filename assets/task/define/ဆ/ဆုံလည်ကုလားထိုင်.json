@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Swivel chair",
+      "orig": "ဆုံလည်ကုလားထိုင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "sone lai kularrhtine"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "swivel chair"
+      ],
+      "entry": [
+        {
+          "word": "swivel chair"
+        }
+      ],
+      "base_form": "ဆုံလည်ကုလားထိုင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆုံ လည် ကုလားထိုင်",
+      "alternative": [
+        {
+          "word_postproc": "Swivel chair",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "ဆုံလည်ကုလားထိုင်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

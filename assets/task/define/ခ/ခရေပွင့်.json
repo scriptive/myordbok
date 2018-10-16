@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "The asterisk",
+      "orig": "ခရေပွင့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hk ray pw ng "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "asterisk"
+      ],
+      "entry": [
+        {
+          "word": "asterisk",
+          "reverse_translation": [
+            "ကြယ်မှတ်"
+          ]
+        }
+      ],
+      "base_form": "ခရေပွင့်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "်",
+      "alternative": [
+        {
+          "word_postproc": "The",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ခရေပွင့်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ခ ရေ ပွ င့",
+      "alternative": [
+        {
+          "word_postproc": "asterisk",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

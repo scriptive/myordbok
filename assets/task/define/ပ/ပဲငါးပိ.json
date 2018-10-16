@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "paste",
+      "orig": "ပဲငါးပိ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pell ngarrpi"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "salted and preserved soya beans"
+      ],
+      "entry": [
+        {
+          "word": "salted and preserved soya beans"
+        }
+      ],
+      "base_form": "ပဲငါးပိ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ငါးပိ",
+      "alternative": [
+        {
+          "word_postproc": "paste",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ပဲငါးပိ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

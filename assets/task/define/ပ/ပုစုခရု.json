@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Odds and ends",
+      "orig": "ပုစုခရု",
+      "backend": 0
+    },
+    {
+      "src_translit": "pu hcu hkaru"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "children of all ages",
+        "odds and ends"
+      ],
+      "entry": [
+        {
+          "word": "children of all ages"
+        },
+        {
+          "word": "odds and ends"
+        }
+      ],
+      "base_form": "ပုစုခရု",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပု စု ခရု",
+      "alternative": [
+        {
+          "word_postproc": "Odds and ends",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ပုစုခရု",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

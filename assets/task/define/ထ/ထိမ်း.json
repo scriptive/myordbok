@@ -1,0 +1,107 @@
+{
+  "sentences": [
+    {
+      "trans": "married",
+      "orig": "ထိမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "htaim"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "chop",
+        "hew",
+        "mark",
+        "designate"
+      ],
+      "entry": [
+        {
+          "word": "chop",
+          "reverse_translation": [
+            "ခုတ်ဖြတ်ခြင်း"
+          ],
+          "score": 0.0037796458
+        },
+        {
+          "word": "mark",
+          "reverse_translation": [
+            "မှတ်သား"
+          ],
+          "score": 0.0037796458
+        },
+        {
+          "word": "designate",
+          "reverse_translation": [
+            "မှတ်သားဖေါ်ပြ"
+          ],
+          "score": 0.0037796458
+        }
+      ],
+      "base_form": "ထိမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထိမ်း",
+      "alternative": [
+        {
+          "word_postproc": "married",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "marriages",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "intermarried",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and marries",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "married her",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ထိမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

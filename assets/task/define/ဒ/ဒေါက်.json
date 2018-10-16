@@ -1,0 +1,95 @@
+{
+  "sentences": [
+    {
+      "trans": "Douglas",
+      "orig": "ဒေါက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "dout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "prop",
+        "buttress",
+        "poke",
+        "height",
+        "build",
+        "stature",
+        "spokes of a cart wheel",
+        "shoulder-strap",
+        "pole and halter arrangement to restrain unruly oxen,buffaloes"
+      ],
+      "entry": [
+        {
+          "word": "height",
+          "reverse_translation": [
+            "အမြင့်"
+          ],
+          "synset_id": [
+            88293
+          ],
+          "score": 0.010274142
+        }
+      ],
+      "base_form": "ဒေါက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဒေါက်",
+      "alternative": [
+        {
+          "word_postproc": "Douglas",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "heels",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "heeled",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "spoked",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဒေါက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

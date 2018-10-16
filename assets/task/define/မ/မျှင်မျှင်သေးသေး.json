@@ -1,0 +1,109 @@
+{
+  "sentences": [
+    {
+      "trans": "Smaller fiber yarns",
+      "orig": "မျှင်မျှင်သေးသေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "myahain myahain sayy sayy"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သေး သေး",
+      "alternative": [
+        {
+          "word_postproc": "Smaller",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Small",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 10,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "မျှင်မျှင်သေးသေး",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "မျှင်",
+      "alternative": [
+        {
+          "word_postproc": "fiber",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Sticky",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "မျှင်",
+      "alternative": [
+        {
+          "word_postproc": "yarns",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fibers",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Sticky",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 10
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

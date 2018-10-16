@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Bath",
+      "orig": "ဗာရာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "bar rar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "inmate appointed as orderly to prison officials",
+        "throw of six upturned cowries in a game of pachisi"
+      ],
+      "entry": [
+        {
+          "word": "inmate appointed as orderly to prison officials"
+        },
+        {
+          "word": "throw of six upturned cowries in a game of pachisi"
+        }
+      ],
+      "base_form": "ဗာရာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗာ",
+      "alternative": [
+        {
+          "word_postproc": "Bath",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ဗာရာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

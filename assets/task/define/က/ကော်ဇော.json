@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "carpet",
+      "orig": "ကော်ဇော",
+      "backend": 0
+    },
+    {
+      "src_translit": "kawjaw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "carpet"
+      ],
+      "entry": [
+        {
+          "word": "carpet",
+          "reverse_translation": [
+            "ကော်ဇော"
+          ],
+          "synset_id": [
+            39768
+          ],
+          "score": 0.30978554
+        }
+      ],
+      "base_form": "ကော်ဇော",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကော်ဇော",
+      "alternative": [
+        {
+          "word_postproc": "carpet",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "carpet and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "concealment of agency",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "concealment of agency that",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "carpets",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကော်ဇော",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

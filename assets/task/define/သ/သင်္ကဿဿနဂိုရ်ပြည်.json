@@ -1,0 +1,129 @@
+{
+  "sentences": [
+    {
+      "trans": "The land of the city of peace",
+      "orig": "သင်္ကဿဿနဂိုရ်ပြည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "sain k ဿ ဿ n gor pyi"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "က",
+      "alternative": [
+        {
+          "word_postproc": "The",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "It is",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "သင်္ကဿဿနဂိုရ်ပြည်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ပြည်",
+      "alternative": [
+        {
+          "word_postproc": "land",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 13,
+          "end": 17
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "ဿ",
+      "alternative": [
+        {
+          "word_postproc": "of the",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 6
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 4
+    },
+    {
+      "src_phrase": "န ဂိုရ်",
+      "alternative": [
+        {
+          "word_postproc": "city",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 13
+        }
+      ],
+      "start_pos": 4,
+      "end_pos": 5
+    },
+    {
+      "src_phrase": "ဿ",
+      "alternative": [
+        {
+          "word_postproc": "of peace",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 7
+        }
+      ],
+      "start_pos": 5,
+      "end_pos": 7
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

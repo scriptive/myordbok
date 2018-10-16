@@ -1,0 +1,100 @@
+{
+  "sentences": [
+    {
+      "trans": "foreshadowing",
+      "orig": "ပုံပမာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "ponepamar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "parable",
+        "likeness",
+        "simile",
+        "example"
+      ],
+      "entry": [
+        {
+          "word": "likeness",
+          "reverse_translation": [
+            "တူညီခြင်း"
+          ],
+          "score": 0.012987733
+        },
+        {
+          "word": "example",
+          "reverse_translation": [
+            "နမူနာ"
+          ],
+          "score": 0.012987733
+        }
+      ],
+      "base_form": "ပုံပမာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပုံပမာ",
+      "alternative": [
+        {
+          "word_postproc": "foreshadowing",
+          "score": 949,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a figure",
+          "score": 37,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a figure for",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "parables",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a foreshadowing",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ပုံပမာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sentences": [
+    {
+      "trans": "nine",
+      "orig": "ကိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "koe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "nine",
+        "emphatic particle suffixed to words"
+      ],
+      "entry": [
+        {
+          "word": "nine",
+          "reverse_translation": [
+            "ကိုး"
+          ],
+          "synset_id": [
+            1257
+          ],
+          "score": 0.23021308
+        }
+      ],
+      "base_form": "ကိုး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိုး",
+      "alternative": [
+        {
+          "word_postproc": "nine",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and nine",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

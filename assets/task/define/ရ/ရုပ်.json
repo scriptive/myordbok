@@ -1,0 +1,148 @@
+{
+  "sentences": [
+    {
+      "trans": "picture",
+      "orig": "ရုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "rote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "matter",
+        "material",
+        "toy",
+        "doll",
+        "physical form",
+        "appearance looks",
+        "figurine"
+      ],
+      "entry": [
+        {
+          "word": "material",
+          "reverse_translation": [
+            "ဝတ္တု"
+          ],
+          "score": 0.015912903
+        },
+        {
+          "word": "toy",
+          "reverse_translation": [
+            "ကစားစရာ"
+          ],
+          "score": 0.014488863
+        },
+        {
+          "word": "doll",
+          "reverse_translation": [
+            "ရုပ်သေး"
+          ],
+          "score": 0.0089263292
+        }
+      ],
+      "base_form": "ရုပ်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "withdraw",
+        "retract",
+        "bring in",
+        "collect",
+        "gather"
+      ],
+      "entry": [
+        {
+          "word": "retract",
+          "reverse_translation": [
+            "ပြန်နုတ်"
+          ]
+        },
+        {
+          "word": "collect",
+          "reverse_translation": [
+            "စုဝေး"
+          ],
+          "synset_id": [
+            64468
+          ]
+        },
+        {
+          "word": "gather",
+          "reverse_translation": [
+            "စုရုံး"
+          ],
+          "synset_id": [
+            64468
+          ]
+        }
+      ],
+      "base_form": "ရုပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရုပ်",
+      "alternative": [
+        {
+          "word_postproc": "picture",
+          "score": 666,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "toy",
+          "score": 132,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "doll",
+          "score": 121,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "form",
+          "score": 35,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "toys",
+          "score": 21,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ရုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

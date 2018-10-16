@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Rice vinegar",
+      "orig": "ဆန်ပုံးရည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "saan pone rai"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆန်",
+      "alternative": [
+        {
+          "word_postproc": "Rice",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဆန်ပုံးရည်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ပုံး ရည်",
+      "alternative": [
+        {
+          "word_postproc": "vinegar",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 10
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

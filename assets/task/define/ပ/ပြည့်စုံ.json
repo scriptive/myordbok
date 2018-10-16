@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "fulfillment",
+      "orig": "ပြည့်စုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyi hcone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be adequate",
+        "be sufficient",
+        "be fully endowed with"
+      ],
+      "entry": [
+        {
+          "word": "be adequate"
+        },
+        {
+          "word": "be sufficient"
+        },
+        {
+          "word": "be fully endowed with"
+        }
+      ],
+      "base_form": "ပြည့်စုံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြည့် စုံ",
+      "alternative": [
+        {
+          "word_postproc": "fulfillment",
+          "score": 622,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fulfilled",
+          "score": 314,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "full of",
+          "score": 48,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fulfillment of",
+          "score": 9,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "be fulfilled",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ပြည့်စုံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

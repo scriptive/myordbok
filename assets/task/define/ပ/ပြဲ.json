@@ -1,0 +1,109 @@
+{
+  "sentences": [
+    {
+      "trans": "torn",
+      "orig": "ပြဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyaell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "wide"
+      ],
+      "entry": [
+        {
+          "word": "wide",
+          "reverse_translation": [
+            "ကျယ်ဝန်းသော"
+          ],
+          "score": 0.012011689
+        }
+      ],
+      "base_form": "ပြဲ",
+      "pos_enum": 3
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "cut",
+        "be torn",
+        "be ripped"
+      ],
+      "entry": [
+        {
+          "word": "cut",
+          "reverse_translation": [
+            "ဖြတ်"
+          ],
+          "score": 0.0080015101
+        }
+      ],
+      "base_form": "ပြဲ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြဲ",
+      "alternative": [
+        {
+          "word_postproc": "torn",
+          "score": 467,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "avalanche",
+          "score": 460,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fall",
+          "score": 49,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ripped",
+          "score": 15,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rights",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ပြဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

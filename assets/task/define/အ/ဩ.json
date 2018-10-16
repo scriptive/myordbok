@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "Ah",
+      "orig": "ဩ",
+      "backend": 0
+    },
+    {
+      "src_translit": "au"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "",
+      "terms": [
+        "word inserted in speech to denote deference"
+      ],
+      "entry": [
+        {
+          "word": "word inserted in speech to denote deference"
+        }
+      ],
+      "base_form": "ဩ",
+      "pos_enum": 20
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "ninth in the set of twelve vowels traditionally taught in the learning of Myanmar language"
+      ],
+      "entry": [
+        {
+          "word": "ninth in the set of twelve vowels traditionally taught in the learning of Myanmar language"
+        }
+      ],
+      "base_form": "ဩ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဩ",
+      "alternative": [
+        {
+          "word_postproc": "Ah",
+          "score": 961,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Othniel",
+          "score": 38,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Puah",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Obed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 1
+        }
+      ],
+      "raw_src_segment": "ဩ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

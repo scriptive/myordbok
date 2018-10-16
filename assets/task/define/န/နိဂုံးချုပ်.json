@@ -1,0 +1,79 @@
+{
+  "sentences": [
+    {
+      "trans": "In conclusion",
+      "orig": "နိဂုံးချုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nigonehkyaote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "conclusion",
+        "epilogue"
+      ],
+      "entry": [
+        {
+          "word": "conclusion",
+          "reverse_translation": [
+            "ကောက်ချက်"
+          ],
+          "score": 0.090152733
+        }
+      ],
+      "base_form": "နိဂုံးချုပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နိဂုံးချုပ်",
+      "alternative": [
+        {
+          "word_postproc": "In conclusion",
+          "score": 823,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "concluding",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Conclude",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "နိဂုံးချုပ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

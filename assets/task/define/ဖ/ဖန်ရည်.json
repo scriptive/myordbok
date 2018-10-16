@@ -1,0 +1,70 @@
+{
+  "sentences": [
+    {
+      "trans": "disinfectant solution",
+      "orig": "ဖန်ရည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpaan rai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "disinfectant solution",
+        "water obtained from boiling medicinal leaves,barks of trees for dressing wounds,cuts",
+        "dye obtained from boiling barks, etc"
+      ],
+      "entry": [
+        {
+          "word": "disinfectant solution"
+        },
+        {
+          "word": "water obtained from boiling medicinal leaves,barks of trees for dressing wounds,cuts"
+        },
+        {
+          "word": "dye obtained from boiling barks, etc"
+        }
+      ],
+      "base_form": "ဖန်ရည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖန် ရည်",
+      "alternative": [
+        {
+          "word_postproc": "disinfectant solution",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဖန်ရည်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

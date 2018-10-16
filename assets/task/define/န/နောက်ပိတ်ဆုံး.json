@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "Last",
+      "orig": "နောက်ပိတ်ဆုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "nout pate sone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "last"
+      ],
+      "entry": [
+        {
+          "word": "last",
+          "reverse_translation": [
+            "နောက်ဆုံး"
+          ]
+        }
+      ],
+      "base_form": "နောက်ပိတ်ဆုံး",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နောက် ပိတ် ဆုံး",
+      "alternative": [
+        {
+          "word_postproc": "Last",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "နောက်ပိတ်ဆုံး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

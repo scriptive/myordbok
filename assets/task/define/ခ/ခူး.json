@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "pick",
+      "orig": "ခူး",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkuu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "pick",
+        "pluck",
+        "cull",
+        "ladle"
+      ],
+      "entry": [
+        {
+          "word": "pick",
+          "reverse_translation": [
+            "ခူး"
+          ],
+          "synset_id": [
+            71379
+          ],
+          "score": 0.017752126
+        },
+        {
+          "word": "pluck",
+          "reverse_translation": [
+            "ခူး"
+          ],
+          "synset_id": [
+            71379
+          ],
+          "score": 0.006737947
+        }
+      ],
+      "base_form": "ခူး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခူး",
+      "alternative": [
+        {
+          "word_postproc": "pick",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pluck",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Hku",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ခူး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

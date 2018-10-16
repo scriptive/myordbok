@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "small",
+      "orig": "သေးနုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "sayy note"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "အလေးမထားလောက်အောင်ငယ်သော။ ပကတိရှိမြဲအရွယ်သို့ မရောက်သေးသော။",
+        "မရင့်ကျက်သော။ သဘောထားနုသော။"
+      ],
+      "entry": [
+        {
+          "word": "အလေးမထားလောက်အောင်ငယ်သော။ ပကတိရှိမြဲအရွယ်သို့ မရောက်သေးသော။"
+        },
+        {
+          "word": "မရင့်ကျက်သော။ သဘောထားနုသော။"
+        }
+      ],
+      "base_form": "သေးနုပ်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သေး နုပ်",
+      "alternative": [
+        {
+          "word_postproc": "small",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "သေးနုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

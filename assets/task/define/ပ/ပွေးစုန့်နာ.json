@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Ringworm",
+      "orig": "ပွေးစုန့်နာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pway hcu an  nar"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပွေး စု န့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Ringworm",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ပွေးစုန့်နာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

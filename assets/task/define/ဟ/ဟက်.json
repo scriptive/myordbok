@@ -1,0 +1,107 @@
+{
+  "sentences": [
+    {
+      "trans": "Hutchison",
+      "orig": "ဟက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "haat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "chip off",
+        "pare off",
+        "gash",
+        "hawk",
+        "expectorate"
+      ],
+      "entry": [
+        {
+          "word": "chip off",
+          "score": 0.0061349706
+        },
+        {
+          "word": "pare off",
+          "score": 0.0061349706
+        },
+        {
+          "word": "gash",
+          "score": 0.0061349706
+        },
+        {
+          "word": "hawk",
+          "score": 0.0061349706
+        },
+        {
+          "word": "expectorate",
+          "score": 0.0061349706
+        }
+      ],
+      "base_form": "ဟက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဟက်",
+      "alternative": [
+        {
+          "word_postproc": "Hutchison",
+          "score": 913,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Hat",
+          "score": 75,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Hess",
+          "score": 9,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The Hat",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Hutchison's",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဟက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

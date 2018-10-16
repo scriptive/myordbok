@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "music",
+      "orig": "တေးသီချင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "tayysehkyinn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "song"
+      ],
+      "entry": [
+        {
+          "word": "song",
+          "reverse_translation": [
+            "သီချင်း"
+          ],
+          "score": 0.036424998
+        }
+      ],
+      "base_form": "တေးသီချင်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တေးသီချင်း",
+      "alternative": [
+        {
+          "word_postproc": "music",
+          "score": 670,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Silveira",
+          "score": 329,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "for music",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "music fan",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "music to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "တေးသီချင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

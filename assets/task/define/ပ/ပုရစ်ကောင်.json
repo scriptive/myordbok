@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "cricket bodies",
+      "orig": "ပုရစ်ကောင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "purait kaung"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပုရစ်",
+      "alternative": [
+        {
+          "word_postproc": "cricket",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "crickets",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ပုရစ်ကောင်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ကောင်",
+      "alternative": [
+        {
+          "word_postproc": "bodies",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 10
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

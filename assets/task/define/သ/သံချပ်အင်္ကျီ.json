@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "Armor",
+      "orig": "သံချပ်အင်္ကျီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "sanhkyaut aain kyae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "သံ၊ ကြေးစသည် အပြားအချပ်ကလေးများကို နန်းကြိုးဖြင့်ခက်၍ ပြုလုပ်ထားသောစစ်ဝတ်အင်္ကျီ။"
+      ],
+      "entry": [
+        {
+          "word": "သံ၊ ကြေးစသည် အပြားအချပ်ကလေးများကို နန်းကြိုးဖြင့်ခက်၍ ပြုလုပ်ထားသောစစ်ဝတ်အင်္ကျီ။"
+        }
+      ],
+      "base_form": "သံချပ်အင်္ကျီ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သံချပ် အင်္ ကျီ",
+      "alternative": [
+        {
+          "word_postproc": "Armor",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Coats of mail",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The coats of mail",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "သံချပ်အင်္ကျီ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

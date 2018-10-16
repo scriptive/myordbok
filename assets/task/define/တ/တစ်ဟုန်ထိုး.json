@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "rocketing",
+      "orig": "တစ်ဟုန်ထိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "taithonehtoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in a sudden burst of speed",
+        "at one swoop",
+        "at one fell swoop"
+      ],
+      "entry": [
+        {
+          "word": "in a sudden burst of speed"
+        },
+        {
+          "word": "at one swoop"
+        },
+        {
+          "word": "at one fell swoop"
+        }
+      ],
+      "base_form": "တစ်ဟုန်ထိုး",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တစ်ဟုန်ထိုး",
+      "alternative": [
+        {
+          "word_postproc": "rocketing",
+          "score": 981,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "swoop",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "one fell swoop",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "surging",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rapid",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "တစ်ဟုန်ထိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Royal occasion",
+      "orig": "မင်းခမ်းမင်းနား",
+      "backend": 0
+    },
+    {
+      "src_translit": "mainn hkam mainn narr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "royal occasion"
+      ],
+      "entry": [
+        {
+          "word": "royal occasion"
+        }
+      ],
+      "base_form": "မင်းခမ်းမင်းနား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မင်း ခမ်း မင်း နား",
+      "alternative": [
+        {
+          "word_postproc": "Royal occasion",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "မင်းခမ်းမင်းနား",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

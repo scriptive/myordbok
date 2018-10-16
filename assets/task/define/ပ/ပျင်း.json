@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "lazy",
+      "orig": "ပျင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyinn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "lazy"
+      ],
+      "entry": [
+        {
+          "word": "lazy",
+          "reverse_translation": [
+            "အပျင်းကြီးသော"
+          ],
+          "score": 0.02582919
+        }
+      ],
+      "base_form": "ပျင်း",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပျင်း",
+      "alternative": [
+        {
+          "word_postproc": "lazy",
+          "score": 523,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bored",
+          "score": 396,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "boredom",
+          "score": 73,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "everybody",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "boring",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ပျင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

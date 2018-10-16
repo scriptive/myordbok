@@ -1,0 +1,96 @@
+{
+  "sentences": [
+    {
+      "trans": "The steady practice",
+      "orig": "နိယထုံကျင့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "ni y htone kyint"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နိ ယ ထုံ",
+      "alternative": [
+        {
+          "word_postproc": "The steady",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The steady state",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "နိယထုံကျင့်",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "ကျင့်",
+      "alternative": [
+        {
+          "word_postproc": "practice",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "conduct",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "walk",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "deeds",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ways",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 11
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

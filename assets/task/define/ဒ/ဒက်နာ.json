@@ -1,0 +1,53 @@
+{
+  "sentences": [
+    {
+      "trans": "desktop",
+      "orig": "ဒက်နာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "daat nar"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဒက်",
+      "alternative": [
+        {
+          "word_postproc": "desktop",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "adapter",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဒက်နာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

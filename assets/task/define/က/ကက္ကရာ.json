@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "What kind of emerald",
+      "orig": "ကက္ကရာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kak k rar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "kind of emerald"
+      ],
+      "entry": [
+        {
+          "word": "kind of emerald"
+        }
+      ],
+      "base_form": "ကက္ကရာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရာ",
+      "alternative": [
+        {
+          "word_postproc": "What",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Hundred",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Place",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ကက္ကရာ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ကက္ က",
+      "alternative": [
+        {
+          "word_postproc": "kind of emerald",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

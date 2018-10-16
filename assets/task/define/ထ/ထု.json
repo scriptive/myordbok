@@ -1,0 +1,132 @@
+{
+  "sentences": [
+    {
+      "trans": "out",
+      "orig": "ထု",
+      "backend": 0
+    },
+    {
+      "src_translit": "htu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "mass"
+      ],
+      "entry": [
+        {
+          "word": "mass",
+          "reverse_translation": [
+            "ဓမ္မသီချင်း",
+            "အမေြာက်အများ"
+          ],
+          "score": 0.012987733
+        }
+      ],
+      "base_form": "ထု",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "carve",
+        "hammer",
+        "thump",
+        "beat",
+        "strike",
+        "sculpture",
+        "attack by speech,writing"
+      ],
+      "entry": [
+        {
+          "word": "carve",
+          "reverse_translation": [
+            "ထု"
+          ],
+          "synset_id": [
+            36202
+          ],
+          "score": 0.00051151944
+        },
+        {
+          "word": "beat",
+          "reverse_translation": [
+            "ရိုက်"
+          ],
+          "synset_id": [
+            27690
+          ]
+        },
+        {
+          "word": "strike",
+          "reverse_translation": [
+            "ရိုက်"
+          ]
+        }
+      ],
+      "base_form": "ထု",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထု",
+      "alternative": [
+        {
+          "word_postproc": "out",
+          "score": 965,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "finely",
+          "score": 32,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "published",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mass",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "out of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ထု",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

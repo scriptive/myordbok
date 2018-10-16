@@ -1,0 +1,76 @@
+{
+  "sentences": [
+    {
+      "trans": "pinnacle",
+      "orig": "ခေါင်ဖျား",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaung hpyarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "top",
+        "pinnacle"
+      ],
+      "entry": [
+        {
+          "word": "top",
+          "reverse_translation": [
+            "အထွတ်",
+            "အထိပ်"
+          ],
+          "synset_id": [
+            69570
+          ]
+        }
+      ],
+      "base_form": "ခေါင်ဖျား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခေါင် ဖျား",
+      "alternative": [
+        {
+          "word_postproc": "pinnacle",
+          "score": 979,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "top",
+          "score": 20,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ခေါင်ဖျား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,4 +1,20 @@
 extends layout
 block content
-  h1= title
-  p Welcome to #{title}
+  div.portal#content
+    div.resize.center
+      div.modest
+        div.logo
+          ol.menu.dictionary#MyOrdbok-logo(data-lang=solId)
+            each v, route in navDictionary
+              li(class=v.route class={active: v.active})
+                a(href=v.url.replace(':id',solName.toLowerCase()).replace('?',''))
+                  span #{solName}
+                  span Myanmar
+        div.search
+          each v, route in navDefinition
+            form(name='search' method='get' action=v.url)
+              p
+                input(type="search" name="q" value="" placeholder=" ...Search" autocomplete="off")
+              p
+                button(type="submit" id="search") &#xe83d;
+              div#suggest

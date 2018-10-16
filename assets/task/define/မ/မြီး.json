@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "lifting",
+      "orig": "မြီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "myee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "tail"
+      ],
+      "entry": [
+        {
+          "word": "tail",
+          "reverse_translation": [
+            "အမြီး"
+          ],
+          "score": 0.080812387
+        }
+      ],
+      "base_form": "မြီး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မြီး",
+      "alternative": [
+        {
+          "word_postproc": "lifting",
+          "score": 513,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tail",
+          "score": 462,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the lifting",
+          "score": 9,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lifting up",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the lifting up",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "မြီး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

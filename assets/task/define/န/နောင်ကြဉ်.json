@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "have learned a lesson",
+      "orig": "နောင်ကြဉ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "naung kyain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "have learnt a lesson"
+      ],
+      "entry": [
+        {
+          "word": "have learnt a lesson"
+        }
+      ],
+      "base_form": "နောင်ကြဉ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နောင် ကြဉ်",
+      "alternative": [
+        {
+          "word_postproc": "have learned a lesson",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "နောင်ကြဉ်",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

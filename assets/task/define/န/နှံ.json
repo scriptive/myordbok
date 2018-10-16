@@ -1,0 +1,133 @@
+{
+  "sentences": [
+    {
+      "trans": "ears",
+      "orig": "နှံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "nhaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "ear",
+        "spike",
+        "grasshopper"
+      ],
+      "entry": [
+        {
+          "word": "ear",
+          "reverse_translation": [
+            "နား"
+          ],
+          "synset_id": [
+            44178
+          ],
+          "score": 0.0056739203
+        },
+        {
+          "word": "grasshopper",
+          "reverse_translation": [
+            "နှံကောင်"
+          ]
+        }
+      ],
+      "base_form": "နှံ",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "entrust",
+        "hit",
+        "strike",
+        "beat",
+        "speak,act to hurt someone"
+      ],
+      "entry": [
+        {
+          "word": "hit",
+          "reverse_translation": [
+            "ထိုး"
+          ],
+          "synset_id": [
+            35791
+          ]
+        },
+        {
+          "word": "strike",
+          "reverse_translation": [
+            "ရိုက်"
+          ],
+          "synset_id": [
+            35791
+          ]
+        },
+        {
+          "word": "beat",
+          "reverse_translation": [
+            "ရိုက်"
+          ]
+        }
+      ],
+      "base_form": "နှံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နှံ",
+      "alternative": [
+        {
+          "word_postproc": "ears",
+          "score": 452,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "spike",
+          "score": 296,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "inauguration",
+          "score": 229,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the ears",
+          "score": 15,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "နှံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

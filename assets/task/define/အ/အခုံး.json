@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "convexity",
+      "orig": "အခုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "a hkone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "convexity",
+        "convex surface"
+      ],
+      "entry": [
+        {
+          "word": "convexity"
+        },
+        {
+          "word": "convex surface"
+        }
+      ],
+      "base_form": "အခုံး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ ခုံး",
+      "alternative": [
+        {
+          "word_postproc": "convexity",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "အခုံး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

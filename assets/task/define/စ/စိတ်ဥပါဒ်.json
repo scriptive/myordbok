@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Genesis",
+      "orig": "စိတ်ဥပါဒ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcate u pard"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဥ ပါဒ်",
+      "alternative": [
+        {
+          "word_postproc": "Genesis",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "စိတ်ဥပါဒ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

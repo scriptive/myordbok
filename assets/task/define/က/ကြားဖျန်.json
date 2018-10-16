@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "trans": "mediate",
+      "orig": "ကြားဖျန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyarr hpyaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "mediate",
+        "intercede"
+      ],
+      "entry": [
+        {
+          "word": "mediate",
+          "reverse_translation": [
+            "ကြားဖြန်"
+          ],
+          "synset_id": [
+            86434
+          ]
+        }
+      ],
+      "base_form": "ကြားဖျန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြား ဖျန်",
+      "alternative": [
+        {
+          "word_postproc": "mediate",
+          "score": 921,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "intercede",
+          "score": 78,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကြားဖျန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

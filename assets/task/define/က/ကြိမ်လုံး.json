@@ -1,0 +1,77 @@
+{
+  "sentences": [
+    {
+      "trans": "rod",
+      "orig": "ကြိမ်လုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaain lone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "cane"
+      ],
+      "entry": [
+        {
+          "word": "cane",
+          "reverse_translation": [
+            "ကြိမ်"
+          ]
+        }
+      ],
+      "base_form": "ကြိမ်လုံး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြိမ် လုံး",
+      "alternative": [
+        {
+          "word_postproc": "rod",
+          "score": 892,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the rod",
+          "score": 85,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a rod",
+          "score": 18,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကြိမ်လုံး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "sentences": [
+    {
+      "trans": "polished",
+      "orig": "ပွတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "rub",
+        "scour",
+        "smear",
+        "make things smooth",
+        "brush",
+        "turn on a lathe machine"
+      ],
+      "entry": [
+        {
+          "word": "rub",
+          "reverse_translation": [
+            "ပွတ်တိုက်"
+          ],
+          "score": 0.062936753
+        },
+        {
+          "word": "smear",
+          "reverse_translation": [
+            "သုတ်လိမ်း"
+          ],
+          "score": 0.0029899459
+        },
+        {
+          "word": "brush",
+          "reverse_translation": [
+            "ဖုံချွတ်"
+          ],
+          "score": 0.0029899459
+        }
+      ],
+      "base_form": "ပွတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပွတ်",
+      "alternative": [
+        {
+          "word_postproc": "polished",
+          "score": 965,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rub",
+          "score": 34,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "furbish",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rubbed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Sharpen the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ပွတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

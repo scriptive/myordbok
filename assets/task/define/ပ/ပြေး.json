@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "flee",
+      "orig": "ပြေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyay"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "run",
+        "1.run",
+        "ply",
+        "take flight",
+        "abscond",
+        "move fast",
+        "be iridescent"
+      ],
+      "entry": [
+        {
+          "word": "run",
+          "reverse_translation": [
+            "ပေြးသွား"
+          ],
+          "synset_id": [
+            48556
+          ],
+          "score": 0.058206979
+        }
+      ],
+      "base_form": "ပြေး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြေး",
+      "alternative": [
+        {
+          "word_postproc": "flee",
+          "score": 884,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in flight",
+          "score": 48,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to flee",
+          "score": 30,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fled",
+          "score": 22,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "he fled",
+          "score": 14,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ပြေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Old and infirm",
+      "orig": "အိုမင်းမစွမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "aomainn m hcwm"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "old and infirm"
+      ],
+      "entry": [
+        {
+          "word": "old and infirm"
+        }
+      ],
+      "base_form": "အိုမင်းမစွမ်း",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အိုမင်း မ စွမ်း",
+      "alternative": [
+        {
+          "word_postproc": "Old and infirm",
+          "score": 989,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "For aged or infirm",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "အိုမင်းမစွမ်း",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

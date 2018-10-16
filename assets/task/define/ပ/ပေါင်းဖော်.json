@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "friends",
+      "orig": "ပေါင်းဖော်",
+      "backend": 0
+    },
+    {
+      "src_translit": "paungg hpaw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be friends",
+        "associate",
+        "marry"
+      ],
+      "entry": [
+        {
+          "word": "marry",
+          "reverse_translation": [
+            "အိမ်ထောင်"
+          ]
+        }
+      ],
+      "base_form": "ပေါင်း‌ဖော်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပေါင်း ဖော်",
+      "alternative": [
+        {
+          "word_postproc": "friends",
+          "score": 577,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "companion",
+          "score": 376,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a companion",
+          "score": 41,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "his companion",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "associate",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ပေါင်းဖော်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

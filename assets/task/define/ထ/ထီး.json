@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "umbrella",
+      "orig": "ထီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "htee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "umbrella",
+        "parasol designated and bestowed by the monarch on courtiers, governors, etc as insignia of rank",
+        "parasol which forms a part of royal regalia",
+        "tiered and ornamented finial of a pogoda",
+        "miniature paper umbrella used as offertory"
+      ],
+      "entry": [
+        {
+          "word": "umbrella",
+          "reverse_translation": [
+            "ထီး"
+          ],
+          "synset_id": [
+            37342
+          ],
+          "score": 0.04901519
+        }
+      ],
+      "base_form": "ထီး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထီး",
+      "alternative": [
+        {
+          "word_postproc": "umbrella",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Htee",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of Htee",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "an umbrella",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ထီး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "sentences": [
+    {
+      "trans": "menu",
+      "orig": "နူး",
+      "backend": 0
+    },
+    {
+      "src_translit": "nuu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "become soft",
+        "be tender",
+        "be clever and sharp"
+      ],
+      "entry": [
+        {
+          "word": "become soft",
+          "score": 0.0030370306
+        },
+        {
+          "word": "be tender"
+        },
+        {
+          "word": "be clever and sharp"
+        }
+      ],
+      "base_form": "နူး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နူး",
+      "alternative": [
+        {
+          "word_postproc": "menu",
+          "score": 928,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Canoe",
+          "score": 69,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the menu",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "switching elements",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "နူး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

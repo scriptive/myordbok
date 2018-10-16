@@ -1,0 +1,117 @@
+{
+  "sentences": [
+    {
+      "trans": "trial court",
+      "orig": "တန်စမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "taan hcam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "spring welling up among rocks"
+      ],
+      "entry": [
+        {
+          "word": "spring welling up among rocks"
+        }
+      ],
+      "base_form": "တန်စမ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စမ်း",
+      "alternative": [
+        {
+          "word_postproc": "trial",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "springs",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "test",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "တန်စမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "တန်",
+      "alternative": [
+        {
+          "word_postproc": "court",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ton",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tons",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tons of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tonnes",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

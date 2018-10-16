@@ -1,0 +1,122 @@
+{
+  "sentences": [
+    {
+      "trans": "How many will be moved",
+      "orig": "မည်ရွေ့မည်မျှ",
+      "backend": 0
+    },
+    {
+      "src_translit": "mai rwae maimyaha"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "how many",
+        "how much"
+      ],
+      "entry": [
+        {
+          "word": "how many"
+        },
+        {
+          "word": "how much"
+        }
+      ],
+      "base_form": "မည်ရွေ့မည်မျှ",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မည်မျှ",
+      "alternative": [
+        {
+          "word_postproc": "How many",
+          "score": 464,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "မည်ရွေ့မည်မျှ",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "မည်",
+      "alternative": [
+        {
+          "word_postproc": "will",
+          "score": 464,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "be",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    },
+    {
+      "src_phrase": "ရွေ့",
+      "alternative": [
+        {
+          "word_postproc": "be moved",
+          "score": 464,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Move",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "moved",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 7
+        }
+      ],
+      "start_pos": 3,
+      "end_pos": 5
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

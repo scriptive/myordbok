@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "နိက် Blogger",
+      "orig": "ဧကာသနိက်ဓူတင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "e kar s niat dhuu tain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "practice of austere regimen in which no more than one meal a day is taken before noon in one sitting"
+      ],
+      "entry": [
+        {
+          "word": "practice of austere regimen in which no more than one meal a day is taken before noon in one sitting"
+        }
+      ],
+      "base_form": "ဧကာသနိက်ဓူတင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နိက်",
+      "alternative": [
+        {
+          "word_postproc": "နိက်",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဧကာသနိက်ဓူတင်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဓူ တင်",
+      "alternative": [
+        {
+          "word_postproc": "Blogger",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 8,
+          "end": 13
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

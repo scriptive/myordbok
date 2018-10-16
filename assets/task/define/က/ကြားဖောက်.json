@@ -1,0 +1,88 @@
+{
+  "sentences": [
+    {
+      "trans": "interject",
+      "orig": "ကြားဖောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyarr hpout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "come in between",
+        "interpose",
+        "interject"
+      ],
+      "entry": [
+        {
+          "word": "come in between"
+        },
+        {
+          "word": "interpose",
+          "synset_id": [
+            88790
+          ]
+        },
+        {
+          "word": "interject",
+          "synset_id": [
+            88790
+          ]
+        }
+      ],
+      "base_form": "ကြားဖောက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြား ဖောက်",
+      "alternative": [
+        {
+          "word_postproc": "interject",
+          "score": 685,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "interpose",
+          "score": 314,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "come in between",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကြားဖောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

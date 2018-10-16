@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "Tradition",
+      "orig": "ပဝေဏီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "p way ne"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "tradition",
+        "custom",
+        "usage"
+      ],
+      "entry": [
+        {
+          "word": "tradition",
+          "reverse_translation": [
+            "ထုံစံဓလေ့"
+          ],
+          "synset_id": [
+            72333
+          ]
+        },
+        {
+          "word": "custom",
+          "reverse_translation": [
+            "ထုံးစံဓလေ့"
+          ],
+          "synset_id": [
+            9775,
+            72333
+          ]
+        }
+      ],
+      "base_form": "ပဝေဏီ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပ ဝေ ဏီ",
+      "alternative": [
+        {
+          "word_postproc": "Tradition",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ပဝေဏီ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

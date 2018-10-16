@@ -1,0 +1,102 @@
+{
+  "sentences": [
+    {
+      "trans": "move",
+      "orig": "လှုပ်ရှား",
+      "backend": 0
+    },
+    {
+      "src_translit": "lhuutsharr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "move",
+        "stir",
+        "move about",
+        "be active",
+        "be in a tumult"
+      ],
+      "entry": [
+        {
+          "word": "move",
+          "reverse_translation": [
+            "လှုပ်ရှား",
+            "ပေြာင်းရေွှ့"
+          ],
+          "synset_id": [
+            54708
+          ],
+          "score": 0.035304319
+        },
+        {
+          "word": "stir",
+          "reverse_translation": [
+            "လှုပ်ရှား"
+          ],
+          "synset_id": [
+            115316
+          ],
+          "score": 0.00045141429
+        }
+      ],
+      "base_form": "လှုပ်ရှား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လှုပ်ရှား",
+      "alternative": [
+        {
+          "word_postproc": "move",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "active in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "is moved",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "moved at",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "လှုပ်ရှား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

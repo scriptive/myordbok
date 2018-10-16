@@ -1,0 +1,79 @@
+{
+  "sentences": [
+    {
+      "trans": "Canary",
+      "orig": "ကိန္နရီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kinnare"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "kinnari",
+        "femaleကိန္နရာ"
+      ],
+      "entry": [
+        {
+          "word": "kinnari",
+          "score": 0.10539922
+        },
+        {
+          "word": "femaleကိန္နရာ"
+        }
+      ],
+      "base_form": "ကိန္နရီ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိန္နရီ",
+      "alternative": [
+        {
+          "word_postproc": "Canary",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "kinnari",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Canary to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကိန္နရီ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

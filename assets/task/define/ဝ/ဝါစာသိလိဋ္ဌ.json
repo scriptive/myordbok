@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "လိဋ္ l",
+      "orig": "ဝါစာသိလိဋ္ဌ",
+      "backend": 0
+    },
+    {
+      "src_translit": "war hcar si lit ht"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "word added for euphonic effect"
+      ],
+      "entry": [
+        {
+          "word": "word added for euphonic effect"
+        }
+      ],
+      "base_form": "ဝါစာသိလိဋ္ဌ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လိဋ္",
+      "alternative": [
+        {
+          "word_postproc": "လိဋ္",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ဝါစာသိလိဋ္ဌ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဌ",
+      "alternative": [
+        {
+          "word_postproc": "l",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 10,
+          "end": 11
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

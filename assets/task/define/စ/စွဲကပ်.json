@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "cling",
+      "orig": "စွဲကပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcwal kaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "attach",
+        "afflicted with"
+      ],
+      "entry": [
+        {
+          "word": "attach",
+          "reverse_translation": [
+            "ကပ်"
+          ]
+        }
+      ],
+      "base_form": "စွဲကပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စွဲ ကပ်",
+      "alternative": [
+        {
+          "word_postproc": "cling",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cling to",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "had",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "disease",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "attach",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "စွဲကပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

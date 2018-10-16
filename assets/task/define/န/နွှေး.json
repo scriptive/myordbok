@@ -1,0 +1,100 @@
+{
+  "sentences": [
+    {
+      "trans": "WARM",
+      "orig": "နွှေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "nwhaayy"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "revise",
+        "peel",
+        "flail",
+        "warm sth"
+      ],
+      "entry": [
+        {
+          "word": "revise",
+          "reverse_translation": [
+            "ပြန်လည်စစ်ဆေးကြည့်ရှု"
+          ],
+          "score": 0.063927859
+        },
+        {
+          "word": "peel",
+          "reverse_translation": [
+            "အခွံနွှာ"
+          ],
+          "score": 0.042585135
+        }
+      ],
+      "base_form": "နွှေး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နွှေး",
+      "alternative": [
+        {
+          "word_postproc": "WARM",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "reasoned",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "flail",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "revise",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "peel",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "နွှေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

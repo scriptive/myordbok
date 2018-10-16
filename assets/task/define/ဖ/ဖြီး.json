@@ -1,0 +1,125 @@
+{
+  "sentences": [
+    {
+      "trans": "brush",
+      "orig": "ဖြီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpyee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "comb",
+        "brush",
+        "bluff",
+        "card",
+        "pretend"
+      ],
+      "entry": [
+        {
+          "word": "comb",
+          "reverse_translation": [
+            "ဘီး"
+          ],
+          "score": 0.21291229
+        },
+        {
+          "word": "brush",
+          "reverse_translation": [
+            "ဖုံချွတ်"
+          ],
+          "score": 0.20636167
+        },
+        {
+          "word": "pretend",
+          "reverse_translation": [
+            "ဟန်ဆောင်"
+          ],
+          "score": 0.012392981
+        }
+      ],
+      "base_form": "ဖြီး",
+      "pos_enum": 2
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "plentiful"
+      ],
+      "entry": [
+        {
+          "word": "plentiful",
+          "reverse_translation": [
+            "ပေါများသော"
+          ],
+          "score": 0.012392981
+        }
+      ],
+      "base_form": "ဖြီး",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖြီး",
+      "alternative": [
+        {
+          "word_postproc": "brush",
+          "score": 993,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "comb",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bluff",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "plentiful",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pretend",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဖြီး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "confused",
+      "orig": "ထွေးယှက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "htway yhaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be tangled",
+        "be mixed",
+        "be confused"
+      ],
+      "entry": [
+        {
+          "word": "be tangled"
+        },
+        {
+          "word": "be mixed"
+        },
+        {
+          "word": "be confused"
+        }
+      ],
+      "base_form": "ထွေးယှက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထွေး ယှက်",
+      "alternative": [
+        {
+          "word_postproc": "confused",
+          "score": 583,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tangled",
+          "score": 352,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mixed",
+          "score": 64,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ထွေးယှက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

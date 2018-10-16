@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "threshold",
+      "orig": "တံခါးခုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "tanhkarr hkone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "door sill",
+        "threshold"
+      ],
+      "entry": [
+        {
+          "word": "threshold",
+          "reverse_translation": [
+            "တံခါးဝ"
+          ]
+        }
+      ],
+      "base_form": "တံခါးခုံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တံခါး ခုံ",
+      "alternative": [
+        {
+          "word_postproc": "threshold",
+          "score": 690,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the threshold",
+          "score": 296,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "thresholds",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the thresholds",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the threshold of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "တံခါးခုံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

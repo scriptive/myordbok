@@ -1,0 +1,85 @@
+{
+  "sentences": [
+    {
+      "trans": "Gnat green bodies",
+      "orig": "မှက်စိမ်းကောင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "mhaat hcaim kaung"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မှက်",
+      "alternative": [
+        {
+          "word_postproc": "Gnat",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "မှက်စိမ်းကောင်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "စိမ်း",
+      "alternative": [
+        {
+          "word_postproc": "green",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 9
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "ကောင်",
+      "alternative": [
+        {
+          "word_postproc": "bodies",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 9,
+          "end": 14
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

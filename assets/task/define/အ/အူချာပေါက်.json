@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Confused",
+      "orig": "အူချာပေါက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "auu hkyaar pout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "get all mixed up",
+        "be confused"
+      ],
+      "entry": [
+        {
+          "word": "get all mixed up"
+        },
+        {
+          "word": "be confused"
+        }
+      ],
+      "base_form": "အူချာပေါက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အူ ချာ ပေါက်",
+      "alternative": [
+        {
+          "word_postproc": "Confused",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "အူချာပေါက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

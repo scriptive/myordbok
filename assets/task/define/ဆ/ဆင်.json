@@ -1,0 +1,144 @@
+{
+  "sentences": [
+    {
+      "trans": "Elephant",
+      "orig": "ဆင်",
+      "backend": 1
+    },
+    {
+      "src_translit": "sain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "elephant",
+        "design",
+        "pattern",
+        "elephant-shaped chesspiece which can be moved one square directly forward,two diagonally forward and two diagonally backward"
+      ],
+      "entry": [
+        {
+          "word": "elephant",
+          "reverse_translation": [
+            "ဆင်"
+          ],
+          "synset_id": [
+            52643
+          ],
+          "score": 0.033687614
+        },
+        {
+          "word": "design",
+          "reverse_translation": [
+            "ပုံစံ"
+          ],
+          "synset_id": [
+            12613
+          ]
+        },
+        {
+          "word": "pattern",
+          "reverse_translation": [
+            "ပုံစံ"
+          ],
+          "synset_id": [
+            12613
+          ]
+        }
+      ],
+      "base_form": "ဆင်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "adorn",
+        "decorate",
+        "put together",
+        "assemble",
+        "build up",
+        "fabricate",
+        "scheme",
+        "frame",
+        "resemble",
+        "be alike",
+        "bear alikeness to",
+        "be similar in appearance"
+      ],
+      "entry": [
+        {
+          "word": "adorn",
+          "reverse_translation": [
+            "ဆင်ယင်"
+          ],
+          "synset_id": [
+            53848
+          ]
+        },
+        {
+          "word": "decorate",
+          "reverse_translation": [
+            "ဆင်ယင်မွမ်းမံ"
+          ],
+          "synset_id": [
+            53848
+          ]
+        },
+        {
+          "word": "assemble",
+          "reverse_translation": [
+            "စုဝေး"
+          ],
+          "synset_id": [
+            70456
+          ]
+        },
+        {
+          "word": "resemble",
+          "reverse_translation": [
+            "တူ"
+          ]
+        }
+      ],
+      "base_form": "ဆင်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆင်",
+      "alternative": [
+        {
+          "word_postproc": "Elephant",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဆင်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "sentences": [
+    {
+      "trans": "Custom",
+      "orig": "စိတ်တိုင်းကျ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcatetinekya"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "as desired",
+        "to heart's content"
+      ],
+      "entry": [
+        {
+          "word": "as desired",
+          "score": 0.0090668984
+        },
+        {
+          "word": "to heart's content"
+        }
+      ],
+      "base_form": "စိတ်တိုင်းကျ",
+      "pos_enum": 4
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "be to one's liking"
+      ],
+      "entry": [
+        {
+          "word": "be to one's liking"
+        }
+      ],
+      "base_form": "စိတ်တိုင်းကျ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စိတ်တိုင်းကျ",
+      "alternative": [
+        {
+          "word_postproc": "Custom",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "as desired",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "personalizing",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a Custom",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in Custom",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "စိတ်တိုင်းကျ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

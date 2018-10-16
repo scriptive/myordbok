@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "components",
+      "orig": "ပဉ္စငါးပါး",
+      "backend": 0
+    },
+    {
+      "src_translit": "panyhc ngarrparr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "the five parts of a plant, ie the leaf, the flower, the bark, the root and the fruit",
+        "everything",
+        "all components"
+      ],
+      "entry": [
+        {
+          "word": "the five parts of a plant, ie the leaf, the flower, the bark, the root and the fruit"
+        },
+        {
+          "word": "everything"
+        },
+        {
+          "word": "all components"
+        }
+      ],
+      "base_form": "ပဉ္စငါးပါး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပဉ္စ ငါးပါး",
+      "alternative": [
+        {
+          "word_postproc": "components",
+          "score": 975,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "everything",
+          "score": 13,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "all components",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ပဉ္စငါးပါး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "vividly",
+      "orig": "မျက်ဝါးထင်ထင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "myetwarrhtainhtain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "vividly",
+        "clearly",
+        "with one's own eyes"
+      ],
+      "entry": [
+        {
+          "word": "vividly",
+          "score": 0.029729217
+        },
+        {
+          "word": "clearly",
+          "score": 0.029729217
+        },
+        {
+          "word": "with one's own eyes"
+        }
+      ],
+      "base_form": "မျက်ဝါးထင်ထင်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မျက်ဝါးထင်ထင်",
+      "alternative": [
+        {
+          "word_postproc": "vividly",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "clearly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "own eyes",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "'s own eyes",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "မျက်ဝါးထင်ထင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

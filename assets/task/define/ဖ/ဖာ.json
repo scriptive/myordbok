@@ -1,0 +1,123 @@
+{
+  "sentences": [
+    {
+      "trans": "Perez",
+      "orig": "ဖာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "patch",
+        "mend",
+        "make up for",
+        "cover",
+        "rectify slips in one's speech"
+      ],
+      "entry": [
+        {
+          "word": "patch",
+          "reverse_translation": [
+            "ဖါ"
+          ],
+          "score": 0.014948789
+        },
+        {
+          "word": "mend",
+          "reverse_translation": [
+            "ပြုပြင်"
+          ]
+        },
+        {
+          "word": "cover",
+          "reverse_translation": [
+            "ဖုံး"
+          ]
+        }
+      ],
+      "base_form": "ဖာ",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "four-cornered basket with removable cover, woven with strips from the toddy- palm leaf stalk, bamboo, etc",
+        "prostitute"
+      ],
+      "entry": [
+        {
+          "word": "prostitute",
+          "reverse_translation": [
+            "ပြည့်တန်ဆာ"
+          ]
+        }
+      ],
+      "base_form": "ဖာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖာ",
+      "alternative": [
+        {
+          "word_postproc": "Perez",
+          "score": 995,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Peleg",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "patch",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Pharaonic",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pharaoh",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ဖာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

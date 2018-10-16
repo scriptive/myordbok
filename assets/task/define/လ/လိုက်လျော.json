@@ -1,0 +1,96 @@
+{
+  "sentences": [
+    {
+      "trans": "comply",
+      "orig": "လိုက်လျော",
+      "backend": 0
+    },
+    {
+      "src_translit": "litelyaww"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "comply with",
+        "go along with",
+        "accede to someone's request, wish, etc"
+      ],
+      "entry": [
+        {
+          "word": "comply with",
+          "score": 0.014264234
+        },
+        {
+          "word": "go along with",
+          "score": 0.0040867715
+        },
+        {
+          "word": "accede to someone's request, wish, etc"
+        }
+      ],
+      "base_form": "လိုက်လျော",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လိုက်လျော",
+      "alternative": [
+        {
+          "word_postproc": "comply",
+          "score": 458,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "concessions",
+          "score": 351,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "concession",
+          "score": 37,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "comply with",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "you comply",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "လိုက်လျော",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

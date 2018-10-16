@@ -1,0 +1,115 @@
+{
+  "sentences": [
+    {
+      "trans": "do",
+      "orig": "ဘူး",
+      "backend": 0
+    },
+    {
+      "src_translit": "bhuu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "bottle",
+        "kind of gourd",
+        "calabash",
+        "container",
+        "jar",
+        "tin",
+        "box with cover"
+      ],
+      "entry": [
+        {
+          "word": "bottle",
+          "reverse_translation": [
+            "ပုလင်း"
+          ],
+          "score": 0.0064293938
+        },
+        {
+          "word": "container",
+          "reverse_translation": [
+            "ထည့်သောအရာ"
+          ]
+        },
+        {
+          "word": "jar",
+          "reverse_translation": [
+            "အသံကဲွခြင်း"
+          ]
+        },
+        {
+          "word": "tin",
+          "reverse_translation": [
+            "သံဘူး",
+            "ခဲမဖြူ"
+          ]
+        }
+      ],
+      "base_form": "ဘူး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘူး",
+      "alternative": [
+        {
+          "word_postproc": "do",
+          "score": 422,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bottle",
+          "score": 268,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "not",
+          "score": 150,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "had",
+          "score": 118,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "does not",
+          "score": 23,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဘူး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Tire တေးထပ်",
+      "orig": "နိဗ္ဗိန္ဒတေးထပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nib bin d tayyhtaut"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နိဗ္ ဗိန္",
+      "alternative": [
+        {
+          "word_postproc": "Tire",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "နိဗ္ဗိန္ဒတေးထပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "တေးထပ်",
+      "alternative": [
+        {
+          "word_postproc": "တေးထပ်",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 9,
+          "end": 15
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

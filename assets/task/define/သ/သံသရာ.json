@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "cycles",
+      "orig": "သံသရာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "sansarar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "cycle",
+        "Samsara: cycle of rebirths"
+      ],
+      "entry": [
+        {
+          "word": "cycle",
+          "reverse_translation": [
+            "အစဉ်အဆက်"
+          ],
+          "score": 0.12131377
+        }
+      ],
+      "base_form": "သံသရာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သံသရာ",
+      "alternative": [
+        {
+          "word_postproc": "cycles",
+          "score": 703,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cycle",
+          "score": 289,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Samsara",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the cycle",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cycle of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "သံသရာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

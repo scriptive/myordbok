@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Broke",
+      "orig": "ပြတ်လပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyatlaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "run out of",
+        "have interregum",
+        "come to a berak in a programme of work"
+      ],
+      "entry": [
+        {
+          "word": "run out of",
+          "score": 0.010274142
+        },
+        {
+          "word": "have interregum",
+          "score": 0.010274142
+        },
+        {
+          "word": "come to a berak in a programme of work"
+        }
+      ],
+      "base_form": "ပြတ်လပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြတ်လပ်",
+      "alternative": [
+        {
+          "word_postproc": "Broke",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "are lacking",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "run short",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Due to shortage",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ပြတ်လပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

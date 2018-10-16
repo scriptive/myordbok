@@ -1,0 +1,79 @@
+{
+  "sentences": [
+    {
+      "trans": "Persistenlly",
+      "orig": "ထက်ကြပ်မကွာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "htaat kyaut m kwar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "closely",
+        "persistenlly",
+        "relentlessly"
+      ],
+      "entry": [
+        {
+          "word": "closely",
+          "reverse_translation": [
+            "ထူထပ်စွာ"
+          ]
+        }
+      ],
+      "base_form": "ထက်ကြပ်မကွာ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထက် ကြပ် မ ကွာ",
+      "alternative": [
+        {
+          "word_postproc": "Persistenlly",
+          "score": 903,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Relentlessly",
+          "score": 95,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Closely",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ထက်ကြပ်မကွာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

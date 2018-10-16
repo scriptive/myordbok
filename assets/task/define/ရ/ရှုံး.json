@@ -1,0 +1,106 @@
+{
+  "sentences": [
+    {
+      "trans": "defeat",
+      "orig": "ရှုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "shone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "lose",
+        "defeat",
+        "fail",
+        "be defeated"
+      ],
+      "entry": [
+        {
+          "word": "lose",
+          "reverse_translation": [
+            "ပေျာက်သွား"
+          ],
+          "score": 0.05136748
+        },
+        {
+          "word": "defeat",
+          "reverse_translation": [
+            "ရှုံး"
+          ],
+          "score": 0.021081172
+        },
+        {
+          "word": "fail",
+          "reverse_translation": [
+            "ဆုံးရှုံး"
+          ]
+        }
+      ],
+      "base_form": "ရှုံး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရှုံး",
+      "alternative": [
+        {
+          "word_postproc": "defeat",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "defeated",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "discomfited",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lose it",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "defeated by",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ရှုံး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "Disagreeable",
+      "orig": "အနိဋ္ဌာရုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "a nit htar rone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "undesirable",
+        "disagreeable",
+        "unpleasant thing"
+      ],
+      "entry": [
+        {
+          "word": "undesirable"
+        },
+        {
+          "word": "disagreeable"
+        },
+        {
+          "word": "unpleasant thing"
+        }
+      ],
+      "base_form": "အနိဋ္ဌာရုံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ နိဋ္ ဌာ ရုံ",
+      "alternative": [
+        {
+          "word_postproc": "Disagreeable",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Undesirable",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Unpleasant thing",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "အနိဋ္ဌာရုံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

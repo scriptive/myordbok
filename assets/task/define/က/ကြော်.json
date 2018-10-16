@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "Recipe",
+      "orig": "ကြော်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "fry",
+        "shout loudly"
+      ],
+      "entry": [
+        {
+          "word": "fry",
+          "reverse_translation": [
+            "ကေြာ်"
+          ],
+          "score": 0.13117145
+        }
+      ],
+      "base_form": "ကြော်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြော်",
+      "alternative": [
+        {
+          "word_postproc": "Recipe",
+          "score": 767,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fry",
+          "score": 130,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fried",
+          "score": 101,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "frying",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and fry",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကြော်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

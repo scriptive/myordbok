@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Thin bamboo strips",
+      "orig": "မိုးစည်းနှီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "moe hcaee nhaee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "thin bamboo strips",
+        "bamboo strips used in thatched roofing"
+      ],
+      "entry": [
+        {
+          "word": "thin bamboo strips"
+        },
+        {
+          "word": "bamboo strips used in thatched roofing"
+        }
+      ],
+      "base_form": "မိုးစည်းနှီး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မိုး စည်း နှီး",
+      "alternative": [
+        {
+          "word_postproc": "Thin bamboo strips",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "မိုးစည်းနှီး",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

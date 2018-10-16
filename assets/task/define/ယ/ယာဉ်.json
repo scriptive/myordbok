@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "vehicles",
+      "orig": "ယာဉ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "yarin"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "vehicle",
+        "craft",
+        "elephant",
+        "horse, etc used for riding,ritual ceremonial occasion"
+      ],
+      "entry": [
+        {
+          "word": "vehicle",
+          "reverse_translation": [
+            "တင်ဆောင်ရန် ကိရိယာ"
+          ],
+          "score": 0.073580518
+        },
+        {
+          "word": "elephant",
+          "reverse_translation": [
+            "ဆင်"
+          ]
+        }
+      ],
+      "base_form": "ယာဉ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယာဉ်",
+      "alternative": [
+        {
+          "word_postproc": "vehicles",
+          "score": 832,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Vehicle",
+          "score": 66,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "traffic",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "plane",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "aircraft",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ယာဉ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

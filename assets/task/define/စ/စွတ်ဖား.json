@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "sleigh",
+      "orig": "စွတ်ဖား",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcwat hparr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "sledge",
+        "sleigh",
+        "sled"
+      ],
+      "entry": [
+        {
+          "word": "sled",
+          "reverse_translation": [
+            "စွတ်ဖါး"
+          ],
+          "synset_id": [
+            117644
+          ]
+        }
+      ],
+      "base_form": "စွတ်ဖား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စွတ် ဖား",
+      "alternative": [
+        {
+          "word_postproc": "sleigh",
+          "score": 700,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sledge",
+          "score": 227,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sled",
+          "score": 71,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "စွတ်ဖား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

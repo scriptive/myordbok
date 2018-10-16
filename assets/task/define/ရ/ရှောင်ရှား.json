@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "To avoid",
+      "orig": "ရှောင်ရှား",
+      "backend": 0
+    },
+    {
+      "src_translit": "shawin sharr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "avoid",
+        "abstain",
+        "stay away from"
+      ],
+      "entry": [
+        {
+          "word": "avoid",
+          "reverse_translation": [
+            "ရေှာင်ရှား"
+          ]
+        },
+        {
+          "word": "abstain",
+          "reverse_translation": [
+            "ရေှာင်ကြဉ်"
+          ]
+        }
+      ],
+      "base_form": "ရှောင်ရှား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရှောင် ရှား",
+      "alternative": [
+        {
+          "word_postproc": "To avoid",
+          "score": 615,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "avoid",
+          "score": 124,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "avoided",
+          "score": 124,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "avoiding",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "be avoided",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ရှောင်ရှား",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "numbed",
+      "orig": "ထုံကျဉ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "htone kyain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be numbed"
+      ],
+      "entry": [
+        {
+          "word": "be numbed"
+        }
+      ],
+      "base_form": "ထုံကျဉ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထုံ ကျဉ်",
+      "alternative": [
+        {
+          "word_postproc": "numbed",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ထုံကျဉ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

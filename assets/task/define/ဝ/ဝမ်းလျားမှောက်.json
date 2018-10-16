@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Lie prone",
+      "orig": "ဝမ်းလျားမှောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "wam lyarr mhaout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "lie prone"
+      ],
+      "entry": [
+        {
+          "word": "lie prone"
+        }
+      ],
+      "base_form": "ဝမ်းလျားမှောက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝမ်း လျား မှောက်",
+      "alternative": [
+        {
+          "word_postproc": "Lie prone",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ဝမ်းလျားမှောက်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

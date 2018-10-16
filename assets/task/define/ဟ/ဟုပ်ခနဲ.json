@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Whiff",
+      "orig": "ဟုပ်ခနဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hote hk nell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in a whiff"
+      ],
+      "entry": [
+        {
+          "word": "in a whiff"
+        }
+      ],
+      "base_form": "ဟုပ်ခနဲ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဟုပ် ခ နဲ",
+      "alternative": [
+        {
+          "word_postproc": "Whiff",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A whiff",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဟုပ်ခနဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "sentences": [
+    {
+      "trans": "Bashfully",
+      "orig": "ရှက်ကိုးရှက်ကန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "shat koe shat kaann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "bashfully",
+        "shyly"
+      ],
+      "entry": [
+        {
+          "word": "bashfully",
+          "synset_id": [
+            64314
+          ]
+        },
+        {
+          "word": "shyly",
+          "synset_id": [
+            64314
+          ]
+        }
+      ],
+      "base_form": "ရှက်ကိုးရှက်ကန်း",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရှက် ကိုး ရှက် ကန်း",
+      "alternative": [
+        {
+          "word_postproc": "Bashfully",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Shyly",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Embarrassment",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Some embarrassment",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Embarrassment over",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "ရှက်ကိုးရှက်ကန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

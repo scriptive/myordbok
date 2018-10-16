@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "trust in",
+      "orig": "ကိုးစား",
+      "backend": 0
+    },
+    {
+      "src_translit": "koe hcarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "rely on"
+      ],
+      "entry": [
+        {
+          "word": "rely on"
+        }
+      ],
+      "base_form": "ကိုးစား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိုး စား",
+      "alternative": [
+        {
+          "word_postproc": "trust in",
+          "score": 890,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "put your trust",
+          "score": 55,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "I trust in",
+          "score": 45,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "trust in the",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "trusting in",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကိုးစား",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

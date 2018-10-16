@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "conclude",
+      "orig": "ကောက်ချက်ချ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kouthkyethkya"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "conclude",
+        "deduce",
+        "draw a conclusion",
+        "make an inference"
+      ],
+      "entry": [
+        {
+          "word": "conclude",
+          "reverse_translation": [
+            "ကောက်ချက်ချ"
+          ],
+          "score": 0.11943297
+        }
+      ],
+      "base_form": "ကောက်ချက်ချ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကောက်ချက်ချ",
+      "alternative": [
+        {
+          "word_postproc": "conclude",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "conclude that",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "concluded that",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "draw a conclusion",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "concluded",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ကောက်ချက်ချ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

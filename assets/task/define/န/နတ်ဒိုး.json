@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "Nat window",
+      "orig": "နတ်ဒိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "naat doe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "special music for \"nats\" played at the time of propitiation of \"nats\""
+      ],
+      "entry": [
+        {
+          "word": "special music for \"nats\" played at the time of propitiation of \"nats\""
+        }
+      ],
+      "base_form": "နတ်ဒိုး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နတ်",
+      "alternative": [
+        {
+          "word_postproc": "Nat",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "spirit",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "spirits",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "နတ်ဒိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဒိုး",
+      "alternative": [
+        {
+          "word_postproc": "window",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Doe",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Windows",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 7
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

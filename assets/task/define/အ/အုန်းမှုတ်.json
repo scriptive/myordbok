@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "coconut shell",
+      "orig": "အုန်းမှုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aone mhuat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "coconut shell",
+        "half shell of a coconut used as a cup"
+      ],
+      "entry": [
+        {
+          "word": "coconut shell"
+        },
+        {
+          "word": "half shell of a coconut used as a cup"
+        }
+      ],
+      "base_form": "အုန်းမှုတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အုန်း မှုတ်",
+      "alternative": [
+        {
+          "word_postproc": "coconut shell",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "အုန်းမှုတ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

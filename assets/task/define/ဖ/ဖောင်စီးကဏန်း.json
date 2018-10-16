@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "Form crab",
+      "orig": "ဖောင်စီးကဏန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpaung hcee k naann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "species of small sea crabs which are washed ashore by the tide"
+      ],
+      "entry": [
+        {
+          "word": "species of small sea crabs which are washed ashore by the tide"
+        }
+      ],
+      "base_form": "ဖောင်စီးကဏန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖောင်",
+      "alternative": [
+        {
+          "word_postproc": "Form",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Raft",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Rafts",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဖောင်စီးကဏန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "က ဏန်း",
+      "alternative": [
+        {
+          "word_postproc": "crab",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "crabs",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 8,
+          "end": 13
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

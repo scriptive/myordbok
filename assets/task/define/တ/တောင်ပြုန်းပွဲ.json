@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "တောင်ပြုန်း",
+      "orig": "တောင်ပြုန်းပွဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "taungpyuann pwal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "ceremony for propitiating the spirits of the \"Shwehpyin\" brothers, held annually at \"Taungbyon\" village near \"Mandalay\""
+      ],
+      "entry": [
+        {
+          "word": "ceremony for propitiating the spirits of the \"Shwehpyin\" brothers, held annually at \"Taungbyon\" village near \"Mandalay\""
+        }
+      ],
+      "base_form": "တောင်ပြုန်းပွဲ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တောင်ပြုန်း",
+      "alternative": [
+        {
+          "word_postproc": "တောင်ပြုန်း",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "တောင်ပြုန်းပွဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

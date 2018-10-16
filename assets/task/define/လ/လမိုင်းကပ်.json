@@ -1,0 +1,102 @@
+{
+  "sentences": [
+    {
+      "trans": "compatible",
+      "orig": "လမိုင်းကပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lamine kaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "proceed well",
+        "gain momentum",
+        "be appropriate",
+        "suitable",
+        "compatible"
+      ],
+      "entry": [
+        {
+          "word": "proceed well"
+        },
+        {
+          "word": "gain momentum"
+        },
+        {
+          "word": "be appropriate"
+        },
+        {
+          "word": "suitable"
+        },
+        {
+          "word": "compatible"
+        }
+      ],
+      "base_form": "လမိုင်းကပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လမိုင်း ကပ်",
+      "alternative": [
+        {
+          "word_postproc": "compatible",
+          "score": 985,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "suitable",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "gain momentum",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "appropriate",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "proceed well",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "လမိုင်းကပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Court of law",
+      "orig": "ရုံးပြင်ကနား",
+      "backend": 0
+    },
+    {
+      "src_translit": "rone pyin k narr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "court of law"
+      ],
+      "entry": [
+        {
+          "word": "court of law"
+        }
+      ],
+      "base_form": "ရုံးပြင်ကနား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရုံး ပြင် က နား",
+      "alternative": [
+        {
+          "word_postproc": "Court of law",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ရုံးပြင်ကနား",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

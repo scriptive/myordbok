@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Contemptuously",
+      "orig": "မခန့်တရန့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "m hkaant tar an "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "contemptuously",
+        "insolently"
+      ],
+      "entry": [
+        {
+          "word": "contemptuously"
+        },
+        {
+          "word": "insolently"
+        }
+      ],
+      "base_form": "မခန့်တရန့်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခန့် တရ န့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Contemptuously",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Insolently",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "မခန့်တရန့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "the very same",
+      "orig": "တရထည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "tar htai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "like",
+        "all the same"
+      ],
+      "entry": [
+        {
+          "word": "like"
+        },
+        {
+          "word": "all the same"
+        }
+      ],
+      "base_form": "တရထည်",
+      "pos_enum": 4
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "the very same"
+      ],
+      "entry": [
+        {
+          "word": "the very same"
+        }
+      ],
+      "base_form": "တရထည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တရ ထည်",
+      "alternative": [
+        {
+          "word_postproc": "the very same",
+          "score": 940,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the same",
+          "score": 29,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "same",
+          "score": 22,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "very same",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "တရထည်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

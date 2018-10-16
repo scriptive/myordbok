@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "tail feather",
+      "orig": "မြီးဆံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "myee san"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "tail feather",
+        "bushy tail"
+      ],
+      "entry": [
+        {
+          "word": "tail feather"
+        },
+        {
+          "word": "bushy tail"
+        }
+      ],
+      "base_form": "မြီးဆံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မြီး ဆံ",
+      "alternative": [
+        {
+          "word_postproc": "tail feather",
+          "score": 875,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bushy tail",
+          "score": 124,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "မြီးဆံ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

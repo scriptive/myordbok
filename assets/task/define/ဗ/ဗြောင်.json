@@ -1,0 +1,114 @@
+{
+  "sentences": [
+    {
+      "trans": "openly",
+      "orig": "ဗြောင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "byaung"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "plain",
+        "husked",
+        "blank"
+      ],
+      "entry": [
+        {
+          "word": "blank",
+          "reverse_translation": [
+            "ဗလာဖြစ်သော"
+          ],
+          "score": 0.014264234
+        }
+      ],
+      "base_form": "ဗြောင်",
+      "pos_enum": 3
+    },
+    {
+      "pos": "adverb",
+      "terms": [
+        "openly",
+        "frankly",
+        "candidly",
+        "in plain view",
+        "conspicuously",
+        "flagrantly"
+      ],
+      "entry": [
+        {
+          "word": "openly",
+          "reverse_translation": [
+            "ပွင့်လင်းစွာ"
+          ],
+          "score": 0.10057265
+        }
+      ],
+      "base_form": "ဗြောင်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗြောင်",
+      "alternative": [
+        {
+          "word_postproc": "openly",
+          "score": 432,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "flagrantly",
+          "score": 374,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "husked",
+          "score": 175,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "plain",
+          "score": 15,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in plain view",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဗြောင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

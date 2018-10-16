@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "Postal",
+      "orig": "စာတိုက်သေတ္တာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcartite sayttar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "post office box. [lit trans from Eng]"
+      ],
+      "entry": [
+        {
+          "word": "post office box. [lit trans from Eng]"
+        }
+      ],
+      "base_form": "စာတိုက်သေတ္တာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စာတိုက် သေတ္တာ",
+      "alternative": [
+        {
+          "word_postproc": "Postal",
+          "score": 516,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "PO Box",
+          "score": 468,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "post office box",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ZIP",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "post offices",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "စာတိုက်သေတ္တာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

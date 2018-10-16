@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Unworthily",
+      "orig": "ရာရာသသ",
+      "backend": 0
+    },
+    {
+      "src_translit": "rar rar s s"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "presumptuously",
+        "unworthily"
+      ],
+      "entry": [
+        {
+          "word": "presumptuously"
+        },
+        {
+          "word": "unworthily"
+        }
+      ],
+      "base_form": "ရာရာသသ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရာ ရာ သ",
+      "alternative": [
+        {
+          "word_postproc": "Unworthily",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ရာရာသသ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

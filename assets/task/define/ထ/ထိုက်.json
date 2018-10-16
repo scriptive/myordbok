@@ -1,0 +1,127 @@
+{
+  "sentences": [
+    {
+      "trans": "deserve",
+      "orig": "ထိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "htite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "deserve",
+        "particle suffixed to a verb to convey the sense of being fit, proper,deserving (equivalent in usage to phrases 'fit to', 'deserving of '",
+        "be worth",
+        "have a certain value",
+        "be worthy of: suit, fit, merit",
+        "be fall"
+      ],
+      "entry": [
+        {
+          "word": "deserve",
+          "reverse_translation": [
+            "ထိုက်"
+          ],
+          "synset_id": [
+            16935
+          ],
+          "score": 0.02503451
+        }
+      ],
+      "base_form": "ထိုက်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "fate",
+        "fortune"
+      ],
+      "entry": [
+        {
+          "word": "fate",
+          "reverse_translation": [
+            "ကြမ္မာ"
+          ],
+          "synset_id": [
+            26756
+          ]
+        },
+        {
+          "word": "fortune",
+          "reverse_translation": [
+            "ဉစ္စာဓန"
+          ],
+          "synset_id": [
+            26756
+          ]
+        }
+      ],
+      "base_form": "ထိုက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထိုက်",
+      "alternative": [
+        {
+          "word_postproc": "deserve",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "deserve to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Htaik",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Htike",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fit to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ထိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "determined way",
+      "orig": "မဲမဲသဲသဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "mellmell sellsell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in a determined way"
+      ],
+      "entry": [
+        {
+          "word": "in a determined way"
+        }
+      ],
+      "base_form": "မဲမဲသဲသဲ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မဲမဲ သဲသဲ",
+      "alternative": [
+        {
+          "word_postproc": "determined way",
+          "score": 994,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a determined way",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "မဲမဲသဲသဲ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "sentences": [
+    {
+      "trans": "river",
+      "orig": "မြစ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "myit"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "river",
+        "root",
+        "gizzard",
+        "great grandchild",
+        ".letters assigned to the day preceeding one's birthday"
+      ],
+      "entry": [
+        {
+          "word": "river",
+          "reverse_translation": [
+            "မြစ်"
+          ],
+          "synset_id": [
+            33615
+          ],
+          "score": 0.17107983
+        },
+        {
+          "word": "root",
+          "reverse_translation": [
+            "အမြစ်"
+          ]
+        }
+      ],
+      "base_form": "မြစ်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "prohibit",
+        "forbid"
+      ],
+      "entry": [
+        {
+          "word": "prohibit",
+          "reverse_translation": [
+            "တားမြစ်"
+          ],
+          "synset_id": [
+            97206
+          ]
+        },
+        {
+          "word": "forbid",
+          "reverse_translation": [
+            "ပိတ်ပင်"
+          ],
+          "synset_id": [
+            97206
+          ]
+        }
+      ],
+      "base_form": "မြစ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မြစ်",
+      "alternative": [
+        {
+          "word_postproc": "river",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a river",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the river",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "မြစ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "scroll",
+      "orig": "ပုရပိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "purapite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "Parabaik: writing tablet made of paper, cloth,metal in the form of accordion folds"
+      ],
+      "entry": [
+        {
+          "word": "Parabaik: writing tablet made of paper, cloth,metal in the form of accordion folds"
+        }
+      ],
+      "base_form": "ပုရပိုက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပုရပိုက်",
+      "alternative": [
+        {
+          "word_postproc": "scroll",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ပုရပိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

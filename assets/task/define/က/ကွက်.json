@@ -1,0 +1,119 @@
+{
+  "sentences": [
+    {
+      "trans": "plots",
+      "orig": "ကွက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "plot",
+        "ward"
+      ],
+      "entry": [
+        {
+          "word": "plot",
+          "reverse_translation": [
+            "မေြကွက်"
+          ],
+          "score": 0.02706876
+        },
+        {
+          "word": "ward",
+          "reverse_translation": [
+            "အခန်း"
+          ]
+        }
+      ],
+      "base_form": "ကွက်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "mark off square,circular figure",
+        "tonsure",
+        "be marked with a square,circular pattern",
+        "be confined to a certain area",
+        "be tainted",
+        "sympathise",
+        "be considerate"
+      ],
+      "entry": [
+        {
+          "word": "sympathise",
+          "reverse_translation": [
+            "သက်ဝင်ကြင်နာ"
+          ]
+        }
+      ],
+      "base_form": "ကွက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကွက်",
+      "alternative": [
+        {
+          "word_postproc": "plots",
+          "score": 566,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "spot",
+          "score": 348,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "plot",
+          "score": 75,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "choreography",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mesh",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကွက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

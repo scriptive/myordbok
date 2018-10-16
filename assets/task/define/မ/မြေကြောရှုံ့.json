@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "Condemn",
+      "orig": "မြေကြောရှုံ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "myay kyaww shone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "cover more distance to cut down the time required to travel"
+      ],
+      "entry": [
+        {
+          "word": "cover more distance to cut down the time required to travel"
+        }
+      ],
+      "base_form": "မြေကြောရှုံ့",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရှုံ့",
+      "alternative": [
+        {
+          "word_postproc": "Condemn",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Drawstring",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Wrinkle",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Shriveling",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "မြေကြောရှုံ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

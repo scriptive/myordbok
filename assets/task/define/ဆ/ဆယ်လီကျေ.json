@@ -1,0 +1,70 @@
+{
+  "sentences": [
+    {
+      "trans": "Thorough",
+      "orig": "ဆယ်လီကျေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "saal le kyaay"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be well-versed in calculation",
+        "be thorough",
+        "be systematic"
+      ],
+      "entry": [
+        {
+          "word": "be well-versed in calculation"
+        },
+        {
+          "word": "be thorough"
+        },
+        {
+          "word": "be systematic"
+        }
+      ],
+      "base_form": "ဆယ်လီကျေ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆယ် လီ ကျေ",
+      "alternative": [
+        {
+          "word_postproc": "Thorough",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဆယ်လီကျေ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

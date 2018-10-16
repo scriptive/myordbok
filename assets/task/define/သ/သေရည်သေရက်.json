@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "Beer",
+      "orig": "သေရည်သေရက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "say rai say raat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "intoxicating drinks"
+      ],
+      "entry": [
+        {
+          "word": "intoxicating drinks"
+        }
+      ],
+      "base_form": "သေရည်သေရက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သေ ရည် သေ ရက်",
+      "alternative": [
+        {
+          "word_postproc": "Beer",
+          "score": 928,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The beer",
+          "score": 69,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Intoxicating drinks",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Of strong drink",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Strong drink",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "သေရည်သေရက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

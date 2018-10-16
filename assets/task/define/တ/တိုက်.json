@@ -1,0 +1,285 @@
+{
+  "sentences": [
+    {
+      "trans": "fight",
+      "orig": "တိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "tite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "fight",
+        "attack",
+        "shine",
+        "transportin vehicles",
+        "10. cart",
+        "entertain",
+        "offer",
+        "give",
+        "rehearse",
+        "verify",
+        "check against",
+        "check",
+        "synchronize",
+        "coincide",
+        "scour",
+        "scrub",
+        "dash against",
+        "polish",
+        "brush",
+        "set on",
+        "incite",
+        "rob",
+        "sail",
+        "blow",
+        "collide",
+        "crash",
+        "bump against into"
+      ],
+      "entry": [
+        {
+          "word": "fight",
+          "reverse_translation": [
+            "တိုက်ခိုက်"
+          ],
+          "score": 0.050571099
+        },
+        {
+          "word": "attack",
+          "reverse_translation": [
+            "တိုက်ခိုက်"
+          ],
+          "synset_id": [
+            44204
+          ],
+          "score": 0.017476905
+        },
+        {
+          "word": "shine",
+          "reverse_translation": [
+            "တောက်ပ"
+          ],
+          "synset_id": [
+            21250
+          ]
+        },
+        {
+          "word": "entertain",
+          "reverse_translation": [
+            "ပေျာ်ရွှင်စေ"
+          ]
+        },
+        {
+          "word": "offer",
+          "reverse_translation": [
+            "ပေးကမ်း"
+          ]
+        },
+        {
+          "word": "give",
+          "reverse_translation": [
+            "ပေး"
+          ]
+        },
+        {
+          "word": "rehearse",
+          "reverse_translation": [
+            "ပဲွမဝင်မီပြင်မှာကျင်းပ"
+          ]
+        },
+        {
+          "word": "verify",
+          "reverse_translation": [
+            "မှန်ကေြင်းဝန်ခံ"
+          ]
+        },
+        {
+          "word": "check",
+          "reverse_translation": [
+            "စစ်ဆေး"
+          ]
+        },
+        {
+          "word": "coincide",
+          "reverse_translation": [
+            "ထပ်ထူကျ"
+          ]
+        },
+        {
+          "word": "scrub",
+          "reverse_translation": [
+            "ပွတ်တိုက်"
+          ],
+          "synset_id": [
+            21192
+          ]
+        },
+        {
+          "word": "polish",
+          "reverse_translation": [
+            "အရောင်တင်"
+          ],
+          "synset_id": [
+            21250
+          ]
+        },
+        {
+          "word": "brush",
+          "reverse_translation": [
+            "ဖုံချွတ်"
+          ]
+        },
+        {
+          "word": "incite",
+          "reverse_translation": [
+            "နိှုးဆော်"
+          ]
+        },
+        {
+          "word": "rob",
+          "reverse_translation": [
+            "လုယက်"
+          ]
+        },
+        {
+          "word": "sail",
+          "reverse_translation": [
+            "ရွက်"
+          ]
+        },
+        {
+          "word": "blow",
+          "reverse_translation": [
+            "လေတိုက်"
+          ]
+        },
+        {
+          "word": "collide",
+          "reverse_translation": [
+            "ထိခိုက်"
+          ]
+        }
+      ],
+      "base_form": "တိုက်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "continent",
+        "mainland",
+        "brick building",
+        "cell",
+        "chamber",
+        "building,place where some specialized activity is carried out, such as business concerns, depository, works, store, etc",
+        "administrative unit",
+        "circle",
+        "group of buildings belonging to a monastery,nunnery"
+      ],
+      "entry": [
+        {
+          "word": "continent",
+          "reverse_translation": [
+            "တိုက်"
+          ],
+          "synset_id": [
+            70081
+          ],
+          "score": 0.0010495697
+        },
+        {
+          "word": "mainland",
+          "reverse_translation": [
+            "တိုက်"
+          ],
+          "score": 0.00016095673
+        },
+        {
+          "word": "cell",
+          "reverse_translation": [
+            "အခေါင်းငယ်",
+            "ထောင်ခန်း"
+          ]
+        },
+        {
+          "word": "chamber",
+          "reverse_translation": [
+            "အခန်းမ"
+          ]
+        },
+        {
+          "word": "circle",
+          "reverse_translation": [
+            "အဝိုင်း"
+          ]
+        }
+      ],
+      "base_form": "တိုက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တိုက်",
+      "alternative": [
+        {
+          "word_postproc": "fight",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to fight",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fight against",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to fight against",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fought against",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "တိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

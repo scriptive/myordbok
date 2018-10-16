@@ -1,0 +1,138 @@
+{
+  "sentences": [
+    {
+      "trans": "connect",
+      "orig": "ဆက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "saat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "continue",
+        "present",
+        "connect",
+        "join",
+        "join together",
+        "communicate",
+        "contact",
+        "get in tough with",
+        "extend some gesture to further friendly relations",
+        "offer respectfully",
+        "offer up"
+      ],
+      "entry": [
+        {
+          "word": "continue",
+          "reverse_translation": [
+            "ဆက်လက်နေ"
+          ],
+          "score": 0.050571099
+        },
+        {
+          "word": "present",
+          "reverse_translation": [
+            "လက်ဆောင်ပေးအပ်"
+          ],
+          "score": 0.021413151
+        },
+        {
+          "word": "connect",
+          "reverse_translation": [
+            "ဆက်"
+          ],
+          "synset_id": [
+            26518
+          ],
+          "score": 0.0037210477
+        },
+        {
+          "word": "join",
+          "reverse_translation": [
+            "ပူးပေါင်း"
+          ],
+          "synset_id": [
+            26518
+          ]
+        },
+        {
+          "word": "communicate",
+          "reverse_translation": [
+            "သက်ဝင်ဆက်ဆံ"
+          ]
+        },
+        {
+          "word": "contact",
+          "reverse_translation": [
+            "ထိတေွ့"
+          ]
+        }
+      ],
+      "base_form": "ဆက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆက်",
+      "alternative": [
+        {
+          "word_postproc": "connect",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "continue",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "continued",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "continued to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "continue to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဆက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

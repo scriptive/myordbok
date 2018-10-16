@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "sojourned",
+      "orig": "တည်းခို",
+      "backend": 0
+    },
+    {
+      "src_translit": "taeehko"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "lodge",
+        "put up at"
+      ],
+      "entry": [
+        {
+          "word": "lodge",
+          "score": 0.0053301547
+        },
+        {
+          "word": "put up at"
+        }
+      ],
+      "base_form": "တည်းခို",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တည်းခို",
+      "alternative": [
+        {
+          "word_postproc": "sojourned",
+          "score": 910,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sojourn",
+          "score": 88,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sojourned in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to sojourn",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "settle there",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "တည်းခို",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

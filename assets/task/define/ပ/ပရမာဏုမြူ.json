@@ -1,0 +1,111 @@
+{
+  "sentences": [
+    {
+      "trans": "Microbiologist fog",
+      "orig": "ပရမာဏုမြူ",
+      "backend": 0
+    },
+    {
+      "src_translit": "p r mar nu myauu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "particle which is 1/36 of အဏုမြူ"
+      ],
+      "entry": [
+        {
+          "word": "particle which is 1/36 of အဏုမြူ"
+        }
+      ],
+      "base_form": "ပရမာဏုမြူ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဏု",
+      "alternative": [
+        {
+          "word_postproc": "Microbiologist",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Microbiology",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Microscopic",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Microscope",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ပရမာဏုမြူ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "မြူ",
+      "alternative": [
+        {
+          "word_postproc": "fog",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Haze",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Samuels",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 9
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

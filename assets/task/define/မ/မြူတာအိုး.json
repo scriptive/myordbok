@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "Samuels pot",
+      "orig": "မြူတာအိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "myauu tar aoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "long-necked pot for ceremonial,religious use"
+      ],
+      "entry": [
+        {
+          "word": "long-necked pot for ceremonial,religious use"
+        }
+      ],
+      "base_form": "မြူတာအိုး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မြူ",
+      "alternative": [
+        {
+          "word_postproc": "Samuels",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Fog",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Haze",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "မြူတာအိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "အိုး",
+      "alternative": [
+        {
+          "word_postproc": "pot",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "jars",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pots",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 9
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

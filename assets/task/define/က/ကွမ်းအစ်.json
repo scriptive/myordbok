@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "betel box",
+      "orig": "ကွမ်းအစ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kwm aait"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "betel box"
+      ],
+      "entry": [
+        {
+          "word": "betel box"
+        }
+      ],
+      "base_form": "ကွမ်းအစ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကွမ်း အစ်",
+      "alternative": [
+        {
+          "word_postproc": "betel box",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကွမ်းအစ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

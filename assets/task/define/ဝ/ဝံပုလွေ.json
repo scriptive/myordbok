@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "wolf",
+      "orig": "ဝံပုလွေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "wanpulway"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "wolf"
+      ],
+      "entry": [
+        {
+          "word": "wolf",
+          "reverse_translation": [
+            "ဝံပုလေွ"
+          ],
+          "score": 0.23383839
+        }
+      ],
+      "base_form": "ဝံပုလွေ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝံပုလွေ",
+      "alternative": [
+        {
+          "word_postproc": "wolf",
+          "score": 984,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wolves",
+          "score": 14,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "werewolf",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "werewolves",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဝံပုလွေ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

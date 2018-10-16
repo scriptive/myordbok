@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Rear philosophy",
+      "orig": "နောက်ဖေးနောက်ဖီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "nout hpayy nout hpe"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နောက် ဖေး",
+      "alternative": [
+        {
+          "word_postproc": "Rear",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Backyard",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Excrement",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "နောက်ဖေးနောက်ဖီ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဖီ",
+      "alternative": [
+        {
+          "word_postproc": "philosophy",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Fijian",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in Fiji",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 13,
+          "end": 15
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

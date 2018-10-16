@@ -1,0 +1,100 @@
+{
+  "sentences": [
+    {
+      "trans": "complained",
+      "orig": "စောဒကတက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcawdak taat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "argue",
+        "dispute",
+        "contend"
+      ],
+      "entry": [
+        {
+          "word": "argue",
+          "reverse_translation": [
+            "ဆင်ခေြကန်"
+          ],
+          "synset_id": [
+            109389
+          ]
+        },
+        {
+          "word": "dispute",
+          "reverse_translation": [
+            "ြငင်းခုံ"
+          ]
+        }
+      ],
+      "base_form": "စောဒကတက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စောဒက တက်",
+      "alternative": [
+        {
+          "word_postproc": "complained",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "argued",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "boarded up",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "argued for",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "complained that",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "စောဒကတက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

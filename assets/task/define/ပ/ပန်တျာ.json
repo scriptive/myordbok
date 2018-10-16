@@ -1,0 +1,79 @@
+{
+  "sentences": [
+    {
+      "trans": "musician",
+      "orig": "ပန်တျာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "paan tyaar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "music",
+        "musician"
+      ],
+      "entry": [
+        {
+          "word": "music",
+          "reverse_translation": [
+            "ဂီတ"
+          ]
+        },
+        {
+          "word": "musician",
+          "reverse_translation": [
+            "ဂီတသမား",
+            "ဂီတသမီး"
+          ]
+        }
+      ],
+      "base_form": "ပန်တျာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပန် တျာ",
+      "alternative": [
+        {
+          "word_postproc": "musician",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "music",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ပန်တျာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "sentences": [
+    {
+      "trans": "Not only accepted",
+      "orig": "မခံချိမခံသာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "m hkan hkyai m hkan sar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in a needling,irritating way",
+        "in an irksome manner"
+      ],
+      "entry": [
+        {
+          "word": "in a needling,irritating way"
+        },
+        {
+          "word": "in an irksome manner"
+        }
+      ],
+      "base_form": "မခံချိမခံသာ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မ",
+      "alternative": [
+        {
+          "word_postproc": "Not",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 1
+        }
+      ],
+      "raw_src_segment": "မခံချိမခံသာ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "သာ",
+      "alternative": [
+        {
+          "word_postproc": "only",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 9,
+          "end": 11
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "ခံ ချိ မ ခံ",
+      "alternative": [
+        {
+          "word_postproc": "accepted",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 9
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "enmesh",
+      "orig": "ပေါင်းယှက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "paungg yhaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "enmesh",
+        "intertwine"
+      ],
+      "entry": [
+        {
+          "word": "enmesh"
+        },
+        {
+          "word": "intertwine"
+        }
+      ],
+      "base_form": "ပေါင်းယှက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပေါင်း ယှက်",
+      "alternative": [
+        {
+          "word_postproc": "enmesh",
+          "score": 987,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "intertwine",
+          "score": 12,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ပေါင်းယှက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

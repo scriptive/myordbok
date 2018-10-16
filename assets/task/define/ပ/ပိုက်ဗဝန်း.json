@@ -1,0 +1,111 @@
+{
+  "sentences": [
+    {
+      "trans": "Ba rings",
+      "orig": "ပိုက်ဗဝန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "pite b waann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "stake and net arrangement encirling part of the shore to trap fish entering the area during high tide"
+      ],
+      "entry": [
+        {
+          "word": "stake and net arrangement encirling part of the shore to trap fish entering the area during high tide"
+        }
+      ],
+      "base_form": "ပိုက်ဗဝန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗ",
+      "alternative": [
+        {
+          "word_postproc": "Ba",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Beth",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Rachel",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Bethlehem",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ပိုက်ဗဝန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဝန်း",
+      "alternative": [
+        {
+          "word_postproc": "rings",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "campus",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Main",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 10
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

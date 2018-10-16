@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "Depraved",
+      "orig": "အကျင့်တန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "a kyint taan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be immoral",
+        "be depraved",
+        "behave badly"
+      ],
+      "entry": [
+        {
+          "word": "be immoral"
+        },
+        {
+          "word": "be depraved"
+        },
+        {
+          "word": "behave badly"
+        }
+      ],
+      "base_form": "အကျင့်တန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ ကျင့် တန်",
+      "alternative": [
+        {
+          "word_postproc": "Depraved",
+          "score": 904,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Behave badly",
+          "score": 93,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Immoral",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အကျင့်တန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

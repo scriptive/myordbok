@@ -1,0 +1,100 @@
+{
+  "sentences": [
+    {
+      "trans": "bobbin",
+      "orig": "ယောက်လုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "yout lone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "spool",
+        "roller",
+        "bobbin"
+      ],
+      "entry": [
+        {
+          "word": "spool",
+          "synset_id": [
+            105482
+          ]
+        },
+        {
+          "word": "roller"
+        },
+        {
+          "word": "bobbin",
+          "synset_id": [
+            105482
+          ]
+        }
+      ],
+      "base_form": "ယောက်လုံး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယောက် လုံး",
+      "alternative": [
+        {
+          "word_postproc": "bobbin",
+          "score": 890,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "spool",
+          "score": 100,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "roller",
+          "score": 9,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "had",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "were",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ယောက်လုံး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "sentences": [
+    {
+      "trans": "caper",
+      "orig": "ခုန်ပေါက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkone pout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "gambol",
+        "frisk",
+        "jump about",
+        "caper"
+      ],
+      "entry": [
+        {
+          "word": "gambol",
+          "synset_id": [
+            99197
+          ]
+        },
+        {
+          "word": "frisk",
+          "synset_id": [
+            99197
+          ]
+        },
+        {
+          "word": "jump about"
+        },
+        {
+          "word": "caper"
+        }
+      ],
+      "base_form": "ခုန်ပေါက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခုန် ပေါက်",
+      "alternative": [
+        {
+          "word_postproc": "caper",
+          "score": 486,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bounced",
+          "score": 403,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "frisk",
+          "score": 62,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "jump up",
+          "score": 32,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "gambol",
+          "score": 14,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ခုန်ပေါက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

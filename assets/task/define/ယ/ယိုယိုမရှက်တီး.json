@@ -1,0 +1,146 @@
+{
+  "sentences": [
+    {
+      "trans": "Yo Yo real shame",
+      "orig": "ယိုယိုမရှက်တီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "yo yo m shat tee"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယို",
+      "alternative": [
+        {
+          "word_postproc": "Yo",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Drip",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Jam",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ယိုယိုမရှက်တီး",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ယို",
+      "alternative": [
+        {
+          "word_postproc": "Yo",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "jam",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 6
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "တီး",
+      "alternative": [
+        {
+          "word_postproc": "real",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "it",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "play",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "steel",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 11,
+          "end": 14
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    },
+    {
+      "src_phrase": "ရှက်",
+      "alternative": [
+        {
+          "word_postproc": "shame",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "shy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 11
+        }
+      ],
+      "start_pos": 3,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

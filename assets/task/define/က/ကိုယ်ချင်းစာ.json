@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "sympathy",
+      "orig": "ကိုယ်ချင်းစာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kohkyinnhcar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "sympathize",
+        "be considerate"
+      ],
+      "entry": [
+        {
+          "word": "sympathize",
+          "reverse_translation": [
+            "သက်ဝင်ကြင်နာ"
+          ],
+          "score": 0.00995804
+        }
+      ],
+      "base_form": "ကိုယ်ချင်းစာ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိုယ်ချင်းစာ",
+      "alternative": [
+        {
+          "word_postproc": "sympathy",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The sympathy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sympathetic",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sympathize",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sympathy and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ကိုယ်ချင်းစာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

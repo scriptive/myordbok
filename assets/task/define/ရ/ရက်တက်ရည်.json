@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Buttermilk",
+      "orig": "ရက်တက်ရည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "raat taat rai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "buttermilk"
+      ],
+      "entry": [
+        {
+          "word": "buttermilk"
+        }
+      ],
+      "base_form": "ရက်တက်ရည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရက် တက် ရည်",
+      "alternative": [
+        {
+          "word_postproc": "Buttermilk",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ရက်တက်ရည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

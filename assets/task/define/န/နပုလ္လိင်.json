@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Neuter gender",
+      "orig": "နပုလ္လိင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "n pul liin"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "neuter gender"
+      ],
+      "entry": [
+        {
+          "word": "neuter gender"
+        }
+      ],
+      "base_form": "နပုလ္လိင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "န ပုလ္ လိင်",
+      "alternative": [
+        {
+          "word_postproc": "Neuter gender",
+          "score": 981,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Common gender",
+          "score": 18,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "နပုလ္လိင်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

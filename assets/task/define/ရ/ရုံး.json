@@ -1,0 +1,142 @@
+{
+  "sentences": [
+    {
+      "trans": "office",
+      "orig": "ရုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "rone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "office",
+        "court",
+        "courthouse",
+        "large timber tree yielding a strong and resilient yellowish wood"
+      ],
+      "entry": [
+        {
+          "word": "office",
+          "reverse_translation": [
+            "ရုံး"
+          ],
+          "synset_id": [
+            97223
+          ],
+          "score": 0.23021308
+        },
+        {
+          "word": "court",
+          "reverse_translation": [
+            "ရုံး"
+          ],
+          "synset_id": [
+            54811
+          ],
+          "score": 0.0089263292
+        },
+        {
+          "word": "courthouse",
+          "reverse_translation": [
+            "ရုံး"
+          ],
+          "score": 0.00017677639
+        }
+      ],
+      "base_form": "ရုံး",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "assemble",
+        "gather"
+      ],
+      "entry": [
+        {
+          "word": "assemble",
+          "reverse_translation": [
+            "စုဝေး"
+          ],
+          "synset_id": [
+            6364
+          ]
+        },
+        {
+          "word": "gather",
+          "reverse_translation": [
+            "စုရုံး"
+          ],
+          "synset_id": [
+            6364
+          ]
+        }
+      ],
+      "base_form": "ရုံး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရုံး",
+      "alternative": [
+        {
+          "word_postproc": "office",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "court",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "'s Office",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Office for",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "office in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ရုံး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

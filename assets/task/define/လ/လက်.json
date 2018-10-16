@@ -1,0 +1,101 @@
+{
+  "sentences": [
+    {
+      "trans": "hand",
+      "orig": "လက်",
+      "backend": 1
+    },
+    {
+      "src_translit": "laat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "hand",
+        "hands",
+        "arm",
+        "finger",
+        "narrow projecting part of a main body",
+        "sleeve",
+        "workmanship"
+      ],
+      "entry": [
+        {
+          "word": "hand",
+          "reverse_translation": [
+            "လက်"
+          ],
+          "synset_id": [
+            53280
+          ],
+          "score": 0.21291229
+        },
+        {
+          "word": "arm",
+          "reverse_translation": [
+            "လက်"
+          ],
+          "synset_id": [
+            91672
+          ],
+          "score": 0.012786376
+        },
+        {
+          "word": "finger",
+          "reverse_translation": [
+            "လက်ခေျာင်း"
+          ],
+          "score": 0.0057632714
+        },
+        {
+          "word": "sleeve",
+          "reverse_translation": [
+            "အင်္ကျီလက်"
+          ],
+          "synset_id": [
+            91672
+          ]
+        }
+      ],
+      "base_form": "လက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လက်",
+      "alternative": [
+        {
+          "word_postproc": "hand",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "လက်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

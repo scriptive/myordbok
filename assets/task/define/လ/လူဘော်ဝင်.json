@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Come of age",
+      "orig": "လူဘော်ဝင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "luu bhaw wain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "come of age"
+      ],
+      "entry": [
+        {
+          "word": "come of age"
+        }
+      ],
+      "base_form": "လူဘော်ဝင်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လူ ဘော် ဝင်",
+      "alternative": [
+        {
+          "word_postproc": "Come of age",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "လူဘော်ဝင်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

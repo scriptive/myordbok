@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "hatred",
+      "orig": "ပဋိဃာတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pati gharat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "wrath",
+        "unrelenting anger",
+        "hatred"
+      ],
+      "entry": [
+        {
+          "word": "wrath"
+        },
+        {
+          "word": "unrelenting anger"
+        },
+        {
+          "word": "hatred"
+        }
+      ],
+      "base_form": "ပဋိဃာတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပဋိ ဃာတ်",
+      "alternative": [
+        {
+          "word_postproc": "hatred",
+          "score": 744,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wrath",
+          "score": 255,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "unrelenting anger",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ပဋိဃာတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

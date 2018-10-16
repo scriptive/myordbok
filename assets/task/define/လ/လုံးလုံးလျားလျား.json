@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "outright",
+      "orig": "လုံးလုံးလျားလျား",
+      "backend": 0
+    },
+    {
+      "src_translit": "lonelonelyarrlyarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "completely",
+        "without exception",
+        "without reservation"
+      ],
+      "entry": [
+        {
+          "word": "completely",
+          "reverse_translation": [
+            "အပြည့်အစုံ"
+          ],
+          "score": 0.097478345
+        }
+      ],
+      "base_form": "လုံးလုံးလျားလျား",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လုံးလုံးလျားလျား",
+      "alternative": [
+        {
+          "word_postproc": "outright",
+          "score": 490,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "entirely",
+          "score": 471,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "completely",
+          "score": 38,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "without reservation",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a totally",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "လုံးလုံးလျားလျား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

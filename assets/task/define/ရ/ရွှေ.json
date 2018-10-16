@@ -1,0 +1,103 @@
+{
+  "sentences": [
+    {
+      "trans": "gold",
+      "orig": "ရွှေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "shway"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "gold",
+        "particle prefixed to nouns to denote fondness,grandeur."
+      ],
+      "entry": [
+        {
+          "word": "gold",
+          "reverse_translation": [
+            "ရေွှ"
+          ],
+          "score": 0.30978554
+        }
+      ],
+      "base_form": "ရွှေ",
+      "pos_enum": 1
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "golden",
+        "askew"
+      ],
+      "entry": [
+        {
+          "word": "golden",
+          "reverse_translation": [
+            "ရေွှ"
+          ],
+          "score": 0.061000392
+        }
+      ],
+      "base_form": "ရွှေ",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရွှေ",
+      "alternative": [
+        {
+          "word_postproc": "gold",
+          "score": 901,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Golden",
+          "score": 97,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of gold",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the golden",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ရွှေ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

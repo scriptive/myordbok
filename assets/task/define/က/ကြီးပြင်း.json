@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "I grew up",
+      "orig": "ကြီးပြင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyee pyinn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "grow in age",
+        "come of age"
+      ],
+      "entry": [
+        {
+          "word": "grow in age"
+        },
+        {
+          "word": "come of age"
+        }
+      ],
+      "base_form": "ကြီးပြင်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြီး ပြင်း",
+      "alternative": [
+        {
+          "word_postproc": "I grew up",
+          "score": 623,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "grew up",
+          "score": 326,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "grew up in",
+          "score": 32,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "I grew up in",
+          "score": 9,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "He grew up",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကြီးပြင်း",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

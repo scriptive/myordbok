@@ -1,0 +1,85 @@
+{
+  "sentences": [
+    {
+      "trans": "father",
+      "orig": "လိုဘ",
+      "backend": 0
+    },
+    {
+      "src_translit": "lo bh"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "desire",
+        "want"
+      ],
+      "entry": [
+        {
+          "word": "desire",
+          "reverse_translation": [
+            "အလိုဆန္ဒ"
+          ]
+        },
+        {
+          "word": "want",
+          "reverse_translation": [
+            "မရှိခြင်း",
+            "လိုအပ်ခြင်း"
+          ]
+        }
+      ],
+      "base_form": "လိုဘ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘ",
+      "alternative": [
+        {
+          "word_postproc": "father",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Ba",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "his father",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "လိုဘ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

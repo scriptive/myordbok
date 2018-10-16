@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Green turtle",
+      "orig": "ပြင်သာလိပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyin sar liut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "green turtle"
+      ],
+      "entry": [
+        {
+          "word": "green turtle"
+        }
+      ],
+      "base_form": "‌ပြင်သာလိပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြင် သာ လိပ်",
+      "alternative": [
+        {
+          "word_postproc": "Green turtle",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ပြင်သာလိပ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "sentences": [
+    {
+      "trans": "Danger",
+      "orig": "အန္တရာယ်",
+      "backend": 1
+    },
+    {
+      "src_translit": "aantararal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "danger",
+        "harm",
+        "calamity",
+        "disaster"
+      ],
+      "entry": [
+        {
+          "word": "danger",
+          "reverse_translation": [
+            "ဘေးအန္တရာယ်"
+          ],
+          "score": 0.057304565
+        },
+        {
+          "word": "harm",
+          "reverse_translation": [
+            "အကျိုးပျက်စီးခြင်း"
+          ],
+          "score": 0.016676579
+        },
+        {
+          "word": "disaster",
+          "reverse_translation": [
+            "ဘေးအန္တရာယ်"
+          ],
+          "synset_id": [
+            38066
+          ]
+        }
+      ],
+      "base_form": "အန္တရာယ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အန္တရာယ်",
+      "alternative": [
+        {
+          "word_postproc": "Danger",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "အန္တရာယ်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

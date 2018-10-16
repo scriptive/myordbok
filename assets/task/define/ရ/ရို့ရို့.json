@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "Rose Rose",
+      "orig": "ရို့ရို့",
+      "backend": 0
+    },
+    {
+      "src_translit": "rhoet rhoet"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "",
+      "terms": [
+        "cry used when calling hogs, dogs, etc"
+      ],
+      "entry": [
+        {
+          "word": "cry used when calling hogs, dogs, etc"
+        }
+      ],
+      "base_form": "ရို့ရို့",
+      "pos_enum": 20
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရို့",
+      "alternative": [
+        {
+          "word_postproc": "Rose",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ရို့ရို့",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ရို့",
+      "alternative": [
+        {
+          "word_postproc": "Rose",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 8
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

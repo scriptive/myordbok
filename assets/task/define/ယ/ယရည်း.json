@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "mahout",
+      "orig": "ယရည်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "y raee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "elephant keeper",
+        "mahout"
+      ],
+      "entry": [
+        {
+          "word": "elephant keeper"
+        },
+        {
+          "word": "mahout"
+        }
+      ],
+      "base_form": "ယရည်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယ ရည်း",
+      "alternative": [
+        {
+          "word_postproc": "mahout",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "elephant keeper",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ယရည်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

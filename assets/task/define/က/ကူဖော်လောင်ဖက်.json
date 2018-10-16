@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "Companion and help",
+      "orig": "ကူဖော်လောင်ဖက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kuu hpaw laung hpaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "companion and a help"
+      ],
+      "entry": [
+        {
+          "word": "companion and a help"
+        }
+      ],
+      "base_form": "ကူဖော်လောင်ဖက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖော် လောင် ဖက်",
+      "alternative": [
+        {
+          "word_postproc": "Companion and",
+          "score": 988,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Companion and a",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ကူဖော်လောင်ဖက်",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "ကူ",
+      "alternative": [
+        {
+          "word_postproc": "help",
+          "score": 988,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "coupon",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Gu",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Kunming",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

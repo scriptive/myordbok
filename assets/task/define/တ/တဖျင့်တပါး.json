@@ -1,0 +1,115 @@
+{
+  "sentences": [
+    {
+      "trans": "The Soft",
+      "orig": "တဖျင့်တပါး",
+      "backend": 0
+    },
+    {
+      "src_translit": "t hpya in  taparr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in disorder",
+        "at sixes and sevens"
+      ],
+      "entry": [
+        {
+          "word": "in disorder"
+        },
+        {
+          "word": "at sixes and sevens"
+        }
+      ],
+      "base_form": "တဖျင့်တပါး",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တပါး",
+      "alternative": [
+        {
+          "word_postproc": "The",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Foreigners",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Stranger",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Foreigner",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Strange",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "တဖျင့်တပါး",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဖျ",
+      "alternative": [
+        {
+          "word_postproc": "Soft",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "F.",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 3
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "ရံ့",
+      "orig": "ငရံ့ပတူပင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "ng ran p tuu pain"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရံ့",
+      "alternative": [
+        {
+          "word_postproc": "ရံ့",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ငရံ့ပတူပင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

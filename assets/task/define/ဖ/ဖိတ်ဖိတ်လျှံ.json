@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Flame shine",
+      "orig": "ဖိတ်ဖိတ်လျှံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpate hpate shan"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လျှံ",
+      "alternative": [
+        {
+          "word_postproc": "Flame",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 8,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ဖိတ်ဖိတ်လျှံ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဖိတ် ဖိတ်",
+      "alternative": [
+        {
+          "word_postproc": "shine",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

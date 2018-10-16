@@ -1,0 +1,111 @@
+{
+  "sentences": [
+    {
+      "trans": "Shredded coconut",
+      "orig": "အုန်းမှန်ကူ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aone mhaan kuu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "shredded coconut candy"
+      ],
+      "entry": [
+        {
+          "word": "shredded coconut candy"
+        }
+      ],
+      "base_form": "အုန်းမှန်ကူ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မှန် ကူ",
+      "alternative": [
+        {
+          "word_postproc": "Shredded",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Reticulation",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Lozenge",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Rhomboid",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "အုန်းမှန်ကူ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "အုန်း",
+      "alternative": [
+        {
+          "word_postproc": "coconut",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Ohn",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "palm",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

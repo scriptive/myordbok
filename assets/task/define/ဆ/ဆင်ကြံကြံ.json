@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "plot",
+      "orig": "ဆင်ကြံကြံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "sainkyaan kyaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "plot",
+        "scheme to the detriment of others"
+      ],
+      "entry": [
+        {
+          "word": "plot"
+        },
+        {
+          "word": "scheme to the detriment of others"
+        }
+      ],
+      "base_form": "ဆင်ကြံကြံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆင်ကြံ ကြံ",
+      "alternative": [
+        {
+          "word_postproc": "plot",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ဆင်ကြံကြံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "sentences": [
+    {
+      "trans": "Difficulty",
+      "orig": "ခဲရာခဲဆစ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkell rar hkell sait"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "with difficulty"
+      ],
+      "entry": [
+        {
+          "word": "with difficulty"
+        }
+      ],
+      "base_form": "ခဲရာခဲဆစ်",
+      "pos_enum": 4
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "difficult matter"
+      ],
+      "entry": [
+        {
+          "word": "difficult matter"
+        }
+      ],
+      "base_form": "ခဲရာခဲဆစ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခဲ ရာ ခဲ ဆစ်",
+      "alternative": [
+        {
+          "word_postproc": "Difficulty",
+          "score": 977,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "With difficulty",
+          "score": 22,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Difficult matter",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ခဲရာခဲဆစ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "Seek ဣဋ္",
+      "orig": "ဣဋ္ဌာရုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "it htar rone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "desirable object of perception"
+      ],
+      "entry": [
+        {
+          "word": "desirable object of perception"
+        }
+      ],
+      "base_form": "ဣဋ္ဌာရုံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဌာ",
+      "alternative": [
+        {
+          "word_postproc": "Seek",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "For Habitat",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Place of birth",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Fasted",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "I fasted",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဣဋ္ဌာရုံ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဣဋ္",
+      "alternative": [
+        {
+          "word_postproc": "ဣဋ္",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

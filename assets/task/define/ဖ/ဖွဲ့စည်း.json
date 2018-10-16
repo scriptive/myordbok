@@ -1,0 +1,87 @@
+{
+  "sentences": [
+    {
+      "trans": "formed",
+      "orig": "ဖွဲ့စည်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpwalhcaee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "form"
+      ],
+      "entry": [
+        {
+          "word": "form",
+          "score": 0.059123605
+        }
+      ],
+      "base_form": "ဖွဲ့စည်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖွဲ့စည်း",
+      "alternative": [
+        {
+          "word_postproc": "formed",
+          "score": 990,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the formation",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "was formed",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the formation of",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "formation of",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဖွဲ့စည်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

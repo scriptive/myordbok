@@ -1,0 +1,114 @@
+{
+  "sentences": [
+    {
+      "trans": "the mean",
+      "orig": "ယုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "yote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "mean",
+        "base",
+        "despicable"
+      ],
+      "entry": [
+        {
+          "word": "mean",
+          "reverse_translation": [
+            "မကောင်းသော"
+          ],
+          "synset_id": [
+            20845
+          ],
+          "score": 0.041924916
+        }
+      ],
+      "base_form": "ယုတ်",
+      "pos_enum": 3
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "decrease",
+        "be less",
+        "be deficient",
+        "be inferior"
+      ],
+      "entry": [
+        {
+          "word": "decrease",
+          "reverse_translation": [
+            "လေျာ့ပေါ့စေ"
+          ]
+        }
+      ],
+      "base_form": "ယုတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယုတ်",
+      "alternative": [
+        {
+          "word_postproc": "the mean",
+          "score": 942,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "vile",
+          "score": 34,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The vile",
+          "score": 11,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A naughty",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "And the mean",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ယုတ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

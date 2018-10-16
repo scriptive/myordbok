@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Inanely",
+      "orig": "ဗရွတ်ရွှတ်တ",
+      "backend": 0
+    },
+    {
+      "src_translit": "b rwat shwat t"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "inanely",
+        "absurdly"
+      ],
+      "entry": [
+        {
+          "word": "inanely"
+        },
+        {
+          "word": "absurdly"
+        }
+      ],
+      "base_form": "ဗရွတ်ရွှတ်တ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗ ရွတ် ရွှတ် တ",
+      "alternative": [
+        {
+          "word_postproc": "Inanely",
+          "score": 983,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Absurdly",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ဗရွတ်ရွှတ်တ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

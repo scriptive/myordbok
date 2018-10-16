@@ -1,0 +1,101 @@
+{
+  "sentences": [
+    {
+      "trans": "service",
+      "orig": "ဆောင်ရွက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "saungrwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "carry out",
+        "function",
+        "fulfil"
+      ],
+      "entry": [
+        {
+          "word": "function",
+          "reverse_translation": [
+            "ဆောင်ရွက်"
+          ],
+          "score": 0.0018134938
+        },
+        {
+          "word": "fulfil",
+          "reverse_translation": [
+            "ဆောင်ရွက်"
+          ],
+          "synset_id": [
+            45342
+          ]
+        }
+      ],
+      "base_form": "ဆောင်ရွက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆောင်ရွက်",
+      "alternative": [
+        {
+          "word_postproc": "service",
+          "score": 923,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "carry",
+          "score": 37,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the service",
+          "score": 26,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "carried out",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "carried",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ဆောင်ရွက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

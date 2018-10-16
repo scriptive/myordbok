@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "ဗွမ်း ဗွမ်း",
+      "orig": "ဗွမ်းဗွမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "bwm bwm"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗွမ်း",
+      "alternative": [
+        {
+          "word_postproc": "ဗွမ်း",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဗွမ်းဗွမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဗွမ်း",
+      "alternative": [
+        {
+          "word_postproc": "ဗွမ်း",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 10
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

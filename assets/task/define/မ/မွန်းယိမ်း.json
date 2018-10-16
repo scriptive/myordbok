@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "early afternoon",
+      "orig": "မွန်းယိမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "mwann yaim"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "early afternoon"
+      ],
+      "entry": [
+        {
+          "word": "early afternoon"
+        }
+      ],
+      "base_form": "မွန်းယိမ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မွန်း ယိမ်း",
+      "alternative": [
+        {
+          "word_postproc": "early afternoon",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "မွန်းယိမ်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

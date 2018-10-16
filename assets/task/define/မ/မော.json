@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "Moses",
+      "orig": "မော",
+      "backend": 0
+    },
+    {
+      "src_translit": "maw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "feel tired",
+        "be out of breath",
+        "word suffixed to some verbs,adjectives as an intensifier"
+      ],
+      "entry": [
+        {
+          "word": "feel tired"
+        },
+        {
+          "word": "be out of breath"
+        },
+        {
+          "word": "word suffixed to some verbs,adjectives as an intensifier"
+        }
+      ],
+      "base_form": "မော",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မော",
+      "alternative": [
+        {
+          "word_postproc": "Moses",
+          "score": 787,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "weary",
+          "score": 109,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Moab",
+          "score": 94,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "did",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "faint",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "မော",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

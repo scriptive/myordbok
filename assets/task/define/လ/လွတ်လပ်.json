@@ -1,0 +1,95 @@
+{
+  "sentences": [
+    {
+      "trans": "independent",
+      "orig": "လွတ်လပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lwatlaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be free",
+        "be independent",
+        "be free from"
+      ],
+      "entry": [
+        {
+          "word": "be free",
+          "score": 0.0068440544
+        },
+        {
+          "word": "be independent"
+        },
+        {
+          "word": "be free from"
+        }
+      ],
+      "base_form": "လွတ်လပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လွတ်လပ်",
+      "alternative": [
+        {
+          "word_postproc": "independent",
+          "score": 771,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "freedom",
+          "score": 227,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "liberalization",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "an independent",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "liberties",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "လွတ်လပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

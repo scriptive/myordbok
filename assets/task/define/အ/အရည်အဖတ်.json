@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "read quality",
+      "orig": "အရည်အဖတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aaraia hpaat"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖတ်",
+      "alternative": [
+        {
+          "word_postproc": "read",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "reading",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "အရည်အဖတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "အရည်အ",
+      "alternative": [
+        {
+          "word_postproc": "quality",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

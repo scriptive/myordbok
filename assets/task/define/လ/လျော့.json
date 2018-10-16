@@ -1,0 +1,109 @@
+{
+  "sentences": [
+    {
+      "trans": "decrease",
+      "orig": "လျော့",
+      "backend": 0
+    },
+    {
+      "src_translit": "lyaww"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "diminish",
+        "fall",
+        "subside",
+        "slacken",
+        "lessen",
+        "be short",
+        "be slack"
+      ],
+      "entry": [
+        {
+          "word": "fall",
+          "reverse_translation": [
+            "ကျ"
+          ],
+          "synset_id": [
+            98687
+          ],
+          "score": 0.0031827807
+        },
+        {
+          "word": "lessen",
+          "reverse_translation": [
+            "အနည်းငယ်စေ"
+          ],
+          "synset_id": [
+            71109,
+            98687
+          ]
+        }
+      ],
+      "base_form": "လျော့",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လျော့",
+      "alternative": [
+        {
+          "word_postproc": "decrease",
+          "score": 800,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "decreased",
+          "score": 133,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "diminished",
+          "score": 66,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "diminished and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "be reduced",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "လျော့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

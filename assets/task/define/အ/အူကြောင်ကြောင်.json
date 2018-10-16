@@ -1,0 +1,53 @@
+{
+  "sentences": [
+    {
+      "trans": "feel lost",
+      "orig": "အူကြောင်ကြောင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "auukyaungkyaung"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အူကြောင်ကြောင်",
+      "alternative": [
+        {
+          "word_postproc": "feel lost",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "look blank and foolish",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "အူကြောင်ကြောင်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

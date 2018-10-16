@@ -1,0 +1,117 @@
+{
+  "sentences": [
+    {
+      "trans": "wipe the edge",
+      "orig": "စွန်သုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcwan sote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "equestrian manoeuvre resembling a swooping kite"
+      ],
+      "entry": [
+        {
+          "word": "equestrian manoeuvre resembling a swooping kite"
+        }
+      ],
+      "base_form": "စွန်သုတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သုတ်",
+      "alternative": [
+        {
+          "word_postproc": "wipe the",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rinse",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "batch",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wipe",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "စွန်သုတ်",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "စွန်",
+      "alternative": [
+        {
+          "word_postproc": "edge",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "kite",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "periphery",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "outskirts",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

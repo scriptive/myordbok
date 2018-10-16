@@ -1,0 +1,71 @@
+{
+  "sentences": [
+    {
+      "trans": "before",
+      "orig": "ခင်ကြီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkain kyee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "monk"
+      ],
+      "entry": [
+        {
+          "word": "monk",
+          "reverse_translation": [
+            "ဘုန်းကြီး"
+          ]
+        }
+      ],
+      "base_form": "ခင်ကြီး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခင်",
+      "alternative": [
+        {
+          "word_postproc": "before",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Khin",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ခင်ကြီး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

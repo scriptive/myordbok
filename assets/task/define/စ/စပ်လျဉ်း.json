@@ -1,0 +1,95 @@
+{
+  "sentences": [
+    {
+      "trans": "Regarding",
+      "orig": "စပ်လျဉ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcautlyain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "relating to",
+        "in connection with",
+        "as regards to"
+      ],
+      "entry": [
+        {
+          "word": "relating to",
+          "score": 0.019194625
+        },
+        {
+          "word": "in connection with"
+        },
+        {
+          "word": "as regards to"
+        }
+      ],
+      "base_form": "စပ်လျဉ်း၍",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စပ်လျဉ်း",
+      "alternative": [
+        {
+          "word_postproc": "Regarding",
+          "score": 940,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Regarding the",
+          "score": 51,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "As regards",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in respect of",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in respect",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "စပ်လျဉ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

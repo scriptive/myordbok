@@ -1,0 +1,100 @@
+{
+  "sentences": [
+    {
+      "trans": "provoke",
+      "orig": "လှုံ့ဆော်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lhuansaw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "stimulate",
+        "provoke",
+        "exhort",
+        "egg sb on"
+      ],
+      "entry": [
+        {
+          "word": "stimulate",
+          "reverse_translation": [
+            "အားပေး"
+          ],
+          "synset_id": [
+            41269
+          ],
+          "score": 0.043936934
+        },
+        {
+          "word": "provoke",
+          "reverse_translation": [
+            "လှုံ့ဆော်"
+          ],
+          "synset_id": [
+            41269
+          ],
+          "score": 0.0044188537
+        }
+      ],
+      "base_form": "လှုံ့ဆော်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လှုံ့ဆော်",
+      "alternative": [
+        {
+          "word_postproc": "provoke",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Inspired to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "motivated",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "moves one",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "လှုံ့ဆော်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

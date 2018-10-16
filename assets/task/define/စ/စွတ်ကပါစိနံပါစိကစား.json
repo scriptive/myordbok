@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "The wet side",
+      "orig": "စွတ်ကပါစိနံပါစိကစား",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcwat k par hci nan par hci kahcarr"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "က",
+      "alternative": [
+        {
+          "word_postproc": "The",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "စွတ်ကပါစိနံပါစိကစား",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "စွတ်",
+      "alternative": [
+        {
+          "word_postproc": "wet",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Dump",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sled",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "နံ",
+      "alternative": [
+        {
+          "word_postproc": "side",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 9,
+          "end": 11
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Mucous",
+      "orig": "အကျိအချွဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aakyai a hkyawal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "slime",
+        "mucous"
+      ],
+      "entry": [
+        {
+          "word": "slime"
+        },
+        {
+          "word": "mucous"
+        }
+      ],
+      "base_form": "အကျိအချွဲ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အကျိ အ ချွဲ",
+      "alternative": [
+        {
+          "word_postproc": "Mucous",
+          "score": 601,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Slime",
+          "score": 398,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အကျိအချွဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

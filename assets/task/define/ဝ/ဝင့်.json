@@ -1,0 +1,101 @@
+{
+  "sentences": [
+    {
+      "trans": "Full",
+      "orig": "ဝင့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "w in "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "brandish",
+        "wave",
+        "spin",
+        "boast"
+      ],
+      "entry": [
+        {
+          "word": "wave",
+          "reverse_translation": [
+            "လှုိူင်းထားစေ"
+          ],
+          "synset_id": [
+            7325
+          ]
+        },
+        {
+          "word": "spin",
+          "reverse_translation": [
+            "ချည်ငင်"
+          ]
+        },
+        {
+          "word": "boast",
+          "reverse_translation": [
+            "ကြွားဝါပေြာဆို"
+          ]
+        }
+      ],
+      "base_form": "ဝင့်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝ",
+      "alternative": [
+        {
+          "word_postproc": "Full",
+          "score": 921,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Entrance",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Filled",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Wa",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 1
+        }
+      ],
+      "raw_src_segment": "ဝင့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

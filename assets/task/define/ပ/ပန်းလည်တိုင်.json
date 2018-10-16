@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Neck",
+      "orig": "ပန်းလည်တိုင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "paann lai tine"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "pole used as a pivot to describe a circle."
+      ],
+      "entry": [
+        {
+          "word": "pole used as a pivot to describe a circle."
+        }
+      ],
+      "base_form": "ပန်းလည်တိုင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လည် တိုင်",
+      "alternative": [
+        {
+          "word_postproc": "Neck",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ပန်းလည်တိုင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

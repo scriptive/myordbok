@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "torso",
+      "orig": "ကိုယ်ထည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "ko htai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "torso",
+        "the body"
+      ],
+      "entry": [
+        {
+          "word": "torso",
+          "reverse_translation": [
+            "ကိုယ်ထည်"
+          ],
+          "synset_id": [
+            111597
+          ]
+        }
+      ],
+      "base_form": "ကိုယ်ထည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိုယ် ထည်",
+      "alternative": [
+        {
+          "word_postproc": "torso",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "body size",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "chassis and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the hull",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Body",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကိုယ်ထည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

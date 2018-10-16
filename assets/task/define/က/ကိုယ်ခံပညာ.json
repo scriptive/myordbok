@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "Martial Arts",
+      "orig": "ကိုယ်ခံပညာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "ko hkan panyar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "",
+      "terms": [
+        "art of self-defence"
+      ],
+      "entry": [
+        {
+          "word": "art of self-defence"
+        }
+      ],
+      "base_form": "ကိုယ်ခံပညာ",
+      "pos_enum": 20
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိုယ် ခံ ပညာ",
+      "alternative": [
+        {
+          "word_postproc": "Martial Arts",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Martial",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Martial art",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "To martial arts",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Martial art that",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ကိုယ်ခံပညာ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

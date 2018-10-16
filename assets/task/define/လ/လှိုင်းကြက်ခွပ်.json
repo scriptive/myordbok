@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Choppy sea",
+      "orig": "လှိုင်းကြက်ခွပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lhaine kyaat hkwut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "cross sea",
+        "choppy sea"
+      ],
+      "entry": [
+        {
+          "word": "cross sea"
+        },
+        {
+          "word": "choppy sea"
+        }
+      ],
+      "base_form": "လှိုင်းကြက်ခွပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လှိုင်း ကြက် ခွပ်",
+      "alternative": [
+        {
+          "word_postproc": "Choppy sea",
+          "score": 963,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Cross sea",
+          "score": 36,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "လှိုင်းကြက်ခွပ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

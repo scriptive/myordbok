@@ -1,0 +1,101 @@
+{
+  "sentences": [
+    {
+      "trans": "fleetingly",
+      "orig": "ဖျတ်ခနဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpyathkanell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "suddently",
+        "unexpectedly",
+        "fleetingly",
+        "in a fleeting manner"
+      ],
+      "entry": [
+        {
+          "word": "suddently",
+          "score": 0.077111721
+        },
+        {
+          "word": "unexpectedly",
+          "score": 0.077111721
+        },
+        {
+          "word": "fleetingly",
+          "score": 0.077111721
+        },
+        {
+          "word": "in a fleeting manner"
+        }
+      ],
+      "base_form": "ဖျတ်ခနဲ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖျတ်ခနဲ",
+      "alternative": [
+        {
+          "word_postproc": "fleetingly",
+          "score": 908,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "suddently",
+          "score": 88,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "unexpectedly",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fleeting manner",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a fleeting manner",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဖျတ်ခနဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

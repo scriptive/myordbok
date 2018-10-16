@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "grocery",
+      "orig": "ကုန်ခြောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kone hkyawwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "dry goods"
+      ],
+      "entry": [
+        {
+          "word": "dry goods"
+        }
+      ],
+      "base_form": "ကုန်ခြောက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကုန် ခြောက်",
+      "alternative": [
+        {
+          "word_postproc": "grocery",
+          "score": 804,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "dry goods",
+          "score": 195,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ကုန်ခြောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

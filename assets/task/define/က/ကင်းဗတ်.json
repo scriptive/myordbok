@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "canvas",
+      "orig": "ကင်းဗတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kainn baat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "canvas"
+      ],
+      "entry": [
+        {
+          "word": "canvas",
+          "reverse_translation": [
+            "ပိုက်ဆံချည်ထည်ပိတ်",
+            "ရွက်တည်ကား"
+          ]
+        }
+      ],
+      "base_form": "ကင်းဗတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကင်း ဗတ်",
+      "alternative": [
+        {
+          "word_postproc": "canvas",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကင်းဗတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

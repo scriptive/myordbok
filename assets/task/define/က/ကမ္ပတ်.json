@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "trim",
+      "orig": "ကမ္ပတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kam paat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "trim",
+        "concluding paragraph in a palm-leaf manuscript"
+      ],
+      "entry": [
+        {
+          "word": "trim"
+        },
+        {
+          "word": "concluding paragraph in a palm-leaf manuscript"
+        }
+      ],
+      "base_form": "ကမ္ပတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကမ္ ပတ်",
+      "alternative": [
+        {
+          "word_postproc": "trim",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ကမ္ပတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

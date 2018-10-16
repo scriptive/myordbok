@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "As a token of",
+      "orig": "ဖြစ်ဆန်းကာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpyit saann kar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "as a token of",
+        "in name only"
+      ],
+      "entry": [
+        {
+          "word": "as a token of"
+        },
+        {
+          "word": "in name only"
+        }
+      ],
+      "base_form": "ဖြစ်ဆန်းကာ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖြစ် ဆန်း ကာ",
+      "alternative": [
+        {
+          "word_postproc": "As a token of",
+          "score": 989,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "In name",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A token of",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ဖြစ်ဆန်းကာ",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

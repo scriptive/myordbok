@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "Swell",
+      "orig": "ဘောင်ဘင်ဝေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "bhaung bhain way"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "swell"
+      ],
+      "entry": [
+        {
+          "word": "swell",
+          "reverse_translation": [
+            "ပွခြင်း"
+          ]
+        }
+      ],
+      "base_form": "ဘောင်ဘင်ဝေ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘောင် ဘင် ဝေ",
+      "alternative": [
+        {
+          "word_postproc": "Swell",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ဘောင်ဘင်ဝေ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

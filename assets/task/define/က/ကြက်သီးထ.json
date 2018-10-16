@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Goose pimples",
+      "orig": "ကြက်သီးထ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaat see ht"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "have goose-flesh",
+        "have goose pimples"
+      ],
+      "entry": [
+        {
+          "word": "have goose-flesh"
+        },
+        {
+          "word": "have goose pimples"
+        }
+      ],
+      "base_form": "ကြက်သီးထ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြက် သီး ထ",
+      "alternative": [
+        {
+          "word_postproc": "Goose pimples",
+          "score": 996,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Have goose pimples",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကြက်သီးထ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "sentences": [
+    {
+      "trans": "hero",
+      "orig": "သူရဲကောင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "suurellkaungg"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "hero",
+        "gallant",
+        "man of moral and physical courage"
+      ],
+      "entry": [
+        {
+          "word": "hero",
+          "reverse_translation": [
+            "သူရဲကောင်း"
+          ],
+          "synset_id": [
+            12946
+          ],
+          "score": 0.23752081
+        }
+      ],
+      "base_form": "သူရဲကောင်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သူရဲကောင်း",
+      "alternative": [
+        {
+          "word_postproc": "hero",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hero in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hero Momo",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a hero",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hero and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "သူရဲကောင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

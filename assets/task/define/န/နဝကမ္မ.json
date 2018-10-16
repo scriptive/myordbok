@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "နဝကမ္မ",
+      "orig": "နဝကမ္မ",
+      "backend": 0
+    },
+    {
+      "src_translit": "nawakamm"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "sundry needs of a monk"
+      ],
+      "entry": [
+        {
+          "word": "sundry needs of a monk"
+        }
+      ],
+      "base_form": "နဝကမ္မ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နဝကမ္မ",
+      "alternative": [
+        {
+          "word_postproc": "နဝကမ္မ",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "နဝကမ္မ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

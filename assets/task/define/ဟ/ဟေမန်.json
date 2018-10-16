@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "Heman",
+      "orig": "ဟေမန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hay maan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "cold season",
+        "forest perpetually covered with snow"
+      ],
+      "entry": [
+        {
+          "word": "cold season"
+        },
+        {
+          "word": "forest perpetually covered with snow"
+        }
+      ],
+      "base_form": "ဟေမန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဟေ မန်",
+      "alternative": [
+        {
+          "word_postproc": "Heman",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and Heman",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cold season",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Heman the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဟေမန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "men",
+      "orig": "ယောက်ျား",
+      "backend": 0
+    },
+    {
+      "src_translit": "youtyarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "man",
+        "male",
+        "husband"
+      ],
+      "entry": [
+        {
+          "word": "man",
+          "reverse_translation": [
+            "လူယောကျ်ား"
+          ],
+          "score": 0.12131377
+        },
+        {
+          "word": "husband",
+          "reverse_translation": [
+            "ယောကျ်ား"
+          ],
+          "score": 0.027928013
+        }
+      ],
+      "base_form": "ယောက်ျား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယောက်ျား",
+      "alternative": [
+        {
+          "word_postproc": "men",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "male",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "husband",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "males",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a man",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ယောက်ျား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

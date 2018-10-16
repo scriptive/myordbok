@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "sincerity",
+      "orig": "ကြည်ဖြူ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyihpyauu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "approve",
+        "be cordial",
+        "be agreeable"
+      ],
+      "entry": [
+        {
+          "word": "approve",
+          "reverse_translation": [
+            "သဘောကြိုက်ညီ"
+          ],
+          "score": 0.014717029
+        }
+      ],
+      "base_form": "ကြည်ဖြူ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြည်ဖြူ",
+      "alternative": [
+        {
+          "word_postproc": "sincerity",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in sincerity",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "agreeable",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sincerity and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sincerity and truth",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကြည်ဖြူ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

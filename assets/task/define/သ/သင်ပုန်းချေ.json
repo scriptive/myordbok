@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "Forgive you",
+      "orig": "သင်ပုန်းချေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "sain pone hkyaay"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "prepare a wooden tablet for writing by cleaning and then coating with a mixture of \"congee\" and soot",
+        "remit all debts",
+        "forgive mistakes",
+        "make a clean slate"
+      ],
+      "entry": [
+        {
+          "word": "prepare a wooden tablet for writing by cleaning and then coating with a mixture of \"congee\" and soot"
+        },
+        {
+          "word": "remit all debts"
+        },
+        {
+          "word": "forgive mistakes"
+        },
+        {
+          "word": "make a clean slate"
+        }
+      ],
+      "base_form": "သင်ပုန်းချေ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပုန်း ချေ",
+      "alternative": [
+        {
+          "word_postproc": "Forgive",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "သင်ပုန်းချေ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "သင်",
+      "alternative": [
+        {
+          "word_postproc": "you",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

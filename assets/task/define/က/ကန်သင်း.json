@@ -1,0 +1,67 @@
+{
+  "sentences": [
+    {
+      "trans": "paddy dyke",
+      "orig": "ကန်သင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "kaansainn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "paddy dyke",
+        "small embankment built around paddy plots"
+      ],
+      "entry": [
+        {
+          "word": "paddy dyke",
+          "score": 0.10539922
+        },
+        {
+          "word": "small embankment built around paddy plots"
+        }
+      ],
+      "base_form": "ကန်သင်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကန်သင်း",
+      "alternative": [
+        {
+          "word_postproc": "paddy dyke",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကန်သင်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "sentences": [
+    {
+      "trans": "silversmiths",
+      "orig": "ပန်းထိမ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "paann htain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "art of making items in gold,silver",
+        "goldsmith",
+        "silversmith"
+      ],
+      "entry": [
+        {
+          "word": "art of making items in gold,silver"
+        },
+        {
+          "word": "goldsmith"
+        },
+        {
+          "word": "silversmith"
+        }
+      ],
+      "base_form": "ပန်းထိမ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပန်း ထိမ်",
+      "alternative": [
+        {
+          "word_postproc": "silversmiths",
+          "score": 781,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "silversmith",
+          "score": 129,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "goldsmith",
+          "score": 88,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the silversmiths",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ပန်းထိမ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

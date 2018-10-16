@@ -1,0 +1,106 @@
+{
+  "sentences": [
+    {
+      "trans": "accept",
+      "orig": "လက်ခံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "laathkan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "accept",
+        "receive",
+        "accommodate",
+        "harbour sb"
+      ],
+      "entry": [
+        {
+          "word": "accept",
+          "reverse_translation": [
+            "သဘောတူလက်ခံ"
+          ],
+          "score": 0.088755049
+        },
+        {
+          "word": "receive",
+          "reverse_translation": [
+            "ခံယူ"
+          ],
+          "score": 0.043936934
+        },
+        {
+          "word": "accommodate",
+          "reverse_translation": [
+            "သင့်လေျာ်အောင်ပြု"
+          ]
+        }
+      ],
+      "base_form": "လက်ခံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လက်ခံ",
+      "alternative": [
+        {
+          "word_postproc": "accept",
+          "score": 813,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "accepted",
+          "score": 168,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "acceptable",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to accept",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "accept the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "လက်ခံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

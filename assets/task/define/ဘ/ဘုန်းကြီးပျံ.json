@@ -1,0 +1,103 @@
+{
+  "sentences": [
+    {
+      "trans": "Monk fly",
+      "orig": "ဘုန်းကြီးပျံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "bhonekyee pyaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "ceremonial cremation of a monk's relics",
+        "obsequies accorded a departed monk"
+      ],
+      "entry": [
+        {
+          "word": "ceremonial cremation of a monk's relics"
+        },
+        {
+          "word": "obsequies accorded a departed monk"
+        }
+      ],
+      "base_form": "ဘုန်းကြီးပျံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘုန်းကြီး",
+      "alternative": [
+        {
+          "word_postproc": "Monk",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "glorious in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "great glory",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ဘုန်းကြီးပျံ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ပျံ",
+      "alternative": [
+        {
+          "word_postproc": "fly",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "flying",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 9,
+          "end": 12
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

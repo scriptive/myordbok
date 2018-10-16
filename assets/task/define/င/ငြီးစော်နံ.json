@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Nauseated",
+      "orig": "ငြီးစော်နံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "ngyee hcaw nan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "nauseated",
+        "be nauseating"
+      ],
+      "entry": [
+        {
+          "word": "nauseated"
+        },
+        {
+          "word": "be nauseating"
+        }
+      ],
+      "base_form": "ငြီးစော်နံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ငြီး စော် နံ",
+      "alternative": [
+        {
+          "word_postproc": "Nauseated",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Nauseating",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ငြီးစော်နံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

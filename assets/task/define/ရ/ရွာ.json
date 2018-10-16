@@ -1,0 +1,110 @@
+{
+  "sentences": [
+    {
+      "trans": "village",
+      "orig": "ရွာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "rwar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "village",
+        "abode"
+      ],
+      "entry": [
+        {
+          "word": "village",
+          "reverse_translation": [
+            "ရွာ"
+          ],
+          "synset_id": [
+            1123
+          ],
+          "score": 0.17377394
+        }
+      ],
+      "base_form": "ရွာ",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "fall"
+      ],
+      "entry": [
+        {
+          "word": "fall",
+          "reverse_translation": [
+            "ကျ"
+          ]
+        }
+      ],
+      "base_form": "ရွာ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရွာ",
+      "alternative": [
+        {
+          "word_postproc": "village",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the village of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "their villages",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the village",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the villages",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ရွာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

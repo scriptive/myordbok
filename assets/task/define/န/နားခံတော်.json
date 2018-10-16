@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "His ears",
+      "orig": "နားခံတော်",
+      "backend": 0
+    },
+    {
+      "src_translit": "narr hkan taw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "officer who presents applications, petitions etc to the king for decision and relays king's orders to persons concerned"
+      ],
+      "entry": [
+        {
+          "word": "officer who presents applications, petitions etc to the king for decision and relays king's orders to persons concerned"
+        }
+      ],
+      "base_form": "နားခံတော်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တော်",
+      "alternative": [
+        {
+          "word_postproc": "His",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Before",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "He",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "နားခံတော်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "နား",
+      "alternative": [
+        {
+          "word_postproc": "ears",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ear",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

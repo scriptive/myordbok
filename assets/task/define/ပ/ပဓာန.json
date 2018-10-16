@@ -1,0 +1,96 @@
+{
+  "sentences": [
+    {
+      "trans": "overriding",
+      "orig": "ပဓာန",
+      "backend": 0
+    },
+    {
+      "src_translit": "padharn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "what is essential",
+        "essence",
+        "what is fundamental: decisive factor"
+      ],
+      "entry": [
+        {
+          "word": "what is essential",
+          "score": 0.0093547134
+        },
+        {
+          "word": "essence",
+          "score": 0.0093547134
+        },
+        {
+          "word": "what is fundamental: decisive factor"
+        }
+      ],
+      "base_form": "ပဓာန",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပဓာန",
+      "alternative": [
+        {
+          "word_postproc": "overriding",
+          "score": 803,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Override",
+          "score": 196,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "what is essential",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "most important factor",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a decisive factor",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ပဓာန",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

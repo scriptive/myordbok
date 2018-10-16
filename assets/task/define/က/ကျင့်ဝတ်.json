@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "ethics",
+      "orig": "ကျင့်ဝတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyang waat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "rules of conduct",
+        "moral code."
+      ],
+      "entry": [
+        {
+          "word": "rules of conduct"
+        },
+        {
+          "word": "moral code."
+        }
+      ],
+      "base_form": "ကျင့်ဝတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျင့် ဝတ်",
+      "alternative": [
+        {
+          "word_postproc": "ethics",
+          "score": 991,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ethical",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of ethics",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rules of conduct",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "moral code",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကျင့်ဝတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

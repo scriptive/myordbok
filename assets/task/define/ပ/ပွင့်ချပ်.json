@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "Petal",
+      "orig": "ပွင့်ချပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pw in  hkyaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "petal"
+      ],
+      "entry": [
+        {
+          "word": "petal",
+          "reverse_translation": [
+            "ပွင့်လွှာ"
+          ]
+        }
+      ],
+      "base_form": "ပွင့်ချပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပွ င့ ် ချပ်",
+      "alternative": [
+        {
+          "word_postproc": "Petal",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ပွင့်ချပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

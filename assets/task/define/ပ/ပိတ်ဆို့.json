@@ -1,0 +1,110 @@
+{
+  "sentences": [
+    {
+      "trans": "block",
+      "orig": "ပိတ်ဆို့",
+      "backend": 0
+    },
+    {
+      "src_translit": "pateshoet"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "block",
+        "plug",
+        "stop",
+        "barricade"
+      ],
+      "entry": [
+        {
+          "word": "block",
+          "reverse_translation": [
+            "ပိတ်ဆို့"
+          ],
+          "synset_id": [
+            66463
+          ],
+          "score": 0.10539922
+        },
+        {
+          "word": "plug",
+          "reverse_translation": [
+            "ပိတ်ဆို့"
+          ],
+          "synset_id": [
+            115548
+          ],
+          "score": 0.0012270713
+        },
+        {
+          "word": "stop",
+          "reverse_translation": [
+            "ပိတ်ဆို့"
+          ],
+          "synset_id": [
+            66463
+          ],
+          "score": 0.0012270713
+        }
+      ],
+      "base_form": "ပိတ်ဆို့",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပိတ်ဆို့",
+      "alternative": [
+        {
+          "word_postproc": "block",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "blocked",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "be blocked",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "block the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ပိတ်ဆို့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

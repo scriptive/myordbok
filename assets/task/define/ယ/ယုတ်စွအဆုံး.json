@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "At least",
+      "orig": "ယုတ်စွအဆုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "yote hcw a sone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "at least"
+      ],
+      "entry": [
+        {
+          "word": "at least"
+        }
+      ],
+      "base_form": "ယုတ်စွအဆုံး",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယုတ် စွ အ ဆုံး",
+      "alternative": [
+        {
+          "word_postproc": "At least",
+          "score": 924,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Least",
+          "score": 75,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ယုတ်စွအဆုံး",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

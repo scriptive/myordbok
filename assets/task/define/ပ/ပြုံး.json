@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "smile",
+      "orig": "ပြုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyuan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "smile",
+        "proliferate",
+        "grow"
+      ],
+      "entry": [
+        {
+          "word": "smile",
+          "reverse_translation": [
+            "ပြံုးရယ်"
+          ],
+          "score": 0.10705902
+        },
+        {
+          "word": "grow",
+          "reverse_translation": [
+            "ပေါက်ပွါး"
+          ]
+        }
+      ],
+      "base_form": "ပြုံး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြုံး",
+      "alternative": [
+        {
+          "word_postproc": "smile",
+          "score": 904,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "SMILING",
+          "score": 80,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to smile",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "smiled",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ပြုံး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

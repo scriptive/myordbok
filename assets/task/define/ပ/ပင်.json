@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "Even",
+      "orig": "ပင်",
+      "backend": 1
+    },
+    {
+      "src_translit": "pain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "even"
+      ],
+      "entry": [
+        {
+          "word": "even",
+          "reverse_translation": [
+            "ပင်"
+          ],
+          "score": 0.14406367
+        }
+      ],
+      "base_form": "ပင်",
+      "pos_enum": 4
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "tree",
+        "plant",
+        "anything long such as hair,thread,post,etc",
+        "particle suffixed to a word for emphasis"
+      ],
+      "entry": [
+        {
+          "word": "tree",
+          "reverse_translation": [
+            "သစ်ပင်"
+          ],
+          "score": 0.050571099
+        },
+        {
+          "word": "plant",
+          "reverse_translation": [
+            "စက်ရုံ",
+            "စက်တန်းဆာကိရိယာ"
+          ],
+          "score": 0.024646387
+        }
+      ],
+      "base_form": "ပင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပင်",
+      "alternative": [
+        {
+          "word_postproc": "Even",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ပင်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

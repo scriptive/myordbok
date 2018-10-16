@@ -1,0 +1,118 @@
+{
+  "sentences": [
+    {
+      "trans": "sow",
+      "orig": "ကြဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "cast",
+        "scatter",
+        "do",
+        "perform"
+      ],
+      "entry": [
+        {
+          "word": "cast",
+          "reverse_translation": [
+            "သွန်းပုံ"
+          ],
+          "score": 0.012011689
+        },
+        {
+          "word": "scatter",
+          "reverse_translation": [
+            "ကြဲဖြန့်"
+          ],
+          "score": 0.0071725072
+        },
+        {
+          "word": "do",
+          "reverse_translation": [
+            "ပြုလုပ်"
+          ],
+          "synset_id": [
+            58222
+          ]
+        },
+        {
+          "word": "perform",
+          "reverse_translation": [
+            "လုပ်ဆောင်"
+          ],
+          "synset_id": [
+            58222
+          ]
+        }
+      ],
+      "base_form": "ကြဲ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြဲ",
+      "alternative": [
+        {
+          "word_postproc": "sow",
+          "score": 521,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sowing",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Sown",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sowed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sow the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ကြဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

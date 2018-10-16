@@ -1,0 +1,115 @@
+{
+  "sentences": [
+    {
+      "trans": "gathering",
+      "orig": "အစည်းအရုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "aahcaeeaarone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "union",
+        "organization",
+        "association",
+        "league",
+        "gathering"
+      ],
+      "entry": [
+        {
+          "word": "union",
+          "reverse_translation": [
+            "ပြည်ထောင်စု"
+          ],
+          "score": 0.011642128
+        },
+        {
+          "word": "organization",
+          "reverse_translation": [
+            "အဖဲွ့အစည်း"
+          ],
+          "score": 0.0096516637
+        },
+        {
+          "word": "association",
+          "reverse_translation": [
+            "အသင်း"
+          ],
+          "score": 0.0038391664
+        },
+        {
+          "word": "gathering",
+          "reverse_translation": [
+            "အစည်းအရုံး"
+          ],
+          "score": 0.0038391664
+        }
+      ],
+      "base_form": "အစည်းအရုံး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အစည်းအရုံး",
+      "alternative": [
+        {
+          "word_postproc": "gathering",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "'s Organization",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Association",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Association of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "'s Associaon",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "အစည်းအရုံး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

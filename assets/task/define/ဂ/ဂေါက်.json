@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "Golf",
+      "orig": "ဂေါက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "gout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "golf"
+      ],
+      "entry": [
+        {
+          "word": "golf",
+          "reverse_translation": [
+            "ဂေါက်သီး"
+          ],
+          "score": 0.20636167
+        }
+      ],
+      "base_form": "ဂေါက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဂေါက်",
+      "alternative": [
+        {
+          "word_postproc": "Golf",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Pitch",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Golf Course",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Match",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဂေါက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "sentences": [
+    {
+      "trans": "opium",
+      "orig": "ဘိန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "bhein"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "opium",
+        "opium poppy.Papaver somniferum"
+      ],
+      "entry": [
+        {
+          "word": "opium",
+          "score": 0.30025443
+        },
+        {
+          "word": "opium poppy.Papaver somniferum"
+        }
+      ],
+      "base_form": "ဘိန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘိန်း",
+      "alternative": [
+        {
+          "word_postproc": "opium",
+          "score": 992,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of opium",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "poppy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "opium poppy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဘိန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

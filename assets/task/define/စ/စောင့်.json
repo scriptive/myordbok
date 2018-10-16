@@ -1,0 +1,114 @@
+{
+  "sentences": [
+    {
+      "trans": "wait",
+      "orig": "စောင့်",
+      "backend": 1
+    },
+    {
+      "src_translit": "hcaung"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "watch",
+        "wait",
+        "observe",
+        "watch over",
+        "wait for",
+        "keep guard",
+        "adhere to",
+        "control",
+        "restrain"
+      ],
+      "entry": [
+        {
+          "word": "watch",
+          "reverse_translation": [
+            "ကြည့်",
+            "စောင့်",
+            "စောင့်ကြည့်"
+          ],
+          "synset_id": [
+            106867
+          ],
+          "score": 0.030197384
+        },
+        {
+          "word": "wait",
+          "reverse_translation": [
+            "စောင့်"
+          ],
+          "score": 0.016163494
+        },
+        {
+          "word": "observe",
+          "reverse_translation": [
+            "ရှုမြင် ၊ စောင့်ရေှာက်"
+          ],
+          "synset_id": [
+            106867
+          ],
+          "score": 0.01382537
+        },
+        {
+          "word": "control",
+          "reverse_translation": [
+            "ကြီးကြပ်"
+          ]
+        },
+        {
+          "word": "restrain",
+          "reverse_translation": [
+            "ဟန့်ထား"
+          ]
+        }
+      ],
+      "base_form": "စောင့်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စောင့်",
+      "alternative": [
+        {
+          "word_postproc": "wait",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "watch",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "စောင့်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

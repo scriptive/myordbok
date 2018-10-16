@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "daily ritual",
+      "orig": "နိစ္စဓူဝ",
+      "backend": 0
+    },
+    {
+      "src_translit": "nihchcadhuuw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "always"
+      ],
+      "entry": [
+        {
+          "word": "always",
+          "reverse_translation": [
+            "အမြဲ"
+          ],
+          "score": 0.10539922
+        }
+      ],
+      "base_form": "နိစ္စဓူဝ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နိစ္စဓူဝ",
+      "alternative": [
+        {
+          "word_postproc": "daily ritual",
+          "score": 676,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a daily ritual",
+          "score": 174,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "always",
+          "score": 148,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a daily ritual for",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "daily ritual for",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "နိစ္စဓူဝ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

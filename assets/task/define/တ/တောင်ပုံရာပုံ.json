@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "In abundance",
+      "orig": "တောင်ပုံရာပုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "taung pone rar pone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in abundance"
+      ],
+      "entry": [
+        {
+          "word": "in abundance"
+        }
+      ],
+      "base_form": "တောင်ပုံရာပုံ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တောင် ပုံ ရာ ပုံ",
+      "alternative": [
+        {
+          "word_postproc": "In abundance",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "တောင်ပုံရာပုံ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

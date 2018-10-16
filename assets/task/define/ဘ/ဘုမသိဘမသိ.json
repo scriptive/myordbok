@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "Total ignorance",
+      "orig": "ဘုမသိဘမသိ",
+      "backend": 0
+    },
+    {
+      "src_translit": "bhumasi bh masi"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in total ignorance",
+        "withouf a clue",
+        "without knowing anything"
+      ],
+      "entry": [
+        {
+          "word": "in total ignorance"
+        },
+        {
+          "word": "withouf a clue"
+        },
+        {
+          "word": "without knowing anything"
+        }
+      ],
+      "base_form": "ဘုမသိဘမသိ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘုမသိ ဘ မသိ",
+      "alternative": [
+        {
+          "word_postproc": "Total ignorance",
+          "score": 989,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Without knowing anything",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "In total ignorance",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ဘုမသိဘမသိ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

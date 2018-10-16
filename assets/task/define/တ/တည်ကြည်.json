@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "steadfast",
+      "orig": "တည်ကြည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "tai kyi"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be steady in mind and stable in character",
+        "be staid"
+      ],
+      "entry": [
+        {
+          "word": "be steady in mind and stable in character"
+        },
+        {
+          "word": "be staid"
+        }
+      ],
+      "base_form": "တည်ကြည်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တည် ကြည်",
+      "alternative": [
+        {
+          "word_postproc": "steadfast",
+          "score": 984,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "be steadfast",
+          "score": 11,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "stand fast",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "steadfast to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "တည်ကြည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

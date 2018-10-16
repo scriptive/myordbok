@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "experience",
+      "orig": "ကြုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyuan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "thin",
+        "skinny"
+      ],
+      "entry": [
+        {
+          "word": "thin",
+          "reverse_translation": [
+            "ပါးသော",
+            "ပိန်သော"
+          ]
+        },
+        {
+          "word": "skinny",
+          "reverse_translation": [
+            "ပိန်လှီသော"
+          ]
+        }
+      ],
+      "base_form": "ကြုံ",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြုံ",
+      "alternative": [
+        {
+          "word_postproc": "experience",
+          "score": 964,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "experienced",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "experiences",
+          "score": 14,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "partner",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "destined",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကြုံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

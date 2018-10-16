@@ -1,0 +1,144 @@
+{
+  "sentences": [
+    {
+      "trans": "Anders",
+      "orig": "အန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "vomit",
+        "overflow",
+        "spill over",
+        "retch",
+        "bring up",
+        "induce vomiting",
+        "discard",
+        "forswear",
+        "unburden oneself"
+      ],
+      "entry": [
+        {
+          "word": "vomit",
+          "reverse_translation": [
+            "အော့အန်"
+          ],
+          "synset_id": [
+            22297
+          ],
+          "score": 0.04825528
+        },
+        {
+          "word": "overflow",
+          "reverse_translation": [
+            "ပြည့်လှျံ"
+          ],
+          "synset_id": [
+            110851
+          ]
+        }
+      ],
+      "base_form": "အန်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "dice",
+        "strength",
+        "power",
+        "game played with dice",
+        "type of song sung by raftmen",
+        "song chanted when throwing dice"
+      ],
+      "entry": [
+        {
+          "word": "dice",
+          "reverse_translation": [
+            "အန်စာ"
+          ],
+          "score": 0.0037210477
+        },
+        {
+          "word": "strength",
+          "reverse_translation": [
+            "ခွန်အား"
+          ]
+        },
+        {
+          "word": "power",
+          "reverse_translation": [
+            "စွမ်းအား"
+          ]
+        }
+      ],
+      "base_form": "အန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အန်",
+      "alternative": [
+        {
+          "word_postproc": "Anders",
+          "score": 921,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Anna",
+          "score": 77,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "vomiting",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Antonia",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "vomit",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "အန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

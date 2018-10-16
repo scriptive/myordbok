@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "Blind snake",
+      "orig": "ဆင်ပစ်မြွေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "sain pait myaway"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "blind snake",
+        "worm snake"
+      ],
+      "entry": [
+        {
+          "word": "blind snake",
+          "synset_id": [
+            46404
+          ]
+        },
+        {
+          "word": "worm snake",
+          "synset_id": [
+            46404
+          ]
+        }
+      ],
+      "base_form": "ဆင်ပစ်မြွေ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆင် ပစ် မြွေ",
+      "alternative": [
+        {
+          "word_postproc": "Blind snake",
+          "score": 844,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Worm snake",
+          "score": 155,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ဆင်ပစ်မြွေ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "Reverse ပြိ",
+      "orig": "ပြောင်းပြိပြောင်းပြန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyaungg pyai pyaunggpyan"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြောင်းပြန်",
+      "alternative": [
+        {
+          "word_postproc": "Reverse",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Conversely",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Inverse",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Reversed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 10,
+          "end": 21
+        }
+      ],
+      "raw_src_segment": "ပြောင်းပြိပြောင်းပြန်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ပြိ",
+      "alternative": [
+        {
+          "word_postproc": "ပြိ",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 10
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

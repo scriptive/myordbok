@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "yours truly",
+      "orig": "သင့်",
+      "backend": 1
+    },
+    {
+      "src_translit": "saint"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "should",
+        "be proper",
+        "suitable",
+        "becoming",
+        "agree with",
+        "get on well",
+        "be acceptable",
+        "be passable",
+        "fair",
+        "befall",
+        "come to",
+        "arrive",
+        "be hit",
+        "be struck by",
+        "live as man and wife",
+        "particle suffixed to a verb to denote propriety, necessity,pertinence"
+      ],
+      "entry": [
+        {
+          "word": "should",
+          "reverse_translation": [
+            "သင့်"
+          ],
+          "score": 0.04901519
+        },
+        {
+          "word": "arrive",
+          "reverse_translation": [
+            "ရောက်လာ"
+          ]
+        }
+      ],
+      "base_form": "သင့်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သင့်",
+      "alternative": [
+        {
+          "word_postproc": "yours truly",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "should",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "သင့်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "just",
+      "orig": "ကုန်ရုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kone rone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "warehouse",
+        "goods shed"
+      ],
+      "entry": [
+        {
+          "word": "warehouse",
+          "reverse_translation": [
+            "ကုန်လေှာင်ရုံ"
+          ]
+        }
+      ],
+      "base_form": "ကုန်ရုံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရုံ",
+      "alternative": [
+        {
+          "word_postproc": "just",
+          "score": 507,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Factory",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "simply",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကုန်ရုံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

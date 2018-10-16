@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "ပွဲသိမ်း",
+      "orig": "ပွဲသိမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "pwalsaim"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "terminate a first day stage show"
+      ],
+      "entry": [
+        {
+          "word": "terminate a first day stage show"
+        }
+      ],
+      "base_form": "ပွဲသိမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပွဲသိမ်း",
+      "alternative": [
+        {
+          "word_postproc": "ပွဲသိမ်း",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ပွဲသိမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

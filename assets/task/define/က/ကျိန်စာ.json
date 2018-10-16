@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "curse",
+      "orig": "ကျိန်စာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyanehcar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "curse.",
+        "curse"
+      ],
+      "entry": [
+        {
+          "word": "curse.",
+          "reverse_translation": [
+            "ကျိန်စာ"
+          ],
+          "score": 0.24891968
+        },
+        {
+          "word": "curse",
+          "reverse_translation": [
+            "ကျိန်စာ"
+          ],
+          "score": 0.24891968
+        }
+      ],
+      "base_form": "ကျိန်စာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျိန်စာ",
+      "alternative": [
+        {
+          "word_postproc": "curse",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "been cursed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "break the curse until",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "curse is",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကျိန်စာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

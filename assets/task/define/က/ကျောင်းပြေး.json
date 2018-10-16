@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "truant",
+      "orig": "ကျောင်းပြေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaunggpyay"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "truant"
+      ],
+      "entry": [
+        {
+          "word": "truant",
+          "score": 0.12131377
+        }
+      ],
+      "base_form": "ကျောင်းပြေး",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "play truant",
+        "stay away from school,class"
+      ],
+      "entry": [
+        {
+          "word": "play truant",
+          "score": 0.040005032
+        },
+        {
+          "word": "stay away from school,class"
+        }
+      ],
+      "base_form": "ကျောင်းပြေး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျောင်းပြေး",
+      "alternative": [
+        {
+          "word_postproc": "truant",
+          "score": 909,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "play truant",
+          "score": 90,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "school",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "school and go",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ကျောင်းပြေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

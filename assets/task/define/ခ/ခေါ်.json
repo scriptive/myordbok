@@ -1,0 +1,119 @@
+{
+  "sentences": [
+    {
+      "trans": "call",
+      "orig": "ခေါ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "call",
+        "name",
+        "be called",
+        "call,beckon to sb",
+        "fetch,send for sb",
+        "call out to sb by name",
+        "be on speaking terms",
+        "take,bring sb along"
+      ],
+      "entry": [
+        {
+          "word": "call",
+          "reverse_translation": [
+            "ခေါ်ဝေါ်",
+            "အလည်အပတ်သွားရောက်",
+            "တယ်လီဖုန်းဆက်"
+          ],
+          "synset_id": [
+            105420
+          ],
+          "score": 0.088755049
+        }
+      ],
+      "base_form": "ခေါ်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "adverb",
+      "terms": [
+        "otherwise",
+        "alias"
+      ],
+      "entry": [
+        {
+          "word": "otherwise",
+          "reverse_translation": [
+            "အခြားနည်းအားဖြင့်"
+          ]
+        }
+      ],
+      "base_form": "ခေါ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခေါ်",
+      "alternative": [
+        {
+          "word_postproc": "call",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "called",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "called the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "call the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and called",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ခေါ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

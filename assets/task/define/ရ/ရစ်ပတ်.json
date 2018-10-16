@@ -1,0 +1,83 @@
+{
+  "sentences": [
+    {
+      "trans": "Loop",
+      "orig": "ရစ်ပတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "rait paat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "wind"
+      ],
+      "entry": [
+        {
+          "word": "wind",
+          "reverse_translation": [
+            "လေတိုက်"
+          ]
+        }
+      ],
+      "base_form": "ရစ်ပတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရစ် ပတ်",
+      "alternative": [
+        {
+          "word_postproc": "Loop",
+          "score": 861,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wrapped",
+          "score": 95,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wrapped around",
+          "score": 42,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wind",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ရစ်ပတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

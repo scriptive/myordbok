@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "reach the highest point",
+      "orig": "ခေါင်ခိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaung hkite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "reach the highest point"
+      ],
+      "entry": [
+        {
+          "word": "reach the highest point"
+        }
+      ],
+      "base_form": "ခေါင်ခိုက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခေါင် ခိုက်",
+      "alternative": [
+        {
+          "word_postproc": "reach the highest point",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ခေါင်ခိုက်",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

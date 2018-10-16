@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "price",
+      "orig": "တန်ရာတန်ကြေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "taanrartaankyay"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "fair price",
+        "equitable price"
+      ],
+      "entry": [
+        {
+          "word": "fair price",
+          "score": 0.077111721
+        },
+        {
+          "word": "equitable price",
+          "score": 0.077111721
+        }
+      ],
+      "base_form": "တန်ရာတန်ကြေး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တန်ရာတန်ကြေး",
+      "alternative": [
+        {
+          "word_postproc": "price",
+          "score": 894,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fair price",
+          "score": 84,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "equitable price",
+          "score": 21,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the price",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the price for",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "တန်ရာတန်ကြေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

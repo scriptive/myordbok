@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "no",
+      "orig": "မျှ",
+      "backend": 0
+    },
+    {
+      "src_translit": "myaha"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "share",
+        "share and share alike",
+        "be even",
+        "equal",
+        "proportionate",
+        "commensurate"
+      ],
+      "entry": [
+        {
+          "word": "share",
+          "reverse_translation": [
+            "ခဲွဝေ"
+          ]
+        }
+      ],
+      "base_form": "မျှ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မျှ",
+      "alternative": [
+        {
+          "word_postproc": "no",
+          "score": 578,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "None",
+          "score": 62,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "any",
+          "score": 17,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "nothing",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "anything",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "မျှ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

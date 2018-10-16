@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Retrogress",
+      "orig": "ခေတ်နောက်ပြန်ဆွဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkayat noutpyan swal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "retrogress"
+      ],
+      "entry": [
+        {
+          "word": "retrogress"
+        }
+      ],
+      "base_form": "ခေတ်နောက်ပြန်ဆွဲ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခေတ် နောက်ပြန် ဆွဲ",
+      "alternative": [
+        {
+          "word_postproc": "Retrogress",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "ခေတ်နောက်ပြန်ဆွဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

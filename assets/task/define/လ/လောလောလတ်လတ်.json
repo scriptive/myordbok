@@ -1,0 +1,103 @@
+{
+  "sentences": [
+    {
+      "trans": "freshly",
+      "orig": "လောလောလတ်လတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lawlawlaatlaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "immediately",
+        "most recently",
+        "instantaneously",
+        "at once",
+        "just"
+      ],
+      "entry": [
+        {
+          "word": "immediately",
+          "reverse_translation": [
+            "ချက်ချင်း"
+          ],
+          "synset_id": [
+            66738
+          ],
+          "score": 0.013400008
+        },
+        {
+          "word": "just",
+          "reverse_translation": [
+            "မှျ"
+          ]
+        }
+      ],
+      "base_form": "လောလောလတ်လတ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လောလောလတ်လတ်",
+      "alternative": [
+        {
+          "word_postproc": "freshly",
+          "score": 996,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "currently",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Fresh",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "recent",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "instantaneously",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "လောလောလတ်လတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "gather honey from beehives",
+      "orig": "ပျားဖွပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyarr hpwut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "gather honey from beehives"
+      ],
+      "entry": [
+        {
+          "word": "gather honey from beehives"
+        }
+      ],
+      "base_form": "ပျားဖွပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပျား ဖွပ်",
+      "alternative": [
+        {
+          "word_postproc": "gather honey from beehives",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ပျားဖွပ်",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

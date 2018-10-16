@@ -1,0 +1,71 @@
+{
+  "sentences": [
+    {
+      "trans": "Straight",
+      "orig": "ဖြောင့်စင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpyaww in  hcainn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "straight"
+      ],
+      "entry": [
+        {
+          "word": "straight",
+          "reverse_translation": [
+            "တည့်တည့်ဖြစ်သော"
+          ]
+        }
+      ],
+      "base_form": "ဖြောင့်စင်း",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖြော င့ ် စင်း",
+      "alternative": [
+        {
+          "word_postproc": "Straight",
+          "score": 982,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "It straight",
+          "score": 17,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ဖြောင့်စင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

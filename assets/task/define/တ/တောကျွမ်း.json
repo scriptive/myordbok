@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "Acquaint",
+      "orig": "တောကျွမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "taw kyawm"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "have through knowledge of the terrain and wildlife of a jungle"
+      ],
+      "entry": [
+        {
+          "word": "have through knowledge of the terrain and wildlife of a jungle"
+        }
+      ],
+      "base_form": "တောကျွမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျွမ်း",
+      "alternative": [
+        {
+          "word_postproc": "Acquaint",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "acquainted",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "familiar",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "familiar with",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "acquainted with",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "တောကျွမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

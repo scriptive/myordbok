@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "overlook",
+      "orig": "မျက်စိလျှံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "myethci shan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "fail to notice",
+        "overlook"
+      ],
+      "entry": [
+        {
+          "word": "overlook",
+          "reverse_translation": [
+            "ကြည့်ရှုမှတ်သား"
+          ]
+        }
+      ],
+      "base_form": "မျက်စိလျှံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မျက်စိ လျှံ",
+      "alternative": [
+        {
+          "word_postproc": "overlook",
+          "score": 794,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fail to notice",
+          "score": 205,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "မျက်စိလျှံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

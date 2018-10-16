@@ -1,0 +1,109 @@
+{
+  "sentences": [
+    {
+      "trans": "finish",
+      "orig": "အပြီးသတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aapyeesaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "finish",
+        "close",
+        "end",
+        "conclude"
+      ],
+      "entry": [
+        {
+          "word": "finish",
+          "reverse_translation": [
+            "အပြီးသတ်"
+          ],
+          "synset_id": [
+            85226
+          ],
+          "score": 0.023517746
+        },
+        {
+          "word": "close",
+          "reverse_translation": [
+            "ပိတ်"
+          ],
+          "synset_id": [
+            70338
+          ],
+          "score": 0.0051661632
+        },
+        {
+          "word": "conclude",
+          "reverse_translation": [
+            "ကောက်ချက်ချ"
+          ],
+          "synset_id": [
+            70338
+          ]
+        }
+      ],
+      "base_form": "အပြီးသတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အပြီးသတ်",
+      "alternative": [
+        {
+          "word_postproc": "finish",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "complete the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Finalized",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "finalize",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "အပြီးသတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

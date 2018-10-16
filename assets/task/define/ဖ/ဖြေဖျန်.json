@@ -1,0 +1,79 @@
+{
+  "sentences": [
+    {
+      "trans": "conciliate",
+      "orig": "ဖြေဖျန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpyay hpyaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "mediate",
+        "conciliate",
+        "reconclie"
+      ],
+      "entry": [
+        {
+          "word": "mediate",
+          "reverse_translation": [
+            "ကြားဖြန်"
+          ]
+        }
+      ],
+      "base_form": "ဖြေဖျန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖြေ ဖျန်",
+      "alternative": [
+        {
+          "word_postproc": "conciliate",
+          "score": 994,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "reconclie",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mediate",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဖြေဖျန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

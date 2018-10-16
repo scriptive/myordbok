@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "the whole batch",
+      "orig": "ဖောင်းလုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpaungg lone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "ovolo moulding"
+      ],
+      "entry": [
+        {
+          "word": "ovolo moulding"
+        }
+      ],
+      "base_form": "ဖောင်းလုံး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လုံး",
+      "alternative": [
+        {
+          "word_postproc": "the whole",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "all",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ဖောင်းလုံး",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "ဖောင်း",
+      "alternative": [
+        {
+          "word_postproc": "batch",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bloated",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "swell",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "inflated",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

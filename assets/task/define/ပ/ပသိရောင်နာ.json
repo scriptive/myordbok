@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Tonsillitis",
+      "orig": "ပသိရောင်နာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "p si raung nar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "tonsillitis"
+      ],
+      "entry": [
+        {
+          "word": "tonsillitis"
+        }
+      ],
+      "base_form": "ပသိရောင်နာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပ သိ ရောင် နာ",
+      "alternative": [
+        {
+          "word_postproc": "Tonsillitis",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ပသိရောင်နာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

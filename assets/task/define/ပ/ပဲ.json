@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "beans",
+      "orig": "ပဲ",
+      "backend": 1
+    },
+    {
+      "src_translit": "pell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "beans",
+        "bean",
+        "one twentieth of the old Myanmar 'Kyat'",
+        "anna, sixteenth part of a rupee,four pice",
+        "one sixteenth of tical",
+        "one sixteenth of an inch",
+        "pulse",
+        "legumes",
+        "gram"
+      ],
+      "entry": [
+        {
+          "word": "bean",
+          "reverse_translation": [
+            "ပဲ"
+          ],
+          "score": 0.0012859597
+        },
+        {
+          "word": "pulse",
+          "reverse_translation": [
+            "သေွးခုန်ခြင်း"
+          ]
+        },
+        {
+          "word": "gram",
+          "reverse_translation": [
+            "ဂရမ်"
+          ]
+        }
+      ],
+      "base_form": "ပဲ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပဲ",
+      "alternative": [
+        {
+          "word_postproc": "beans",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "just",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ပဲ",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

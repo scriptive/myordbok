@@ -1,0 +1,69 @@
+{
+  "sentences": [
+    {
+      "trans": "Enclosure",
+      "orig": "အရံအတား",
+      "backend": 0
+    },
+    {
+      "src_translit": "a ran a tarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "that which encircles and bars",
+        "enclosure"
+      ],
+      "entry": [
+        {
+          "word": "enclosure",
+          "reverse_translation": [
+            "ဝင်းခြံ"
+          ],
+          "synset_id": [
+            12640
+          ]
+        }
+      ],
+      "base_form": "အရံအတား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ ရံ အ တား",
+      "alternative": [
+        {
+          "word_postproc": "Enclosure",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "အရံအတား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

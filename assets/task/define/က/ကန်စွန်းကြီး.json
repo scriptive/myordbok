@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Sweet potato plant",
+      "orig": "ကန်စွန်းကြီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kaan hcwann kyee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "sweet potato plant"
+      ],
+      "entry": [
+        {
+          "word": "sweet potato plant"
+        }
+      ],
+      "base_form": "ကန်စွန်းကြီး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကန် စွန်း ကြီး",
+      "alternative": [
+        {
+          "word_postproc": "Sweet potato plant",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ကန်စွန်းကြီး",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

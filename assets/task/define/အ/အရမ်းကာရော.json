@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "recklessly",
+      "orig": "အရမ်းကာရော",
+      "backend": 0
+    },
+    {
+      "src_translit": "aaramkarraw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "without thinking",
+        "recklessly",
+        "without restraint"
+      ],
+      "entry": [
+        {
+          "word": "without thinking",
+          "score": 0.039384812
+        },
+        {
+          "word": "recklessly",
+          "score": 0.039384812
+        },
+        {
+          "word": "without restraint",
+          "score": 0.039384812
+        }
+      ],
+      "base_form": "အရမ်းကာရော",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အရမ်းကာရော",
+      "alternative": [
+        {
+          "word_postproc": "recklessly",
+          "score": 627,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "arbitrarily",
+          "score": 341,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "arbitrary",
+          "score": 26,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "without restraint",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "without thinking",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "အရမ်းကာရော",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

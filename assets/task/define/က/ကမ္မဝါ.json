@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "ကမ္မဝါ",
+      "orig": "ကမ္မဝါ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kammawar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "selection from sacred Pali texts recited by monks according to the ritual performed",
+        "richly decorated bookcontaining a collection of such texts written in a square script"
+      ],
+      "entry": [
+        {
+          "word": "selection from sacred Pali texts recited by monks according to the ritual performed"
+        },
+        {
+          "word": "richly decorated bookcontaining a collection of such texts written in a square script"
+        }
+      ],
+      "base_form": "ကမ္မဝါ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကမ္မဝါ",
+      "alternative": [
+        {
+          "word_postproc": "ကမ္မဝါ",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ကမ္မဝါ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

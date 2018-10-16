@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "succeed",
+      "orig": "ပန်းဆွတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "paann swat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "win a race",
+        "breast the tape"
+      ],
+      "entry": [
+        {
+          "word": "win a race"
+        },
+        {
+          "word": "breast the tape"
+        }
+      ],
+      "base_form": "ပန်းဆွတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပန်း ဆွတ်",
+      "alternative": [
+        {
+          "word_postproc": "succeed",
+          "score": 906,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "breast the tape",
+          "score": 61,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "win a race",
+          "score": 31,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ပန်းဆွတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

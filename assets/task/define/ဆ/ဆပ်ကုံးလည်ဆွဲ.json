@@ -1,0 +1,109 @@
+{
+  "sentences": [
+    {
+      "trans": "Sub-string necklace",
+      "orig": "ဆပ်ကုံးလည်ဆွဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "saut kone laiswal"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆပ်",
+      "alternative": [
+        {
+          "word_postproc": "Sub-",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": true
+        },
+        {
+          "word_postproc": "Repay",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": true
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဆပ်ကုံးလည်ဆွဲ",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "ကုံး",
+      "alternative": [
+        {
+          "word_postproc": "string",
+          "score": 1000,
+          "has_preceeding_space": false,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "composition",
+          "score": 0,
+          "has_preceeding_space": false,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "thread",
+          "score": 0,
+          "has_preceeding_space": false,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 7
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    },
+    {
+      "src_phrase": "လည်ဆွဲ",
+      "alternative": [
+        {
+          "word_postproc": "necklace",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "necklaces",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 13
+        }
+      ],
+      "start_pos": 3,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "sentences": [
+    {
+      "trans": "too",
+      "orig": "သိပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "siut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "very",
+        "so"
+      ],
+      "entry": [
+        {
+          "word": "very",
+          "reverse_translation": [
+            "မှန်သော"
+          ],
+          "score": 0.10874496
+        },
+        {
+          "word": "so",
+          "reverse_translation": [
+            "ထိုမှျ"
+          ],
+          "score": 0.027928013
+        }
+      ],
+      "base_form": "သိပ်",
+      "pos_enum": 4
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "compress",
+        "stuff",
+        "cram",
+        "put to sleep",
+        "rest to alleviate",
+        "subside",
+        "settle",
+        "keepovernight"
+      ],
+      "entry": [
+        {
+          "word": "compress",
+          "reverse_translation": [
+            "သိပ်"
+          ],
+          "synset_id": [
+            19329
+          ],
+          "score": 0.00035709812
+        },
+        {
+          "word": "stuff",
+          "reverse_translation": [
+            "သိပ်သွင်း"
+          ]
+        },
+        {
+          "word": "settle",
+          "reverse_translation": [
+            "စေ့စပ်"
+          ],
+          "synset_id": [
+            56912
+          ]
+        }
+      ],
+      "base_form": "သိပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သိပ်",
+      "alternative": [
+        {
+          "word_postproc": "too",
+          "score": 663,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "very",
+          "score": 334,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "too much",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "very much",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a very",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "သိပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "sentences": [
+    {
+      "trans": "novitiate",
+      "orig": "ရှင်ပြု",
+      "backend": 0
+    },
+    {
+      "src_translit": "shinpyu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "novitiate",
+        "initiate a boy into the Buddhist order"
+      ],
+      "entry": [
+        {
+          "word": "novitiate",
+          "score": 0.046770621
+        },
+        {
+          "word": "initiate a boy into the Buddhist order"
+        }
+      ],
+      "base_form": "ရှင်ပြု",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရှင်ပြု",
+      "alternative": [
+        {
+          "word_postproc": "novitiate",
+          "score": 983,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "picture",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ရှင်ပြု",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

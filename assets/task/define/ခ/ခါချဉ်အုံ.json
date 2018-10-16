@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Red ant hive",
+      "orig": "ခါချဉ်အုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkar hkyain aone"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခါ ချဉ်",
+      "alternative": [
+        {
+          "word_postproc": "Red ant",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ခါချဉ်အုံ",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "အုံ",
+      "alternative": [
+        {
+          "word_postproc": "hive",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 9
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

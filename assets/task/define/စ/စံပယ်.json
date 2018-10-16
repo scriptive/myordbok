@@ -1,0 +1,88 @@
+{
+  "sentences": [
+    {
+      "trans": "Jasmine",
+      "orig": "စံပယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcanpaal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "jasmine"
+      ],
+      "entry": [
+        {
+          "word": "jasmine",
+          "score": 0.042585135
+        }
+      ],
+      "base_form": "စံပယ်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "sojourn at a place"
+      ],
+      "entry": [
+        {
+          "word": "sojourn at a place"
+        }
+      ],
+      "base_form": "စံပယ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စံပယ်",
+      "alternative": [
+        {
+          "word_postproc": "Jasmine",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "supply",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Sabai",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "စံပယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

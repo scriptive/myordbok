@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "hill",
+      "orig": "တောင်ကုန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "taungkone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "hill"
+      ],
+      "entry": [
+        {
+          "word": "hill",
+          "reverse_translation": [
+            "ကုန်းမြင့်"
+          ],
+          "score": 0.11219689
+        }
+      ],
+      "base_form": "တောင်ကုန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တောင်ကုန်း",
+      "alternative": [
+        {
+          "word_postproc": "hill",
+          "score": 950,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hills",
+          "score": 49,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hills of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Cooper's Hill",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hills to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "တောင်ကုန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "paying monks",
+      "orig": "ဒုလ္လဘရဟန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "dullabh rahaann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "attainment of hard- to- achieve monkhood even if only for a short period of time"
+      ],
+      "entry": [
+        {
+          "word": "attainment of hard- to- achieve monkhood even if only for a short period of time"
+        }
+      ],
+      "base_form": "ဒုလ္လဘရဟန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဒုလ္လဘ",
+      "alternative": [
+        {
+          "word_postproc": "paying",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဒုလ္လဘရဟန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ရဟန်း",
+      "alternative": [
+        {
+          "word_postproc": "monks",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Bhikkhu",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "monk",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 11
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

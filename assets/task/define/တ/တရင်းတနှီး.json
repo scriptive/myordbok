@@ -1,0 +1,100 @@
+{
+  "sentences": [
+    {
+      "trans": "Intimately",
+      "orig": "တရင်းတနှီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "t rainn t nhaee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "warmly",
+        "cordially",
+        "intimately"
+      ],
+      "entry": [
+        {
+          "word": "warmly",
+          "synset_id": [
+            37346
+          ]
+        },
+        {
+          "word": "cordially",
+          "synset_id": [
+            37346
+          ]
+        },
+        {
+          "word": "intimately"
+        }
+      ],
+      "base_form": "တရင်းတနှီး",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တ ရင်း တ နှီး",
+      "alternative": [
+        {
+          "word_postproc": "Intimately",
+          "score": 996,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Cordially",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Warmly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Friendly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Be friendly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "တရင်းတနှီး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

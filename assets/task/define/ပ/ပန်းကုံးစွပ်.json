@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Garland",
+      "orig": "ပန်းကုံးစွပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "paann kone hcwut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "garland",
+        "choose a prospective bride,groom by garlanding one's choice"
+      ],
+      "entry": [
+        {
+          "word": "garland"
+        },
+        {
+          "word": "choose a prospective bride,groom by garlanding one's choice"
+        }
+      ],
+      "base_form": "ပန်းကုံးစွပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပန်း ကုံး စွပ်",
+      "alternative": [
+        {
+          "word_postproc": "Garland",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ပန်းကုံးစွပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

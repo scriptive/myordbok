@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "rice",
+      "orig": "ဆန်ခတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "saan hkaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "kernel placed inside a superscripted အိ/ i. / vowel symbolto form the symbol of the vowel sound အီ/ i /"
+      ],
+      "entry": [
+        {
+          "word": "kernel placed inside a superscripted အိ/ i. / vowel symbolto form the symbol of the vowel sound အီ/ i /"
+        }
+      ],
+      "base_form": "ဆန်ခတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆန်",
+      "alternative": [
+        {
+          "word_postproc": "rice",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဆန်ခတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

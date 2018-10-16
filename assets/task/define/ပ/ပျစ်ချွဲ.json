@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "thick mucus",
+      "orig": "ပျစ်ချွဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyit hkyawal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "thick and mucilaginous"
+      ],
+      "entry": [
+        {
+          "word": "thick and mucilaginous"
+        }
+      ],
+      "base_form": "ပျစ်ချွဲ",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပျစ်",
+      "alternative": [
+        {
+          "word_postproc": "thick",
+          "score": 995,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "grapes",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The new wine",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ပျစ်ချွဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ချွဲ",
+      "alternative": [
+        {
+          "word_postproc": "mucus",
+          "score": 995,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "phlegm",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 8
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

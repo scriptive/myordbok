@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "New crop",
+      "orig": "ပေါ်ဦးပေါ်ဖျား",
+      "backend": 0
+    },
+    {
+      "src_translit": "paw u paw hpyarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "sth of recent appearance",
+        "new crop",
+        "first fruits",
+        "sth which has recently come into season"
+      ],
+      "entry": [
+        {
+          "word": "sth of recent appearance"
+        },
+        {
+          "word": "new crop"
+        },
+        {
+          "word": "first fruits"
+        },
+        {
+          "word": "sth which has recently come into season"
+        }
+      ],
+      "base_form": "ပေါ်ဦးပေါ်ဖျား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပေါ် ဦး ပေါ် ဖျား",
+      "alternative": [
+        {
+          "word_postproc": "New crop",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "First fruits",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Recent appearance",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Of recent appearance",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ပေါ်ဦးပေါ်ဖျား",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

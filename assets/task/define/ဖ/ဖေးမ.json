@@ -1,0 +1,104 @@
+{
+  "sentences": [
+    {
+      "trans": "lend a helping hand",
+      "orig": "ဖေးမ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpayym"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "assist",
+        "lend a helping hand",
+        "help"
+      ],
+      "entry": [
+        {
+          "word": "assist",
+          "reverse_translation": [
+            "ထောက်ပံ့"
+          ],
+          "synset_id": [
+            28365
+          ],
+          "score": 0.014043087
+        },
+        {
+          "word": "help",
+          "reverse_translation": [
+            "ကူညီ"
+          ],
+          "synset_id": [
+            28365
+          ]
+        }
+      ],
+      "base_form": "ဖေးမ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖေးမ",
+      "alternative": [
+        {
+          "word_postproc": "lend a helping hand",
+          "score": 983,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "analysis",
+          "score": 14,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "life",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "assist",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "supportive",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဖေးမ",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

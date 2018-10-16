@@ -1,0 +1,67 @@
+{
+  "sentences": [
+    {
+      "trans": "rally round",
+      "orig": "ရိုင်းပင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "rine painn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "rally round",
+        "come to the aid of",
+        "help"
+      ],
+      "entry": [
+        {
+          "word": "help",
+          "reverse_translation": [
+            "ကူညီ"
+          ]
+        }
+      ],
+      "base_form": "ရိုင်းပင်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရိုင်း ပင်း",
+      "alternative": [
+        {
+          "word_postproc": "rally round",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ရိုင်းပင်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

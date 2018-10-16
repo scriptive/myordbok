@@ -1,0 +1,70 @@
+{
+  "sentences": [
+    {
+      "trans": "sluice",
+      "orig": "ကတွတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "k twat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "hole in a paddy dyketo control water-level",
+        "sluice",
+        "kind of fig"
+      ],
+      "entry": [
+        {
+          "word": "hole in a paddy dyketo control water-level"
+        },
+        {
+          "word": "sluice"
+        },
+        {
+          "word": "kind of fig"
+        }
+      ],
+      "base_form": "ကတွတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "က တွတ်",
+      "alternative": [
+        {
+          "word_postproc": "sluice",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကတွတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

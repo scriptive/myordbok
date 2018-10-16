@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "zinc metal",
+      "orig": "သွပ်သတ္တု",
+      "backend": 0
+    },
+    {
+      "src_translit": "swut sattu"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သွပ်",
+      "alternative": [
+        {
+          "word_postproc": "zinc",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tin",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "သွပ်သတ္တု",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "သတ္တု",
+      "alternative": [
+        {
+          "word_postproc": "metal",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "metals",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 9
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

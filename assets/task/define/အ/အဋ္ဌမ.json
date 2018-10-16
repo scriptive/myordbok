@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "eighth",
+      "orig": "အဋ္ဌမ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aatht m"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "",
+      "terms": [
+        "eighth"
+      ],
+      "entry": [
+        {
+          "word": "eighth"
+        }
+      ],
+      "base_form": "အဋ္ဌမ",
+      "pos_enum": 20
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အဋ္ဌ မ",
+      "alternative": [
+        {
+          "word_postproc": "eighth",
+          "score": 994,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "On the eighth",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the eighth",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "And on the eighth",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "အဋ္ဌမ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

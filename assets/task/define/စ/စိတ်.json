@@ -1,0 +1,120 @@
+{
+  "sentences": [
+    {
+      "trans": "mind",
+      "orig": "စိတ်",
+      "backend": 1
+    },
+    {
+      "src_translit": "hcate"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "heart",
+        "mind",
+        "thought",
+        "interest",
+        "consciousness",
+        "desire",
+        "will",
+        "preoccupation"
+      ],
+      "entry": [
+        {
+          "word": "heart",
+          "reverse_translation": [
+            "နှလုံး"
+          ],
+          "score": 0.058206979
+        },
+        {
+          "word": "mind",
+          "reverse_translation": [
+            "သဘောဉာဏ်"
+          ],
+          "score": 0.052998058
+        },
+        {
+          "word": "thought",
+          "reverse_translation": [
+            "စိတ်ထင်"
+          ],
+          "score": 0.011642128
+        },
+        {
+          "word": "interest",
+          "reverse_translation": [
+            "ဝါသနာ",
+            "အကျိုးကေျးဇူး"
+          ],
+          "score": 0.0040234118
+        },
+        {
+          "word": "consciousness",
+          "reverse_translation": [
+            "သိတတ်ခြင်း"
+          ]
+        },
+        {
+          "word": "desire",
+          "reverse_translation": [
+            "အလိုဆန္ဒ"
+          ]
+        },
+        {
+          "word": "will",
+          "reverse_translation": [
+            "သေတမ်းစာ",
+            "အလိုဆန္ဒ"
+          ]
+        }
+      ],
+      "base_form": "စိတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စိတ်",
+      "alternative": [
+        {
+          "word_postproc": "mind",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "heart",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "စိတ်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

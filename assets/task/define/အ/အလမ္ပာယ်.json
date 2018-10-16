@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "The charmer",
+      "orig": "အလမ္ပာယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "a lam paral"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "snake charmer",
+        "snake charming"
+      ],
+      "entry": [
+        {
+          "word": "snake charmer"
+        },
+        {
+          "word": "snake charming"
+        }
+      ],
+      "base_form": "အလမ္ပာယ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ",
+      "alternative": [
+        {
+          "word_postproc": "The",
+          "score": 949,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "And",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 1
+        }
+      ],
+      "raw_src_segment": "အလမ္ပာယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "လမ္ ပာယ်",
+      "alternative": [
+        {
+          "word_postproc": "charmer",
+          "score": 949,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "snake charmer",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 8
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

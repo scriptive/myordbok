@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "fire",
+      "orig": "မီးကပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "mee kaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "flap attached to a pole to swat out fire",
+        "bamboo litter for a woman's post natal convalescence"
+      ],
+      "entry": [
+        {
+          "word": "flap attached to a pole to swat out fire"
+        },
+        {
+          "word": "bamboo litter for a woman's post natal convalescence"
+        }
+      ],
+      "base_form": "မီးကပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မီး",
+      "alternative": [
+        {
+          "word_postproc": "fire",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "မီးကပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

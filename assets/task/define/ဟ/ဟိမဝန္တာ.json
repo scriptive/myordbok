@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Himalayan",
+      "orig": "ဟိမဝန္တာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "himawantar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "the \"himalayas\"",
+        "high and deeply forested mountain ranges"
+      ],
+      "entry": [
+        {
+          "word": "the \"himalayas\""
+        },
+        {
+          "word": "high and deeply forested mountain ranges"
+        }
+      ],
+      "base_form": "ဟိမဝန္တာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဟိမဝန္တာ",
+      "alternative": [
+        {
+          "word_postproc": "Himalayan",
+          "score": 758,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Himalayas",
+          "score": 162,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Himalaya",
+          "score": 78,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the Himalayas",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The Himalayan",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဟိမဝန္တာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

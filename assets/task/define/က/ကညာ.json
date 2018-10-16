@@ -1,0 +1,73 @@
+{
+  "sentences": [
+    {
+      "trans": "virgin",
+      "orig": "ကညာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kanyar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "virgin",
+        "young maiden"
+      ],
+      "entry": [
+        {
+          "word": "virgin",
+          "reverse_translation": [
+            "ကညာ"
+          ],
+          "score": 0.37367269
+        }
+      ],
+      "base_form": "ကညာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကညာ",
+      "alternative": [
+        {
+          "word_postproc": "virgin",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the virgin",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ကညာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

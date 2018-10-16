@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "swag",
+      "orig": "ခိုးရာပါပစ္စည်း",
+      "backend": 1
+    },
+    {
+      "src_translit": "hkoerarpar pahchcaee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "stolen property"
+      ],
+      "entry": [
+        {
+          "word": "stolen property"
+        }
+      ],
+      "base_form": "ခိုးရာပါပစ္စည်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခိုးရာပါပစ္စည်း",
+      "alternative": [
+        {
+          "word_postproc": "swag",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "ခိုးရာပါပစ္စည်း",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "sentences": [
+    {
+      "trans": "more",
+      "orig": "ပို",
+      "backend": 0
+    },
+    {
+      "src_translit": "po"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "extra",
+        "additional",
+        "superfluous",
+        "redundant"
+      ],
+      "entry": [
+        {
+          "word": "extra",
+          "reverse_translation": [
+            "အပို"
+          ],
+          "synset_id": [
+            65107,
+            103288
+          ],
+          "score": 0.023888096
+        },
+        {
+          "word": "additional",
+          "reverse_translation": [
+            "နောက်ထပ်"
+          ],
+          "synset_id": [
+            103288
+          ],
+          "score": 0.011461634
+        },
+        {
+          "word": "redundant",
+          "reverse_translation": [
+            "ပိုသော"
+          ],
+          "synset_id": [
+            65107
+          ]
+        }
+      ],
+      "base_form": "ပို",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပို",
+      "alternative": [
+        {
+          "word_postproc": "more",
+          "score": 826,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "For more",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "extra",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "even more",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "is more",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ပို",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

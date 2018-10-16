@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Verbose",
+      "orig": "စကားကြောရှည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcakarr kyaww shi"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be long-winded",
+        "be verbose"
+      ],
+      "entry": [
+        {
+          "word": "be long-winded"
+        },
+        {
+          "word": "be verbose"
+        }
+      ],
+      "base_form": "စကားကြောရှည်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စကား ကြော ရှည်",
+      "alternative": [
+        {
+          "word_postproc": "Verbose",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "စကားကြောရှည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

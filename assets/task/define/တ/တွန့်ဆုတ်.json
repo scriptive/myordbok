@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "Reluctant",
+      "orig": "တွန့်ဆုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "tw an  sote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "shrink from sth",
+        "recoil",
+        "stop short and draw back"
+      ],
+      "entry": [
+        {
+          "word": "shrink from sth"
+        },
+        {
+          "word": "recoil"
+        },
+        {
+          "word": "stop short and draw back"
+        }
+      ],
+      "base_form": "တွန့်ဆုတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တွ န့ ် ဆုတ်",
+      "alternative": [
+        {
+          "word_postproc": "Reluctant",
+          "score": 395,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Recoil",
+          "score": 395,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Reluctance",
+          "score": 153,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Hesitate",
+          "score": 33,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Hesitated",
+          "score": 14,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "တွန့်ဆုတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

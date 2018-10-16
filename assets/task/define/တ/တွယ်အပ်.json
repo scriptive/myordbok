@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "pin",
+      "orig": "တွယ်အပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "twal aaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "pin"
+      ],
+      "entry": [
+        {
+          "word": "pin",
+          "reverse_translation": [
+            "တွယ်အပ်"
+          ],
+          "synset_id": [
+            37796
+          ]
+        }
+      ],
+      "base_form": "တွယ်အပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တွယ် အပ်",
+      "alternative": [
+        {
+          "word_postproc": "pin",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "တွယ်အပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "turner",
+      "orig": "ပန်းပွတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "paann pwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "craft of a turner",
+        "turnery"
+      ],
+      "entry": [
+        {
+          "word": "craft of a turner"
+        },
+        {
+          "word": "turnery"
+        }
+      ],
+      "base_form": "ပန်းပွတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပန်း ပွတ်",
+      "alternative": [
+        {
+          "word_postproc": "turner",
+          "score": 992,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "turnery",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ပန်းပွတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

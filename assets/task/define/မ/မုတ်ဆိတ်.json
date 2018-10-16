@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "beard",
+      "orig": "မုတ်ဆိတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "motesate"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "beard",
+        "adventitious roots of banyan tree"
+      ],
+      "entry": [
+        {
+          "word": "beard",
+          "reverse_translation": [
+            "မုတ်ဆိတ်"
+          ],
+          "synset_id": [
+            2994
+          ],
+          "score": 0.24891968
+        }
+      ],
+      "base_form": "မုတ်ဆိတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မုတ်ဆိတ်",
+      "alternative": [
+        {
+          "word_postproc": "beard",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "beard and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "beards",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "every beard",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bearded",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "မုတ်ဆိတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

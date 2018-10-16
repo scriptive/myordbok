@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Agitatedly",
+      "orig": "ကတုန်ကယင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "k tone k yain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in a doddering manner",
+        "agitatedly"
+      ],
+      "entry": [
+        {
+          "word": "in a doddering manner"
+        },
+        {
+          "word": "agitatedly"
+        }
+      ],
+      "base_form": "ကတုန်ကယင်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "က တုန် က ယင်",
+      "alternative": [
+        {
+          "word_postproc": "Agitatedly",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကတုန်ကယင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

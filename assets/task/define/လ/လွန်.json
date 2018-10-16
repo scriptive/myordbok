@@ -1,0 +1,136 @@
+{
+  "sentences": [
+    {
+      "trans": "passed",
+      "orig": "လွန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lwan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "go beyound",
+        "exceed",
+        "be intemperate",
+        "overshoot",
+        "be well past",
+        "die",
+        "transgress",
+        "go against"
+      ],
+      "entry": [
+        {
+          "word": "exceed",
+          "reverse_translation": [
+            "ကေျာ်လွန်"
+          ]
+        },
+        {
+          "word": "die",
+          "reverse_translation": [
+            "သေဆုံး"
+          ]
+        }
+      ],
+      "base_form": "လွန်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "rope",
+        "gimlet",
+        "auger",
+        "drill",
+        "brace",
+        "medium-signed tree bearing fruit with almond-like kernels.Buchanania Latifolia"
+      ],
+      "entry": [
+        {
+          "word": "rope",
+          "reverse_translation": [
+            "ကြိုးကြီး"
+          ]
+        },
+        {
+          "word": "drill",
+          "reverse_translation": [
+            "စူး ၊ သင်ကြားခြင်း"
+          ]
+        },
+        {
+          "word": "brace",
+          "reverse_translation": [
+            "ထောက်",
+            "သိုင်းကြိုး"
+          ]
+        }
+      ],
+      "base_form": "လွန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လွန်",
+      "alternative": [
+        {
+          "word_postproc": "passed",
+          "score": 587,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and upward",
+          "score": 251,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "upward",
+          "score": 92,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "is past",
+          "score": 30,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "past the",
+          "score": 26,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "လွန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

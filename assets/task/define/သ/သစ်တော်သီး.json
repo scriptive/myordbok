@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "pear",
+      "orig": "သစ်တော်သီး",
+      "backend": 1
+    },
+    {
+      "src_translit": "saittaw  see"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "pear"
+      ],
+      "entry": [
+        {
+          "word": "pear",
+          "reverse_translation": [
+            "သစ်တော်သီး"
+          ]
+        }
+      ],
+      "base_form": "သစ်တော်သီး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သစ်တော်သီး",
+      "alternative": [
+        {
+          "word_postproc": "pear",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "သစ်တော်သီး",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

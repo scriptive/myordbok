@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "boundary",
+      "orig": "နယ်နိမိတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "naalnimate"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "boundary",
+        "frontier of a state,territory"
+      ],
+      "entry": [
+        {
+          "word": "boundary",
+          "reverse_translation": [
+            "နယ်နိမိတ်"
+          ],
+          "synset_id": [
+            67672
+          ],
+          "score": 0.11943297
+        }
+      ],
+      "base_form": "နယ်နိမိတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နယ်နိမိတ်",
+      "alternative": [
+        {
+          "word_postproc": "boundary",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "border round about",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "borders of the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "boundaries",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "border round",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "နယ်နိမိတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

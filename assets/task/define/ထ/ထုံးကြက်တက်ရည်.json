@@ -1,0 +1,100 @@
+{
+  "sentences": [
+    {
+      "trans": "Lime chicken buttermilk",
+      "orig": "ထုံးကြက်တက်ရည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "htone kyaat taat rai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "light clear solution of lime in water"
+      ],
+      "entry": [
+        {
+          "word": "light clear solution of lime in water"
+        }
+      ],
+      "base_form": "ထုံးကြက်တက်ရည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထုံး",
+      "alternative": [
+        {
+          "word_postproc": "Lime",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ထုံးကြက်တက်ရည်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ကြက်",
+      "alternative": [
+        {
+          "word_postproc": "chicken",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 8
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "တက် ရည်",
+      "alternative": [
+        {
+          "word_postproc": "buttermilk",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 8,
+          "end": 14
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

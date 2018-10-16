@@ -1,0 +1,110 @@
+{
+  "sentences": [
+    {
+      "trans": "waist",
+      "orig": "ခါး",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "bitter"
+      ],
+      "entry": [
+        {
+          "word": "bitter",
+          "reverse_translation": [
+            "ခါးသော"
+          ],
+          "score": 0.13746651
+        }
+      ],
+      "base_form": "ခါး",
+      "pos_enum": 3
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "waist"
+      ],
+      "entry": [
+        {
+          "word": "waist",
+          "reverse_translation": [
+            "ခါး"
+          ],
+          "synset_id": [
+            33618
+          ],
+          "score": 0.040005032
+        }
+      ],
+      "base_form": "ခါး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခါး",
+      "alternative": [
+        {
+          "word_postproc": "waist",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "'s waist",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "loins even",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the bitter in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "'s loins",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ခါး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

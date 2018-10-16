@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "သေးသေးတင်",
+      "orig": "သေးသေးတင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "sayysayytain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "အံ၊ အိံ၊ အုံ' အသံများရအောင် 'အ၊ အိ၊ အု' ထက်တွင်တင်သော အစက်အပြောက်။ နိဂ္ဂဟိတ်။"
+      ],
+      "entry": [
+        {
+          "word": "အံ၊ အိံ၊ အုံ' အသံများရအောင် 'အ၊ အိ၊ အု' ထက်တွင်တင်သော အစက်အပြောက်။ နိဂ္ဂဟိတ်။"
+        }
+      ],
+      "base_form": "သေးသေးတင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သေးသေးတင်",
+      "alternative": [
+        {
+          "word_postproc": "သေးသေးတင်",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "သေးသေးတင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

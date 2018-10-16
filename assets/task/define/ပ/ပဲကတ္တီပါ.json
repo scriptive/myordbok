@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Velvet",
+      "orig": "ပဲကတ္တီပါ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pell kat te par"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "variety of smooth tasting, slightly bitter lablab"
+      ],
+      "entry": [
+        {
+          "word": "variety of smooth tasting, slightly bitter lablab"
+        }
+      ],
+      "base_form": "ပဲကတ္တီပါ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကတ္ တီ ပါ",
+      "alternative": [
+        {
+          "word_postproc": "Velvet",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ပဲကတ္တီပါ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

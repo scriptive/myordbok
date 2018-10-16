@@ -1,0 +1,87 @@
+{
+  "sentences": [
+    {
+      "trans": "When the pair",
+      "orig": "တစ်ရံရောအခါ",
+      "backend": 0
+    },
+    {
+      "src_translit": "taitran raw aahkar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "once upon a time"
+      ],
+      "entry": [
+        {
+          "word": "once upon a time"
+        }
+      ],
+      "base_form": "တစ်ရံရောအခါ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အခါ",
+      "alternative": [
+        {
+          "word_postproc": "When the",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "When",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 8,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "တစ်ရံရောအခါ",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "တစ်ရံ",
+      "alternative": [
+        {
+          "word_postproc": "pair",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

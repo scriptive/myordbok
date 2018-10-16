@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Perfect",
+      "orig": "သဲလဲစင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "sell lell hcain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "အပြစ်အနာ လုံးဝကင်းရှင်း သန့်စင်သောအဖြစ်။"
+      ],
+      "entry": [
+        {
+          "word": "အပြစ်အနာ လုံးဝကင်းရှင်း သန့်စင်သောအဖြစ်။"
+        }
+      ],
+      "base_form": "သဲလဲစင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သဲ လဲ စင်",
+      "alternative": [
+        {
+          "word_postproc": "Perfect",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "သဲလဲစင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

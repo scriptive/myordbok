@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "falcon",
+      "orig": "သိမ်းငှက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "saim nghaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "falcon",
+        "hawk"
+      ],
+      "entry": [
+        {
+          "word": "falcon",
+          "reverse_translation": [
+            "သိမ်းငှက်"
+          ]
+        },
+        {
+          "word": "hawk",
+          "reverse_translation": [
+            "သိမ်းငှက်"
+          ]
+        }
+      ],
+      "base_form": "သိမ်းငှက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သိမ်း ငှက်",
+      "alternative": [
+        {
+          "word_postproc": "falcon",
+          "score": 995,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hawk",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "သိမ်းငှက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "sentences": [
+    {
+      "trans": "night",
+      "orig": "ပေါ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "pot"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "light",
+        "not heavy",
+        "less in weight",
+        "mild",
+        "not strong",
+        "intense",
+        "less in intensity",
+        "wanting in saltiness,sweetness",
+        "light,mild in taste",
+        "weak in flavour",
+        "not serious",
+        "of loose character",
+        "not sound of mind",
+        "quick to act,respond"
+      ],
+      "entry": [
+        {
+          "word": "light",
+          "reverse_translation": [
+            "ထိန်လင်းသော",
+            "ပေါ့ပါးသော"
+          ],
+          "score": 0.0037210477
+        },
+        {
+          "word": "mild",
+          "reverse_translation": [
+            "နေသာ",
+            "ပေါ့သော"
+          ]
+        },
+        {
+          "word": "intense",
+          "reverse_translation": [
+            "ပြင်းထန်သော"
+          ]
+        }
+      ],
+      "base_form": "ပေါ့",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပေါ့",
+      "alternative": [
+        {
+          "word_postproc": "night",
+          "score": 758,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pop",
+          "score": 129,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "later",
+          "score": 94,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "something",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "get",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ပေါ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

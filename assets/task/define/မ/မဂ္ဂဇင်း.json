@@ -1,0 +1,88 @@
+{
+  "sentences": [
+    {
+      "trans": "magazine",
+      "orig": "မဂ္ဂဇင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "maggajainn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "magazine"
+      ],
+      "entry": [
+        {
+          "word": "magazine",
+          "reverse_translation": [
+            "မဂ္ဂဇင်း",
+            "ကျဉ်ကပ်"
+          ],
+          "synset_id": [
+            50495
+          ],
+          "score": 0.35656098
+        }
+      ],
+      "base_form": "မဂ္ဂဇင်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မဂ္ဂဇင်း",
+      "alternative": [
+        {
+          "word_postproc": "magazine",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "magazine with",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "magazines",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a magazine",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "မဂ္ဂဇင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

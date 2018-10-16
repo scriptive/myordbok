@@ -1,0 +1,128 @@
+{
+  "sentences": [
+    {
+      "trans": "How to sprout fresh Jubilee",
+      "orig": "ညွန့်လန်းရတုချနည်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyw an  laann ratu hkyanaee"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ချနည်း",
+      "alternative": [
+        {
+          "word_postproc": "How to",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 12,
+          "end": 18
+        }
+      ],
+      "raw_src_segment": "ညွန့်လန်းရတုချနည်း",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "ညွ န့ ်",
+      "alternative": [
+        {
+          "word_postproc": "sprout",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "shoots",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    },
+    {
+      "src_phrase": "လန်း",
+      "alternative": [
+        {
+          "word_postproc": "fresh",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Lang",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "flourish",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Lance",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 9
+        }
+      ],
+      "start_pos": 3,
+      "end_pos": 4
+    },
+    {
+      "src_phrase": "ရတု",
+      "alternative": [
+        {
+          "word_postproc": "Jubilee",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 9,
+          "end": 12
+        }
+      ],
+      "start_pos": 4,
+      "end_pos": 5
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Glare at",
+      "orig": "စိန်းစိန်းကြည့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcein hcein kyi"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "glare at"
+      ],
+      "entry": [
+        {
+          "word": "glare at"
+        }
+      ],
+      "base_form": "စိန်းစိန်းကြည့်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စိန်း စိန်း ကြည့်",
+      "alternative": [
+        {
+          "word_postproc": "Glare at",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "စိန်းစိန်းကြည့်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

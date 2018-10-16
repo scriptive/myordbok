@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Hurry",
+      "orig": "တက်သုတ်ရိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "taat sote rite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "hurry",
+        "go with all possible speed"
+      ],
+      "entry": [
+        {
+          "word": "hurry",
+          "reverse_translation": [
+            "အလျင်အမြန်လုပ်"
+          ]
+        }
+      ],
+      "base_form": "တက်သုတ်ရိုက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တက် သုတ် ရိုက်",
+      "alternative": [
+        {
+          "word_postproc": "Hurry",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "တက်သုတ်ရိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

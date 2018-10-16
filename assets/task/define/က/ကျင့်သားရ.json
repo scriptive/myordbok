@@ -1,0 +1,76 @@
+{
+  "sentences": [
+    {
+      "trans": "Accustomed to",
+      "orig": "ကျင့်သားရ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyang sarr r"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be accustomed to",
+        "be experienced in",
+        "be hardened."
+      ],
+      "entry": [
+        {
+          "word": "be accustomed to"
+        },
+        {
+          "word": "be experienced in"
+        },
+        {
+          "word": "be hardened."
+        }
+      ],
+      "base_form": "ကျင့်သားရ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျင့် သား ရ",
+      "alternative": [
+        {
+          "word_postproc": "Accustomed to",
+          "score": 995,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Experienced in",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကျင့်သားရ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

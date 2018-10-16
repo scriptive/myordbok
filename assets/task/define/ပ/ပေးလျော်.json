@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "compensation",
+      "orig": "ပေးလျော်",
+      "backend": 0
+    },
+    {
+      "src_translit": "payy lyaw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "compensate",
+        "make good a loss"
+      ],
+      "entry": [
+        {
+          "word": "compensate",
+          "reverse_translation": [
+            "လေျာ်"
+          ]
+        }
+      ],
+      "base_form": "ပေးလျော်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပေး လျော်",
+      "alternative": [
+        {
+          "word_postproc": "compensation",
+          "score": 518,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "compensate",
+          "score": 459,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "compensated",
+          "score": 18,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "compensate for",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ပေးလျော်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

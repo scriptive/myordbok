@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "backs",
+      "orig": "ကျောကုန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaww kone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "back"
+      ],
+      "entry": [
+        {
+          "word": "back",
+          "reverse_translation": [
+            "နောက်ဘက်",
+            "ကေျာ"
+          ]
+        }
+      ],
+      "base_form": "ကျောကုန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျော ကုန်း",
+      "alternative": [
+        {
+          "word_postproc": "backs",
+          "score": 968,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "back",
+          "score": 31,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "warn",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bent",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "back and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကျောကုန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

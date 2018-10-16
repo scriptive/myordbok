@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "chirrup",
+      "orig": "စုတ်ထိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcote htoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "tattoo",
+        "chirrup"
+      ],
+      "entry": [
+        {
+          "word": "tattoo",
+          "reverse_translation": [
+            "ထိုးကွင်းထိုး"
+          ]
+        }
+      ],
+      "base_form": "စုတ်ထိုး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စုတ် ထိုး",
+      "alternative": [
+        {
+          "word_postproc": "chirrup",
+          "score": 983,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tattoo",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "စုတ်ထိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

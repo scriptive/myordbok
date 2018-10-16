@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Lapped seam",
+      "orig": "ပသျှူးချုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "p shuu hkyaote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "lapped seam"
+      ],
+      "entry": [
+        {
+          "word": "lapped seam"
+        }
+      ],
+      "base_form": "ပသျှူးချုပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပ သျှူး ချုပ်",
+      "alternative": [
+        {
+          "word_postproc": "Lapped seam",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ပသျှူးချုပ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

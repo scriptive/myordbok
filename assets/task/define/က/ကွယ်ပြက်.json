@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "suppress the truth",
+      "orig": "ကွယ်ပြက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kwal pyaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "suppress the truth"
+      ],
+      "entry": [
+        {
+          "word": "suppress the truth"
+        }
+      ],
+      "base_form": "ကွယ်‌ပြက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကွယ် ပြက်",
+      "alternative": [
+        {
+          "word_postproc": "suppress the truth",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကွယ်ပြက်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "sentences": [
+    {
+      "trans": "pick",
+      "orig": "ကောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "pick up",
+        "collect",
+        "curl",
+        "sulk",
+        "bend down and pick up",
+        "gather",
+        "levy",
+        "round up",
+        "take",
+        "make out",
+        "infer",
+        "take someonefor a wife",
+        "raise someone to a higher social status",
+        "harness oxen,buffaloes to a cart"
+      ],
+      "entry": [
+        {
+          "word": "collect",
+          "reverse_translation": [
+            "စုဝေး"
+          ],
+          "synset_id": [
+            53129,
+            64468
+          ],
+          "score": 0.0081275152
+        },
+        {
+          "word": "gather",
+          "reverse_translation": [
+            "စုရုံး"
+          ],
+          "synset_id": [
+            64468
+          ]
+        },
+        {
+          "word": "take",
+          "reverse_translation": [
+            "ယူ",
+            "သိမ်းယူ",
+            "ရယူ",
+            "ရရှိ",
+            "ကိုင်ယူ",
+            "သုံးစဲွ"
+          ]
+        }
+      ],
+      "base_form": "ကောက်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "crooked",
+        "bent",
+        "curved"
+      ],
+      "entry": [
+        {
+          "word": "crooked",
+          "reverse_translation": [
+            "ကေွးသော"
+          ],
+          "score": 0.010936768
+        },
+        {
+          "word": "bent",
+          "reverse_translation": [
+            "ကောက်ကေွးသော"
+          ],
+          "score": 0.0060398565
+        }
+      ],
+      "base_form": "ကောက်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကောက်",
+      "alternative": [
+        {
+          "word_postproc": "pick",
+          "score": 673,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pick up",
+          "score": 212,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bracelets",
+          "score": 101,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rye",
+          "score": 12,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "perverse",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

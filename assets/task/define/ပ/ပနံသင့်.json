@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Suit",
+      "orig": "ပနံသင့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "p nan saint"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "become",
+        "go well with",
+        "match",
+        "suit",
+        "get along with sb"
+      ],
+      "entry": [
+        {
+          "word": "become",
+          "reverse_translation": [
+            "ဖြစ်လာ"
+          ],
+          "synset_id": [
+            103986
+          ]
+        },
+        {
+          "word": "match",
+          "reverse_translation": [
+            "ကိုက်ညီ"
+          ]
+        }
+      ],
+      "base_form": "ပနံသင့်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပ နံ သင့်",
+      "alternative": [
+        {
+          "word_postproc": "Suit",
+          "score": 757,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Get along with",
+          "score": 186,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Match",
+          "score": 55,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ပနံသင့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

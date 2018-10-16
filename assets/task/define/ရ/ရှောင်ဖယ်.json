@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "Suppressed",
+      "orig": "ရှောင်ဖယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "shawin hpaal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "keep away from"
+      ],
+      "entry": [
+        {
+          "word": "keep away from"
+        }
+      ],
+      "base_form": "ရှောင်ဖယ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရှောင် ဖယ်",
+      "alternative": [
+        {
+          "word_postproc": "Suppressed",
+          "score": 492,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "shun",
+          "score": 440,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "opt out",
+          "score": 55,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "shun the",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "opt out of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ရှောင်ဖယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

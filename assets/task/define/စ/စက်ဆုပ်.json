@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "disgusted",
+      "orig": "စက်ဆုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcaatsote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "hate.",
+        "abhor",
+        "loathe",
+        "feel distaste for"
+      ],
+      "entry": [
+        {
+          "word": "hate.",
+          "reverse_translation": [
+            "မုန်းထား"
+          ],
+          "score": 0.018031681
+        }
+      ],
+      "base_form": "စက်ဆုပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စက်ဆုပ်",
+      "alternative": [
+        {
+          "word_postproc": "disgusted",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and disgusting",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "disgusted with",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "distaste for",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "so disgusted",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "စက်ဆုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

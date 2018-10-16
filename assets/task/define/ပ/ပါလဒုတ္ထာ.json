@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Copperas",
+      "orig": "ပါလဒုတ္ထာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "par l dut htar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "green vitriol",
+        "copperas"
+      ],
+      "entry": [
+        {
+          "word": "green vitriol"
+        },
+        {
+          "word": "copperas"
+        }
+      ],
+      "base_form": "ပါလဒုတ္ထာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လ ဒုတ္ ထာ",
+      "alternative": [
+        {
+          "word_postproc": "Copperas",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Green vitriol",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ပါလဒုတ္ထာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

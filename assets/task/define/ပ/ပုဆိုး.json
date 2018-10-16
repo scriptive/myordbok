@@ -1,0 +1,85 @@
+{
+  "sentences": [
+    {
+      "trans": "cloths",
+      "orig": "ပုဆိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "pusoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "garment",
+        "Paso: nether garment of Myanmar males"
+      ],
+      "entry": [
+        {
+          "word": "garment",
+          "score": 0.012200845
+        },
+        {
+          "word": "Paso: nether garment of Myanmar males"
+        }
+      ],
+      "base_form": "ပုဆိုး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပုဆိုး",
+      "alternative": [
+        {
+          "word_postproc": "cloths",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "benefit",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "longyi",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "garment",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ပုဆိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

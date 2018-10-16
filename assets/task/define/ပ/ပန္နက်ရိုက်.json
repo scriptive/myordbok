@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "Plight",
+      "orig": "ပန္နက်ရိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pan naat rite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "drive in a stake"
+      ],
+      "entry": [
+        {
+          "word": "drive in a stake"
+        }
+      ],
+      "base_form": "ပန္နက်ရိုက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပန္ နက်",
+      "alternative": [
+        {
+          "word_postproc": "Plight",
+          "score": 858,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A stake",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Pledge",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Stake",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ပန္နက်ရိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

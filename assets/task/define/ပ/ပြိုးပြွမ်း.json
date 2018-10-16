@@ -1,0 +1,76 @@
+{
+  "sentences": [
+    {
+      "trans": "mixed",
+      "orig": "ပြိုးပြွမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyaoe pyawm"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be mixed",
+        "be mingled",
+        "be made up of many different things"
+      ],
+      "entry": [
+        {
+          "word": "be mixed"
+        },
+        {
+          "word": "be mingled"
+        },
+        {
+          "word": "be made up of many different things"
+        }
+      ],
+      "base_form": "ပြိုးပြွမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြိုး ပြွမ်း",
+      "alternative": [
+        {
+          "word_postproc": "mixed",
+          "score": 981,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mingled",
+          "score": 18,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ပြိုးပြွမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

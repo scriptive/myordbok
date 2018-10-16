@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "carry",
+      "orig": "သယ်ပိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "saal poe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "carry on one's back,shoulder",
+        "assume responsibility"
+      ],
+      "entry": [
+        {
+          "word": "carry on one's back,shoulder"
+        },
+        {
+          "word": "assume responsibility"
+        }
+      ],
+      "base_form": "သယ်ပိုး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သယ် ပိုး",
+      "alternative": [
+        {
+          "word_postproc": "carry",
+          "score": 608,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bearing",
+          "score": 386,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "assume responsibility",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "laden with",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "with doing",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "သယ်ပိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

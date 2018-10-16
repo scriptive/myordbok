@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "Conjecture",
+      "orig": "အမှန်းအဆ",
+      "backend": 0
+    },
+    {
+      "src_translit": "a mhaann aas"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "guess",
+        "conjecture",
+        "estimate"
+      ],
+      "entry": [
+        {
+          "word": "guess",
+          "reverse_translation": [
+            "တေွးဆချက်"
+          ],
+          "synset_id": [
+            83708
+          ]
+        }
+      ],
+      "base_form": "အ‌မှန်းအဆ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ မှန်း အဆ",
+      "alternative": [
+        {
+          "word_postproc": "Conjecture",
+          "score": 967,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Estimate",
+          "score": 32,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Guess",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "အမှန်းအဆ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Oslo",
+      "orig": "အော့",
+      "backend": 0
+    },
+    {
+      "src_translit": "aot"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "vomit",
+        "retch",
+        "dislike",
+        "be sick of"
+      ],
+      "entry": [
+        {
+          "word": "vomit",
+          "reverse_translation": [
+            "အော့အန်"
+          ],
+          "synset_id": [
+            22297
+          ],
+          "score": 0.010435936
+        }
+      ],
+      "base_form": "အော့",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အော့",
+      "alternative": [
+        {
+          "word_postproc": "Oslo",
+          "score": 867,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Auckland",
+          "score": 130,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Georgios",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "retch",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "အော့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

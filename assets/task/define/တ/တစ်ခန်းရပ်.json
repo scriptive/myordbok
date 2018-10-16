@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "တစ်ခန်းရပ်",
+      "orig": "တစ်ခန်းရပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "taithkaannraut"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တစ်ခန်းရပ်",
+      "alternative": [
+        {
+          "word_postproc": "တစ်ခန်းရပ်",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "တစ်ခန်းရပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

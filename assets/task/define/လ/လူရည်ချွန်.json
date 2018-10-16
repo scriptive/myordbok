@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Outstanding",
+      "orig": "လူရည်ချွန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "luu rai hkyawan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "person of outstanding attainments",
+        "outstanding student,student of distinction"
+      ],
+      "entry": [
+        {
+          "word": "person of outstanding attainments"
+        },
+        {
+          "word": "outstanding student,student of distinction"
+        }
+      ],
+      "base_form": "လူရည်ချွန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လူ ရည် ချွန်",
+      "alternative": [
+        {
+          "word_postproc": "Outstanding",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "လူရည်ချွန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

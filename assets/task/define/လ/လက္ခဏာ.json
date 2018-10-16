@@ -1,0 +1,126 @@
+{
+  "sentences": [
+    {
+      "trans": "feature",
+      "orig": "လက္ခဏာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "lakhkanar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "sign",
+        "characteristics",
+        "feature",
+        "symptom",
+        "indication",
+        "mark",
+        "token",
+        "symtom",
+        "lines and configurations on one's palms"
+      ],
+      "entry": [
+        {
+          "word": "sign",
+          "reverse_translation": [
+            "အမှတ်လက္ခဏာ"
+          ],
+          "synset_id": [
+            64628
+          ],
+          "score": 0.11396374
+        },
+        {
+          "word": "feature",
+          "reverse_translation": [
+            "လက္ခဏာ"
+          ],
+          "score": 0.0095020281
+        },
+        {
+          "word": "symptom",
+          "reverse_translation": [
+            "လက္ခဏာ"
+          ],
+          "score": 0.0087879393
+        },
+        {
+          "word": "indication",
+          "reverse_translation": [
+            "ညွှန်ပြချက်"
+          ],
+          "score": 0.0031827807
+        },
+        {
+          "word": "mark",
+          "reverse_translation": [
+            "အမှတ်"
+          ],
+          "synset_id": [
+            64628
+          ],
+          "score": 0.0028087941
+        }
+      ],
+      "base_form": "လက္ခဏာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လက္ခဏာ",
+      "alternative": [
+        {
+          "word_postproc": "feature",
+          "score": 975,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "symptom",
+          "score": 24,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sign of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sign will",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "လက္ခဏာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

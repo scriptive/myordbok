@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "witholdburke",
+      "orig": "ထိမ်မြူး",
+      "backend": 0
+    },
+    {
+      "src_translit": "htain myauu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "keep back",
+        "cover up",
+        "conceal",
+        "witholdburke"
+      ],
+      "entry": [
+        {
+          "word": "conceal",
+          "reverse_translation": [
+            "လှျို့ဝှက်"
+          ]
+        }
+      ],
+      "base_form": "ထိမ်မြူး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထိမ် မြူး",
+      "alternative": [
+        {
+          "word_postproc": "witholdburke",
+          "score": 989,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "conceal",
+          "score": 9,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cover up",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "keep back",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ထိမ်မြူး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

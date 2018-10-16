@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "The delicate",
+      "orig": "အနုစိတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aanu hcate"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in detail"
+      ],
+      "entry": [
+        {
+          "word": "in detail"
+        }
+      ],
+      "base_form": "အနုစိတ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အနု စိတ်",
+      "alternative": [
+        {
+          "word_postproc": "The delicate",
+          "score": 929,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "intricate",
+          "score": 40,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "precision",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the intricate",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "အနုစိတ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

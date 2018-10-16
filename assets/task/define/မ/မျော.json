@@ -1,0 +1,123 @@
+{
+  "sentences": [
+    {
+      "trans": "Moscow",
+      "orig": "မျော",
+      "backend": 0
+    },
+    {
+      "src_translit": "myaww"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "float",
+        "drift",
+        "faint",
+        "lose consciousness",
+        "sink into a coma",
+        "digress from",
+        "go with the tide"
+      ],
+      "entry": [
+        {
+          "word": "float",
+          "reverse_translation": [
+            "မေျာ"
+          ],
+          "synset_id": [
+            958
+          ],
+          "score": 0.0031334364
+        },
+        {
+          "word": "faint",
+          "reverse_translation": [
+            "အားကုန်"
+          ]
+        }
+      ],
+      "base_form": "မျော",
+      "pos_enum": 2
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "long",
+        "lengthy"
+      ],
+      "entry": [
+        {
+          "word": "long",
+          "reverse_translation": [
+            "ရှည်လျားသော"
+          ],
+          "score": 0.0031334364
+        }
+      ],
+      "base_form": "မျော",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မျော",
+      "alternative": [
+        {
+          "word_postproc": "Moscow",
+          "score": 926,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Motor",
+          "score": 68,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The Moscow",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "floating",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Maw",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "မျော",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

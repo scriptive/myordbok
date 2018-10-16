@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "around",
+      "orig": "ယီးတိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "yee tite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "utter rhythmic cries to ensure unison in rowing"
+      ],
+      "entry": [
+        {
+          "word": "utter rhythmic cries to ensure unison in rowing"
+        }
+      ],
+      "base_form": "ယီးတိုက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယီး",
+      "alternative": [
+        {
+          "word_postproc": "around",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ယီးတိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

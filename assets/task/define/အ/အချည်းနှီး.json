@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "Vain",
+      "orig": "အချည်းနှီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "a hkyaee nhaee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in vain",
+        "fruitlessly",
+        "to no purpose",
+        "without gain"
+      ],
+      "entry": [
+        {
+          "word": "in vain"
+        },
+        {
+          "word": "fruitlessly"
+        },
+        {
+          "word": "to no purpose"
+        },
+        {
+          "word": "without gain"
+        }
+      ],
+      "base_form": "အချည်းနှီး",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ ချည်း နှီး",
+      "alternative": [
+        {
+          "word_postproc": "Vain",
+          "score": 815,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "In vain",
+          "score": 184,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "In vain that",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "But became vain",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "But became vain in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "အချည်းနှီး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

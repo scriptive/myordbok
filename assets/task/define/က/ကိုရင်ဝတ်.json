@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "Wear",
+      "orig": "ကိုရင်ဝတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "ko rain waat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be novitiated in the Buddhist Order"
+      ],
+      "entry": [
+        {
+          "word": "be novitiated in the Buddhist Order"
+        }
+      ],
+      "base_form": "ကိုရင်ဝတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝတ်",
+      "alternative": [
+        {
+          "word_postproc": "Wear",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Clothed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Clothe",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Robe",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကိုရင်ဝတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

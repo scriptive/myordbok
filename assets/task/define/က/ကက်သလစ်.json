@@ -1,0 +1,85 @@
+{
+  "sentences": [
+    {
+      "trans": "Catholic",
+      "orig": "ကက်သလစ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kaatsalait"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "Catholic"
+      ],
+      "entry": [
+        {
+          "word": "Catholic",
+          "reverse_translation": [
+            "ကက်သလစ်ဘာသာဝင်",
+            "ကက်သလစ်ဘာသာဝင်"
+          ],
+          "score": 0.42342663
+        }
+      ],
+      "base_form": "ကက်သလစ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကက်သလစ်",
+      "alternative": [
+        {
+          "word_postproc": "Catholic",
+          "score": 991,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Catholics",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The Catholic",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a Catholic",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကက်သလစ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

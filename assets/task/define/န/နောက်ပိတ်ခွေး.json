@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "နောက်ပိတ်ခွေး",
+      "orig": "နောက်ပိတ်ခွေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "noutpatehkway"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "iron collar placed at the butt-end of a chopping kinfe"
+      ],
+      "entry": [
+        {
+          "word": "iron collar placed at the butt-end of a chopping kinfe"
+        }
+      ],
+      "base_form": "နောက်ပိတ်ခွေး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နောက်ပိတ်ခွေး",
+      "alternative": [
+        {
+          "word_postproc": "နောက်ပိတ်ခွေး",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "နောက်ပိတ်ခွေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

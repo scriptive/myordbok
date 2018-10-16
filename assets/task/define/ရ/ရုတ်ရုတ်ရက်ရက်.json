@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Turmoil",
+      "orig": "ရုတ်ရုတ်ရက်ရက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "rote rote raatraat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in a turmoil"
+      ],
+      "entry": [
+        {
+          "word": "in a turmoil"
+        }
+      ],
+      "base_form": "ရုတ်ရုတ်ရက်ရက်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရုတ် ရုတ် ရက်ရက်",
+      "alternative": [
+        {
+          "word_postproc": "Turmoil",
+          "score": 832,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A turmoil",
+          "score": 167,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ရုတ်ရုတ်ရက်ရက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

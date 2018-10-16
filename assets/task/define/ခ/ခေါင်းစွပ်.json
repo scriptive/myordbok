@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "stocking cap",
+      "orig": "ခေါင်းစွပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaungg hcwut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "stocking cap",
+        "balaclava helmet"
+      ],
+      "entry": [
+        {
+          "word": "stocking cap"
+        },
+        {
+          "word": "balaclava helmet"
+        }
+      ],
+      "base_form": "ခေါင်းစွပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခေါင်း စွပ်",
+      "alternative": [
+        {
+          "word_postproc": "stocking cap",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "balaclava helmet",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ခေါင်းစွပ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

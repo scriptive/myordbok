@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "The stars of Orion's belt",
+      "orig": "မောင်ရှင်ဆိုင်းထမ်းကြယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "maungshin sine htam kyaal"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြယ်",
+      "alternative": [
+        {
+          "word_postproc": "The stars of",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Star",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Stars",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 19,
+          "end": 23
+        }
+      ],
+      "raw_src_segment": "မောင်ရှင်ဆိုင်းထမ်းကြယ်",
+      "start_pos": 0,
+      "end_pos": 3
+    },
+    {
+      "src_phrase": "မောင်ရှင် ဆိုင်း ထမ်း",
+      "alternative": [
+        {
+          "word_postproc": "Orion's belt",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 19
+        }
+      ],
+      "start_pos": 3,
+      "end_pos": 6
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

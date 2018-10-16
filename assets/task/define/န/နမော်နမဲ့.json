@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "heedlessly",
+      "orig": "နမော်နမဲ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "namawnamae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "heedlessly",
+        "carelessly"
+      ],
+      "entry": [
+        {
+          "word": "heedlessly",
+          "synset_id": [
+            64761
+          ],
+          "score": 0.087379023
+        },
+        {
+          "word": "carelessly",
+          "synset_id": [
+            64761
+          ],
+          "score": 0.087379023
+        }
+      ],
+      "base_form": "နမော်နမဲ့",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နမော်နမဲ့",
+      "alternative": [
+        {
+          "word_postproc": "heedlessly",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "carelessly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "careless",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "နမော်နမဲ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Immediately on arrival",
+      "orig": "ခရီးရောက်မဆိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkareerout m site"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "immediately on arrival"
+      ],
+      "entry": [
+        {
+          "word": "immediately on arrival"
+        }
+      ],
+      "base_form": "ခရီးရောက်မဆိုက်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခရီးရောက် မ ဆိုက်",
+      "alternative": [
+        {
+          "word_postproc": "Immediately on arrival",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "ခရီးရောက်မဆိုက်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

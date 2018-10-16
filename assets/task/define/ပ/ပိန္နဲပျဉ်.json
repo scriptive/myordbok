@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "Dark sour",
+      "orig": "ပိန္နဲပျဉ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pin nell pyain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "fruit preserve in the form of dried thin slab made from jack fruit pulp"
+      ],
+      "entry": [
+        {
+          "word": "fruit preserve in the form of dried thin slab made from jack fruit pulp"
+        }
+      ],
+      "base_form": "ပိန္နဲပျဉ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပိန် နဲ",
+      "alternative": [
+        {
+          "word_postproc": "Dark",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Jack fruit",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Post",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ပိန္နဲပျဉ်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဉျြ",
+      "alternative": [
+        {
+          "word_postproc": "sour",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 10
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

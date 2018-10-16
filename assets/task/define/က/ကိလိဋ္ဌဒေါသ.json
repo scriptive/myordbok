@@ -1,0 +1,137 @@
+{
+  "sentences": [
+    {
+      "trans": "Lucius anger လိဋ္ l",
+      "orig": "ကိလိဋ္ဌဒေါသ",
+      "backend": 0
+    },
+    {
+      "src_translit": "ki lit ht daws"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "fault of using difficult,ambiguous terms in writing"
+      ],
+      "entry": [
+        {
+          "word": "fault of using difficult,ambiguous terms in writing"
+        }
+      ],
+      "base_form": "ကိလိဋ္ဌဒေါသ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိ",
+      "alternative": [
+        {
+          "word_postproc": "Lucius",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Kir",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ကိလိဋ္ဌဒေါသ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဒေါသ",
+      "alternative": [
+        {
+          "word_postproc": "anger",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "angry",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fury",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 11
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "လိဋ္",
+      "alternative": [
+        {
+          "word_postproc": "လိဋ္",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 6
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    },
+    {
+      "src_phrase": "ဌ",
+      "alternative": [
+        {
+          "word_postproc": "l",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 7
+        }
+      ],
+      "start_pos": 3,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

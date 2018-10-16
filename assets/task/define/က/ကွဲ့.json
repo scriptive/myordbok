@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "IPS",
+      "orig": "ကွဲ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "kwal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "",
+      "terms": [
+        "term of familiarity used as a final marker"
+      ],
+      "entry": [
+        {
+          "word": "term of familiarity used as a final marker"
+        }
+      ],
+      "base_form": "ကွဲ့",
+      "pos_enum": 20
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကွဲ့",
+      "alternative": [
+        {
+          "word_postproc": "IPS",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rub",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rub it",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "money",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wind",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကွဲ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

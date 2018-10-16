@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "ခခွေး",
+      "orig": "ခခွေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkahkway"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "name of the second letter of the Myanmar alphabet"
+      ],
+      "entry": [
+        {
+          "word": "name of the second letter of the Myanmar alphabet"
+        }
+      ],
+      "base_form": "ခခွေး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခခွေး",
+      "alternative": [
+        {
+          "word_postproc": "ခခွေး",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ခခွေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

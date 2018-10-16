@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "wife",
+      "orig": "မိန်းမ",
+      "backend": 1
+    },
+    {
+      "src_translit": "meinm"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "woman",
+        "wife",
+        "female"
+      ],
+      "entry": [
+        {
+          "word": "woman",
+          "reverse_translation": [
+            "မိန်းမ"
+          ],
+          "score": 0.23021308
+        },
+        {
+          "word": "wife",
+          "reverse_translation": [
+            "ဇနီး"
+          ],
+          "score": 0.02706876
+        },
+        {
+          "word": "female",
+          "reverse_translation": [
+            "မိန်းမ"
+          ],
+          "synset_id": [
+            30572
+          ],
+          "score": 0.0096516637
+        }
+      ],
+      "base_form": "မိန်းမ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မိန်းမ",
+      "alternative": [
+        {
+          "word_postproc": "wife",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "woman",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "မိန်းမ",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

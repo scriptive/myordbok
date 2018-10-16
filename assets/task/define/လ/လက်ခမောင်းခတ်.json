@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "လက်ခမောင်း",
+      "orig": "လက်ခမောင်းခတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "laathkamaungg hkaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "whack with an open palm over the crook of the elbow of the other arm folded across one's chest",
+        "show jubilation over one's triumph"
+      ],
+      "entry": [
+        {
+          "word": "whack with an open palm over the crook of the elbow of the other arm folded across one's chest"
+        },
+        {
+          "word": "show jubilation over one's triumph"
+        }
+      ],
+      "base_form": "လက်ခမောင်းခတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လက်ခမောင်း",
+      "alternative": [
+        {
+          "word_postproc": "လက်ခမောင်း",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "လက်ခမောင်းခတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "flute",
+      "orig": "ပလွေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "palway"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "flute",
+        "fipple-flute"
+      ],
+      "entry": [
+        {
+          "word": "flute",
+          "reverse_translation": [
+            "ပလေွ"
+          ],
+          "score": 0.079559512
+        }
+      ],
+      "base_form": "ပလွေ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပလွေ",
+      "alternative": [
+        {
+          "word_postproc": "flute",
+          "score": 498,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pipe",
+          "score": 438,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pipes",
+          "score": 63,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the pipe",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of pipes",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ပလွေ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

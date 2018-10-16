@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Exuberantly",
+      "orig": "အိုးပစ်မကွဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aoe pait m kwal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "exuberantly"
+      ],
+      "entry": [
+        {
+          "word": "exuberantly"
+        }
+      ],
+      "base_form": "အိုးပစ်မကွဲ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အိုး ပစ် မ ကွဲ",
+      "alternative": [
+        {
+          "word_postproc": "Exuberantly",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "အိုးပစ်မကွဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

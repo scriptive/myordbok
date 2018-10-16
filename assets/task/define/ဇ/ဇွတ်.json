@@ -1,0 +1,108 @@
+{
+  "sentences": [
+    {
+      "trans": "obstinately",
+      "orig": "ဇွတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "jwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "stubbornly",
+        "forcibly",
+        "obstinately",
+        "persistently"
+      ],
+      "entry": [
+        {
+          "word": "stubbornly",
+          "synset_id": [
+            76847
+          ],
+          "score": 0.026649097
+        },
+        {
+          "word": "forcibly",
+          "score": 0.017752126
+        },
+        {
+          "word": "obstinately",
+          "synset_id": [
+            76847
+          ],
+          "score": 0.017752126
+        },
+        {
+          "word": "persistently",
+          "score": 0.017752126
+        }
+      ],
+      "base_form": "ဇွတ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဇွတ်",
+      "alternative": [
+        {
+          "word_postproc": "obstinately",
+          "score": 965,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "stubbornly",
+          "score": 32,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "persistently",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "forcibly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "trying to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဇွတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

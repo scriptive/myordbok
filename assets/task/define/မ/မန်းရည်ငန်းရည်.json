@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Ichor",
+      "orig": "မန်းရည်ငန်းရည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "maann rai ngaann rai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "ichor"
+      ],
+      "entry": [
+        {
+          "word": "ichor"
+        }
+      ],
+      "base_form": "မန်းရည်ငန်းရည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မန်း ရည် ငန်း ရည်",
+      "alternative": [
+        {
+          "word_postproc": "Ichor",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "မန်းရည်ငန်းရည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

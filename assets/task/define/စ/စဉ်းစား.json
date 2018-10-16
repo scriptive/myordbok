@@ -1,0 +1,102 @@
+{
+  "sentences": [
+    {
+      "trans": "consider",
+      "orig": "စဉ်းစား",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcain hcarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "think",
+        "consider"
+      ],
+      "entry": [
+        {
+          "word": "think",
+          "reverse_translation": [
+            "ထင်"
+          ],
+          "synset_id": [
+            80708
+          ]
+        },
+        {
+          "word": "consider",
+          "reverse_translation": [
+            "စဉ်းစားဆင်ခြင်"
+          ],
+          "synset_id": [
+            80708
+          ]
+        }
+      ],
+      "base_form": "စဉ်းစား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စဉ်း စား",
+      "alternative": [
+        {
+          "word_postproc": "consider",
+          "score": 860,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "considering",
+          "score": 59,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "considered",
+          "score": 42,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "think",
+          "score": 36,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to consider",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "စဉ်းစား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "ying",
+      "orig": "ယင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "yain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "fly"
+      ],
+      "entry": [
+        {
+          "word": "fly",
+          "reverse_translation": [
+            "ယင်ကောင်"
+          ],
+          "score": 0.016939197
+        }
+      ],
+      "base_form": "ယင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယင်",
+      "alternative": [
+        {
+          "word_postproc": "ying",
+          "score": 462,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "flies",
+          "score": 292,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fly",
+          "score": 243,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cradle",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the flies",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ယင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

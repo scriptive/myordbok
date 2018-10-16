@@ -1,0 +1,102 @@
+{
+  "sentences": [
+    {
+      "trans": "astir",
+      "orig": "ကြိုးကြွ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaoe kyaw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be prancing",
+        "be cavorting",
+        "be astir",
+        "shimmer",
+        "be shimmering"
+      ],
+      "entry": [
+        {
+          "word": "be prancing"
+        },
+        {
+          "word": "be cavorting"
+        },
+        {
+          "word": "be astir"
+        },
+        {
+          "word": "shimmer"
+        },
+        {
+          "word": "be shimmering"
+        }
+      ],
+      "base_form": "ကြိုးကြွ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြိုး ကြွ",
+      "alternative": [
+        {
+          "word_postproc": "astir",
+          "score": 508,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "shimmer",
+          "score": 326,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "prancing",
+          "score": 144,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cavorting",
+          "score": 19,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "shimmering",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကြိုးကြွ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

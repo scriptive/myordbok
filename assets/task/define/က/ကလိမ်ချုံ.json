@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Crook",
+      "orig": "ကလိမ်ချုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "k lain hkyaone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "crook",
+        "swindler"
+      ],
+      "entry": [
+        {
+          "word": "crook"
+        },
+        {
+          "word": "swindler"
+        }
+      ],
+      "base_form": "ကလိမ်ချုံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "က လိမ် ချုံ",
+      "alternative": [
+        {
+          "word_postproc": "Crook",
+          "score": 700,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Swindler",
+          "score": 299,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကလိမ်ချုံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

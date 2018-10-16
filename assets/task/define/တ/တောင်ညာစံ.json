@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "Standard",
+      "orig": "တောင်ညာစံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "taung nyar hcan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "the chief queen who resides in the palace south of the king's"
+      ],
+      "entry": [
+        {
+          "word": "the chief queen who resides in the palace south of the king's"
+        }
+      ],
+      "base_form": "တောင်ညာစံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စံ",
+      "alternative": [
+        {
+          "word_postproc": "Standard",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Standards",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The standard",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A standard",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Standardized",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "တောင်ညာစံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

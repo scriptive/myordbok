@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "trans": "diffuse",
+      "orig": "ပျံ့ပျူး",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyaan pyauu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "spread",
+        "diffuse"
+      ],
+      "entry": [
+        {
+          "word": "spread",
+          "reverse_translation": [
+            "ပျံ့နှံ့"
+          ],
+          "synset_id": [
+            5531
+          ]
+        }
+      ],
+      "base_form": "ပျံ့ပျူး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပျံ့ ပျူး",
+      "alternative": [
+        {
+          "word_postproc": "diffuse",
+          "score": 933,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "spread",
+          "score": 66,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ပျံ့ပျူး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

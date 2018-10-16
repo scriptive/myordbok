@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "fire",
+      "orig": "မီးပြောင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "mee pyaungg"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "blowpipe",
+        "chimney"
+      ],
+      "entry": [
+        {
+          "word": "chimney",
+          "reverse_translation": [
+            "မီးခိုးတိုင်"
+          ]
+        }
+      ],
+      "base_form": "မီးပြောင်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မီး",
+      "alternative": [
+        {
+          "word_postproc": "fire",
+          "score": 990,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "မီးပြောင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

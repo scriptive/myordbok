@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "reverberate",
+      "orig": "ရိုက်ညောင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "rite nyaungg"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "roll",
+        "reverberate"
+      ],
+      "entry": [
+        {
+          "word": "roll",
+          "reverse_translation": [
+            "လှမ့်"
+          ]
+        }
+      ],
+      "base_form": "ရိုက်‌ညောင်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရိုက် ညောင်း",
+      "alternative": [
+        {
+          "word_postproc": "reverberate",
+          "score": 996,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "roll",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ရိုက်ညောင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

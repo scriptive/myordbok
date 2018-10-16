@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "Scatter",
+      "orig": "လွင့်စဉ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lw in  hcain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be blown away",
+        "be thrown off",
+        "be flung off"
+      ],
+      "entry": [
+        {
+          "word": "be blown away"
+        },
+        {
+          "word": "be thrown off"
+        },
+        {
+          "word": "be flung off"
+        }
+      ],
+      "base_form": "‌လွင့်စဉ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လွ င့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Scatter",
+          "score": 957,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Scattered",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Blown away",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Blown",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Driven",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "လွင့်စဉ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

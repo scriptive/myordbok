@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Shine",
+      "orig": "တဖိတ်ဖိတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "t hpate hpate"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖိတ် ဖိတ်",
+      "alternative": [
+        {
+          "word_postproc": "Shine",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "တဖိတ်ဖိတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

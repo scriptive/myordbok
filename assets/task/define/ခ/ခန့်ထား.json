@@ -1,0 +1,112 @@
+{
+  "sentences": [
+    {
+      "trans": "appoint",
+      "orig": "ခန့်ထား",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkan htarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "assign",
+        "charge",
+        "appoint"
+      ],
+      "entry": [
+        {
+          "word": "assign",
+          "reverse_translation": [
+            "သတ်မှတ်"
+          ]
+        },
+        {
+          "word": "charge",
+          "reverse_translation": [
+            "တိုက်ခိုက်",
+            "ထည့်",
+            "စရိတ်တင်",
+            "စဲွဆို"
+          ],
+          "synset_id": [
+            51509
+          ]
+        },
+        {
+          "word": "appoint",
+          "reverse_translation": [
+            "ခန့်ထား"
+          ],
+          "synset_id": [
+            51509
+          ]
+        }
+      ],
+      "base_form": "ခန့်ထား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခန့် ထား",
+      "alternative": [
+        {
+          "word_postproc": "appoint",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "appoint that",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "has appointed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "has appointed a",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "appointed a",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ခန့်ထား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

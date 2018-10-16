@@ -1,0 +1,53 @@
+{
+  "sentences": [
+    {
+      "trans": "fresh",
+      "orig": "လတ်လတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "laatlaat"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လတ်လတ်",
+      "alternative": [
+        {
+          "word_postproc": "fresh",
+          "score": 991,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "for fresh",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "လတ်လတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

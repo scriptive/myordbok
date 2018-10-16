@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "stupid",
+      "orig": "ဒုံးဝေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "done wayy"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be dense",
+        "stupid",
+        "lack understanding"
+      ],
+      "entry": [
+        {
+          "word": "be dense"
+        },
+        {
+          "word": "stupid"
+        },
+        {
+          "word": "lack understanding"
+        }
+      ],
+      "base_form": "ဒုံးဝေး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဒုံး ဝေး",
+      "alternative": [
+        {
+          "word_postproc": "stupid",
+          "score": 688,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "dense",
+          "score": 259,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lack understanding",
+          "score": 52,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဒုံးဝေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "trans": "Losetotally",
+      "orig": "ပြုတ်ပြုတ်ပြုန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyuat pyuat pyuann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "losetotally"
+      ],
+      "entry": [
+        {
+          "word": "losetotally"
+        }
+      ],
+      "base_form": "ပြုတ်ပြုတ်ပြုန်း",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "sound of ဗြော drum and a  smaller accompanying  drum"
+      ],
+      "entry": [
+        {
+          "word": "sound of ဗြော drum and a  smaller accompanying  drum"
+        }
+      ],
+      "base_form": "ပြုတ်ပြုတ်ပြုန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြုတ် ပြုတ် ပြုန်း",
+      "alternative": [
+        {
+          "word_postproc": "Losetotally",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "ပြုတ်ပြုတ်ပြုန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

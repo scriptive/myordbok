@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "happy",
+      "orig": "ပျော်",
+      "backend": 1
+    },
+    {
+      "src_translit": "pyaw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "dissolve",
+        "melt",
+        "be happy, glad, merry, amused, pleased,etc",
+        "enjoy rejoice",
+        "be overripe",
+        "be asleep",
+        "particle suffixed to a verb expressing the notion of sth being worth doing"
+      ],
+      "entry": [
+        {
+          "word": "dissolve",
+          "reverse_translation": [
+            "ပေျာ်စေ"
+          ],
+          "synset_id": [
+            1093
+          ],
+          "score": 0.021081172
+        },
+        {
+          "word": "melt",
+          "reverse_translation": [
+            "အရေပေျာ်"
+          ],
+          "synset_id": [
+            1093
+          ]
+        }
+      ],
+      "base_form": "ပျော်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပျော်",
+      "alternative": [
+        {
+          "word_postproc": "happy",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ပျော်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

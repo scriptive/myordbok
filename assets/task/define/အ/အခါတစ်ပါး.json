@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "once upon a time",
+      "orig": "အခါတစ်ပါး",
+      "backend": 0
+    },
+    {
+      "src_translit": "aahkar taitparr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "once upon a time",
+        "some time in the past"
+      ],
+      "entry": [
+        {
+          "word": "once upon a time"
+        },
+        {
+          "word": "some time in the past"
+        }
+      ],
+      "base_form": "အခါတစ်ပါး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အခါ တစ်ပါး",
+      "alternative": [
+        {
+          "word_postproc": "once upon a time",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "I was",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အခါတစ်ပါး",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

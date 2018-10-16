@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "in an uproar",
+      "orig": "ကျွမ်းသူပုန်ထ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawm suuponeht"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be in an uproar",
+        "go on a rampage"
+      ],
+      "entry": [
+        {
+          "word": "be in an uproar"
+        },
+        {
+          "word": "go on a rampage"
+        }
+      ],
+      "base_form": "ကျွမ်းသူပုန်ထ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျွမ်း သူပုန်ထ",
+      "alternative": [
+        {
+          "word_postproc": "in an uproar",
+          "score": 884,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "an uproar",
+          "score": 68,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "on a rampage",
+          "score": 36,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a rampage",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ကျွမ်းသူပုန်ထ",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

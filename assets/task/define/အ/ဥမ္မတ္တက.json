@@ -1,0 +1,103 @@
+{
+  "sentences": [
+    {
+      "trans": "The lunatic",
+      "orig": "ဥမ္မတ္တက",
+      "backend": 0
+    },
+    {
+      "src_translit": "um mat t k"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "insane person",
+        "lunatic"
+      ],
+      "entry": [
+        {
+          "word": "insane person"
+        },
+        {
+          "word": "lunatic"
+        }
+      ],
+      "base_form": "ဥမ္မတ္တက",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "က",
+      "alternative": [
+        {
+          "word_postproc": "The",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "It",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "By",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Said",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဥမ္မတ္တက",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဥမ္ မတ္ တ",
+      "alternative": [
+        {
+          "word_postproc": "lunatic",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

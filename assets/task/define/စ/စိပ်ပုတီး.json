@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "rosary",
+      "orig": "စိပ်ပုတီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "hciut putee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "rosary",
+        "prayer beads"
+      ],
+      "entry": [
+        {
+          "word": "rosary",
+          "synset_id": [
+            71106
+          ]
+        },
+        {
+          "word": "prayer beads",
+          "synset_id": [
+            71106
+          ]
+        }
+      ],
+      "base_form": "စိပ်ပုတီး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စိပ် ပုတီး",
+      "alternative": [
+        {
+          "word_postproc": "rosary",
+          "score": 989,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "prayer beads",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "စိပ်ပုတီး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

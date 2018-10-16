@@ -1,0 +1,76 @@
+{
+  "sentences": [
+    {
+      "trans": "Cree",
+      "orig": "ခရီးပေါက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaree pout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "make good progress on a journey",
+        "make good progress",
+        "make good headway"
+      ],
+      "entry": [
+        {
+          "word": "make good progress on a journey"
+        },
+        {
+          "word": "make good progress"
+        },
+        {
+          "word": "make good headway"
+        }
+      ],
+      "base_form": "ခရီးပေါက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခရီး",
+      "alternative": [
+        {
+          "word_postproc": "Cree",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "journey",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ခရီးပေါက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

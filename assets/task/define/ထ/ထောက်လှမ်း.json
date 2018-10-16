@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "detection",
+      "orig": "ထောက်လှမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "htoutlham"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "investigate",
+        "foothom",
+        "plumb",
+        "enquire"
+      ],
+      "entry": [
+        {
+          "word": "investigate",
+          "reverse_translation": [
+            "စစ်ဆေး"
+          ],
+          "synset_id": [
+            3074
+          ],
+          "score": 0.014488863
+        },
+        {
+          "word": "enquire",
+          "reverse_translation": [
+            "မေးမြန်း"
+          ],
+          "synset_id": [
+            3074
+          ]
+        }
+      ],
+      "base_form": "ထောက်လှမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထောက်လှမ်း",
+      "alternative": [
+        {
+          "word_postproc": "detection",
+          "score": 979,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Detect",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Intelligence Unit",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "can detect",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ထောက်လှမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "Superstitions",
+      "orig": "အယူသီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "a yuu see"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be superstitious",
+        "be bigoted"
+      ],
+      "entry": [
+        {
+          "word": "be superstitious"
+        },
+        {
+          "word": "be bigoted"
+        }
+      ],
+      "base_form": "အယူသီး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ ယူ သီး",
+      "alternative": [
+        {
+          "word_postproc": "Superstitions",
+          "score": 588,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Superstition",
+          "score": 406,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Superstitious",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The superstitious",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "အယူသီး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

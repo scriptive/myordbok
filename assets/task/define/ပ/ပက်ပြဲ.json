@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "mushy",
+      "orig": "ပက်ပြဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "paat pyaell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "wide open",
+        "gaping",
+        "mushy",
+        "sloppy"
+      ],
+      "entry": [
+        {
+          "word": "sloppy",
+          "reverse_translation": [
+            "မသေချာသော"
+          ]
+        }
+      ],
+      "base_form": "ပက်ပြဲ",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပက် ပြဲ",
+      "alternative": [
+        {
+          "word_postproc": "mushy",
+          "score": 592,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "gaping",
+          "score": 366,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sloppy",
+          "score": 40,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wide open",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ပက်ပြဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

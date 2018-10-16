@@ -1,0 +1,182 @@
+{
+  "sentences": [
+    {
+      "trans": "Prepare",
+      "orig": "ပြင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyin"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "change",
+        "prepare",
+        "repair",
+        "get ready",
+        "beautify",
+        "rectify",
+        "mend",
+        "alter"
+      ],
+      "entry": [
+        {
+          "word": "change",
+          "reverse_translation": [
+            "လဲလှယ်",
+            "ပေြာင်းလဲ"
+          ],
+          "synset_id": [
+            8794
+          ],
+          "score": 0.02426428
+        },
+        {
+          "word": "prepare",
+          "reverse_translation": [
+            "ပြင်ဆင်ထား"
+          ],
+          "score": 0.016418032
+        },
+        {
+          "word": "repair",
+          "reverse_translation": [
+            "ပြုပြင်"
+          ],
+          "synset_id": [
+            39552,
+            66349
+          ],
+          "score": 0.0087879393
+        },
+        {
+          "word": "rectify",
+          "reverse_translation": [
+            "ပြင်ဆင်"
+          ],
+          "synset_id": [
+            39552
+          ]
+        },
+        {
+          "word": "mend",
+          "reverse_translation": [
+            "ပြုပြင်"
+          ],
+          "synset_id": [
+            66349
+          ]
+        }
+      ],
+      "base_form": "‌ပြင်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "plane",
+        "flat",
+        "level surface",
+        "appearance",
+        "shape",
+        "form"
+      ],
+      "entry": [
+        {
+          "word": "flat",
+          "reverse_translation": [
+            "အိမ်ခန်း"
+          ]
+        },
+        {
+          "word": "appearance",
+          "reverse_translation": [
+            "ဖြစ်ပေါ်လာခြင်း"
+          ]
+        },
+        {
+          "word": "shape",
+          "reverse_translation": [
+            "ပုံသဏ္ဌာန်"
+          ],
+          "synset_id": [
+            69412
+          ]
+        },
+        {
+          "word": "form",
+          "reverse_translation": [
+            "ပုံသဏ္ဌာန်"
+          ],
+          "synset_id": [
+            69412
+          ]
+        }
+      ],
+      "base_form": "‌ပြင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြင်",
+      "alternative": [
+        {
+          "word_postproc": "Prepare",
+          "score": 507,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "edit",
+          "score": 464,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "outside",
+          "score": 22,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "outside the",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the outer",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ပြင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

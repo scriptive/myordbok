@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Shred",
+      "orig": "ရိပ်ရိပ်လှီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "riut riut lhaee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "shred",
+        "slice thinly"
+      ],
+      "entry": [
+        {
+          "word": "shred"
+        },
+        {
+          "word": "slice thinly"
+        }
+      ],
+      "base_form": "ရိပ်ရိပ်လှီး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရိပ် ရိပ် လှီး",
+      "alternative": [
+        {
+          "word_postproc": "Shred",
+          "score": 861,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Slice thinly",
+          "score": 138,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ရိပ်ရိပ်လှီး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "sentences": [
+    {
+      "trans": "about",
+      "orig": "ဝိုင်းဝန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "winewaann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "besiege",
+        "surround"
+      ],
+      "entry": [
+        {
+          "word": "besiege",
+          "reverse_translation": [
+            "ဝိုင်းရံ"
+          ],
+          "synset_id": [
+            83786
+          ],
+          "score": 0.0063297153
+        },
+        {
+          "word": "surround",
+          "reverse_translation": [
+            "ဝန်းဝိုင်း"
+          ],
+          "synset_id": [
+            83786
+          ],
+          "score": 0.0063297153
+        }
+      ],
+      "base_form": "ဝိုင်းဝန်း",
+      "pos_enum": 2
+    },
+    {
+      "pos": "adverb",
+      "terms": [
+        "together"
+      ],
+      "entry": [
+        {
+          "word": "together",
+          "reverse_translation": [
+            "အတူတူ"
+          ],
+          "score": 0.0063297153
+        }
+      ],
+      "base_form": "ဝိုင်းဝန်း",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝိုင်းဝန်း",
+      "alternative": [
+        {
+          "word_postproc": "about",
+          "score": 889,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "round",
+          "score": 109,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Thein",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "surrounded",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "surround",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ဝိုင်းဝန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

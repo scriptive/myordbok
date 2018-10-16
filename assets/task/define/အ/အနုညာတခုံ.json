@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Arbitration",
+      "orig": "အနုညာတခုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aanu nyar t hkone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "arbiter chosen by mutual consent of the litigants"
+      ],
+      "entry": [
+        {
+          "word": "arbiter chosen by mutual consent of the litigants"
+        }
+      ],
+      "base_form": "အနုညာတခုံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အနု ညာ တ",
+      "alternative": [
+        {
+          "word_postproc": "Arbitration",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "အနုညာတခုံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

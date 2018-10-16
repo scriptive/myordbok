@@ -1,0 +1,104 @@
+{
+  "sentences": [
+    {
+      "trans": "knob",
+      "orig": "ဖုထစ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpu htait"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "bump",
+        "lump",
+        "knob",
+        "knot"
+      ],
+      "entry": [
+        {
+          "word": "bump",
+          "reverse_translation": [
+            "ထုရိုက်ခြင်း"
+          ]
+        },
+        {
+          "word": "lump",
+          "reverse_translation": [
+            "အစိုင်အခဲ"
+          ]
+        },
+        {
+          "word": "knob",
+          "reverse_translation": [
+            "အဖု"
+          ]
+        },
+        {
+          "word": "knot",
+          "reverse_translation": [
+            "အထုံး"
+          ]
+        }
+      ],
+      "base_form": "ဖုထစ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖု ထစ်",
+      "alternative": [
+        {
+          "word_postproc": "knob",
+          "score": 626,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "knot",
+          "score": 280,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bump",
+          "score": 90,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lump",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဖုထစ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

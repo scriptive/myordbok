@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "grasp",
+      "orig": "ဆုပ်ကိုင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "sotekine"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "grasp",
+        "grip",
+        "grab",
+        "adhere to a belief,hold on to a doctrine"
+      ],
+      "entry": [
+        {
+          "word": "grasp",
+          "reverse_translation": [
+            "ဆုပ်ကိုင်"
+          ],
+          "synset_id": [
+            44034
+          ],
+          "score": 0.057304565
+        },
+        {
+          "word": "grip",
+          "reverse_translation": [
+            "ဆုပ်ကိုင်"
+          ],
+          "score": 0.011825466
+        },
+        {
+          "word": "grab",
+          "reverse_translation": [
+            "ဆုပ်ကိုင်"
+          ],
+          "score": 0.0098036546
+        }
+      ],
+      "base_form": "ဆုပ်ကိုင်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆုပ်ကိုင်",
+      "alternative": [
+        {
+          "word_postproc": "grasp",
+          "score": 959,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "grip",
+          "score": 25,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "grab",
+          "score": 15,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ဆုပ်ကိုင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

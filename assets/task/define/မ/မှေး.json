@@ -1,0 +1,119 @@
+{
+  "sentences": [
+    {
+      "trans": "birth",
+      "orig": "မှေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "mhaayy"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "slit-eyed"
+      ],
+      "entry": [
+        {
+          "word": "slit-eyed"
+        }
+      ],
+      "base_form": "မှေး",
+      "pos_enum": 3
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "close partially",
+        "be slit-eyed",
+        "take a short nap",
+        "catnap",
+        "lean lightly against/ on sth",
+        "keep pace with"
+      ],
+      "entry": [
+        {
+          "word": "close partially"
+        },
+        {
+          "word": "be slit-eyed"
+        },
+        {
+          "word": "take a short nap"
+        },
+        {
+          "word": "catnap"
+        },
+        {
+          "word": "lean lightly against/ on sth"
+        },
+        {
+          "word": "keep pace with"
+        }
+      ],
+      "base_form": "မှေး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မှေး",
+      "alternative": [
+        {
+          "word_postproc": "birth",
+          "score": 952,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Snooze",
+          "score": 43,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "born",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "perfumed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of birth",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "မှေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

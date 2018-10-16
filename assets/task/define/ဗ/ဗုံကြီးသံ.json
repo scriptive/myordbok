@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "ဗုံကြီးသံ",
+      "orig": "ဗုံကြီးသံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "bonekyeesan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "type of folk song chanted to the lilting cadence of the long drum and the clash of cymbals"
+      ],
+      "entry": [
+        {
+          "word": "type of folk song chanted to the lilting cadence of the long drum and the clash of cymbals"
+        }
+      ],
+      "base_form": "ဗုံကြီးသံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗုံကြီးသံ",
+      "alternative": [
+        {
+          "word_postproc": "ဗုံကြီးသံ",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ဗုံကြီးသံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "sentences": [
+    {
+      "trans": "John",
+      "orig": "ဟ",
+      "backend": 0
+    },
+    {
+      "src_translit": "h"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "yawn",
+        "open",
+        "speak out",
+        "be ajar",
+        "be agape"
+      ],
+      "entry": [
+        {
+          "word": "yawn",
+          "reverse_translation": [
+            "ဟ"
+          ],
+          "score": 0.00053606776
+        },
+        {
+          "word": "open",
+          "reverse_translation": [
+            "ဖွင့်လှစ်"
+          ]
+        }
+      ],
+      "base_form": "ဟ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဟ",
+      "alternative": [
+        {
+          "word_postproc": "John",
+          "score": 952,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cry",
+          "score": 24,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Isaiah",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cried",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hold",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 1
+        }
+      ],
+      "raw_src_segment": "ဟ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

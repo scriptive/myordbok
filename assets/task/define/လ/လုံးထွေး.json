@@ -1,0 +1,106 @@
+{
+  "sentences": [
+    {
+      "trans": "wrestle",
+      "orig": "လုံးထွေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "lone htway"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "wrestle",
+        "grapple with",
+        "be garbled",
+        "be unintelligible",
+        "be mixed up",
+        "be entangled"
+      ],
+      "entry": [
+        {
+          "word": "wrestle"
+        },
+        {
+          "word": "grapple with"
+        },
+        {
+          "word": "be garbled"
+        },
+        {
+          "word": "be unintelligible"
+        },
+        {
+          "word": "be mixed up"
+        },
+        {
+          "word": "be entangled"
+        }
+      ],
+      "base_form": "လုံးထွေး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လုံး ထွေး",
+      "alternative": [
+        {
+          "word_postproc": "wrestle",
+          "score": 887,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "garbled",
+          "score": 90,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "grapple with",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "grapple",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wrestled",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "လုံးထွေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

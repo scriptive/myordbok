@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "Soybean",
+      "orig": "ပဲကျပ်ပျဉ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pell kyaut pyain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "soybean",
+        "soya",
+        "\"Glycine hispida\""
+      ],
+      "entry": [
+        {
+          "word": "soybean",
+          "synset_id": [
+            30089
+          ]
+        },
+        {
+          "word": "soya",
+          "synset_id": [
+            30089
+          ]
+        },
+        {
+          "word": "\"Glycine hispida\""
+        }
+      ],
+      "base_form": "ပဲကျပ်ပျဉ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပဲ ကျပ် ပျဉ်",
+      "alternative": [
+        {
+          "word_postproc": "Soybean",
+          "score": 669,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Soya",
+          "score": 330,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ပဲကျပ်ပျဉ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

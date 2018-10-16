@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "amplify",
+      "orig": "ဋီကာချဲ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "tekar hkyaae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "amplify",
+        "go into details in speech,writing"
+      ],
+      "entry": [
+        {
+          "word": "amplify",
+          "reverse_translation": [
+            "ကျယ်ဝန်းလာစေ"
+          ]
+        }
+      ],
+      "base_form": "ဋီကာချဲ့",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဋီကာ ချဲ့",
+      "alternative": [
+        {
+          "word_postproc": "amplify",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဋီကာချဲ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

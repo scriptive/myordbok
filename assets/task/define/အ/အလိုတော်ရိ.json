@@ -1,0 +1,63 @@
+{
+  "sentences": [
+    {
+      "trans": "sycophant",
+      "orig": "အလိုတော်ရိ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aalotawri"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "sycophant"
+      ],
+      "entry": [
+        {
+          "word": "sycophant",
+          "score": 0.050571099
+        }
+      ],
+      "base_form": "အလိုတော်ရိ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အလိုတော်ရိ",
+      "alternative": [
+        {
+          "word_postproc": "sycophant",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "အလိုတော်ရိ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

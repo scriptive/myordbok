@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Strauss confused",
+      "orig": "လူရှုပ်လူပွေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "luu shote luu pway"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လူ ပွေ",
+      "alternative": [
+        {
+          "word_postproc": "Strauss",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "လူရှုပ်လူပွေ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ရှုပ်",
+      "alternative": [
+        {
+          "word_postproc": "confused",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "complicated",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 7
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

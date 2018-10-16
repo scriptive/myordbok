@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "pitch",
+      "orig": "သံပေါက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "sanpout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "kind of Myanmar verse of three feet with four, three and five,seven syllables"
+      ],
+      "entry": [
+        {
+          "word": "kind of Myanmar verse of three feet with four, three and five,seven syllables"
+        }
+      ],
+      "base_form": "သံပေါက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သံပေါက်",
+      "alternative": [
+        {
+          "word_postproc": "pitch",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "သံပေါက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "sentences": [
+    {
+      "trans": "stuff",
+      "orig": "ပစ္စည်းပစ္စယ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pahchcaee pahchcay"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "sth which can be used for some purpose",
+        "accessories",
+        "parts",
+        "commodity",
+        "product",
+        "material"
+      ],
+      "entry": [
+        {
+          "word": "accessories",
+          "reverse_translation": [
+            "ပစ္စည်းများ"
+          ]
+        },
+        {
+          "word": "product",
+          "reverse_translation": [
+            "အထွက်ပစ္စည်းများ"
+          ]
+        },
+        {
+          "word": "material",
+          "reverse_translation": [
+            "ဝတ္တု"
+          ]
+        }
+      ],
+      "base_form": "ပ‌စ္စည်းပစ္စယ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပစ္စည်း ပစ္စယ",
+      "alternative": [
+        {
+          "word_postproc": "stuff",
+          "score": 860,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "assets",
+          "score": 107,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "materials",
+          "score": 26,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "equipment",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "material",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ပစ္စည်းပစ္စယ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

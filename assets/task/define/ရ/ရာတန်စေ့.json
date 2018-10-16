@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Kind of medicinal plant",
+      "orig": "ရာတန်စေ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "rar taan hcae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "kind of medicinal plant"
+      ],
+      "entry": [
+        {
+          "word": "kind of medicinal plant"
+        }
+      ],
+      "base_form": "ရာတန်စေ့",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရာ တန် စေ့",
+      "alternative": [
+        {
+          "word_postproc": "Kind of medicinal plant",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ရာတန်စေ့",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

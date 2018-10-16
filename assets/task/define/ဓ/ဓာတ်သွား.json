@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "defecate",
+      "orig": "ဓာတ်သွား",
+      "backend": 0
+    },
+    {
+      "src_translit": "dharat swarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "empty the bowels",
+        "defecate"
+      ],
+      "entry": [
+        {
+          "word": "empty the bowels"
+        },
+        {
+          "word": "defecate"
+        }
+      ],
+      "base_form": "ဓာတ်သွား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဓာတ် သွား",
+      "alternative": [
+        {
+          "word_postproc": "defecate",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဓာတ်သွား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

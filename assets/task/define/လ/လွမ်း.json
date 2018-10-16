@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "trans": "miss",
+      "orig": "လွမ်း",
+      "backend": 1
+    },
+    {
+      "src_translit": "lwm"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "miss",
+        "long for",
+        "yearn for",
+        "pine for"
+      ],
+      "entry": [
+        {
+          "word": "miss",
+          "reverse_translation": [
+            "နောက်ကျ",
+            "လွမ်း",
+            "လဲွ",
+            "လဲွ"
+          ],
+          "synset_id": [
+            26020
+          ],
+          "score": 0.011283938
+        }
+      ],
+      "base_form": "လွမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လွမ်း",
+      "alternative": [
+        {
+          "word_postproc": "miss",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "လွမ်း",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

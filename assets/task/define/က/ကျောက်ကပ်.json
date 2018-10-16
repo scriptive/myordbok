@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "kidney",
+      "orig": "ကျောက်ကပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawwatkaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "kidney"
+      ],
+      "entry": [
+        {
+          "word": "kidney",
+          "reverse_translation": [
+            "ကေျာက်ကပ်"
+          ],
+          "score": 0.20961139
+        }
+      ],
+      "base_form": "‌ကျောက်ကပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျောက်ကပ်",
+      "alternative": [
+        {
+          "word_postproc": "kidney",
+          "score": 995,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "kidneys",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the kidneys",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the kidney",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကျောက်ကပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

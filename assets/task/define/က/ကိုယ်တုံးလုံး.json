@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "unclothed",
+      "orig": "ကိုယ်တုံးလုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kotonelone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "naked",
+        "nude",
+        "unclothed"
+      ],
+      "entry": [
+        {
+          "word": "naked",
+          "reverse_translation": [
+            "အဝတ်မပါသော"
+          ],
+          "synset_id": [
+            75680
+          ],
+          "score": 0.069122501
+        },
+        {
+          "word": "nude",
+          "reverse_translation": [
+            "ဟင်းလင်းဖြစ်သော"
+          ],
+          "synset_id": [
+            75680
+          ],
+          "score": 0.046045512
+        }
+      ],
+      "base_form": "ကိုယ်တုံးလုံး",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိုယ်တုံးလုံး",
+      "alternative": [
+        {
+          "word_postproc": "unclothed",
+          "score": 751,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "nude",
+          "score": 247,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "naked",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ကိုယ်တုံးလုံး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

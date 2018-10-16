@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "smooth",
+      "orig": "ညက်ညော",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyaat nyaw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be smooth and deliaite",
+        "be smooth",
+        "be subtle",
+        "be suave"
+      ],
+      "entry": [
+        {
+          "word": "be smooth and deliaite"
+        },
+        {
+          "word": "be smooth"
+        },
+        {
+          "word": "be subtle"
+        },
+        {
+          "word": "be suave"
+        }
+      ],
+      "base_form": "ညက်ညော",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညက် ညော",
+      "alternative": [
+        {
+          "word_postproc": "smooth",
+          "score": 961,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "suave",
+          "score": 38,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a smooth",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "subtle",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ညက်ညော",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

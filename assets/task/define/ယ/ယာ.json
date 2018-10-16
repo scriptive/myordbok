@@ -1,0 +1,120 @@
+{
+  "sentences": [
+    {
+      "trans": "James",
+      "orig": "ယာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "yar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "particle",
+      "terms": [
+        "numerical classifier for counting betel quids"
+      ],
+      "entry": [
+        {
+          "word": "numerical classifier for counting betel quids"
+        }
+      ],
+      "base_form": "ယာ",
+      "pos_enum": 19
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "make betel quids"
+      ],
+      "entry": [
+        {
+          "word": "make betel quids"
+        }
+      ],
+      "base_form": "ယာ",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "farmland bearing crops other than rice",
+        "hillside cultivation area",
+        "the right-hand side"
+      ],
+      "entry": [
+        {
+          "word": "farmland bearing crops other than rice"
+        },
+        {
+          "word": "hillside cultivation area"
+        },
+        {
+          "word": "the right-hand side"
+        }
+      ],
+      "base_form": "ယာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယာ",
+      "alternative": [
+        {
+          "word_postproc": "James",
+          "score": 948,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Jas",
+          "score": 48,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Jared",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tire",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "farm",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ယာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

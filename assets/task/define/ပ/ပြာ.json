@@ -1,0 +1,110 @@
+{
+  "sentences": [
+    {
+      "trans": "ash",
+      "orig": "ပြာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyaar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "blue",
+        "dim",
+        "hoarse",
+        "husky"
+      ],
+      "entry": [
+        {
+          "word": "blue",
+          "reverse_translation": [
+            "ပြာသော"
+          ],
+          "score": 0.27338478
+        },
+        {
+          "word": "hoarse",
+          "reverse_translation": [
+            "အသံကဲွအက်သော"
+          ],
+          "synset_id": [
+            97581
+          ]
+        }
+      ],
+      "base_form": "ပြာ",
+      "pos_enum": 3
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "ash"
+      ],
+      "entry": [
+        {
+          "word": "ash",
+          "reverse_translation": [
+            "ပြာ"
+          ],
+          "synset_id": [
+            38113
+          ],
+          "score": 0.016418032
+        }
+      ],
+      "base_form": "ပြာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြာ",
+      "alternative": [
+        {
+          "word_postproc": "ash",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of blue",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "blue",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ပြာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

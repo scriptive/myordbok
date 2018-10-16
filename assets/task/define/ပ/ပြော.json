@@ -1,0 +1,140 @@
+{
+  "sentences": [
+    {
+      "trans": "tell",
+      "orig": "ပြော",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyaww"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "say",
+        "tell",
+        "speak",
+        "talk",
+        "utter",
+        "narrate",
+        "relate",
+        "be plentiful",
+        "be full of",
+        "be great in degree"
+      ],
+      "entry": [
+        {
+          "word": "say",
+          "reverse_translation": [
+            "ပေြာဆို"
+          ],
+          "synset_id": [
+            41054
+          ],
+          "score": 0.078326054
+        },
+        {
+          "word": "tell",
+          "reverse_translation": [
+            "အမိန့်ပေး",
+            "ပေြာဆို"
+          ],
+          "synset_id": [
+            41054,
+            81917
+          ],
+          "score": 0.042585135
+        },
+        {
+          "word": "speak",
+          "reverse_translation": [
+            "ပေြာဆို"
+          ],
+          "synset_id": [
+            55441
+          ],
+          "score": 0.030197384
+        },
+        {
+          "word": "talk",
+          "reverse_translation": [
+            "စကားပေြာ"
+          ],
+          "synset_id": [
+            55441
+          ],
+          "score": 0.011283938
+        },
+        {
+          "word": "relate",
+          "reverse_translation": [
+            "ပေြာဆို"
+          ]
+        }
+      ],
+      "base_form": "ပြော",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြော",
+      "alternative": [
+        {
+          "word_postproc": "tell",
+          "score": 657,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "say",
+          "score": 290,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "told",
+          "score": 13,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "speak",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to say",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ပြော",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "sentences": [
+    {
+      "trans": "How",
+      "orig": "နည်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "naee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "less",
+        "little",
+        "small"
+      ],
+      "entry": [
+        {
+          "word": "less",
+          "reverse_translation": [
+            "အနည်းငယ်သော"
+          ],
+          "score": 0.026235942
+        },
+        {
+          "word": "little",
+          "reverse_translation": [
+            "သေးငယ်သော"
+          ],
+          "synset_id": [
+            10218
+          ],
+          "score": 0.0039610346
+        },
+        {
+          "word": "small",
+          "reverse_translation": [
+            "သေးငယ်သော"
+          ],
+          "synset_id": [
+            10218
+          ]
+        }
+      ],
+      "base_form": "နည်း",
+      "pos_enum": 3
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "formula"
+      ],
+      "entry": [
+        {
+          "word": "formula",
+          "reverse_translation": [
+            "နည်း"
+          ],
+          "score": 0.00007722788
+        }
+      ],
+      "base_form": "နည်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နည်း",
+      "alternative": [
+        {
+          "word_postproc": "How",
+          "score": 801,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "low",
+          "score": 156,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "How to",
+          "score": 33,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "less",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "way",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "နည်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

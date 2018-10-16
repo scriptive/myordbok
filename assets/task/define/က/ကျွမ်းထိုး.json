@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "Tumbling",
+      "orig": "ကျွမ်းထိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawm htoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "somersault",
+        "turn somersault"
+      ],
+      "entry": [
+        {
+          "word": "somersault"
+        },
+        {
+          "word": "turn somersault"
+        }
+      ],
+      "base_form": "ကျွမ်းထိုး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျွမ်း ထိုး",
+      "alternative": [
+        {
+          "word_postproc": "Tumbling",
+          "score": 858,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "somersault",
+          "score": 141,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "turn somersault",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ကျွမ်းထိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

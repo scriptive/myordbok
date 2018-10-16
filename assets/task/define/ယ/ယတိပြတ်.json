@@ -1,0 +1,73 @@
+{
+  "sentences": [
+    {
+      "trans": "decisively",
+      "orig": "ယတိပြတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "yatipyat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "definitely",
+        "decisively"
+      ],
+      "entry": [
+        {
+          "word": "definitely",
+          "reverse_translation": [
+            "အတိအကျ"
+          ],
+          "score": 0.066995822
+        }
+      ],
+      "base_form": "ယတိပြတ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယတိပြတ်",
+      "alternative": [
+        {
+          "word_postproc": "decisively",
+          "score": 995,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "definitely",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ယတိပြတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "brush",
+      "orig": "စုတ်တံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcote tan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "bursh",
+        "tattooing iron"
+      ],
+      "entry": [
+        {
+          "word": "bursh"
+        },
+        {
+          "word": "tattooing iron"
+        }
+      ],
+      "base_form": "စုတ်တံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စုတ် တံ",
+      "alternative": [
+        {
+          "word_postproc": "brush",
+          "score": 933,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "brushes",
+          "score": 66,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "brushed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bursh",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "metaphor",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "စုတ်တံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

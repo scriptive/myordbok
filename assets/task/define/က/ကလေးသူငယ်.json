@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "Child",
+      "orig": "ကလေးသူငယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kalayysuungaal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "child",
+        "infant"
+      ],
+      "entry": [
+        {
+          "word": "child",
+          "reverse_translation": [
+            "ကလေး"
+          ],
+          "score": 0.13323711
+        },
+        {
+          "word": "infant",
+          "reverse_translation": [
+            "ကလေး",
+            "ကလေး"
+          ],
+          "score": 0.0052475184
+        }
+      ],
+      "base_form": "ကလေးသူငယ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကလေးသူငယ်",
+      "alternative": [
+        {
+          "word_postproc": "Child",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of children",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the Child",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of Child",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the young children",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကလေးသူငယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

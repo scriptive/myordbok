@@ -1,0 +1,101 @@
+{
+  "sentences": [
+    {
+      "trans": "cargo",
+      "orig": "ကုန်စည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "konehcai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "goods",
+        "commodity",
+        "cargo",
+        "merchandise"
+      ],
+      "entry": [
+        {
+          "word": "goods",
+          "reverse_translation": [
+            "ကုန်ပစ္စည်းများ"
+          ],
+          "score": 0.20316233
+        },
+        {
+          "word": "cargo",
+          "reverse_translation": [
+            "ကုန်စည်"
+          ],
+          "score": 0.026235942
+        },
+        {
+          "word": "merchandise",
+          "reverse_translation": [
+            "ကုန်ပစ္စည်း"
+          ],
+          "score": 0.0025977099
+        }
+      ],
+      "base_form": "ကုန်စည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကုန်စည်",
+      "alternative": [
+        {
+          "word_postproc": "cargo",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "commodity",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Goods",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Goods are",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကုန်စည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

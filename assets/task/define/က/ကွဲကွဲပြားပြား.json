@@ -1,0 +1,79 @@
+{
+  "sentences": [
+    {
+      "trans": "distinctly",
+      "orig": "ကွဲကွဲပြားပြား",
+      "backend": 0
+    },
+    {
+      "src_translit": "kwalkwalpyarrpyarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "distinctly",
+        "definitely"
+      ],
+      "entry": [
+        {
+          "word": "definitely",
+          "reverse_translation": [
+            "အတိအကျ"
+          ],
+          "score": 0.057304565
+        }
+      ],
+      "base_form": "ကွဲကွဲပြားပြား",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကွဲကွဲပြားပြား",
+      "alternative": [
+        {
+          "word_postproc": "distinctly",
+          "score": 912,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "definitely",
+          "score": 87,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "live",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ကွဲကွဲပြားပြား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

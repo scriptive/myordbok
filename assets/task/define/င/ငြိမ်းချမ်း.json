@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "peaceful",
+      "orig": "ငြိမ်းချမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "ngyaaimhkyam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "peaceful",
+        "calm",
+        "untroubled"
+      ],
+      "entry": [
+        {
+          "word": "peaceful",
+          "reverse_translation": [
+            "ငြိမ်းချမ်းသော"
+          ],
+          "score": 0.11943297
+        },
+        {
+          "word": "calm",
+          "reverse_translation": [
+            "တည်ငြိမ်သော"
+          ]
+        }
+      ],
+      "base_form": "ငြိမ်းချမ်း",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ငြိမ်းချမ်း",
+      "alternative": [
+        {
+          "word_postproc": "peaceful",
+          "score": 985,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tranquil",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "peace and",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a peaceful",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ငြိမ်းချမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "portent",
+      "orig": "အတိတ်နိမိတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aatatenimate"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "portent",
+        "omen"
+      ],
+      "entry": [
+        {
+          "word": "portent",
+          "synset_id": [
+            18172
+          ],
+          "score": 0.10057265
+        },
+        {
+          "word": "omen",
+          "synset_id": [
+            18172
+          ],
+          "score": 0.10057265
+        }
+      ],
+      "base_form": "အတိတ်နိမိတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အတိတ်နိမိတ်",
+      "alternative": [
+        {
+          "word_postproc": "portent",
+          "score": 846,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "omen",
+          "score": 153,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "signs The",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the signs The",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "အတိတ်နိမိတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

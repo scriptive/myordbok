@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "excerpt",
+      "orig": "ကောက်နုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "koutnote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "extract",
+        "excerpt"
+      ],
+      "entry": [
+        {
+          "word": "extract",
+          "synset_id": [
+            104814
+          ],
+          "score": 0.087379023
+        },
+        {
+          "word": "excerpt",
+          "synset_id": [
+            104814
+          ],
+          "score": 0.052176401
+        }
+      ],
+      "base_form": "ကောက်နုတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကောက်နုတ်",
+      "alternative": [
+        {
+          "word_postproc": "excerpt",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "extract",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "extracted",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "extracting",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "be extracted",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကောက်နုတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

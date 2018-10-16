@@ -1,0 +1,118 @@
+{
+  "sentences": [
+    {
+      "trans": "Pact",
+      "orig": "စာချုပ်ပေတည်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcarhkyaote pay taee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "agreement",
+        "bond",
+        "contract",
+        "pact",
+        "treaty"
+      ],
+      "entry": [
+        {
+          "word": "agreement",
+          "reverse_translation": [
+            "သဘောတူညီချက်"
+          ]
+        },
+        {
+          "word": "bond",
+          "reverse_translation": [
+            "ခေျးငေွစာချုပ်လက်မှတ်",
+            "အစည်းအနေှာင်"
+          ]
+        },
+        {
+          "word": "contract",
+          "reverse_translation": [
+            "စာချုပ်"
+          ]
+        },
+        {
+          "word": "pact",
+          "reverse_translation": [
+            "စာချုပ်"
+          ],
+          "synset_id": [
+            33885
+          ]
+        },
+        {
+          "word": "treaty",
+          "reverse_translation": [
+            "စာချုပ်"
+          ],
+          "synset_id": [
+            33885
+          ]
+        }
+      ],
+      "base_form": "စာချုပ်ပေတည်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စာချုပ် ပေ တည်း",
+      "alternative": [
+        {
+          "word_postproc": "Pact",
+          "score": 564,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Bond",
+          "score": 412,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Treaty",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Contract",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "စာချုပ်ပေတည်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

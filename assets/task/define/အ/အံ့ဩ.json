@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "marveled",
+      "orig": "အံ့ဩ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aan au"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be amazed",
+        "be wonder struck"
+      ],
+      "entry": [
+        {
+          "word": "be amazed"
+        },
+        {
+          "word": "be wonder struck"
+        }
+      ],
+      "base_form": "အံ့ဩ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အံ့ ဩ",
+      "alternative": [
+        {
+          "word_postproc": "marveled",
+          "score": 951,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wondered at",
+          "score": 25,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "you marvel",
+          "score": 17,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "marvel that",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "အံ့ဩ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

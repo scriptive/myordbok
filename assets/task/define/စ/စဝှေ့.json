@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Boxing",
+      "orig": "စဝှေ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "hc whaae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "particular movement in a game of ခြင်းလုံး"
+      ],
+      "entry": [
+        {
+          "word": "particular movement in a game of ခြင်းလုံး"
+        }
+      ],
+      "base_form": "စဝှေ့",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝှေ့",
+      "alternative": [
+        {
+          "word_postproc": "Boxing",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "စဝှေ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

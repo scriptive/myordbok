@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "The Park",
+      "orig": "စည်ကား",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcaikarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be alive with a teeming crowd",
+        "be well- attended",
+        "be prosperous"
+      ],
+      "entry": [
+        {
+          "word": "be alive with a teeming crowd"
+        },
+        {
+          "word": "be well- attended"
+        },
+        {
+          "word": "be prosperous"
+        }
+      ],
+      "base_form": "စည်ကား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စည်ကား",
+      "alternative": [
+        {
+          "word_postproc": "The Park",
+          "score": 952,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "crowded",
+          "score": 46,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "agencies",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "popular",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "busy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "စည်ကား",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

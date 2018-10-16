@@ -1,0 +1,96 @@
+{
+  "sentences": [
+    {
+      "trans": "good",
+      "orig": "လေလည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lay lai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "break wind",
+        "fart"
+      ],
+      "entry": [
+        {
+          "word": "break wind",
+          "synset_id": [
+            44764
+          ]
+        },
+        {
+          "word": "fart",
+          "synset_id": [
+            44764
+          ]
+        }
+      ],
+      "base_form": "လေလည်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လေ",
+      "alternative": [
+        {
+          "word_postproc": "good",
+          "score": 650,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "air",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the air",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "back",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the wind",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "လေလည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

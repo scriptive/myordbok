@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Leisurely",
+      "orig": "စိမ်ပြေနပြေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcain pyay n pyay"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "leisurely",
+        "at one's own time"
+      ],
+      "entry": [
+        {
+          "word": "leisurely"
+        },
+        {
+          "word": "at one's own time"
+        }
+      ],
+      "base_form": "စိမ်ပြေနပြေ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စိမ် ပြေ န ပြေ",
+      "alternative": [
+        {
+          "word_postproc": "Leisurely",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "စိမ်ပြေနပြေ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

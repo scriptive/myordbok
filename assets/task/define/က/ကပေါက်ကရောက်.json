@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Erratically",
+      "orig": "ကပေါက်ကရောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "k pout k rout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in a desultory manner",
+        "erratically"
+      ],
+      "entry": [
+        {
+          "word": "in a desultory manner"
+        },
+        {
+          "word": "erratically"
+        }
+      ],
+      "base_form": "ကပေါက်ကရောက်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "က ပေါက် က ရောက်",
+      "alternative": [
+        {
+          "word_postproc": "Erratically",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ကပေါက်ကရောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

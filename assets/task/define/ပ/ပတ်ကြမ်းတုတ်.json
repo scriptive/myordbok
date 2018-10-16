@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Abuse vilely",
+      "orig": "ပတ်ကြမ်းတုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "paat kyam tote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "play the big drum hard and loud to silence a vociferous audience",
+        "abuse vilely"
+      ],
+      "entry": [
+        {
+          "word": "play the big drum hard and loud to silence a vociferous audience"
+        },
+        {
+          "word": "abuse vilely"
+        }
+      ],
+      "base_form": "ပတ်ကြမ်းတုတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပတ် ကြမ်း တုတ်",
+      "alternative": [
+        {
+          "word_postproc": "Abuse vilely",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ပတ်ကြမ်းတုတ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

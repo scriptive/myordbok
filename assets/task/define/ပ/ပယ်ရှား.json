@@ -1,0 +1,108 @@
+{
+  "sentences": [
+    {
+      "trans": "Take away from me",
+      "orig": "ပယ်ရှား",
+      "backend": 0
+    },
+    {
+      "src_translit": "paal sharr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "avoid",
+        "refrain from",
+        "abstain from",
+        "remove",
+        "dispel",
+        "reject",
+        "refuse to accept",
+        "disregard"
+      ],
+      "entry": [
+        {
+          "word": "avoid",
+          "reverse_translation": [
+            "ရေှာင်ရှား"
+          ]
+        },
+        {
+          "word": "remove",
+          "reverse_translation": [
+            "ရေွှ့"
+          ]
+        },
+        {
+          "word": "reject",
+          "reverse_translation": [
+            "ြငင်းပယ်"
+          ]
+        }
+      ],
+      "base_form": "ပယ်ရှား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပယ် ရှား",
+      "alternative": [
+        {
+          "word_postproc": "Take away from me",
+          "score": 773,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "take away from",
+          "score": 182,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "he put away",
+          "score": 21,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "put away the",
+          "score": 13,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sweep away",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ပယ်ရှား",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

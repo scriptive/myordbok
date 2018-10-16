@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "Fossilized",
+      "orig": "ကျောက်ဖြစ်ရုပ်ကြွင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawwat hpyit rotekyawin"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျောက် ဖြစ် ရုပ်ကြွင်း",
+      "alternative": [
+        {
+          "word_postproc": "Fossilized",
+          "score": 682,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Fossils",
+          "score": 250,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Fossil",
+          "score": 63,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The fossils",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 20
+        }
+      ],
+      "raw_src_segment": "ကျောက်ဖြစ်ရုပ်ကြွင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

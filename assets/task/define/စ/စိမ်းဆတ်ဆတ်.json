@@ -1,0 +1,109 @@
+{
+  "sentences": [
+    {
+      "trans": "Brittle green",
+      "orig": "စိမ်းဆတ်ဆတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcaim saat saat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in a partially cooked condition",
+        "of brittle disposition"
+      ],
+      "entry": [
+        {
+          "word": "in a partially cooked condition"
+        },
+        {
+          "word": "of brittle disposition"
+        }
+      ],
+      "base_form": "စိမ်းဆတ်ဆတ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆတ် ဆတ်",
+      "alternative": [
+        {
+          "word_postproc": "Brittle",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Actually",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Course",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Boiled",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Definitely",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "စိမ်းဆတ်ဆတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "စိမ်း",
+      "alternative": [
+        {
+          "word_postproc": "green",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

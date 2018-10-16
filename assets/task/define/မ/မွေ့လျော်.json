@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "delight",
+      "orig": "မွေ့လျော်",
+      "backend": 0
+    },
+    {
+      "src_translit": "mwae lyaw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "enjoy",
+        "take delight in",
+        "take to"
+      ],
+      "entry": [
+        {
+          "word": "enjoy",
+          "reverse_translation": [
+            "နှစ်သက်"
+          ]
+        }
+      ],
+      "base_form": "မွေ့လျော်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မွေ့ လျော်",
+      "alternative": [
+        {
+          "word_postproc": "delight",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "will delight",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "delight is",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "take delight in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Delight thyself",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "မွေ့လျော်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

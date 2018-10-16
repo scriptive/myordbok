@@ -1,0 +1,102 @@
+{
+  "sentences": [
+    {
+      "trans": "kiss",
+      "orig": "နမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "nam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "kiss",
+        "smell",
+        "caress with the nostrils"
+      ],
+      "entry": [
+        {
+          "word": "kiss",
+          "reverse_translation": [
+            "နမ်း"
+          ],
+          "synset_id": [
+            24537
+          ],
+          "score": 0.28206295
+        },
+        {
+          "word": "smell",
+          "reverse_translation": [
+            "အနံ့ထွက်"
+          ],
+          "score": 0.04825528
+        }
+      ],
+      "base_form": "နမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နမ်း",
+      "alternative": [
+        {
+          "word_postproc": "kiss",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a kiss of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "it smell",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a kiss",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and kissed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "နမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

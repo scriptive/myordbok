@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Canna",
+      "orig": "ဗုဒ္ဓသရဏပင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "buddh s r n pain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "canna plant"
+      ],
+      "entry": [
+        {
+          "word": "canna plant"
+        }
+      ],
+      "base_form": "ဗုဒ္ဓသရဏပင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗုဒ္ဓ သ ရ ဏ",
+      "alternative": [
+        {
+          "word_postproc": "Canna",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဗုဒ္ဓသရဏပင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

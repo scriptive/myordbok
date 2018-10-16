@@ -1,0 +1,71 @@
+{
+  "sentences": [
+    {
+      "trans": "Curtain",
+      "orig": "ပြည်ဖုံးကား",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyi hpone karr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "curtain"
+      ],
+      "entry": [
+        {
+          "word": "curtain",
+          "reverse_translation": [
+            "ကန့်လန့်ကာ"
+          ]
+        }
+      ],
+      "base_form": "ပြည်ဖုံးကား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြည် ဖုံး ကား",
+      "alternative": [
+        {
+          "word_postproc": "Curtain",
+          "score": 892,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The curtain",
+          "score": 107,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ပြည်ဖုံးကား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

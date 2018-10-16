@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "Dry bread",
+      "orig": "လှန့်ခြောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lha an  hkyawwat"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခြောက်",
+      "alternative": [
+        {
+          "word_postproc": "Dry",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Six",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "လှန့်ခြောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "န့ ်",
+      "alternative": [
+        {
+          "word_postproc": "bread",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "flour",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 5
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

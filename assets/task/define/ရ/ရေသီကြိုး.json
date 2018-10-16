@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Sheet",
+      "orig": "ရေသီကြိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "ray se kyaoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "sheet"
+      ],
+      "entry": [
+        {
+          "word": "sheet",
+          "reverse_translation": [
+            "ရေခဲပြင်",
+            "အိပ်ရာခင်း",
+            "သံပြား",
+            "စက္ဏူတရွက်"
+          ]
+        }
+      ],
+      "base_form": "ရေသီကြိုး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရေ သီ ကြိုး",
+      "alternative": [
+        {
+          "word_postproc": "Sheet",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ရေသီကြိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

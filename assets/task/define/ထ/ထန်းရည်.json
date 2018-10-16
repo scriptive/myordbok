@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "palm",
+      "orig": "ထန်းရည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "htaann rai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "sap from toddy-palm spathe",
+        "fermented drink made from the toddy sap"
+      ],
+      "entry": [
+        {
+          "word": "sap from toddy-palm spathe"
+        },
+        {
+          "word": "fermented drink made from the toddy sap"
+        }
+      ],
+      "base_form": "ထန်းရည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထန်း ရည်",
+      "alternative": [
+        {
+          "word_postproc": "palm",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ထန်းရည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

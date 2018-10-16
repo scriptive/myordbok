@@ -1,0 +1,59 @@
+{
+  "sentences": [
+    {
+      "trans": "Wealthier",
+      "orig": "သူဌေးသူကြွယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "suuhtayy suu kyawal"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သူဌေး သူ ကြွယ်",
+      "alternative": [
+        {
+          "word_postproc": "Wealthier",
+          "score": 774,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The wealthier",
+          "score": 207,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Rich",
+          "score": 17,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "သူဌေးသူကြွယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

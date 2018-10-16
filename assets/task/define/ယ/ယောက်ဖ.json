@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "brother in law",
+      "orig": "ယောက်ဖ",
+      "backend": 0
+    },
+    {
+      "src_translit": "yout hp"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "brother-in-law"
+      ],
+      "entry": [
+        {
+          "word": "brother-in-law",
+          "reverse_translation": [
+            "ခဲအို",
+            "ခဲအို",
+            "မတ်",
+            "မယားညီအစ်ကို"
+          ]
+        }
+      ],
+      "base_form": "ယောက်ဖ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယောက် ဖ",
+      "alternative": [
+        {
+          "word_postproc": "brother in law",
+          "score": 758,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "brothers in law",
+          "score": 216,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "law",
+          "score": 18,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "had",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ယောက်ဖ",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

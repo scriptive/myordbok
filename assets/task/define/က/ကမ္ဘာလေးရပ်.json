@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "four of the world",
+      "orig": "ကမ္ဘာလေးရပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kambhar layyraut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "trial by ordeal, consisting of four types-lighting tapers, chewing rice, submerging in water, and dipping one's finger in molten lead."
+      ],
+      "entry": [
+        {
+          "word": "trial by ordeal, consisting of four types-lighting tapers, chewing rice, submerging in water, and dipping one's finger in molten lead."
+        }
+      ],
+      "base_form": "ကမ္ဘာလေးရပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လေးရပ်",
+      "alternative": [
+        {
+          "word_postproc": "four",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ကမ္ဘာလေးရပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ကမ္ဘာ",
+      "alternative": [
+        {
+          "word_postproc": "of the world",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Earth",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "World",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

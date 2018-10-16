@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Ruffled",
+      "orig": "ဖုန်ပွပွ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpone pw pw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "ruffled"
+      ],
+      "entry": [
+        {
+          "word": "ruffled"
+        }
+      ],
+      "base_form": "ဖုန်ပွပွ",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖုန် ပွ ပွ",
+      "alternative": [
+        {
+          "word_postproc": "Ruffled",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဖုန်ပွပွ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

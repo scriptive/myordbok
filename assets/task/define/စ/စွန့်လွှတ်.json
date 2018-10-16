@@ -1,0 +1,100 @@
+{
+  "sentences": [
+    {
+      "trans": "Waiver",
+      "orig": "စွန့်လွှတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcw an  lwhaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "relinquish",
+        "give up",
+        "disown"
+      ],
+      "entry": [
+        {
+          "word": "relinquish",
+          "synset_id": [
+            107194
+          ]
+        },
+        {
+          "word": "give up",
+          "synset_id": [
+            107194
+          ]
+        },
+        {
+          "word": "disown"
+        }
+      ],
+      "base_form": "စွန့်လွှတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စွ န့ ် လွှတ်",
+      "alternative": [
+        {
+          "word_postproc": "Waiver",
+          "score": 806,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Abandonment",
+          "score": 192,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Abandoned",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Abandon",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The waiver",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "စွန့်လွှတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

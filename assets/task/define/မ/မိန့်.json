@@ -1,0 +1,89 @@
+{
+  "sentences": [
+    {
+      "trans": "affirmation",
+      "orig": "မိန့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "mein"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "say"
+      ],
+      "entry": [
+        {
+          "word": "say",
+          "reverse_translation": [
+            "ပေြာဆို"
+          ]
+        }
+      ],
+      "base_form": "မိန့်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မိန့်",
+      "alternative": [
+        {
+          "word_postproc": "affirmation",
+          "score": 621,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "saith",
+          "score": 333,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "spoken",
+          "score": 40,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "says to",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "saith the",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "မိန့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

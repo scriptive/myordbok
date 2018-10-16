@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "vow",
+      "orig": "အဓိဋ္ဌာန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aadhithtaran"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "vow",
+        "resolution"
+      ],
+      "entry": [
+        {
+          "word": "vow",
+          "reverse_translation": [
+            "သစ္စဆိုချက်"
+          ],
+          "score": 0.087379023
+        }
+      ],
+      "base_form": "အဓိဋ္ဌာန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အဓိဋ္ဌာန်",
+      "alternative": [
+        {
+          "word_postproc": "vow",
+          "score": 964,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A pledge",
+          "score": 35,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pledge",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pledged",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "We vow",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အဓိဋ္ဌာန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

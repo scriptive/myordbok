@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "here",
+      "orig": "ကြည်နူး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyinuu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be highly pleased",
+        "be enraptured"
+      ],
+      "entry": [
+        {
+          "word": "be highly pleased"
+        },
+        {
+          "word": "be enraptured"
+        }
+      ],
+      "base_form": "ကြည်နူး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြည်နူး",
+      "alternative": [
+        {
+          "word_postproc": "here",
+          "score": 808,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "enraptured",
+          "score": 180,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pleasure",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "love",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and enjoying",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကြည်နူး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

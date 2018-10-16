@@ -1,0 +1,83 @@
+{
+  "sentences": [
+    {
+      "trans": "friendly",
+      "orig": "ခင်",
+      "backend": 1
+    },
+    {
+      "src_translit": "hkain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "term of endearment for a woman.",
+        "reed in a wind instrument",
+        "ridge",
+        "narrow elevation across a surface",
+        "Lord",
+        "master",
+        "stringed musical instrument somewhat like the Myanmar ဒုံမင်း but played with bamboo strikers"
+      ],
+      "entry": [
+        {
+          "word": "ridge",
+          "reverse_translation": [
+            "ကေျာရိုး"
+          ]
+        },
+        {
+          "word": "master",
+          "reverse_translation": [
+            "ကျွမ်းကျင်သူ"
+          ]
+        }
+      ],
+      "base_form": "ခင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခင်",
+      "alternative": [
+        {
+          "word_postproc": "friendly",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "before",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ခင်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

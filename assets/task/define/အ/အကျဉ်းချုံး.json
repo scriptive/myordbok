@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "Narrow",
+      "orig": "အကျဉ်းချုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "aakyain hkyaone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "1",
+        "shorten",
+        "condense",
+        "abridge",
+        "make concise",
+        "reduce to minimun"
+      ],
+      "entry": [
+        {
+          "word": "condense",
+          "reverse_translation": [
+            "ချံု့"
+          ]
+        }
+      ],
+      "base_form": "အကျဉ်းချုံး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အကျဉ်း ချုံး",
+      "alternative": [
+        {
+          "word_postproc": "Narrow",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "briefly",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "summarized",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to briefly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "we briefly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "အကျဉ်းချုံး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

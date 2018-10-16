@@ -1,0 +1,87 @@
+{
+  "sentences": [
+    {
+      "trans": "local knowledge",
+      "orig": "ဒေသန္တရဗဟုသုတ",
+      "backend": 0
+    },
+    {
+      "src_translit": "daysantar bahusut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "general knowledge gained from one's travels"
+      ],
+      "entry": [
+        {
+          "word": "general knowledge gained from one's travels"
+        }
+      ],
+      "base_form": "ဒေသန္တရဗဟုသုတ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဒေသန္တရ",
+      "alternative": [
+        {
+          "word_postproc": "local",
+          "score": 856,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Regional",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဒေသန္တရဗဟုသုတ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဗဟုသုတ",
+      "alternative": [
+        {
+          "word_postproc": "knowledge",
+          "score": 856,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 13
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

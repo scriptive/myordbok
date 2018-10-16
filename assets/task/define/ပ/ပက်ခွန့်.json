@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "Bail",
+      "orig": "ပက်ခွန့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "paat hkw an "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "bail"
+      ],
+      "entry": [
+        {
+          "word": "bail",
+          "reverse_translation": [
+            "အာမခံချက်"
+          ]
+        }
+      ],
+      "base_form": "ပက်ခွန့်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပက် ခွ န့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Bail",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ပက်ခွန့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

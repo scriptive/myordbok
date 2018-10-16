@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Shabbily",
+      "orig": "ကပျစ်ကညစ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "k pyit k nyait"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "shabbily",
+        "by the sweat of one's brow"
+      ],
+      "entry": [
+        {
+          "word": "shabbily"
+        },
+        {
+          "word": "by the sweat of one's brow"
+        }
+      ],
+      "base_form": "ကပျစ်ကညစ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "က ပျစ် က ညစ်",
+      "alternative": [
+        {
+          "word_postproc": "Shabbily",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကပျစ်ကညစ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

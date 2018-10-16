@@ -1,0 +1,79 @@
+{
+  "sentences": [
+    {
+      "trans": "overcrowded",
+      "orig": "ကြိတ်ကြိတ်တိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaatekyaatetoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "jostle",
+        "be overcrowded"
+      ],
+      "entry": [
+        {
+          "word": "jostle",
+          "score": 0.15576996
+        },
+        {
+          "word": "be overcrowded"
+        }
+      ],
+      "base_form": "ကြိတ်ကြိတ်တိုး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြိတ်ကြိတ်တိုး",
+      "alternative": [
+        {
+          "word_postproc": "overcrowded",
+          "score": 988,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "jostle",
+          "score": 11,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "busy throughout",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ကြိတ်ကြိတ်တိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

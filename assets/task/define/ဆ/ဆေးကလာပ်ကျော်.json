@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Cell",
+      "orig": "ဆေးကလာပ်ကျော်",
+      "backend": 0
+    },
+    {
+      "src_translit": "sayy k larut kyaw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "term for a nostrum which is adapted for a specific malady by  having one ingredient preponderant over others"
+      ],
+      "entry": [
+        {
+          "word": "term for a nostrum which is adapted for a specific malady by  having one ingredient preponderant over others"
+        }
+      ],
+      "base_form": "ဆေးကလာပ်ကျော်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လာပ်",
+      "alternative": [
+        {
+          "word_postproc": "Cell",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဆေးကလာပ်ကျော်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

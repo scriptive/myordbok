@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "FRGs",
+      "orig": "လက်လုပ်လက်စား",
+      "backend": 0
+    },
+    {
+      "src_translit": "laatlotelaathcarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "worker earning a bare living"
+      ],
+      "entry": [
+        {
+          "word": "worker earning a bare living"
+        }
+      ],
+      "base_form": "လက်လုပ်လက်စား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လက်လုပ်လက်စား",
+      "alternative": [
+        {
+          "word_postproc": "FRGs",
+          "score": 955,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "casual labors",
+          "score": 44,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "လက်လုပ်လက်စား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

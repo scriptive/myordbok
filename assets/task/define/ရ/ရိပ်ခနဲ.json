@@ -1,0 +1,63 @@
+{
+  "sentences": [
+    {
+      "trans": "fleetingly",
+      "orig": "ရိပ်ခနဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "riuthkanell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "fleetingly"
+      ],
+      "entry": [
+        {
+          "word": "fleetingly",
+          "score": 0.50283158
+        }
+      ],
+      "base_form": "ရိပ်ခနဲ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရိပ်ခနဲ",
+      "alternative": [
+        {
+          "word_postproc": "fleetingly",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ရိပ်ခနဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "sentences": [
+    {
+      "trans": "understand",
+      "orig": "နားလည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "narrlai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "understand",
+        "know",
+        "realize",
+        "perceive",
+        "apprehend",
+        "comprehend"
+      ],
+      "entry": [
+        {
+          "word": "understand",
+          "reverse_translation": [
+            "နားလည်"
+          ],
+          "synset_id": [
+            64976
+          ],
+          "score": 0.16842748
+        },
+        {
+          "word": "know",
+          "reverse_translation": [
+            "သိ"
+          ],
+          "score": 0.041924916
+        },
+        {
+          "word": "realize",
+          "reverse_translation": [
+            "နားလည်"
+          ],
+          "synset_id": [
+            64976
+          ],
+          "score": 0.0043503456
+        },
+        {
+          "word": "perceive",
+          "reverse_translation": [
+            "နားလည်"
+          ],
+          "synset_id": [
+            33448
+          ],
+          "score": 0.00047307814
+        },
+        {
+          "word": "apprehend",
+          "reverse_translation": [
+            "နားလည်"
+          ],
+          "synset_id": [
+            109692
+          ],
+          "score": 0.00015600461
+        },
+        {
+          "word": "comprehend",
+          "reverse_translation": [
+            "ရိပ်စားမိ"
+          ],
+          "synset_id": [
+            33448,
+            109692
+          ]
+        }
+      ],
+      "base_form": "နားလည်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နားလည်",
+      "alternative": [
+        {
+          "word_postproc": "understand",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "realize",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to understand",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to understand the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and understand",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "နားလည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

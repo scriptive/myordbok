@@ -1,0 +1,71 @@
+{
+  "sentences": [
+    {
+      "trans": "Barber",
+      "orig": "ဆတ္တာသည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "sat tar sai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "barber"
+      ],
+      "entry": [
+        {
+          "word": "barber",
+          "reverse_translation": [
+            "ဆံပင်ညှပ်သမား"
+          ]
+        }
+      ],
+      "base_form": "ဆတ္တာသည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆတ္ တာ သည်",
+      "alternative": [
+        {
+          "word_postproc": "Barber",
+          "score": 982,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A barber",
+          "score": 17,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဆတ္တာသည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

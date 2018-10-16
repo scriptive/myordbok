@@ -1,0 +1,69 @@
+{
+  "sentences": [
+    {
+      "trans": "salad",
+      "orig": "သနပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "s naut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "salad",
+        "fruit,vegetable pickle preserved in oil and spices",
+        "sebesten tree",
+        "tree, the leaves of which are used as wrapper for rolling \"cheroots\"",
+        "kind of tree, the leaves of which are used in making soup"
+      ],
+      "entry": [
+        {
+          "word": "salad",
+          "reverse_translation": [
+            "ဆလတ်ရွက်သုပ်"
+          ]
+        }
+      ],
+      "base_form": "သနပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သ နပ်",
+      "alternative": [
+        {
+          "word_postproc": "salad",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "သနပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

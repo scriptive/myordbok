@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "drift net",
+      "orig": "မျှောပိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "myahaaw pite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "drift net"
+      ],
+      "entry": [
+        {
+          "word": "drift net"
+        }
+      ],
+      "base_form": "မျှောပိုက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မျှော ပိုက်",
+      "alternative": [
+        {
+          "word_postproc": "drift net",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "မျှောပိုက်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

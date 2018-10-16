@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "compose",
+      "orig": "နှုန်းဖွဲ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "nhuann hpwal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "compose"
+      ],
+      "entry": [
+        {
+          "word": "compose"
+        }
+      ],
+      "base_form": "နှုန်းဖွဲ့",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နှုန်း ဖွဲ့",
+      "alternative": [
+        {
+          "word_postproc": "compose",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "နှုန်းဖွဲ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

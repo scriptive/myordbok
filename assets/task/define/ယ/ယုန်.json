@@ -1,0 +1,88 @@
+{
+  "sentences": [
+    {
+      "trans": "Rabbit",
+      "orig": "ယုန်",
+      "backend": 1
+    },
+    {
+      "src_translit": "yone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "rabbit",
+        "hare",
+        "bunny"
+      ],
+      "entry": [
+        {
+          "word": "rabbit",
+          "reverse_translation": [
+            "ယုန်"
+          ],
+          "synset_id": [
+            111140
+          ],
+          "score": 0.14406367
+        },
+        {
+          "word": "hare",
+          "reverse_translation": [
+            "ယုန်"
+          ],
+          "synset_id": [
+            111140
+          ],
+          "score": 0.02426428
+        },
+        {
+          "word": "bunny",
+          "reverse_translation": [
+            "ယုန်"
+          ],
+          "score": 0.011461634
+        }
+      ],
+      "base_form": "ယုန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယုန်",
+      "alternative": [
+        {
+          "word_postproc": "Rabbit",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ယုန်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

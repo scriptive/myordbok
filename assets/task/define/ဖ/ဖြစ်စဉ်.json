@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "process",
+      "orig": "ဖြစ်စဉ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpyithcain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "process",
+        "process of an event",
+        "record,account of what has happened"
+      ],
+      "entry": [
+        {
+          "word": "process",
+          "reverse_translation": [
+            "ဖြစ်စဉ်"
+          ],
+          "score": 0.24891968
+        }
+      ],
+      "base_form": "ဖြစ်စဉ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖြစ်စဉ်",
+      "alternative": [
+        {
+          "word_postproc": "process",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a process",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "phenomenon",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "process is",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဖြစ်စဉ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

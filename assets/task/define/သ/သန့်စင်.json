@@ -1,0 +1,113 @@
+{
+  "sentences": [
+    {
+      "trans": "cleaned",
+      "orig": "သန့်စင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "saant hcain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "clean",
+        "pure"
+      ],
+      "entry": [
+        {
+          "word": "clean",
+          "reverse_translation": [
+            "သန့်ရှင်းသော"
+          ]
+        },
+        {
+          "word": "pure",
+          "reverse_translation": [
+            "သန့်စင်သော"
+          ]
+        }
+      ],
+      "base_form": "သန့်စင်",
+      "pos_enum": 3
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "clean",
+        "purge"
+      ],
+      "entry": [
+        {
+          "word": "clean",
+          "reverse_translation": [
+            "ဆေးကေြာ"
+          ]
+        }
+      ],
+      "base_form": "သန့်စင်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သန့် စင်",
+      "alternative": [
+        {
+          "word_postproc": "cleaned",
+          "score": 610,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "refined",
+          "score": 305,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cleansers",
+          "score": 62,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "purified",
+          "score": 17,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "purification",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "သန့်စင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

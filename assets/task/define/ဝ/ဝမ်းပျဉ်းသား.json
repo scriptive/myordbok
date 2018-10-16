@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "One tip",
+      "orig": "ဝမ်းပျဉ်းသား",
+      "backend": 0
+    },
+    {
+      "src_translit": "wam pyain sarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "flesh from the belly of fish"
+      ],
+      "entry": [
+        {
+          "word": "flesh from the belly of fish"
+        }
+      ],
+      "base_form": "ဝမ်းပျဉ်းသား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝမ်း",
+      "alternative": [
+        {
+          "word_postproc": "One",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Belly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဝမ်းပျဉ်းသား",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ပျဉ်း",
+      "alternative": [
+        {
+          "word_postproc": "tip",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the tip",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 9
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

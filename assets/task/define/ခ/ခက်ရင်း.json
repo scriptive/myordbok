@@ -1,0 +1,69 @@
+{
+  "sentences": [
+    {
+      "trans": "fork",
+      "orig": "ခက်ရင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaat rainn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "fork"
+      ],
+      "entry": [
+        {
+          "word": "fork",
+          "reverse_translation": [
+            "လမ်းခဲွ",
+            "ခက်ရင်း"
+          ],
+          "synset_id": [
+            12167
+          ]
+        }
+      ],
+      "base_form": "ခက်ရင်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခက် ရင်း",
+      "alternative": [
+        {
+          "word_postproc": "fork",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ခက်ရင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

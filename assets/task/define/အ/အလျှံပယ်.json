@@ -1,0 +1,100 @@
+{
+  "sentences": [
+    {
+      "trans": "Plentifully",
+      "orig": "အလျှံပယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "a shan paal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "abundantly",
+        "plentifully",
+        "profusely"
+      ],
+      "entry": [
+        {
+          "word": "abundantly",
+          "synset_id": [
+            45999
+          ]
+        },
+        {
+          "word": "plentifully"
+        },
+        {
+          "word": "profusely",
+          "synset_id": [
+            45999
+          ]
+        }
+      ],
+      "base_form": "အလျှံပယ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ လျှံ ပယ်",
+      "alternative": [
+        {
+          "word_postproc": "Plentifully",
+          "score": 963,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Profusely",
+          "score": 34,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Abundantly",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Plenty",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A wealth of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "အလျှံပယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

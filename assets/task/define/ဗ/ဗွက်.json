@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "the little guy",
+      "orig": "ဗွက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "bwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "mud",
+        "mire",
+        "bog"
+      ],
+      "entry": [
+        {
+          "word": "mud",
+          "reverse_translation": [
+            "ရွှံ့"
+          ],
+          "score": 0.05136748
+        },
+        {
+          "word": "bog",
+          "reverse_translation": [
+            "စိမ့်"
+          ],
+          "score": 0.05136748
+        }
+      ],
+      "base_form": "ဗွက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗွက်",
+      "alternative": [
+        {
+          "word_postproc": "the little guy",
+          "score": 784,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "little guy",
+          "score": 160,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bog",
+          "score": 32,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "muddy",
+          "score": 21,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mud",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဗွက်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

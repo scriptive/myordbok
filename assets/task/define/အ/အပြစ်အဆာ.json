@@ -1,0 +1,118 @@
+{
+  "sentences": [
+    {
+      "trans": "Defect",
+      "orig": "အပြစ်အဆာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aapyit a sar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "fault",
+        "defect",
+        "blemish",
+        "flaw"
+      ],
+      "entry": [
+        {
+          "word": "fault",
+          "reverse_translation": [
+            "ချွတ်ယွင်းချက်",
+            "မှားယွင်းခြင်း"
+          ],
+          "synset_id": [
+            41105
+          ]
+        },
+        {
+          "word": "defect",
+          "reverse_translation": [
+            "ချွတ်ယွင်းချက်"
+          ],
+          "synset_id": [
+            41105,
+            88253
+          ]
+        },
+        {
+          "word": "blemish",
+          "reverse_translation": [
+            "အသွင်ပျက်ချက်"
+          ],
+          "synset_id": [
+            88253
+          ]
+        },
+        {
+          "word": "flaw",
+          "reverse_translation": [
+            "အကဲွ"
+          ],
+          "synset_id": [
+            41105
+          ]
+        }
+      ],
+      "base_form": "အပြစ်အဆာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အပြစ် အ ဆာ",
+      "alternative": [
+        {
+          "word_postproc": "Defect",
+          "score": 906,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Blemish",
+          "score": 43,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Fault",
+          "score": 25,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Flaw",
+          "score": 24,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "အပြစ်အဆာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "hard times",
+      "orig": "ခေတ်ကျပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkayat kyaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "hard times"
+      ],
+      "entry": [
+        {
+          "word": "hard times"
+        }
+      ],
+      "base_form": "ခေတ်ကျပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခေတ် ကျပ်",
+      "alternative": [
+        {
+          "word_postproc": "hard times",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ခေတ်ကျပ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

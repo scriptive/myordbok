@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Streak",
+      "orig": "ပပ်သေးထ",
+      "backend": 0
+    },
+    {
+      "src_translit": "paut sayy ht"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "show thin lines,streaks"
+      ],
+      "entry": [
+        {
+          "word": "show thin lines,streaks"
+        }
+      ],
+      "base_form": "ပပ်သေးထ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပပ် သေး",
+      "alternative": [
+        {
+          "word_postproc": "Streak",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Thin line",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ပပ်သေးထ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

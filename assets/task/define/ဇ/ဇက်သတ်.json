@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "Kazakhstan",
+      "orig": "ဇက်သတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "jaat saat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "rein in to a halt",
+        "pull up:",
+        "delay",
+        "restrain",
+        "control",
+        "check"
+      ],
+      "entry": [
+        {
+          "word": "delay",
+          "reverse_translation": [
+            "နေှာင့်နေှး"
+          ],
+          "synset_id": [
+            26872
+          ]
+        },
+        {
+          "word": "restrain",
+          "reverse_translation": [
+            "ဟန့်ထား"
+          ]
+        },
+        {
+          "word": "control",
+          "reverse_translation": [
+            "ကြီးကြပ်"
+          ],
+          "synset_id": [
+            28917
+          ]
+        },
+        {
+          "word": "check",
+          "reverse_translation": [
+            "စစ်ဆေး"
+          ],
+          "synset_id": [
+            26872,
+            28917
+          ]
+        }
+      ],
+      "base_form": "ဇက်သတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဇက်",
+      "alternative": [
+        {
+          "word_postproc": "Kazakhstan",
+          "score": 842,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဇက်သတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

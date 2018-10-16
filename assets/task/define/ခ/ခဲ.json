@@ -1,0 +1,137 @@
+{
+  "sentences": [
+    {
+      "trans": "lead",
+      "orig": "ခဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "lead",
+        "stone",
+        "graphite",
+        "solidified lump"
+      ],
+      "entry": [
+        {
+          "word": "lead",
+          "reverse_translation": [
+            "ခဲ",
+            "ခေါင်းဆောင်ခြင်း"
+          ],
+          "synset_id": [
+            63536
+          ],
+          "score": 0.070211023
+        },
+        {
+          "word": "stone",
+          "reverse_translation": [
+            "ကေျာက်"
+          ],
+          "score": 0.012588142
+        }
+      ],
+      "base_form": "ခဲ",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "coagulate",
+        "congeal",
+        "solidify",
+        "freeze",
+        "be crowded",
+        "be swarming with",
+        "bite",
+        "clamp sth between the teeth",
+        "clench",
+        "be bent on doing sth",
+        "be determined to do sth",
+        "particle suffixed to a verb to denote rarity, uncertainty,,tardiness in its occurrence"
+      ],
+      "entry": [
+        {
+          "word": "freeze",
+          "reverse_translation": [
+            "အေး၍ခဲ"
+          ]
+        },
+        {
+          "word": "bite",
+          "reverse_translation": [
+            "ကိုက်"
+          ]
+        }
+      ],
+      "base_form": "ခဲ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခဲ",
+      "alternative": [
+        {
+          "word_postproc": "lead",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "clot",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hard",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hard to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "burdensome",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ခဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

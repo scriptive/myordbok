@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "metaphysical",
+      "orig": "လောကုတ္တရာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "lawkuttarar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "the way to escape from worldly desires and attachments"
+      ],
+      "entry": [
+        {
+          "word": "the way to escape from worldly desires and attachments"
+        }
+      ],
+      "base_form": "လောကုတ္တရာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လောကုတ္တရာ",
+      "alternative": [
+        {
+          "word_postproc": "metaphysical",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "လောကုတ္တရာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

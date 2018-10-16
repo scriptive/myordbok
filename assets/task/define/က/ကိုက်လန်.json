@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "kale",
+      "orig": "ကိုက်လန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kite laan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "Chinese kale"
+      ],
+      "entry": [
+        {
+          "word": "Chinese kale"
+        }
+      ],
+      "base_form": "ကိုက်လန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိုက် လန်",
+      "alternative": [
+        {
+          "word_postproc": "kale",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကိုက်လန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

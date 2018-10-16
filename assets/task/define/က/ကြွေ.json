@@ -1,0 +1,144 @@
+{
+  "sentences": [
+    {
+      "trans": "Fallen",
+      "orig": "ကြွေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaway"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "enamel",
+        "porcelain",
+        "cowrie"
+      ],
+      "entry": [
+        {
+          "word": "porcelain",
+          "reverse_translation": [
+            "ကေြွထည်"
+          ],
+          "score": 0.028814545
+        }
+      ],
+      "base_form": "ကြွေ",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "drop",
+        "fall",
+        "drop off",
+        "die",
+        "pass away",
+        "expire"
+      ],
+      "entry": [
+        {
+          "word": "drop",
+          "reverse_translation": [
+            "အစက်ကျစေ"
+          ],
+          "synset_id": [
+            103535
+          ],
+          "score": 0.010114856
+        },
+        {
+          "word": "fall",
+          "reverse_translation": [
+            "ကျ"
+          ],
+          "score": 0.0086516952
+        },
+        {
+          "word": "die",
+          "reverse_translation": [
+            "သေဆုံး"
+          ],
+          "synset_id": [
+            78184
+          ],
+          "score": 0.0043503456
+        },
+        {
+          "word": "expire",
+          "reverse_translation": [
+            "ထွက်သက်ရှူ"
+          ],
+          "synset_id": [
+            78184
+          ],
+          "score": 0.0028979548
+        }
+      ],
+      "base_form": "ကြွေ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြွေ",
+      "alternative": [
+        {
+          "word_postproc": "Fallen",
+          "score": 385,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Ceramic",
+          "score": 375,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Enamel",
+          "score": 109,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Porcelain",
+          "score": 75,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ceramics",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကြွေ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

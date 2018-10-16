@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "blood vessels",
+      "orig": "သွေးကြော",
+      "backend": 0
+    },
+    {
+      "src_translit": "swaykyaww"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "artery",
+        "vein",
+        "blood vessel"
+      ],
+      "entry": [
+        {
+          "word": "artery",
+          "reverse_translation": [
+            "သေွးကေြာ"
+          ],
+          "score": 0.015184198
+        },
+        {
+          "word": "vein",
+          "reverse_translation": [
+            "သေွးကေြာ"
+          ],
+          "score": 0.013611027
+        }
+      ],
+      "base_form": "သွေးကြော",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သွေးကြော",
+      "alternative": [
+        {
+          "word_postproc": "blood vessels",
+          "score": 883,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "vascular",
+          "score": 90,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "arteries",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "vasculitis",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "blood vessel",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "သွေးကြော",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

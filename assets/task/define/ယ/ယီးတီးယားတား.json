@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "Evasively",
+      "orig": "ယီးတီးယားတား",
+      "backend": 0
+    },
+    {
+      "src_translit": "yee tee yarr tarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "ambiguously",
+        "evasively",
+        "shilly-shally",
+        "dilatorily",
+        "away",
+        "around",
+        "in a trifling way",
+        "in a cavalier fashion",
+        "around with"
+      ],
+      "entry": [
+        {
+          "word": "away",
+          "reverse_translation": [
+            "မှ"
+          ]
+        },
+        {
+          "word": "around",
+          "reverse_translation": [
+            "ဝိုင်းရံလျက်"
+          ]
+        }
+      ],
+      "base_form": "ယီးတီးယားတား",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယီး တီး ယား တား",
+      "alternative": [
+        {
+          "word_postproc": "Evasively",
+          "score": 823,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Ambiguously",
+          "score": 170,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Dilatorily",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Around",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ယီးတီးယားတား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

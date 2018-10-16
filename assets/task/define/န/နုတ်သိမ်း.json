@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "take back",
+      "orig": "နုတ်သိမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "note saim"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "take back",
+        "strip off"
+      ],
+      "entry": [
+        {
+          "word": "take back"
+        },
+        {
+          "word": "strip off"
+        }
+      ],
+      "base_form": "နုတ်သိမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နုတ် သိမ်း",
+      "alternative": [
+        {
+          "word_postproc": "take back",
+          "score": 915,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "strip off",
+          "score": 84,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "နုတ်သိမ်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

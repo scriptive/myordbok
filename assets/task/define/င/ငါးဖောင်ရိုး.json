@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Garfish",
+      "orig": "ငါးဖောင်ရိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "ngarr hpaung roe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "garfish"
+      ],
+      "entry": [
+        {
+          "word": "garfish"
+        }
+      ],
+      "base_form": "ငါးဖောင်ရိုး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ငါး ဖောင် ရိုး",
+      "alternative": [
+        {
+          "word_postproc": "Garfish",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ငါးဖောင်ရိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "sentences": [
+    {
+      "trans": "irregularly",
+      "orig": "ကွက်ကျား",
+      "backend": 0
+    },
+    {
+      "src_translit": "kwat kyarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "irregularly",
+        "in patches",
+        "sporadically"
+      ],
+      "entry": [
+        {
+          "word": "irregularly"
+        },
+        {
+          "word": "in patches"
+        },
+        {
+          "word": "sporadically"
+        }
+      ],
+      "base_form": "ကွက်ကျား",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကွက် ကျား",
+      "alternative": [
+        {
+          "word_postproc": "irregularly",
+          "score": 966,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sporadically",
+          "score": 33,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in patches",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "scatter",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကွက်ကျား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "Effrontery",
+      "orig": "လူဝါးဝ",
+      "backend": 0
+    },
+    {
+      "src_translit": "luu warr w"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be insolent",
+        "be cheeky",
+        "be impudent",
+        "have the effrontery"
+      ],
+      "entry": [
+        {
+          "word": "be insolent"
+        },
+        {
+          "word": "be cheeky"
+        },
+        {
+          "word": "be impudent"
+        },
+        {
+          "word": "have the effrontery"
+        }
+      ],
+      "base_form": "လူဝါးဝ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လူ ဝါး ဝ",
+      "alternative": [
+        {
+          "word_postproc": "Effrontery",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Cheeky",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Impudent",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Insolent",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The effrontery",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "လူဝါးဝ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

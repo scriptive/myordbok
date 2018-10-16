@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "Hen",
+      "orig": "ဟင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "",
+      "terms": [
+        "word used as a sentence final in questions and solicitations",
+        "word used as a prefix to denote incomprehension",
+        "exclamation registering disappointment, disapproval,surprise"
+      ],
+      "entry": [
+        {
+          "word": "word used as a sentence final in questions and solicitations"
+        },
+        {
+          "word": "word used as a prefix to denote incomprehension"
+        },
+        {
+          "word": "exclamation registering disappointment, disapproval,surprise"
+        }
+      ],
+      "base_form": "ဟင်",
+      "pos_enum": 20
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဟင်",
+      "alternative": [
+        {
+          "word_postproc": "Hen",
+          "score": 879,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Hin",
+          "score": 88,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Ibrahim",
+          "score": 27,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Easily",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Explanation",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဟင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

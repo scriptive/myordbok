@@ -1,0 +1,124 @@
+{
+  "sentences": [
+    {
+      "trans": "Folded palm patch",
+      "orig": "ထန်းခေါက်ဖာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "htaann hkout hpar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "four -cornered basket with removable cover woven with strips from the stalk of palmyra palm fronds"
+      ],
+      "entry": [
+        {
+          "word": "four -cornered basket with removable cover woven with strips from the stalk of palmyra palm fronds"
+        }
+      ],
+      "base_form": "ထန်းခေါက်ဖာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခေါက်",
+      "alternative": [
+        {
+          "word_postproc": "Folded",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Fold",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Folding",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ထန်းခေါက်ဖာ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ထန်း",
+      "alternative": [
+        {
+          "word_postproc": "palm",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Thang",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "ဖာ",
+      "alternative": [
+        {
+          "word_postproc": "patch",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Perez",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 9,
+          "end": 11
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

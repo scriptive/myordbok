@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "Infectious Diseases",
+      "orig": "ကူးစက်ရောဂါ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kuuhcaatrawgar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "contagious disease",
+        "communicable disease"
+      ],
+      "entry": [
+        {
+          "word": "contagious disease",
+          "score": 0.012200845
+        },
+        {
+          "word": "communicable disease",
+          "score": 0.0081275152
+        }
+      ],
+      "base_form": "ကူးစက်ရောဂါ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကူးစက်ရောဂါ",
+      "alternative": [
+        {
+          "word_postproc": "Infectious Diseases",
+          "score": 943,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Infectious Disease",
+          "score": 53,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "contagious disease",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "communicable disease",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ကူးစက်ရောဂါ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

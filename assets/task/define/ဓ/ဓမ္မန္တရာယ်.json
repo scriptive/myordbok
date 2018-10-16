@@ -1,0 +1,100 @@
+{
+  "sentences": [
+    {
+      "trans": "ဓမ္ Mandalay Risk",
+      "orig": "ဓမ္မန္တရာယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "dham mant raral"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "impediment endang ering the teaching of Buddha"
+      ],
+      "entry": [
+        {
+          "word": "impediment endang ering the teaching of Buddha"
+        }
+      ],
+      "base_form": "ဓမ္မန္တရာယ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဓမ္",
+      "alternative": [
+        {
+          "word_postproc": "ဓမ္",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဓမ္မန္တရာယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "မန္တ",
+      "alternative": [
+        {
+          "word_postproc": "Mandalay",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 7
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "ရာယ်",
+      "alternative": [
+        {
+          "word_postproc": "Risk",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 11
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

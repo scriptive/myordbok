@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "Rashly",
+      "orig": "ကမူးရှူးထိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "k muu shuu htoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "rashly",
+        "in the heat of temper",
+        "excitement",
+        "anger"
+      ],
+      "entry": [
+        {
+          "word": "rashly"
+        },
+        {
+          "word": "in the heat of temper"
+        },
+        {
+          "word": "excitement"
+        },
+        {
+          "word": "anger"
+        }
+      ],
+      "base_form": "ကမူးရှူးထိုး",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "က မူး ရှူး ထိုး",
+      "alternative": [
+        {
+          "word_postproc": "Rashly",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Excitement",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Anger",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ကမူးရှူးထိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

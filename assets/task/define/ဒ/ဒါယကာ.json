@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "Exercise",
+      "orig": "ဒါယကာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "daryakar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "donor",
+        "term of address used by a Buddhist monk for a layman"
+      ],
+      "entry": [
+        {
+          "word": "donor",
+          "score": 0.012011689
+        },
+        {
+          "word": "term of address used by a Buddhist monk for a layman"
+        }
+      ],
+      "base_form": "ဒါယကာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဒါယကာ",
+      "alternative": [
+        {
+          "word_postproc": "Exercise",
+          "score": 988,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "calling",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "eventually",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "donor",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "preach",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဒါယကာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "Bank forehead",
+      "orig": "ကမ်းနဖူး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kam n hpuu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "brink of a river bank"
+      ],
+      "entry": [
+        {
+          "word": "brink of a river bank"
+        }
+      ],
+      "base_form": "ကမ်းနဖူး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကမ်း",
+      "alternative": [
+        {
+          "word_postproc": "Bank",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Kam",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Shore",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကမ်းနဖူး",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "န ဖူး",
+      "alternative": [
+        {
+          "word_postproc": "forehead",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 8
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

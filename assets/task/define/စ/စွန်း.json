@@ -1,0 +1,110 @@
+{
+  "sentences": [
+    {
+      "trans": "ends",
+      "orig": "စွန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcwann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be stained",
+        "be smeared",
+        "be tainted",
+        "be blemished",
+        "be over and above",
+        "be more than",
+        "be in excess"
+      ],
+      "entry": [
+        {
+          "word": "be stained"
+        },
+        {
+          "word": "be smeared"
+        },
+        {
+          "word": "be tainted"
+        },
+        {
+          "word": "be blemished"
+        },
+        {
+          "word": "be over and above"
+        },
+        {
+          "word": "be more than"
+        },
+        {
+          "word": "be in excess"
+        }
+      ],
+      "base_form": "စွန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စွန်း",
+      "alternative": [
+        {
+          "word_postproc": "ends",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the ends",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ends of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the ends of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ends of the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "စွန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

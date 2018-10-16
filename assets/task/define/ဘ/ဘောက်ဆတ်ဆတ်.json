@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "Cockily",
+      "orig": "ဘောက်ဆတ်ဆတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "bhout saat saat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "impertinently",
+        "cockily",
+        "insolently"
+      ],
+      "entry": [
+        {
+          "word": "impertinently"
+        },
+        {
+          "word": "cockily"
+        },
+        {
+          "word": "insolently"
+        }
+      ],
+      "base_form": "ဘောက်ဆတ်ဆတ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘောက် ဆတ် ဆတ်",
+      "alternative": [
+        {
+          "word_postproc": "Cockily",
+          "score": 727,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Impertinently",
+          "score": 269,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Insolently",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ဘောက်ဆတ်ဆတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

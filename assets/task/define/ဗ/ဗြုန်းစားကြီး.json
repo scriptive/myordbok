@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Unexpectedly",
+      "orig": "ဗြုန်းစားကြီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "byuann hcarr kyee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "unexpectedly",
+        "suddenly"
+      ],
+      "entry": [
+        {
+          "word": "suddenly",
+          "reverse_translation": [
+            "ရုတ်တရက်"
+          ]
+        }
+      ],
+      "base_form": "ဗြုန်းစားကြီး",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗြုန်း စား ကြီး",
+      "alternative": [
+        {
+          "word_postproc": "Unexpectedly",
+          "score": 944,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Suddenly",
+          "score": 55,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ဗြုန်းစားကြီး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

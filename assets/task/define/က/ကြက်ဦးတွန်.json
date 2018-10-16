@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "Cock-crow",
+      "orig": "ကြက်ဦးတွန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaat u twan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "time of the first cockcrow",
+        "early dawn"
+      ],
+      "entry": [
+        {
+          "word": "time of the first cockcrow"
+        },
+        {
+          "word": "early dawn"
+        }
+      ],
+      "base_form": "ကြက်ဦးတွန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြက် ဦး တွန်",
+      "alternative": [
+        {
+          "word_postproc": "Cock-crow",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Early dawn",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The cock's cry",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Cock's cry",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ကြက်ဦးတွန်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "second-hand",
+      "orig": "တစ်ပတ်နွမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "taitpaat nwm"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "not brand-new",
+        "second-hand"
+      ],
+      "entry": [
+        {
+          "word": "not brand-new"
+        },
+        {
+          "word": "second-hand"
+        }
+      ],
+      "base_form": "တစ်ပတ်နွမ်း",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တစ်ပတ် နွမ်း",
+      "alternative": [
+        {
+          "word_postproc": "second-hand",
+          "score": 911,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "တစ်ပတ်နွမ်း",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

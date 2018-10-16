@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "trans": "portray",
+      "orig": "ဖော်ကျူး",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpawkyauu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "speak out in praise"
+      ],
+      "entry": [
+        {
+          "word": "speak out in praise",
+          "score": 0.034756977
+        }
+      ],
+      "base_form": "ဖော်ကျူး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖော်ကျူး",
+      "alternative": [
+        {
+          "word_postproc": "portray",
+          "score": 552,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "portray the",
+          "score": 447,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "speak out in praise",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဖော်ကျူး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

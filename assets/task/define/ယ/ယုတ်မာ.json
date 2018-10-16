@@ -1,0 +1,95 @@
+{
+  "sentences": [
+    {
+      "trans": "worse",
+      "orig": "ယုတ်မာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "yotemar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "mean",
+        "base",
+        "despicable"
+      ],
+      "entry": [
+        {
+          "word": "mean",
+          "reverse_translation": [
+            "မကောင်းသော"
+          ],
+          "synset_id": [
+            20845
+          ],
+          "score": 0.014717029
+        }
+      ],
+      "base_form": "ယုတ်မာ",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယုတ်မာ",
+      "alternative": [
+        {
+          "word_postproc": "worse",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "despicable",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "is worse",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "scoundrel",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A vile",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ယုတ်မာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

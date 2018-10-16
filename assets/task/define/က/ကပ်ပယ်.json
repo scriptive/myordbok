@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "testicle",
+      "orig": "ကပ်ပယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kaut paal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "scales",
+        "balance",
+        "testicle"
+      ],
+      "entry": [
+        {
+          "word": "balance",
+          "reverse_translation": [
+            "အီကွီလီြဗမ်",
+            "လက်ကျန်ငေွ"
+          ]
+        },
+        {
+          "word": "testicle",
+          "reverse_translation": [
+            "ဂေွးစေ့"
+          ]
+        }
+      ],
+      "base_form": "ကပ်ပယ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကပ် ပယ်",
+      "alternative": [
+        {
+          "word_postproc": "testicle",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "scales",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "balance",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ကပ်ပယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "too much",
+      "orig": "လွန်လွန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "lwan lwann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be too much"
+      ],
+      "entry": [
+        {
+          "word": "be too much"
+        }
+      ],
+      "base_form": "လွန်လွန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လွန် လွန်း",
+      "alternative": [
+        {
+          "word_postproc": "too much",
+          "score": 559,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "too",
+          "score": 440,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "လွန်လွန်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

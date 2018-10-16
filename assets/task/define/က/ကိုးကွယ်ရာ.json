@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "remedy",
+      "orig": "ကိုးကွယ်ရာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "koekwalrar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "sth,someone to rely on"
+      ],
+      "entry": [
+        {
+          "word": "sth,someone to rely on"
+        }
+      ],
+      "base_form": "ကိုးကွယ်ရာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိုးကွယ်ရာ",
+      "alternative": [
+        {
+          "word_postproc": "remedy",
+          "score": 983,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Gods",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of Worship",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sacred worship",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "one supreme",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ကိုးကွယ်ရာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "sentences": [
+    {
+      "trans": "disclosure",
+      "orig": "ထုတ်ဖော်",
+      "backend": 0
+    },
+    {
+      "src_translit": "htotehpaw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "express",
+        "reveal",
+        "display",
+        "admit"
+      ],
+      "entry": [
+        {
+          "word": "express",
+          "reverse_translation": [
+            "ညှစ်"
+          ],
+          "score": 0.013611027
+        },
+        {
+          "word": "reveal",
+          "reverse_translation": [
+            "ဖေါ်ပြ"
+          ],
+          "score": 0.0095020281
+        },
+        {
+          "word": "display",
+          "reverse_translation": [
+            "ပြသ"
+          ]
+        },
+        {
+          "word": "admit",
+          "reverse_translation": [
+            "ဝင်ခွင့်ပြု",
+            "ဖေြာင့်ဆို"
+          ]
+        }
+      ],
+      "base_form": "ထုတ်ဖော်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထုတ်ဖော်",
+      "alternative": [
+        {
+          "word_postproc": "disclosure",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "expression",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "disclosed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "disclose",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of expression",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ထုတ်ဖော်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

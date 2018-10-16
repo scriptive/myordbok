@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "covering the",
+      "orig": "ဖုံးအုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpone aote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "cover",
+        "hide sth from view"
+      ],
+      "entry": [
+        {
+          "word": "cover",
+          "reverse_translation": [
+            "ဖုံး"
+          ]
+        }
+      ],
+      "base_form": "ဖုံးအုပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖုံး အုပ်",
+      "alternative": [
+        {
+          "word_postproc": "covering the",
+          "score": 841,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "are covered",
+          "score": 158,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "covering over the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and cover that",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဖုံးအုပ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

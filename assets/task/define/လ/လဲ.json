@@ -1,0 +1,106 @@
+{
+  "sentences": [
+    {
+      "trans": "what",
+      "orig": "လဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "lell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "change",
+        "exchange",
+        "fall down",
+        "topple"
+      ],
+      "entry": [
+        {
+          "word": "change",
+          "reverse_translation": [
+            "လဲလှယ်",
+            "ပေြာင်းလဲ"
+          ],
+          "synset_id": [
+            3618
+          ],
+          "score": 0.013400008
+        },
+        {
+          "word": "exchange",
+          "reverse_translation": [
+            "လဲလှယ်"
+          ],
+          "synset_id": [
+            3618
+          ]
+        }
+      ],
+      "base_form": "လဲ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လဲ",
+      "alternative": [
+        {
+          "word_postproc": "what",
+          "score": 386,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "change",
+          "score": 333,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fall",
+          "score": 241,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "why",
+          "score": 28,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "like",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "လဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Go round in circles",
+      "orig": "လုံးလည်လိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lone lai lite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "go round in circles",
+        "go bad gradually"
+      ],
+      "entry": [
+        {
+          "word": "go round in circles"
+        },
+        {
+          "word": "go bad gradually"
+        }
+      ],
+      "base_form": "လုံးလည်လိုက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လုံး လည် လိုက်",
+      "alternative": [
+        {
+          "word_postproc": "Go round in circles",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "လုံးလည်လိုက်",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

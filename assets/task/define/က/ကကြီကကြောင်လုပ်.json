@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Evasive",
+      "orig": "ကကြီကကြောင်လုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "k kye k kyaung lote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be full of excuses",
+        "be evasive"
+      ],
+      "entry": [
+        {
+          "word": "be full of excuses"
+        },
+        {
+          "word": "be evasive"
+        }
+      ],
+      "base_form": "ကကြီကကြောင်လုပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြီ က ကြောင် လုပ်",
+      "alternative": [
+        {
+          "word_postproc": "Evasive",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "ကကြီကကြောင်လုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

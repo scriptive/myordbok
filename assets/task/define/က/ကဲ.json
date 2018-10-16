@@ -1,0 +1,117 @@
+{
+  "sentences": [
+    {
+      "trans": "Now",
+      "orig": "ကဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "overdo",
+        "go beyond accepted limit",
+        "add more",
+        "oversee",
+        "direct",
+        "command"
+      ],
+      "entry": [
+        {
+          "word": "direct",
+          "reverse_translation": [
+            "ညွှန်ပြ"
+          ]
+        },
+        {
+          "word": "command",
+          "reverse_translation": [
+            "အမိန့်ပေး"
+          ]
+        }
+      ],
+      "base_form": "ကဲ",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "ability",
+        "quality"
+      ],
+      "entry": [
+        {
+          "word": "ability",
+          "reverse_translation": [
+            "စွမ်းအား"
+          ]
+        },
+        {
+          "word": "quality",
+          "reverse_translation": [
+            "အမျိုးအစား"
+          ]
+        }
+      ],
+      "base_form": "ကဲ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကဲ",
+      "alternative": [
+        {
+          "word_postproc": "Now",
+          "score": 956,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Ken",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Caesar",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Well",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ကဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "prize",
+      "orig": "ဆု",
+      "backend": 1
+    },
+    {
+      "src_translit": "su"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "reward",
+        "prize",
+        "premium",
+        "thing wished",
+        "desired",
+        "prayed for",
+        "wish"
+      ],
+      "entry": [
+        {
+          "word": "reward",
+          "reverse_translation": [
+            "ဆု"
+          ],
+          "synset_id": [
+            17074
+          ],
+          "score": 0.046045512
+        },
+        {
+          "word": "prize",
+          "reverse_translation": [
+            "ဆု"
+          ],
+          "synset_id": [
+            5215
+          ],
+          "score": 0.034218118
+        },
+        {
+          "word": "premium",
+          "reverse_translation": [
+            "ဆု"
+          ],
+          "score": 0.00032514153
+        },
+        {
+          "word": "wish",
+          "reverse_translation": [
+            "အလို"
+          ]
+        }
+      ],
+      "base_form": "ဆု",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆု",
+      "alternative": [
+        {
+          "word_postproc": "prize",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ဆု",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

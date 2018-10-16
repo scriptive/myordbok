@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Cockeyed",
+      "orig": "မျက်စိတကျည်းလွဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "myethci t kyaee lwal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "mistake ugliness for beauty",
+        "be cockeyed"
+      ],
+      "entry": [
+        {
+          "word": "mistake ugliness for beauty"
+        },
+        {
+          "word": "be cockeyed"
+        }
+      ],
+      "base_form": "မျက်စိတကျည်းလွဲ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မျက်စိ တ ကျည်း လွဲ",
+      "alternative": [
+        {
+          "word_postproc": "Cockeyed",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "မျက်စိတကျည်းလွဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

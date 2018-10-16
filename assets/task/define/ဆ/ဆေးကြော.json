@@ -1,0 +1,138 @@
+{
+  "sentences": [
+    {
+      "trans": "wash",
+      "orig": "ဆေးကြော",
+      "backend": 0
+    },
+    {
+      "src_translit": "sayy kyaww"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "wash",
+        "clean",
+        "question",
+        "interrogate",
+        "examine",
+        "inspect",
+        "test",
+        "put on trial"
+      ],
+      "entry": [
+        {
+          "word": "wash",
+          "reverse_translation": [
+            "ရေချိုး"
+          ]
+        },
+        {
+          "word": "clean",
+          "reverse_translation": [
+            "ဆေးကေြာ"
+          ]
+        },
+        {
+          "word": "question",
+          "reverse_translation": [
+            "မေးမြန်း"
+          ],
+          "synset_id": [
+            60483
+          ]
+        },
+        {
+          "word": "interrogate",
+          "reverse_translation": [
+            "မေြးမြန်း"
+          ],
+          "synset_id": [
+            60483
+          ]
+        },
+        {
+          "word": "examine",
+          "reverse_translation": [
+            "စစ်ဆေးကြည့်ရှု"
+          ],
+          "synset_id": [
+            63713
+          ]
+        },
+        {
+          "word": "inspect",
+          "reverse_translation": [
+            "ကြည့်ရှုစစ်ဆေး"
+          ]
+        },
+        {
+          "word": "test",
+          "reverse_translation": [
+            "စမ်းသပ်"
+          ],
+          "synset_id": [
+            63713
+          ]
+        }
+      ],
+      "base_form": "ဆေးကြော",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆေး ကြော",
+      "alternative": [
+        {
+          "word_postproc": "wash",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "washed",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wash away",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "are washed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဆေးကြော",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

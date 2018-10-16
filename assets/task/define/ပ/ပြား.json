@@ -1,0 +1,140 @@
+{
+  "sentences": [
+    {
+      "trans": "Plate",
+      "orig": "ပြား",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "flat"
+      ],
+      "entry": [
+        {
+          "word": "flat",
+          "reverse_translation": [
+            "ပြားသော"
+          ],
+          "score": 0.015666196
+        }
+      ],
+      "base_form": "ပြား",
+      "pos_enum": 3
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "prostrate oneself",
+        "be of diverse form",
+        "vary",
+        "spread out",
+        "scatter",
+        "wander"
+      ],
+      "entry": [
+        {
+          "word": "vary",
+          "reverse_translation": [
+            "လဲွှပေြာင်း"
+          ]
+        },
+        {
+          "word": "scatter",
+          "reverse_translation": [
+            "ကြဲဖြန့်"
+          ],
+          "synset_id": [
+            12656
+          ]
+        },
+        {
+          "word": "wander",
+          "reverse_translation": [
+            "လှည့်လည်"
+          ]
+        }
+      ],
+      "base_form": "ပြား",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "1/100 of a Kyat",
+        "1/4 of anna",
+        "1/64 of a Rupee",
+        "mangrove swamp",
+        "forest"
+      ],
+      "entry": [
+        {
+          "word": "forest",
+          "reverse_translation": [
+            "သစ်တော"
+          ]
+        }
+      ],
+      "base_form": "ပြား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြား",
+      "alternative": [
+        {
+          "word_postproc": "Plate",
+          "score": 574,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "honey",
+          "score": 288,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "flat",
+          "score": 135,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "plates",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ပြား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

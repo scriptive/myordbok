@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Lose sight of",
+      "orig": "မျက်ခြည်ပြတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "myet hkyi pyat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "lose sight of"
+      ],
+      "entry": [
+        {
+          "word": "lose sight of"
+        }
+      ],
+      "base_form": "မျက်ခြည်ပြတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မျက် ခြည် ပြတ်",
+      "alternative": [
+        {
+          "word_postproc": "Lose sight of",
+          "score": 983,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Lose sight",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "မျက်ခြည်ပြတ်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

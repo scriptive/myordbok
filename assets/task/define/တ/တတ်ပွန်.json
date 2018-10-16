@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "coupon",
+      "orig": "တတ်ပွန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "taat pwan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be skilled",
+        "well-versed in"
+      ],
+      "entry": [
+        {
+          "word": "be skilled"
+        },
+        {
+          "word": "well-versed in"
+        }
+      ],
+      "base_form": "တတ်ပွန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပွန်",
+      "alternative": [
+        {
+          "word_postproc": "coupon",
+          "score": 814,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Nippon",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Pompeii",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sponsorship",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Pompei",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "တတ်ပွန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

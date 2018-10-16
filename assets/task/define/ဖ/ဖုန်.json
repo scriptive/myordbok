@@ -1,0 +1,109 @@
+{
+  "sentences": [
+    {
+      "trans": "Dust",
+      "orig": "ဖုန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "dust"
+      ],
+      "entry": [
+        {
+          "word": "dust",
+          "reverse_translation": [
+            "ဖုံ"
+          ],
+          "score": 0.20636167
+        }
+      ],
+      "base_form": "ဖုန်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "thick",
+        "distinct",
+        "light in texture"
+      ],
+      "entry": [
+        {
+          "word": "thick",
+          "reverse_translation": [
+            "ထူသော"
+          ],
+          "score": 0.0034956008
+        }
+      ],
+      "base_form": "ဖုန်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖုန်",
+      "alternative": [
+        {
+          "word_postproc": "Dust",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Widespread Dust",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "dusty",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "dust deposited",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "little dusty",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဖုန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

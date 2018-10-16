@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "Quota",
+      "orig": "အဖို့ဘာဂ",
+      "backend": 0
+    },
+    {
+      "src_translit": "a hphoet bhar g"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "share",
+        "portion",
+        "quota"
+      ],
+      "entry": [
+        {
+          "word": "share",
+          "reverse_translation": [
+            "ဝေစု"
+          ],
+          "synset_id": [
+            25934
+          ]
+        },
+        {
+          "word": "portion",
+          "reverse_translation": [
+            "အပိုင်း"
+          ],
+          "synset_id": [
+            25934
+          ]
+        },
+        {
+          "word": "quota",
+          "reverse_translation": [
+            "သတ်မှတ်ဝေပုံ"
+          ]
+        }
+      ],
+      "base_form": "အဖို့ဘာဂ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ ဖို့ ဘာ ဂ",
+      "alternative": [
+        {
+          "word_postproc": "Quota",
+          "score": 990,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Share",
+          "score": 9,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "အဖို့ဘာဂ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

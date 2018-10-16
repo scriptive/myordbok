@@ -1,0 +1,113 @@
+{
+  "sentences": [
+    {
+      "trans": "cut off",
+      "orig": "ပြတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "cut off",
+        "end",
+        "break",
+        "be not in touch with",
+        "11.appraise",
+        "10. be sharp",
+        "be decisive",
+        "be few and far between",
+        "stop",
+        "have given up",
+        "be disconnected",
+        "lose touch",
+        "come to an end",
+        "run short of",
+        "be cut off",
+        "be severed",
+        "snap"
+      ],
+      "entry": [
+        {
+          "word": "break",
+          "reverse_translation": [
+            "ချိုး"
+          ],
+          "synset_id": [
+            52009
+          ],
+          "score": 0.0048531611
+        },
+        {
+          "word": "stop",
+          "reverse_translation": [
+            "ပိတ်ဆို့"
+          ],
+          "synset_id": [
+            52009,
+            85226
+          ]
+        }
+      ],
+      "base_form": "ပြတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြတ်",
+      "alternative": [
+        {
+          "word_postproc": "cut off",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "were cut off",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "are cut off",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "been cut off",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ပြတ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

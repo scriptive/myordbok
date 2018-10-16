@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "warehousing",
+      "orig": "တန်းတူရည်တူ",
+      "backend": 0
+    },
+    {
+      "src_translit": "taanntuuraituu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "equally"
+      ],
+      "entry": [
+        {
+          "word": "equally",
+          "reverse_translation": [
+            "တူညီစွာ"
+          ],
+          "score": 0.11219689
+        }
+      ],
+      "base_form": "တန်းတူရည်တူ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တန်းတူရည်တူ",
+      "alternative": [
+        {
+          "word_postproc": "warehousing",
+          "score": 902,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "equally",
+          "score": 88,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "equality",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "equal",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "တန်းတူရည်တူ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

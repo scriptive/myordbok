@@ -1,0 +1,113 @@
+{
+  "sentences": [
+    {
+      "trans": "source",
+      "orig": "ရင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "rainn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "put in",
+        "invest",
+        "be intimate",
+        "be closely related",
+        "fester",
+        "be septic"
+      ],
+      "entry": [
+        {
+          "word": "invest",
+          "reverse_translation": [
+            "ရင်းနှီးမြှုပ်နှံ"
+          ]
+        }
+      ],
+      "base_form": "ရင်း",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "root",
+        "sth primary",
+        "basic",
+        "prime"
+      ],
+      "entry": [
+        {
+          "word": "root",
+          "reverse_translation": [
+            "အမြစ်"
+          ]
+        }
+      ],
+      "base_form": "ရင်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရင်း",
+      "alternative": [
+        {
+          "word_postproc": "source",
+          "score": 763,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "while",
+          "score": 140,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "write",
+          "score": 76,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "her",
+          "score": 18,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "simply",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ရင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

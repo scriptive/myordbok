@@ -1,0 +1,114 @@
+{
+  "sentences": [
+    {
+      "trans": "left",
+      "orig": "ဝဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "well"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "scabies",
+        "left side. [abbreviation of လက်ဝဲ]",
+        "whirlpool",
+        "eddy",
+        "mange"
+      ],
+      "entry": [
+        {
+          "word": "scabies",
+          "score": 0.0025574362
+        },
+        {
+          "word": "left side. [abbreviation of လက်ဝဲ]"
+        },
+        {
+          "word": "whirlpool"
+        },
+        {
+          "word": "eddy"
+        },
+        {
+          "word": "mange"
+        }
+      ],
+      "base_form": "ဝဲ",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "hover,fly in circles",
+        "have an accent"
+      ],
+      "entry": [
+        {
+          "word": "hover,fly in circles"
+        },
+        {
+          "word": "have an accent"
+        }
+      ],
+      "base_form": "ဝဲ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝဲ",
+      "alternative": [
+        {
+          "word_postproc": "left",
+          "score": 985,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "scabies",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "your left",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fast to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ဝဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

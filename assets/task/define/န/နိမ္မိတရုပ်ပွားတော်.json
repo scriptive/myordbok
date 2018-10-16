@@ -1,0 +1,85 @@
+{
+  "sentences": [
+    {
+      "trans": "The image of the Buddha statues",
+      "orig": "နိမ္မိတရုပ်ပွားတော်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nim mi t rotepwarrtaw"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တ",
+      "alternative": [
+        {
+          "word_postproc": "The",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "နိမ္မိတရုပ်ပွားတော်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "နိမ္ မိ",
+      "alternative": [
+        {
+          "word_postproc": "image of the Buddha",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 5
+    },
+    {
+      "src_phrase": "ရုပ်ပွားတော်",
+      "alternative": [
+        {
+          "word_postproc": "statues",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 19
+        }
+      ],
+      "start_pos": 5,
+      "end_pos": 6
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

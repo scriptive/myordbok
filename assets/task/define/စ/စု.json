@@ -1,0 +1,164 @@
+{
+  "sentences": [
+    {
+      "trans": "group",
+      "orig": "စု",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "group",
+        "set",
+        "share",
+        "assemblage",
+        "system of categorisation of persons by trade,occupation",
+        "section of town,countryside where people of the same race,occupation settle",
+        "community",
+        "quota",
+        "allotment"
+      ],
+      "entry": [
+        {
+          "word": "group",
+          "reverse_translation": [
+            "အစု"
+          ],
+          "score": 0.033687614
+        },
+        {
+          "word": "set",
+          "reverse_translation": [
+            "အစုံ",
+            "အမွှမ်း"
+          ],
+          "synset_id": [
+            7867
+          ],
+          "score": 0.019496895
+        },
+        {
+          "word": "share",
+          "reverse_translation": [
+            "ဝေစု"
+          ],
+          "score": 0.0028979548
+        },
+        {
+          "word": "community",
+          "reverse_translation": [
+            "အတူရှိခြင်း"
+          ]
+        },
+        {
+          "word": "quota",
+          "reverse_translation": [
+            "သတ်မှတ်ဝေပုံ"
+          ]
+        },
+        {
+          "word": "allotment",
+          "reverse_translation": [
+            "ဝေခဲွချထားခြင်း"
+          ]
+        }
+      ],
+      "base_form": "စု",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "accumulate",
+        "be in a mass",
+        "collector gather",
+        "save"
+      ],
+      "entry": [
+        {
+          "word": "accumulate",
+          "reverse_translation": [
+            "စု"
+          ],
+          "synset_id": [
+            13433
+          ],
+          "score": 0.00050358905
+        },
+        {
+          "word": "save",
+          "reverse_translation": [
+            "ကယ်ဆယ်",
+            "ငေွစု"
+          ]
+        }
+      ],
+      "base_form": "စု",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စု",
+      "alternative": [
+        {
+          "word_postproc": "group",
+          "score": 893,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Su",
+          "score": 58,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "most",
+          "score": 48,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "part of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a group",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "စု",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

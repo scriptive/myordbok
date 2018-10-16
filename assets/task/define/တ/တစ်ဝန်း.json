@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Main",
+      "orig": "တစ်ဝန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "tait waann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "entire",
+        "the whole"
+      ],
+      "entry": [
+        {
+          "word": "entire"
+        },
+        {
+          "word": "the whole"
+        }
+      ],
+      "base_form": "တစ်ဝန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တစ် ဝန်း",
+      "alternative": [
+        {
+          "word_postproc": "Main",
+          "score": 912,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "across",
+          "score": 68,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "around",
+          "score": 17,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "across the",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "around the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "တစ်ဝန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

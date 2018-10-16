@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "Binomial robes",
+      "orig": "ဒွိစုံသင်္ကန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "dwi hcone sain kaann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "two-piece robe of Buddhist monk consisting of သင်းပိုင် and ဧကသီ"
+      ],
+      "entry": [
+        {
+          "word": "two-piece robe of Buddhist monk consisting of သင်းပိုင် and ဧကသီ"
+        }
+      ],
+      "base_form": "ဒွိစုံသင်္ကန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဒွိ စုံ",
+      "alternative": [
+        {
+          "word_postproc": "Binomial",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Binary",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The Binomial",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဒွိစုံသင်္ကန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "သင်္ ကန်း",
+      "alternative": [
+        {
+          "word_postproc": "robes",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "blind",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "robe",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 14
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

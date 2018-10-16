@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "filthy",
+      "orig": "ညစ်ထည်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyait htaee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "soiled",
+        "dirty",
+        "filthy"
+      ],
+      "entry": [
+        {
+          "word": "dirty",
+          "reverse_translation": [
+            "ညစ်သော"
+          ],
+          "synset_id": [
+            13650,
+            59962
+          ]
+        },
+        {
+          "word": "filthy",
+          "reverse_translation": [
+            "ညစ်ညမ်းသော"
+          ],
+          "synset_id": [
+            13650
+          ]
+        }
+      ],
+      "base_form": "ညစ်ထည်း",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညစ် ထည်း",
+      "alternative": [
+        {
+          "word_postproc": "filthy",
+          "score": 616,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "soiled",
+          "score": 328,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "dirty",
+          "score": 54,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ညစ်ထည်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

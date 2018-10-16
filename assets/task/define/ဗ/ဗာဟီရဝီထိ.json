@@ -1,0 +1,85 @@
+{
+  "sentences": [
+    {
+      "trans": "Bath ecliptic",
+      "orig": "ဗာဟီရဝီထိ",
+      "backend": 0
+    },
+    {
+      "src_translit": "bar he r wehti"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "outermost ecliptic",
+        "apparent path of the sun at winter solstice"
+      ],
+      "entry": [
+        {
+          "word": "outermost ecliptic"
+        },
+        {
+          "word": "apparent path of the sun at winter solstice"
+        }
+      ],
+      "base_form": "ဗာဟီရဝီထိ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗာ",
+      "alternative": [
+        {
+          "word_postproc": "Bath",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ဗာဟီရဝီထိ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဟီ ရ ဝီထိ",
+      "alternative": [
+        {
+          "word_postproc": "ecliptic",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 9
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

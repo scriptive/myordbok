@@ -1,0 +1,153 @@
+{
+  "sentences": [
+    {
+      "trans": "shore",
+      "orig": "ကမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "kam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "bank",
+        "shore",
+        "brink",
+        "limit"
+      ],
+      "entry": [
+        {
+          "word": "bank",
+          "reverse_translation": [
+            "ကမ်း",
+            "ဘဏ်တိုက်"
+          ],
+          "synset_id": [
+            1115
+          ],
+          "score": 0.043255754
+        },
+        {
+          "word": "shore",
+          "reverse_translation": [
+            "ကမ်း"
+          ],
+          "synset_id": [
+            26468
+          ],
+          "score": 0.02706876
+        },
+        {
+          "word": "limit",
+          "reverse_translation": [
+            "အကန့်အသတ်"
+          ]
+        }
+      ],
+      "base_form": "ကမ်း",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "pass",
+        "give",
+        "offer",
+        "distribute"
+      ],
+      "entry": [
+        {
+          "word": "pass",
+          "reverse_translation": [
+            "သွား"
+          ],
+          "synset_id": [
+            31037
+          ],
+          "score": 0.010274142
+        },
+        {
+          "word": "give",
+          "reverse_translation": [
+            "ပေး"
+          ],
+          "synset_id": [
+            31037
+          ],
+          "score": 0.010274142
+        },
+        {
+          "word": "offer",
+          "reverse_translation": [
+            "ပေးကမ်း"
+          ],
+          "score": 0.0095020281
+        },
+        {
+          "word": "distribute",
+          "reverse_translation": [
+            "လှူဒါန်းပေး"
+          ]
+        }
+      ],
+      "base_form": "ကမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကမ်း",
+      "alternative": [
+        {
+          "word_postproc": "shore",
+          "score": 930,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bank",
+          "score": 69,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Coast of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Kam",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

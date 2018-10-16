@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Plaster",
+      "orig": "ကျောက်ပတ်တီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawwat paat tee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "plaster of paris cast"
+      ],
+      "entry": [
+        {
+          "word": "plaster of paris cast"
+        }
+      ],
+      "base_form": "‌ကျောက်‌ပတ်တီး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျောက် ပတ် တီး",
+      "alternative": [
+        {
+          "word_postproc": "Plaster",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ကျောက်ပတ်တီး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "sentences": [
+    {
+      "trans": "famous",
+      "orig": "ကျော်ကြား",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawkyarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be famous",
+        "become the talk of the town",
+        "be rumoured"
+      ],
+      "entry": [
+        {
+          "word": "be famous",
+          "score": 0.0039610346
+        },
+        {
+          "word": "become the talk of the town"
+        },
+        {
+          "word": "be rumoured"
+        }
+      ],
+      "base_form": "ကျော်ကြား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျော်ကြား",
+      "alternative": [
+        {
+          "word_postproc": "famous",
+          "score": 996,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "famous for",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "is famous",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and famous",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "is famous for",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကျော်ကြား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

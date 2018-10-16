@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "autonomy",
+      "orig": "ကိုယ်ပိုင်အုပ်ချုပ်ရေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kopine aotehkyaoterayy"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိုယ်ပိုင် အုပ်ချုပ်ရေး",
+      "alternative": [
+        {
+          "word_postproc": "autonomy",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Autonomous",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "an autonomous",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Autonomous Prefecture",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 22
+        }
+      ],
+      "raw_src_segment": "ကိုယ်ပိုင်အုပ်ချုပ်ရေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

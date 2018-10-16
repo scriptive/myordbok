@@ -1,0 +1,106 @@
+{
+  "sentences": [
+    {
+      "trans": "rather",
+      "orig": "ပြေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyay"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "1. be appeased",
+        "be satisfied",
+        "2. be loosened",
+        "3.wear off",
+        "be settled",
+        "paid up"
+      ],
+      "entry": [
+        {
+          "word": "1. be appeased"
+        },
+        {
+          "word": "be satisfied"
+        },
+        {
+          "word": "2. be loosened"
+        },
+        {
+          "word": "3.wear off"
+        },
+        {
+          "word": "be settled"
+        },
+        {
+          "word": "paid up"
+        }
+      ],
+      "base_form": "ပြေ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြေ",
+      "alternative": [
+        {
+          "word_postproc": "rather",
+          "score": 713,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "comfortable",
+          "score": 179,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Invoice",
+          "score": 104,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Pyay",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "satisfied",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ပြေ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

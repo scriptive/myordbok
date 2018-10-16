@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "art paper",
+      "orig": "ကြွေစက္ကူ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaway hcakkuu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "glazed paper",
+        "art paper"
+      ],
+      "entry": [
+        {
+          "word": "glazed paper"
+        },
+        {
+          "word": "art paper"
+        }
+      ],
+      "base_form": "ကြွေစက္ကူ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြွေ စက္ကူ",
+      "alternative": [
+        {
+          "word_postproc": "art paper",
+          "score": 778,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "glazed paper",
+          "score": 221,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကြွေစက္ကူ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Buttock",
+      "orig": "ဖရုံဆွဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hp rone swal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "buttock",
+        "the lower fleshy part of the posteriors"
+      ],
+      "entry": [
+        {
+          "word": "buttock"
+        },
+        {
+          "word": "the lower fleshy part of the posteriors"
+        }
+      ],
+      "base_form": "ဖရုံဆွဲ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖ ရုံ ဆွဲ",
+      "alternative": [
+        {
+          "word_postproc": "Buttock",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဖရုံဆွဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

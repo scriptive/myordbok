@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "ကျီးမနိုးပွဲ",
+      "orig": "ကျီးမနိုးပွဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaeemanoepwal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "customary pranks played by youths on the full moon night of တန်ဆောင်မုန်း"
+      ],
+      "entry": [
+        {
+          "word": "customary pranks played by youths on the full moon night of တန်ဆောင်မုန်း"
+        }
+      ],
+      "base_form": "ကျီးမနိုးပွဲ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျီးမနိုးပွဲ",
+      "alternative": [
+        {
+          "word_postproc": "ကျီးမနိုးပွဲ",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ကျီးမနိုးပွဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

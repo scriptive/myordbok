@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Adam's apple",
+      "orig": "စလုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hc lote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "Adam's apple",
+        "crop"
+      ],
+      "entry": [
+        {
+          "word": "crop",
+          "reverse_translation": [
+            "အသီးအနှံ"
+          ]
+        }
+      ],
+      "base_form": "စလုတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စ လုတ်",
+      "alternative": [
+        {
+          "word_postproc": "Adam's apple",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "crop",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "စလုတ်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

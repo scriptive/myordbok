@@ -1,0 +1,104 @@
+{
+  "sentences": [
+    {
+      "trans": "pimple",
+      "orig": "ဝက်ခြံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "waathkyaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "acne",
+        "pimple",
+        "pigsty",
+        "prisoner's dock",
+        "bullock cart body with high side-railings"
+      ],
+      "entry": [
+        {
+          "word": "acne",
+          "reverse_translation": [
+            "ဝက်ခြံပုန်းများ"
+          ],
+          "score": 0.13963129
+        },
+        {
+          "word": "pimple",
+          "reverse_translation": [
+            "ဝက်ခြံ"
+          ],
+          "synset_id": [
+            43893
+          ],
+          "score": 0.021750359
+        }
+      ],
+      "base_form": "ဝက်ခြံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝက်ခြံ",
+      "alternative": [
+        {
+          "word_postproc": "pimple",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "acne and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pigsty",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Acne",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "for acne",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဝက်ခြံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

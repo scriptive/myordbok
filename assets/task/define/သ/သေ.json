@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "die",
+      "orig": "သေ",
+      "backend": 1
+    },
+    {
+      "src_translit": "say"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "die",
+        "be paralysed",
+        "stop functioning",
+        "be stable",
+        "be seasoned"
+      ],
+      "entry": [
+        {
+          "word": "die",
+          "reverse_translation": [
+            "သေဆုံး"
+          ],
+          "score": 0.093014486
+        }
+      ],
+      "base_form": "သေ",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "fermented alcoholic drink",
+        "wine"
+      ],
+      "entry": [
+        {
+          "word": "wine",
+          "reverse_translation": [
+            "စဗျစ်ရည်"
+          ]
+        }
+      ],
+      "base_form": "သေ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သေ",
+      "alternative": [
+        {
+          "word_postproc": "die",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "death",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "သေ",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

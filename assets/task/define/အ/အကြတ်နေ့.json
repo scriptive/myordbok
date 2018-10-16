@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "အကြတ်နေ့",
+      "orig": "အကြတ်နေ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "aakyatnae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "the second day of သင်္ကြန်",
+        "intervening day,days between အကျနေ့ and အတက်နေ့ of သင်္ကြန်"
+      ],
+      "entry": [
+        {
+          "word": "the second day of သင်္ကြန်"
+        },
+        {
+          "word": "intervening day,days between အကျနေ့ and အတက်နေ့ of သင်္ကြန်"
+        }
+      ],
+      "base_form": "အကြတ်နေ့",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အကြတ်နေ့",
+      "alternative": [
+        {
+          "word_postproc": "အကြတ်နေ့",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "အကြတ်နေ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

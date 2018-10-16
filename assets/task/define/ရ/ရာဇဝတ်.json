@@ -1,0 +1,111 @@
+{
+  "sentences": [
+    {
+      "trans": "criminal",
+      "orig": "ရာဇဝတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "rarjawaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "criminal"
+      ],
+      "entry": [
+        {
+          "word": "criminal",
+          "score": 0.13963129
+        }
+      ],
+      "base_form": "ရာဇဝတ်",
+      "pos_enum": 3
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "kingly duties and morals",
+        "law of a state",
+        "royal edict"
+      ],
+      "entry": [
+        {
+          "word": "kingly duties and morals",
+          "score": 0.0052475184
+        },
+        {
+          "word": "law of a state",
+          "score": 0.0052475184
+        },
+        {
+          "word": "royal edict",
+          "score": 0.0052475184
+        }
+      ],
+      "base_form": "ရာဇဝတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရာဇဝတ်",
+      "alternative": [
+        {
+          "word_postproc": "criminal",
+          "score": 543,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "criminally",
+          "score": 456,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "criminalises",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "for crimes against humanity",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of criminal",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ရာဇဝတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "boom",
+      "orig": "စန်းထ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcaann ht"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be in ascendent"
+      ],
+      "entry": [
+        {
+          "word": "be in ascendent"
+        }
+      ],
+      "base_form": "စန်းထ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စန်း ထ",
+      "alternative": [
+        {
+          "word_postproc": "boom",
+          "score": 514,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ascendent",
+          "score": 485,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in ascendent",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "စန်းထ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "trans": "retreat",
+      "orig": "စစ်ဆုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcait sote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "retreat",
+        "withdraw"
+      ],
+      "entry": [
+        {
+          "word": "retreat",
+          "reverse_translation": [
+            "နောက်ဆုတ်ခွါ"
+          ],
+          "synset_id": [
+            64609
+          ]
+        }
+      ],
+      "base_form": "စစ်ဆုတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စစ် ဆုတ်",
+      "alternative": [
+        {
+          "word_postproc": "retreat",
+          "score": 996,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "withdraw",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "စစ်ဆုတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

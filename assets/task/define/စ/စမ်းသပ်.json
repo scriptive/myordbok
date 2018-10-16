@@ -1,0 +1,108 @@
+{
+  "sentences": [
+    {
+      "trans": "test",
+      "orig": "စမ်းသပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcamsaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "test",
+        "experiment",
+        "try",
+        "feel",
+        "grope about"
+      ],
+      "entry": [
+        {
+          "word": "test",
+          "reverse_translation": [
+            "စမ်းသပ်"
+          ],
+          "synset_id": [
+            63713
+          ],
+          "score": 0.14633234
+        },
+        {
+          "word": "try",
+          "reverse_translation": [
+            "ကြိုးစား",
+            "တရားစဲွ"
+          ],
+          "synset_id": [
+            63713
+          ],
+          "score": 0.0068440544
+        },
+        {
+          "word": "feel",
+          "reverse_translation": [
+            "တေွ့သိ"
+          ]
+        }
+      ],
+      "base_form": "စမ်းသပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စမ်းသပ်",
+      "alternative": [
+        {
+          "word_postproc": "test",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a test",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Experimental",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "test the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "စမ်းသပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "urgently",
+      "orig": "လျင်ခုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lyin hkote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "quickly",
+        "urgently"
+      ],
+      "entry": [
+        {
+          "word": "quickly",
+          "reverse_translation": [
+            "လျင်မြန်စွာ"
+          ]
+        }
+      ],
+      "base_form": "လျင်ခုပ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လျင် ခုပ်",
+      "alternative": [
+        {
+          "word_postproc": "urgently",
+          "score": 869,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "quickly",
+          "score": 130,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "လျင်ခုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

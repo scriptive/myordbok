@@ -1,0 +1,70 @@
+{
+  "sentences": [
+    {
+      "trans": "plectrum",
+      "orig": "လက်ခတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "laat hkaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "frame of the reed in a loom",
+        "small striker,hammer used in playing some musical instruments",
+        "plectrum"
+      ],
+      "entry": [
+        {
+          "word": "frame of the reed in a loom"
+        },
+        {
+          "word": "small striker,hammer used in playing some musical instruments"
+        },
+        {
+          "word": "plectrum"
+        }
+      ],
+      "base_form": "လက်ခတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လက် ခတ်",
+      "alternative": [
+        {
+          "word_postproc": "plectrum",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "လက်ခတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "sentences": [
+    {
+      "trans": "Sagaing Division",
+      "orig": "စစ်ကိုင်းတိုင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcaitkinetine"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စစ်ကိုင်းတိုင်း",
+      "alternative": [
+        {
+          "word_postproc": "Sagaing Division",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in Sagaing Division",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "စစ်ကိုင်းတိုင်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "The remaining",
+      "orig": "ကျန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "remain",
+        "be left behind."
+      ],
+      "entry": [
+        {
+          "word": "remain",
+          "reverse_translation": [
+            "ကျန်ရစ်"
+          ],
+          "score": 0.0096516637
+        }
+      ],
+      "base_form": "ကျန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျန်",
+      "alternative": [
+        {
+          "word_postproc": "The remaining",
+          "score": 507,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The rest",
+          "score": 270,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The rest of",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rest",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "remaining",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကျန်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

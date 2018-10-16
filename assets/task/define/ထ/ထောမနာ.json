@@ -1,0 +1,108 @@
+{
+  "sentences": [
+    {
+      "trans": "Praises",
+      "orig": "ထောမနာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "htaw m nar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "praise",
+        "eulogize: extol",
+        "laud"
+      ],
+      "entry": [
+        {
+          "word": "praise",
+          "reverse_translation": [
+            "ချီးမွမ်း"
+          ]
+        }
+      ],
+      "base_form": "ထောမနာ",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "praise",
+        "eulogy"
+      ],
+      "entry": [
+        {
+          "word": "praise",
+          "reverse_translation": [
+            "ချီးမွမ်းခြင်း"
+          ]
+        }
+      ],
+      "base_form": "ထောမနာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထော မ နာ",
+      "alternative": [
+        {
+          "word_postproc": "Praises",
+          "score": 536,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Praise",
+          "score": 444,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "There is no",
+          "score": 19,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Praised",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Eulogy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ထောမနာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

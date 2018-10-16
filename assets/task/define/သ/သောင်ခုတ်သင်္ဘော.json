@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Dredger",
+      "orig": "သောင်ခုတ်သင်္ဘော",
+      "backend": 0
+    },
+    {
+      "src_translit": "saung hkote sainbhaw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "dredger"
+      ],
+      "entry": [
+        {
+          "word": "dredger"
+        }
+      ],
+      "base_form": "သောင်ခုတ်သင်္ဘော",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သောင် ခုတ် သင်္ဘော",
+      "alternative": [
+        {
+          "word_postproc": "Dredger",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "သောင်ခုတ်သင်္ဘော",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "sentences": [
+    {
+      "trans": "Burrweed",
+      "orig": "ကပ်စေးနှဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kaut hcayy nhaell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "stingy person",
+        "miserly person",
+        "sticky candy",
+        "the burrweed",
+        "species of grass",
+        "plants of  \"sida\" species",
+        "aramina fibre"
+      ],
+      "entry": [
+        {
+          "word": "stingy person"
+        },
+        {
+          "word": "miserly person"
+        },
+        {
+          "word": "sticky candy"
+        },
+        {
+          "word": "the burrweed"
+        },
+        {
+          "word": "species of grass"
+        },
+        {
+          "word": "plants of  \"sida\" species"
+        },
+        {
+          "word": "aramina fibre"
+        }
+      ],
+      "base_form": "ကပ်စေးနှဲ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကပ် စေး နှဲ",
+      "alternative": [
+        {
+          "word_postproc": "Burrweed",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Sticky candy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Miserly person",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The burrweed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Stingy person",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကပ်စေးနှဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

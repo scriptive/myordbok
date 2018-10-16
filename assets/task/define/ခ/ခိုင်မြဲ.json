@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "strengthen",
+      "orig": "ခိုင်မြဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkinemyaell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "strong",
+        "durable",
+        "fast",
+        "last",
+        "be steadfast",
+        "be constant",
+        "be firm",
+        "be stable"
+      ],
+      "entry": [
+        {
+          "word": "fast",
+          "reverse_translation": [
+            "ဉပုသ်စောင့်"
+          ],
+          "score": 0.0063297153
+        }
+      ],
+      "base_form": "ခိုင်မြဲ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခိုင်မြဲ",
+      "alternative": [
+        {
+          "word_postproc": "strengthen",
+          "score": 425,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cement",
+          "score": 364,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to strengthen",
+          "score": 141,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cementing",
+          "score": 68,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "strengthen their",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ခိုင်မြဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

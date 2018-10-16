@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "the poor",
+      "orig": "ကျောမွဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaww mwal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "the poor"
+      ],
+      "entry": [
+        {
+          "word": "the poor"
+        }
+      ],
+      "base_form": "ကျောမွဲ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျော မွဲ",
+      "alternative": [
+        {
+          "word_postproc": "the poor",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကျောမွဲ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

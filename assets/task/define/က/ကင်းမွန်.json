@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "cuttlefish",
+      "orig": "ကင်းမွန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kainn mwan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "cuttlefish"
+      ],
+      "entry": [
+        {
+          "word": "cuttlefish"
+        }
+      ],
+      "base_form": "ကင်းမွန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကင်း မွန်",
+      "alternative": [
+        {
+          "word_postproc": "cuttlefish",
+          "score": 993,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The cuttlefish",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကင်းမွန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

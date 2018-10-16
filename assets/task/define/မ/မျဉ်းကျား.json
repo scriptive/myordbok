@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "pedestrian crossing",
+      "orig": "မျဉ်းကျား",
+      "backend": 0
+    },
+    {
+      "src_translit": "myain kyarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "zebra crossing",
+        "pedestrian crossing"
+      ],
+      "entry": [
+        {
+          "word": "zebra crossing",
+          "synset_id": [
+            11708
+          ]
+        },
+        {
+          "word": "pedestrian crossing",
+          "synset_id": [
+            11708
+          ]
+        }
+      ],
+      "base_form": "မျဉ်းကျား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မျဉ်း ကျား",
+      "alternative": [
+        {
+          "word_postproc": "pedestrian crossing",
+          "score": 981,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "zebra crossing",
+          "score": 18,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "မျဉ်းကျား",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

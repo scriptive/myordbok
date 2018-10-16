@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "adore",
+      "orig": "ကြည်ညို",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyinyo"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "respect",
+        "revere",
+        "adore"
+      ],
+      "entry": [
+        {
+          "word": "adore",
+          "reverse_translation": [
+            "ကြည်ညို"
+          ],
+          "score": 0.0028087941
+        }
+      ],
+      "base_form": "ကြည်ညို",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြည်ညို",
+      "alternative": [
+        {
+          "word_postproc": "adore",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "be willing and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "has found anything",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a willing",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "are willing and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကြည်ညို",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "sentences": [
+    {
+      "trans": "Christ",
+      "orig": "ခရစ်တော်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaraittaw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "Christ",
+        "Jesus Christ"
+      ],
+      "entry": [
+        {
+          "word": "Christ",
+          "reverse_translation": [
+            "ခရစ်တော်"
+          ],
+          "score": 0.4507353
+        }
+      ],
+      "base_form": "ခရစ်တော်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခရစ်တော်",
+      "alternative": [
+        {
+          "word_postproc": "Christ",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Christ's",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Christ in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "from Christ",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ခရစ်တော်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

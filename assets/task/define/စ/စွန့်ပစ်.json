@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "Abandon",
+      "orig": "စွန့်ပစ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcw an  pait"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "throw away",
+        "discard",
+        "abandon"
+      ],
+      "entry": [
+        {
+          "word": "abandon",
+          "reverse_translation": [
+            "စွန့်ပစ်"
+          ]
+        }
+      ],
+      "base_form": "စွန့်ပစ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စွ န့ ် ပစ်",
+      "alternative": [
+        {
+          "word_postproc": "Abandon",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Are forsaken",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Be forsaken for",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Been forsaken",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Be forsaken",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "စွန့်ပစ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

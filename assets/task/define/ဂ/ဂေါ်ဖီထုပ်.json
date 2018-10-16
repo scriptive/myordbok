@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "cabbage",
+      "orig": "ဂေါ်ဖီထုပ်",
+      "backend": 1
+    },
+    {
+      "src_translit": "gaw hpe htote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "cabbage"
+      ],
+      "entry": [
+        {
+          "word": "cabbage",
+          "reverse_translation": [
+            "ကော်ပီ"
+          ]
+        }
+      ],
+      "base_form": "ဂေါ်ဖီထုပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဂေါ်ဖီထုပ်",
+      "alternative": [
+        {
+          "word_postproc": "cabbage",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ဂေါ်ဖီထုပ်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "post",
+      "orig": "ညာတိုင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyar tine"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "king-post"
+      ],
+      "entry": [
+        {
+          "word": "king-post"
+        }
+      ],
+      "base_form": "ညာတိုင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညာ တိုင်",
+      "alternative": [
+        {
+          "word_postproc": "post",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ညာတိုင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

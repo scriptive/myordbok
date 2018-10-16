@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "struggle",
+      "orig": "ရုန်းကန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "ronekaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "struggle",
+        "violently",
+        "struggle free"
+      ],
+      "entry": [
+        {
+          "word": "struggle",
+          "score": 0.14183016
+        },
+        {
+          "word": "violently",
+          "score": 0.0025977099
+        },
+        {
+          "word": "struggle free",
+          "score": 0.0025977099
+        }
+      ],
+      "base_form": "ရုန်းကန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရုန်းကန်",
+      "alternative": [
+        {
+          "word_postproc": "struggle",
+          "score": 900,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "struggling",
+          "score": 99,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "struggled",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "struggle just",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "people struggling",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ရုန်းကန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

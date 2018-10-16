@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "Ud hotel",
+      "orig": "ဥဒဟို",
+      "backend": 0
+    },
+    {
+      "src_translit": "u d ho"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "အတားအဆီး  အပိတ်အပင်မရှိ။"
+      ],
+      "entry": [
+        {
+          "word": "အတားအဆီး  အပိတ်အပင်မရှိ။"
+        }
+      ],
+      "base_form": "ဥဒဟို",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဥ ဒ",
+      "alternative": [
+        {
+          "word_postproc": "Ud",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ဥဒဟို",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဟို",
+      "alternative": [
+        {
+          "word_postproc": "hotel",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ho",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hotels",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 5
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

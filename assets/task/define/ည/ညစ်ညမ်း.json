@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "Pollution",
+      "orig": "ညစ်ညမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyaitnyam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "pollute",
+        "vile",
+        "be dirty",
+        "be obscene"
+      ],
+      "entry": [
+        {
+          "word": "pollute",
+          "reverse_translation": [
+            "ညစ်ညမ်းစေ"
+          ],
+          "score": 0.015184198
+        }
+      ],
+      "base_form": "ညစ်ညမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညစ်ညမ်း",
+      "alternative": [
+        {
+          "word_postproc": "Pollution",
+          "score": 969,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "contamination",
+          "score": 28,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "contaminated",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pornographic",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and Pollution",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ညစ်ညမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

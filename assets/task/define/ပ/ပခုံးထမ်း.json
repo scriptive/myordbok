@@ -1,0 +1,104 @@
+{
+  "sentences": [
+    {
+      "trans": "bare shoulders",
+      "orig": "ပခုံးထမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "pahkone htam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "porter",
+        "pedlar carrying wares on his shoulder"
+      ],
+      "entry": [
+        {
+          "word": "porter",
+          "reverse_translation": [
+            "တံခါးစောင့်",
+            "တံခါးစောင့်"
+          ]
+        }
+      ],
+      "base_form": "ပခုံးထမ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထမ်း",
+      "alternative": [
+        {
+          "word_postproc": "bare",
+          "score": 564,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "carried",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "carry",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ပခုံးထမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ပခုံး",
+      "alternative": [
+        {
+          "word_postproc": "shoulders",
+          "score": 564,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "shoulder",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

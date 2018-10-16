@@ -1,0 +1,122 @@
+{
+  "sentences": [
+    {
+      "trans": "And influential",
+      "orig": "ဩဇာတိက္ကမ",
+      "backend": 0
+    },
+    {
+      "src_translit": "au jar tik k m"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "power",
+        "authority",
+        "influence"
+      ],
+      "entry": [
+        {
+          "word": "power",
+          "reverse_translation": [
+            "စွမ်းအား"
+          ]
+        },
+        {
+          "word": "authority",
+          "reverse_translation": [
+            "အာဏာ"
+          ]
+        },
+        {
+          "word": "influence",
+          "reverse_translation": [
+            "သြဇါ"
+          ]
+        }
+      ],
+      "base_form": "ဩဇာတိက္ကမ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မ",
+      "alternative": [
+        {
+          "word_postproc": "And",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 8,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ဩဇာတိက္ကမ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဩ ဇာ တိက္ က",
+      "alternative": [
+        {
+          "word_postproc": "influential",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "authority",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "power",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "influence",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the influential",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

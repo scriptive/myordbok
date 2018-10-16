@@ -1,0 +1,76 @@
+{
+  "sentences": [
+    {
+      "trans": "Magic",
+      "orig": "မျက်လှည့်ဆရာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "myet lha i  sarar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "magician",
+        "conjuror"
+      ],
+      "entry": [
+        {
+          "word": "magician",
+          "reverse_translation": [
+            "ကဝေမ",
+            "ကဝေဆရာ"
+          ],
+          "synset_id": [
+            14222
+          ]
+        }
+      ],
+      "base_form": "မျက်လှည့်ဆရာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မျက် လှ ည့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Magic",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Legerdemain",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "မျက်လှည့်ဆရာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

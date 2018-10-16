@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "cheap",
+      "orig": "ဈေးချို",
+      "backend": 0
+    },
+    {
+      "src_translit": "jhayy hkyao"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be cheap"
+      ],
+      "entry": [
+        {
+          "word": "be cheap"
+        }
+      ],
+      "base_form": "ဈေးချို",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဈေး ချို",
+      "alternative": [
+        {
+          "word_postproc": "cheap",
+          "score": 936,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cheaper",
+          "score": 63,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "significantly cheaper",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "or significantly cheaper",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဈေးချို",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

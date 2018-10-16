@@ -1,0 +1,127 @@
+{
+  "sentences": [
+    {
+      "trans": "Let us",
+      "orig": "စို့",
+      "backend": 0
+    },
+    {
+      "src_translit": "hchoet"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "shoot",
+        "rainbow appearing in the western sky",
+        "cold chisel",
+        "dowel",
+        "pin of wood,metal",
+        "cry uttered by a player when a spinning top is caught with the hand after flipping it into the air with the string"
+      ],
+      "entry": [
+        {
+          "word": "shoot",
+          "score": 0.011825466
+        },
+        {
+          "word": "rainbow appearing in the western sky"
+        },
+        {
+          "word": "cold chisel"
+        },
+        {
+          "word": "dowel"
+        },
+        {
+          "word": "pin of wood,metal"
+        },
+        {
+          "word": "cry uttered by a player when a spinning top is caught with the hand after flipping it into the air with the string"
+        }
+      ],
+      "base_form": "စို့",
+      "pos_enum": 1
+    },
+    {
+      "pos": "",
+      "terms": [
+        "post positional marker following a verb indicating a proposal to do a sth together"
+      ],
+      "entry": [
+        {
+          "word": "post positional marker following a verb indicating a proposal to do a sth together"
+        }
+      ],
+      "base_form": "စို့",
+      "pos_enum": 20
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "become moist",
+        "ooze",
+        "suckle",
+        "be over and above"
+      ],
+      "entry": [
+        {
+          "word": "become moist"
+        },
+        {
+          "word": "ooze"
+        },
+        {
+          "word": "suckle"
+        },
+        {
+          "word": "be over and above"
+        }
+      ],
+      "base_form": "စို့",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စို့",
+      "alternative": [
+        {
+          "word_postproc": "Let us",
+          "score": 928,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "suck",
+          "score": 71,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "စို့",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

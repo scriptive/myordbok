@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Skimmed milk",
+      "orig": "မဓီရည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "m dhe rai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "butter milk",
+        "skimmed milk"
+      ],
+      "entry": [
+        {
+          "word": "butter milk"
+        },
+        {
+          "word": "skimmed milk"
+        }
+      ],
+      "base_form": "မဓီရည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မ ဓီ ရည်",
+      "alternative": [
+        {
+          "word_postproc": "Skimmed milk",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Butter milk",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "မဓီရည်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

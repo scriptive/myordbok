@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "heaven",
+      "orig": "ကောင်းကင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kaunggkain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "sky"
+      ],
+      "entry": [
+        {
+          "word": "sky",
+          "reverse_translation": [
+            "မိုးကောင်းကင်"
+          ],
+          "score": 0.023517746
+        }
+      ],
+      "base_form": "ကောင်းကင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကောင်းကင်",
+      "alternative": [
+        {
+          "word_postproc": "heaven",
+          "score": 707,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of heaven",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "from heaven",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the heavenly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကောင်းကင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

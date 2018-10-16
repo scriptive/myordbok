@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "Width",
+      "orig": "နံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "nan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "flank",
+        "rib",
+        "abbreviated form ofနက် derived at by applying the mode of employing the superscripted dotin lieu of the devowellized ka",
+        "planet under which a child is born"
+      ],
+      "entry": [
+        {
+          "word": "rib",
+          "reverse_translation": [
+            "နံရိုး"
+          ]
+        }
+      ],
+      "base_form": "နံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နံ",
+      "alternative": [
+        {
+          "word_postproc": "Width",
+          "score": 972,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "breadth",
+          "score": 27,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the breadth",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the breadth of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "breadth of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "နံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

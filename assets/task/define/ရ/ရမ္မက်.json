@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "e",
+      "orig": "ရမ္မက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "rammaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "desire",
+        "lust"
+      ],
+      "entry": [
+        {
+          "word": "desire",
+          "reverse_translation": [
+            "အလိုဆန္ဒ"
+          ],
+          "score": 0.035304319
+        },
+        {
+          "word": "lust",
+          "reverse_translation": [
+            "တဏှာ",
+            "မက်မောခြင်း"
+          ],
+          "score": 0.023517746
+        }
+      ],
+      "base_form": "ရမ္မက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရမ္မက်",
+      "alternative": [
+        {
+          "word_postproc": "e",
+          "score": 828,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "blast",
+          "score": 130,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lust",
+          "score": 25,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "for blast",
+          "score": 11,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sometimes",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ရမ္မက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

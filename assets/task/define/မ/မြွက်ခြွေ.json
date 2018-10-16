@@ -1,0 +1,102 @@
+{
+  "sentences": [
+    {
+      "trans": "speech-saving",
+      "orig": "မြွက်ခြွေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "myawat hkyaway"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မြွက်",
+      "alternative": [
+        {
+          "word_postproc": "speech",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in my mouth",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "utter words",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "မြွက်ခြွေ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ခြွေ",
+      "alternative": [
+        {
+          "word_postproc": "-saving",
+          "score": 1000,
+          "has_preceeding_space": false,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "incite",
+          "score": 0,
+          "has_preceeding_space": false,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rouse",
+          "score": 0,
+          "has_preceeding_space": false,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "thresh",
+          "score": 0,
+          "has_preceeding_space": false,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pluck",
+          "score": 0,
+          "has_preceeding_space": false,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 9
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

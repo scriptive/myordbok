@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "imprecation",
+      "orig": "သေခြင်းဆိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "sayhkyinn soe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "violent death",
+        "term of imprecation"
+      ],
+      "entry": [
+        {
+          "word": "violent death"
+        },
+        {
+          "word": "term of imprecation"
+        }
+      ],
+      "base_form": "သေခြင်းဆိုး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သေခြင်း ဆိုး",
+      "alternative": [
+        {
+          "word_postproc": "imprecation",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "violent death",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of imprecation",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "သေခြင်းဆိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

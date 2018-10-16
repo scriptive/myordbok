@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Touch",
+      "orig": "လက်ရမ်းလက်ဆ",
+      "backend": 0
+    },
+    {
+      "src_translit": "laat ram laat s"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "skill based on tactile sense",
+        "touch"
+      ],
+      "entry": [
+        {
+          "word": "touch",
+          "reverse_translation": [
+            "တို့ခြင်း"
+          ]
+        }
+      ],
+      "base_form": "လက်ရမ်းလက်ဆ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လက် ရမ်း လက် ဆ",
+      "alternative": [
+        {
+          "word_postproc": "Touch",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "လက်ရမ်းလက်ဆ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

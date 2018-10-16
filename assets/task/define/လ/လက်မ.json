@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "thumb",
+      "orig": "လက်မ",
+      "backend": 0
+    },
+    {
+      "src_translit": "laatm"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "inch",
+        "thumb"
+      ],
+      "entry": [
+        {
+          "word": "thumb",
+          "reverse_translation": [
+            "လက်မ"
+          ],
+          "synset_id": [
+            31686
+          ],
+          "score": 0.014948789
+        }
+      ],
+      "base_form": "လက်မ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လက်မ",
+      "alternative": [
+        {
+          "word_postproc": "thumb",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "inch",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "inches",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "လက်မ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

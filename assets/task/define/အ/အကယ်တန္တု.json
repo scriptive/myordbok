@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "If analogy",
+      "orig": "အကယ်တန္တု",
+      "backend": 0
+    },
+    {
+      "src_translit": "aakaal tan tu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "",
+      "terms": [
+        "if"
+      ],
+      "entry": [
+        {
+          "word": "if"
+        }
+      ],
+      "base_form": "အကယ်တန္တု",
+      "pos_enum": 20
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အကယ်",
+      "alternative": [
+        {
+          "word_postproc": "If",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Yea",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Behold",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Surely",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "အကယ်တန္တု",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "တန္ တု",
+      "alternative": [
+        {
+          "word_postproc": "analogy",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "parallel",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 9
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

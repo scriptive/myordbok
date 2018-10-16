@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "trans": "bags",
+      "orig": "လွယ်အိတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lwalaate"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "cloth sling bag"
+      ],
+      "entry": [
+        {
+          "word": "cloth sling bag",
+          "score": 0.00995804
+        }
+      ],
+      "base_form": "လွယ်အိတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လွယ်အိတ်",
+      "alternative": [
+        {
+          "word_postproc": "bags",
+          "score": 562,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bag",
+          "score": 437,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "no bag",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "လွယ်အိတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

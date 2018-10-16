@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "Father",
+      "orig": "ခမည်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hk maee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "term of endearmenmt for any close relative",
+        "father",
+        "token gift usually to a child to prevent any undesirable happening",
+        "present given on occasions such as naming, ear-boring. etc"
+      ],
+      "entry": [
+        {
+          "word": "father",
+          "reverse_translation": [
+            "ဖခင်"
+          ]
+        }
+      ],
+      "base_form": "ခ‌မည်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခ မည်း",
+      "alternative": [
+        {
+          "word_postproc": "Father",
+          "score": 991,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the Father",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ခမည်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

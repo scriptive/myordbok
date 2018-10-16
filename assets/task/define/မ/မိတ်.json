@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "friendships",
+      "orig": "မိတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "mate"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "mate",
+        "friend",
+        "friendship",
+        "compatible combination",
+        "congenial association",
+        "prickly heat"
+      ],
+      "entry": [
+        {
+          "word": "friend",
+          "reverse_translation": [
+            "မိတ်ဆေွ",
+            "မိတ်ဆေွ"
+          ],
+          "score": 0.017752126
+        },
+        {
+          "word": "friendship",
+          "reverse_translation": [
+            "မိတ်ဆေွအဖြစ်"
+          ],
+          "score": 0.010274142
+        }
+      ],
+      "base_form": "မိတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မိတ်",
+      "alternative": [
+        {
+          "word_postproc": "friendships",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "prickly heat",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "CULTIVATE",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Carchemish",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "မိတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

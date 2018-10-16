@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Contrarily",
+      "orig": "ကော့ကော်ကံကား",
+      "backend": 0
+    },
+    {
+      "src_translit": "kot kaw kan karr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "contrarily",
+        "in an indecorous and unbecoming manner"
+      ],
+      "entry": [
+        {
+          "word": "contrarily"
+        },
+        {
+          "word": "in an indecorous and unbecoming manner"
+        }
+      ],
+      "base_form": "ကော့ကော်ကံကား",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကော့ ကော် ကံ ကား",
+      "alternative": [
+        {
+          "word_postproc": "Contrarily",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ကော့ကော်ကံကား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

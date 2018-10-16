@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Pasta",
+      "orig": "ခေါက်ဆွဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkoutswal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "noodle"
+      ],
+      "entry": [
+        {
+          "word": "noodle",
+          "reverse_translation": [
+            "ခေါက်ဆဲွ"
+          ],
+          "score": 0.078326054
+        }
+      ],
+      "base_form": "ခေါက်ဆွဲ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခေါက်ဆွဲ",
+      "alternative": [
+        {
+          "word_postproc": "Pasta",
+          "score": 877,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Noodle",
+          "score": 76,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "noodles",
+          "score": 44,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fried noodles",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the noodles",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ခေါက်ဆွဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

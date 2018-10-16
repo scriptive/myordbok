@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Cloths",
+      "orig": "ရာကျပုဆိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "rar kya pusoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "ပုဆိုးespecially woven with a hundred shuttles containing multi-coloured silk threads"
+      ],
+      "entry": [
+        {
+          "word": "ပုဆိုးespecially woven with a hundred shuttles containing multi-coloured silk threads"
+        }
+      ],
+      "base_form": "ရာကျပုဆိုး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပုဆိုး",
+      "alternative": [
+        {
+          "word_postproc": "Cloths",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ရာကျပုဆိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

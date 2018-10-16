@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "it",
+      "orig": "ထဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "htell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "",
+      "terms": [
+        "postpositional marker suffixed to a noun to indicate location"
+      ],
+      "entry": [
+        {
+          "word": "postpositional marker suffixed to a noun to indicate location"
+        }
+      ],
+      "base_form": "ထဲ",
+      "pos_enum": 20
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထဲ",
+      "alternative": [
+        {
+          "word_postproc": "it",
+          "score": 913,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "home",
+          "score": 68,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "about",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "inside",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "inside the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ထဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

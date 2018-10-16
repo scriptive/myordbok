@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "I",
+      "orig": "ငါ",
+      "backend": 1
+    },
+    {
+      "src_translit": "ngar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "pronoun",
+      "terms": [
+        "I"
+      ],
+      "entry": [
+        {
+          "word": "I",
+          "reverse_translation": [
+            "ကျွန်တော်"
+          ],
+          "score": 0.362176
+        }
+      ],
+      "base_form": "ငါ",
+      "pos_enum": 8
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ငါ",
+      "alternative": [
+        {
+          "word_postproc": "I",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ငါ",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

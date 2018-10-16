@@ -1,0 +1,103 @@
+{
+  "sentences": [
+    {
+      "trans": "Powder",
+      "orig": "မှုန့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "mhu an "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "flour",
+        "powder",
+        "dust"
+      ],
+      "entry": [
+        {
+          "word": "flour",
+          "reverse_translation": [
+            "မံှု့ညက်"
+          ]
+        },
+        {
+          "word": "powder",
+          "reverse_translation": [
+            "အမှုန့်"
+          ]
+        },
+        {
+          "word": "dust",
+          "reverse_translation": [
+            "ဖုံ"
+          ]
+        }
+      ],
+      "base_form": "မှုန့်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မှု န့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Powder",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Powdered",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The dust",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Of powder",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "In powder form",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "မှုန့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

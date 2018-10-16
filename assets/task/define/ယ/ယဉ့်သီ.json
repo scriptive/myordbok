@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Close to",
+      "orig": "ယဉ့်သီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "y in  se"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "close to"
+      ],
+      "entry": [
+        {
+          "word": "close to"
+        }
+      ],
+      "base_form": "ယဉ့်သီ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယ ဉ့ ် သီ",
+      "alternative": [
+        {
+          "word_postproc": "Close to",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ယဉ့်သီ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

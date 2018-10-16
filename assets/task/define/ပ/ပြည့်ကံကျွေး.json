@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "Prostitute",
+      "orig": "ပြည့်ကံကျွေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyi kan kyaway"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "prostitute"
+      ],
+      "entry": [
+        {
+          "word": "prostitute",
+          "reverse_translation": [
+            "ပြည့်တန်ဆာ"
+          ]
+        }
+      ],
+      "base_form": "ပြည့်ကံကျွေး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြည့် ကံ ကျွေး",
+      "alternative": [
+        {
+          "word_postproc": "Prostitute",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ပြည့်ကံကျွေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

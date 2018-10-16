@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "fellow",
+      "orig": "ဖော်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpaw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "expose",
+        "reveal",
+        "dig up",
+        "clean up",
+        "compound"
+      ],
+      "entry": [
+        {
+          "word": "expose",
+          "reverse_translation": [
+            "ကျရောက်စေ"
+          ],
+          "synset_id": [
+            15822
+          ]
+        },
+        {
+          "word": "reveal",
+          "reverse_translation": [
+            "ဖေါ်ပြ"
+          ],
+          "synset_id": [
+            15822
+          ]
+        }
+      ],
+      "base_form": "ဖော်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖော်",
+      "alternative": [
+        {
+          "word_postproc": "fellow",
+          "score": 545,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "single",
+          "score": 315,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "description",
+          "score": 40,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "companions",
+          "score": 38,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "partners",
+          "score": 31,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဖော်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

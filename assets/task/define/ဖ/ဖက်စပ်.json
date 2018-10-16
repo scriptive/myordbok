@@ -1,0 +1,89 @@
+{
+  "sentences": [
+    {
+      "trans": "joint ventures",
+      "orig": "ဖက်စပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpaathcaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "joint venture"
+      ],
+      "entry": [
+        {
+          "word": "joint venture",
+          "score": 0.21626517
+        }
+      ],
+      "base_form": "ဖက်စပ်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "adverb",
+      "terms": [
+        "jointly"
+      ],
+      "entry": [
+        {
+          "word": "jointly",
+          "score": 0.00995804
+        }
+      ],
+      "base_form": "ဖက်စပ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖက်စပ်",
+      "alternative": [
+        {
+          "word_postproc": "joint ventures",
+          "score": 604,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "joint venture",
+          "score": 386,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a joint venture",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဖက်စပ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

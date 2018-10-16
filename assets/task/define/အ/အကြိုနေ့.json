@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Eve",
+      "orig": "အကြိုနေ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "aakyaonae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "eve of သင်္ကြန် period",
+        "the day before an important event"
+      ],
+      "entry": [
+        {
+          "word": "eve of သင်္ကြန် period"
+        },
+        {
+          "word": "the day before an important event"
+        }
+      ],
+      "base_form": "အကြိုနေ့",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အကြိုနေ့",
+      "alternative": [
+        {
+          "word_postproc": "Eve",
+          "score": 849,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the eve of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "eve of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the eve",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Eve to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "အကြိုနေ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

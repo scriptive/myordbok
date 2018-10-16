@@ -1,0 +1,157 @@
+{
+  "sentences": [
+    {
+      "trans": "round",
+      "orig": "ဝိုင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "wine"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "surround",
+        "gather around",
+        "besiege",
+        "shake grain around in a circular bamboo tray to separate it from the chaff"
+      ],
+      "entry": [
+        {
+          "word": "surround",
+          "reverse_translation": [
+            "ဝန်းဝိုင်း"
+          ],
+          "synset_id": [
+            83786
+          ],
+          "score": 0.015666196
+        },
+        {
+          "word": "besiege",
+          "reverse_translation": [
+            "ဝိုင်းရံ"
+          ],
+          "synset_id": [
+            83786
+          ]
+        }
+      ],
+      "base_form": "ဝိုင်း",
+      "pos_enum": 2
+    },
+    {
+      "pos": "adverb",
+      "terms": [
+        "collectively",
+        "together"
+      ],
+      "entry": [
+        {
+          "word": "together",
+          "reverse_translation": [
+            "အတူတူ"
+          ]
+        }
+      ],
+      "base_form": "ဝိုင်း",
+      "pos_enum": 4
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "circular"
+      ],
+      "entry": [
+        {
+          "word": "circular",
+          "reverse_translation": [
+            "ဝိုင်းသော"
+          ]
+        }
+      ],
+      "base_form": "ဝိုင်း",
+      "pos_enum": 3
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "group,team of people",
+        "gang",
+        "troupe",
+        "compound"
+      ],
+      "entry": [
+        {
+          "word": "gang",
+          "reverse_translation": [
+            "အစု"
+          ]
+        }
+      ],
+      "base_form": "ဝိုင်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝိုင်း",
+      "alternative": [
+        {
+          "word_postproc": "round",
+          "score": 980,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "surrounded",
+          "score": 13,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fairs",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "surround",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wares",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဝိုင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

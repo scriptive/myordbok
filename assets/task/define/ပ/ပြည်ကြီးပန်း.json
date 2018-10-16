@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "water hyacinth",
+      "orig": "ပြည်ကြီးပန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyikyee paann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "water hyacinth."
+      ],
+      "entry": [
+        {
+          "word": "water hyacinth."
+        }
+      ],
+      "base_form": "ပြည်ကြီးပန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြည်ကြီး ပန်း",
+      "alternative": [
+        {
+          "word_postproc": "water hyacinth",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ပြည်ကြီးပန်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

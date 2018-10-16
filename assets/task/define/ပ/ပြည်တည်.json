@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "land",
+      "orig": "ပြည်တည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyi tai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "build,found a kingdom",
+        "assemble at the opening scene to establish the setting for the story",
+        "suppurate",
+        "fester"
+      ],
+      "entry": [
+        {
+          "word": "build,found a kingdom"
+        },
+        {
+          "word": "assemble at the opening scene to establish the setting for the story"
+        },
+        {
+          "word": "suppurate",
+          "synset_id": [
+            47361
+          ]
+        },
+        {
+          "word": "fester",
+          "synset_id": [
+            47361
+          ]
+        }
+      ],
+      "base_form": "ပြည်တည်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြည်",
+      "alternative": [
+        {
+          "word_postproc": "land",
+          "score": 554,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "land of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the land of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the land",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ပြည်တည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "sentences": [
+    {
+      "trans": "urine",
+      "orig": "ဆီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "see"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "urine",
+        "mist",
+        "fog",
+        "jujube tree",
+        "\"Zizyphus jujuba\"",
+        "its fruit",
+        "name applied to succulent plum-like fruits"
+      ],
+      "entry": [
+        {
+          "word": "urine",
+          "reverse_translation": [
+            "ဆီးရည်"
+          ],
+          "score": 0.04462884
+        },
+        {
+          "word": "mist",
+          "reverse_translation": [
+            "မြူဆိုင်းခြင်း"
+          ]
+        },
+        {
+          "word": "fog",
+          "reverse_translation": [
+            "မြူခိုး"
+          ]
+        }
+      ],
+      "base_form": "ဆီး",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "bar",
+        "obstruct",
+        "block",
+        "wear"
+      ],
+      "entry": [
+        {
+          "word": "bar",
+          "reverse_translation": [
+            "ဆီးတား",
+            "မင်းတုံးထိုး"
+          ],
+          "synset_id": [
+            66463
+          ]
+        },
+        {
+          "word": "obstruct",
+          "reverse_translation": [
+            "ပိတ်ဆို့ထား"
+          ],
+          "synset_id": [
+            21569
+          ]
+        },
+        {
+          "word": "block",
+          "reverse_translation": [
+            "ပိတ်ဆို့"
+          ],
+          "synset_id": [
+            21569,
+            66463
+          ]
+        },
+        {
+          "word": "wear",
+          "reverse_translation": [
+            "ဝတ်ဆင်"
+          ]
+        }
+      ],
+      "base_form": "ဆီး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆီး",
+      "alternative": [
+        {
+          "word_postproc": "urine",
+          "score": 969,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "urinary",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of urine",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the urine",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "consume",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဆီး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

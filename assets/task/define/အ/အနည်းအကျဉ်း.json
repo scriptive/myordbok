@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Somewhat",
+      "orig": "အနည်းအကျဉ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "aanaee aakyain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "a little",
+        "some"
+      ],
+      "entry": [
+        {
+          "word": "a little"
+        },
+        {
+          "word": "some"
+        }
+      ],
+      "base_form": "အနည်းအကျဉ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အနည်း အကျဉ်း",
+      "alternative": [
+        {
+          "word_postproc": "Somewhat",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "slackers",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "limited numbers",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in limited numbers",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "short interval",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "အနည်းအကျဉ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

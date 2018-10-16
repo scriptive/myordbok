@@ -1,0 +1,115 @@
+{
+  "sentences": [
+    {
+      "trans": "history",
+      "orig": "မှတ်တမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "mhaattam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "record",
+        "log",
+        "chronicle",
+        "register"
+      ],
+      "entry": [
+        {
+          "word": "record",
+          "reverse_translation": [
+            "စံချိန်",
+            "အစီရင်ခံစာ"
+          ],
+          "score": 0.11758133
+        },
+        {
+          "word": "log",
+          "reverse_translation": [
+            "တုံး",
+            "သငေ်္ဘာအသွားစာတမ်း"
+          ],
+          "score": 0.024646387
+        },
+        {
+          "word": "chronicle",
+          "reverse_translation": [
+            "မှတ်တမ်း"
+          ],
+          "score": 0.00035156182
+        },
+        {
+          "word": "register",
+          "reverse_translation": [
+            "စာရင်း"
+          ]
+        }
+      ],
+      "base_form": "မှတ်တမ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မှတ်တမ်း",
+      "alternative": [
+        {
+          "word_postproc": "history",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "record",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the record",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "History is",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "History for",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "မှတ်တမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

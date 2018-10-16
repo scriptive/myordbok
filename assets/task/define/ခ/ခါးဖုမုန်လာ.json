@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Kohlrabi",
+      "orig": "ခါးဖုမုန်လာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkarr hpu mone lar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "kohlrabi",
+        "knol-kohl \"Brassica oleracea caulorapas\""
+      ],
+      "entry": [
+        {
+          "word": "kohlrabi"
+        },
+        {
+          "word": "knol-kohl \"Brassica oleracea caulorapas\""
+        }
+      ],
+      "base_form": "ခါးဖုမုန်လာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခါး ဖု မုန် လာ",
+      "alternative": [
+        {
+          "word_postproc": "Kohlrabi",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ခါးဖုမုန်လာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

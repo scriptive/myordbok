@@ -1,0 +1,112 @@
+{
+  "sentences": [
+    {
+      "trans": "Cream bee hive",
+      "orig": "မုန့်ပျားတူအုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "mu an  pyarr tuu aone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "spongy cake of rice flour and palm sugar batter shaped like a vespiary"
+      ],
+      "entry": [
+        {
+          "word": "spongy cake of rice flour and palm sugar batter shaped like a vespiary"
+        }
+      ],
+      "base_form": "မုန့်ပျားတူအုံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မု န့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Cream",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Bread",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "မုန့်ပျားတူအုံ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ပျား",
+      "alternative": [
+        {
+          "word_postproc": "bee",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bees",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 9
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "အုံ",
+      "alternative": [
+        {
+          "word_postproc": "hive",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 11,
+          "end": 14
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

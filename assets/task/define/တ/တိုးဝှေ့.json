@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "jostle",
+      "orig": "တိုးဝှေ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "toe whaae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "jostle",
+        "push"
+      ],
+      "entry": [
+        {
+          "word": "push",
+          "reverse_translation": [
+            "တွန်းထိုး"
+          ]
+        }
+      ],
+      "base_form": "တိုးဝှေ့",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တိုး ဝှေ့",
+      "alternative": [
+        {
+          "word_postproc": "jostle",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "push",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "jostle in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "တိုးဝှေ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Trash",
+      "orig": "အနုပ်စုတ်ကုပ်စုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "a note hcote kote hcote"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နုပ် စုတ် ကုပ် စုတ်",
+      "alternative": [
+        {
+          "word_postproc": "Trash",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 17
+        }
+      ],
+      "raw_src_segment": "အနုပ်စုတ်ကုပ်စုတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

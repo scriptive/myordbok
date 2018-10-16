@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "useless person",
+      "orig": "ဓားမနောက်ပိတ်ခွေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "dharrm noutpatehkway"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဓားမ နောက်ပိတ်ခွေး",
+      "alternative": [
+        {
+          "word_postproc": "useless person",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 17
+        }
+      ],
+      "raw_src_segment": "ဓားမနောက်ပိတ်ခွေး",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

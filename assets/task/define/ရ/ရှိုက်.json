@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "ED",
+      "orig": "ရှိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "shite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "concave",
+        "hollow"
+      ],
+      "entry": [
+        {
+          "word": "hollow",
+          "reverse_translation": [
+            "အခေါင်းရှိသော"
+          ],
+          "score": 0.0087879393
+        }
+      ],
+      "base_form": "ရှိုက်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရှိုက်",
+      "alternative": [
+        {
+          "word_postproc": "ED",
+          "score": 597,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "concave",
+          "score": 391,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hollow",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sob",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "inhaled",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ရှိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "similarity",
+      "orig": "ဆင်တူယိုးမှား",
+      "backend": 0
+    },
+    {
+      "src_translit": "saintuuyoemhar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "near resemblance",
+        "similarity",
+        "likeness"
+      ],
+      "entry": [
+        {
+          "word": "similarity",
+          "reverse_translation": [
+            "တူခြင်း"
+          ],
+          "score": 0.069122501
+        },
+        {
+          "word": "likeness",
+          "reverse_translation": [
+            "တူညီခြင်း"
+          ],
+          "score": 0.069122501
+        }
+      ],
+      "base_form": "ဆင်တူယိုးမှား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆင်တူယိုးမှား",
+      "alternative": [
+        {
+          "word_postproc": "similarity",
+          "score": 969,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "likeness",
+          "score": 30,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the similarities",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "near resemblance",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ဆင်တူယိုးမှား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

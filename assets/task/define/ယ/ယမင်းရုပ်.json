@@ -1,0 +1,70 @@
+{
+  "sentences": [
+    {
+      "trans": "Papier-mache doll",
+      "orig": "ယမင်းရုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "y mainn rote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "a beautiful figure of a young girl carved out of ယမနေ wood",
+        "beautiful puppet of a young girl in a Myanmar puppet show",
+        "papier-mache doll"
+      ],
+      "entry": [
+        {
+          "word": "a beautiful figure of a young girl carved out of ယမနေ wood"
+        },
+        {
+          "word": "beautiful puppet of a young girl in a Myanmar puppet show"
+        },
+        {
+          "word": "papier-mache doll"
+        }
+      ],
+      "base_form": "ယမင်းရုပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယ မင်း ရုပ်",
+      "alternative": [
+        {
+          "word_postproc": "Papier-mache doll",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ယမင်းရုပ်",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

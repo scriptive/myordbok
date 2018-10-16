@@ -1,0 +1,133 @@
+{
+  "sentences": [
+    {
+      "trans": "do",
+      "orig": "ပြု",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "do",
+        "act",
+        "commit",
+        "pursue, some course of action",
+        "make,undertake, set-about doing some task",
+        "make sb do sth",
+        "take sb for",
+        "assume",
+        "become",
+        "3. establish",
+        "enact",
+        "look after",
+        "take care of",
+        "collocationary word used with certain verbs for rhyme and  rhythm"
+      ],
+      "entry": [
+        {
+          "word": "do",
+          "reverse_translation": [
+            "ပြုလုပ်"
+          ],
+          "synset_id": [
+            94226
+          ],
+          "score": 0.17929012
+        },
+        {
+          "word": "act",
+          "reverse_translation": [
+            "ဇါတ်အခဏ်း"
+          ],
+          "synset_id": [
+            94226
+          ]
+        },
+        {
+          "word": "commit",
+          "reverse_translation": [
+            "ကျူးလွန်"
+          ]
+        },
+        {
+          "word": "assume",
+          "reverse_translation": [
+            "မှတ်ယူ"
+          ]
+        },
+        {
+          "word": "become",
+          "reverse_translation": [
+            "ဖြစ်လာ"
+          ]
+        }
+      ],
+      "base_form": "ပြု",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြု",
+      "alternative": [
+        {
+          "word_postproc": "do",
+          "score": 665,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "done",
+          "score": 331,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "did",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to do",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "be done",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ပြု",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

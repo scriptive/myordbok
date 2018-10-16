@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Night sentinel",
+      "orig": "အိပ်ဖန်စောင့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aiut hpaan hcaung"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "night sentinel"
+      ],
+      "entry": [
+        {
+          "word": "night sentinel"
+        }
+      ],
+      "base_form": "အိပ်ဖန်စောင့်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အိပ် ဖန် စောင့်",
+      "alternative": [
+        {
+          "word_postproc": "Night sentinel",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "အိပ်ဖန်စောင့်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

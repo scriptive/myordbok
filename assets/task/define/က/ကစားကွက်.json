@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "fans",
+      "orig": "ကစားကွက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kahcarrkwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "game tactic",
+        "plan of play"
+      ],
+      "entry": [
+        {
+          "word": "game tactic",
+          "score": 0.015666196
+        },
+        {
+          "word": "plan of play",
+          "score": 0.015666196
+        }
+      ],
+      "base_form": "ကစားကွက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကစားကွက်",
+      "alternative": [
+        {
+          "word_postproc": "fans",
+          "score": 496,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "playing",
+          "score": 463,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "play",
+          "score": 25,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "game tactic",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကစားကွက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

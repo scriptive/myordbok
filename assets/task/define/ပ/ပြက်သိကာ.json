@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Just a little bit",
+      "orig": "ပြက်သိကာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyaat si kar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "just a little bit",
+        "just a trace, touch."
+      ],
+      "entry": [
+        {
+          "word": "just a little bit"
+        },
+        {
+          "word": "just a trace, touch."
+        }
+      ],
+      "base_form": "ပြက်သိကာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြက် သိ ကာ",
+      "alternative": [
+        {
+          "word_postproc": "Just a little bit",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ပြက်သိကာ",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

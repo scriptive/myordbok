@@ -1,0 +1,127 @@
+{
+  "sentences": [
+    {
+      "trans": "art",
+      "orig": "အတတ်ပညာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aataatpanyar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "art",
+        "knowledge",
+        "skill",
+        "education",
+        "craft"
+      ],
+      "entry": [
+        {
+          "word": "art",
+          "reverse_translation": [
+            "အတတ်ပညာ"
+          ],
+          "synset_id": [
+            9720
+          ],
+          "score": 0.032651156
+        },
+        {
+          "word": "knowledge",
+          "reverse_translation": [
+            "အသိပညာ"
+          ],
+          "synset_id": [
+            85255
+          ],
+          "score": 0.017476905
+        },
+        {
+          "word": "skill",
+          "reverse_translation": [
+            "ကျင်လည်ခြင်း"
+          ],
+          "synset_id": [
+            67795
+          ],
+          "score": 0.0096516637
+        },
+        {
+          "word": "education",
+          "reverse_translation": [
+            "ပညာရေး"
+          ],
+          "synset_id": [
+            87317
+          ],
+          "score": 0.0077553294
+        }
+      ],
+      "base_form": "အတတ်ပညာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အတတ်ပညာ",
+      "alternative": [
+        {
+          "word_postproc": "art",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Kunst",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Profession",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "professionalization",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "new nuclear reactors",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "အတတ်ပညာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

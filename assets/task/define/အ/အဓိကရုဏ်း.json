@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "Riot",
+      "orig": "အဓိကရုဏ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "aadhikarun"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "riot",
+        "dispute"
+      ],
+      "entry": [
+        {
+          "word": "riot",
+          "reverse_translation": [
+            "ပုန်ကန်မှု"
+          ],
+          "score": 0.077111721
+        },
+        {
+          "word": "dispute",
+          "reverse_translation": [
+            "ြငင်းခုံခြင်း"
+          ],
+          "score": 0.0033355257
+        }
+      ],
+      "base_form": "အဓိကရုဏ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အဓိကရုဏ်း",
+      "alternative": [
+        {
+          "word_postproc": "Riot",
+          "score": 979,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "riots",
+          "score": 20,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "riots in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the riots",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အဓိကရုဏ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

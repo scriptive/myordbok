@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "vituperate",
+      "orig": "ကော်ဆဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kaw sell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "vituperate"
+      ],
+      "entry": [
+        {
+          "word": "vituperate"
+        }
+      ],
+      "base_form": "ကော်ဆဲ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကော် ဆဲ",
+      "alternative": [
+        {
+          "word_postproc": "vituperate",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ကော်ဆဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

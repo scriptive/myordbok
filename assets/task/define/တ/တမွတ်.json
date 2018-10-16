@@ -1,0 +1,85 @@
+{
+  "sentences": [
+    {
+      "trans": "zenith",
+      "orig": "တမွတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "t mwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "most noble"
+      ],
+      "entry": [
+        {
+          "word": "most noble"
+        }
+      ],
+      "base_form": "တမွတ်",
+      "pos_enum": 3
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "zenith",
+        "umbrella used by the royalty while journeying"
+      ],
+      "entry": [
+        {
+          "word": "zenith"
+        },
+        {
+          "word": "umbrella used by the royalty while journeying"
+        }
+      ],
+      "base_form": "တမွတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တ မွတ်",
+      "alternative": [
+        {
+          "word_postproc": "zenith",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "most noble",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "တမွတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

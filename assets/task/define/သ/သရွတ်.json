@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "clay",
+      "orig": "သရွတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "s rwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "mortar",
+        "stucco",
+        "plaster"
+      ],
+      "entry": [
+        {
+          "word": "mortar",
+          "reverse_translation": [
+            "အင်္ဂတေသရွက်",
+            "စိန်ပေြာင်း"
+          ]
+        },
+        {
+          "word": "plaster",
+          "reverse_translation": [
+            "သရွက်"
+          ]
+        }
+      ],
+      "base_form": "သရွတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သ ရွတ်",
+      "alternative": [
+        {
+          "word_postproc": "clay",
+          "score": 941,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The clay",
+          "score": 56,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mortar",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "stucco",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "plaster",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "သရွတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

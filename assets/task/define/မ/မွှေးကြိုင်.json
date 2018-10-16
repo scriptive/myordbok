@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "good smell",
+      "orig": "မွှေးကြိုင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "mwhaayy kyaine"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be aromatic"
+      ],
+      "entry": [
+        {
+          "word": "be aromatic"
+        }
+      ],
+      "base_form": "မွှေးကြိုင်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မွှေး ကြိုင်",
+      "alternative": [
+        {
+          "word_postproc": "good smell",
+          "score": 876,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sweet odor",
+          "score": 98,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a sweet smell",
+          "score": 12,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sweet savor",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a sweet odor",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "မွှေးကြိုင်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+extends layout
+block header
+  include header
+block content
+  div.portal.dictionary#content
+    div.resize
+      div.wrapper
+        div.row.about
+          div.width-wide.text-right-d
+            p MyOrdbok was launched in 2008. Ever since our focues are adding definitions, and keeping our resouces up to date, and there are 103,379 words ready to be translated into Myanmar.
+          div.width-fixed.text-center
+            i.icon-flag
+
+        div.row.social
+          div.text-center
+            div working
+
+        div.row
+          div.dictionaries
+            ol.dictionary
+              each v, conti in dictionaries
+                li(class=conti.toLowerCase() class={active: v.hasOwnProperty(sol)})
+                  h3 #{conti}
+                  ol
+                    each name, id in v
+                      li(class=id.toLowerCase() class={active: id == sol})
+                        a(data-lag=id.toLowerCase() href='/dictionary/'+name.toLowerCase()) #{name}
+
+block footer
+  include footer

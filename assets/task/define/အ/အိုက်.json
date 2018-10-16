@@ -1,0 +1,102 @@
+{
+  "sentences": [
+    {
+      "trans": "Aik",
+      "orig": "အိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be warm",
+        "be stuffy",
+        "be wilted",
+        "be in a troubled,indecisive state",
+        "be in a fix"
+      ],
+      "entry": [
+        {
+          "word": "be warm"
+        },
+        {
+          "word": "be stuffy"
+        },
+        {
+          "word": "be wilted"
+        },
+        {
+          "word": "be in a troubled,indecisive state"
+        },
+        {
+          "word": "be in a fix"
+        }
+      ],
+      "base_form": "အိုက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အိုက်",
+      "alternative": [
+        {
+          "word_postproc": "Aik",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Ai",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wilted",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "stuffy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a fix",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "အိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

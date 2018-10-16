@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "converged",
+      "orig": "ဆုံစည်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "sone hcaee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "coincide",
+        "be brought together"
+      ],
+      "entry": [
+        {
+          "word": "coincide",
+          "reverse_translation": [
+            "ထပ်ထူကျ"
+          ]
+        }
+      ],
+      "base_form": "ဆုံစည်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆုံ စည်း",
+      "alternative": [
+        {
+          "word_postproc": "converged",
+          "score": 787,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "converged on",
+          "score": 162,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "together",
+          "score": 42,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rules",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "coincide",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဆုံစည်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

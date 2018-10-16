@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Hein",
+      "orig": "ဟိန်းချ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hein hkya"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဟိန်း",
+      "alternative": [
+        {
+          "word_postproc": "Hein",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဟိန်းချ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "Parents, brother",
+      "orig": "မိဘမောင်ဖား",
+      "backend": 0
+    },
+    {
+      "src_translit": "mibh maung hparr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "parents, uncles and elder brothers with the obligation to be the  guardian of a girl"
+      ],
+      "entry": [
+        {
+          "word": "parents, uncles and elder brothers with the obligation to be the  guardian of a girl"
+        }
+      ],
+      "base_form": "မိဘမောင်ဖား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မိဘ",
+      "alternative": [
+        {
+          "word_postproc": "Parents,",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Parent",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Parents",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The parent",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "မိဘမောင်ဖား",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "မောင် ဖား",
+      "alternative": [
+        {
+          "word_postproc": "brother",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 11
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

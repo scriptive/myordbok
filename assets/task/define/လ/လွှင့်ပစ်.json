@@ -1,0 +1,96 @@
+{
+  "sentences": [
+    {
+      "trans": "Discarded",
+      "orig": "လွှင့်ပစ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lwha in  pait"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "throw away",
+        "fling"
+      ],
+      "entry": [
+        {
+          "word": "throw away",
+          "synset_id": [
+            2890
+          ]
+        },
+        {
+          "word": "fling",
+          "synset_id": [
+            2890
+          ]
+        }
+      ],
+      "base_form": "လွှင့်ပစ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လွှ င့ ် ပစ်",
+      "alternative": [
+        {
+          "word_postproc": "Discarded",
+          "score": 511,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Discard",
+          "score": 459,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Fling",
+          "score": 28,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Throw away",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Throw",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "လွှင့်ပစ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

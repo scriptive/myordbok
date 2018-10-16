@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Though",
+      "orig": "သော်လည်း",
+      "backend": 1
+    },
+    {
+      "src_translit": "sawlaee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "though",
+        "ဆန့်ကျင်ဘက်အနက်ဖြင့်ဆက်စပ်ပေးသည့်စကားလုံး။"
+      ],
+      "entry": [
+        {
+          "word": "though",
+          "reverse_translation": [
+            "သော်လည်း"
+          ],
+          "score": 0.04901519
+        }
+      ],
+      "base_form": "သော်လည်း",
+      "pos_enum": 4
+    },
+    {
+      "pos": "preposition",
+      "terms": [
+        "despite"
+      ],
+      "entry": [
+        {
+          "word": "despite",
+          "reverse_translation": [
+            "သော်လည်း"
+          ],
+          "score": 0.0062315823
+        }
+      ],
+      "base_form": "သော်လည်း",
+      "pos_enum": 5
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သော်လည်း",
+      "alternative": [
+        {
+          "word_postproc": "Though",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in spite of",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "သော်လည်း",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

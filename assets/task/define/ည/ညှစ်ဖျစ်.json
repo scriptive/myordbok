@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "squeeze",
+      "orig": "ညှစ်ဖျစ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyhait hpyit"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "squeeze"
+      ],
+      "entry": [
+        {
+          "word": "squeeze",
+          "reverse_translation": [
+            "ညှစ်ဖျစ်"
+          ]
+        }
+      ],
+      "base_form": "ညှစ်ဖျစ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညှစ် ဖျစ်",
+      "alternative": [
+        {
+          "word_postproc": "squeeze",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ညှစ်ဖျစ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

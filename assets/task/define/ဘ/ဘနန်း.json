@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Nang",
+      "orig": "ဘနန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "bh naann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "",
+      "terms": [
+        "nearly",
+        "almost"
+      ],
+      "entry": [
+        {
+          "word": "nearly"
+        },
+        {
+          "word": "almost"
+        }
+      ],
+      "base_form": "ဘနန်း",
+      "pos_enum": 20
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နန်း",
+      "alternative": [
+        {
+          "word_postproc": "Nang",
+          "score": 993,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "reign",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဘနန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

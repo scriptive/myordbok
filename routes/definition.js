@@ -1,5 +1,5 @@
 var app = require('../');
-//     {express,path} = app.Core.evh(),
+//     {express,path} = app.root.evh(),
 //     {score} = require('../score'),
 //     querystring = require('querystring'),
 //     Definition = require('./classDefinition');

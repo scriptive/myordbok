@@ -1,0 +1,104 @@
+{
+  "sentences": [
+    {
+      "trans": "buy",
+      "orig": "ဝယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "waal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "buy",
+        "purchase"
+      ],
+      "entry": [
+        {
+          "word": "buy",
+          "reverse_translation": [
+            "ဝယ်ခြမ်း"
+          ],
+          "synset_id": [
+            112419
+          ],
+          "score": 0.17107983
+        },
+        {
+          "word": "purchase",
+          "reverse_translation": [
+            "ဝယ်ခြမ်း"
+          ],
+          "synset_id": [
+            112419
+          ],
+          "score": 0.020754337
+        }
+      ],
+      "base_form": "ဝယ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝယ်",
+      "alternative": [
+        {
+          "word_postproc": "buy",
+          "score": 978,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bought",
+          "score": 20,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to buy",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "buy a",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Buy the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဝယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

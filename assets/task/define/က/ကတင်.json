@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "Tin",
+      "orig": "ကတင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "k tain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "domino with four white pips"
+      ],
+      "entry": [
+        {
+          "word": "domino with four white pips"
+        }
+      ],
+      "base_form": "ကတင်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "saddle a horse",
+        "strap on a howdah"
+      ],
+      "entry": [
+        {
+          "word": "saddle a horse"
+        },
+        {
+          "word": "strap on a howdah"
+        }
+      ],
+      "base_form": "ကတင်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တင်",
+      "alternative": [
+        {
+          "word_postproc": "Tin",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "posted",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "loading",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "put",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကတင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

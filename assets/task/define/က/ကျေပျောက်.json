@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "perish",
+      "orig": "ကျေပျောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaay pyawwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "perish",
+        "have no more feelings of enmity, bitterness, etc"
+      ],
+      "entry": [
+        {
+          "word": "perish"
+        },
+        {
+          "word": "have no more feelings of enmity, bitterness, etc"
+        }
+      ],
+      "base_form": "ကျေပျောက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျေ ပျောက်",
+      "alternative": [
+        {
+          "word_postproc": "perish",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကျေပျောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "Red line",
+      "orig": "ကမျဉ်းနီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "k myain ne"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "kind of red mite"
+      ],
+      "entry": [
+        {
+          "word": "kind of red mite"
+        }
+      ],
+      "base_form": "ကမျဉ်းနီ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နီ",
+      "alternative": [
+        {
+          "word_postproc": "Red",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကမျဉ်းနီ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "မျဉ်း",
+      "alternative": [
+        {
+          "word_postproc": "line",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lines",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the line",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 6
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

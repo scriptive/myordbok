@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "out",
+      "orig": "စိုက်ထုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcite htote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "make a temporary payment on behalf of sb",
+        "make full use"
+      ],
+      "entry": [
+        {
+          "word": "make a temporary payment on behalf of sb"
+        },
+        {
+          "word": "make full use"
+        }
+      ],
+      "base_form": "စိုက်ထုတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စိုက် ထုတ်",
+      "alternative": [
+        {
+          "word_postproc": "out",
+          "score": 513,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "effort",
+          "score": 478,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "An amount of",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "make full use",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "An amount",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "စိုက်ထုတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

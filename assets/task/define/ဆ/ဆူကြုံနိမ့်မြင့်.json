@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "Higher in all classes",
+      "orig": "ဆူကြုံနိမ့်မြင့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "suu kyuan ni m  myint"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မြင့်",
+      "alternative": [
+        {
+          "word_postproc": "Higher",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Height",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "High",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 11,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "ဆူကြုံနိမ့်မြင့်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "်",
+      "alternative": [
+        {
+          "word_postproc": "in",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 10,
+          "end": 11
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "ဆူ ကြုံ နိ မ့",
+      "alternative": [
+        {
+          "word_postproc": "all classes",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

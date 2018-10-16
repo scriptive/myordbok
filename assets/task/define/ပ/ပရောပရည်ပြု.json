@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Flirting",
+      "orig": "ပရောပရည်ပြု",
+      "backend": 0
+    },
+    {
+      "src_translit": "paraw p rai pyu"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပရော ပ ရည်",
+      "alternative": [
+        {
+          "word_postproc": "Flirting",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ပရောပရည်ပြု",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

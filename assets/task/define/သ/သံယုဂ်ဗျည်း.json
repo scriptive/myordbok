@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Conjunct consonant",
+      "orig": "သံယုဂ်ဗျည်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "san yug byaee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "conjunct consonant"
+      ],
+      "entry": [
+        {
+          "word": "conjunct consonant"
+        }
+      ],
+      "base_form": "သံယုဂ်ဗျည်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သံ ယုဂ် ဗျည်း",
+      "alternative": [
+        {
+          "word_postproc": "Conjunct consonant",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "သံယုဂ်ဗျည်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

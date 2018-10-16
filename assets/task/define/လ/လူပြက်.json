@@ -1,0 +1,117 @@
+{
+  "sentences": [
+    {
+      "trans": "clown",
+      "orig": "လူပြက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "luu pyaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be deserted",
+        "be desolate",
+        "come to a stop",
+        "cease"
+      ],
+      "entry": [
+        {
+          "word": "cease",
+          "reverse_translation": [
+            "ရပ်စဲ"
+          ]
+        }
+      ],
+      "base_form": "လူပြက်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "jester",
+        "comic",
+        "clown"
+      ],
+      "entry": [
+        {
+          "word": "comic",
+          "reverse_translation": [
+            "ဇါတ်ရွှင်ဇါတ်လုိက်",
+            "ဇါတ်ရွှင်ဇါတ်လုိက်"
+          ]
+        },
+        {
+          "word": "clown",
+          "reverse_translation": [
+            "လူရွှင်တော်"
+          ]
+        }
+      ],
+      "base_form": "လူပြက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လူ ပြက်",
+      "alternative": [
+        {
+          "word_postproc": "clown",
+          "score": 749,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "jester",
+          "score": 249,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "comic",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "come to a stop",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "deserted",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "လူပြက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

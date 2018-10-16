@@ -1,0 +1,147 @@
+{
+  "sentences": [
+    {
+      "trans": "Anger is a flurry of rice",
+      "orig": "မျက်ကလဲဆန်ပျာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "myet k lell saan pyaar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "frantically",
+        "in wild-eyed bewilderment"
+      ],
+      "entry": [
+        {
+          "word": "frantically"
+        },
+        {
+          "word": "in wild-eyed bewilderment"
+        }
+      ],
+      "base_form": "မျက်ကလဲဆန်ပျာ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မျက်",
+      "alternative": [
+        {
+          "word_postproc": "Anger",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "မျက်ကလဲဆန်ပျာ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "က",
+      "alternative": [
+        {
+          "word_postproc": "is",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 5
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "ပျာ",
+      "alternative": [
+        {
+          "word_postproc": "a flurry",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "flurried",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "flustered",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "flurry",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 10,
+          "end": 13
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 4
+    },
+    {
+      "src_phrase": "ဆန်",
+      "alternative": [
+        {
+          "word_postproc": "of rice",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Rice",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 10
+        }
+      ],
+      "start_pos": 4,
+      "end_pos": 6
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

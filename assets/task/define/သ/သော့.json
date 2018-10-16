@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "key",
+      "orig": "သော့",
+      "backend": 0
+    },
+    {
+      "src_translit": "sot"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "key",
+        "ဖွင့်နိုင်ပိတ်နိုင်အောင်စီမံထားသောကိရိယာ။",
+        "သော့ခလောက်ကိုဖွင့်ရန်ပိတ်ရန်အချောင်းအတံ။"
+      ],
+      "entry": [
+        {
+          "word": "key",
+          "reverse_translation": [
+            "သော့"
+          ],
+          "score": 0.27338478
+        }
+      ],
+      "base_form": "သော့",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သော့",
+      "alternative": [
+        {
+          "word_postproc": "key",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "keys of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "keys of the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "keys",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "သော့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

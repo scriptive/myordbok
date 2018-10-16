@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "lower",
+      "orig": "အောတိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aaw tite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "plump one's entire stake on one thing",
+        "get a pay off on one's plumped bet",
+        "be plentiful"
+      ],
+      "entry": [
+        {
+          "word": "plump one's entire stake on one thing"
+        },
+        {
+          "word": "get a pay off on one's plumped bet"
+        },
+        {
+          "word": "be plentiful"
+        }
+      ],
+      "base_form": "အောတိုက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အော",
+      "alternative": [
+        {
+          "word_postproc": "lower",
+          "score": 536,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "under",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "under the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "အောတိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

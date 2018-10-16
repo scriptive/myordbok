@@ -1,0 +1,88 @@
+{
+  "sentences": [
+    {
+      "trans": "around",
+      "orig": "ဝန်းကျင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "waannkyin"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "surroundings",
+        "environs"
+      ],
+      "entry": [
+        {
+          "word": "surroundings",
+          "reverse_translation": [
+            "ပတ်ဝန်းကျင်"
+          ],
+          "synset_id": [
+            85895
+          ],
+          "score": 0.0077553294
+        }
+      ],
+      "base_form": "ဝန်းကျင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝန်းကျင်",
+      "alternative": [
+        {
+          "word_postproc": "around",
+          "score": 643,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "environment",
+          "score": 268,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Ambient",
+          "score": 84,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "surrounding",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဝန်းကျင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

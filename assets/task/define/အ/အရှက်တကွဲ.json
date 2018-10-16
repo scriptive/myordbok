@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "Humiliation",
+      "orig": "အရှက်တကွဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aashat t kwal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in a shameful position",
+        "in a humiliating position"
+      ],
+      "entry": [
+        {
+          "word": "in a shameful position"
+        },
+        {
+          "word": "in a humiliating position"
+        }
+      ],
+      "base_form": "အရှက်တကွဲ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အရှက် တ ကွဲ",
+      "alternative": [
+        {
+          "word_postproc": "Humiliation",
+          "score": 996,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A shameful",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Humiliating position",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အရှက်တကွဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

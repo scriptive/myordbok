@@ -1,0 +1,103 @@
+{
+  "sentences": [
+    {
+      "trans": "Mixed hair",
+      "orig": "ဆံခြည်ထွေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "san hkyi htway"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "tangled mass of loose strands of hair",
+        "pulpy edible substance sometimes found inside a coconut"
+      ],
+      "entry": [
+        {
+          "word": "tangled mass of loose strands of hair"
+        },
+        {
+          "word": "pulpy edible substance sometimes found inside a coconut"
+        }
+      ],
+      "base_form": "ဆံခြည်ထွေး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထွေး",
+      "alternative": [
+        {
+          "word_postproc": "Mixed",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Confused",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Htwe",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Nursing",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ဆံခြည်ထွေး",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဆံ ခြည်",
+      "alternative": [
+        {
+          "word_postproc": "hair",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

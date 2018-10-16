@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "ခေါင်းမြီးခြုံ",
+      "orig": "ခေါင်းမြီးခြုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaunggmyeehkyuan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "cover one's head and shoulders with shawl,etc",
+        "cover oneself with ပုဆိုး,blanket from head to foot"
+      ],
+      "entry": [
+        {
+          "word": "cover one's head and shoulders with shawl,etc"
+        },
+        {
+          "word": "cover oneself with ပုဆိုး,blanket from head to foot"
+        }
+      ],
+      "base_form": "ခေါင်းမြီးခြုံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခေါင်းမြီးခြုံ",
+      "alternative": [
+        {
+          "word_postproc": "ခေါင်းမြီးခြုံ",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ခေါင်းမြီးခြုံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

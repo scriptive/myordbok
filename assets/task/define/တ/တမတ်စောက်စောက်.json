@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Steep and deep",
+      "orig": "တမတ်စောက်စောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "t maat hcout hcout"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မတ် စောက်",
+      "alternative": [
+        {
+          "word_postproc": "Steep",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "တမတ်စောက်စောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "စောက်",
+      "alternative": [
+        {
+          "word_postproc": "and deep",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "steep",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 9,
+          "end": 14
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "Caltrop",
+      "orig": "ကက္ကုဆူး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kak ku suu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "caltrop",
+        "water chestnut"
+      ],
+      "entry": [
+        {
+          "word": "caltrop",
+          "synset_id": [
+            1923
+          ]
+        },
+        {
+          "word": "water chestnut",
+          "synset_id": [
+            1923
+          ]
+        }
+      ],
+      "base_form": "ကက္ကုဆူး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကက္ ကု ဆူး",
+      "alternative": [
+        {
+          "word_postproc": "Caltrop",
+          "score": 678,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Water chestnut",
+          "score": 321,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကက္ကုဆူး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

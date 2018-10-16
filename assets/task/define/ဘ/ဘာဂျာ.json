@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "concertina",
+      "orig": "ဘာဂျာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "bhar gyaar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "mouth organ",
+        "harmonica",
+        "concertina"
+      ],
+      "entry": [
+        {
+          "word": "mouth organ",
+          "synset_id": [
+            87705
+          ]
+        },
+        {
+          "word": "harmonica",
+          "synset_id": [
+            87705
+          ]
+        },
+        {
+          "word": "concertina"
+        }
+      ],
+      "base_form": "ဘာဂျာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘာ ဂျာ",
+      "alternative": [
+        {
+          "word_postproc": "concertina",
+          "score": 856,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "harmonica",
+          "score": 126,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "accordion",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mouth organ",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဘာဂျာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

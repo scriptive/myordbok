@@ -1,0 +1,122 @@
+{
+  "sentences": [
+    {
+      "trans": "crossing",
+      "orig": "ကူး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kuu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "copy",
+        "cross",
+        "swim",
+        "cross over",
+        "spread",
+        "transcribe a written script",
+        "make a copy of a photograph",
+        "light a fire using a spill,taper",
+        "change"
+      ],
+      "entry": [
+        {
+          "word": "copy",
+          "reverse_translation": [
+            "ကူးရေး"
+          ],
+          "score": 0.023153137
+        },
+        {
+          "word": "swim",
+          "reverse_translation": [
+            "ရေကူး"
+          ],
+          "score": 0.012392981
+        },
+        {
+          "word": "spread",
+          "reverse_translation": [
+            "ပျံ့နှံ့"
+          ],
+          "synset_id": [
+            5531
+          ],
+          "score": 0.0030370306
+        },
+        {
+          "word": "change",
+          "reverse_translation": [
+            "လဲလှယ်",
+            "ပေြာင်းလဲ"
+          ]
+        }
+      ],
+      "base_form": "ကူး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကူး",
+      "alternative": [
+        {
+          "word_postproc": "crossing",
+          "score": 982,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "swim",
+          "score": 17,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "passed over",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "crossing over",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cross the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ကူး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

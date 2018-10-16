@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "Show",
+      "orig": "ပြန့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pya an "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "flat and even",
+        "level",
+        "broad",
+        "covering a wide area"
+      ],
+      "entry": [
+        {
+          "word": "level",
+          "reverse_translation": [
+            "ညီညာသော"
+          ]
+        },
+        {
+          "word": "broad",
+          "reverse_translation": [
+            "ကျယ်ဝန်းသော"
+          ]
+        }
+      ],
+      "base_form": "ပြန့်",
+      "pos_enum": 3
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "become widespread",
+        "spread"
+      ],
+      "entry": [
+        {
+          "word": "spread",
+          "reverse_translation": [
+            "ပျံ့နှံ့"
+          ]
+        }
+      ],
+      "base_form": "ပြန့်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြ",
+      "alternative": [
+        {
+          "word_postproc": "Show",
+          "score": 701,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Display",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ပြန့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "sentences": [
+    {
+      "trans": "sink",
+      "orig": "ကျွံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "go beyond",
+        "go further than intended",
+        "sink into",
+        "commit oneself"
+      ],
+      "entry": [
+        {
+          "word": "go beyond",
+          "score": 0.011642128
+        },
+        {
+          "word": "go further than intended",
+          "score": 0.011642128
+        },
+        {
+          "word": "sink into",
+          "score": 0.011642128
+        },
+        {
+          "word": "commit oneself"
+        }
+      ],
+      "base_form": "ကျွံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျွံ",
+      "alternative": [
+        {
+          "word_postproc": "sink",
+          "score": 921,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "high stakes",
+          "score": 71,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "commit",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fire",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sink into",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကျွံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

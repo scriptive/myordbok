@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "Steatite hair",
+      "orig": "ကံ့ကူဆံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kan kuu san"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "small stick of soap-stone used for writing on ပုရပိုက်,wooden သင်ပုန်း"
+      ],
+      "entry": [
+        {
+          "word": "small stick of soap-stone used for writing on ပုရပိုက်,wooden သင်ပုန်း"
+        }
+      ],
+      "base_form": "ကံ့ကူဆံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကံ့ ကူ",
+      "alternative": [
+        {
+          "word_postproc": "Steatite",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကံ့ကူဆံ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဆံ",
+      "alternative": [
+        {
+          "word_postproc": "hair",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 7
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

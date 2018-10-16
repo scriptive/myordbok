@@ -1,0 +1,128 @@
+{
+  "sentences": [
+    {
+      "trans": "As well as the sleeve cap sleeve",
+      "orig": "ထုပ်စွပ်လျောက်စွပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "htote hcwut lyawwat hcwut"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လျောက်",
+      "alternative": [
+        {
+          "word_postproc": "As well as the",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 8,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ထုပ်စွပ်လျောက်စွပ်",
+      "start_pos": 0,
+      "end_pos": 4
+    },
+    {
+      "src_phrase": "စွပ်",
+      "alternative": [
+        {
+          "word_postproc": "sleeve",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "arrayed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bases",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 8
+        }
+      ],
+      "start_pos": 4,
+      "end_pos": 5
+    },
+    {
+      "src_phrase": "ထုပ်",
+      "alternative": [
+        {
+          "word_postproc": "cap",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "start_pos": 5,
+      "end_pos": 6
+    },
+    {
+      "src_phrase": "စွပ်",
+      "alternative": [
+        {
+          "word_postproc": "sleeve",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "arrayed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bases",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 14,
+          "end": 18
+        }
+      ],
+      "start_pos": 6,
+      "end_pos": 7
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

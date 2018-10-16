@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "Effusively",
+      "orig": "ပျာပျာသလဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyaar pyaar salell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "effusively"
+      ],
+      "entry": [
+        {
+          "word": "effusively"
+        }
+      ],
+      "base_form": "ပျာပျာသလဲ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပျာ ပျာ သလဲ",
+      "alternative": [
+        {
+          "word_postproc": "Effusively",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Race",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Home race",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ပျာပျာသလဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

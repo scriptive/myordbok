@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "planting",
+      "orig": "စိုက်ပျိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcitepyoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "plant",
+        "cultivate",
+        "grow trees,etc"
+      ],
+      "entry": [
+        {
+          "word": "plant",
+          "reverse_translation": [
+            "စိုုက်ပျိုး"
+          ],
+          "score": 0.055541489
+        },
+        {
+          "word": "cultivate",
+          "reverse_translation": [
+            "စိုက်ပျိုးလုပ်ကိုင်"
+          ],
+          "score": 0.0058540297
+        }
+      ],
+      "base_form": "စိုက်ပျိုး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စိုက်ပျိုး",
+      "alternative": [
+        {
+          "word_postproc": "planting",
+          "score": 552,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "planted",
+          "score": 311,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cultivation",
+          "score": 91,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cultivated",
+          "score": 43,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the planting",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "စိုက်ပျိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

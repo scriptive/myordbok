@@ -1,0 +1,87 @@
+{
+  "sentences": [
+    {
+      "trans": "rake",
+      "orig": "ဂျုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "gyaote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "rake",
+        "spokeshave",
+        "razor blade holder",
+        "kind of plough"
+      ],
+      "entry": [
+        {
+          "word": "rake",
+          "reverse_translation": [
+            "ထွန်ခြစ်"
+          ],
+          "score": 0.2528396
+        }
+      ],
+      "base_form": "ဂျုတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဂျုတ်",
+      "alternative": [
+        {
+          "word_postproc": "rake",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "kind of plow",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "razor blade holder",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "spokeshave",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဂျုတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "fee",
+      "orig": "ဇာနည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "jarnai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "short form of အာဇာနည်"
+      ],
+      "entry": [
+        {
+          "word": "short form of အာဇာနည်"
+        }
+      ],
+      "base_form": "ဇာနည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဇာနည်",
+      "alternative": [
+        {
+          "word_postproc": "fee",
+          "score": 923,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Zarni",
+          "score": 76,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Zarni is",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Zarni maintains",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဇာနည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

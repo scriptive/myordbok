@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "onion",
+      "orig": "ကြက်သွန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaatswan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "onion"
+      ],
+      "entry": [
+        {
+          "word": "onion",
+          "reverse_translation": [
+            "ကြက်သွန်"
+          ],
+          "synset_id": [
+            693
+          ],
+          "score": 0.55225247
+        }
+      ],
+      "base_form": "ကြက်သွန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြက်သွန်",
+      "alternative": [
+        {
+          "word_postproc": "onion",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of onion",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Onion produces",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of onions are",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "onion with",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကြက်သွန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

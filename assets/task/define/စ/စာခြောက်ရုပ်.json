@@ -1,0 +1,69 @@
+{
+  "sentences": [
+    {
+      "trans": "scarecrow",
+      "orig": "စာခြောက်ရုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcarhkyawwatrote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "scarecrow"
+      ],
+      "entry": [
+        {
+          "word": "scarecrow",
+          "score": 0.40403652
+        }
+      ],
+      "base_form": "စာခြောက်ရုပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စာခြောက်ရုပ်",
+      "alternative": [
+        {
+          "word_postproc": "scarecrow",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "straw man",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "စာခြောက်ရုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

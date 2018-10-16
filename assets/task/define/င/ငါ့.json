@@ -1,0 +1,63 @@
+{
+  "sentences": [
+    {
+      "trans": "My",
+      "orig": "ငါ့",
+      "backend": 1
+    },
+    {
+      "src_translit": "ngar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "pronoun",
+      "terms": [
+        "my"
+      ],
+      "entry": [
+        {
+          "word": "my",
+          "score": 0.34023288
+        }
+      ],
+      "base_form": "ငါ့",
+      "pos_enum": 8
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ငါ့",
+      "alternative": [
+        {
+          "word_postproc": "My",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ငါ့",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

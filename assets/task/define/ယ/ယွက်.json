@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "deteriorate",
+      "orig": "ယွက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "ywat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "deteriorate",
+        "be wrong",
+        "err: deviate",
+        "be displaced",
+        "be disturbed"
+      ],
+      "entry": [
+        {
+          "word": "deteriorate",
+          "score": 0.091572434
+        },
+        {
+          "word": "be wrong"
+        },
+        {
+          "word": "err: deviate"
+        },
+        {
+          "word": "be displaced"
+        },
+        {
+          "word": "be disturbed"
+        }
+      ],
+      "base_form": "ယွက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယွက်",
+      "alternative": [
+        {
+          "word_postproc": "deteriorate",
+          "score": 746,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "disturbed",
+          "score": 204,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "displaced",
+          "score": 29,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wrong",
+          "score": 20,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ယွက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

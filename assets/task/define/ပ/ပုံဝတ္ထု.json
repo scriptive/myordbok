@@ -1,0 +1,87 @@
+{
+  "sentences": [
+    {
+      "trans": "story",
+      "orig": "ပုံဝတ္ထု",
+      "backend": 0
+    },
+    {
+      "src_translit": "ponewathtu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "tale",
+        "story"
+      ],
+      "entry": [
+        {
+          "word": "tale",
+          "reverse_translation": [
+            "သတင်းစကား"
+          ],
+          "synset_id": [
+            38387
+          ],
+          "score": 0.40403652
+        },
+        {
+          "word": "story",
+          "reverse_translation": [
+            "အထပ်",
+            "အကေြာင်းအရာ"
+          ],
+          "synset_id": [
+            38387
+          ],
+          "score": 0.40403652
+        }
+      ],
+      "base_form": "ပုံဝတ္ထု",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပုံဝတ္ထု",
+      "alternative": [
+        {
+          "word_postproc": "story",
+          "score": 954,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tale",
+          "score": 45,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ပုံဝတ္ထု",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

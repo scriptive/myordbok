@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "trip",
+      "orig": "ခရီးထွက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkareehtwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "go on a journey",
+        "be away on a journey"
+      ],
+      "entry": [
+        {
+          "word": "go on a journey",
+          "score": 0.0033355257
+        },
+        {
+          "word": "be away on a journey"
+        }
+      ],
+      "base_form": "ခရီးထွက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခရီးထွက်",
+      "alternative": [
+        {
+          "word_postproc": "trip",
+          "score": 545,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "traveling",
+          "score": 366,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "traveled",
+          "score": 80,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "travels",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "traveled to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ခရီးထွက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

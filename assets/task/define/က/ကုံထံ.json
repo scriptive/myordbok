@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "affluent",
+      "orig": "ကုံထံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kone htan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "affluent",
+        "prosperous"
+      ],
+      "entry": [
+        {
+          "word": "affluent",
+          "reverse_translation": [
+            "ကြွယ်ဝသော"
+          ]
+        },
+        {
+          "word": "prosperous",
+          "reverse_translation": [
+            "ထမေြာက်အောင်မြင်သော"
+          ]
+        }
+      ],
+      "base_form": "ကုံထံ",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကုံ ထံ",
+      "alternative": [
+        {
+          "word_postproc": "affluent",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wealthy",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "prosperous",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကုံထံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

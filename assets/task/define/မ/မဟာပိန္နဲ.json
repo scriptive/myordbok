@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Ganesha",
+      "orig": "မဟာပိန္နဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "mahar pin nell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "the Hindu diety Ganesa"
+      ],
+      "entry": [
+        {
+          "word": "the Hindu diety Ganesa"
+        }
+      ],
+      "base_form": "မဟာပိန္နဲ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မဟာ ပိန် နဲ",
+      "alternative": [
+        {
+          "word_postproc": "Ganesha",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "မဟာပိန္နဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

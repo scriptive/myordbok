@@ -1,0 +1,73 @@
+{
+  "sentences": [
+    {
+      "trans": "swear",
+      "orig": "ကျိန်စာတိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyanehcar tite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "curse with harm,evil to others",
+        "swear"
+      ],
+      "entry": [
+        {
+          "word": "swear",
+          "reverse_translation": [
+            "ကျိန်ဆို",
+            "ကျိန်ဆဲ"
+          ]
+        }
+      ],
+      "base_form": "ကျိန်စာတိုက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျိန်စာ တိုက်",
+      "alternative": [
+        {
+          "word_postproc": "swear",
+          "score": 965,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "been cursed",
+          "score": 34,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ကျိန်စာတိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

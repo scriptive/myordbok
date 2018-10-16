@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "floor board",
+      "orig": "ခင်းပျဉ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkainn pyain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "floor board"
+      ],
+      "entry": [
+        {
+          "word": "floor board"
+        }
+      ],
+      "base_form": "ခင်းပျဉ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခင်း ပျဉ်",
+      "alternative": [
+        {
+          "word_postproc": "floor board",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ခင်းပျဉ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

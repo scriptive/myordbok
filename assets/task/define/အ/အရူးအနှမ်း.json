@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "trans": "Crazy",
+      "orig": "အရူးအနှမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "aaruu a nham"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "crazy",
+        "daft person"
+      ],
+      "entry": [
+        {
+          "word": "crazy",
+          "synset_id": [
+            53125
+          ]
+        },
+        {
+          "word": "daft person"
+        }
+      ],
+      "base_form": "အရူးအနှမ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အရူး အ နှမ်း",
+      "alternative": [
+        {
+          "word_postproc": "Crazy",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Daft person",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "အရူးအနှမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

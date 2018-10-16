@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "magazine",
+      "orig": "ယမ်းကပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "yam kaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "magazine"
+      ],
+      "entry": [
+        {
+          "word": "magazine",
+          "reverse_translation": [
+            "မဂ္ဂဇင်း",
+            "ကျဉ်ကပ်"
+          ]
+        }
+      ],
+      "base_form": "ယမ်းကပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယမ်း ကပ်",
+      "alternative": [
+        {
+          "word_postproc": "magazine",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ယမ်းကပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "sentences": [
+    {
+      "trans": "noisily",
+      "orig": "တရုန်းရုန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "taronerone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "noisily"
+      ],
+      "entry": [
+        {
+          "word": "noisily",
+          "score": 0.40403652
+        }
+      ],
+      "base_form": "တရုန်းရုန်း",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တရုန်းရုန်း",
+      "alternative": [
+        {
+          "word_postproc": "noisily",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "တရုန်းရုန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

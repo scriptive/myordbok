@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Section",
+      "orig": "ပုဒ်မ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pudm"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "section of an Act",
+        "punctuation mark consisting of a pair of short vertical  lines indicating a long pause,termination of a sentence."
+      ],
+      "entry": [
+        {
+          "word": "section of an Act"
+        },
+        {
+          "word": "punctuation mark consisting of a pair of short vertical  lines indicating a long pause,termination of a sentence."
+        }
+      ],
+      "base_form": "ပုဒ်မ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပုဒ်မ",
+      "alternative": [
+        {
+          "word_postproc": "Section",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The Section",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "under section",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of section",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "with Section",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ပုဒ်မ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

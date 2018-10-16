@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "Board",
+      "orig": "ဘုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "bhote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "board",
+        "greater coucal"
+      ],
+      "entry": [
+        {
+          "word": "board",
+          "reverse_translation": [
+            "အသင်း",
+            "ပျဉ်ပြား"
+          ],
+          "score": 0.20961139
+        }
+      ],
+      "base_form": "ဘုတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘုတ်",
+      "alternative": [
+        {
+          "word_postproc": "Board",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the Board",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Board of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဘုတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

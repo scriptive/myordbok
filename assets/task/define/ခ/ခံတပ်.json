@@ -1,0 +1,96 @@
+{
+  "sentences": [
+    {
+      "trans": "fortress",
+      "orig": "ခံတပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkantaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "fortress",
+        "fort",
+        "stockade",
+        "military stronghold"
+      ],
+      "entry": [
+        {
+          "word": "fortress",
+          "reverse_translation": [
+            "ခံတပ်"
+          ],
+          "synset_id": [
+            25193
+          ],
+          "score": 0.086024337
+        }
+      ],
+      "base_form": "ခံတပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခံတပ်",
+      "alternative": [
+        {
+          "word_postproc": "fortress",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a fort and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bastion",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bastion of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a fort",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ခံတပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

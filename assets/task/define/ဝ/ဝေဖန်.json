@@ -1,0 +1,104 @@
+{
+  "sentences": [
+    {
+      "trans": "criticize",
+      "orig": "ဝေဖန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "wayhpaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "criticize",
+        "criticise",
+        "apportion"
+      ],
+      "entry": [
+        {
+          "word": "criticize",
+          "reverse_translation": [
+            "ဝေဖန်"
+          ],
+          "synset_id": [
+            24495
+          ],
+          "score": 0.02582919
+        },
+        {
+          "word": "criticise",
+          "reverse_translation": [
+            "ဝေဖန်"
+          ],
+          "synset_id": [
+            24495
+          ]
+        }
+      ],
+      "base_form": "ဝေဖန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝေဖန်",
+      "alternative": [
+        {
+          "word_postproc": "criticize",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "criticized",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "criticized the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "criticism of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "criticize the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဝေဖန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

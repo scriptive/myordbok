@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Clerical staff",
+      "orig": "စာရေးစာချီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcarrayy hcar hkyae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "clerical staff",
+        "secretarial staff"
+      ],
+      "entry": [
+        {
+          "word": "clerical staff"
+        },
+        {
+          "word": "secretarial staff"
+        }
+      ],
+      "base_form": "စာရေးစာချီ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စာရေး စာ ချီ",
+      "alternative": [
+        {
+          "word_postproc": "Clerical staff",
+          "score": 868,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Secretarial staff",
+          "score": 131,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "စာရေးစာချီ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

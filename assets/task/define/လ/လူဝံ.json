@@ -1,0 +1,71 @@
+{
+  "sentences": [
+    {
+      "trans": "ape",
+      "orig": "လူဝံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "luu wan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "ape"
+      ],
+      "entry": [
+        {
+          "word": "ape",
+          "reverse_translation": [
+            "မေျာက်"
+          ]
+        }
+      ],
+      "base_form": "လူဝံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လူ ဝံ",
+      "alternative": [
+        {
+          "word_postproc": "ape",
+          "score": 977,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "apes",
+          "score": 22,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "လူဝံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

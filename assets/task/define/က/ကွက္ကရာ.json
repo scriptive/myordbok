@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "ကွက္",
+      "orig": "ကွက္ကရာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kwk k rar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "pellitory. Anacyclus pyrethrum"
+      ],
+      "entry": [
+        {
+          "word": "pellitory. Anacyclus pyrethrum"
+        }
+      ],
+      "base_form": "ကွက္ကရာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကွက္",
+      "alternative": [
+        {
+          "word_postproc": "ကွက္",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကွက္ကရာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

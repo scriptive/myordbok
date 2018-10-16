@@ -1,0 +1,313 @@
+{
+  "sentences": [
+    {
+      "trans": "grow",
+      "orig": "ပေါက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "grow",
+        "sprout",
+        "13. give a blow",
+        "fetch",
+        "appear",
+        "gain one's appetite",
+        "set in",
+        "10. undergo fermentation",
+        "be fermented",
+        "11. have access to",
+        "12.leak",
+        "come to",
+        "chop",
+        "strike",
+        "stamp",
+        "14.throw",
+        "14.bribe",
+        "lavish",
+        "15. achieve",
+        "16. appear to be",
+        "seem to be",
+        "look",
+        "win",
+        "be broken",
+        "have a puncture",
+        "be pierced",
+        "be perforated",
+        "burst",
+        "explode",
+        "blister",
+        "let out",
+        "break",
+        "sell for",
+        "hatch",
+        "give birth",
+        "erect",
+        "break out.",
+        "understand",
+        "reach",
+        "make",
+        "be breached"
+      ],
+      "entry": [
+        {
+          "word": "grow",
+          "reverse_translation": [
+            "ပေါက်ပွါး"
+          ],
+          "score": 0.052176401
+        },
+        {
+          "word": "appear",
+          "reverse_translation": [
+            "ဖြစ်ပေါ်လာ"
+          ],
+          "synset_id": [
+            117016
+          ]
+        },
+        {
+          "word": "chop",
+          "reverse_translation": [
+            "ခုတ်ဖြတ်ခြင်း"
+          ]
+        },
+        {
+          "word": "strike",
+          "reverse_translation": [
+            "ရိုက်"
+          ],
+          "synset_id": [
+            107749
+          ]
+        },
+        {
+          "word": "stamp",
+          "reverse_translation": [
+            "တံဆိပ်နှိပ်"
+          ]
+        },
+        {
+          "word": "look",
+          "reverse_translation": [
+            "ကြည့်ရှု",
+            "ရှာဖေွ"
+          ],
+          "synset_id": [
+            117016
+          ]
+        },
+        {
+          "word": "win",
+          "reverse_translation": [
+            "အောင်မြင်"
+          ]
+        },
+        {
+          "word": "explode",
+          "reverse_translation": [
+            "ပေါက်ကဲွ"
+          ],
+          "synset_id": [
+            100557
+          ]
+        },
+        {
+          "word": "break",
+          "reverse_translation": [
+            "ချိုး"
+          ],
+          "synset_id": [
+            15822,
+            96262
+          ]
+        },
+        {
+          "word": "hatch",
+          "reverse_translation": [
+            "ဝပ်"
+          ]
+        },
+        {
+          "word": "erect",
+          "reverse_translation": [
+            "ထူထောင်"
+          ]
+        },
+        {
+          "word": "understand",
+          "reverse_translation": [
+            "နားလည်"
+          ]
+        },
+        {
+          "word": "reach",
+          "reverse_translation": [
+            "လာရောက်",
+            "ဆန့်"
+          ],
+          "synset_id": [
+            31146
+          ]
+        },
+        {
+          "word": "make",
+          "reverse_translation": [
+            "ပြုလုပ်"
+          ],
+          "synset_id": [
+            31146
+          ]
+        }
+      ],
+      "base_form": "ပေါက်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "hole",
+        "pitch in Myanmar music",
+        "bastard teak",
+        "parrot tree",
+        "flame of the forest",
+        "tree bearing showy clusters of red flowers in April",
+        "facial expression",
+        "manner,style of speaking",
+        "likelihood",
+        "opportunity",
+        "prospect",
+        "pip",
+        "dot",
+        "spot",
+        "droplet",
+        "drop",
+        "opening",
+        "puncture orifice",
+        "perforation"
+      ],
+      "entry": [
+        {
+          "word": "hole",
+          "reverse_translation": [
+            "အပေါက်"
+          ],
+          "score": 0.028814545
+        },
+        {
+          "word": "opportunity",
+          "reverse_translation": [
+            "အခွင့်အရေး"
+          ]
+        },
+        {
+          "word": "prospect",
+          "reverse_translation": [
+            "အမြင်"
+          ]
+        },
+        {
+          "word": "spot",
+          "reverse_translation": [
+            "အစက်"
+          ],
+          "synset_id": [
+            97574
+          ]
+        },
+        {
+          "word": "opening",
+          "reverse_translation": [
+            "အပေါက်"
+          ]
+        }
+      ],
+      "base_form": "ပေါက်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "adolescent",
+        "teenage",
+        "young",
+        "fledgling"
+      ],
+      "entry": [
+        {
+          "word": "young",
+          "reverse_translation": [
+            "အသက်ငယ်သော"
+          ]
+        }
+      ],
+      "base_form": "ပေါက်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပေါက်",
+      "alternative": [
+        {
+          "word_postproc": "grow",
+          "score": 852,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hole",
+          "score": 90,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "spring",
+          "score": 54,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "jack",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to grow",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ပေါက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

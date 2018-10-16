@@ -1,0 +1,107 @@
+{
+  "sentences": [
+    {
+      "trans": "son",
+      "orig": "သား",
+      "backend": 1
+    },
+    {
+      "src_translit": "sarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "son",
+        "child",
+        "young"
+      ],
+      "entry": [
+        {
+          "word": "son",
+          "reverse_translation": [
+            "သား"
+          ],
+          "synset_id": [
+            20151
+          ],
+          "score": 0.16071463
+        },
+        {
+          "word": "child",
+          "reverse_translation": [
+            "ကလေး"
+          ],
+          "score": 0.0047038449
+        }
+      ],
+      "base_form": "သား",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "rule",
+        "draw",
+        "inscribe",
+        "delineate",
+        "particle suffixed to a verb,adjective to convey the sense of being definite,explicit"
+      ],
+      "entry": [
+        {
+          "word": "rule",
+          "reverse_translation": [
+            "အုပ်ချုပ်"
+          ]
+        },
+        {
+          "word": "draw",
+          "reverse_translation": [
+            "ဆဲွငင်"
+          ],
+          "synset_id": [
+            84767
+          ]
+        }
+      ],
+      "base_form": "သား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သား",
+      "alternative": [
+        {
+          "word_postproc": "son",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "သား",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

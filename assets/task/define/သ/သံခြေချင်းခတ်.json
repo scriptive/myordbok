@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Shriveled",
+      "orig": "သံခြေချင်းခတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "san hkyay hkyinn hkaat"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခြေ ချင်း ခတ်",
+      "alternative": [
+        {
+          "word_postproc": "Shriveled",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "သံခြေချင်းခတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

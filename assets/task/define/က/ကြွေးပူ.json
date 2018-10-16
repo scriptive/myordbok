@@ -1,0 +1,95 @@
+{
+  "sentences": [
+    {
+      "trans": "short-term loan",
+      "orig": "ကြွေးပူ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaway puu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be worried by debt",
+        "demand repayment of debt"
+      ],
+      "entry": [
+        {
+          "word": "be worried by debt"
+        },
+        {
+          "word": "demand repayment of debt"
+        }
+      ],
+      "base_form": "ကြွေးပူ",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "off demanded debt",
+        "short-term loan"
+      ],
+      "entry": [
+        {
+          "word": "off demanded debt"
+        },
+        {
+          "word": "short-term loan"
+        }
+      ],
+      "base_form": "ကြွေးပူ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြွေး ပူ",
+      "alternative": [
+        {
+          "word_postproc": "short-term loan",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "demand repayment of debt",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "worried by debt",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကြွေးပူ",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

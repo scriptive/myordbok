@@ -1,0 +1,129 @@
+{
+  "sentences": [
+    {
+      "trans": "four",
+      "orig": "လေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "layy"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "four",
+        "bow",
+        "crossbow",
+        "pellet bow",
+        "catapult",
+        "leaf-spring"
+      ],
+      "entry": [
+        {
+          "word": "four",
+          "reverse_translation": [
+            "လေး"
+          ],
+          "synset_id": [
+            90984
+          ],
+          "score": 0.15576996
+        },
+        {
+          "word": "bow",
+          "reverse_translation": [
+            "ဉီးညွှတ်ခြင်း",
+            "စက်ဝိုင်းပြတ်လိပ်ခုံး",
+            "သငေ်္ဘာဉီး",
+            "လင်းလေး"
+          ],
+          "score": 0.011108996
+        }
+      ],
+      "base_form": "လေး",
+      "pos_enum": 1
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "heavy",
+        "slow",
+        "dull",
+        "sluggish",
+        "dull in mind",
+        "bigger",
+        "greater",
+        "salty"
+      ],
+      "entry": [
+        {
+          "word": "heavy",
+          "reverse_translation": [
+            "လေးလံသော"
+          ],
+          "score": 0.011283938
+        },
+        {
+          "word": "slow",
+          "reverse_translation": [
+            "နေှးသော"
+          ],
+          "synset_id": [
+            109646
+          ]
+        },
+        {
+          "word": "salty",
+          "reverse_translation": [
+            "ဆားပါသော"
+          ]
+        }
+      ],
+      "base_form": "လေး",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လေး",
+      "alternative": [
+        {
+          "word_postproc": "four",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and four",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "လေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

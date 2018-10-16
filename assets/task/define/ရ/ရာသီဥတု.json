@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "weather",
+      "orig": "ရာသီဥတု",
+      "backend": 0
+    },
+    {
+      "src_translit": "rarseutu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "climate",
+        "weather"
+      ],
+      "entry": [
+        {
+          "word": "climate",
+          "reverse_translation": [
+            "ရာသီဉတု"
+          ],
+          "score": 0.22313017
+        },
+        {
+          "word": "weather",
+          "reverse_translation": [
+            "ရာသီဉတု"
+          ],
+          "score": 0.20316233
+        }
+      ],
+      "base_form": "ရာသီဥတု",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရာသီဥတု",
+      "alternative": [
+        {
+          "word_postproc": "weather",
+          "score": 804,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Climate",
+          "score": 194,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the weather",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The climate",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the weather is",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ရာသီဥတု",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

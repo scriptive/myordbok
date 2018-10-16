@@ -1,0 +1,119 @@
+{
+  "sentences": [
+    {
+      "trans": "mud",
+      "orig": "နွံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "nwan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "mire",
+        "bog",
+        "marsh"
+      ],
+      "entry": [
+        {
+          "word": "bog",
+          "reverse_translation": [
+            "စိမ့်"
+          ],
+          "score": 0.010767208
+        },
+        {
+          "word": "marsh",
+          "reverse_translation": [
+            "စိမ့်မေြ"
+          ],
+          "score": 0.010767208
+        }
+      ],
+      "base_form": "နွံ",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "sink",
+        "plunge",
+        "assume a humble attitude",
+        "be subdued"
+      ],
+      "entry": [
+        {
+          "word": "sink",
+          "reverse_translation": [
+            "နစ်မြှုပ်"
+          ],
+          "score": 0.010767208
+        }
+      ],
+      "base_form": "နွံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နွံ",
+      "alternative": [
+        {
+          "word_postproc": "mud",
+          "score": 723,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "marsh",
+          "score": 196,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the mud",
+          "score": 38,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bog",
+          "score": 31,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "without complaint",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "နွံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

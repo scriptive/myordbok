@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Yes",
+      "orig": "ကဲ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "kae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "remove gradually",
+        "take bit by bit stealthily"
+      ],
+      "entry": [
+        {
+          "word": "remove gradually"
+        },
+        {
+          "word": "take bit by bit stealthily"
+        }
+      ],
+      "base_form": "ကဲ့",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကဲ့",
+      "alternative": [
+        {
+          "word_postproc": "Yes",
+          "score": 844,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "like",
+          "score": 155,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lively",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "like a",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "like the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ကဲ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

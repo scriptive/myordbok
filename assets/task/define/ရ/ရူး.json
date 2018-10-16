@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "mad",
+      "orig": "ရူး",
+      "backend": 0
+    },
+    {
+      "src_translit": "ruu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "mad",
+        "insane"
+      ],
+      "entry": [
+        {
+          "word": "mad",
+          "reverse_translation": [
+            "ရူးသွပ်သော"
+          ],
+          "synset_id": [
+            78295
+          ],
+          "score": 0.066995822
+        },
+        {
+          "word": "insane",
+          "reverse_translation": [
+            "စိတ်မကောင်းသော"
+          ],
+          "synset_id": [
+            78295
+          ],
+          "score": 0.0093547134
+        }
+      ],
+      "base_form": "ရူး",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရူး",
+      "alternative": [
+        {
+          "word_postproc": "mad",
+          "score": 867,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "madness",
+          "score": 132,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in foolishness",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ရူး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

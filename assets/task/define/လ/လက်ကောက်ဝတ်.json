@@ -1,0 +1,69 @@
+{
+  "sentences": [
+    {
+      "trans": "wrist",
+      "orig": "လက်ကောက်ဝတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "laatkoutwaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "wrist"
+      ],
+      "entry": [
+        {
+          "word": "wrist",
+          "reverse_translation": [
+            "လက်ကောက်ဝတ်"
+          ],
+          "synset_id": [
+            42091
+          ],
+          "score": 0.24126123
+        }
+      ],
+      "base_form": "လက်ကောက်ဝတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လက်ကောက်ဝတ်",
+      "alternative": [
+        {
+          "word_postproc": "wrist",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "လက်ကောက်ဝတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

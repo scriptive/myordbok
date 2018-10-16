@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "small print",
+      "orig": "စာညှင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcar nyhainn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "ordinary round script as distinguished from the rectangular script used in the ကမ္မဝါ writings",
+        "fine print",
+        "small print",
+        "frequently used letters in a type fount"
+      ],
+      "entry": [
+        {
+          "word": "ordinary round script as distinguished from the rectangular script used in the ကမ္မဝါ writings"
+        },
+        {
+          "word": "fine print",
+          "synset_id": [
+            31410
+          ]
+        },
+        {
+          "word": "small print",
+          "synset_id": [
+            31410
+          ]
+        },
+        {
+          "word": "frequently used letters in a type fount"
+        }
+      ],
+      "base_form": "စာညှင်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စာ ညှင်း",
+      "alternative": [
+        {
+          "word_postproc": "small print",
+          "score": 675,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "print",
+          "score": 314,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fine print",
+          "score": 9,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "စာညှင်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

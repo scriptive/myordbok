@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "caught",
+      "orig": "ငြိ",
+      "backend": 0
+    },
+    {
+      "src_translit": "ngyai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "get entangled, be caught, in machinery, by passion, etc",
+        "be implicated"
+      ],
+      "entry": [
+        {
+          "word": "get entangled, be caught, in machinery, by passion, etc"
+        },
+        {
+          "word": "be implicated"
+        }
+      ],
+      "base_form": "ငြိ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ငြိ",
+      "alternative": [
+        {
+          "word_postproc": "caught",
+          "score": 450,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bookstores",
+          "score": 375,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "conflict",
+          "score": 156,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "implicated",
+          "score": 13,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "got caught",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ငြိ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

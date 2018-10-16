@@ -1,0 +1,109 @@
+{
+  "sentences": [
+    {
+      "trans": "Sister in the bird flies",
+      "orig": "ယောင်းယင်ငှက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "yaungg yain nghaat"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယောင်း",
+      "alternative": [
+        {
+          "word_postproc": "Sister in",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Ointment",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ယောင်းယင်ငှက်",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "ငှက်",
+      "alternative": [
+        {
+          "word_postproc": "the bird",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bird",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "birds",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 9,
+          "end": 13
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 4
+    },
+    {
+      "src_phrase": "ယင်",
+      "alternative": [
+        {
+          "word_postproc": "flies",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 9
+        }
+      ],
+      "start_pos": 4,
+      "end_pos": 5
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

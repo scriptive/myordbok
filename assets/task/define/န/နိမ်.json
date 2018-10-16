@@ -1,0 +1,106 @@
+{
+  "sentences": [
+    {
+      "trans": "subside",
+      "orig": "နိမ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "subside",
+        "fall",
+        "settle"
+      ],
+      "entry": [
+        {
+          "word": "fall",
+          "reverse_translation": [
+            "ကျ"
+          ],
+          "synset_id": [
+            80138
+          ],
+          "score": 0.021081172
+        },
+        {
+          "word": "settle",
+          "reverse_translation": [
+            "စေ့စပ်"
+          ],
+          "synset_id": [
+            56912,
+            80138
+          ],
+          "score": 0.021081172
+        }
+      ],
+      "base_form": "နိမ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နိမ်",
+      "alternative": [
+        {
+          "word_postproc": "subside",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Mahanaim",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cut off",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fall",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cut",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "နိမ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

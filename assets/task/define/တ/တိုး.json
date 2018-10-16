@@ -1,0 +1,178 @@
+{
+  "sentences": [
+    {
+      "trans": "increase",
+      "orig": "တိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "toe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "increase",
+        "grow",
+        "rise",
+        "push",
+        "shove",
+        "jostle",
+        "advance",
+        "go further",
+        "go forward",
+        "run across",
+        "lower",
+        "decrease"
+      ],
+      "entry": [
+        {
+          "word": "increase",
+          "reverse_translation": [
+            "တိုးတက်စေ"
+          ],
+          "score": 0.049787067
+        },
+        {
+          "word": "grow",
+          "reverse_translation": [
+            "ပေါက်ပွါး"
+          ],
+          "synset_id": [
+            67016
+          ],
+          "score": 0.0060398565
+        },
+        {
+          "word": "rise",
+          "reverse_translation": [
+            "တက်"
+          ],
+          "synset_id": [
+            67016
+          ],
+          "score": 0.0047038449
+        },
+        {
+          "word": "push",
+          "reverse_translation": [
+            "တွန်းထိုး"
+          ]
+        },
+        {
+          "word": "shove",
+          "reverse_translation": [
+            "တွန်းထိုး"
+          ],
+          "synset_id": [
+            81739
+          ]
+        },
+        {
+          "word": "advance",
+          "reverse_translation": [
+            "တိုးတက်"
+          ]
+        },
+        {
+          "word": "lower",
+          "reverse_translation": [
+            "နျိမ့်"
+          ]
+        },
+        {
+          "word": "decrease",
+          "reverse_translation": [
+            "လေျာ့ပေါ့စေ"
+          ]
+        }
+      ],
+      "base_form": "တိုး",
+      "pos_enum": 2
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "soft",
+        "faint",
+        "slight"
+      ],
+      "entry": [
+        {
+          "word": "soft",
+          "reverse_translation": [
+            "ပေျာ့ပေျာင်းသော"
+          ]
+        },
+        {
+          "word": "faint",
+          "reverse_translation": [
+            "အားနည်းသော"
+          ]
+        }
+      ],
+      "base_form": "တိုး",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တိုး",
+      "alternative": [
+        {
+          "word_postproc": "increase",
+          "score": 601,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Store",
+          "score": 193,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Toe",
+          "score": 87,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "increases",
+          "score": 69,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "increased",
+          "score": 25,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "တိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

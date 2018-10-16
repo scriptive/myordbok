@@ -1,0 +1,95 @@
+{
+  "sentences": [
+    {
+      "trans": "revealed",
+      "orig": "ထင်ရှား",
+      "backend": 0
+    },
+    {
+      "src_translit": "htainsharr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "qualify",
+        "be visivble distinctly",
+        "be well-known",
+        "be prominent",
+        "be evident",
+        "be conspicuous"
+      ],
+      "entry": [
+        {
+          "word": "qualify",
+          "reverse_translation": [
+            "ထင်ရှား"
+          ],
+          "score": 0.00021659095
+        }
+      ],
+      "base_form": "ထင်ရှား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထင်ရှား",
+      "alternative": [
+        {
+          "word_postproc": "revealed",
+          "score": 711,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "appeared",
+          "score": 286,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "appeared to",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "be revealed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "appeared in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ထင်ရှား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

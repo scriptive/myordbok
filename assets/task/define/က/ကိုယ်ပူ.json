@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "body temperature",
+      "orig": "ကိုယ်ပူ",
+      "backend": 0
+    },
+    {
+      "src_translit": "ko puu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "run a temperature",
+        "have a fever"
+      ],
+      "entry": [
+        {
+          "word": "run a temperature"
+        },
+        {
+          "word": "have a fever"
+        }
+      ],
+      "base_form": "ကိုယ်ပူ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိုယ် ပူ",
+      "alternative": [
+        {
+          "word_postproc": "body temperature",
+          "score": 624,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "high body temperature",
+          "score": 359,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fever",
+          "score": 14,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "I have a temperature",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "have a fever",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကိုယ်ပူ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "sentences": [
+    {
+      "trans": "accountant",
+      "orig": "စာရင်းကိုင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcarrainnkine"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "accountant",
+        "bookkeeper"
+      ],
+      "entry": [
+        {
+          "word": "accountant",
+          "reverse_translation": [
+            "စာရင်းကိုင်",
+            "စာရင်းကိုင်"
+          ],
+          "synset_id": [
+            5753
+          ],
+          "score": 0.050571099
+        },
+        {
+          "word": "bookkeeper",
+          "reverse_translation": [
+            "စာရင်းကိုင်",
+            "ငေွစာရင်းကိုင်"
+          ],
+          "synset_id": [
+            96476
+          ],
+          "score": 0.0029899459
+        }
+      ],
+      "base_form": "စာရင်းကိုင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စာရင်းကိုင်",
+      "alternative": [
+        {
+          "word_postproc": "accountant",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bookkeeper",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Accounting",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "an accountant",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Accountancy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "စာရင်းကိုင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

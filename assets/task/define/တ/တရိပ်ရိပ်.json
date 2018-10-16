@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "exhilarated",
+      "orig": "တရိပ်ရိပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "tariutriut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in a blur"
+      ],
+      "entry": [
+        {
+          "word": "in a blur"
+        }
+      ],
+      "base_form": "တရိပ်ရိပ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တရိပ်ရိပ်",
+      "alternative": [
+        {
+          "word_postproc": "exhilarated",
+          "score": 615,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "blur",
+          "score": 353,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a blur",
+          "score": 31,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "exhilarated by",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "are exhilarated",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "တရိပ်ရိပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

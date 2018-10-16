@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "shamelessly greedy",
+      "orig": "ငတ်ကြီးကျ",
+      "backend": 0
+    },
+    {
+      "src_translit": "ngaatkyeekya"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be unable to contain one's hunger",
+        "be shamelessly greedy"
+      ],
+      "entry": [
+        {
+          "word": "be unable to contain one's hunger"
+        },
+        {
+          "word": "be shamelessly greedy"
+        }
+      ],
+      "base_form": "ငတ်ကြီးကျ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ငတ်ကြီးကျ",
+      "alternative": [
+        {
+          "word_postproc": "shamelessly greedy",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ငတ်ကြီးကျ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

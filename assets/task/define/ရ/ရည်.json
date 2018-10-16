@@ -1,0 +1,116 @@
+{
+  "sentences": [
+    {
+      "trans": "Yee",
+      "orig": "ရည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "rai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "juice",
+        "liquid",
+        "fluid",
+        "lustre",
+        "quality",
+        "characteristic",
+        "attribute"
+      ],
+      "entry": [
+        {
+          "word": "juice",
+          "reverse_translation": [
+            "သစ်သီးရည်"
+          ],
+          "score": 0.023153137
+        },
+        {
+          "word": "liquid",
+          "reverse_translation": [
+            "အရည်"
+          ],
+          "score": 0.014488863
+        },
+        {
+          "word": "fluid",
+          "reverse_translation": [
+            "ရေနှင့်လေကဲ့သို့သောဝတ္တု"
+          ],
+          "score": 0.0038391664
+        },
+        {
+          "word": "quality",
+          "reverse_translation": [
+            "အမျိုးအစား"
+          ]
+        }
+      ],
+      "base_form": "ရည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရည်",
+      "alternative": [
+        {
+          "word_postproc": "Yee",
+          "score": 857,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "syrup",
+          "score": 81,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Concerning",
+          "score": 42,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "juice",
+          "score": 11,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Yi",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ရည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Mother",
+      "orig": "သားသည်အမေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "sarr sai a may"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "mother with a suckling child"
+      ],
+      "entry": [
+        {
+          "word": "mother with a suckling child"
+        }
+      ],
+      "base_form": "သားသည်အမေ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ မေ",
+      "alternative": [
+        {
+          "word_postproc": "Mother",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "သားသည်အမေ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

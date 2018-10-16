@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Maintain composure",
+      "orig": "ဣန္ဒြေဆည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "in dyay sai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "maintain composure"
+      ],
+      "entry": [
+        {
+          "word": "maintain composure"
+        }
+      ],
+      "base_form": "ဣန္ဒြေဆည်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဣန္ ဒြေ ဆည်",
+      "alternative": [
+        {
+          "word_postproc": "Maintain composure",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ဣန္ဒြေဆည်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

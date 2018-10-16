@@ -1,0 +1,131 @@
+{
+  "sentences": [
+    {
+      "trans": "out",
+      "orig": "ထုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "htote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "produce",
+        "take out. extract",
+        "remove",
+        "dismiss",
+        "expel",
+        "thrust out",
+        "put out",
+        "publish",
+        "proclaim"
+      ],
+      "entry": [
+        {
+          "word": "produce",
+          "reverse_translation": [
+            "ထုတ်ဖေါ်"
+          ],
+          "score": 0.01382537
+        },
+        {
+          "word": "remove",
+          "reverse_translation": [
+            "ရေွှ့"
+          ]
+        },
+        {
+          "word": "dismiss",
+          "reverse_translation": [
+            "ထုတ်ပစ်"
+          ]
+        },
+        {
+          "word": "expel",
+          "reverse_translation": [
+            "ထုတ်ပယ်"
+          ]
+        },
+        {
+          "word": "publish",
+          "reverse_translation": [
+            "ပုံနှိပ်ထုတ်ဝေ"
+          ],
+          "synset_id": [
+            22547
+          ]
+        },
+        {
+          "word": "proclaim",
+          "reverse_translation": [
+            "ကေြညာ"
+          ]
+        }
+      ],
+      "base_form": "ထုတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထုတ်",
+      "alternative": [
+        {
+          "word_postproc": "out",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "out of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "issued",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "produced",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "produce",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ထုတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

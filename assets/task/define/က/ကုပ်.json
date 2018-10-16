@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "stall",
+      "orig": "ကုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "arch downward",
+        "droop",
+        "clench",
+        "grasp",
+        "curl inwards",
+        "cringe",
+        "nab",
+        "be unpretentious"
+      ],
+      "entry": [
+        {
+          "word": "grasp",
+          "reverse_translation": [
+            "ဆုပ်ကိုင်"
+          ],
+          "score": 0.0093547134
+        }
+      ],
+      "base_form": "ကုပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကုပ်",
+      "alternative": [
+        {
+          "word_postproc": "stall",
+          "score": 808,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "scratching",
+          "score": 190,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "nab",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "nape of the neck",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "clench",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

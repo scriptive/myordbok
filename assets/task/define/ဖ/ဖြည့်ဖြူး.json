@@ -1,0 +1,79 @@
+{
+  "sentences": [
+    {
+      "trans": "Soothe",
+      "orig": "ဖြည့်ဖြူး",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpya i  hpyauu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "provide",
+        "appease",
+        "soothe"
+      ],
+      "entry": [
+        {
+          "word": "provide",
+          "reverse_translation": [
+            "ပေးသွင်း"
+          ]
+        },
+        {
+          "word": "appease",
+          "reverse_translation": [
+            "ကေြအေးစေ"
+          ]
+        }
+      ],
+      "base_form": "ဖြည့်ဖြူး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖြ ည့ ် ဖြူး",
+      "alternative": [
+        {
+          "word_postproc": "Soothe",
+          "score": 798,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Appease",
+          "score": 201,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ဖြည့်ဖြူး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

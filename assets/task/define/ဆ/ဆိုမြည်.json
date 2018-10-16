@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "trans": "berate",
+      "orig": "ဆိုမြည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "so myi"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "berate",
+        "scold"
+      ],
+      "entry": [
+        {
+          "word": "scold",
+          "reverse_translation": [
+            "ကျိန်ဆဲ"
+          ],
+          "synset_id": [
+            78542
+          ]
+        }
+      ],
+      "base_form": "ဆိုမြည်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆို မြည်",
+      "alternative": [
+        {
+          "word_postproc": "berate",
+          "score": 985,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "scold",
+          "score": 14,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဆိုမြည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "sentences": [
+    {
+      "trans": "Nest simplicity, well-equipped",
+      "orig": "သိုက်သိုက်မြိုက်မြိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "site site myaite myaite"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သိုက်",
+      "alternative": [
+        {
+          "word_postproc": "Nest",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Deposits",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Reserves",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "သိုက်သိုက်မြိုက်မြိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "မြိုက်",
+      "alternative": [
+        {
+          "word_postproc": "simplicity,",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "nectar",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 16,
+          "end": 22
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 3
+    },
+    {
+      "src_phrase": "သိုက် မြိုက်",
+      "alternative": [
+        {
+          "word_postproc": "well-equipped",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 16
+        }
+      ],
+      "start_pos": 3,
+      "end_pos": 6
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

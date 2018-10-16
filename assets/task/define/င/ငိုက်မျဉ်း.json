@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "becoming drowsy",
+      "orig": "ငိုက်မျဉ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "ngite myain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "doze: be half asleep"
+      ],
+      "entry": [
+        {
+          "word": "doze: be half asleep"
+        }
+      ],
+      "base_form": "ငိုက်မျဉ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ငိုက် မျဉ်း",
+      "alternative": [
+        {
+          "word_postproc": "becoming drowsy",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ငိုက်မျဉ်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

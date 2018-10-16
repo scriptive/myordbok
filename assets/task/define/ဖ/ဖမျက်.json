@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "ankle",
+      "orig": "ဖမျက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hp myet"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "the ankle"
+      ],
+      "entry": [
+        {
+          "word": "the ankle"
+        }
+      ],
+      "base_form": "ဖမျက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖ မျက်",
+      "alternative": [
+        {
+          "word_postproc": "ankle",
+          "score": 591,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the ankle",
+          "score": 408,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဖမျက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

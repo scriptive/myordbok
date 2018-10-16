@@ -1,0 +1,95 @@
+{
+  "sentences": [
+    {
+      "trans": "trader",
+      "orig": "ကုန်သည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "konesai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "merchant",
+        "trader"
+      ],
+      "entry": [
+        {
+          "word": "merchant",
+          "reverse_translation": [
+            "ကုန်သည်"
+          ],
+          "score": 0.097478345
+        },
+        {
+          "word": "trader",
+          "reverse_translation": [
+            "ကုန်သည်"
+          ],
+          "synset_id": [
+            16878
+          ],
+          "score": 0.060054667
+        }
+      ],
+      "base_form": "ကုန်သည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကုန်သည်",
+      "alternative": [
+        {
+          "word_postproc": "trader",
+          "score": 810,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "merchant",
+          "score": 189,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the merchant",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The merchants",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကုန်သည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "Convulse",
+      "orig": "ဘောက်ဘက်ခတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "bhout bhaat hkaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "slosh",
+        "splash",
+        "convulse"
+      ],
+      "entry": [
+        {
+          "word": "splash",
+          "reverse_translation": [
+            "ရေပက်"
+          ],
+          "synset_id": [
+            16840
+          ]
+        }
+      ],
+      "base_form": "ဘောက်ဘက်ခတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘောက် ဘက် ခတ်",
+      "alternative": [
+        {
+          "word_postproc": "Convulse",
+          "score": 609,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Splash",
+          "score": 362,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Slosh",
+          "score": 27,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ဘောက်ဘက်ခတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "sentences": [
+    {
+      "trans": "the chaff",
+      "orig": "ဖျင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpyinn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "stupid",
+        "dull",
+        "good for nothing",
+        "inferior",
+        "undeveloped"
+      ],
+      "entry": [
+        {
+          "word": "stupid",
+          "reverse_translation": [
+            "အလွန်ထိုင်းသော"
+          ],
+          "score": 0.0090668984
+        },
+        {
+          "word": "inferior",
+          "reverse_translation": [
+            "အောက်သော"
+          ],
+          "score": 0.0044884402
+        }
+      ],
+      "base_form": "ဖျင်း",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖျင်း",
+      "alternative": [
+        {
+          "word_postproc": "the chaff",
+          "score": 625,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "chaff",
+          "score": 374,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "straw to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "chaff to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the chaff with",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဖျင်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

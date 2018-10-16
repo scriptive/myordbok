@@ -1,0 +1,128 @@
+{
+  "sentences": [
+    {
+      "trans": "signs",
+      "orig": "အရိပ်အယောင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aariutaayaung"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "sign",
+        "indication",
+        "hint",
+        "shape",
+        "form"
+      ],
+      "entry": [
+        {
+          "word": "sign",
+          "reverse_translation": [
+            "အမှတ်လက္ခဏာ"
+          ],
+          "score": 0.11758133
+        },
+        {
+          "word": "indication",
+          "reverse_translation": [
+            "ညွှန်ပြချက်"
+          ],
+          "score": 0.073580518
+        },
+        {
+          "word": "hint",
+          "reverse_translation": [
+            "စကားရိပ်"
+          ],
+          "score": 0.05136748
+        },
+        {
+          "word": "shape",
+          "reverse_translation": [
+            "ပုံသဏ္ဌာန်"
+          ],
+          "synset_id": [
+            69412
+          ],
+          "score": 0.014717029
+        },
+        {
+          "word": "form",
+          "reverse_translation": [
+            "ပုံသဏ္ဌာန်"
+          ],
+          "synset_id": [
+            69412
+          ],
+          "score": 0.014717029
+        }
+      ],
+      "base_form": "အရိပ်အယောင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အရိပ်အယောင်",
+      "alternative": [
+        {
+          "word_postproc": "signs",
+          "score": 675,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hint",
+          "score": 221,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sign",
+          "score": 32,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "signs of",
+          "score": 29,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "underway",
+          "score": 22,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "အရိပ်အယောင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

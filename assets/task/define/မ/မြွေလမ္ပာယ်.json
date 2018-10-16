@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "Snake charmer",
+      "orig": "မြွေလမ္ပာယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "myaway lam paral"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "snake charmer",
+        "exhibition given by a snake charmer"
+      ],
+      "entry": [
+        {
+          "word": "snake charmer"
+        },
+        {
+          "word": "exhibition given by a snake charmer"
+        }
+      ],
+      "base_form": "မြွေလမ္ပာယ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မြွေ",
+      "alternative": [
+        {
+          "word_postproc": "Snake",
+          "score": 799,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Serpents",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "မြွေလမ္ပာယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "လမ္ ပာယ်",
+      "alternative": [
+        {
+          "word_postproc": "charmer",
+          "score": 799,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 11
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

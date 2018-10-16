@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "relevant",
+      "orig": "ဆီလျော်",
+      "backend": 0
+    },
+    {
+      "src_translit": "se lyaw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be suitable",
+        "relevant",
+        "appropriate"
+      ],
+      "entry": [
+        {
+          "word": "be suitable"
+        },
+        {
+          "word": "relevant"
+        },
+        {
+          "word": "appropriate"
+        }
+      ],
+      "base_form": "ဆီလျော်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆီ လျော်",
+      "alternative": [
+        {
+          "word_postproc": "relevant",
+          "score": 898,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "inappropriate",
+          "score": 51,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fitting",
+          "score": 30,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the relevant",
+          "score": 18,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "its relevance",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဆီလျော်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

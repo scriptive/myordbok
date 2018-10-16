@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "Deformed",
+      "orig": "နှစ်ကုန်းတစ်ကော့",
+      "backend": 0
+    },
+    {
+      "src_translit": "nhait kone tait kot"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "deformed",
+        "bent"
+      ],
+      "entry": [
+        {
+          "word": "deformed",
+          "reverse_translation": [
+            "ပုံပျက်သော"
+          ]
+        },
+        {
+          "word": "bent",
+          "reverse_translation": [
+            "ကောက်ကေွးသော"
+          ]
+        }
+      ],
+      "base_form": "နှစ်ကုန်းတစ်ကော့",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နှစ် ကုန်း တစ် ကော့",
+      "alternative": [
+        {
+          "word_postproc": "Deformed",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Bent",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "နှစ်ကုန်းတစ်ကော့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "Costa",
+      "orig": "ကော်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kaw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "glue",
+        "gum",
+        "paste",
+        "synthetic material such as celluloid, plastic, etc",
+        "open floral design tattooed on the mid of the thigh"
+      ],
+      "entry": [
+        {
+          "word": "glue",
+          "reverse_translation": [
+            "ကျွဲကော်"
+          ],
+          "synset_id": [
+            23805
+          ],
+          "score": 0.060054667
+        }
+      ],
+      "base_form": "ကော်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကော်",
+      "alternative": [
+        {
+          "word_postproc": "Costa",
+          "score": 802,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Adhesive",
+          "score": 105,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "glue",
+          "score": 73,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "adhesives",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Kaw",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကော်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

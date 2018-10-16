@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "nun",
+      "orig": "သီလရှင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "selashin"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "nun"
+      ],
+      "entry": [
+        {
+          "word": "nun",
+          "reverse_translation": [
+            "မယ်သီလရှင်"
+          ],
+          "score": 0.11396374
+        }
+      ],
+      "base_form": "သီလရှင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သီလရှင်",
+      "alternative": [
+        {
+          "word_postproc": "nun",
+          "score": 877,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "nuns",
+          "score": 108,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a nun",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The nuns",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "convent",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "သီလရှင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

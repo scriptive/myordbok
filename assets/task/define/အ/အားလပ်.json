@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "leisure",
+      "orig": "အားလပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aarr laut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "နေရာလပ်ရှိသည်။လစ်လပ်သည်။",
+        "အားသည်။"
+      ],
+      "entry": [
+        {
+          "word": "နေရာလပ်ရှိသည်။လစ်လပ်သည်။"
+        },
+        {
+          "word": "အားသည်။"
+        }
+      ],
+      "base_form": "အားလပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အား လပ်",
+      "alternative": [
+        {
+          "word_postproc": "leisure",
+          "score": 950,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Holiday",
+          "score": 41,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "free",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "spare",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "breaks",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "အားလပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

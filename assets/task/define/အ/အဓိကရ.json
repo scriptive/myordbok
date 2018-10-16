@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "CHIEF",
+      "orig": "အဓိကရ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aadhik r"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "prominent",
+        "notable",
+        "eminent",
+        "conspicuous"
+      ],
+      "entry": [
+        {
+          "word": "prominent",
+          "reverse_translation": [
+            "ကေျာ်ကြားသော"
+          ]
+        },
+        {
+          "word": "notable",
+          "reverse_translation": [
+            "မှတ်သားဘွယ်သော"
+          ]
+        }
+      ],
+      "base_form": "အဓိကရ",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အဓိက ရ",
+      "alternative": [
+        {
+          "word_postproc": "CHIEF",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Landmark",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "main",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "အဓိကရ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

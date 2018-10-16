@@ -1,0 +1,87 @@
+{
+  "sentences": [
+    {
+      "trans": "Landing Ship",
+      "orig": "ကမ်းတက်သင်္ဘော",
+      "backend": 0
+    },
+    {
+      "src_translit": "kam taat sainbhaw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "landing ship"
+      ],
+      "entry": [
+        {
+          "word": "landing ship"
+        }
+      ],
+      "base_form": "ကမ်းတက်သင်္ဘော",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကမ်း တက်",
+      "alternative": [
+        {
+          "word_postproc": "Landing",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကမ်းတက်သင်္ဘော",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "သင်္ဘော",
+      "alternative": [
+        {
+          "word_postproc": "Ship",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ships",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 14
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

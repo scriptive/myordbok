@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Seal",
+      "orig": "အန္တာပိတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aan tar pate"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "seal",
+        "cover tightly"
+      ],
+      "entry": [
+        {
+          "word": "seal",
+          "reverse_translation": [
+            "တံဆိပ်ရိုက်"
+          ]
+        }
+      ],
+      "base_form": "အန္တာပိတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အန္ တာ ပိတ်",
+      "alternative": [
+        {
+          "word_postproc": "Seal",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Cover tightly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အန္တာပိတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

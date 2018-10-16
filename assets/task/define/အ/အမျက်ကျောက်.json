@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "trans": "Gem",
+      "orig": "အမျက်ကျောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "a myet kyawwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "gem",
+        "precious stone"
+      ],
+      "entry": [
+        {
+          "word": "gem",
+          "reverse_translation": [
+            "ကေျာက်မျက်ရတနာ"
+          ],
+          "synset_id": [
+            33691
+          ]
+        }
+      ],
+      "base_form": "အမျက်ကျောက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ မျက် ကျောက်",
+      "alternative": [
+        {
+          "word_postproc": "Gem",
+          "score": 909,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Precious stone",
+          "score": 90,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "အမျက်ကျောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "Professor of Entomology",
+      "orig": "ကိမိလဗေဒပညာရှင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "ki mi l bayd panyarshin"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "entomologist"
+      ],
+      "entry": [
+        {
+          "word": "entomologist"
+        }
+      ],
+      "base_form": "ကိမိလဗေဒပညာရှင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပညာရှင်",
+      "alternative": [
+        {
+          "word_postproc": "Professor of",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Academic",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Scholar",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Expert",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Scholars",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 8,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "ကိမိလဗေဒပညာရှင်",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "ကိ မိ လ ဗေဒ",
+      "alternative": [
+        {
+          "word_postproc": "Entomology",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

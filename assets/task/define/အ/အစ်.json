@@ -1,0 +1,118 @@
+{
+  "sentences": [
+    {
+      "trans": "Israelites",
+      "orig": "အစ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aait"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "squeeze",
+        "throttle",
+        "feel tight",
+        "draw out information by subtle means",
+        "feel full due to overeating",
+        "extort",
+        "be full and fat",
+        "be bloated"
+      ],
+      "entry": [
+        {
+          "word": "squeeze",
+          "reverse_translation": [
+            "ညှစ်ဖျစ်"
+          ],
+          "synset_id": [
+            41782
+          ]
+        }
+      ],
+      "base_form": "အစ်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "small box",
+        "casket",
+        "Id",
+        "Muslim religious holiday"
+      ],
+      "entry": [
+        {
+          "word": "casket",
+          "reverse_translation": [
+            "သေတ္တာကလေး"
+          ]
+        }
+      ],
+      "base_form": "အစ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အစ်",
+      "alternative": [
+        {
+          "word_postproc": "Israelites",
+          "score": 533,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Israelite",
+          "score": 245,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The Israelites",
+          "score": 125,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the Israelite",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Israelites in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "အစ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

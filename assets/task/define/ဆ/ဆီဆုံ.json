@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "meet",
+      "orig": "ဆီဆုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "se sone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "oil-press"
+      ],
+      "entry": [
+        {
+          "word": "oil-press"
+        }
+      ],
+      "base_form": "ဆီဆုံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆုံ",
+      "alternative": [
+        {
+          "word_postproc": "meet",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "focus",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဆီဆုံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

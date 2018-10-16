@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "destiny",
+      "orig": "နဖူးစာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "n hpuuhcar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "destiny"
+      ],
+      "entry": [
+        {
+          "word": "destiny",
+          "reverse_translation": [
+            "ကြမ္မ"
+          ]
+        }
+      ],
+      "base_form": "နဖူးစာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "န ဖူးစာ",
+      "alternative": [
+        {
+          "word_postproc": "destiny",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "နဖူးစာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

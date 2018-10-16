@@ -1,0 +1,106 @@
+{
+  "sentences": [
+    {
+      "trans": "furrow",
+      "orig": "ထွန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "htwan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "till",
+        "harrow"
+      ],
+      "entry": [
+        {
+          "word": "till",
+          "score": 0.013400008
+        },
+        {
+          "word": "harrow",
+          "score": 0.010600278
+        }
+      ],
+      "base_form": "ထွန်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "harrow"
+      ],
+      "entry": [
+        {
+          "word": "harrow",
+          "score": 0.010600278
+        }
+      ],
+      "base_form": "ထွန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထွန်",
+      "alternative": [
+        {
+          "word_postproc": "furrow",
+          "score": 646,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "harrows",
+          "score": 184,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tractor",
+          "score": 121,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "plowed",
+          "score": 46,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the tractor",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ထွန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

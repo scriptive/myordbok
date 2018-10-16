@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "pure white",
+      "orig": "ဖြူဆွတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpyauu swat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "pure white"
+      ],
+      "entry": [
+        {
+          "word": "pure white"
+        }
+      ],
+      "base_form": "ဖြူဆွတ်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖြူ ဆွတ်",
+      "alternative": [
+        {
+          "word_postproc": "pure white",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဖြူဆွတ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "sentences": [
+    {
+      "trans": "Thet",
+      "orig": "သက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "saat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "life",
+        "age",
+        "breath",
+        "basic necessity",
+        "life- blood",
+        "Thet: one of the nationalities of the Union of Myanmar speaking Tibet-Myanmar and mainly inhabiting the northern part of the Rakhine State"
+      ],
+      "entry": [
+        {
+          "word": "life",
+          "reverse_translation": [
+            "အသက်"
+          ],
+          "score": 0.019803928
+        },
+        {
+          "word": "age",
+          "reverse_translation": [
+            "အသက်အရွယ်"
+          ],
+          "score": 0.012786376
+        },
+        {
+          "word": "breath",
+          "reverse_translation": [
+            "အသက်ရှူးခြင်း"
+          ],
+          "score": 0.0037796458
+        }
+      ],
+      "base_form": "သက်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "descend",
+        "dismount",
+        "fall"
+      ],
+      "entry": [
+        {
+          "word": "fall",
+          "reverse_translation": [
+            "ကျ"
+          ],
+          "synset_id": [
+            80138
+          ]
+        }
+      ],
+      "base_form": "သက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သက်",
+      "alternative": [
+        {
+          "word_postproc": "Thet",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Thessalonians",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Thess",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in terms of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "terms",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "သက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

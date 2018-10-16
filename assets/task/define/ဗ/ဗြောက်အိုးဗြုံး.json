@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Fire cracker ဗြုံး",
+      "orig": "ဗြောက်အိုးဗြုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "byawwat aoe byuan"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗြောက် အိုး",
+      "alternative": [
+        {
+          "word_postproc": "Fire cracker",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ဗြောက်အိုးဗြုံး",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "ဗြုံး",
+      "alternative": [
+        {
+          "word_postproc": "ဗြုံး",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 10,
+          "end": 15
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

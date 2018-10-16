@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Gonorrhea",
+      "orig": "ညောင်းကျရောဂါ",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyaungg kya rawgar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "gonorrhea"
+      ],
+      "entry": [
+        {
+          "word": "gonorrhea"
+        }
+      ],
+      "base_form": "ညောင်းကျရောဂါ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညောင်း ကျ ရောဂါ",
+      "alternative": [
+        {
+          "word_postproc": "Gonorrhea",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ညောင်းကျရောဂါ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

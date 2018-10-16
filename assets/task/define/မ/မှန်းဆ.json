@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "speculative",
+      "orig": "မှန်းဆ",
+      "backend": 0
+    },
+    {
+      "src_translit": "mhaanns"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "guess",
+        "conjecture."
+      ],
+      "entry": [
+        {
+          "word": "guess",
+          "reverse_translation": [
+            "တေွးဆ"
+          ],
+          "score": 0.091572434
+        }
+      ],
+      "base_form": "မှန်းဆ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မှန်းဆ",
+      "alternative": [
+        {
+          "word_postproc": "speculative",
+          "score": 995,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "guessed",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "guesses",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fresh idea",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "quicker.First",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "မှန်းဆ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

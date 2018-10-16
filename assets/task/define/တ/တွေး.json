@@ -1,0 +1,126 @@
+{
+  "sentences": [
+    {
+      "trans": "thinking",
+      "orig": "တွေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "tway"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "think",
+        "imagine",
+        "ponder",
+        "reflect",
+        "consider"
+      ],
+      "entry": [
+        {
+          "word": "think",
+          "reverse_translation": [
+            "ထင်"
+          ],
+          "synset_id": [
+            5518,
+            80708
+          ],
+          "score": 0.05136748
+        },
+        {
+          "word": "imagine",
+          "reverse_translation": [
+            "စိတ်ကူး"
+          ],
+          "synset_id": [
+            5518
+          ],
+          "score": 0.0042828997
+        },
+        {
+          "word": "reflect",
+          "reverse_translation": [
+            "ရောင်ပြန်ဟပ်"
+          ],
+          "synset_id": [
+            63131
+          ]
+        },
+        {
+          "word": "consider",
+          "reverse_translation": [
+            "စဉ်းစားဆင်ခြင်"
+          ],
+          "synset_id": [
+            80708
+          ]
+        }
+      ],
+      "base_form": "‌တွေး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တွေး",
+      "alternative": [
+        {
+          "word_postproc": "thinking",
+          "score": 872,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "think",
+          "score": 79,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "thought",
+          "score": 38,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "thoughts",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "kids",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "တွေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

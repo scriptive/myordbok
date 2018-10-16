@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Acquaintance",
+      "orig": "မျက်မှန်းတန်းမိ",
+      "backend": 0
+    },
+    {
+      "src_translit": "myet mhaann taann mi"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မျက် မှန်း တန်း မိ",
+      "alternative": [
+        {
+          "word_postproc": "Acquaintance",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "မျက်မှန်းတန်းမိ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

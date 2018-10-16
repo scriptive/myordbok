@@ -1,0 +1,95 @@
+{
+  "sentences": [
+    {
+      "trans": "cracking down",
+      "orig": "နှိမ်နင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "nhaainnainn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "suppress",
+        "put down",
+        "subdue"
+      ],
+      "entry": [
+        {
+          "word": "suppress",
+          "reverse_translation": [
+            "ဖိနှိပ်"
+          ],
+          "synset_id": [
+            8150
+          ],
+          "score": 0.020754337
+        }
+      ],
+      "base_form": "နှိမ်နင်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နှိမ်နင်း",
+      "alternative": [
+        {
+          "word_postproc": "cracking down",
+          "score": 540,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "crack down on",
+          "score": 384,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cracked down",
+          "score": 69,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a crackdown on",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cracking down on",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "နှိမ်နင်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

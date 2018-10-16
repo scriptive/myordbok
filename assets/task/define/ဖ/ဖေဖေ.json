@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "Dad",
+      "orig": "ဖေဖေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpayhpay"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "father",
+        "papa",
+        "daddy"
+      ],
+      "entry": [
+        {
+          "word": "father",
+          "reverse_translation": [
+            "ဖခင်"
+          ],
+          "score": 0.082084998
+        }
+      ],
+      "base_form": "ဖေဖေ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖေဖေ",
+      "alternative": [
+        {
+          "word_postproc": "Dad",
+          "score": 988,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "papa",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "daddy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "dad's",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဖေဖေ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

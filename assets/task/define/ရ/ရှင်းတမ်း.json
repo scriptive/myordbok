@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "statements",
+      "orig": "ရှင်းတမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "shinntam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "statement",
+        "clarification"
+      ],
+      "entry": [
+        {
+          "word": "statement",
+          "reverse_translation": [
+            "အသေအချာပေြာဆိုချက်"
+          ],
+          "score": 0.080812387
+        },
+        {
+          "word": "clarification",
+          "reverse_translation": [
+            "ကြည်လင်သန့်စေခြင်း"
+          ],
+          "score": 0.016163494
+        }
+      ],
+      "base_form": "ရှင်းတမ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရှင်းတမ်း",
+      "alternative": [
+        {
+          "word_postproc": "statements",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "statement of accounts",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "balance sheet",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "statements subject",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "customized Statement",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ရှင်းတမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

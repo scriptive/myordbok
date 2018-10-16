@@ -1,0 +1,115 @@
+{
+  "sentences": [
+    {
+      "trans": "The critics",
+      "orig": "ဝေဖန်တိကပြု",
+      "backend": 0
+    },
+    {
+      "src_translit": "wayhpaan ti k pyu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "criticise",
+        "administer"
+      ],
+      "entry": [
+        {
+          "word": "criticise",
+          "reverse_translation": [
+            "ဝေဖန်"
+          ]
+        },
+        {
+          "word": "administer",
+          "reverse_translation": [
+            "စီ၇င်အုပ်ချုပ်"
+          ]
+        }
+      ],
+      "base_form": "ဝေဖန်တိကပြု",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "က",
+      "alternative": [
+        {
+          "word_postproc": "The",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "By",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "It",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဝေဖန်တိကပြု",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဝေဖန်",
+      "alternative": [
+        {
+          "word_postproc": "critics",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "criticize",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "criticized",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

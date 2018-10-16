@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "honeycomb tripe",
+      "orig": "ပုဆိုးကြမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "pusoe kyam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "ပုဆိုး made out of coarse material",
+        "honeycomb tripe"
+      ],
+      "entry": [
+        {
+          "word": "ပုဆိုး made out of coarse material"
+        },
+        {
+          "word": "honeycomb tripe"
+        }
+      ],
+      "base_form": "ပုဆိုးကြမ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပုဆိုး ကြမ်း",
+      "alternative": [
+        {
+          "word_postproc": "honeycomb tripe",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ပုဆိုးကြမ်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

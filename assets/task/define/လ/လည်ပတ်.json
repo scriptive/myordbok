@@ -1,0 +1,136 @@
+{
+  "sentences": [
+    {
+      "trans": "visit",
+      "orig": "လည်ပတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "laipaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "collar",
+        "muffler"
+      ],
+      "entry": [
+        {
+          "word": "collar",
+          "reverse_translation": [
+            "လည်ပတ်"
+          ],
+          "synset_id": [
+            12325
+          ],
+          "score": 0.0011893183
+        },
+        {
+          "word": "muffler",
+          "reverse_translation": [
+            "လည်ပတ်"
+          ],
+          "synset_id": [
+            25100
+          ],
+          "score": 0.00058875524
+        }
+      ],
+      "base_form": "လည်ပတ်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "revolve",
+        "rotate",
+        "spin",
+        "be running",
+        "be working",
+        "be in circulation",
+        "be well-versed in",
+        "make a round of visits"
+      ],
+      "entry": [
+        {
+          "word": "rotate",
+          "reverse_translation": [
+            "လှည့်"
+          ],
+          "synset_id": [
+            51558
+          ]
+        },
+        {
+          "word": "spin",
+          "reverse_translation": [
+            "ချည်ငင်"
+          ]
+        }
+      ],
+      "base_form": "လည်ပတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လည်ပတ်",
+      "alternative": [
+        {
+          "word_postproc": "visit",
+          "score": 985,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "visits",
+          "score": 13,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "visiting",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "operating",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rotation",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "လည်ပတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Askance",
+      "orig": "စောင်းကန်းစောင်းကန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcaungg kaann hcaungg kaann"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စောင်း ကန်း စောင်း ကန်း",
+      "alternative": [
+        {
+          "word_postproc": "Askance",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 20
+        }
+      ],
+      "raw_src_segment": "စောင်းကန်းစောင်းကန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

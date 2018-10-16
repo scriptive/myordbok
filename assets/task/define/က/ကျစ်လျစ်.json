@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "compact",
+      "orig": "ကျစ်လျစ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyit lyit"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be compact",
+        "be neat and tidy",
+        "be systematic",
+        "be pithy and precise"
+      ],
+      "entry": [
+        {
+          "word": "be compact"
+        },
+        {
+          "word": "be neat and tidy"
+        },
+        {
+          "word": "be systematic"
+        },
+        {
+          "word": "be pithy and precise"
+        }
+      ],
+      "base_form": "ကျစ်လျစ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျစ် လျစ်",
+      "alternative": [
+        {
+          "word_postproc": "compact",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a compact",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "compact and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "neat and tidy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "systematic",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကျစ်လျစ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

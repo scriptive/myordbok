@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "fight",
+      "orig": "ခိုက်ရန်ဒေါသ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkiteraan daws"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "quarrel",
+        "fight"
+      ],
+      "entry": [
+        {
+          "word": "quarrel",
+          "reverse_translation": [
+            "ရန်ဖြစ်ခြင်း"
+          ]
+        },
+        {
+          "word": "fight",
+          "reverse_translation": [
+            "တိုက်ပဲွ"
+          ]
+        }
+      ],
+      "base_form": "ခိုက်ရန်ဒေါသ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခိုက်ရန် ဒေါသ",
+      "alternative": [
+        {
+          "word_postproc": "fight",
+          "score": 983,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "quarrel",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ခိုက်ရန်ဒေါသ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

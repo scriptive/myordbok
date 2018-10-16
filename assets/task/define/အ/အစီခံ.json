@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Each",
+      "orig": "အစီခံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "a hce hkan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "filter-tip"
+      ],
+      "entry": [
+        {
+          "word": "filter-tip"
+        }
+      ],
+      "base_form": "အစီခံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စီ",
+      "alternative": [
+        {
+          "word_postproc": "Each",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "အစီခံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

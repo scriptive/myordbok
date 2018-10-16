@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "Powder",
+      "orig": "အမှုန့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "a mhu an "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "powder"
+      ],
+      "entry": [
+        {
+          "word": "powder",
+          "reverse_translation": [
+            "အမှုန့်"
+          ]
+        }
+      ],
+      "base_form": "အမှုန့်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ မှု န့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Powder",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "အမှုန့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "because of his",
+      "orig": "ရိနာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "ri nar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "gleet",
+        "gonorrhoea"
+      ],
+      "entry": [
+        {
+          "word": "gleet"
+        },
+        {
+          "word": "gonorrhoea"
+        }
+      ],
+      "base_form": "ရိနာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရိ နာ",
+      "alternative": [
+        {
+          "word_postproc": "because of his",
+          "score": 895,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "And",
+          "score": 72,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "gonorrhea",
+          "score": 31,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "gleet",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of his",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ရိနာ",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

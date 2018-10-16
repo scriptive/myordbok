@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "Less forgetful",
+      "orig": "တမေ့တလျော့",
+      "backend": 0
+    },
+    {
+      "src_translit": "t mae t lyaww"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လျော့",
+      "alternative": [
+        {
+          "word_postproc": "Less",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Decrease",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Limp",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "တမေ့တလျော့",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "မေ့ တ",
+      "alternative": [
+        {
+          "word_postproc": "forgetful",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 5
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

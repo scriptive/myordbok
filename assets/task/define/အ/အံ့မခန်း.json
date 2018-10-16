@@ -1,0 +1,102 @@
+{
+  "sentences": [
+    {
+      "trans": "stunning",
+      "orig": "အံ့မခန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "aanmahkaann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "unbelievably",
+        "incredibly",
+        "in a manner which never ceases to excite wonder"
+      ],
+      "entry": [
+        {
+          "word": "unbelievably",
+          "synset_id": [
+            111099
+          ],
+          "score": 0.015666196
+        },
+        {
+          "word": "incredibly",
+          "synset_id": [
+            111099
+          ],
+          "score": 0.015666196
+        },
+        {
+          "word": "in a manner which never ceases to excite wonder"
+        }
+      ],
+      "base_form": "အံ့မခန်း",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အံ့မခန်း",
+      "alternative": [
+        {
+          "word_postproc": "stunning",
+          "score": 585,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "spectacular",
+          "score": 270,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "awesome",
+          "score": 143,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of cool",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Miracles and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "အံ့မခန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

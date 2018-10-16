@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "turban",
+      "orig": "ဗောင်းထုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "baungg htote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "turban"
+      ],
+      "entry": [
+        {
+          "word": "turban",
+          "reverse_translation": [
+            "ပန်ချာပီခေါင်းပေါင်း"
+          ]
+        }
+      ],
+      "base_form": "ဗောင်းထုပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗောင်း ထုပ်",
+      "alternative": [
+        {
+          "word_postproc": "turban",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ဗောင်းထုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

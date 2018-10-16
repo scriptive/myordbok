@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Latvian banana",
+      "orig": "ဆင်အံငှက်ပျော",
+      "backend": 0
+    },
+    {
+      "src_translit": "sain aan nghaat pyaww"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အံ",
+      "alternative": [
+        {
+          "word_postproc": "Latvian",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Denture",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Molar",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Fit",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "STUDIES",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဆင်အံငှက်ပျော",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ငှက် ပျော",
+      "alternative": [
+        {
+          "word_postproc": "banana",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 13
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

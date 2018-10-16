@@ -1,0 +1,103 @@
+{
+  "sentences": [
+    {
+      "trans": "Explore",
+      "orig": "စူးစမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcuuhcam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "investigate",
+        "enquire"
+      ],
+      "entry": [
+        {
+          "word": "investigate",
+          "reverse_translation": [
+            "စစ်ဆေး"
+          ],
+          "synset_id": [
+            3074
+          ],
+          "score": 0.012588142
+        },
+        {
+          "word": "enquire",
+          "reverse_translation": [
+            "မေးမြန်း"
+          ],
+          "synset_id": [
+            3074
+          ]
+        }
+      ],
+      "base_form": "စူးစမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စူးစမ်း",
+      "alternative": [
+        {
+          "word_postproc": "Explore",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to spy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to explore",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "explored",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "explore the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "စူးစမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

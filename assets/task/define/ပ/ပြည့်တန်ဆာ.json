@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "prostitute",
+      "orig": "ပြည့်တန်ဆာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyi taansar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "prostitute"
+      ],
+      "entry": [
+        {
+          "word": "prostitute",
+          "reverse_translation": [
+            "ပြည့်တန်ဆာ"
+          ],
+          "synset_id": [
+            40027
+          ]
+        }
+      ],
+      "base_form": "ပြည့်တန်ဆာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြည့် တန်ဆာ",
+      "alternative": [
+        {
+          "word_postproc": "prostitute",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a prostitute",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "harlot and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "prostitutes",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ပြည့်တန်ဆာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

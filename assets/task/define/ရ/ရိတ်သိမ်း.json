@@ -1,0 +1,96 @@
+{
+  "sentences": [
+    {
+      "trans": "harvest",
+      "orig": "ရိတ်သိမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "rate saim"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "reap",
+        "harvest"
+      ],
+      "entry": [
+        {
+          "word": "reap",
+          "synset_id": [
+            51012
+          ]
+        },
+        {
+          "word": "harvest",
+          "synset_id": [
+            51012
+          ]
+        }
+      ],
+      "base_form": "ရိတ်သိမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရိတ် သိမ်း",
+      "alternative": [
+        {
+          "word_postproc": "harvest",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "harvested",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "harvesting",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the Harvest",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "are harvested",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ရိတ်သိမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

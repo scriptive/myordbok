@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "whip",
+      "orig": "ကျာပွတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaar pwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "whip"
+      ],
+      "entry": [
+        {
+          "word": "whip",
+          "reverse_translation": [
+            "နှင်တံ"
+          ]
+        }
+      ],
+      "base_form": "ကျာပွတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျာ ပွတ်",
+      "alternative": [
+        {
+          "word_postproc": "whip",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကျာပွတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

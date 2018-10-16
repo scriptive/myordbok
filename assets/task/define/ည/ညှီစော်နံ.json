@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Smell rank",
+      "orig": "ညှီစော်နံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyhae hcaw nan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "smell rank"
+      ],
+      "entry": [
+        {
+          "word": "smell rank"
+        }
+      ],
+      "base_form": "ညှီစော်နံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညှီ စော် နံ",
+      "alternative": [
+        {
+          "word_postproc": "Smell rank",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ညှီစော်နံ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

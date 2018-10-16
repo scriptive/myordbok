@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "a crown",
+      "orig": "ကွပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kwut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "control",
+        "hold together",
+        "discipline",
+        "supress",
+        "admonish",
+        "castrate",
+        "geld",
+        "execute someone by royal order",
+        "line, border, bind the edges"
+      ],
+      "entry": [
+        {
+          "word": "control",
+          "reverse_translation": [
+            "ကြီးကြပ်"
+          ],
+          "score": 0.0072854576
+        },
+        {
+          "word": "castrate",
+          "reverse_translation": [
+            "သင်း"
+          ],
+          "score": 0.0028979548
+        }
+      ],
+      "base_form": "ကွပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကွပ်",
+      "alternative": [
+        {
+          "word_postproc": "a crown",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a crown of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "crown of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a border of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကွပ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

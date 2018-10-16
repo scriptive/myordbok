@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "self Help",
+      "orig": "ကိုယ်ထူကိုယ်ထ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kohtuukoht"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "on a self-help basis"
+      ],
+      "entry": [
+        {
+          "word": "on a self-help basis"
+        }
+      ],
+      "base_form": "ကိုယ်ထူကိုယ်ထ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိုယ်ထူကိုယ်ထ",
+      "alternative": [
+        {
+          "word_postproc": "self Help",
+          "score": 994,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "anchoring",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "self",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "living off",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ကိုယ်ထူကိုယ်ထ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

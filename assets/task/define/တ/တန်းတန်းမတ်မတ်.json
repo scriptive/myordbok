@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "straight",
+      "orig": "တန်းတန်းမတ်မတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "taanntaannmaatmaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "straight"
+      ],
+      "entry": [
+        {
+          "word": "straight",
+          "reverse_translation": [
+            "တည့်တည့်"
+          ],
+          "score": 0.40403652
+        }
+      ],
+      "base_form": "တန်းတန်းမတ်မတ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တန်းတန်းမတ်မတ်",
+      "alternative": [
+        {
+          "word_postproc": "straight",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "တန်းတန်းမတ်မတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

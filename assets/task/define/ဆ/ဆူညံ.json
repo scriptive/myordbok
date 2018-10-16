@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "noise",
+      "orig": "ဆူညံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "suunyan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be noisy",
+        "clamour"
+      ],
+      "entry": [
+        {
+          "word": "be noisy"
+        },
+        {
+          "word": "clamour"
+        }
+      ],
+      "base_form": "ဆူညံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆူညံ",
+      "alternative": [
+        {
+          "word_postproc": "noise",
+          "score": 967,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "noisy",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a noisy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the noise levels",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဆူညံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

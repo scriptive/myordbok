@@ -1,0 +1,53 @@
+{
+  "sentences": [
+    {
+      "trans": "Show off",
+      "orig": "ခေါင်းပေါင်းစထောင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaunggpaungg hc htaung"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခေါင်းပေါင်း စ ထောင်",
+      "alternative": [
+        {
+          "word_postproc": "Show off",
+          "score": 893,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Off",
+          "score": 106,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 18
+        }
+      ],
+      "raw_src_segment": "ခေါင်းပေါင်းစထောင်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

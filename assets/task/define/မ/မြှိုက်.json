@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "singe",
+      "orig": "မြှိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "myahaite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "singe",
+        "scorch",
+        "cheat",
+        "deceive"
+      ],
+      "entry": [
+        {
+          "word": "cheat",
+          "reverse_translation": [
+            "လိမ်လည်"
+          ],
+          "score": 0.12516467
+        },
+        {
+          "word": "deceive",
+          "reverse_translation": [
+            "လှည့်ဖြား"
+          ],
+          "score": 0.12516467
+        }
+      ],
+      "base_form": "မြှိုက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မြှိုက်",
+      "alternative": [
+        {
+          "word_postproc": "singe",
+          "score": 984,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "scorch",
+          "score": 13,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cheat",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "deceive",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "မြှိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "Red",
+      "orig": "နီကြန့်ကြန့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "ne kya an  kya an "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "reddish"
+      ],
+      "entry": [
+        {
+          "word": "reddish",
+          "reverse_translation": [
+            "ခတ်နီနီဖြစ်သော"
+          ]
+        }
+      ],
+      "base_form": "နီကြန့်ကြန့်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နီ",
+      "alternative": [
+        {
+          "word_postproc": "Red",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "နီကြန့်ကြန့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

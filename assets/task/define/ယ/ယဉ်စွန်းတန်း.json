@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Tropic",
+      "orig": "ယဉ်စွန်းတန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "yain hcwann taann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "tropic",
+        "line of latitude 23 degrees 30 minutes north,south of the equator"
+      ],
+      "entry": [
+        {
+          "word": "tropic"
+        },
+        {
+          "word": "line of latitude 23 degrees 30 minutes north,south of the equator"
+        }
+      ],
+      "base_form": "ယဉ်စွန်းတန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယဉ် စွန်း တန်း",
+      "alternative": [
+        {
+          "word_postproc": "Tropic",
+          "score": 984,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ယဉ်စွန်းတန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

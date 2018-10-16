@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Emaciated person",
+      "orig": "ရှူနာရှိုက်ကုန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "shuu nar shite kone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "emaciated person"
+      ],
+      "entry": [
+        {
+          "word": "emaciated person"
+        }
+      ],
+      "base_form": "ရှူနာရှိုက်ကုန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရှူ နာ ရှိုက် ကုန်း",
+      "alternative": [
+        {
+          "word_postproc": "Emaciated person",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "ရှူနာရှိုက်ကုန်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

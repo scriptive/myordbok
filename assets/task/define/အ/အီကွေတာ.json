@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "Equatorial",
+      "orig": "အီကွေတာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "ae kway tar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "ကမ္ဘာ့ဝင်ရိုးစွန်းနှစ်ခုတို့မှ အညီအမျှကွာဝေးသော ကမ္ဘာ့မြေပြင်၏ ဗဟိုတွင်စိတ်မှန်းဖြင့် ရှေ့နောက်ဆွဲထားသောမျဉ်း။"
+      ],
+      "entry": [
+        {
+          "word": "ကမ္ဘာ့ဝင်ရိုးစွန်းနှစ်ခုတို့မှ အညီအမျှကွာဝေးသော ကမ္ဘာ့မြေပြင်၏ ဗဟိုတွင်စိတ်မှန်းဖြင့် ရှေ့နောက်ဆွဲထားသောမျဉ်း။"
+        }
+      ],
+      "base_form": "အီကွေတာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အီ ကွေ တာ",
+      "alternative": [
+        {
+          "word_postproc": "Equatorial",
+          "score": 993,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The equator",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Equator",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The equator and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Equator and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "အီကွေတာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "sentences": [
+    {
+      "trans": "thread",
+      "orig": "ကုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "string",
+        "thread",
+        "compose"
+      ],
+      "entry": [
+        {
+          "word": "string",
+          "synset_id": [
+            8301
+          ],
+          "score": 0.031155951
+        },
+        {
+          "word": "thread",
+          "synset_id": [
+            8301
+          ],
+          "score": 0.023153137
+        },
+        {
+          "word": "compose",
+          "score": 0.015423315
+        }
+      ],
+      "base_form": "ကုံး",
+      "pos_enum": 2
+    },
+    {
+      "pos": "particle",
+      "terms": [
+        "numerical classifier used in counting garlands,necklaces,etc"
+      ],
+      "entry": [
+        {
+          "word": "numerical classifier used in counting garlands,necklaces,etc"
+        }
+      ],
+      "base_form": "ကုံး",
+      "pos_enum": 19
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကုံး",
+      "alternative": [
+        {
+          "word_postproc": "thread",
+          "score": 989,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "composition",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "string",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "compose",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "composed by",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကုံး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

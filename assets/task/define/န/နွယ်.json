@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "Nwe",
+      "orig": "နွယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nwal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "vine",
+        "creeper",
+        "lineage"
+      ],
+      "entry": [
+        {
+          "word": "vine",
+          "reverse_translation": [
+            "စဗျစ်နွယ်"
+          ],
+          "score": 0.0036633583
+        }
+      ],
+      "base_form": "နွယ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နွယ်",
+      "alternative": [
+        {
+          "word_postproc": "Nwe",
+          "score": 658,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tribes",
+          "score": 196,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the tribes",
+          "score": 103,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "offspring",
+          "score": 35,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the offspring",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "နွယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

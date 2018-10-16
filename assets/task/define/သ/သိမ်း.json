@@ -1,0 +1,189 @@
+{
+  "sentences": [
+    {
+      "trans": "save",
+      "orig": "သိမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "saim"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "gather in",
+        "end",
+        "selvedge",
+        "hem",
+        "trim",
+        "hold",
+        "check",
+        "retain",
+        "close",
+        "conclude",
+        "keep",
+        "withdraw",
+        "confiscate",
+        "take possession of",
+        "pack up",
+        "collect",
+        "take in",
+        "keep by"
+      ],
+      "entry": [
+        {
+          "word": "hold",
+          "reverse_translation": [
+            "ကိုင်"
+          ],
+          "synset_id": [
+            28917,
+            53760,
+            98355
+          ]
+        },
+        {
+          "word": "check",
+          "reverse_translation": [
+            "စစ်ဆေး"
+          ],
+          "synset_id": [
+            28917
+          ]
+        },
+        {
+          "word": "retain",
+          "reverse_translation": [
+            "လက်ရှိထား"
+          ],
+          "synset_id": [
+            53760,
+            68233
+          ]
+        },
+        {
+          "word": "close",
+          "reverse_translation": [
+            "ပိတ်"
+          ],
+          "synset_id": [
+            70338
+          ]
+        },
+        {
+          "word": "conclude",
+          "reverse_translation": [
+            "ကောက်ချက်ချ"
+          ],
+          "synset_id": [
+            70338
+          ]
+        },
+        {
+          "word": "keep",
+          "reverse_translation": [
+            "သိုထား"
+          ],
+          "synset_id": [
+            68233,
+            98355
+          ]
+        },
+        {
+          "word": "confiscate",
+          "reverse_translation": [
+            "သိမ်းယူ"
+          ]
+        },
+        {
+          "word": "collect",
+          "reverse_translation": [
+            "စုဝေး"
+          ],
+          "synset_id": [
+            73326
+          ]
+        }
+      ],
+      "base_form": "သိမ်း",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "falcon"
+      ],
+      "entry": [
+        {
+          "word": "falcon",
+          "reverse_translation": [
+            "သိမ်းငှက်"
+          ]
+        }
+      ],
+      "base_form": "သိမ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သိမ်း",
+      "alternative": [
+        {
+          "word_postproc": "save",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "gather",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "captivity",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "into exile",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "captive",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "သိမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

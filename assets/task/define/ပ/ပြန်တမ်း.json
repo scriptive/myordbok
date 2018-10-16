@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "Gazette",
+      "orig": "ပြန်တမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyantam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "gazette",
+        "notification",
+        "King's order promulgated by the \"Hluttaw\""
+      ],
+      "entry": [
+        {
+          "word": "notification",
+          "reverse_translation": [
+            "ကေြာ်ြငာခြင်း"
+          ],
+          "score": 0.030197384
+        }
+      ],
+      "base_form": "ပြန်တမ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြန်တမ်း",
+      "alternative": [
+        {
+          "word_postproc": "Gazette",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Bulletin",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "notification",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "royal",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Commissioned civil servants",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ပြန်တမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

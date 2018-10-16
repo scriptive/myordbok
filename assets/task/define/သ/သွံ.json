@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "useless",
+      "orig": "သွံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "swan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "inferior",
+        "useless"
+      ],
+      "entry": [
+        {
+          "word": "inferior",
+          "reverse_translation": [
+            "အောက်သော"
+          ],
+          "score": 0.2528396
+        },
+        {
+          "word": "useless",
+          "reverse_translation": [
+            "အသုံးမဝင်သော"
+          ],
+          "score": 0.2528396
+        }
+      ],
+      "base_form": "သွံ",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သွံ",
+      "alternative": [
+        {
+          "word_postproc": "useless",
+          "score": 995,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "inferior",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "သွံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "shots",
+      "orig": "ခမျာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkamyaar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "pronoun",
+      "terms": [
+        "word conveying the sense that the person,being referred to is worthy of one's sympathy (it is usually suffixed to a person,a living being and may sometimes be used independently in the manner of a pronoun. In usage it is comparable to the adjective"
+      ],
+      "entry": [
+        {
+          "word": "word conveying the sense that the person,being referred to is worthy of one's sympathy (it is usually suffixed to a person,a living being and may sometimes be used independently in the manner of a pronoun. In usage it is comparable to the adjective"
+        }
+      ],
+      "base_form": "ခမျာ",
+      "pos_enum": 8
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခမျာ",
+      "alternative": [
+        {
+          "word_postproc": "shots",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "taking",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "is taking place",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "taking place",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "is taking",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ခမျာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

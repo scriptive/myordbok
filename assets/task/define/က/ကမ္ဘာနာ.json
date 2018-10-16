@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "world",
+      "orig": "ကမ္ဘာနာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kambhar nar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "diseases such as mumps,pox which have been the bane of mankind: scourge",
+        "plague"
+      ],
+      "entry": [
+        {
+          "word": "plague",
+          "reverse_translation": [
+            "ကပ်ရောဂါ"
+          ]
+        }
+      ],
+      "base_form": "ကမ္ဘာနာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကမ္ဘာ",
+      "alternative": [
+        {
+          "word_postproc": "world",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Earth",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the world",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကမ္ဘာနာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

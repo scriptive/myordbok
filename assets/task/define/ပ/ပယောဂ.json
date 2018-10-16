@@ -1,0 +1,110 @@
+{
+  "sentences": [
+    {
+      "trans": "intrigue",
+      "orig": "ပယောဂ",
+      "backend": 0
+    },
+    {
+      "src_translit": "payawg"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "instigation",
+        "deed",
+        "handiwork",
+        "witchcraft",
+        "sorcery",
+        "intrigue"
+      ],
+      "entry": [
+        {
+          "word": "deed",
+          "reverse_translation": [
+            "စာချုပ်",
+            "အပြုအမူ"
+          ],
+          "score": 0.016939197
+        },
+        {
+          "word": "witchcraft",
+          "reverse_translation": [
+            "စုန်းအတတ်"
+          ],
+          "score": 0.016939197
+        },
+        {
+          "word": "intrigue",
+          "reverse_translation": [
+            "ပယောဂ"
+          ],
+          "score": 0.016939197
+        }
+      ],
+      "base_form": "ပယောဂ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပယောဂ",
+      "alternative": [
+        {
+          "word_postproc": "intrigue",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "motives instigated",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "handiwork",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "deed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "instigation",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ပယောဂ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

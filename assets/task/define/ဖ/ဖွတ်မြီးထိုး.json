@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Braid",
+      "orig": "ဖွတ်မြီးထိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpwat myee htoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "ချည်စသည်သုံးပင်သုံးလွန်းကိုတစ်ပင်နှင့်တစ်ပင်ကျော်နင်းယှက်တင်၍ဖွဲ့သည်။",
+        "braid"
+      ],
+      "entry": [
+        {
+          "word": "braid",
+          "reverse_translation": [
+            "ဖွတ်မြီးထိုး"
+          ]
+        }
+      ],
+      "base_form": "ဖွတ်မြီးထိုး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖွတ် မြီး ထိုး",
+      "alternative": [
+        {
+          "word_postproc": "Braid",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ဖွတ်မြီးထိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

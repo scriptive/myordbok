@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "resourcefully",
+      "orig": "ကြံကြံဖန်ဖန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaankyaanhpaanhpaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "ingeniously",
+        "resourcefully"
+      ],
+      "entry": [
+        {
+          "word": "ingeniously",
+          "score": 0.28650481
+        },
+        {
+          "word": "resourcefully",
+          "score": 0.28650481
+        }
+      ],
+      "base_form": "ကြံကြံဖန်ဖန်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြံကြံဖန်ဖန်",
+      "alternative": [
+        {
+          "word_postproc": "resourcefully",
+          "score": 760,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Alien",
+          "score": 234,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ingeniously",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ကြံကြံဖန်ဖန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

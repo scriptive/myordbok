@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "himself",
+      "orig": "အုံ့ပုန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "aonepone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "secretive person",
+        "to himself",
+        "person who keeps his thoughts"
+      ],
+      "entry": [
+        {
+          "word": "secretive person",
+          "score": 0.20001258
+        },
+        {
+          "word": "to himself",
+          "score": 0.20001258
+        },
+        {
+          "word": "person who keeps his thoughts"
+        }
+      ],
+      "base_form": "အုံ့ပုန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အုံ့ပုန်း",
+      "alternative": [
+        {
+          "word_postproc": "himself",
+          "score": 928,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to himself",
+          "score": 70,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "secretive person",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အုံ့ပုန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

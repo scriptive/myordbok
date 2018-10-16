@@ -1,0 +1,106 @@
+{
+  "sentences": [
+    {
+      "trans": "sweepingly",
+      "orig": "သိမ်းကျုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "saimkyaone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "indiscriminately",
+        "sweepingly"
+      ],
+      "entry": [
+        {
+          "word": "indiscriminately",
+          "score": 0.060054667
+        },
+        {
+          "word": "sweepingly",
+          "score": 0.030197384
+        }
+      ],
+      "base_form": "သိမ်းကျုံး",
+      "pos_enum": 4
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "gather up"
+      ],
+      "entry": [
+        {
+          "word": "gather up",
+          "score": 0.030197384
+        }
+      ],
+      "base_form": "သိမ်းကျုံး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သိမ်းကျုံး",
+      "alternative": [
+        {
+          "word_postproc": "sweepingly",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "indiscriminately",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sweep",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "gather up",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "gather",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "သိမ်းကျုံး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

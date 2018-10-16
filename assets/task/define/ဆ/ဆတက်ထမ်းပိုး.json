@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Many times over",
+      "orig": "ဆတက်ထမ်းပိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "s taat htam poe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "many times over"
+      ],
+      "entry": [
+        {
+          "word": "many times over"
+        }
+      ],
+      "base_form": "ဆတက်ထမ်းပိုး",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆ တက် ထမ်း ပိုး",
+      "alternative": [
+        {
+          "word_postproc": "Many times over",
+          "score": 994,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Times over",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ဆတက်ထမ်းပိုး",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

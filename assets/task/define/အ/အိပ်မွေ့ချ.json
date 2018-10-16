@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "Hypnotise",
+      "orig": "အိပ်မွေ့ချ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aiut mwae hkya"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "hypnotise",
+        "mesmerise"
+      ],
+      "entry": [
+        {
+          "word": "hypnotise",
+          "synset_id": [
+            39125
+          ]
+        },
+        {
+          "word": "mesmerise",
+          "synset_id": [
+            39125
+          ]
+        }
+      ],
+      "base_form": "အိပ်မွေ့ချ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အိပ် မွေ့ ချ",
+      "alternative": [
+        {
+          "word_postproc": "Hypnotise",
+          "score": 880,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Mesmerise",
+          "score": 108,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Trance",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "အိပ်မွေ့ချ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

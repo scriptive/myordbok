@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "appetite",
+      "orig": "ခံတွင်းတွေ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkantwin twae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "relish",
+        "recover one's appetite",
+        "appreciate"
+      ],
+      "entry": [
+        {
+          "word": "appreciate",
+          "reverse_translation": [
+            "အလေးအမြတ်ပြု"
+          ]
+        }
+      ],
+      "base_form": "ခံတွင်းတွေ့",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခံတွင်း တွေ့",
+      "alternative": [
+        {
+          "word_postproc": "appetite",
+          "score": 948,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "relish",
+          "score": 51,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "appeal",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "appreciate",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "appeal to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ခံတွင်းတွေ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "sentences": [
+    {
+      "trans": "Direction",
+      "orig": "ဦးတည်ချက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "u tai hkyet"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "aim",
+        "objective",
+        "goal"
+      ],
+      "entry": [
+        {
+          "word": "aim",
+          "reverse_translation": [
+            "ရည်ရွယ်ချက်"
+          ],
+          "synset_id": [
+            87521
+          ]
+        },
+        {
+          "word": "goal",
+          "reverse_translation": [
+            "ဂိုး",
+            "ရည်မှန်းချက်"
+          ]
+        }
+      ],
+      "base_form": "ဦးတည်ချက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဦး တည် ချက်",
+      "alternative": [
+        {
+          "word_postproc": "Direction",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Focus",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ဦးတည်ချက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "conversant with",
+      "orig": "ပွန်းတီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "pwann tee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be skilled",
+        "be conversant with",
+        "be familiar with"
+      ],
+      "entry": [
+        {
+          "word": "be skilled"
+        },
+        {
+          "word": "be conversant with"
+        },
+        {
+          "word": "be familiar with"
+        }
+      ],
+      "base_form": "ပွန်းတီး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပွန်း တီး",
+      "alternative": [
+        {
+          "word_postproc": "conversant with",
+          "score": 523,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "conversant",
+          "score": 475,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "skilled",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "familiar with",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "familiar",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ပွန်းတီး",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

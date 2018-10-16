@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "The analogy",
+      "orig": "ဥဒါဟရုဏ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "u dar h run"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "သိသာထင်ရှားစေရန် ထုတ်ဆောင်ပြချက်။"
+      ],
+      "entry": [
+        {
+          "word": "သိသာထင်ရှားစေရန် ထုတ်ဆောင်ပြချက်။"
+        }
+      ],
+      "base_form": "ဥဒါဟရုဏ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဥ",
+      "alternative": [
+        {
+          "word_postproc": "The",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Egg",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Eggs",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 1
+        }
+      ],
+      "raw_src_segment": "ဥဒါဟရုဏ်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဟ ရုဏ်",
+      "alternative": [
+        {
+          "word_postproc": "analogy",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 8
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

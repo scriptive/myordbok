@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Gruffly",
+      "orig": "ငေါက်ဆတ်ဆတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "ngout saat saat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "gruffly",
+        "in a gruff voice"
+      ],
+      "entry": [
+        {
+          "word": "gruffly"
+        },
+        {
+          "word": "in a gruff voice"
+        }
+      ],
+      "base_form": "ငေါက်ဆတ်ဆတ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ငေါက် ဆတ် ဆတ်",
+      "alternative": [
+        {
+          "word_postproc": "Gruffly",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ငေါက်ဆတ်ဆတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

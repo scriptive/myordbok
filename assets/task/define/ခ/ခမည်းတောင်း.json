@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Father",
+      "orig": "ခမည်းတောင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hk maee taungg"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "request a small token gift from an older relative,friend toward off,cure some kind of distress,ailment"
+      ],
+      "entry": [
+        {
+          "word": "request a small token gift from an older relative,friend toward off,cure some kind of distress,ailment"
+        }
+      ],
+      "base_form": "ခ‌မည်းတောင်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခ မည်း",
+      "alternative": [
+        {
+          "word_postproc": "Father",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ခမည်းတောင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

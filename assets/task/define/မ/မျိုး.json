@@ -1,0 +1,185 @@
+{
+  "sentences": [
+    {
+      "trans": "kind of",
+      "orig": "မျိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "myoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "kind",
+        "type",
+        "species",
+        "seed",
+        "category",
+        "class",
+        "pedigree",
+        "race",
+        "breed",
+        "strain",
+        "variety",
+        "germ",
+        "gene",
+        "state of pregnancy"
+      ],
+      "entry": [
+        {
+          "word": "kind",
+          "reverse_translation": [
+            "အမျိုးအစား"
+          ],
+          "synset_id": [
+            109842
+          ],
+          "score": 0.046045512
+        },
+        {
+          "word": "type",
+          "reverse_translation": [
+            "ပုံစံ",
+            "ပုံနှိပ်စာ"
+          ],
+          "score": 0.010936768
+        },
+        {
+          "word": "seed",
+          "reverse_translation": [
+            "အစေ့"
+          ],
+          "synset_id": [
+            109360
+          ],
+          "score": 0.0027223767
+        },
+        {
+          "word": "category",
+          "reverse_translation": [
+            "အမျိုးအစား"
+          ],
+          "synset_id": [
+            74094
+          ]
+        },
+        {
+          "word": "class",
+          "reverse_translation": [
+            "အမျိုးအစား"
+          ],
+          "synset_id": [
+            74094
+          ]
+        },
+        {
+          "word": "race",
+          "reverse_translation": [
+            "လူမျိုး",
+            "အပေြးပြိုင်ပဲွ"
+          ]
+        },
+        {
+          "word": "breed",
+          "reverse_translation": [
+            "အမျိုး"
+          ],
+          "synset_id": [
+            26068
+          ]
+        },
+        {
+          "word": "strain",
+          "reverse_translation": [
+            "တင်းအောင်ဆဲွခြင်း"
+          ],
+          "synset_id": [
+            26068
+          ]
+        },
+        {
+          "word": "variety",
+          "reverse_translation": [
+            "အမျိုးမျိုး"
+          ],
+          "synset_id": [
+            109842
+          ]
+        },
+        {
+          "word": "germ",
+          "reverse_translation": [
+            "အစ"
+          ],
+          "synset_id": [
+            109360
+          ]
+        }
+      ],
+      "base_form": "မျိုး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မျိုး",
+      "alternative": [
+        {
+          "word_postproc": "kind of",
+          "score": 587,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "kind",
+          "score": 282,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sort of",
+          "score": 67,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Myo",
+          "score": 63,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "kinds",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "မျိုး",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

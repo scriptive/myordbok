@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "blind",
+      "orig": "မျိုးကန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "myoe kaann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be no longer productive"
+      ],
+      "entry": [
+        {
+          "word": "be no longer productive"
+        }
+      ],
+      "base_form": "မျိုးကန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကန်း",
+      "alternative": [
+        {
+          "word_postproc": "blind",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "မျိုးကန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

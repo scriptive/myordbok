@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "Collapse",
+      "orig": "ဗုန်းဗုန်းလဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "bone bone lell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "collapse"
+      ],
+      "entry": [
+        {
+          "word": "collapse",
+          "reverse_translation": [
+            "ပြိုကဲ"
+          ]
+        }
+      ],
+      "base_form": "ဗုန်းဗုန်းလဲ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗုန်း ဗုန်း လဲ",
+      "alternative": [
+        {
+          "word_postproc": "Collapse",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ဗုန်းဗုန်းလဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

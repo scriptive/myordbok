@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Crops",
+      "orig": "လယ်ခွန်ယာနက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "laal hkwan yar naat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "crops"
+      ],
+      "entry": [
+        {
+          "word": "crops"
+        }
+      ],
+      "base_form": "လယ်ခွန်ယာနက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လယ် ခွန် ယာ နက်",
+      "alternative": [
+        {
+          "word_postproc": "Crops",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "လယ်ခွန်ယာနက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

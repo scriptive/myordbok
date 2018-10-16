@@ -1,0 +1,117 @@
+{
+  "sentences": [
+    {
+      "trans": "common",
+      "orig": "ဘုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "bhone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "realm",
+        "plane of existence",
+        "level in a tiered, spire-like roof",
+        "sth belonging to a community",
+        "public property"
+      ],
+      "entry": [
+        {
+          "word": "realm",
+          "score": 0.020115795
+        },
+        {
+          "word": "plane of existence"
+        },
+        {
+          "word": "level in a tiered, spire-like roof"
+        },
+        {
+          "word": "sth belonging to a community"
+        },
+        {
+          "word": "public property"
+        }
+      ],
+      "base_form": "ဘုံ",
+      "pos_enum": 1
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "communal"
+      ],
+      "entry": [
+        {
+          "word": "communal",
+          "score": 0.0037210477
+        }
+      ],
+      "base_form": "ဘုံ",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘုံ",
+      "alternative": [
+        {
+          "word_postproc": "common",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a common",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the common",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "realm",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of common",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဘုံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

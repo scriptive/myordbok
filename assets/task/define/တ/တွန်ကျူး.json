@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "to sing",
+      "orig": "တွန်ကျူး",
+      "backend": 0
+    },
+    {
+      "src_translit": "twan kyauu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "sing sweetly"
+      ],
+      "entry": [
+        {
+          "word": "sing sweetly"
+        }
+      ],
+      "base_form": "တွန်ကျူး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တွန် ကျူး",
+      "alternative": [
+        {
+          "word_postproc": "to sing",
+          "score": 924,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sing",
+          "score": 71,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sing sweetly",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "တွန်ကျူး",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

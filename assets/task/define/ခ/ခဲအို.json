@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "trans": "brother-in-law",
+      "orig": "ခဲအို",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkellao"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "brother- in law",
+        "brother-in-law"
+      ],
+      "entry": [
+        {
+          "word": "brother-in-law",
+          "reverse_translation": [
+            "ခဲအို",
+            "ခဲအို",
+            "မတ်",
+            "မယားညီအစ်ကို"
+          ]
+        }
+      ],
+      "base_form": "ခဲအို",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခဲအို",
+      "alternative": [
+        {
+          "word_postproc": "brother-in-law",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "brother- in law",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ခဲအို",
+      "start_pos": 0,
+      "end_pos": 5
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "Tender",
+      "orig": "ယုယ",
+      "backend": 0
+    },
+    {
+      "src_translit": "yuy"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "treat tenderly and fondly",
+        "make much of"
+      ],
+      "entry": [
+        {
+          "word": "treat tenderly and fondly",
+          "score": 0.013400008
+        },
+        {
+          "word": "make much of",
+          "score": 0.013400008
+        }
+      ],
+      "base_form": "ယုယ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယုယ",
+      "alternative": [
+        {
+          "word_postproc": "Tender",
+          "score": 733,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The Tender",
+          "score": 265,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Is tender",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of tender",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "make much of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ယုယ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

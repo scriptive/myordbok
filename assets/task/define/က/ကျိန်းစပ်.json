@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "irritation",
+      "orig": "ကျိန်းစပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyane hcaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "smart",
+        "be sore from friction"
+      ],
+      "entry": [
+        {
+          "word": "smart"
+        },
+        {
+          "word": "be sore from friction"
+        }
+      ],
+      "base_form": "ကျိန်းစပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျိန်း စပ်",
+      "alternative": [
+        {
+          "word_postproc": "irritation",
+          "score": 985,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "irritations",
+          "score": 14,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "smart",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sore from friction",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကျိန်းစပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

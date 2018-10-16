@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "obligations",
+      "orig": "ဝတ္တရား",
+      "backend": 0
+    },
+    {
+      "src_translit": "wattararr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "duty",
+        "responsibility"
+      ],
+      "entry": [
+        {
+          "word": "duty",
+          "reverse_translation": [
+            "တာဝန်",
+            "အကောက်"
+          ],
+          "synset_id": [
+            80424
+          ],
+          "score": 0.073580518
+        },
+        {
+          "word": "responsibility",
+          "reverse_translation": [
+            "တာဝန်"
+          ],
+          "synset_id": [
+            80424
+          ],
+          "score": 0.031646587
+        }
+      ],
+      "base_form": "ဝတ္တရား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝတ္တရား",
+      "alternative": [
+        {
+          "word_postproc": "obligations",
+          "score": 615,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "screw",
+          "score": 248,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "duty",
+          "score": 132,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to screw",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "responsibility",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဝတ္တရား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

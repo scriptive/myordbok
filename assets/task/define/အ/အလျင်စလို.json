@@ -1,0 +1,103 @@
+{
+  "sentences": [
+    {
+      "trans": "rush",
+      "orig": "အလျင်စလို",
+      "backend": 0
+    },
+    {
+      "src_translit": "aalyinhcalo"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "hastily",
+        "urgently",
+        "hurriedly"
+      ],
+      "entry": [
+        {
+          "word": "hastily",
+          "synset_id": [
+            21506
+          ],
+          "score": 0.03758125
+        },
+        {
+          "word": "urgently",
+          "score": 0.021413151
+        },
+        {
+          "word": "hurriedly",
+          "synset_id": [
+            21506
+          ],
+          "score": 0.010600278
+        }
+      ],
+      "base_form": "အလျင်စလို",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အလျင်စလို",
+      "alternative": [
+        {
+          "word_postproc": "rush",
+          "score": 605,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hasty",
+          "score": 250,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "expedite",
+          "score": 143,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rush into",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "not rush",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အလျင်စလို",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "measure",
+      "orig": "တိုင်းတာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "tine tar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "measure: gauge: compare",
+        "dial",
+        "measure"
+      ],
+      "entry": [
+        {
+          "word": "dial",
+          "reverse_translation": [
+            "တိုင်းတာ"
+          ]
+        },
+        {
+          "word": "measure",
+          "reverse_translation": [
+            "တိုင်းတာ"
+          ]
+        }
+      ],
+      "base_form": "တိုင်းတာ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တိုင်း တာ",
+      "alternative": [
+        {
+          "word_postproc": "measure",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "measured",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "measured by",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "is measured",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "measure the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "တိုင်းတာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "trans": "Yes",
+      "orig": "ဟုတ်",
+      "backend": 1
+    },
+    {
+      "src_translit": "hote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be true",
+        "be a fact",
+        "succeed",
+        "be successful",
+        "be accomplished"
+      ],
+      "entry": [
+        {
+          "word": "succeed",
+          "reverse_translation": [
+            "နောက်ဆက် ၊ အောင်မြင်"
+          ]
+        }
+      ],
+      "base_form": "ဟုတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဟုတ်",
+      "alternative": [
+        {
+          "word_postproc": "Yes",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Yup",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဟုတ်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

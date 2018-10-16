@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "Po",
+      "orig": "ဖိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "",
+      "terms": [
+        "word prefixed to the name of a male to show affection"
+      ],
+      "entry": [
+        {
+          "word": "word prefixed to the name of a male to show affection"
+        }
+      ],
+      "base_form": "ဖိုး",
+      "pos_enum": 20
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖိုး",
+      "alternative": [
+        {
+          "word_postproc": "Po",
+          "score": 931,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "value",
+          "score": 29,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Poe",
+          "score": 20,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Pho",
+          "score": 13,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "worth",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဖိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

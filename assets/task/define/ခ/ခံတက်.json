@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "up",
+      "orig": "ခံတက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkan taat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "kind of tree"
+      ],
+      "entry": [
+        {
+          "word": "kind of tree"
+        }
+      ],
+      "base_form": "ခံတက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တက်",
+      "alternative": [
+        {
+          "word_postproc": "up",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ခံတက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "forthrightly",
+      "orig": "တိတိလင်းလင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "titi lainnlainn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "openly",
+        "forthrightly",
+        "frankly",
+        "candidly"
+      ],
+      "entry": [
+        {
+          "word": "openly",
+          "reverse_translation": [
+            "ပွင့်လင်းစွာ"
+          ]
+        }
+      ],
+      "base_form": "တိတိလင်းလင်း",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တိတိ လင်းလင်း",
+      "alternative": [
+        {
+          "word_postproc": "forthrightly",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "candidly",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "frankly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "openly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "တိတိလင်းလင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

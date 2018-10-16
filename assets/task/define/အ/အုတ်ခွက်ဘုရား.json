@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Votive tablet",
+      "orig": "အုတ်ခွက်ဘုရား",
+      "backend": 0
+    },
+    {
+      "src_translit": "aote hkwat bhurarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "votive tablet"
+      ],
+      "entry": [
+        {
+          "word": "votive tablet"
+        }
+      ],
+      "base_form": "အုတ်ခွက်ဘုရား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အုတ် ခွက် ဘုရား",
+      "alternative": [
+        {
+          "word_postproc": "Votive tablet",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "အုတ်ခွက်ဘုရား",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

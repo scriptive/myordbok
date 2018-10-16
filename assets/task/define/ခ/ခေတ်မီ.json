@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "modern",
+      "orig": "ခေတ်မီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkayatme"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be modern",
+        "be up-to-date"
+      ],
+      "entry": [
+        {
+          "word": "be modern"
+        },
+        {
+          "word": "be up-to-date"
+        }
+      ],
+      "base_form": "ခေတ်မီ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခေတ်မီ",
+      "alternative": [
+        {
+          "word_postproc": "modern",
+          "score": 884,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "modernization",
+          "score": 103,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "modernized",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "modernize",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Modernization of",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ခေတ်မီ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

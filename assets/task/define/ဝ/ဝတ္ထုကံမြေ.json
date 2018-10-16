@@ -1,0 +1,76 @@
+{
+  "sentences": [
+    {
+      "trans": "Sacred ground",
+      "orig": "ဝတ္ထုကံမြေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "wathtu kan myay"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "land donated for religious purposes",
+        "sacred ground",
+        "glebe land"
+      ],
+      "entry": [
+        {
+          "word": "land donated for religious purposes"
+        },
+        {
+          "word": "sacred ground"
+        },
+        {
+          "word": "glebe land"
+        }
+      ],
+      "base_form": "ဝတ္ထုကံမြေ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝတ္ထု ကံ မြေ",
+      "alternative": [
+        {
+          "word_postproc": "Sacred ground",
+          "score": 986,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Glebe land",
+          "score": 13,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ဝတ္ထုကံမြေ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

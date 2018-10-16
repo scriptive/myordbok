@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "Brahmin posts",
+      "orig": "ပုဏ္ဏားတိုင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "punnarr tine"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "one who has to listen to other's complaints"
+      ],
+      "entry": [
+        {
+          "word": "one who has to listen to other's complaints"
+        }
+      ],
+      "base_form": "ပုဏ္ဏားတိုင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပုဏ္ဏား",
+      "alternative": [
+        {
+          "word_postproc": "Brahmin",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mango",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ပုဏ္ဏားတိုင်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "တိုင်",
+      "alternative": [
+        {
+          "word_postproc": "posts",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pillars",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 12
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

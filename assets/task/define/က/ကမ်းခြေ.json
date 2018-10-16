@@ -1,0 +1,115 @@
+{
+  "sentences": [
+    {
+      "trans": "beaches",
+      "orig": "ကမ်းခြေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kamhkyay"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "coast",
+        "beach",
+        "shore",
+        "bank"
+      ],
+      "entry": [
+        {
+          "word": "coast",
+          "reverse_translation": [
+            "ပင်လယ်ကမ်း"
+          ],
+          "score": 0.15097742
+        },
+        {
+          "word": "beach",
+          "reverse_translation": [
+            "ပင်လယ်ကမ်း"
+          ],
+          "score": 0.10874496
+        },
+        {
+          "word": "shore",
+          "reverse_translation": [
+            "ကမ်း"
+          ],
+          "score": 0.030672923
+        },
+        {
+          "word": "bank",
+          "reverse_translation": [
+            "ကမ်း",
+            "ဘဏ်တိုက်"
+          ],
+          "score": 0.0039610346
+        }
+      ],
+      "base_form": "ကမ်းခြေ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကမ်းခြေ",
+      "alternative": [
+        {
+          "word_postproc": "beaches",
+          "score": 514,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "beach",
+          "score": 207,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Coast",
+          "score": 147,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "shores",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the beach",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကမ်းခြေ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

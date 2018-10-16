@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "Shirt",
+      "orig": "ရှပ်အင်္ကျီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "shut aain kyae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "shirt"
+      ],
+      "entry": [
+        {
+          "word": "shirt",
+          "reverse_translation": [
+            "ရှပ်အင်္ကျီ"
+          ],
+          "synset_id": [
+            79062
+          ]
+        }
+      ],
+      "base_form": "ရှပ်အင်္ကျီ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရှပ် အင်္ ကျီ",
+      "alternative": [
+        {
+          "word_postproc": "Shirt",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Shirt and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A shirt on",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A shirt",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Dress shirt",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ရှပ်အင်္ကျီ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

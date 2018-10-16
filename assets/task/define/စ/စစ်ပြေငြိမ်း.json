@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "Fighting",
+      "orig": "စစ်ပြေငြိမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcait pyay ngyaaim"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "end the war"
+      ],
+      "entry": [
+        {
+          "word": "end the war"
+        }
+      ],
+      "base_form": "စစ်ပြေငြိမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စစ် ပြေ ငြိမ်း",
+      "alternative": [
+        {
+          "word_postproc": "Fighting",
+          "score": 742,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "End the war",
+          "score": 223,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Peace",
+          "score": 33,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "War",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Have peace",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "စစ်ပြေငြိမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

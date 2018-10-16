@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Twinge",
+      "orig": "မျိုးတိုးမျက်တက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "myoe toe myet taat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "twinge"
+      ],
+      "entry": [
+        {
+          "word": "twinge"
+        }
+      ],
+      "base_form": "မျိုး‌တိုးမျက်တက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မျိုး တိုး မျက် တက်",
+      "alternative": [
+        {
+          "word_postproc": "Twinge",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "မျိုးတိုးမျက်တက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

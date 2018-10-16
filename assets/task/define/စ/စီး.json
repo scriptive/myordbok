@@ -1,0 +1,133 @@
+{
+  "sentences": [
+    {
+      "trans": "flow",
+      "orig": "စီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "ride",
+        "flow",
+        "put on",
+        "wear",
+        "attack",
+        "raid",
+        "possess",
+        "take unfair advantage, especially with one's equals",
+        "weight"
+      ],
+      "entry": [
+        {
+          "word": "ride",
+          "reverse_translation": [
+            "စီးနင်း",
+            "မြင်းစီး"
+          ],
+          "score": 0.04063502
+        },
+        {
+          "word": "flow",
+          "reverse_translation": [
+            "စီးဆင်း"
+          ],
+          "score": 0.030672923
+        },
+        {
+          "word": "wear",
+          "reverse_translation": [
+            "ဝတ်ဆင်"
+          ],
+          "synset_id": [
+            87795
+          ]
+        },
+        {
+          "word": "attack",
+          "reverse_translation": [
+            "တိုက်ခိုက်"
+          ]
+        },
+        {
+          "word": "raid",
+          "reverse_translation": [
+            "ဝင်၍တိုက်ခိုက်"
+          ]
+        },
+        {
+          "word": "possess",
+          "reverse_translation": [
+            "ရယူ"
+          ]
+        }
+      ],
+      "base_form": "စီး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စီး",
+      "alternative": [
+        {
+          "word_postproc": "flow",
+          "score": 492,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "stream",
+          "score": 436,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ride",
+          "score": 56,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "streams",
+          "score": 15,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "flows",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "စီး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

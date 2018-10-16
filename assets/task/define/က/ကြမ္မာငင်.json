@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "ill-fated",
+      "orig": "ကြမ္မာငင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyammar ngain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be ill-fated"
+      ],
+      "entry": [
+        {
+          "word": "be ill-fated"
+        }
+      ],
+      "base_form": "ကြမ္မာငင်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြမ္မာ ငင်",
+      "alternative": [
+        {
+          "word_postproc": "ill-fated",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကြမ္မာငင်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

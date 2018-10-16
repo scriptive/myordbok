@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "grandmother",
+      "orig": "ဘွားအေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "bhwarr aay"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "grandmother"
+      ],
+      "entry": [
+        {
+          "word": "grandmother",
+          "reverse_translation": [
+            "အဖွါး"
+          ]
+        }
+      ],
+      "base_form": "ဘွားအေ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘွား အေ",
+      "alternative": [
+        {
+          "word_postproc": "grandmother",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဘွားအေ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

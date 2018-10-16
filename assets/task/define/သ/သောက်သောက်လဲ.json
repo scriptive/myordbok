@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "Drink Drink",
+      "orig": "သောက်သောက်လဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "sout sout lell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in large numbers,quantities"
+      ],
+      "entry": [
+        {
+          "word": "in large numbers,quantities"
+        }
+      ],
+      "base_form": "သောက်သောက်လဲ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သောက်",
+      "alternative": [
+        {
+          "word_postproc": "Drink",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "သောက်သောက်လဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "သောက်",
+      "alternative": [
+        {
+          "word_postproc": "Drink",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

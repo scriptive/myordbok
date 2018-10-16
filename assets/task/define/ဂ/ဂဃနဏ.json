@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "precisely",
+      "orig": "ဂဃနဏ",
+      "backend": 0
+    },
+    {
+      "src_translit": "gaghanan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "definitely",
+        "explicitly",
+        "precisely"
+      ],
+      "entry": [
+        {
+          "word": "definitely",
+          "reverse_translation": [
+            "အတိအကျ"
+          ],
+          "score": 0.077111721
+        }
+      ],
+      "base_form": "ဂဃနဏ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဂဃနဏ",
+      "alternative": [
+        {
+          "word_postproc": "precisely",
+          "score": 724,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "definitely",
+          "score": 111,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "explicitly",
+          "score": 96,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "line",
+          "score": 66,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဂဃနဏ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

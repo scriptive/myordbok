@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "WELCOME",
+      "orig": "ခပေါင်းရေကြည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hk paungg raykyi"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "tree bearing nuts the seeds of which can be used to clear trubid water"
+      ],
+      "entry": [
+        {
+          "word": "tree bearing nuts the seeds of which can be used to clear trubid water"
+        }
+      ],
+      "base_form": "ခ‌‌ပေါင်းရေကြည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရေကြည်",
+      "alternative": [
+        {
+          "word_postproc": "WELCOME",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Teams",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ခပေါင်းရေကြည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

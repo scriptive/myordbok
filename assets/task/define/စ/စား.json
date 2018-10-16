@@ -1,0 +1,121 @@
+{
+  "sentences": [
+    {
+      "trans": "eat",
+      "orig": "စား",
+      "backend": 1
+    },
+    {
+      "src_translit": "hcarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "eat",
+        "consume",
+        "do sth for a living",
+        "divide",
+        "erode",
+        "corrode",
+        "go well",
+        "be well suited to",
+        "match",
+        "become",
+        "collect the house's winnings",
+        "be granted a fief",
+        "exceed",
+        "surpass",
+        "emphatic particle suffixed to verbs"
+      ],
+      "entry": [
+        {
+          "word": "eat",
+          "reverse_translation": [
+            "စား",
+            "စား"
+          ],
+          "synset_id": [
+            33012,
+            60676
+          ],
+          "score": 0.13533528
+        },
+        {
+          "word": "divide",
+          "reverse_translation": [
+            "ခဲွခြား"
+          ]
+        },
+        {
+          "word": "match",
+          "reverse_translation": [
+            "ကိုက်ညီ"
+          ]
+        },
+        {
+          "word": "become",
+          "reverse_translation": [
+            "ဖြစ်လာ"
+          ]
+        },
+        {
+          "word": "exceed",
+          "reverse_translation": [
+            "ကေျာ်လွန်"
+          ],
+          "synset_id": [
+            16
+          ]
+        },
+        {
+          "word": "surpass",
+          "reverse_translation": [
+            "လွန်ကဲ"
+          ],
+          "synset_id": [
+            16
+          ]
+        }
+      ],
+      "base_form": "စား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စား",
+      "alternative": [
+        {
+          "word_postproc": "eat",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "စား",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

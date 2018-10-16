@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "freed",
+      "orig": "လွတ်မြောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lwatmyawwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "escape",
+        "be emancipated",
+        "be liberated",
+        "be freed"
+      ],
+      "entry": [
+        {
+          "word": "escape",
+          "reverse_translation": [
+            "ထွက်ပေြး"
+          ],
+          "score": 0.070211023
+        }
+      ],
+      "base_form": "လွတ်မြောက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လွတ်မြောက်",
+      "alternative": [
+        {
+          "word_postproc": "freed",
+          "score": 730,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "liberated",
+          "score": 210,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Survived",
+          "score": 40,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "escape",
+          "score": 18,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "escaped",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "လွတ်မြောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Batten down",
+      "orig": "ဇလီသတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "j le saat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "trim with batten",
+        "batten down"
+      ],
+      "entry": [
+        {
+          "word": "trim with batten"
+        },
+        {
+          "word": "batten down"
+        }
+      ],
+      "base_form": "ဇလီသတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဇ လီ သတ်",
+      "alternative": [
+        {
+          "word_postproc": "Batten down",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဇလီသတ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "trait",
+      "orig": "မူနည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "muu nai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "trait",
+        "habit"
+      ],
+      "entry": [
+        {
+          "word": "habit",
+          "reverse_translation": [
+            "ဓလေ့ထုံးစံ"
+          ]
+        }
+      ],
+      "base_form": "မူနည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မူ နည်",
+      "alternative": [
+        {
+          "word_postproc": "trait",
+          "score": 959,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "habit",
+          "score": 40,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "မူနည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

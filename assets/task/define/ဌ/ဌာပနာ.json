@@ -1,0 +1,110 @@
+{
+  "sentences": [
+    {
+      "trans": "enclosed",
+      "orig": "ဌာပနာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "htarpanar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "relics enshrined",
+        "enclosed"
+      ],
+      "entry": [
+        {
+          "word": "relics enshrined",
+          "score": 0.041274928
+        },
+        {
+          "word": "enclosed",
+          "score": 0.041274928
+        }
+      ],
+      "base_form": "ဌာပနာ",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "put filling",
+        "enshrine Buddha's relice in pagodas"
+      ],
+      "entry": [
+        {
+          "word": "put filling",
+          "score": 0.041274928
+        },
+        {
+          "word": "enshrine Buddha's relice in pagodas"
+        }
+      ],
+      "base_form": "ဌာပနာ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဌာပနာ",
+      "alternative": [
+        {
+          "word_postproc": "enclosed",
+          "score": 590,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Buddha",
+          "score": 350,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tart",
+          "score": 59,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "put filling",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "relics enshrined",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဌာပနာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

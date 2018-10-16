@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "tenderness",
+      "orig": "ညှာတာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyhartar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be considerate,show concern for sbl",
+        "favour",
+        "be lenient"
+      ],
+      "entry": [
+        {
+          "word": "favour",
+          "reverse_translation": [
+            "ကေျးဇူးပြု"
+          ]
+        }
+      ],
+      "base_form": "ညှာတာ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညှာတာ",
+      "alternative": [
+        {
+          "word_postproc": "tenderness",
+          "score": 991,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the distressed",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lenient",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "always treat",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "with tenderness",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ညှာတာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

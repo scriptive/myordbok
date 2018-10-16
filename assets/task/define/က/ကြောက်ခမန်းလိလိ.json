@@ -1,0 +1,113 @@
+{
+  "sentences": [
+    {
+      "trans": "terrifyingly",
+      "orig": "ကြောက်ခမန်းလိလိ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawwathkamaannlili"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "horribly",
+        "frighteningly",
+        "terrifyingly",
+        "shockingly",
+        "dreadfully"
+      ],
+      "entry": [
+        {
+          "word": "horribly",
+          "synset_id": [
+            16024
+          ],
+          "score": 0.02749503
+        },
+        {
+          "word": "frighteningly",
+          "score": 0.02749503
+        },
+        {
+          "word": "terrifyingly",
+          "score": 0.02749503
+        },
+        {
+          "word": "shockingly",
+          "score": 0.02749503
+        },
+        {
+          "word": "dreadfully",
+          "synset_id": [
+            16024
+          ],
+          "score": 0.02749503
+        }
+      ],
+      "base_form": "ကြောက်ခမန်းလိလိ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြောက်ခမန်းလိလိ",
+      "alternative": [
+        {
+          "word_postproc": "terrifyingly",
+          "score": 948,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "feathered",
+          "score": 29,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "dreadfully",
+          "score": 20,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "frighteningly",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "shockingly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "ကြောက်ခမန်းလိလိ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

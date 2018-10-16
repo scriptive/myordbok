@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Deferentially",
+      "orig": "ခယဝယ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hk y w y"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "deferentially",
+        "fawningly"
+      ],
+      "entry": [
+        {
+          "word": "deferentially"
+        },
+        {
+          "word": "fawningly"
+        }
+      ],
+      "base_form": "ခယဝယ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခ ယ ဝ ယ",
+      "alternative": [
+        {
+          "word_postproc": "Deferentially",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Fawningly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ခယဝယ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

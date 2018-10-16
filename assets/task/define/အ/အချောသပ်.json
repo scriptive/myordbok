@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "Smoothen",
+      "orig": "အချောသပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "a hkyaww saut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "smoothen",
+        "give final",
+        "finishing touch"
+      ],
+      "entry": [
+        {
+          "word": "smoothen"
+        },
+        {
+          "word": "give final"
+        },
+        {
+          "word": "finishing touch"
+        }
+      ],
+      "base_form": "အချောသပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ ချော သပ်",
+      "alternative": [
+        {
+          "word_postproc": "Smoothen",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Final",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Finishing touch",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The final",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Smooth",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "အချောသပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

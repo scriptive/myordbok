@@ -1,0 +1,70 @@
+{
+  "sentences": [
+    {
+      "trans": "evoke pathos",
+      "orig": "အလွမ်းသယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aalwm saal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "express one's feeling of affection effusively",
+        "portray grief in drama",
+        "evoke pathos"
+      ],
+      "entry": [
+        {
+          "word": "express one's feeling of affection effusively"
+        },
+        {
+          "word": "portray grief in drama"
+        },
+        {
+          "word": "evoke pathos"
+        }
+      ],
+      "base_form": "အလွမ်းသယ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အလွမ်း သယ်",
+      "alternative": [
+        {
+          "word_postproc": "evoke pathos",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အလွမ်းသယ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "grill",
+      "orig": "ကင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "roast",
+        "grill",
+        "barbecue",
+        "broil",
+        "toast"
+      ],
+      "entry": [
+        {
+          "word": "roast",
+          "reverse_translation": [
+            "ကင်"
+          ],
+          "synset_id": [
+            14686
+          ],
+          "score": 0.013611027
+        },
+        {
+          "word": "grill",
+          "reverse_translation": [
+            "ကင်"
+          ],
+          "score": 0.0080015101
+        }
+      ],
+      "base_form": "ကင်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကင်",
+      "alternative": [
+        {
+          "word_postproc": "grill",
+          "score": 924,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "roast",
+          "score": 75,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Kim",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ကင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

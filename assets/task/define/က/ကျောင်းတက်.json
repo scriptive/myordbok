@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "school",
+      "orig": "ကျောင်းတက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaunggtaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "go to school",
+        "attend classes",
+        "begin classes"
+      ],
+      "entry": [
+        {
+          "word": "go to school"
+        },
+        {
+          "word": "attend classes"
+        },
+        {
+          "word": "begin classes"
+        }
+      ],
+      "base_form": "ကျောင်းတက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျောင်းတက်",
+      "alternative": [
+        {
+          "word_postproc": "school",
+          "score": 990,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to school",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "attend school",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "School attendance",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to attend school",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ကျောင်းတက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

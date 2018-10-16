@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "missile",
+      "orig": "ဒုံးတိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "done tite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "fire rocket to ignite the pyre on which the corpse of a monk is laid for cremation"
+      ],
+      "entry": [
+        {
+          "word": "fire rocket to ignite the pyre on which the corpse of a monk is laid for cremation"
+        }
+      ],
+      "base_form": "ဒုံးတိုက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဒုံး",
+      "alternative": [
+        {
+          "word_postproc": "missile",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "missiles",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rockets",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rocket",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဒုံးတိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

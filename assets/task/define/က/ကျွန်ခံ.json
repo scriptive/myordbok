@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "of servants",
+      "orig": "ကျွန်ခံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawan hkan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "serve as a slave"
+      ],
+      "entry": [
+        {
+          "word": "serve as a slave"
+        }
+      ],
+      "base_form": "ကျွန်ခံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျွန် ခံ",
+      "alternative": [
+        {
+          "word_postproc": "of servants",
+          "score": 860,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "servants to",
+          "score": 122,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "servants for",
+          "score": 9,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "became servants",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကျွန်ခံ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

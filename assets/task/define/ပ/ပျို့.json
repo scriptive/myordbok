@@ -1,0 +1,111 @@
+{
+  "sentences": [
+    {
+      "trans": "nausea",
+      "orig": "ပျို့",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyahoet"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "poem of epic proportions"
+      ],
+      "entry": [
+        {
+          "word": "poem of epic proportions",
+          "score": 0.023888096
+        }
+      ],
+      "base_form": "ပျို့",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "begin to appear",
+        "feel nauseated",
+        "feel sick"
+      ],
+      "entry": [
+        {
+          "word": "begin to appear",
+          "score": 0.023888096
+        },
+        {
+          "word": "feel nauseated",
+          "score": 0.023888096
+        },
+        {
+          "word": "feel sick",
+          "score": 0.023888096
+        }
+      ],
+      "base_form": "ပျို့",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပျို့",
+      "alternative": [
+        {
+          "word_postproc": "nausea",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "begin to appear",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Breast discomfort",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "feel nauseated",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "feel sick",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ပျို့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

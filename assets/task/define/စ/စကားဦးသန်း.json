@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "Million words",
+      "orig": "စကားဦးသန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcakarr u saann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "hint",
+        "indicate,suggest what is going to happen"
+      ],
+      "entry": [
+        {
+          "word": "hint"
+        },
+        {
+          "word": "indicate,suggest what is going to happen"
+        }
+      ],
+      "base_form": "စကားဦးသန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သန်း",
+      "alternative": [
+        {
+          "word_postproc": "Million",
+          "score": 976,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Than",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "စကားဦးသန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "စကား",
+      "alternative": [
+        {
+          "word_postproc": "words",
+          "score": 976,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

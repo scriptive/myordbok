@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "paradise မဂ်ဖိုလ်",
+      "orig": "မဂ်ဖိုလ်နိဗ္ဗာန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "maghpol nibbaran"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နိဗ္ဗာန်",
+      "alternative": [
+        {
+          "word_postproc": "paradise",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "nirvana",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 8,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "မဂ်ဖိုလ်နိဗ္ဗာန်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "မဂ်ဖိုလ်",
+      "alternative": [
+        {
+          "word_postproc": "မဂ်ဖိုလ်",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

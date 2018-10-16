@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "express",
+      "orig": "ဖော်ပြ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpawpya"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "show",
+        "reveal",
+        "state"
+      ],
+      "entry": [
+        {
+          "word": "show",
+          "reverse_translation": [
+            "ပြသ"
+          ],
+          "score": 0.03758125
+        },
+        {
+          "word": "reveal",
+          "reverse_translation": [
+            "ဖေါ်ပြ"
+          ],
+          "score": 0.0095020281
+        },
+        {
+          "word": "state",
+          "reverse_translation": [
+            "အသေအချာပေြာဆို"
+          ]
+        }
+      ],
+      "base_form": "ဖော်ပြ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖော်ပြ",
+      "alternative": [
+        {
+          "word_postproc": "express",
+          "score": 852,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "described",
+          "score": 57,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "expressed",
+          "score": 50,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mentioned",
+          "score": 21,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "expressing",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဖော်ပြ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Reh",
+      "orig": "ရယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "raal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "laugh"
+      ],
+      "entry": [
+        {
+          "word": "laugh",
+          "reverse_translation": [
+            "ရယ်မော"
+          ],
+          "score": 0.034218118
+        }
+      ],
+      "base_form": "ရယ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရယ်",
+      "alternative": [
+        {
+          "word_postproc": "Reh",
+          "score": 876,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "laugh",
+          "score": 79,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "laughter",
+          "score": 43,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the laughter",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "laughed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ရယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "sentences": [
+    {
+      "trans": "Tomato",
+      "orig": "ခရမ်းချဉ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaram hkyain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "tomato"
+      ],
+      "entry": [
+        {
+          "word": "tomato",
+          "reverse_translation": [
+            "ခရမ်းချဉ်သီး"
+          ]
+        }
+      ],
+      "base_form": "ခရမ်းချဉ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခရမ်း ချဉ်",
+      "alternative": [
+        {
+          "word_postproc": "Tomato",
+          "score": 935,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Tomatoes",
+          "score": 41,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "eggplant",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the tomato",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of tomatoes",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ခရမ်းချဉ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

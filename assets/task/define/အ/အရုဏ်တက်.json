@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "dawn",
+      "orig": "အရုဏ်တက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aaruntaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "dawn"
+      ],
+      "entry": [
+        {
+          "word": "dawn",
+          "reverse_translation": [
+            "အရုဏ်တက်"
+          ],
+          "score": 0.50283158
+        }
+      ],
+      "base_form": "အရုဏ်တက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အရုဏ်တက်",
+      "alternative": [
+        {
+          "word_postproc": "dawn",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "after dawn",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "crack of dawn",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "daybreak",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "အရုဏ်တက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

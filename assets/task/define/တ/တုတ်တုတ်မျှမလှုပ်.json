@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "Therefore thus unceasingly",
+      "orig": "တုတ်တုတ်မျှမလှုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "totetote myaha malhuut"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မလှုပ်",
+      "alternative": [
+        {
+          "word_postproc": "Therefore thus",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Moved",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Motionless",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "SLAVE",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 11,
+          "end": 17
+        }
+      ],
+      "raw_src_segment": "တုတ်တုတ်မျှမလှုပ်",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "တုတ်တုတ်",
+      "alternative": [
+        {
+          "word_postproc": "unceasingly",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "Headache",
+      "orig": "ဦးယဉ်းခေါင်းခဲနာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "u yain hkaungg hkell nar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "headache"
+      ],
+      "entry": [
+        {
+          "word": "headache",
+          "reverse_translation": [
+            "ခေါင်းကိုက်ခြင်း"
+          ]
+        }
+      ],
+      "base_form": "ဦးယဉ်းခေါင်းခဲနာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယဉ်း ခေါင်း ခဲ နာ",
+      "alternative": [
+        {
+          "word_postproc": "Headache",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "ဦးယဉ်းခေါင်းခဲနာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

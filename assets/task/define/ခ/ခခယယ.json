@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "Obsequiously",
+      "orig": "ခခယယ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hk hk y y"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "subserviently",
+        "obsequiously"
+      ],
+      "entry": [
+        {
+          "word": "subserviently",
+          "synset_id": [
+            29652
+          ]
+        },
+        {
+          "word": "obsequiously",
+          "synset_id": [
+            29652
+          ]
+        }
+      ],
+      "base_form": "ခခယယ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခ ခ ယ ယ",
+      "alternative": [
+        {
+          "word_postproc": "Obsequiously",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Subserviently",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ခခယယ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

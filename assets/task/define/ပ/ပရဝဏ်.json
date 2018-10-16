@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Altair",
+      "orig": "ပရဝဏ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "p r wan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "wall,fencing around a religious structure"
+      ],
+      "entry": [
+        {
+          "word": "wall,fencing around a religious structure"
+        }
+      ],
+      "base_form": "ပရဝဏ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရ ဝဏ်",
+      "alternative": [
+        {
+          "word_postproc": "Altair",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Threatened",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ပရဝဏ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

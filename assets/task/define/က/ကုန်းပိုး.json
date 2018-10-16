@@ -1,0 +1,73 @@
+{
+  "sentences": [
+    {
+      "trans": "carry",
+      "orig": "ကုန်းပိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kone poe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "carry on the back",
+        "carry",
+        "ride pick-a-back"
+      ],
+      "entry": [
+        {
+          "word": "carry",
+          "reverse_translation": [
+            "သယ်"
+          ]
+        }
+      ],
+      "base_form": "ကုန်းပိုး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကုန်း ပိုး",
+      "alternative": [
+        {
+          "word_postproc": "carry",
+          "score": 991,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "carry on the back",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကုန်းပိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

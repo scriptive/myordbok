@@ -1,0 +1,79 @@
+{
+  "sentences": [
+    {
+      "trans": "Witness",
+      "orig": "သက်သေသက်ကန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "saatsay saat kaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "witness",
+        "evidence"
+      ],
+      "entry": [
+        {
+          "word": "witness",
+          "reverse_translation": [
+            "ကိုယ်တေွ့မျက်မြင်",
+            "ကိုယ်တေွ့မျက်မြင်"
+          ]
+        },
+        {
+          "word": "evidence",
+          "reverse_translation": [
+            "သက်သေ"
+          ]
+        }
+      ],
+      "base_form": "သက်သေသက်ကန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သက်သေ သက် ကန်",
+      "alternative": [
+        {
+          "word_postproc": "Witness",
+          "score": 586,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Evidence",
+          "score": 413,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "သက်သေသက်ကန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

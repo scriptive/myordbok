@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "lethargic",
+      "orig": "ထိုင်းမျဉ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "htine myain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be lethargic",
+        "be slothful"
+      ],
+      "entry": [
+        {
+          "word": "be lethargic"
+        },
+        {
+          "word": "be slothful"
+        }
+      ],
+      "base_form": "ထိုင်းမျဉ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထိုင်း မျဉ်း",
+      "alternative": [
+        {
+          "word_postproc": "lethargic",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ထိုင်းမျဉ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "separately",
+      "orig": "သီးခြား",
+      "backend": 0
+    },
+    {
+      "src_translit": "seehkyarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "separate",
+        "independent"
+      ],
+      "entry": [
+        {
+          "word": "separate",
+          "reverse_translation": [
+            "သီးခြားနေသော"
+          ],
+          "score": 0.19691168
+        },
+        {
+          "word": "independent",
+          "reverse_translation": [
+            "လွတ်လပ်သော"
+          ],
+          "score": 0.022092877
+        }
+      ],
+      "base_form": "သီးခြား",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သီးခြား",
+      "alternative": [
+        {
+          "word_postproc": "separately",
+          "score": 765,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Isolation",
+          "score": 80,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "separate",
+          "score": 39,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "isolated",
+          "score": 26,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "သီးခြား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

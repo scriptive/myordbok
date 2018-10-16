@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Mature",
+      "orig": "ကြီးရင့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyee r ng "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "aged",
+        "mature"
+      ],
+      "entry": [
+        {
+          "word": "mature",
+          "reverse_translation": [
+            "ရင့်ကျက်သော"
+          ]
+        }
+      ],
+      "base_form": "ကြီးရင့်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြီး ရ င့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Mature",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Aged",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကြီးရင့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

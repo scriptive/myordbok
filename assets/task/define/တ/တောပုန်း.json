@@ -1,0 +1,111 @@
+{
+  "sentences": [
+    {
+      "trans": "hiding in the forest",
+      "orig": "တောပုန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "taw pone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "outlaws,brigands who hide in the jungle"
+      ],
+      "entry": [
+        {
+          "word": "outlaws,brigands who hide in the jungle"
+        }
+      ],
+      "base_form": "တောပုန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပုန်း",
+      "alternative": [
+        {
+          "word_postproc": "hiding in the",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and hide in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hid themselves",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hiding himself",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and hid themselves",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "တောပုန်း",
+      "start_pos": 0,
+      "end_pos": 3
+    },
+    {
+      "src_phrase": "တော",
+      "alternative": [
+        {
+          "word_postproc": "forest",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wilderness",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "start_pos": 3,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

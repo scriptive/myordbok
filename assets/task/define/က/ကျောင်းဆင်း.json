@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "graduates",
+      "orig": "ကျောင်းဆင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaunggsainn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "alumnus"
+      ],
+      "entry": [
+        {
+          "word": "alumnus",
+          "score": 0.0040234118
+        }
+      ],
+      "base_form": "ကျောင်းဆင်း",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "leave school",
+        "be over"
+      ],
+      "entry": [
+        {
+          "word": "leave school",
+          "score": 0.0040234118
+        },
+        {
+          "word": "be over"
+        }
+      ],
+      "base_form": "ကျောင်းဆင်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျောင်းဆင်း",
+      "alternative": [
+        {
+          "word_postproc": "graduates",
+          "score": 593,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Graduating",
+          "score": 312,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the graduates",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "graduates of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "graduating students",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ကျောင်းဆင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

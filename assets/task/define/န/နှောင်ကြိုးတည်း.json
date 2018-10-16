@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "tether",
+      "orig": "နှောင်ကြိုးတည်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "nhaawinkyaoe taee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "tie",
+        "tether",
+        "bind"
+      ],
+      "entry": [
+        {
+          "word": "tie",
+          "reverse_translation": [
+            "ချည်နေှာင်"
+          ],
+          "synset_id": [
+            7127
+          ]
+        },
+        {
+          "word": "bind",
+          "reverse_translation": [
+            "ချည်နေှာင်"
+          ],
+          "synset_id": [
+            7127
+          ]
+        }
+      ],
+      "base_form": "နှောင်ကြိုးတည်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နှောင်ကြိုး တည်း",
+      "alternative": [
+        {
+          "word_postproc": "tether",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tie",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bind",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "နှောင်ကြိုးတည်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

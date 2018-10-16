@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "pre-war period",
+      "orig": "စစ်ကြိုခေတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcaitkyaohkayat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "pre-war period"
+      ],
+      "entry": [
+        {
+          "word": "pre-war period"
+        }
+      ],
+      "base_form": "စစ်ကြိုခေတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စစ်ကြိုခေတ်",
+      "alternative": [
+        {
+          "word_postproc": "pre-war period",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "စစ်ကြိုခေတ်",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

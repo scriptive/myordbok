@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Colocynth",
+      "orig": "ငပြုပ်သခွား",
+      "backend": 0
+    },
+    {
+      "src_translit": "ng pyuut s hkwarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "colocynth",
+        "bitter apple. ''citrullus colocynthis''"
+      ],
+      "entry": [
+        {
+          "word": "colocynth"
+        },
+        {
+          "word": "bitter apple. ''citrullus colocynthis''"
+        }
+      ],
+      "base_form": "ငပြုပ်သခွား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "င ပြုပ် သ ခွား",
+      "alternative": [
+        {
+          "word_postproc": "Colocynth",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ငပြုပ်သခွား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

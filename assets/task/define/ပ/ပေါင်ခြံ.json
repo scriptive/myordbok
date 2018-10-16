@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "groin",
+      "orig": "ပေါင်ခြံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "paunghkyaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "groin"
+      ],
+      "entry": [
+        {
+          "word": "groin",
+          "reverse_translation": [
+            "ပေါင်ကြန်"
+          ],
+          "score": 0.26914635
+        }
+      ],
+      "base_form": "ပေါင်ခြံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပေါင်ခြံ",
+      "alternative": [
+        {
+          "word_postproc": "groin",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ပေါင်ခြံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

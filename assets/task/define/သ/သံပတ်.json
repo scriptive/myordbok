@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "iron",
+      "orig": "သံပတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "san paat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "ရုန်းကန်အားဖြစ်ပေါ်အောင်ပြုလုပ်ထားသောသံမဏိနန်းပြားခွေ။",
+        "တစ်စုံတစ်ရာကိုထိန်းကွပ်ထားသောသံပြား။"
+      ],
+      "entry": [
+        {
+          "word": "ရုန်းကန်အားဖြစ်ပေါ်အောင်ပြုလုပ်ထားသောသံမဏိနန်းပြားခွေ။"
+        },
+        {
+          "word": "တစ်စုံတစ်ရာကိုထိန်းကွပ်ထားသောသံပြား။"
+        }
+      ],
+      "base_form": "သံပတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သံ",
+      "alternative": [
+        {
+          "word_postproc": "iron",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the sound of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of iron",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "သံပတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

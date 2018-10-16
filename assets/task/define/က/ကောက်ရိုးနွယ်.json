@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "bindweed",
+      "orig": "ကောက်ရိုးနွယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "koutroe nwal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "bindweed"
+      ],
+      "entry": [
+        {
+          "word": "bindweed"
+        }
+      ],
+      "base_form": "ကောက်ရိုးနွယ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကောက်ရိုး နွယ်",
+      "alternative": [
+        {
+          "word_postproc": "bindweed",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ကောက်ရိုးနွယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

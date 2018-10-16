@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "ridge",
+      "orig": "ခင်တန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkain taann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "ridge",
+        "narrow elevation across a surface"
+      ],
+      "entry": [
+        {
+          "word": "ridge",
+          "reverse_translation": [
+            "ကေျာရိုး"
+          ]
+        }
+      ],
+      "base_form": "ခင်တန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခင် တန်း",
+      "alternative": [
+        {
+          "word_postproc": "ridge",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ခင်တန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

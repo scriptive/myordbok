@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "Tremble",
+      "orig": "ဆတ်ဆတ်တုန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "saat saat tone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "tremble"
+      ],
+      "entry": [
+        {
+          "word": "tremble",
+          "reverse_translation": [
+            "တုန်လှုပ်"
+          ]
+        }
+      ],
+      "base_form": "ဆတ်ဆတ်တုန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆတ် ဆတ် တုန်",
+      "alternative": [
+        {
+          "word_postproc": "Tremble",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ဆတ်ဆတ်တုန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

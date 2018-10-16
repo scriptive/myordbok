@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "roughly",
+      "orig": "အကြမ်းဖျင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "aakyamhpyinn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in general",
+        "approximately"
+      ],
+      "entry": [
+        {
+          "word": "approximately",
+          "reverse_translation": [
+            "ခန့်လောက်"
+          ],
+          "score": 0.012011689
+        }
+      ],
+      "base_form": "အကြမ်းဖျင်း",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အကြမ်းဖျင်း",
+      "alternative": [
+        {
+          "word_postproc": "roughly",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "AN OUTLINE",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of roughly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "is roughly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "roughly the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "အကြမ်းဖျင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

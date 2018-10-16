@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "bowed",
+      "orig": "ဦးညွှတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "u nywhaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "bow",
+        "bend in respect"
+      ],
+      "entry": [
+        {
+          "word": "bow",
+          "reverse_translation": [
+            "ကောက်စေ"
+          ]
+        }
+      ],
+      "base_form": "ဦးညွှတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဦး ညွှတ်",
+      "alternative": [
+        {
+          "word_postproc": "bowed",
+          "score": 945,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bowed down",
+          "score": 54,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "adoring",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bowed down before",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဦးညွှတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

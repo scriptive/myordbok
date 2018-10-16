@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Offering",
+      "orig": "ပူဇော်သက္ကာရ",
+      "backend": 0
+    },
+    {
+      "src_translit": "puujaw sakkar r"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "act of proffering sth reverently"
+      ],
+      "entry": [
+        {
+          "word": "act of proffering sth reverently"
+        }
+      ],
+      "base_form": "ပူဇော်သက္ကာရ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပူဇော် သက္ကာ",
+      "alternative": [
+        {
+          "word_postproc": "Offering",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ပူဇော်သက္ကာရ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "More",
+      "orig": "နောက်ထပ်",
+      "backend": 1
+    },
+    {
+      "src_translit": "nouthtaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "additional"
+      ],
+      "entry": [
+        {
+          "word": "additional",
+          "reverse_translation": [
+            "နောက်ထပ်"
+          ],
+          "score": 0.039384812
+        }
+      ],
+      "base_form": "နောက်ထပ်",
+      "pos_enum": 3
+    },
+    {
+      "pos": "adverb",
+      "terms": [
+        "again",
+        "once again"
+      ],
+      "entry": [
+        {
+          "word": "again",
+          "reverse_translation": [
+            "ထပ်မံ၍"
+          ],
+          "synset_id": [
+            43520
+          ],
+          "score": 0.0066334847
+        }
+      ],
+      "base_form": "နောက်ထပ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နောက်ထပ်",
+      "alternative": [
+        {
+          "word_postproc": "More",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "additional",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "နောက်ထပ်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "Arithmetic",
+      "orig": "ဂဏန်းသင်္ချာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "ganaann sain hkyaar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "arithmetic"
+      ],
+      "entry": [
+        {
+          "word": "arithmetic",
+          "reverse_translation": [
+            "ဂဏန်းသင်္ချာ"
+          ],
+          "synset_id": [
+            91974
+          ]
+        }
+      ],
+      "base_form": "ဂဏန်းသင်္ချာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဂဏန်း သင်္ ချာ",
+      "alternative": [
+        {
+          "word_postproc": "Arithmetic",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Math",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ဂဏန်းသင်္ချာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Toothbrush",
+      "orig": "သွားပွတ်တံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "swarr pwat tan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "tooth-brush",
+        "toothbrush"
+      ],
+      "entry": [
+        {
+          "word": "toothbrush",
+          "reverse_translation": [
+            "သွားပွတ်တံ"
+          ]
+        }
+      ],
+      "base_form": "သွားပွတ်တံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သွား ပွတ် တံ",
+      "alternative": [
+        {
+          "word_postproc": "Toothbrush",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "သွားပွတ်တံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

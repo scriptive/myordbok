@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "Excludes",
+      "orig": "ဖယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpaal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "set aside",
+        "discard",
+        "set",
+        "push aside"
+      ],
+      "entry": [
+        {
+          "word": "set",
+          "reverse_translation": [
+            "ထား"
+          ],
+          "score": 0.0063297153
+        }
+      ],
+      "base_form": "ဖယ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖယ်",
+      "alternative": [
+        {
+          "word_postproc": "Excludes",
+          "score": 975,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "removed",
+          "score": 11,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "remove",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "excluding",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "aside",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဖယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

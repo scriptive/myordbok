@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Lesser Buddha",
+      "orig": "ပစ္စေကဗုဒ္ဓါ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pahc hcay k buddhar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "Buddha who attained enlightenment but did not preach",
+        "lesser Buddha"
+      ],
+      "entry": [
+        {
+          "word": "Buddha who attained enlightenment but did not preach"
+        },
+        {
+          "word": "lesser Buddha"
+        }
+      ],
+      "base_form": "ပ‌စ္စေကဗုဒ္ဓါ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စ ကေ ဗုဒ် ဓါ",
+      "alternative": [
+        {
+          "word_postproc": "Lesser Buddha",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ပစ္စေကဗုဒ္ဓါ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

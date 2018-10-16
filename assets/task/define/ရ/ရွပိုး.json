@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "tick",
+      "orig": "ရွပိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "rw poe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "tick"
+      ],
+      "entry": [
+        {
+          "word": "tick",
+          "reverse_translation": [
+            "ရွပိုး"
+          ]
+        }
+      ],
+      "base_form": "ရွပိုး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရွ ပိုး",
+      "alternative": [
+        {
+          "word_postproc": "tick",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ရွပိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

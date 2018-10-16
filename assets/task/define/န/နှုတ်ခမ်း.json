@@ -1,0 +1,111 @@
+{
+  "sentences": [
+    {
+      "trans": "lip",
+      "orig": "နှုတ်ခမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "nhuathkam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "lips",
+        "lip",
+        "brim",
+        "rim",
+        "brink"
+      ],
+      "entry": [
+        {
+          "word": "lip",
+          "reverse_translation": [
+            "နှုတ်ခမ်း"
+          ],
+          "synset_id": [
+            45753
+          ],
+          "score": 0.040005032
+        },
+        {
+          "word": "brim",
+          "reverse_translation": [
+            "နှုတ်ခမ်း",
+            "အစွန့်အနား"
+          ],
+          "synset_id": [
+            45753
+          ],
+          "score": 0.00062672672
+        },
+        {
+          "word": "rim",
+          "reverse_translation": [
+            "ဘီးခေွ"
+          ],
+          "synset_id": [
+            45753
+          ]
+        }
+      ],
+      "base_form": "နှုတ်ခမ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နှုတ်ခမ်း",
+      "alternative": [
+        {
+          "word_postproc": "lip",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lips",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "her lips",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lip of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "နှုတ်ခမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

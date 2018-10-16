@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "City",
+      "orig": "မြို့မိမြို့ဖ",
+      "backend": 0
+    },
+    {
+      "src_translit": "myahoet mi myahoet hp"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "city elders"
+      ],
+      "entry": [
+        {
+          "word": "city elders"
+        }
+      ],
+      "base_form": "မြို့မိမြို့ဖ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မြို့ မိ မြို့ ဖ",
+      "alternative": [
+        {
+          "word_postproc": "City",
+          "score": 807,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Town",
+          "score": 192,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Towns",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The town",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Townselders",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "မြို့မိမြို့ဖ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

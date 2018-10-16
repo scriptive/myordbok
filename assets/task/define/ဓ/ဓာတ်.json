@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "starch",
+      "orig": "ဓာတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "dharat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "mineral",
+        "faecal matter",
+        "the basic property of matter such as solidity, heat, cohesion,fluidity, and volatility,mobility",
+        "the essence,quality of sth"
+      ],
+      "entry": [
+        {
+          "word": "mineral",
+          "reverse_translation": [
+            "တွင်းထွက်သတ္တု"
+          ]
+        }
+      ],
+      "base_form": "ဓာတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဓာတ်",
+      "alternative": [
+        {
+          "word_postproc": "starch",
+          "score": 798,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "healthy",
+          "score": 131,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "electrocuted",
+          "score": 32,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "diet",
+          "score": 27,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "compounds",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဓာတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

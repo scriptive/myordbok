@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "Hurriedly",
+      "orig": "ကတိုက်ကရိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "k tite k rite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "hastily",
+        "hurriedly"
+      ],
+      "entry": [
+        {
+          "word": "hastily",
+          "synset_id": [
+            21506
+          ]
+        },
+        {
+          "word": "hurriedly",
+          "synset_id": [
+            21506
+          ]
+        }
+      ],
+      "base_form": "ကတိုက်ကရိုက်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "က တိုက် က ရိုက်",
+      "alternative": [
+        {
+          "word_postproc": "Hurriedly",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Hastily",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ကတိုက်ကရိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

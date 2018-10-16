@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Insidious mind",
+      "orig": "ဝင်္ကန္တဉာဏ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "wain kan t nyarn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "insidious mind"
+      ],
+      "entry": [
+        {
+          "word": "insidious mind"
+        }
+      ],
+      "base_form": "ဝင်္ကန္တဉာဏ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝင်္ ကန္ တ ဉာဏ်",
+      "alternative": [
+        {
+          "word_postproc": "Insidious mind",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ဝင်္ကန္တဉာဏ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

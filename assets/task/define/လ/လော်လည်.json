@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "licentious",
+      "orig": "လော်လည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "law lai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be wanton",
+        "be licentious"
+      ],
+      "entry": [
+        {
+          "word": "be wanton"
+        },
+        {
+          "word": "be licentious"
+        }
+      ],
+      "base_form": "လော်လည်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လော် လည်",
+      "alternative": [
+        {
+          "word_postproc": "licentious",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lightly",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wanton",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "လော်လည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

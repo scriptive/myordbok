@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "အရည်းကြီး",
+      "orig": "အရည်းကြီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "aaraeekyee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "Ari: member of a deviant sect of Buddhism prevalent in \"Bagan\", before the advent of \"Theravada Buddhism.\""
+      ],
+      "entry": [
+        {
+          "word": "Ari: member of a deviant sect of Buddhism prevalent in \"Bagan\", before the advent of \"Theravada Buddhism.\""
+        }
+      ],
+      "base_form": "အရည်းကြီး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အရည်းကြီး",
+      "alternative": [
+        {
+          "word_postproc": "အရည်းကြီး",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အရည်းကြီး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

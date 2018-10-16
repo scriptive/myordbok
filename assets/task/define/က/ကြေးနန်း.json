@@ -1,0 +1,121 @@
+{
+  "sentences": [
+    {
+      "trans": "telegraph",
+      "orig": "ကြေးနန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaynaann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "cable",
+        "telegraph",
+        "telegram",
+        "wire",
+        "copper wire"
+      ],
+      "entry": [
+        {
+          "word": "cable",
+          "reverse_translation": [
+            "ကေျာက်ကြိုး"
+          ],
+          "score": 0.11943297
+        },
+        {
+          "word": "telegraph",
+          "reverse_translation": [
+            "ကေြးနန်းစက်"
+          ],
+          "score": 0.10215643
+        },
+        {
+          "word": "telegram",
+          "reverse_translation": [
+            "ကေြးနန်းစာ"
+          ],
+          "synset_id": [
+            100273
+          ],
+          "score": 0.036424998
+        },
+        {
+          "word": "wire",
+          "reverse_translation": [
+            "သံကြိုး"
+          ],
+          "synset_id": [
+            100273
+          ],
+          "score": 0.02426428
+        }
+      ],
+      "base_form": "ကြေးနန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြေးနန်း",
+      "alternative": [
+        {
+          "word_postproc": "telegraph",
+          "score": 499,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Telegraphy",
+          "score": 492,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Telegraphs",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the telegraph",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a telegraph",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကြေးနန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

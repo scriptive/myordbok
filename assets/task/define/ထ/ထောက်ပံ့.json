@@ -1,0 +1,142 @@
+{
+  "sentences": [
+    {
+      "trans": "support",
+      "orig": "ထောက်ပံ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "htoutpan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "support",
+        "supports",
+        "contribute",
+        "assist",
+        "sustain",
+        "subsidize",
+        "help"
+      ],
+      "entry": [
+        {
+          "word": "support",
+          "reverse_translation": [
+            "ထောက်ပံ့",
+            "ထောက်"
+          ],
+          "synset_id": [
+            25178
+          ],
+          "score": 0.15822297
+        },
+        {
+          "word": "contribute",
+          "reverse_translation": [
+            "ထောက်ပံ့"
+          ],
+          "score": 0.0019005252
+        },
+        {
+          "word": "assist",
+          "reverse_translation": [
+            "ထောက်ပံ့"
+          ],
+          "synset_id": [
+            28365
+          ],
+          "score": 0.0013267804
+        },
+        {
+          "word": "sustain",
+          "reverse_translation": [
+            "ထောက်ပံ့"
+          ],
+          "synset_id": [
+            25178
+          ],
+          "score": 0.00038012897
+        },
+        {
+          "word": "subsidize",
+          "reverse_translation": [
+            "ထောက်ခံ"
+          ]
+        },
+        {
+          "word": "help",
+          "reverse_translation": [
+            "ကူညီ"
+          ],
+          "synset_id": [
+            28365
+          ]
+        }
+      ],
+      "base_form": "ထောက်ပံ့",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထောက်ပံ့",
+      "alternative": [
+        {
+          "word_postproc": "support",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Support for",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "supported by",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "supported in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "supported",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ထောက်ပံ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "shuffle",
+      "orig": "ရှပ်တိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "shut tite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "with a shuffle"
+      ],
+      "entry": [
+        {
+          "word": "with a shuffle"
+        }
+      ],
+      "base_form": "ရှပ်တိုက်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရှပ် တိုက်",
+      "alternative": [
+        {
+          "word_postproc": "shuffle",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a shuffle",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ရှပ်တိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

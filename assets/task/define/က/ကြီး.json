@@ -1,0 +1,166 @@
+{
+  "sentences": [
+    {
+      "trans": "great",
+      "orig": "ကြီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "great",
+        "big",
+        "large",
+        "big, great in magnitude",
+        "high in degree",
+        "older",
+        "elder",
+        "hallowed",
+        "powerful",
+        "mighty"
+      ],
+      "entry": [
+        {
+          "word": "great",
+          "reverse_translation": [
+            "ကြီးမားသော"
+          ],
+          "synset_id": [
+            49495
+          ],
+          "score": 0.086024337
+        },
+        {
+          "word": "big",
+          "reverse_translation": [
+            "ကြီးမားသော"
+          ],
+          "synset_id": [
+            49495
+          ],
+          "score": 0.023153137
+        },
+        {
+          "word": "large",
+          "reverse_translation": [
+            "ကြီးကျယ်သော"
+          ],
+          "synset_id": [
+            49495
+          ],
+          "score": 0.018604068
+        },
+        {
+          "word": "elder",
+          "reverse_translation": [
+            "အသက်ကြီးသော"
+          ],
+          "synset_id": [
+            71363
+          ]
+        },
+        {
+          "word": "powerful",
+          "reverse_translation": [
+            "တန်ခိုးရှိသော"
+          ]
+        },
+        {
+          "word": "mighty",
+          "reverse_translation": [
+            "အားကြီးသော"
+          ]
+        }
+      ],
+      "base_form": "ကြီး",
+      "pos_enum": 3
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "rise",
+        "increase"
+      ],
+      "entry": [
+        {
+          "word": "rise",
+          "reverse_translation": [
+            "တက်"
+          ]
+        },
+        {
+          "word": "increase",
+          "reverse_translation": [
+            "တိုးတက်စေ"
+          ]
+        }
+      ],
+      "base_form": "ကြီး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြီး",
+      "alternative": [
+        {
+          "word_postproc": "great",
+          "score": 870,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "was",
+          "score": 128,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "large",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "big",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a great",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကြီး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

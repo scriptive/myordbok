@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Out of sight",
+      "orig": "ကွယ်တမေရ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kwal t may r"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "out of sight"
+      ],
+      "entry": [
+        {
+          "word": "out of sight"
+        }
+      ],
+      "base_form": "ကွယ်တမေရ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကွယ် တ မေ ရ",
+      "alternative": [
+        {
+          "word_postproc": "Out of sight",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကွယ်တမေရ",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

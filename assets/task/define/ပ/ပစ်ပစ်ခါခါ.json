@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "Heartlessly",
+      "orig": "ပစ်ပစ်ခါခါ",
+      "backend": 0
+    },
+    {
+      "src_translit": "paitpait hkar hkar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "heartlessly",
+        "harshly",
+        "inconsiderately"
+      ],
+      "entry": [
+        {
+          "word": "heartlessly"
+        },
+        {
+          "word": "harshly"
+        },
+        {
+          "word": "inconsiderately"
+        }
+      ],
+      "base_form": "ပစ်ပစ်ခါခါ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပစ်ပစ် ခါ ခါ",
+      "alternative": [
+        {
+          "word_postproc": "Heartlessly",
+          "score": 964,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Inconsiderately",
+          "score": 35,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Harshly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ပစ်ပစ်ခါခါ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

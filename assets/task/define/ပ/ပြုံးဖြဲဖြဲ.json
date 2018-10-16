@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "GRINNING",
+      "orig": "ပြုံးဖြဲဖြဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyuan hpyaell hpyaell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "with a silly grin"
+      ],
+      "entry": [
+        {
+          "word": "with a silly grin"
+        }
+      ],
+      "base_form": "ပြုံးဖြဲဖြဲ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြုံး ဖြဲ ဖြဲ",
+      "alternative": [
+        {
+          "word_postproc": "GRINNING",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ပြုံးဖြဲဖြဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

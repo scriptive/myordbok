@@ -1,0 +1,112 @@
+{
+  "sentences": [
+    {
+      "trans": "was repulsive",
+      "orig": "ရွံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "rwan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "abhor",
+        "detest",
+        "shrink from",
+        "loathe",
+        "be afraid"
+      ],
+      "entry": [
+        {
+          "word": "abhor",
+          "synset_id": [
+            35599
+          ],
+          "score": 0.016676579
+        },
+        {
+          "word": "detest",
+          "score": 0.0051661632
+        },
+        {
+          "word": "shrink from",
+          "score": 0.0025574362
+        },
+        {
+          "word": "loathe",
+          "synset_id": [
+            35599
+          ],
+          "score": 0.0025574362
+        },
+        {
+          "word": "be afraid"
+        }
+      ],
+      "base_form": "ရွံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရွံ",
+      "alternative": [
+        {
+          "word_postproc": "was repulsive",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "seem disgusting",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "was repulsive to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "was grieved with",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Their soul abhors",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ရွံ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

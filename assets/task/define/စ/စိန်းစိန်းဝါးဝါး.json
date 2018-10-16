@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Daggers",
+      "orig": "စိန်းစိန်းဝါးဝါး",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcein hcein warr warr"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စိန်း စိန်း ဝါး ဝါး",
+      "alternative": [
+        {
+          "word_postproc": "Daggers",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "စိန်းစိန်းဝါးဝါး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

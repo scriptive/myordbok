@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Drag",
+      "orig": "တရွတ်ဆွဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "t rwat swal"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရွတ် ဆွဲ",
+      "alternative": [
+        {
+          "word_postproc": "Drag",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "တရွတ်ဆွဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

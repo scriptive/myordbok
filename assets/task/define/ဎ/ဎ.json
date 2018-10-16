@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "n",
+      "orig": "ဎ",
+      "backend": 0
+    },
+    {
+      "src_translit": "dh"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "fourteenth letter of the Myanmar alphabet"
+      ],
+      "entry": [
+        {
+          "word": "fourteenth letter of the Myanmar alphabet"
+        }
+      ],
+      "base_form": "ဎ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဎ",
+      "alternative": [
+        {
+          "word_postproc": "n",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 1
+        }
+      ],
+      "raw_src_segment": "ဎ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Jassid",
+      "orig": "ပိုးစပ်ကောင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "poe hcaut kaung"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "jassid"
+      ],
+      "entry": [
+        {
+          "word": "jassid"
+        }
+      ],
+      "base_form": "ပိုးစပ်ကောင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပိုး စပ် ကောင်",
+      "alternative": [
+        {
+          "word_postproc": "Jassid",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ပိုးစပ်ကောင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

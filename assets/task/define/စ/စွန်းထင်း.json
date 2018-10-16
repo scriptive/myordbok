@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "stain",
+      "orig": "စွန်းထင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcwann htainn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be stained",
+        "be smared",
+        "be tainted",
+        "be blemished."
+      ],
+      "entry": [
+        {
+          "word": "be stained"
+        },
+        {
+          "word": "be smared"
+        },
+        {
+          "word": "be tainted"
+        },
+        {
+          "word": "be blemished."
+        }
+      ],
+      "base_form": "စွန်းထင်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စွန်း ထင်း",
+      "alternative": [
+        {
+          "word_postproc": "stain",
+          "score": 851,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "blemished",
+          "score": 63,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tainted",
+          "score": 28,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "stains",
+          "score": 26,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "stained",
+          "score": 26,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "စွန်းထင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

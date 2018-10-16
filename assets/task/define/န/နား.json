@@ -1,0 +1,87 @@
+{
+  "sentences": [
+    {
+      "trans": "ear",
+      "orig": "နား",
+      "backend": 1
+    },
+    {
+      "src_translit": "narr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "ear"
+      ],
+      "entry": [
+        {
+          "word": "ear",
+          "reverse_translation": [
+            "နား"
+          ],
+          "synset_id": [
+            6527
+          ],
+          "score": 0.077111721
+        }
+      ],
+      "base_form": "နား",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "rest",
+        "stop a while"
+      ],
+      "entry": [
+        {
+          "word": "rest",
+          "reverse_translation": [
+            "အနားယူ"
+          ],
+          "score": 0.016163494
+        }
+      ],
+      "base_form": "နား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နား",
+      "alternative": [
+        {
+          "word_postproc": "ear",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "နား",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

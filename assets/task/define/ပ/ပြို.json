@@ -1,0 +1,106 @@
+{
+  "sentences": [
+    {
+      "trans": "virgin",
+      "orig": "ပြို",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyao"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "collapse",
+        "fall down",
+        "slide",
+        "scatter"
+      ],
+      "entry": [
+        {
+          "word": "collapse",
+          "reverse_translation": [
+            "ပြိုကဲ"
+          ],
+          "score": 0.0081275152
+        },
+        {
+          "word": "slide",
+          "reverse_translation": [
+            "လေှျာ"
+          ],
+          "score": 0.0025177868
+        },
+        {
+          "word": "scatter",
+          "reverse_translation": [
+            "ကြဲဖြန့်"
+          ]
+        }
+      ],
+      "base_form": "ပြို",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြို",
+      "alternative": [
+        {
+          "word_postproc": "virgin",
+          "score": 554,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "one young",
+          "score": 308,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "virginity",
+          "score": 109,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a young",
+          "score": 23,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a virgin",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ပြို",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "sentences": [
+    {
+      "trans": "decide",
+      "orig": "ဆုံးဖြတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "sonehpyat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "decide",
+        "arbitrate",
+        "make,give a decision"
+      ],
+      "entry": [
+        {
+          "word": "decide",
+          "reverse_translation": [
+            "ဆုံးဖြတ်"
+          ],
+          "synset_id": [
+            15148
+          ],
+          "score": 0.07473924
+        },
+        {
+          "word": "arbitrate",
+          "reverse_translation": [
+            "ဆုံးဖြတ်"
+          ],
+          "score": 0.00022000176
+        }
+      ],
+      "base_form": "ဆုံးဖြတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆုံးဖြတ်",
+      "alternative": [
+        {
+          "word_postproc": "decide",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "decide to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "decided",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "decided to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "decide whether",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဆုံးဖြတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

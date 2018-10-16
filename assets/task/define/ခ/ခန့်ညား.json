@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "cowed",
+      "orig": "ခန့်ညား",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkan nyarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be awed",
+        "be cowed"
+      ],
+      "entry": [
+        {
+          "word": "be awed"
+        },
+        {
+          "word": "be cowed"
+        }
+      ],
+      "base_form": "ခန့်ညား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခန့် ညား",
+      "alternative": [
+        {
+          "word_postproc": "cowed",
+          "score": 868,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "awed",
+          "score": 131,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ခန့်ညား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "sentences": [
+    {
+      "trans": "it",
+      "orig": "ပြုလုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyulote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "manufacture",
+        "do",
+        "carry out",
+        "2. make",
+        "make"
+      ],
+      "entry": [
+        {
+          "word": "manufacture",
+          "reverse_translation": [
+            "ပြုလုပ်"
+          ],
+          "score": 0.000088888744
+        },
+        {
+          "word": "do",
+          "reverse_translation": [
+            "ပြုလုပ်"
+          ],
+          "synset_id": [
+            6604
+          ],
+          "score": 0.000044696069
+        },
+        {
+          "word": "make",
+          "reverse_translation": [
+            "ပြုလုပ်"
+          ],
+          "synset_id": [
+            6604
+          ]
+        }
+      ],
+      "base_form": "ပြုလုပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြုလုပ်",
+      "alternative": [
+        {
+          "word_postproc": "it",
+          "score": 870,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "by",
+          "score": 85,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "that",
+          "score": 26,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "for",
+          "score": 15,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "as",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ပြုလုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

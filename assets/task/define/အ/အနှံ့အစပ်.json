@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "everywhere without exception",
+      "orig": "အနှံ့အစပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aanhaan aahcaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "everywhere without exception"
+      ],
+      "entry": [
+        {
+          "word": "everywhere without exception"
+        }
+      ],
+      "base_form": "အနှံ့အစပ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အနှံ့ အစပ်",
+      "alternative": [
+        {
+          "word_postproc": "everywhere without exception",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အနှံ့အစပ်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

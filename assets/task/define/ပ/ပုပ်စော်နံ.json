@@ -1,0 +1,79 @@
+{
+  "sentences": [
+    {
+      "trans": "Putrid",
+      "orig": "ပုပ်စော်နံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pote hcaw nan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "stink",
+        "smell foul",
+        "putrid"
+      ],
+      "entry": [
+        {
+          "word": "stink",
+          "reverse_translation": [
+            "နံစော်"
+          ]
+        }
+      ],
+      "base_form": "ပုပ်စော်နံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပုပ် စော် နံ",
+      "alternative": [
+        {
+          "word_postproc": "Putrid",
+          "score": 574,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Stink",
+          "score": 425,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Smell foul",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ပုပ်စော်နံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

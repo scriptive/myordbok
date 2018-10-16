@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "Common wolf snake",
+      "orig": "ကြက်ဥခိုးမြွေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaatu hkoe myaway"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "common wolf snake"
+      ],
+      "entry": [
+        {
+          "word": "common wolf snake"
+        }
+      ],
+      "base_form": "ကြက်ဥခိုးမြွေ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြက်ဥ ခိုး",
+      "alternative": [
+        {
+          "word_postproc": "Common wolf",
+          "score": 666,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကြက်ဥခိုးမြွေ",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "မြွေ",
+      "alternative": [
+        {
+          "word_postproc": "snake",
+          "score": 666,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 9,
+          "end": 13
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

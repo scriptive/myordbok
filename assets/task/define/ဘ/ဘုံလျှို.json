@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "mattress",
+      "orig": "ဘုံလျှို",
+      "backend": 0
+    },
+    {
+      "src_translit": "bhone sho"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "mattress"
+      ],
+      "entry": [
+        {
+          "word": "mattress",
+          "reverse_translation": [
+            "မေွ့ရာ"
+          ]
+        }
+      ],
+      "base_form": "ဘုံလျှို",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘုံ လျှို",
+      "alternative": [
+        {
+          "word_postproc": "mattress",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဘုံလျှို",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

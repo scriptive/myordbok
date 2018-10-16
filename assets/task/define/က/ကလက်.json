@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "hands",
+      "orig": "ကလက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "k laat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be frivolous"
+      ],
+      "entry": [
+        {
+          "word": "be frivolous"
+        }
+      ],
+      "base_form": "ကလက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လက်",
+      "alternative": [
+        {
+          "word_postproc": "hands",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hand",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the hand",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကလက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

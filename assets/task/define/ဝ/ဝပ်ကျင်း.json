@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "nest",
+      "orig": "ဝပ်ကျင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "waut kyinn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "nest"
+      ],
+      "entry": [
+        {
+          "word": "nest",
+          "reverse_translation": [
+            "အသိုက်"
+          ]
+        }
+      ],
+      "base_form": "ဝပ်ကျင်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝပ် ကျင်း",
+      "alternative": [
+        {
+          "word_postproc": "nest",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဝပ်ကျင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

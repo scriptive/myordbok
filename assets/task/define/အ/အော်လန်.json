@@ -1,0 +1,102 @@
+{
+  "sentences": [
+    {
+      "trans": "Aland",
+      "orig": "အော်လန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aaw laan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "megaphone",
+        "bullhorn",
+        "loud-hailer",
+        "loudspeaker",
+        "amplifying horn"
+      ],
+      "entry": [
+        {
+          "word": "megaphone"
+        },
+        {
+          "word": "bullhorn",
+          "synset_id": [
+            109709
+          ]
+        },
+        {
+          "word": "loud-hailer",
+          "synset_id": [
+            109709
+          ]
+        },
+        {
+          "word": "loudspeaker"
+        },
+        {
+          "word": "amplifying horn"
+        }
+      ],
+      "base_form": "အော်လန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အော် လန်",
+      "alternative": [
+        {
+          "word_postproc": "Aland",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "megaphone",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bullhorn",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "loudspeaker",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "အော်လန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

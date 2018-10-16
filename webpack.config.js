@@ -15,6 +15,12 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.exec\.js$/,
+        use: [
+          'script-loader'
+        ]
+      },
+      {
         test: /\.js$/,
         exclude: /(node_modules|bower_components)/,
         loader: "babel-loader",

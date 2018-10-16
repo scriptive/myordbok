@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "make fun of",
+      "orig": "ရယ်သွမ်းသွေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "raalswmsway"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "ridicule",
+        "make fun of"
+      ],
+      "entry": [
+        {
+          "word": "ridicule",
+          "score": 0.15576996
+        },
+        {
+          "word": "make fun of",
+          "score": 0.15576996
+        }
+      ],
+      "base_form": "ရယ်သွမ်းသွေး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရယ်သွမ်းသွေး",
+      "alternative": [
+        {
+          "word_postproc": "make fun of",
+          "score": 516,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ridicule",
+          "score": 264,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "make fun",
+          "score": 119,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ridiculed",
+          "score": 99,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ရယ်သွမ်းသွေး",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

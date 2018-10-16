@@ -1,0 +1,96 @@
+{
+  "sentences": [
+    {
+      "trans": "inferior",
+      "orig": "ယုတ်ညံ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "yote nyan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "inferior",
+        "mean"
+      ],
+      "entry": [
+        {
+          "word": "inferior",
+          "reverse_translation": [
+            "အောက်သော"
+          ]
+        },
+        {
+          "word": "mean",
+          "reverse_translation": [
+            "မကောင်းသော"
+          ]
+        }
+      ],
+      "base_form": "ယုတ်ညံ့",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယုတ် ညံ့",
+      "alternative": [
+        {
+          "word_postproc": "inferior",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "degraded",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "were inferior",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "inferior to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mean",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ယုတ်ညံ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

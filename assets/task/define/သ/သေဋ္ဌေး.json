@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "wealthy person",
+      "orig": "သေဋ္ဌေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "sayt htayy"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "wealthy person"
+      ],
+      "entry": [
+        {
+          "word": "wealthy person"
+        }
+      ],
+      "base_form": "သေဋ္ဌေး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သေဋ္ ဌေး",
+      "alternative": [
+        {
+          "word_postproc": "wealthy person",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "သေဋ္ဌေး",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

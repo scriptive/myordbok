@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "blank bottom",
+      "orig": "အောက်ခြေလွတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aouthkyay lwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "forget one's origins and become conceited"
+      ],
+      "entry": [
+        {
+          "word": "forget one's origins and become conceited"
+        }
+      ],
+      "base_form": "အောက်ခြေလွတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လွတ်",
+      "alternative": [
+        {
+          "word_postproc": "blank",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "escape",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "escaped",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 8,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "အောက်ခြေလွတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "အောက်ခြေ",
+      "alternative": [
+        {
+          "word_postproc": "bottom",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The bottom",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "sentences": [
+    {
+      "trans": "send",
+      "orig": "ပို့",
+      "backend": 0
+    },
+    {
+      "src_translit": "phoet"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "deliver",
+        "send off",
+        "see off",
+        "be piled",
+        "support"
+      ],
+      "entry": [
+        {
+          "word": "deliver",
+          "reverse_translation": [
+            "ပို့"
+          ],
+          "score": 0.0023652418
+        },
+        {
+          "word": "support",
+          "reverse_translation": [
+            "ထောက်ပံ့",
+            "ထောက်"
+          ]
+        }
+      ],
+      "base_form": "ပို့",
+      "pos_enum": 2
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "full"
+      ],
+      "entry": [
+        {
+          "word": "full",
+          "reverse_translation": [
+            "ပြည့်သော"
+          ]
+        }
+      ],
+      "base_form": "ပို့",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပို့",
+      "alternative": [
+        {
+          "word_postproc": "send",
+          "score": 966,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Sending",
+          "score": 26,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sent",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to send",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sent to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ပို့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

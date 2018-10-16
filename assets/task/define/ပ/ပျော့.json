@@ -1,0 +1,104 @@
+{
+  "sentences": [
+    {
+      "trans": "soft",
+      "orig": "ပျော့",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyaww"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "soft",
+        "weak",
+        "malleable",
+        "pliable",
+        "feeble"
+      ],
+      "entry": [
+        {
+          "word": "soft",
+          "reverse_translation": [
+            "ပေျာ့ပေျာင်းသော"
+          ],
+          "synset_id": [
+            56947
+          ],
+          "score": 0.17107983
+        },
+        {
+          "word": "weak",
+          "reverse_translation": [
+            "အားနည်းသော"
+          ],
+          "synset_id": [
+            55663
+          ],
+          "score": 0.017752126
+        },
+        {
+          "word": "feeble",
+          "reverse_translation": [
+            "အားနည်းသော"
+          ],
+          "synset_id": [
+            55663
+          ]
+        }
+      ],
+      "base_form": "ပျော့",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပျော့",
+      "alternative": [
+        {
+          "word_postproc": "soft",
+          "score": 990,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mild",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of soft",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ပျော့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

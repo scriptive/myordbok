@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "create dissension",
+      "orig": "ကုလားဖန်ထိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kularrhpaan htoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "shuffle playing cards",
+        "manipulate things for some purpose",
+        "create conditions for some questionable ends",
+        "create dissension"
+      ],
+      "entry": [
+        {
+          "word": "shuffle playing cards"
+        },
+        {
+          "word": "manipulate things for some purpose"
+        },
+        {
+          "word": "create conditions for some questionable ends"
+        },
+        {
+          "word": "create dissension"
+        }
+      ],
+      "base_form": "ကုလားဖန်ထိုး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကုလားဖန် ထိုး",
+      "alternative": [
+        {
+          "word_postproc": "create dissension",
+          "score": 938,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "shuffle playing cards",
+          "score": 61,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ကုလားဖန်ထိုး",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "sentences": [
+    {
+      "trans": "Thinly",
+      "orig": "ကျဲတောက်တောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaell tout tout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "thin",
+        "watery"
+      ],
+      "entry": [
+        {
+          "word": "thin",
+          "reverse_translation": [
+            "ပါးသော",
+            "ပိန်သော"
+          ]
+        },
+        {
+          "word": "watery",
+          "reverse_translation": [
+            "ရေကဲ့သို့သော"
+          ]
+        }
+      ],
+      "base_form": "ကျဲတောက်တောက်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျဲ တောက် တောက်",
+      "alternative": [
+        {
+          "word_postproc": "Thinly",
+          "score": 750,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Watery",
+          "score": 248,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Thin",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ကျဲတောက်တောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

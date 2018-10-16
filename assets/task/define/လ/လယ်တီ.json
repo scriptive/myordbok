@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "terrorists",
+      "orig": "လယ်တီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "laalte"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "clear virgin land for paddy cultivation"
+      ],
+      "entry": [
+        {
+          "word": "clear virgin land for paddy cultivation"
+        }
+      ],
+      "base_form": "လယ်တီ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လယ်တီ",
+      "alternative": [
+        {
+          "word_postproc": "terrorists",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "လယ်တီ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

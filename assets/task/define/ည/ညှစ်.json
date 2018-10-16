@@ -1,0 +1,120 @@
+{
+  "sentences": [
+    {
+      "trans": "express",
+      "orig": "ညှစ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyhait"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "squeeze",
+        "wring",
+        "milk",
+        "blow",
+        "throttle",
+        "extort",
+        "express"
+      ],
+      "entry": [
+        {
+          "word": "squeeze",
+          "reverse_translation": [
+            "ညှစ်ဖျစ်"
+          ],
+          "synset_id": [
+            41782
+          ],
+          "score": 0.10874496
+        },
+        {
+          "word": "milk",
+          "reverse_translation": [
+            "နို့ညှစ်"
+          ],
+          "score": 0.0033880526
+        },
+        {
+          "word": "blow",
+          "reverse_translation": [
+            "လေတိုက်"
+          ],
+          "score": 0.0033880526
+        },
+        {
+          "word": "express",
+          "reverse_translation": [
+            "ညှစ်"
+          ],
+          "score": 0.0033880526
+        }
+      ],
+      "base_form": "ညှစ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညှစ်",
+      "alternative": [
+        {
+          "word_postproc": "express",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Squeeze",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "drained out",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and wrung them out",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "drained out on",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ညှစ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

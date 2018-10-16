@@ -1,0 +1,133 @@
+{
+  "sentences": [
+    {
+      "trans": "set",
+      "orig": "ထား",
+      "backend": 0
+    },
+    {
+      "src_translit": "htarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "put",
+        "set",
+        "keep",
+        "place",
+        "set aside",
+        "consider",
+        "particle indicating the present continuous condition of the preceding verb",
+        "particle indicating prior action"
+      ],
+      "entry": [
+        {
+          "word": "put",
+          "reverse_translation": [
+            "ထား"
+          ],
+          "synset_id": [
+            8385
+          ],
+          "score": 0.062936753
+        },
+        {
+          "word": "set",
+          "reverse_translation": [
+            "ထား"
+          ],
+          "synset_id": [
+            8385
+          ],
+          "score": 0.056416139
+        },
+        {
+          "word": "keep",
+          "reverse_translation": [
+            "သိုထား"
+          ],
+          "score": 0.032144949
+        },
+        {
+          "word": "place",
+          "reverse_translation": [
+            "ထား"
+          ],
+          "synset_id": [
+            8385
+          ],
+          "score": 0.0011348554
+        },
+        {
+          "word": "consider",
+          "reverse_translation": [
+            "စဉ်းစားဆင်ခြင်"
+          ]
+        }
+      ],
+      "base_form": "ထား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထား",
+      "alternative": [
+        {
+          "word_postproc": "set",
+          "score": 968,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "put",
+          "score": 31,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and put",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a sword",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and set",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ထား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Shameless person",
+      "orig": "အလဇ္ဇီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "a laj je"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "immoral",
+        "shameless person"
+      ],
+      "entry": [
+        {
+          "word": "immoral"
+        },
+        {
+          "word": "shameless person"
+        }
+      ],
+      "base_form": "အလဇ္ဇီ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ လဇ္ ဇီ",
+      "alternative": [
+        {
+          "word_postproc": "Shameless person",
+          "score": 795,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Immoral",
+          "score": 204,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "အလဇ္ဇီ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

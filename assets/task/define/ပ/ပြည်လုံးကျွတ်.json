@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "nationwide",
+      "orig": "ပြည်လုံးကျွတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyilonekyawat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "country-wide"
+      ],
+      "entry": [
+        {
+          "word": "country-wide"
+        }
+      ],
+      "base_form": "ပြည်လုံးကျွတ်",
+      "pos_enum": 4
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "country - wide",
+        "nation - wide"
+      ],
+      "entry": [
+        {
+          "word": "country - wide"
+        },
+        {
+          "word": "nation - wide"
+        }
+      ],
+      "base_form": "ပြည်လုံးကျွတ်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြည်လုံးကျွတ်",
+      "alternative": [
+        {
+          "word_postproc": "nationwide",
+          "score": 849,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "landslide",
+          "score": 133,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "National",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the nationwide",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ပြည်လုံးကျွတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

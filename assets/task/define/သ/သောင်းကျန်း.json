@@ -1,0 +1,95 @@
+{
+  "sentences": [
+    {
+      "trans": "rampage",
+      "orig": "သောင်းကျန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "saunggkyann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "run riot",
+        "rampage",
+        "rise up",
+        "revolt",
+        "be unruly",
+        "be rampant"
+      ],
+      "entry": [
+        {
+          "word": "revolt",
+          "reverse_translation": [
+            "တော်လှန်"
+          ],
+          "score": 0.020115795
+        }
+      ],
+      "base_form": "သောင်းကျန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သောင်းကျန်း",
+      "alternative": [
+        {
+          "word_postproc": "rampage",
+          "score": 387,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "insurgents",
+          "score": 250,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ape",
+          "score": 182,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "unruly",
+          "score": 169,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rampant",
+          "score": 9,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "သောင်းကျန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

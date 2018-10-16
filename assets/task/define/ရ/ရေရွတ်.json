@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "read",
+      "orig": "ရေရွတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "ray rwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "mutter",
+        "revile",
+        "rebuke"
+      ],
+      "entry": [
+        {
+          "word": "mutter"
+        },
+        {
+          "word": "revile"
+        },
+        {
+          "word": "rebuke"
+        }
+      ],
+      "base_form": "ရေ‌ရွတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရေ ရွတ်",
+      "alternative": [
+        {
+          "word_postproc": "read",
+          "score": 493,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "out",
+          "score": 425,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mutter",
+          "score": 63,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "revile",
+          "score": 12,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "read this",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ရေရွတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

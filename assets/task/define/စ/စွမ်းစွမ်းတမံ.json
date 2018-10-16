@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "portfolio to",
+      "orig": "စွမ်းစွမ်းတမံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcwmhcwmtaman"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "to the best of one's ability"
+      ],
+      "entry": [
+        {
+          "word": "to the best of one's ability"
+        }
+      ],
+      "base_form": "စွမ်းစွမ်းတမံ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စွမ်းစွမ်းတမံ",
+      "alternative": [
+        {
+          "word_postproc": "portfolio to",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "စွမ်းစွမ်းတမံ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

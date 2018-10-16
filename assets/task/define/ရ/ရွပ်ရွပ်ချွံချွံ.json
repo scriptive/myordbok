@@ -1,0 +1,88 @@
+{
+  "sentences": [
+    {
+      "trans": "Outstandingly",
+      "orig": "ရွပ်ရွပ်ချွံချွံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "rwut rwut hkyawan hkyawan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "outstandingly",
+        "bravely",
+        "courageously"
+      ],
+      "entry": [
+        {
+          "word": "outstandingly"
+        },
+        {
+          "word": "bravely",
+          "synset_id": [
+            94365
+          ]
+        },
+        {
+          "word": "courageously",
+          "synset_id": [
+            94365
+          ]
+        }
+      ],
+      "base_form": "ရွပ်ရွပ်ချွံချွံ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရွပ် ရွပ် ချွံ ချွံ",
+      "alternative": [
+        {
+          "word_postproc": "Outstandingly",
+          "score": 994,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Bravely",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Courageously",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "ရွပ်ရွပ်ချွံချွံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

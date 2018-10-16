@@ -1,0 +1,106 @@
+{
+  "sentences": [
+    {
+      "trans": "Lecturer",
+      "orig": "ပို့ချ",
+      "backend": 0
+    },
+    {
+      "src_translit": "phoethkya"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "teach",
+        "transport",
+        "bring"
+      ],
+      "entry": [
+        {
+          "word": "teach",
+          "reverse_translation": [
+            "သင်ပေး"
+          ],
+          "score": 0.025428746
+        },
+        {
+          "word": "transport",
+          "reverse_translation": [
+            "တင်ဆောင်"
+          ],
+          "score": 0.0063297153
+        },
+        {
+          "word": "bring",
+          "reverse_translation": [
+            "ယူလာ"
+          ],
+          "score": 0.0063297153
+        }
+      ],
+      "base_form": "ပို့ချ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပို့ချ",
+      "alternative": [
+        {
+          "word_postproc": "Lecturer",
+          "score": 936,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "instruction",
+          "score": 62,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Training Center",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the medium of instruction",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lectured",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ပို့ချ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

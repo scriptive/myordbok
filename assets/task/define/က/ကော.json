@@ -1,0 +1,136 @@
+{
+  "sentences": [
+    {
+      "trans": "about",
+      "orig": "ကော",
+      "backend": 0
+    },
+    {
+      "src_translit": "kaw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "particle",
+      "terms": [
+        "particle prefixed to interrogative phrases to denote inclusion"
+      ],
+      "entry": [
+        {
+          "word": "particle prefixed to interrogative phrases to denote inclusion"
+        }
+      ],
+      "base_form": "ကော",
+      "pos_enum": 19
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "particle suffixed to nouns denoting inclusion"
+      ],
+      "entry": [
+        {
+          "word": "particle suffixed to nouns denoting inclusion"
+        }
+      ],
+      "base_form": "ကော",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "silt up",
+        "head towards extinction",
+        "become absolescent",
+        "lie dormant",
+        "become no longer useful",
+        "be self-assertive",
+        "particle placed at,near the end of a phrase,sentence as emphasis"
+      ],
+      "entry": [
+        {
+          "word": "silt up"
+        },
+        {
+          "word": "head towards extinction"
+        },
+        {
+          "word": "become absolescent"
+        },
+        {
+          "word": "lie dormant"
+        },
+        {
+          "word": "become no longer useful"
+        },
+        {
+          "word": "be self-assertive"
+        },
+        {
+          "word": "particle placed at,near the end of a phrase,sentence as emphasis"
+        }
+      ],
+      "base_form": "ကော",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကော",
+      "alternative": [
+        {
+          "word_postproc": "about",
+          "score": 431,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Col.",
+          "score": 369,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Cor",
+          "score": 118,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Corinthians",
+          "score": 58,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "What about",
+          "score": 21,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ကော",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

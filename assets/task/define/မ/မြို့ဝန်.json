@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "the governor",
+      "orig": "မြို့ဝန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "myahoet waan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "governor of a town in the monarchical days"
+      ],
+      "entry": [
+        {
+          "word": "governor of a town in the monarchical days"
+        }
+      ],
+      "base_form": "မြို့ဝန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မြို့ ဝန်",
+      "alternative": [
+        {
+          "word_postproc": "the governor",
+          "score": 969,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to the governor",
+          "score": 27,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of the governor",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "by the governor",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and the governors",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "မြို့ဝန်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

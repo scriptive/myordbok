@@ -1,0 +1,76 @@
+{
+  "sentences": [
+    {
+      "trans": "Confusedly",
+      "orig": "ယောင်တိယောင်ချာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "yaung ti yaung hkyaar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "uncertainly",
+        "confusedly",
+        "in a bewildered manner"
+      ],
+      "entry": [
+        {
+          "word": "uncertainly"
+        },
+        {
+          "word": "confusedly"
+        },
+        {
+          "word": "in a bewildered manner"
+        }
+      ],
+      "base_form": "ယောင်တိယောင်ချာ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယောင် တိ ယောင် ချာ",
+      "alternative": [
+        {
+          "word_postproc": "Confusedly",
+          "score": 761,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Uncertainly",
+          "score": 238,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "ယောင်တိယောင်ချာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

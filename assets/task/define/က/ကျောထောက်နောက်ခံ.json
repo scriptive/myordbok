@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "backing",
+      "orig": "ကျောထောက်နောက်ခံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawwhtoutnouthkan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "support",
+        "mainstay"
+      ],
+      "entry": [
+        {
+          "word": "support",
+          "reverse_translation": [
+            "အားပေးခြင်း",
+            "အထောက်"
+          ],
+          "score": 0.024646387
+        }
+      ],
+      "base_form": "ကျောထောက်နောက်ခံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျောထောက်နောက်ခံ",
+      "alternative": [
+        {
+          "word_postproc": "backing",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "backed",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "backed by",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "underpinning",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "backed by the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "ကျောထောက်နောက်ခံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

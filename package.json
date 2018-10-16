@@ -1,12 +1,19 @@
 {
   "name": "myordbok",
   "version": "1.0.0",
-  "description": "MyOrdbok",
+  "description": "online Myanmar dictionary",
   "main": "index.js",
   "scripts": {
     "start": "npm run build",
     "build": "webpack -p --config webpack.production.js",
     "test": "webpack-dev-server --open --config webpack.development.js"
+  },
+  "scriptive": {
+    "name":"MyOrdbok",
+    "version":"4.1.14",
+    "copyright":"2018",
+    "build":"18.10.06.9.37",
+    "description":"online Myanmar dictionary"
   },
   "repository": {
     "type": "git",
@@ -33,6 +40,7 @@
     "mini-css-extract-plugin": "^0.4.3",
     "node-sass": "^4.9.3",
     "sass-loader": "^7.1.0",
+    "script-loader": "^0.7.2",
     "style-loader": "^0.23.0",
     "url-loader": "^1.1.1",
     "webpack": "^4.20.2",

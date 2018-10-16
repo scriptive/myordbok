@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "pitchfork",
+      "orig": "ကောက်ဆွ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kout sw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "curved stick for stirring paddy stalks while threshing",
+        "pitchfork"
+      ],
+      "entry": [
+        {
+          "word": "pitchfork",
+          "reverse_translation": [
+            "ကောက်ဆွ"
+          ]
+        }
+      ],
+      "base_form": "ကောက်ဆွ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကောက် ဆွ",
+      "alternative": [
+        {
+          "word_postproc": "pitchfork",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကောက်ဆွ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

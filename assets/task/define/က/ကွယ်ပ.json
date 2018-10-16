@@ -1,0 +1,102 @@
+{
+  "sentences": [
+    {
+      "trans": "secret",
+      "orig": "ကွယ်ပ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kwal p"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "disappear",
+        "vanish"
+      ],
+      "entry": [
+        {
+          "word": "disappear",
+          "reverse_translation": [
+            "ကွယ်ပေျာက်"
+          ],
+          "synset_id": [
+            12733
+          ]
+        },
+        {
+          "word": "vanish",
+          "reverse_translation": [
+            "ကွယ်ပေျာက်"
+          ],
+          "synset_id": [
+            12733
+          ]
+        }
+      ],
+      "base_form": "ကွယ်ပ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကွယ်",
+      "alternative": [
+        {
+          "word_postproc": "secret",
+          "score": 719,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hid",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hide",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hiding",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "darkened",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကွယ်ပ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

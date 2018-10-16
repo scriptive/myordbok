@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "Mann blow",
+      "orig": "မန်းမှုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "maann mhuat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "utter mystic words to heal,word off evil"
+      ],
+      "entry": [
+        {
+          "word": "utter mystic words to heal,word off evil"
+        }
+      ],
+      "base_form": "မန်းမှုတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မန်း",
+      "alternative": [
+        {
+          "word_postproc": "Mann",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "မန်းမှုတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "မှုတ်",
+      "alternative": [
+        {
+          "word_postproc": "blow",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 9
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

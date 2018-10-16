@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "soot",
+      "orig": "ကျပ်ခိုး",
+      "backend": 1
+    },
+    {
+      "src_translit": "kyaut hkoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "soot"
+      ],
+      "entry": [
+        {
+          "word": "soot"
+        }
+      ],
+      "base_form": "ကျပ်ခိုး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျပ်ခိုး",
+      "alternative": [
+        {
+          "word_postproc": "soot",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကျပ်ခိုး",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

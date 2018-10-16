@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "charge of",
+      "orig": "ဆော်ဖန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "saw hpaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "have charge of",
+        "manage"
+      ],
+      "entry": [
+        {
+          "word": "manage",
+          "reverse_translation": [
+            "ဆောင်ရွက်နိုင်"
+          ]
+        }
+      ],
+      "base_form": "ဆော်ဖန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆော် ဖန်",
+      "alternative": [
+        {
+          "word_postproc": "charge of",
+          "score": 780,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "manage",
+          "score": 147,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "have charge of",
+          "score": 72,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဆော်ဖန်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

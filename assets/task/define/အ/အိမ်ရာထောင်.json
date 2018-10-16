@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "Marry",
+      "orig": "အိမ်ရာထောင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aain rar htaung"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "marry"
+      ],
+      "entry": [
+        {
+          "word": "marry",
+          "reverse_translation": [
+            "အိမ်ထောင်"
+          ]
+        }
+      ],
+      "base_form": "အိမ်ရာထောင်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အိမ် ရာ ထောင်",
+      "alternative": [
+        {
+          "word_postproc": "Marry",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "အိမ်ရာထောင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

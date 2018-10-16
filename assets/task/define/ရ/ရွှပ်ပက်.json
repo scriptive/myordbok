@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "soggy",
+      "orig": "ရွှပ်ပက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "shwut paat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "soggy"
+      ],
+      "entry": [
+        {
+          "word": "soggy"
+        }
+      ],
+      "base_form": "ရွှပ်ပက်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရွှပ် ပက်",
+      "alternative": [
+        {
+          "word_postproc": "soggy",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ရွှပ်ပက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

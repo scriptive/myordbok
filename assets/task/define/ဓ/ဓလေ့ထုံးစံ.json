@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "habit",
+      "orig": "ဓလေ့ထုံးစံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "dhalaehtonehcan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "habit"
+      ],
+      "entry": [
+        {
+          "word": "habit",
+          "reverse_translation": [
+            "ဓလေ့ထုံးစံ"
+          ],
+          "score": 0.0027652478
+        }
+      ],
+      "base_form": "ဓလေ့ထုံးစံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဓလေ့ထုံးစံ",
+      "alternative": [
+        {
+          "word_postproc": "habit",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and customs",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "customs of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "customs or",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ဓလေ့ထုံးစံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

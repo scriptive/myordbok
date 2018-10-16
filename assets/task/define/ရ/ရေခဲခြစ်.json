@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "Shaved ice",
+      "orig": "ရေခဲခြစ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "ray hkell hkyit"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "ice-lolly made of shaved ice and flavouring"
+      ],
+      "entry": [
+        {
+          "word": "ice-lolly made of shaved ice and flavouring"
+        }
+      ],
+      "base_form": "ရေခဲခြစ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခြစ်",
+      "alternative": [
+        {
+          "word_postproc": "Shaved",
+          "score": 704,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Scrape",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Scratch",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Grated",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Scrapes",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ရေခဲခြစ်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ရေ ခဲ",
+      "alternative": [
+        {
+          "word_postproc": "ice",
+          "score": 704,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

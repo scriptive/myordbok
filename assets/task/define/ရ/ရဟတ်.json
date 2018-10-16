@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "ferris wheel",
+      "orig": "ရဟတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "rahaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "rotor",
+        "ferris wheel",
+        "sth rotating  on its axis",
+        "swift rotating on a horizontal axis"
+      ],
+      "entry": [
+        {
+          "word": "rotor",
+          "score": 0.077111721
+        },
+        {
+          "word": "ferris wheel",
+          "score": 0.038173068
+        },
+        {
+          "word": "sth rotating  on its axis"
+        },
+        {
+          "word": "swift rotating on a horizontal axis"
+        }
+      ],
+      "base_form": "ရဟတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရဟတ်",
+      "alternative": [
+        {
+          "word_postproc": "ferris wheel",
+          "score": 649,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rotor",
+          "score": 341,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "helicopters",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "helicopter",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ရဟတ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

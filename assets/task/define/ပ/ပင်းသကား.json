@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Cangue",
+      "orig": "ပင်းသကား",
+      "backend": 0
+    },
+    {
+      "src_translit": "painn s karr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "pillory-like device used in olden days",
+        "cangue"
+      ],
+      "entry": [
+        {
+          "word": "pillory-like device used in olden days"
+        },
+        {
+          "word": "cangue"
+        }
+      ],
+      "base_form": "ပင်းသကား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပင်း သ ကား",
+      "alternative": [
+        {
+          "word_postproc": "Cangue",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ပင်းသကား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

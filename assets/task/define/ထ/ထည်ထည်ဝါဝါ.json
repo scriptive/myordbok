@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "Magnificently",
+      "orig": "ထည်ထည်ဝါဝါ",
+      "backend": 0
+    },
+    {
+      "src_translit": "htai htai warwar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "grandly",
+        "magnificently",
+        "with prestige and dignity",
+        "with pomp and circumstance"
+      ],
+      "entry": [
+        {
+          "word": "grandly"
+        },
+        {
+          "word": "magnificently"
+        },
+        {
+          "word": "with prestige and dignity"
+        },
+        {
+          "word": "with pomp and circumstance"
+        }
+      ],
+      "base_form": "ထည်ထည်ဝါဝါ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထည် ထည် ဝါဝါ",
+      "alternative": [
+        {
+          "word_postproc": "Magnificently",
+          "score": 995,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Grandly",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ထည်ထည်ဝါဝါ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

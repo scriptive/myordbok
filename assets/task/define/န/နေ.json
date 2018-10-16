@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "Sun",
+      "orig": "နေ",
+      "backend": 1
+    },
+    {
+      "src_translit": "nay"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "sun",
+        "the sun"
+      ],
+      "entry": [
+        {
+          "word": "sun",
+          "reverse_translation": [
+            "နေ"
+          ],
+          "score": 0.014948789
+        }
+      ],
+      "base_form": "နေ",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "stay",
+        "live",
+        "particle suffixed to a verb to denote a continuing process"
+      ],
+      "entry": [
+        {
+          "word": "stay",
+          "reverse_translation": [
+            "ရပ်နေ"
+          ],
+          "score": 0.011108996
+        },
+        {
+          "word": "live",
+          "reverse_translation": [
+            "နေထိုင်"
+          ],
+          "score": 0.0028530264
+        }
+      ],
+      "base_form": "နေ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နေ",
+      "alternative": [
+        {
+          "word_postproc": "Sun",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "နေ",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

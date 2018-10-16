@@ -1,0 +1,53 @@
+{
+  "sentences": [
+    {
+      "trans": "divide",
+      "orig": "ထက်ဝက်ခွဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "htaatwaat hkwal"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထက်ဝက် ခွဲ",
+      "alternative": [
+        {
+          "word_postproc": "divide",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "divide the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ထက်ဝက်ခွဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

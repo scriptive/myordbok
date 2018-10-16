@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "dresses",
+      "orig": "ဆင်မြန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "sain myan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "wear",
+        "adorn"
+      ],
+      "entry": [
+        {
+          "word": "wear",
+          "reverse_translation": [
+            "ဝတ်ဆင်"
+          ]
+        },
+        {
+          "word": "adorn",
+          "reverse_translation": [
+            "ဆင်ယင်"
+          ]
+        }
+      ],
+      "base_form": "ဆင်မြန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆင် မြန်း",
+      "alternative": [
+        {
+          "word_postproc": "dresses",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wear",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "adorn",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "dresses to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဆင်မြန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

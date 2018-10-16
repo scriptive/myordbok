@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "In confusion",
+      "orig": "ကယောက်ကယက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "k yout k yaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in turmoil",
+        "in confusion"
+      ],
+      "entry": [
+        {
+          "word": "in turmoil"
+        },
+        {
+          "word": "in confusion"
+        }
+      ],
+      "base_form": "ကယောက်ကယက်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "က ယောက် က ယက်",
+      "alternative": [
+        {
+          "word_postproc": "In confusion",
+          "score": 976,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "In turmoil",
+          "score": 23,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ကယောက်ကယက်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

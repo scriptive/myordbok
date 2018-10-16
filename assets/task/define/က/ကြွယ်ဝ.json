@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "rich",
+      "orig": "ကြွယ်ဝ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawalw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "rich",
+        "wealthy",
+        "eloquent"
+      ],
+      "entry": [
+        {
+          "word": "rich",
+          "reverse_translation": [
+            "ကြွယ်ဝသော"
+          ],
+          "score": 0.18211353
+        },
+        {
+          "word": "wealthy",
+          "reverse_translation": [
+            "ဉစ္စဓနကြွယ်ဝသော"
+          ]
+        }
+      ],
+      "base_form": "ကြွယ်ဝ",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြွယ်ဝ",
+      "alternative": [
+        {
+          "word_postproc": "rich",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "being rich",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rich in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "is rich in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "is rich",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ကြွယ်ဝ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

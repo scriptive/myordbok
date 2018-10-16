@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "Braking",
+      "orig": "ဘရိတ်အုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "bh rate aote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "slow down by braking",
+        "control"
+      ],
+      "entry": [
+        {
+          "word": "control",
+          "reverse_translation": [
+            "ကြီးကြပ်"
+          ]
+        }
+      ],
+      "base_form": "ဘရိတ်အုပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘ ရိတ် အုပ်",
+      "alternative": [
+        {
+          "word_postproc": "Braking",
+          "score": 957,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The brakes",
+          "score": 23,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Brakes",
+          "score": 18,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Control",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ဘရိတ်အုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

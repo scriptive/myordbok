@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "worthwhile",
+      "orig": "အကျိုးနပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aakyoe naut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be worthwhile"
+      ],
+      "entry": [
+        {
+          "word": "be worthwhile"
+        }
+      ],
+      "base_form": "အကျိုးနပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အကျိုး နပ်",
+      "alternative": [
+        {
+          "word_postproc": "worthwhile",
+          "score": 880,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "worth",
+          "score": 119,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "it worth",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အကျိုးနပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

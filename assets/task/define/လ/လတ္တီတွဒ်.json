@@ -1,0 +1,77 @@
+{
+  "sentences": [
+    {
+      "trans": "Latitude",
+      "orig": "လတ္တီတွဒ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lat te twd"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "latitude"
+      ],
+      "entry": [
+        {
+          "word": "latitude",
+          "reverse_translation": [
+            "လတီ္တတွဒ်"
+          ]
+        }
+      ],
+      "base_form": "လတ္တီတွဒ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လတ္ တီ တွဒ်",
+      "alternative": [
+        {
+          "word_postproc": "Latitude",
+          "score": 988,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Latitudes",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The latitude",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "လတ္တီတွဒ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

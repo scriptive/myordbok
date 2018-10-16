@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Tone",
+      "orig": "လေသံပစ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lay san pait"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "throw a hint"
+      ],
+      "entry": [
+        {
+          "word": "throw a hint"
+        }
+      ],
+      "base_form": "လေသံပစ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လေ သံ",
+      "alternative": [
+        {
+          "word_postproc": "Tone",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "လေသံပစ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

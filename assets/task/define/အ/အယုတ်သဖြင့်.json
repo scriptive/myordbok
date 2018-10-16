@@ -1,0 +1,71 @@
+{
+  "sentences": [
+    {
+      "trans": "Rejected",
+      "orig": "အယုတ်သဖြင့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aayote s hpyint"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "at least"
+      ],
+      "entry": [
+        {
+          "word": "at least",
+          "synset_id": [
+            51890
+          ]
+        }
+      ],
+      "base_form": "အယုတ်သဖြင့်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အယုတ်",
+      "alternative": [
+        {
+          "word_postproc": "Rejected",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Deficiency",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "အယုတ်သဖြင့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

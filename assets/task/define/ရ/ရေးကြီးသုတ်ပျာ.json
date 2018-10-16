@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "A hurry",
+      "orig": "ရေးကြီးသုတ်ပျာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "rayykyee sote pyaar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in a hurry",
+        "in haste"
+      ],
+      "entry": [
+        {
+          "word": "in a hurry"
+        },
+        {
+          "word": "in haste"
+        }
+      ],
+      "base_form": "ရေးကြီးသုတ်ပျာ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရေးကြီး သုတ် ပျာ",
+      "alternative": [
+        {
+          "word_postproc": "A hurry",
+          "score": 653,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Hurry",
+          "score": 331,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Haste",
+          "score": 12,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "In haste",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ရေးကြီးသုတ်ပျာ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

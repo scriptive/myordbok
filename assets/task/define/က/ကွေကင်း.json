@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "separated",
+      "orig": "ကွေကင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "kway kainn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be parted",
+        "separated"
+      ],
+      "entry": [
+        {
+          "word": "be parted"
+        },
+        {
+          "word": "separated"
+        }
+      ],
+      "base_form": "ကွေကင်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကွေ ကင်း",
+      "alternative": [
+        {
+          "word_postproc": "separated",
+          "score": 995,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "parted",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကွေကင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

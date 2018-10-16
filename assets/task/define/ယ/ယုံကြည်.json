@@ -1,0 +1,104 @@
+{
+  "sentences": [
+    {
+      "trans": "believe",
+      "orig": "ယုံကြည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "yonekyi"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "believe",
+        "trust"
+      ],
+      "entry": [
+        {
+          "word": "believe",
+          "reverse_translation": [
+            "ယုံကြည်"
+          ],
+          "synset_id": [
+            22157
+          ],
+          "score": 0.13746651
+        },
+        {
+          "word": "trust",
+          "reverse_translation": [
+            "အားကိုး"
+          ],
+          "synset_id": [
+            22157
+          ],
+          "score": 0.029729217
+        }
+      ],
+      "base_form": "ယုံကြည်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယုံကြည်",
+      "alternative": [
+        {
+          "word_postproc": "believe",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "believe that",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "believe the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and believe",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "believe in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ယုံကြည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

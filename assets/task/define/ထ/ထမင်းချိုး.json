@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "lunch break",
+      "orig": "ထမင်းချိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "htamainn hkyoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "slightly burnt rice at the bottom of the pot",
+        "crust of cooked rice."
+      ],
+      "entry": [
+        {
+          "word": "slightly burnt rice at the bottom of the pot"
+        },
+        {
+          "word": "crust of cooked rice."
+        }
+      ],
+      "base_form": "ထမင်းချိုး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထမင်း",
+      "alternative": [
+        {
+          "word_postproc": "lunch",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rice",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ထမင်းချိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ချိုး",
+      "alternative": [
+        {
+          "word_postproc": "break",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "doves",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 10
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

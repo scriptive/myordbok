@@ -1,0 +1,112 @@
+{
+  "sentences": [
+    {
+      "trans": "Crease",
+      "orig": "တွန့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "tw an "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "wrinkle",
+        "crease",
+        "warp",
+        "curl",
+        "shrink from sth",
+        "recoil"
+      ],
+      "entry": [
+        {
+          "word": "wrinkle",
+          "synset_id": [
+            32039
+          ]
+        },
+        {
+          "word": "crease",
+          "synset_id": [
+            32039
+          ]
+        },
+        {
+          "word": "warp"
+        },
+        {
+          "word": "curl"
+        },
+        {
+          "word": "shrink from sth"
+        },
+        {
+          "word": "recoil"
+        }
+      ],
+      "base_form": "တွန့်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တွ န့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Crease",
+          "score": 644,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Curly",
+          "score": 327,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Smocking",
+          "score": 13,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Wrinkle",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Recoil",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "တွန့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "sentences": [
+    {
+      "trans": "room",
+      "orig": "အခန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "aahkaann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "room",
+        "chapter",
+        "apartment",
+        "role",
+        "compartment",
+        "ward",
+        "scence,part in a drama,film",
+        "segment of a monk's robe which is patched together from several pieces as prescribed"
+      ],
+      "entry": [
+        {
+          "word": "room",
+          "reverse_translation": [
+            "အခန်း",
+            "နေရာ"
+          ],
+          "synset_id": [
+            25294
+          ],
+          "score": 0.14183016
+        },
+        {
+          "word": "chapter",
+          "reverse_translation": [
+            "အခဏ်း"
+          ],
+          "score": 0.073580518
+        },
+        {
+          "word": "apartment",
+          "reverse_translation": [
+            "အခန်း"
+          ],
+          "synset_id": [
+            37282
+          ],
+          "score": 0.006737947
+        },
+        {
+          "word": "compartment",
+          "reverse_translation": [
+            "အခန်း"
+          ],
+          "synset_id": [
+            50413
+          ],
+          "score": 0.0017853782
+        },
+        {
+          "word": "ward",
+          "reverse_translation": [
+            "အခန်း"
+          ],
+          "score": 0.00065680395
+        }
+      ],
+      "base_form": "အခန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အခန်း",
+      "alternative": [
+        {
+          "word_postproc": "room",
+          "score": 760,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "apartment",
+          "score": 239,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Chapter I",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "at room",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in Chapter",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "အခန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

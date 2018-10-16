@@ -1,0 +1,85 @@
+{
+  "sentences": [
+    {
+      "trans": "planet",
+      "orig": "ဂြိုဟ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "gyaoh"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "planet",
+        "planets in the solar system, e.g Earth,Saturn,Neptune,Uranus,etc"
+      ],
+      "entry": [
+        {
+          "word": "planet",
+          "reverse_translation": [
+            "ဂြိုဟ်"
+          ],
+          "score": 0.07243976
+        }
+      ],
+      "base_form": "ဂြိုဟ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဂြိုဟ်",
+      "alternative": [
+        {
+          "word_postproc": "planet",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "buried they",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Martian",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Planet Earth",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဂြိုဟ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

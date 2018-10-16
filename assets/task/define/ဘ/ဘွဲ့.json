@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "degree",
+      "orig": "ဘွဲ့",
+      "backend": 1
+    },
+    {
+      "src_translit": "bhwal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "title,award conferred for distinguished service, valour, etc",
+        "name acquired on attaining monkhood",
+        "degree conferred by an officially recognized academic body",
+        "type of classical song celebrating a particular theme"
+      ],
+      "entry": [
+        {
+          "word": "title,award conferred for distinguished service, valour, etc"
+        },
+        {
+          "word": "name acquired on attaining monkhood"
+        },
+        {
+          "word": "degree conferred by an officially recognized academic body"
+        },
+        {
+          "word": "type of classical song celebrating a particular theme"
+        }
+      ],
+      "base_form": "ဘွဲ့",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘွဲ့",
+      "alternative": [
+        {
+          "word_postproc": "degree",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Bachelor",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဘွဲ့",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Up",
+      "orig": "ကလတက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "k l taat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "hollowed log, kept in Myanmar Buddhist monasteries and struck at intervals to indicate time for meals, devotions,etc"
+      ],
+      "entry": [
+        {
+          "word": "hollowed log, kept in Myanmar Buddhist monasteries and struck at intervals to indicate time for meals, devotions,etc"
+        }
+      ],
+      "base_form": "ကလတက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တက်",
+      "alternative": [
+        {
+          "word_postproc": "Up",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကလတက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

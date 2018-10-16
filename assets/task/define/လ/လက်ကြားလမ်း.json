@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Path",
+      "orig": "လက်ကြားလမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "laat kyarr lam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "by-path"
+      ],
+      "entry": [
+        {
+          "word": "by-path"
+        }
+      ],
+      "base_form": "လက်ကြားလမ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လက် ကြား လမ်း",
+      "alternative": [
+        {
+          "word_postproc": "Path",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "လက်ကြားလမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

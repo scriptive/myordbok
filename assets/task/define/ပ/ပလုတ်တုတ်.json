@@ -1,0 +1,63 @@
+{
+  "sentences": [
+    {
+      "trans": "rattle",
+      "orig": "ပလုတ်တုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "palotetote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "rattle"
+      ],
+      "entry": [
+        {
+          "word": "rattle",
+          "score": 1
+        }
+      ],
+      "base_form": "ပလုတ်တုတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပလုတ်တုတ်",
+      "alternative": [
+        {
+          "word_postproc": "rattle",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ပလုတ်တုတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

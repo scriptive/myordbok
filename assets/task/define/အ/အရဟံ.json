@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "အရဟံ",
+      "orig": "အရဟံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aarahan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "Buddha's attribute of deserving adoration and worship,being one of nine"
+      ],
+      "entry": [
+        {
+          "word": "Buddha's attribute of deserving adoration and worship,being one of nine"
+        }
+      ],
+      "base_form": "အရဟံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အရဟံ",
+      "alternative": [
+        {
+          "word_postproc": "အရဟံ",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "အရဟံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

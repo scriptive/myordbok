@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Eclipsed",
+      "orig": "လငပုပ်ဖမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "l ng pote hpam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be eclipsed",
+        "have a lunar eclipse"
+      ],
+      "entry": [
+        {
+          "word": "be eclipsed"
+        },
+        {
+          "word": "have a lunar eclipse"
+        }
+      ],
+      "base_form": "လငပုပ်ဖမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လ င ပုပ် ဖမ်း",
+      "alternative": [
+        {
+          "word_postproc": "Eclipsed",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "လငပုပ်ဖမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

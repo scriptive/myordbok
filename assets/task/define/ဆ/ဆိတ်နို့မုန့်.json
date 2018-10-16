@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Biscuit",
+      "orig": "ဆိတ်နို့မုန့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "sate nhoet mu an "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "kind of biscuit"
+      ],
+      "entry": [
+        {
+          "word": "kind of biscuit"
+        }
+      ],
+      "base_form": "ဆိတ်နို့မုန့်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆိတ် နို့ မု န့",
+      "alternative": [
+        {
+          "word_postproc": "Biscuit",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ဆိတ်နို့မုန့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

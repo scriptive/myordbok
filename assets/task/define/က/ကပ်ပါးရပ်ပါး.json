@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "Parasitology",
+      "orig": "ကပ်ပါးရပ်ပါး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kautparr raut parr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "human parasite.‌"
+      ],
+      "entry": [
+        {
+          "word": "human parasite.‌"
+        }
+      ],
+      "base_form": "ကပ်ပါးရပ်ပါး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကပ်ပါး",
+      "alternative": [
+        {
+          "word_postproc": "Parasitology",
+          "score": 868,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Parasites",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Parasite",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Parasitic",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ကပ်ပါးရပ်ပါး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

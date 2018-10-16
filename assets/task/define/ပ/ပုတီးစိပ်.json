@@ -1,0 +1,76 @@
+{
+  "sentences": [
+    {
+      "trans": "tellbeads",
+      "orig": "ပုတီးစိပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "puteehciut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "tellbeads"
+      ],
+      "entry": [
+        {
+          "word": "tellbeads",
+          "score": 0.16842748
+        }
+      ],
+      "base_form": "ပုတီးစိပ်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "ritual Pali stanzas recited by a novice when telling his beads"
+      ],
+      "entry": [
+        {
+          "word": "ritual Pali stanzas recited by a novice when telling his beads"
+        }
+      ],
+      "base_form": "ပုတီးစိပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပုတီးစိပ်",
+      "alternative": [
+        {
+          "word_postproc": "tellbeads",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ပုတီးစိပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

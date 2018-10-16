@@ -1,0 +1,118 @@
+{
+  "sentences": [
+    {
+      "trans": "honor",
+      "orig": "ဂုဏ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "gun"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "honor",
+        "glory",
+        "dignity",
+        "prestige",
+        "qualities",
+        "characteristics",
+        "attributes",
+        "aesthetic quality"
+      ],
+      "entry": [
+        {
+          "word": "honor",
+          "reverse_translation": [
+            "ဂုဏ်"
+          ],
+          "score": 0.042585135
+        },
+        {
+          "word": "glory",
+          "reverse_translation": [
+            "ဂုဏ်"
+          ],
+          "score": 0.035860281
+        },
+        {
+          "word": "dignity",
+          "reverse_translation": [
+            "ဂုဏ်"
+          ],
+          "score": 0.0057632714
+        },
+        {
+          "word": "prestige",
+          "reverse_translation": [
+            "ဂုဏ်သိက္ခာ"
+          ],
+          "score": 0.0054140924
+        }
+      ],
+      "base_form": "ဂုဏ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဂုဏ်",
+      "alternative": [
+        {
+          "word_postproc": "honor",
+          "score": 958,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "glory",
+          "score": 41,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "dignity",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "glorifies",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "beauty",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဂုဏ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

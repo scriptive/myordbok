@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "insane",
+      "orig": "ရူးသွပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "ruu swut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be insane",
+        "go mad",
+        "run amuck",
+        "be demented"
+      ],
+      "entry": [
+        {
+          "word": "be insane"
+        },
+        {
+          "word": "go mad"
+        },
+        {
+          "word": "run amuck"
+        },
+        {
+          "word": "be demented"
+        }
+      ],
+      "base_form": "ရူးသွပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရူး သွပ်",
+      "alternative": [
+        {
+          "word_postproc": "insane",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mad",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "obsessions",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Madmen",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "demented",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ရူးသွပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

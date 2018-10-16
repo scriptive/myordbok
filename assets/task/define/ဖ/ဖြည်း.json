@@ -1,0 +1,102 @@
+{
+  "sentences": [
+    {
+      "trans": "equipment",
+      "orig": "ဖြည်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpyi"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "soften",
+        "lighten",
+        "sounds softly",
+        "waft"
+      ],
+      "entry": [
+        {
+          "word": "soften",
+          "score": 0.031646587
+        },
+        {
+          "word": "lighten",
+          "score": 0.031646587
+        },
+        {
+          "word": "sounds softly",
+          "score": 0.031646587
+        },
+        {
+          "word": "waft",
+          "score": 0.031646587
+        }
+      ],
+      "base_form": "ဖြည်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖြည်း",
+      "alternative": [
+        {
+          "word_postproc": "equipment",
+          "score": 551,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "waft",
+          "score": 395,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "soften",
+          "score": 51,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lighten",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "gentle",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဖြည်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

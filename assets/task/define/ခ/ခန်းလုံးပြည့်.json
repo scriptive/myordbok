@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "Full length",
+      "orig": "ခန်းလုံးပြည့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaann lone pyany"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "full to capacity"
+      ],
+      "entry": [
+        {
+          "word": "full to capacity"
+        }
+      ],
+      "base_form": "ခန်းလုံးပြည့်",
+      "pos_enum": 4
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "full length",
+        "wall to wall"
+      ],
+      "entry": [
+        {
+          "word": "full length"
+        },
+        {
+          "word": "wall to wall"
+        }
+      ],
+      "base_form": "ခန်းလုံးပြည့်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခန်း လုံး ပြည့်",
+      "alternative": [
+        {
+          "word_postproc": "Full length",
+          "score": 992,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Full to capacity",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Wall to wall",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ခန်းလုံးပြည့်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

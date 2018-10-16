@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "crab",
+      "orig": "ကနန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "k naann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "Ganan: one of the Tibet-Myanmar speaking ethnic groups in the Union of Myanmar",
+        "crab"
+      ],
+      "entry": [
+        {
+          "word": "crab",
+          "reverse_translation": [
+            "ကနန်း"
+          ]
+        }
+      ],
+      "base_form": "ကနန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "က နန်း",
+      "alternative": [
+        {
+          "word_postproc": "crab",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကနန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

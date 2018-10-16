@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Forbear",
+      "orig": "အနွံအတာခံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "a nwan a tar hkan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "tolerate",
+        "forbear"
+      ],
+      "entry": [
+        {
+          "word": "tolerate",
+          "reverse_translation": [
+            "သည်းခံနေ"
+          ]
+        }
+      ],
+      "base_form": "အနွံအတာခံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နွံ အ တာ ခံ",
+      "alternative": [
+        {
+          "word_postproc": "Forbear",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Tolerate",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အနွံအတာခံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

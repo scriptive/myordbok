@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "Hehe Central Brazil",
+      "orig": "တဟီးဟီးတဟားဟား",
+      "backend": 0
+    },
+    {
+      "src_translit": "t heehee taharrharr"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဟီးဟီး",
+      "alternative": [
+        {
+          "word_postproc": "Hehe",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Files",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Files you",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "တဟီးဟီးတဟားဟား",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "တဟားဟား",
+      "alternative": [
+        {
+          "word_postproc": "Central Brazil",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 14
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

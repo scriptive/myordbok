@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "Strangely",
+      "orig": "ထူးဆန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "htuusaann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be strange",
+        "extraordinary",
+        "uncommon"
+      ],
+      "entry": [
+        {
+          "word": "be strange"
+        },
+        {
+          "word": "extraordinary"
+        },
+        {
+          "word": "uncommon"
+        }
+      ],
+      "base_form": "ထူးဆန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထူးဆန်း",
+      "alternative": [
+        {
+          "word_postproc": "Strangely",
+          "score": 990,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "strange",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Strangely enough",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ထူးဆန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

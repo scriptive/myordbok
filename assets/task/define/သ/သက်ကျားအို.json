@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "Aged",
+      "orig": "သက်ကျားအို",
+      "backend": 0
+    },
+    {
+      "src_translit": "saat kyarr ao"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "old",
+        "aged person"
+      ],
+      "entry": [
+        {
+          "word": "old"
+        },
+        {
+          "word": "aged person"
+        }
+      ],
+      "base_form": "သက်ကျားအို",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သက် ကျား အို",
+      "alternative": [
+        {
+          "word_postproc": "Aged",
+          "score": 666,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Aged person",
+          "score": 214,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Old",
+          "score": 118,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "သက်ကျားအို",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

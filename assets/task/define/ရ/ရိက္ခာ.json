@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "rations",
+      "orig": "ရိက္ခာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "rikhkar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "ration",
+        "provision"
+      ],
+      "entry": [
+        {
+          "word": "ration",
+          "reverse_translation": [
+            "တယောက်စာ"
+          ],
+          "score": 0.019194625
+        }
+      ],
+      "base_form": "ရိက္ခာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရိက္ခာ",
+      "alternative": [
+        {
+          "word_postproc": "rations",
+          "score": 672,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ration",
+          "score": 327,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Food Rations",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rations to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the food of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ရိက္ခာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

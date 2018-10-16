@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Relevance",
+      "orig": "ဆက်နွှယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "saat nwhaal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be connected",
+        "related"
+      ],
+      "entry": [
+        {
+          "word": "be connected"
+        },
+        {
+          "word": "related"
+        }
+      ],
+      "base_form": "ဆက်နွှယ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆက် နွှယ်",
+      "alternative": [
+        {
+          "word_postproc": "Relevance",
+          "score": 697,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Affiliation",
+          "score": 301,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "associated with the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "connected with",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "connected with the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဆက်နွှယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

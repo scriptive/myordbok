@@ -1,0 +1,76 @@
+{
+  "sentences": [
+    {
+      "trans": "more",
+      "orig": "ကတိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "k toe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "musk-deer",
+        "musk",
+        "collective term for a group of five aromatic substances used in traditional pharmacology"
+      ],
+      "entry": [
+        {
+          "word": "musk-deer"
+        },
+        {
+          "word": "musk"
+        },
+        {
+          "word": "collective term for a group of five aromatic substances used in traditional pharmacology"
+        }
+      ],
+      "base_form": "ကတိုး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "က တိုး",
+      "alternative": [
+        {
+          "word_postproc": "more",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "musk",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကတိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

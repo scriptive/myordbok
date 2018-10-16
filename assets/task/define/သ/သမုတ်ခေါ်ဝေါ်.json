@@ -1,0 +1,53 @@
+{
+  "sentences": [
+    {
+      "trans": "Called",
+      "orig": "သမုတ်ခေါ်ဝေါ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "s mote hkawwaw"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သ မုတ် ခေါ်ဝေါ်",
+      "alternative": [
+        {
+          "word_postproc": "Called",
+          "score": 964,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Also called",
+          "score": 35,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "သမုတ်ခေါ်ဝေါ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

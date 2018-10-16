@@ -1,0 +1,76 @@
+{
+  "sentences": [
+    {
+      "trans": "Spanish fly",
+      "orig": "ပိုးချင်းမ",
+      "backend": 0
+    },
+    {
+      "src_translit": "poe hkyinn m"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "Spanish fly",
+        "cantharis",
+        "blister beetle. ''Lytta vesicatoria.''"
+      ],
+      "entry": [
+        {
+          "word": "Spanish fly"
+        },
+        {
+          "word": "cantharis"
+        },
+        {
+          "word": "blister beetle. ''Lytta vesicatoria.''"
+        }
+      ],
+      "base_form": "ပိုးချင်းမ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပိုး ချင်း မ",
+      "alternative": [
+        {
+          "word_postproc": "Spanish fly",
+          "score": 994,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Fly",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ပိုးချင်းမ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

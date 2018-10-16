@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "ရိက္ခ",
+      "orig": "ပရိက္ခရာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "p rikhk rar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "prescribed articles for use by Buddhist monks.ဒုကုဋ်,4.သပိတ်,5.ပဲခွပ်သင်တုန်းဓား,6.အပ်,7.ခါးပန်းကြိုး,8.ရေစစ်)"
+      ],
+      "entry": [
+        {
+          "word": "prescribed articles for use by Buddhist monks.ဒုကုဋ်,4.သပိတ်,5.ပဲခွပ်သင်တုန်းဓား,6.အပ်,7.ခါးပန်းကြိုး,8.ရေစစ်)"
+        }
+      ],
+      "base_form": "ပရိက္ခရာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရိက္ခ",
+      "alternative": [
+        {
+          "word_postproc": "ရိက္ခ",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ပရိက္ခရာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

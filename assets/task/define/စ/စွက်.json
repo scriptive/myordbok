@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "intervention",
+      "orig": "စွက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "add",
+        "meddle"
+      ],
+      "entry": [
+        {
+          "word": "add",
+          "reverse_translation": [
+            "ပေါင်း"
+          ],
+          "score": 0.023888096
+        }
+      ],
+      "base_form": "စွက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စွက်",
+      "alternative": [
+        {
+          "word_postproc": "intervention",
+          "score": 681,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Contrary",
+          "score": 284,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "completing",
+          "score": 33,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "intervened",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "interfere",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "စွက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

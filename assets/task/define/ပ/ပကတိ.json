@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "absolute",
+      "orig": "ပကတိ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pakati"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "natural",
+        "unaffected",
+        "normal"
+      ],
+      "entry": [
+        {
+          "word": "natural",
+          "reverse_translation": [
+            "သဘာဝကျသော"
+          ],
+          "score": 0.068050854
+        },
+        {
+          "word": "normal",
+          "reverse_translation": [
+            "ပုံမှန်ဖြစ်သော"
+          ]
+        }
+      ],
+      "base_form": "ပကတိ",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပကတိ",
+      "alternative": [
+        {
+          "word_postproc": "absolute",
+          "score": 708,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "literal",
+          "score": 207,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the literal",
+          "score": 45,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "an absolute",
+          "score": 37,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "heal us",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ပကတိ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

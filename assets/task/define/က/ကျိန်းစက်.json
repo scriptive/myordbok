@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "sleeping",
+      "orig": "ကျိန်းစက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyane hcaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "reside",
+        "lie",
+        "sleep"
+      ],
+      "entry": [
+        {
+          "word": "reside",
+          "reverse_translation": [
+            "နေထိုင်"
+          ]
+        },
+        {
+          "word": "lie",
+          "reverse_translation": [
+            "လဲလေျာင်း",
+            "မုသားပေြာ"
+          ]
+        },
+        {
+          "word": "sleep",
+          "reverse_translation": [
+            "အိပ်"
+          ]
+        }
+      ],
+      "base_form": "ကျိန်းစက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျိန်း စက်",
+      "alternative": [
+        {
+          "word_postproc": "sleeping",
+          "score": 590,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sleep",
+          "score": 376,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "asleep",
+          "score": 26,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to sleep",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကျိန်းစက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

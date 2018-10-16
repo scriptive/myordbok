@@ -1,0 +1,126 @@
+{
+  "sentences": [
+    {
+      "trans": "False",
+      "orig": "မှား",
+      "backend": 0
+    },
+    {
+      "src_translit": "mhar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "wrong",
+        "incorrect",
+        "erroneous"
+      ],
+      "entry": [
+        {
+          "word": "wrong",
+          "reverse_translation": [
+            "မှားသော"
+          ],
+          "synset_id": [
+            12655
+          ],
+          "score": 0.13746651
+        },
+        {
+          "word": "incorrect",
+          "reverse_translation": [
+            "မှားသော"
+          ],
+          "synset_id": [
+            12655
+          ],
+          "score": 0.0033355257
+        }
+      ],
+      "base_form": "မှား",
+      "pos_enum": 3
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "err",
+        "make a mistake",
+        "do wrong",
+        "go wrong",
+        "violate social taboos concerning sex",
+        "die"
+      ],
+      "entry": [
+        {
+          "word": "die",
+          "reverse_translation": [
+            "သေဆုံး"
+          ]
+        }
+      ],
+      "base_form": "မှား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မှား",
+      "alternative": [
+        {
+          "word_postproc": "False",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wrong",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "is wrong",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "was wrong",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "be wrong",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "မှား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

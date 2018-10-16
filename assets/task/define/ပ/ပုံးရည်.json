@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "vinegar",
+      "orig": "ပုံးရည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pone rai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "kind of vinegar made by fermenting nipa palm sap,,water in which rice has been  washed."
+      ],
+      "entry": [
+        {
+          "word": "kind of vinegar made by fermenting nipa palm sap,,water in which rice has been  washed."
+        }
+      ],
+      "base_form": "ပုံးရည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပုံး ရည်",
+      "alternative": [
+        {
+          "word_postproc": "vinegar",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wine vinegar",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "As vinegar",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "vinegar to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of vinegar",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ပုံးရည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

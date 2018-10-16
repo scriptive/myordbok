@@ -1,0 +1,111 @@
+{
+  "sentences": [
+    {
+      "trans": "hundreds of rice",
+      "orig": "ရာကျော်စပါး",
+      "backend": 0
+    },
+    {
+      "src_translit": "rarkyaw hcaparr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "strain of quick-ripening paddy, yielding more than hundred basketsper acre"
+      ],
+      "entry": [
+        {
+          "word": "strain of quick-ripening paddy, yielding more than hundred basketsper acre"
+        }
+      ],
+      "base_form": "ရာကျော်စပါး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရာကျော်",
+      "alternative": [
+        {
+          "word_postproc": "hundreds of",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "centenarian",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hundreds",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ရာကျော်စပါး",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "စပါး",
+      "alternative": [
+        {
+          "word_postproc": "rice",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "grain",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "corn",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "paddy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 11
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

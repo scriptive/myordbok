@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "rob",
+      "orig": "လုယက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "luyaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "rob",
+        "take by force",
+        "usurp",
+        "snatch"
+      ],
+      "entry": [
+        {
+          "word": "rob",
+          "reverse_translation": [
+            "လုယက်"
+          ],
+          "synset_id": [
+            43182
+          ],
+          "score": 0.015184198
+        }
+      ],
+      "base_form": "လုယက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လုယက်",
+      "alternative": [
+        {
+          "word_postproc": "rob",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "looting",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rifled",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "by spoil",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "လုယက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

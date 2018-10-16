@@ -1,0 +1,118 @@
+{
+  "sentences": [
+    {
+      "trans": "Rotate",
+      "orig": "လှည့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lha i "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "go,move round sth",
+        "turn",
+        "spin",
+        "go from place to place",
+        "make the rounds",
+        "turn to a certain direction",
+        "deceive",
+        "borrow sth",
+        "pay court to",
+        "go a courting",
+        "particle suffixed to verbs to denote persuasion",
+        "rotate"
+      ],
+      "entry": [
+        {
+          "word": "turn",
+          "reverse_translation": [
+            "လှည့်လည်"
+          ]
+        },
+        {
+          "word": "spin",
+          "reverse_translation": [
+            "ချည်ငင်"
+          ]
+        },
+        {
+          "word": "deceive",
+          "reverse_translation": [
+            "လှည့်ဖြား"
+          ]
+        },
+        {
+          "word": "rotate",
+          "reverse_translation": [
+            "လှည့်"
+          ]
+        }
+      ],
+      "base_form": "လှည့်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လှ ည့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Rotate",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Beguiled",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Rotation",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Beguiled me",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "To rotate",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "လှည့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "opening",
+      "orig": "ဒွါရ",
+      "backend": 0
+    },
+    {
+      "src_translit": "dwar r"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "opening",
+        "door",
+        "the six sensual orifices,sense receptors of the body",
+        "orifices in the body through which waste matter is voided: anus, urethra, etc"
+      ],
+      "entry": [
+        {
+          "word": "opening",
+          "reverse_translation": [
+            "အပေါက်"
+          ]
+        },
+        {
+          "word": "door",
+          "reverse_translation": [
+            "တံခါးပေါက်"
+          ]
+        }
+      ],
+      "base_form": "ဒွါရ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဒွါ ရ",
+      "alternative": [
+        {
+          "word_postproc": "opening",
+          "score": 858,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "door",
+          "score": 141,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဒွါရ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

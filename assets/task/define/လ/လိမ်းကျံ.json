@@ -1,0 +1,103 @@
+{
+  "sentences": [
+    {
+      "trans": "smear",
+      "orig": "လိမ်းကျံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "laim kyaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "apply",
+        "smear",
+        "paint"
+      ],
+      "entry": [
+        {
+          "word": "apply",
+          "reverse_translation": [
+            "လေှျာက်တောင်း"
+          ]
+        },
+        {
+          "word": "smear",
+          "reverse_translation": [
+            "သုတ်လိမ်း"
+          ]
+        },
+        {
+          "word": "paint",
+          "reverse_translation": [
+            "ပန်းချီရေးဆဲွ"
+          ]
+        }
+      ],
+      "base_form": "လိမ်းကျံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လိမ်း ကျံ",
+      "alternative": [
+        {
+          "word_postproc": "smear",
+          "score": 990,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "paint",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "apply",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "poured",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and poured",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "လိမ်းကျံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

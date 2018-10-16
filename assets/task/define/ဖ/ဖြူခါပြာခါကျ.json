@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Impoverished",
+      "orig": "ဖြူခါပြာခါကျ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpyauu hkar pyaar hkar kya"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be extremely poor",
+        "be impoverished"
+      ],
+      "entry": [
+        {
+          "word": "be extremely poor"
+        },
+        {
+          "word": "be impoverished"
+        }
+      ],
+      "base_form": "ဖြူခါပြာခါကျ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖြူ ခါ ပြာ ခါ",
+      "alternative": [
+        {
+          "word_postproc": "Impoverished",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ဖြူခါပြာခါကျ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

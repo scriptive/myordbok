@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "rough",
+      "orig": "နှုတ်ကြမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "nhuat kyam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "rough",
+        "abusive"
+      ],
+      "entry": [
+        {
+          "word": "rough",
+          "reverse_translation": [
+            "ကြမ်းတမ်းသော"
+          ]
+        },
+        {
+          "word": "abusive",
+          "reverse_translation": [
+            "မသင့်မလေျာ်သော"
+          ]
+        }
+      ],
+      "base_form": "နှုတ်ကြမ်း",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နှုတ် ကြမ်း",
+      "alternative": [
+        {
+          "word_postproc": "rough",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "abusive",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "နှုတ်ကြမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

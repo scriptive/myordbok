@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "stand",
+      "orig": "ရပ်တည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "rauttai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "stand by",
+        "exist",
+        "abide by"
+      ],
+      "entry": [
+        {
+          "word": "exist",
+          "reverse_translation": [
+            "တည်နေ"
+          ],
+          "score": 0.002943591
+        }
+      ],
+      "base_form": "ရပ်တည်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရပ်တည်",
+      "alternative": [
+        {
+          "word_postproc": "stand",
+          "score": 911,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to stand",
+          "score": 49,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "stand for",
+          "score": 22,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a stand",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "stand by",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ရပ်တည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

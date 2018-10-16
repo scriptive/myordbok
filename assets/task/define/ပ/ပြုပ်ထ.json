@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "partially",
+      "orig": "ပြုပ်ထ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyuut ht"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be thickly covered with lumps,excrescences"
+      ],
+      "entry": [
+        {
+          "word": "be thickly covered with lumps,excrescences"
+        }
+      ],
+      "base_form": "ပြုပ်ထ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြုပ်",
+      "alternative": [
+        {
+          "word_postproc": "partially",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ပြုပ်ထ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

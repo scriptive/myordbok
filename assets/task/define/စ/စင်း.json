@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "stripes",
+      "orig": "စင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcainn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "plain",
+        "straight"
+      ],
+      "entry": [
+        {
+          "word": "straight",
+          "reverse_translation": [
+            "တည့်တည့်ဖြစ်သော"
+          ],
+          "score": 0.0036633583
+        }
+      ],
+      "base_form": "စင်း",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စင်း",
+      "alternative": [
+        {
+          "word_postproc": "stripes",
+          "score": 629,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "stripe",
+          "score": 172,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "knives",
+          "score": 121,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "striped",
+          "score": 73,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cytosine",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "စင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

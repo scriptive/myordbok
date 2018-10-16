@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "dive",
+      "orig": "ရေငုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "ray ngote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "dive",
+        "submerge"
+      ],
+      "entry": [
+        {
+          "word": "dive",
+          "reverse_translation": [
+            "ရေငုပ်"
+          ],
+          "synset_id": [
+            57779
+          ]
+        },
+        {
+          "word": "submerge",
+          "reverse_translation": [
+            "ရေမြှုပ်"
+          ]
+        }
+      ],
+      "base_form": "ရေငုပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရေ ငုပ်",
+      "alternative": [
+        {
+          "word_postproc": "dive",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Diving",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "submarine",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "powered submarine",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ရေငုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

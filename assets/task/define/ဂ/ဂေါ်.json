@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "Gordon",
+      "orig": "ဂေါ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "gaw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "spade",
+        "shovel",
+        "flaw found in gem stones"
+      ],
+      "entry": [
+        {
+          "word": "shovel",
+          "reverse_translation": [
+            "တူးရွင်းပြား"
+          ],
+          "score": 0.017752126
+        }
+      ],
+      "base_form": "ဂေါ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဂေါ်",
+      "alternative": [
+        {
+          "word_postproc": "Gordon",
+          "score": 818,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Gaw",
+          "score": 158,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "gorilla",
+          "score": 22,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "broccoli",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "shovel",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဂေါ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

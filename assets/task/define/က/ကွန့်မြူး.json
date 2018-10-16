@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Sparkle",
+      "orig": "ကွန့်မြူး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kw n  myauu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "radiate brilliant",
+        "tremulous light",
+        "sparkle",
+        "be inspired with imaginative ideas",
+        "have a brainwave"
+      ],
+      "entry": [
+        {
+          "word": "radiate brilliant"
+        },
+        {
+          "word": "tremulous light"
+        },
+        {
+          "word": "sparkle"
+        },
+        {
+          "word": "be inspired with imaginative ideas"
+        },
+        {
+          "word": "have a brainwave"
+        }
+      ],
+      "base_form": "ကွန့်မြူး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကွ န့ ် မြူး",
+      "alternative": [
+        {
+          "word_postproc": "Sparkle",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Tremulous light",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Radiate brilliant",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကွန့်မြူး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

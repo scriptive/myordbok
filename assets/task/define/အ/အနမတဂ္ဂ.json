@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "trans": "Numberless",
+      "orig": "အနမတဂ္ဂ",
+      "backend": 0
+    },
+    {
+      "src_translit": "a n m tag g"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "innumerable",
+        "numberless"
+      ],
+      "entry": [
+        {
+          "word": "innumerable",
+          "reverse_translation": [
+            "မရေမတွက်နိုင်သော"
+          ],
+          "synset_id": [
+            10652
+          ]
+        }
+      ],
+      "base_form": "အနမတဂ္ဂ",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မ တဂ္ ဂ",
+      "alternative": [
+        {
+          "word_postproc": "Numberless",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Innumerable",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "အနမတဂ္ဂ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "fuller",
+      "orig": "ခဝါသည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkawarsai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "launderer",
+        "laundress"
+      ],
+      "entry": [
+        {
+          "word": "launderer",
+          "score": 0.095967084
+        },
+        {
+          "word": "laundress",
+          "score": 0.095967084
+        }
+      ],
+      "base_form": "ခဝါသည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခဝါသည်",
+      "alternative": [
+        {
+          "word_postproc": "fuller",
+          "score": 752,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "laundress",
+          "score": 220,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "launderer",
+          "score": 26,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ခဝါသည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

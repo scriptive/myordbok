@@ -1,0 +1,109 @@
+{
+  "sentences": [
+    {
+      "trans": "Happy fees",
+      "orig": "မင်္ဂလာကြေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "main g lar kyay"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "money customarily given to local young men for a feast on the occasion of a marriage",
+        "bonus obtained for playing a hand of a six and a three in a three-deck domino game"
+      ],
+      "entry": [
+        {
+          "word": "money customarily given to local young men for a feast on the occasion of a marriage"
+        },
+        {
+          "word": "bonus obtained for playing a hand of a six and a three in a three-deck domino game"
+        }
+      ],
+      "base_form": "မင်္ဂလာကြေး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မင်္ ဂ လာ",
+      "alternative": [
+        {
+          "word_postproc": "Happy",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Blessed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "မင်္ဂလာကြေး",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ကြေး",
+      "alternative": [
+        {
+          "word_postproc": "fees",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Bronze",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fee",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "scales",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 11
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

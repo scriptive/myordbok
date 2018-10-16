@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "effortlessly",
+      "orig": "စွေ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcwae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "tupaia",
+        "white throated babbler",
+        "tree shrew resembling a small squirrel"
+      ],
+      "entry": [
+        {
+          "word": "tupaia",
+          "score": 0.18211353
+        },
+        {
+          "word": "white throated babbler",
+          "score": 0.18211353
+        },
+        {
+          "word": "tree shrew resembling a small squirrel"
+        }
+      ],
+      "base_form": "စွေ့",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စွေ့",
+      "alternative": [
+        {
+          "word_postproc": "effortlessly",
+          "score": 710,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "grand style",
+          "score": 260,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tupaia",
+          "score": 28,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "white throated babbler",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "စွေ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

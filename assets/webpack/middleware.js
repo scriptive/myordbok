@@ -4,18 +4,18 @@ require('./middleware.css');
 // NOTE: Main
 require('./index.js');
 
-var h1 = document.getElementById('delete');
-h1.style.color = 'red';
+// var h1 = document.getElementById('delete');
+// h1.style.color = 'red';
 //
 /* eslint-env browser */
 // var app = document.getElementById('bar');
 // var time = document.getElementById('time');
 // //
-var timer = setInterval(updateClock, 1000);
-
-function updateClock() {
-  h1.innerHTML = (new Date()).toString();
-}
+// var timer = setInterval(updateClock, 1000);
+//
+// function updateClock() {
+//   h1.innerHTML = (new Date()).toString();
+// }
 
 // Edit these styles to see them take effect immediately
 // app.style.display = 'table-cell';

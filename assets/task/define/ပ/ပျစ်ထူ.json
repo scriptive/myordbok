@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "thickly",
+      "orig": "ပျစ်ထူ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyit htuu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "thickly"
+      ],
+      "entry": [
+        {
+          "word": "thickly"
+        }
+      ],
+      "base_form": "ပျစ်ထူ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပျစ် ထူ",
+      "alternative": [
+        {
+          "word_postproc": "thickly",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ပျစ်ထူ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

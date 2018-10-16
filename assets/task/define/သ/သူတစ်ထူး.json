@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "The other person",
+      "orig": "သူတစ်ထူး",
+      "backend": 0
+    },
+    {
+      "src_translit": "suu tait htuu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "the other person"
+      ],
+      "entry": [
+        {
+          "word": "the other person"
+        }
+      ],
+      "base_form": "သူတစ်ထူး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သူ တစ် ထူး",
+      "alternative": [
+        {
+          "word_postproc": "The other person",
+          "score": 975,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Other person",
+          "score": 24,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "သူတစ်ထူး",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

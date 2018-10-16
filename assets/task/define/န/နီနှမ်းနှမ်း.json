@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Dull red",
+      "orig": "နီနှမ်းနှမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "ne nham nham"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "dull red"
+      ],
+      "entry": [
+        {
+          "word": "dull red"
+        }
+      ],
+      "base_form": "နီနှမ်းနှမ်း",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နီ နှမ်း နှမ်း",
+      "alternative": [
+        {
+          "word_postproc": "Dull red",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "နီနှမ်းနှမ်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

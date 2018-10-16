@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "In disarray",
+      "orig": "ဗရုန်းသုန်းကား",
+      "backend": 0
+    },
+    {
+      "src_translit": "b rone sone karr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in a turmoil",
+        "in disarray"
+      ],
+      "entry": [
+        {
+          "word": "in a turmoil"
+        },
+        {
+          "word": "in disarray"
+        }
+      ],
+      "base_form": "ဗရုန်းသုန်းကား",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗ ရုန်း သုန်း ကား",
+      "alternative": [
+        {
+          "word_postproc": "In disarray",
+          "score": 914,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Disarray",
+          "score": 85,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ဗရုန်းသုန်းကား",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

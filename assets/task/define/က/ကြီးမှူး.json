@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "lead",
+      "orig": "ကြီးမှူး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyeemhauu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "lead",
+        "direct"
+      ],
+      "entry": [
+        {
+          "word": "lead",
+          "reverse_translation": [
+            "လမ်းပြ"
+          ],
+          "synset_id": [
+            24993
+          ],
+          "score": 0.03758125
+        },
+        {
+          "word": "direct",
+          "reverse_translation": [
+            "ညွှန်ပြ"
+          ],
+          "synset_id": [
+            24993
+          ],
+          "score": 0.03758125
+        }
+      ],
+      "base_form": "ကြီးမှူး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြီးမှူး",
+      "alternative": [
+        {
+          "word_postproc": "lead",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "direct",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကြီးမှူး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

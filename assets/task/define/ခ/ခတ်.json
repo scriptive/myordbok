@@ -1,0 +1,165 @@
+{
+  "sentences": [
+    {
+      "trans": "clap",
+      "orig": "ခတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "beat",
+        "flap",
+        "strike",
+        "mark",
+        "clap",
+        "make a dig,jibe at others",
+        "kick",
+        "slap on",
+        "12. impose",
+        "clap on",
+        "11. secure",
+        "10. stamp",
+        "toss",
+        "put in",
+        "flutter",
+        "shoot",
+        "paddle",
+        "row",
+        "wall in",
+        "hedge",
+        "fence in",
+        "fan"
+      ],
+      "entry": [
+        {
+          "word": "beat",
+          "reverse_translation": [
+            "ရိုက်"
+          ],
+          "synset_id": [
+            15444
+          ],
+          "score": 0.017752126
+        },
+        {
+          "word": "strike",
+          "reverse_translation": [
+            "ရိုက်"
+          ],
+          "score": 0.006530642
+        },
+        {
+          "word": "mark",
+          "reverse_translation": [
+            "မှတ်သား"
+          ],
+          "score": 0.0047038449
+        },
+        {
+          "word": "clap",
+          "reverse_translation": [
+            "ခတ်"
+          ],
+          "score": 0.0023652418
+        },
+        {
+          "word": "kick",
+          "reverse_translation": [
+            "ကန်ခြင်း"
+          ]
+        },
+        {
+          "word": "toss",
+          "reverse_translation": [
+            "ပစ်ချ"
+          ]
+        },
+        {
+          "word": "shoot",
+          "reverse_translation": [
+            "ပစ်ခတ်"
+          ]
+        },
+        {
+          "word": "paddle",
+          "reverse_translation": [
+            "လေှာ်"
+          ]
+        },
+        {
+          "word": "row",
+          "reverse_translation": [
+            "လေှခပ်"
+          ]
+        }
+      ],
+      "base_form": "ခတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခတ်",
+      "alternative": [
+        {
+          "word_postproc": "clap",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and Ahaz",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "beat the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Beat your",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Ahaz",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ခတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

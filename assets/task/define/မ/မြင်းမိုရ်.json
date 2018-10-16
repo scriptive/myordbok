@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "bridge",
+      "orig": "မြင်းမိုရ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "myinn mor"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "Mount Meru: immense mountain forming the centre of the cosmic system and surrounded by fuor great islands occupying its cardinal points",
+        "raised grinding surface within the circular groove of ကျောက်ပျဉ်",
+        "sth in the shape of a crest",
+        "bridge"
+      ],
+      "entry": [
+        {
+          "word": "bridge",
+          "reverse_translation": [
+            "တံတား"
+          ]
+        }
+      ],
+      "base_form": "မြင်းမိုရ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မြင်း မိုရ်",
+      "alternative": [
+        {
+          "word_postproc": "bridge",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "မြင်းမိုရ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

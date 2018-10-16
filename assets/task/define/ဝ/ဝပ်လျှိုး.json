@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "pay obeisance",
+      "orig": "ဝပ်လျှိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "waut shoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "pay obeisance",
+        "prostrate in reverence"
+      ],
+      "entry": [
+        {
+          "word": "pay obeisance"
+        },
+        {
+          "word": "prostrate in reverence"
+        }
+      ],
+      "base_form": "ဝပ်လျှိုး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝပ် လျှိုး",
+      "alternative": [
+        {
+          "word_postproc": "pay obeisance",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "prostrate in reverence",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ဝပ်လျှိုး",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "sentences": [
+    {
+      "trans": "banteng",
+      "orig": "စိုင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcine"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "lump",
+        "banteng",
+        "wild ox",
+        "aggregation",
+        "heap",
+        "chunk"
+      ],
+      "entry": [
+        {
+          "word": "lump",
+          "reverse_translation": [
+            "အစိုင်အခဲ"
+          ],
+          "synset_id": [
+            47501
+          ],
+          "score": 0.046770621
+        },
+        {
+          "word": "chunk",
+          "reverse_translation": [
+            "အတုံးအတစ်"
+          ],
+          "synset_id": [
+            47501
+          ],
+          "score": 0.013400008
+        }
+      ],
+      "base_form": "စိုင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စိုင်",
+      "alternative": [
+        {
+          "word_postproc": "banteng",
+          "score": 684,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lump",
+          "score": 109,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mass",
+          "score": 88,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "concretion",
+          "score": 68,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "aggregation",
+          "score": 39,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "စိုင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

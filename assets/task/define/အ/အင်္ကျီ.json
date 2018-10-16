@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "shirt",
+      "orig": "အင်္ကျီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aain kyae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "general term for upper garment such as shirt, jacket, coat, etc"
+      ],
+      "entry": [
+        {
+          "word": "general term for upper garment such as shirt, jacket, coat, etc"
+        }
+      ],
+      "base_form": "အင်္ကျီ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အင်္ ကျီ",
+      "alternative": [
+        {
+          "word_postproc": "shirt",
+          "score": 876,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "coat",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "coats",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the coats",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "အင်္ကျီ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

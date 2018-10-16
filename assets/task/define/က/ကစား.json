@@ -1,0 +1,117 @@
+{
+  "sentences": [
+    {
+      "trans": "play",
+      "orig": "ကစား",
+      "backend": 0
+    },
+    {
+      "src_translit": "kahcarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "play",
+        "take part in games",
+        "gamble",
+        "tease",
+        "be unstable",
+        "have some amount of play",
+        "speculate"
+      ],
+      "entry": [
+        {
+          "word": "play",
+          "reverse_translation": [
+            "ကစား"
+          ],
+          "synset_id": [
+            75584
+          ],
+          "score": 0.10705902
+        },
+        {
+          "word": "gamble",
+          "reverse_translation": [
+            "လောင်းတမ်းကစား"
+          ]
+        },
+        {
+          "word": "tease",
+          "reverse_translation": [
+            "ကျီစား"
+          ]
+        },
+        {
+          "word": "speculate",
+          "reverse_translation": [
+            "ချင့်ချိန်"
+          ]
+        }
+      ],
+      "base_form": "ကစား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကစား",
+      "alternative": [
+        {
+          "word_postproc": "play",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "play for",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "play with",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "played",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "play in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကစား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

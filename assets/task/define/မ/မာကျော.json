@@ -1,0 +1,118 @@
+{
+  "sentences": [
+    {
+      "trans": "hardness",
+      "orig": "မာကျော",
+      "backend": 0
+    },
+    {
+      "src_translit": "mar kyaww"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "rigid",
+        "hard",
+        "tough",
+        "stern",
+        "harsh"
+      ],
+      "entry": [
+        {
+          "word": "rigid",
+          "reverse_translation": [
+            "တောင့်တင်းသော"
+          ]
+        },
+        {
+          "word": "hard",
+          "reverse_translation": [
+            "ခိုင်မာသော"
+          ],
+          "synset_id": [
+            85587
+          ]
+        },
+        {
+          "word": "tough",
+          "reverse_translation": [
+            "ခိုင်မာသော",
+            "ခဲခက်သော"
+          ],
+          "synset_id": [
+            85587
+          ]
+        },
+        {
+          "word": "harsh",
+          "reverse_translation": [
+            "ခဲခက်သော"
+          ]
+        }
+      ],
+      "base_form": "မာကျော",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မာ ကျော",
+      "alternative": [
+        {
+          "word_postproc": "hardness",
+          "score": 872,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rigid",
+          "score": 76,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hard",
+          "score": 38,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "stiff",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hardens",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "မာကျော",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

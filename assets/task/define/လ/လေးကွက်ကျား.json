@@ -1,0 +1,76 @@
+{
+  "sentences": [
+    {
+      "trans": "Irregularly",
+      "orig": "လေးကွက်ကျား",
+      "backend": 0
+    },
+    {
+      "src_translit": "layy kwat kyarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "grid pattern consisting of four squares,patches",
+        "game of draughts played on a board with sixteen squares arranged in four vertical and four horizontal rows",
+        "method of ploughing a paddy field in a grid pattern"
+      ],
+      "entry": [
+        {
+          "word": "grid pattern consisting of four squares,patches"
+        },
+        {
+          "word": "game of draughts played on a board with sixteen squares arranged in four vertical and four horizontal rows"
+        },
+        {
+          "word": "method of ploughing a paddy field in a grid pattern"
+        }
+      ],
+      "base_form": "လေးကွက်ကျား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကွက် ကျား",
+      "alternative": [
+        {
+          "word_postproc": "Irregularly",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Sporadically",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "လေးကွက်ကျား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

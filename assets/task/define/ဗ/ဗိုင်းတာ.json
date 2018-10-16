@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "virus",
+      "orig": "ဗိုင်းတာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "bine tar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "basket with lid holding cotton slivers",
+        "person charged with preparing wicks for the palace lamps"
+      ],
+      "entry": [
+        {
+          "word": "basket with lid holding cotton slivers"
+        },
+        {
+          "word": "person charged with preparing wicks for the palace lamps"
+        }
+      ],
+      "base_form": "ဗိုင်းတာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗိုင်း",
+      "alternative": [
+        {
+          "word_postproc": "virus",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Vine",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "viral",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "viruses",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဗိုင်းတာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

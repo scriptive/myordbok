@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Superficially",
+      "orig": "ဆူလွယ်နပ်လွယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "suu lwal naut lwal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "superficially"
+      ],
+      "entry": [
+        {
+          "word": "superficially"
+        }
+      ],
+      "base_form": "ဆူလွယ်နပ်လွယ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆူ လွယ် နပ် လွယ်",
+      "alternative": [
+        {
+          "word_postproc": "Superficially",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ဆူလွယ်နပ်လွယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

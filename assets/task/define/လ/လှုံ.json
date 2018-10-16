@@ -1,0 +1,101 @@
+{
+  "sentences": [
+    {
+      "trans": "keep warm",
+      "orig": "လှုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "lhuan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "bask",
+        "take shelter",
+        "refuge",
+        "warm oneself by the heat of fire,sun"
+      ],
+      "entry": [
+        {
+          "word": "bask",
+          "score": 0.010767208
+        },
+        {
+          "word": "take shelter",
+          "score": 0.010767208
+        },
+        {
+          "word": "refuge",
+          "score": 0.010767208
+        },
+        {
+          "word": "warm oneself by the heat of fire,sun"
+        }
+      ],
+      "base_form": "လှုံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လှုံ",
+      "alternative": [
+        {
+          "word_postproc": "keep warm",
+          "score": 991,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "warm",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "warming",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bask",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "take shelter",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "လှုံ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

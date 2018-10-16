@@ -1,0 +1,108 @@
+{
+  "sentences": [
+    {
+      "trans": "to",
+      "orig": "ရန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "raan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "enmity",
+        "danger",
+        "quarrel",
+        "hostility",
+        "particle suffixed to verbs to form verbal nouns"
+      ],
+      "entry": [
+        {
+          "word": "danger",
+          "reverse_translation": [
+            "ဘေးအန္တရာယ်"
+          ]
+        },
+        {
+          "word": "quarrel",
+          "reverse_translation": [
+            "ရန်ဖြစ်ခြင်း"
+          ]
+        },
+        {
+          "word": "hostility",
+          "reverse_translation": [
+            "ရန်ငြိုး"
+          ],
+          "synset_id": [
+            64572
+          ]
+        }
+      ],
+      "base_form": "ရန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရန်",
+      "alternative": [
+        {
+          "word_postproc": "to",
+          "score": 946,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to be",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "enemies",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "enemy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ရန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

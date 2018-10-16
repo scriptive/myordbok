@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "circumvention",
+      "orig": "ရှောင်တိမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "shawin taim"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "avoid",
+        "elude",
+        "abscond"
+      ],
+      "entry": [
+        {
+          "word": "avoid",
+          "reverse_translation": [
+            "ရေှာင်ရှား"
+          ]
+        },
+        {
+          "word": "elude",
+          "reverse_translation": [
+            "ရေှာင်"
+          ]
+        }
+      ],
+      "base_form": "ရှောင်တိမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရှောင် တိမ်း",
+      "alternative": [
+        {
+          "word_postproc": "circumvention",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "circumvent",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to circumvent",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "you circumvent",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ရှောင်တိမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

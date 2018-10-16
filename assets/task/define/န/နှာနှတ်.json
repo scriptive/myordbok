@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "administer snuff",
+      "orig": "နှာနှတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nhar nhaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "revive a person with smelling salts, etc",
+        "administer snuff"
+      ],
+      "entry": [
+        {
+          "word": "revive a person with smelling salts, etc"
+        },
+        {
+          "word": "administer snuff"
+        }
+      ],
+      "base_form": "နှာနှတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နှာ နှတ်",
+      "alternative": [
+        {
+          "word_postproc": "administer snuff",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "နှာနှတ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

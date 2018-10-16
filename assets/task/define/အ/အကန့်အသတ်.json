@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "trans": "Limit",
+      "orig": "အကန့်အသတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "a k an  a saat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "restriction",
+        "limit"
+      ],
+      "entry": [
+        {
+          "word": "restriction",
+          "reverse_translation": [
+            "ကန့်ကွက်ခြင်း"
+          ]
+        },
+        {
+          "word": "limit",
+          "reverse_translation": [
+            "အကန့်အသတ်"
+          ],
+          "synset_id": [
+            48264
+          ]
+        }
+      ],
+      "base_form": "အကန့်အသတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ က န့ ် အ သတ်",
+      "alternative": [
+        {
+          "word_postproc": "Limit",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အကန့်အသတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

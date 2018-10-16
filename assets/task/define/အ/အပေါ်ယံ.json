@@ -1,0 +1,53 @@
+{
+  "sentences": [
+    {
+      "trans": "superficial",
+      "orig": "အပေါ်ယံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aapawyan"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အပေါ်ယံ",
+      "alternative": [
+        {
+          "word_postproc": "superficial",
+          "score": 902,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "On the surface",
+          "score": 97,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "အပေါ်ယံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

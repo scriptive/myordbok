@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "place",
+      "orig": "ပျပျ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pya pya"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "softly",
+        "mildly",
+        "slightly",
+        "hazily"
+      ],
+      "entry": [
+        {
+          "word": "softly",
+          "reverse_translation": [
+            "ပေျာ့ပေျာင်းစွာ"
+          ]
+        },
+        {
+          "word": "slightly",
+          "reverse_translation": [
+            "နဲနဲ"
+          ]
+        }
+      ],
+      "base_form": "ပျပျ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပျ",
+      "alternative": [
+        {
+          "word_postproc": "place",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a place",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ပျပျ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

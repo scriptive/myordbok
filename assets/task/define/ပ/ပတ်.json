@@ -1,0 +1,125 @@
+{
+  "sentences": [
+    {
+      "trans": "weeks",
+      "orig": "ပတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "paat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "wind around",
+        "wrap around",
+        "go around",
+        "circle",
+        "encircle"
+      ],
+      "entry": [
+        {
+          "word": "circle",
+          "reverse_translation": [
+            "ဝိုင်းရံ"
+          ],
+          "synset_id": [
+            101351
+          ]
+        },
+        {
+          "word": "encircle",
+          "reverse_translation": [
+            "ဝန်းဝိုင်း"
+          ],
+          "synset_id": [
+            101351
+          ]
+        }
+      ],
+      "base_form": "ပတ်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "cycle of seven days",
+        "cycle of events, processes",
+        "turn",
+        "drum"
+      ],
+      "entry": [
+        {
+          "word": "turn",
+          "reverse_translation": [
+            "အလှည့်",
+            "လမ်းကေွ့"
+          ]
+        },
+        {
+          "word": "drum",
+          "reverse_translation": [
+            "စည်"
+          ]
+        }
+      ],
+      "base_form": "ပတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပတ်",
+      "alternative": [
+        {
+          "word_postproc": "weeks",
+          "score": 830,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "around",
+          "score": 69,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Week",
+          "score": 48,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "this week",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ပတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

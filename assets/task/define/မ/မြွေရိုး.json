@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "snake",
+      "orig": "မြွေရိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "myaway roe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "ridges in a piece of floral design in relief",
+        "ridge between bevelled edges of  a spear-head",
+        "ridge of soil between furrows"
+      ],
+      "entry": [
+        {
+          "word": "ridges in a piece of floral design in relief"
+        },
+        {
+          "word": "ridge between bevelled edges of  a spear-head"
+        },
+        {
+          "word": "ridge of soil between furrows"
+        }
+      ],
+      "base_form": "မြွေရိုး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မြွေ",
+      "alternative": [
+        {
+          "word_postproc": "snake",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "serpents",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the serpent",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "မြွေရိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

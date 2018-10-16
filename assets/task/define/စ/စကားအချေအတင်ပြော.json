@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Issue",
+      "orig": "စကားအချေအတင်ပြော",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcakarr aahkyaayaatain pyaww"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အချေအတင်",
+      "alternative": [
+        {
+          "word_postproc": "Issue",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "စကားအချေအတင်ပြော",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

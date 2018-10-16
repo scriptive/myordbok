@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "pubes",
+      "orig": "ဆီးခြိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "see hkyaite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "pubes",
+        "lower part of the hypogastric region"
+      ],
+      "entry": [
+        {
+          "word": "pubes"
+        },
+        {
+          "word": "lower part of the hypogastric region"
+        }
+      ],
+      "base_form": "ဆီးခြိုက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆီး ခြိုက်",
+      "alternative": [
+        {
+          "word_postproc": "pubes",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ဆီးခြိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "sentences": [
+    {
+      "trans": "ordination",
+      "orig": "သိမ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "sain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "small",
+        "atrophied",
+        "inferior",
+        "shrivelled"
+      ],
+      "entry": [
+        {
+          "word": "small",
+          "reverse_translation": [
+            "သေးငယ်သော"
+          ],
+          "score": 0.0050860695
+        },
+        {
+          "word": "inferior",
+          "reverse_translation": [
+            "အောက်သော"
+          ],
+          "score": 0.0050860695
+        }
+      ],
+      "base_form": "သိမ်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သိမ်",
+      "alternative": [
+        {
+          "word_postproc": "ordination",
+          "score": 700,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "subtlety",
+          "score": 191,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "atrophied",
+          "score": 105,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Kenaz",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": ".My",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "သိမ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

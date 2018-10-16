@@ -1,0 +1,103 @@
+{
+  "sentences": [
+    {
+      "trans": "class",
+      "orig": "အတန်းအစား",
+      "backend": 0
+    },
+    {
+      "src_translit": "aataann aahcarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "grade",
+        "class",
+        "station",
+        "level"
+      ],
+      "entry": [
+        {
+          "word": "grade",
+          "reverse_translation": [
+            "အဆင့်အတန်း"
+          ],
+          "synset_id": [
+            802,
+            84049
+          ]
+        },
+        {
+          "word": "class",
+          "reverse_translation": [
+            "အမျိုးအစား"
+          ],
+          "synset_id": [
+            84049
+          ]
+        },
+        {
+          "word": "station",
+          "reverse_translation": [
+            "ဘူတာရုံ",
+            "ရပ်နေရာ"
+          ]
+        },
+        {
+          "word": "level",
+          "reverse_translation": [
+            "အဆင့်အတန်း"
+          ],
+          "synset_id": [
+            802
+          ]
+        }
+      ],
+      "base_form": "အတန်းအစား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အတန်း အစား",
+      "alternative": [
+        {
+          "word_postproc": "class",
+          "score": 571,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Class of",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အတန်းအစား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

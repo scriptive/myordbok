@@ -1,0 +1,136 @@
+{
+  "sentences": [
+    {
+      "trans": "the",
+      "orig": "ဟိတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hate"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "cause",
+        "reason",
+        "motive",
+        "origin",
+        "omen",
+        "portent",
+        "augury",
+        "sign",
+        "pride"
+      ],
+      "entry": [
+        {
+          "word": "cause",
+          "reverse_translation": [
+            "အကေြာင်း"
+          ],
+          "synset_id": [
+            46000
+          ]
+        },
+        {
+          "word": "reason",
+          "reverse_translation": [
+            "အကေြာင်းရင်း"
+          ],
+          "synset_id": [
+            46000
+          ]
+        },
+        {
+          "word": "motive",
+          "reverse_translation": [
+            "အကေြာင်းရင်း"
+          ]
+        },
+        {
+          "word": "origin",
+          "reverse_translation": [
+            "အရင်းအမြစ်"
+          ]
+        },
+        {
+          "word": "sign",
+          "reverse_translation": [
+            "အမှတ်လက္ခဏာ"
+          ],
+          "synset_id": [
+            74958
+          ]
+        },
+        {
+          "word": "pride",
+          "reverse_translation": [
+            "မာန်"
+          ]
+        }
+      ],
+      "base_form": "ဟိတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဟိတ်",
+      "alternative": [
+        {
+          "word_postproc": "the",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "priest",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "priests",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the priests",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the priest",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဟိတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

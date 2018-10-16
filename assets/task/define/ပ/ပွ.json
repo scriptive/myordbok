@@ -1,0 +1,137 @@
+{
+  "sentences": [
+    {
+      "trans": "show",
+      "orig": "ပွ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "puffy",
+        "bloated",
+        "pulpy",
+        "baggy",
+        "puff out",
+        "untidy",
+        "dishevelled"
+      ],
+      "entry": [
+        {
+          "word": "bloated",
+          "reverse_translation": [
+            "ရမ်းသော"
+          ]
+        },
+        {
+          "word": "baggy",
+          "reverse_translation": [
+            "အိတ်နှင့်တူသော"
+          ]
+        },
+        {
+          "word": "untidy",
+          "reverse_translation": [
+            "မသေသပ်သော"
+          ]
+        }
+      ],
+      "base_form": "ပွ",
+      "pos_enum": 3
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "spread",
+        "swell",
+        "leaven up",
+        "be littered with",
+        "be all over the place",
+        "meet with good fortune",
+        "hit the jackpot",
+        "flare",
+        "distend"
+      ],
+      "entry": [
+        {
+          "word": "spread",
+          "reverse_translation": [
+            "ပျံ့နှံ့"
+          ]
+        },
+        {
+          "word": "swell",
+          "reverse_translation": [
+            "ပွခြင်း"
+          ]
+        }
+      ],
+      "base_form": "ပွ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပွ",
+      "alternative": [
+        {
+          "word_postproc": "show",
+          "score": 970,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "again",
+          "score": 22,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "up",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "return",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "back",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ပွ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

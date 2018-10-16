@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Abreast",
+      "orig": "ရင်ပေါင်တန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "rain paung taann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "abreast",
+        "on equal terms"
+      ],
+      "entry": [
+        {
+          "word": "abreast"
+        },
+        {
+          "word": "on equal terms"
+        }
+      ],
+      "base_form": "ရင်ပေါင်တန်း",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရင် ပေါင် တန်း",
+      "alternative": [
+        {
+          "word_postproc": "Abreast",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Abreast of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "On equal terms",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Transfer programs",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "And transfer programs",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ရင်ပေါင်တန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

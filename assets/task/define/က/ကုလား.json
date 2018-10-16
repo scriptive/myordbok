@@ -1,0 +1,107 @@
+{
+  "sentences": [
+    {
+      "trans": "Kalar",
+      "orig": "ကုလား",
+      "backend": 0
+    },
+    {
+      "src_translit": "kularr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "of foreign origin"
+      ],
+      "entry": [
+        {
+          "word": "of foreign origin"
+        }
+      ],
+      "base_form": "ကုလား",
+      "pos_enum": 3
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "native of the Indian subcontinent",
+        "court-card",
+        "picture-card"
+      ],
+      "entry": [
+        {
+          "word": "native of the Indian subcontinent"
+        },
+        {
+          "word": "court-card"
+        },
+        {
+          "word": "picture-card"
+        }
+      ],
+      "base_form": "ကုလား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကုလား",
+      "alternative": [
+        {
+          "word_postproc": "Kalar",
+          "score": 969,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "screen for",
+          "score": 17,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the screen for",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the veil of",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the vail",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကုလား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

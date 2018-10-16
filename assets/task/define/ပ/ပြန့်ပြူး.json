@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "Flat",
+      "orig": "ပြန့်ပြူး",
+      "backend": 0
+    },
+    {
+      "src_translit": "pya an  pyauu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "wide and even"
+      ],
+      "entry": [
+        {
+          "word": "wide and even"
+        }
+      ],
+      "base_form": "ပြန့်ပြူး",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြ န့ ် ပြူး",
+      "alternative": [
+        {
+          "word_postproc": "Flat",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The flat",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Is flat",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ပြန့်ပြူး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

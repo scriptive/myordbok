@@ -1,0 +1,175 @@
+{
+  "sentences": [
+    {
+      "trans": "Machinery",
+      "orig": "စက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "machinery",
+        "mill",
+        "circle",
+        "wheel",
+        "motor",
+        "cycle",
+        "weaponry",
+        "authority",
+        "controlling power",
+        "manufactory",
+        "characteristic marks of the Buddha",
+        "drop"
+      ],
+      "entry": [
+        {
+          "word": "machinery",
+          "reverse_translation": [
+            "ယန္တရား"
+          ],
+          "score": 0.012011689
+        },
+        {
+          "word": "mill",
+          "reverse_translation": [
+            "ကြိတ်စက်"
+          ],
+          "synset_id": [
+            57993
+          ],
+          "score": 0.0069518322
+        },
+        {
+          "word": "circle",
+          "reverse_translation": [
+            "အဝိုင်း"
+          ],
+          "score": 0.0064293938
+        },
+        {
+          "word": "wheel",
+          "reverse_translation": [
+            "ဘီး"
+          ],
+          "synset_id": [
+            44344
+          ],
+          "score": 0.0027652478
+        },
+        {
+          "word": "motor",
+          "reverse_translation": [
+            "စက်"
+          ],
+          "score": 0.0019005252
+        },
+        {
+          "word": "cycle",
+          "reverse_translation": [
+            "အစဉ်အဆက်"
+          ],
+          "synset_id": [
+            44344
+          ]
+        },
+        {
+          "word": "authority",
+          "reverse_translation": [
+            "အာဏာ"
+          ]
+        }
+      ],
+      "base_form": "စက်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "sleep",
+        "touch one after another in a chain",
+        "spread",
+        "weigh against,compare with sth"
+      ],
+      "entry": [
+        {
+          "word": "sleep",
+          "reverse_translation": [
+            "အိပ်"
+          ]
+        },
+        {
+          "word": "spread",
+          "reverse_translation": [
+            "ပျံ့နှံ့"
+          ]
+        }
+      ],
+      "base_form": "စက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စက်",
+      "alternative": [
+        {
+          "word_postproc": "Machinery",
+          "score": 612,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Machine",
+          "score": 313,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "machines",
+          "score": 51,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the machine",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "device",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "စက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

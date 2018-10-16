@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "Familiarity",
+      "orig": "အကျွမ်းဝင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "a kyawm wain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be on intimate terms with"
+      ],
+      "entry": [
+        {
+          "word": "be on intimate terms with"
+        }
+      ],
+      "base_form": "အကျွမ်းဝင်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျွမ်း ဝင်",
+      "alternative": [
+        {
+          "word_postproc": "Familiarity",
+          "score": 755,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Familiar",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Familiar with",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "အကျွမ်းဝင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

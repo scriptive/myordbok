@@ -1,0 +1,125 @@
+{
+  "sentences": [
+    {
+      "trans": "catch",
+      "orig": "ဖမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "catch",
+        "arrest",
+        "clutch",
+        "seize"
+      ],
+      "entry": [
+        {
+          "word": "catch",
+          "reverse_translation": [
+            "ဖမ်း"
+          ],
+          "synset_id": [
+            33713
+          ],
+          "score": 0.052998058
+        },
+        {
+          "word": "arrest",
+          "reverse_translation": [
+            "ဖမ်းဆီး"
+          ],
+          "synset_id": [
+            33713
+          ],
+          "score": 0.043936934
+        },
+        {
+          "word": "clutch",
+          "reverse_translation": [
+            "ဖမ်း"
+          ],
+          "synset_id": [
+            7373
+          ],
+          "score": 0.00080473302
+        },
+        {
+          "word": "seize",
+          "reverse_translation": [
+            "ဖန်းဆီး"
+          ],
+          "synset_id": [
+            7373
+          ]
+        }
+      ],
+      "base_form": "ဖမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖမ်း",
+      "alternative": [
+        {
+          "word_postproc": "catch",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "arrested",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "arresting",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "captured by",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "arrest",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဖမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

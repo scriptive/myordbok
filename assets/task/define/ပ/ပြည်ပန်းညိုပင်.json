@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "ပြည်ပန်းညို",
+      "orig": "ပြည်ပန်းညိုပင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyipaannnyo pain"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြည်ပန်းညို",
+      "alternative": [
+        {
+          "word_postproc": "ပြည်ပန်းညို",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ပြည်ပန်းညိုပင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

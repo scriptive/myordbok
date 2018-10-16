@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "counter",
+      "orig": "တန်ပြန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "taanpyan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "counteract",
+        "retaliate"
+      ],
+      "entry": [
+        {
+          "word": "counteract",
+          "score": 0.010600278
+        },
+        {
+          "word": "retaliate",
+          "score": 0.0035506485
+        }
+      ],
+      "base_form": "တန်ပြန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တန်ပြန်",
+      "alternative": [
+        {
+          "word_postproc": "counter",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "counterintelligence",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "for Counter",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "By submitting a counter",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and counterintelligence",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "တန်ပြန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

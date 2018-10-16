@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Wasp",
+      "orig": "နကျယ်ကောင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "n kyaal kaung"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "wasp"
+      ],
+      "entry": [
+        {
+          "word": "wasp",
+          "reverse_translation": [
+            "နကျယ်ကောင်"
+          ],
+          "synset_id": [
+            38095
+          ]
+        }
+      ],
+      "base_form": "နကျယ်ကောင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "န ကျယ် ကောင်",
+      "alternative": [
+        {
+          "word_postproc": "Wasp",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "နကျယ်ကောင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

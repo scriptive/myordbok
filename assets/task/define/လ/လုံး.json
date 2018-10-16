@@ -1,0 +1,96 @@
+{
+  "sentences": [
+    {
+      "trans": "all",
+      "orig": "လုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "lone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "round",
+        "globular",
+        "spherical",
+        "short and plump",
+        "rotund"
+      ],
+      "entry": [
+        {
+          "word": "round",
+          "reverse_translation": [
+            "လုံးသော"
+          ],
+          "synset_id": [
+            35557
+          ]
+        }
+      ],
+      "base_form": "လုံး",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လုံး",
+      "alternative": [
+        {
+          "word_postproc": "all",
+          "score": 986,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "both",
+          "score": 13,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "all the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the whole",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "whole",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "လုံး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

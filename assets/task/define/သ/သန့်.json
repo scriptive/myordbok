@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "clean",
+      "orig": "သန့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "saant"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "clean",
+        "pure"
+      ],
+      "entry": [
+        {
+          "word": "clean",
+          "reverse_translation": [
+            "သန့်ရှင်းသော"
+          ],
+          "score": 0.026235942
+        },
+        {
+          "word": "pure",
+          "reverse_translation": [
+            "သန့်စင်သော"
+          ]
+        }
+      ],
+      "base_form": "သန့်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သန့်",
+      "alternative": [
+        {
+          "word_postproc": "clean",
+          "score": 590,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Thant",
+          "score": 409,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "holy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "godly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a clean",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "သန့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

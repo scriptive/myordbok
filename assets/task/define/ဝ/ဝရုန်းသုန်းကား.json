@@ -1,0 +1,69 @@
+{
+  "sentences": [
+    {
+      "trans": "in disarray",
+      "orig": "ဝရုန်းသုန်းကား",
+      "backend": 0
+    },
+    {
+      "src_translit": "waronesonekarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in disarray"
+      ],
+      "entry": [
+        {
+          "word": "in disarray",
+          "score": 0.10539922
+        }
+      ],
+      "base_form": "ဝရုန်းသုန်းကား",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝရုန်းသုန်းကား",
+      "alternative": [
+        {
+          "word_postproc": "in disarray",
+          "score": 940,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "disarray",
+          "score": 59,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ဝရုန်းသုန်းကား",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

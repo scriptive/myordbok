@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Fainthearted",
+      "orig": "သူရဲဘောနည်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "suurell bhaw naee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "cowardly",
+        "fainthearted"
+      ],
+      "entry": [
+        {
+          "word": "cowardly"
+        },
+        {
+          "word": "fainthearted"
+        }
+      ],
+      "base_form": "သူရဲဘောနည်း",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သူရဲ ဘော နည်း",
+      "alternative": [
+        {
+          "word_postproc": "Fainthearted",
+          "score": 971,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Cowardly",
+          "score": 28,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "သူရဲဘောနည်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

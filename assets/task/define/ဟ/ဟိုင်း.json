@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "Hi",
+      "orig": "ဟိုင်း",
+      "backend": 1
+    },
+    {
+      "src_translit": "hine"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "tuskless elephant",
+        "the sign of the dark planet ရာဟု"
+      ],
+      "entry": [
+        {
+          "word": "tuskless elephant",
+          "score": 0.012392981
+        },
+        {
+          "word": "the sign of the dark planet ရာဟု"
+        }
+      ],
+      "base_form": "ဟိုင်း",
+      "pos_enum": 1
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "beyond marriageable age"
+      ],
+      "entry": [
+        {
+          "word": "beyond marriageable age",
+          "score": 0.012392981
+        }
+      ],
+      "base_form": "ဟိုင်း",
+      "pos_enum": 3
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "be past the marriageable age"
+      ],
+      "entry": [
+        {
+          "word": "be past the marriageable age"
+        }
+      ],
+      "base_form": "ဟိုင်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဟိုင်း",
+      "alternative": [
+        {
+          "word_postproc": "Hi",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဟိုင်း",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

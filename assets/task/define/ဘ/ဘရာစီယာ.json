@@ -1,0 +1,69 @@
+{
+  "sentences": [
+    {
+      "trans": "bra",
+      "orig": "ဘရာစီယာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "bhararhceyar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "brassiere"
+      ],
+      "entry": [
+        {
+          "word": "brassiere",
+          "score": 0.13533528
+        }
+      ],
+      "base_form": "ဘရာစီယာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘရာစီယာ",
+      "alternative": [
+        {
+          "word_postproc": "bra",
+          "score": 959,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "brassiere",
+          "score": 40,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဘရာစီယာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

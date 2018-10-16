@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Modesty",
+      "orig": "ကာယိန္ဒြေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kar yin dyay"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "modesty",
+        "dignity"
+      ],
+      "entry": [
+        {
+          "word": "dignity",
+          "reverse_translation": [
+            "ဂုဏ်"
+          ]
+        }
+      ],
+      "base_form": "ကာယိန္ဒြေ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကာ ယိန္ ဒြေ",
+      "alternative": [
+        {
+          "word_postproc": "Modesty",
+          "score": 933,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Dignity",
+          "score": 66,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကာယိန္ဒြေ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

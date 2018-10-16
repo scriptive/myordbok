@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Cicada",
+      "orig": "ပုစဉ်းရင်ကွဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pu hcain rainkwal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "cicada"
+      ],
+      "entry": [
+        {
+          "word": "cicada"
+        }
+      ],
+      "base_form": "ပုစဉ်းရင်ကွဲ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပု စဉ်း ရင်ကွဲ",
+      "alternative": [
+        {
+          "word_postproc": "Cicada",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ပုစဉ်းရင်ကွဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

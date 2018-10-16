@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "give",
+      "orig": "ပေး",
+      "backend": 1
+    },
+    {
+      "src_translit": "payy"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "give",
+        "bestow",
+        "settle",
+        "pay",
+        "give the meaning",
+        "mean",
+        "execute an action",
+        "particle suffixed to a verb to denote that whatever that is being done is for somebody else",
+        "particle used after a verb to show encouragement,exhortation"
+      ],
+      "entry": [
+        {
+          "word": "give",
+          "reverse_translation": [
+            "ပေး"
+          ],
+          "synset_id": [
+            10122
+          ],
+          "score": 0.036424998
+        },
+        {
+          "word": "bestow",
+          "reverse_translation": [
+            "ပေး"
+          ],
+          "score": 0.000044696069
+        },
+        {
+          "word": "settle",
+          "reverse_translation": [
+            "စေ့စပ်"
+          ]
+        },
+        {
+          "word": "pay",
+          "reverse_translation": [
+            "အခပေး"
+          ],
+          "synset_id": [
+            10122
+          ]
+        },
+        {
+          "word": "mean",
+          "reverse_translation": [
+            "ဆိုလို"
+          ]
+        }
+      ],
+      "base_form": "ပေး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပေး",
+      "alternative": [
+        {
+          "word_postproc": "give",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ပေး",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

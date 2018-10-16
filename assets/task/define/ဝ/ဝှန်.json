@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "flood",
+      "orig": "ဝှန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "whaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "transcend",
+        "overwhelm",
+        "flood"
+      ],
+      "entry": [
+        {
+          "word": "transcend",
+          "score": 0.14406367
+        },
+        {
+          "word": "overwhelm",
+          "score": 0.14406367
+        },
+        {
+          "word": "flood",
+          "score": 0.14406367
+        }
+      ],
+      "base_form": "ဝှန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝှန်",
+      "alternative": [
+        {
+          "word_postproc": "flood",
+          "score": 756,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "transcend",
+          "score": 142,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "power",
+          "score": 48,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "momentum",
+          "score": 35,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "speed",
+          "score": 9,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဝှန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

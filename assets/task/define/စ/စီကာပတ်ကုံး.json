@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Surroundings",
+      "orig": "စီကာပတ်ကုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "hce kar paat kone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "elaborately and eloquently in an organized way"
+      ],
+      "entry": [
+        {
+          "word": "elaborately and eloquently in an organized way"
+        }
+      ],
+      "base_form": "စီကာပတ်ကုံး",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပတ် ကုံး",
+      "alternative": [
+        {
+          "word_postproc": "Surroundings",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "စီကာပတ်ကုံး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

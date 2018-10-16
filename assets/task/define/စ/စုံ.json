@@ -1,0 +1,134 @@
+{
+  "sentences": [
+    {
+      "trans": "complete",
+      "orig": "စုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "couple",
+        "deep forest",
+        "jungle",
+        "even",
+        "pair",
+        "brace",
+        "set",
+        "both of the pair"
+      ],
+      "entry": [
+        {
+          "word": "couple",
+          "reverse_translation": [
+            "လင်မယား",
+            "အစုံ"
+          ],
+          "synset_id": [
+            80530
+          ],
+          "score": 0.0027223767
+        },
+        {
+          "word": "jungle",
+          "reverse_translation": [
+            "ချံုတော"
+          ]
+        },
+        {
+          "word": "pair",
+          "reverse_translation": [
+            "လင်မယား",
+            "အရံ"
+          ],
+          "synset_id": [
+            80530
+          ]
+        },
+        {
+          "word": "brace",
+          "reverse_translation": [
+            "ထောက်",
+            "သိုင်းကြိုး"
+          ],
+          "synset_id": [
+            80530
+          ]
+        },
+        {
+          "word": "set",
+          "reverse_translation": [
+            "အစုံ",
+            "အမွှမ်း"
+          ]
+        }
+      ],
+      "base_form": "စုံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စုံ",
+      "alternative": [
+        {
+          "word_postproc": "complete",
+          "score": 553,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "perfect",
+          "score": 433,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "having",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "perfection",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sets",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "စုံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

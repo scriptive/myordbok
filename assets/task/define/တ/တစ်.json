@@ -1,0 +1,109 @@
+{
+  "sentences": [
+    {
+      "trans": "one",
+      "orig": "တစ်",
+      "backend": 1
+    },
+    {
+      "src_translit": "tait"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "one",
+        "chunk",
+        "cry"
+      ],
+      "entry": [
+        {
+          "word": "one",
+          "reverse_translation": [
+            "တစ်"
+          ],
+          "synset_id": [
+            97688
+          ],
+          "score": 0.038774207
+        },
+        {
+          "word": "chunk",
+          "reverse_translation": [
+            "အတုံးအတစ်"
+          ]
+        },
+        {
+          "word": "cry",
+          "reverse_translation": [
+            "အော်ဟစ်"
+          ]
+        }
+      ],
+      "base_form": "တစ်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "cut",
+        "chopinto pieces",
+        "be stuck in a passage, hole, etc",
+        "moistern",
+        "sprinkle"
+      ],
+      "entry": [
+        {
+          "word": "cut",
+          "reverse_translation": [
+            "ဖြတ်"
+          ]
+        },
+        {
+          "word": "sprinkle",
+          "reverse_translation": [
+            "ရေဖျန်း"
+          ]
+        }
+      ],
+      "base_form": "တစ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တစ်",
+      "alternative": [
+        {
+          "word_postproc": "one",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "တစ်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

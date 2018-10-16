@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "hopping mad",
+      "orig": "ဆွေ့ဆွေ့ခုန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "swaeswaehkone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be hopping mad",
+        "jump up and down in excitement"
+      ],
+      "entry": [
+        {
+          "word": "be hopping mad"
+        },
+        {
+          "word": "jump up and down in excitement"
+        }
+      ],
+      "base_form": "ဆွေ့ဆွေ့ခုန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆွေ့ဆွေ့ခုန်",
+      "alternative": [
+        {
+          "word_postproc": "hopping mad",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ဆွေ့ဆွေ့ခုန်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

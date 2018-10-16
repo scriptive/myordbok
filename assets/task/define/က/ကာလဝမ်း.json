@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "cholera",
+      "orig": "ကာလဝမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "karl wam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "cholera"
+      ],
+      "entry": [
+        {
+          "word": "cholera",
+          "reverse_translation": [
+            "ကာလဝမ်းရောဂါ"
+          ]
+        }
+      ],
+      "base_form": "ကာလဝမ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကာလ ဝမ်း",
+      "alternative": [
+        {
+          "word_postproc": "cholera",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကာလဝမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

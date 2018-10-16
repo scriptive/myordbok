@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "crop",
+      "orig": "အသီးအနှံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aaseeaanhaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "crop",
+        "fruits and cereals"
+      ],
+      "entry": [
+        {
+          "word": "crop",
+          "reverse_translation": [
+            "အသီးအနှံ"
+          ],
+          "score": 0.0027223767
+        }
+      ],
+      "base_form": "အသီးအနှံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အသီးအနှံ",
+      "alternative": [
+        {
+          "word_postproc": "crop",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "forth fruit",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fruits of increase",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fruits of the field",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fruit of thy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "အသီးအနှံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

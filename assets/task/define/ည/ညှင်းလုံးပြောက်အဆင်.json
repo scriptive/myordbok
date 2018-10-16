@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "The polka-dot design",
+      "orig": "ညှင်းလုံးပြောက်အဆင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyhainn lone pyawwat a sain"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ",
+      "alternative": [
+        {
+          "word_postproc": "The",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 15,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "ညှင်းလုံးပြောက်အဆင်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ညှင်း လုံး ပြောက်",
+      "alternative": [
+        {
+          "word_postproc": "polka-dot design",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 15
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 5
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

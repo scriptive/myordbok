@@ -1,0 +1,53 @@
+{
+  "sentences": [
+    {
+      "trans": "Responsibility",
+      "orig": "တာဝန်ကျေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "tarwaankyaay"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တာဝန်ကျေ",
+      "alternative": [
+        {
+          "word_postproc": "Responsibility",
+          "score": 996,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "RPG",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "တာဝန်ကျေ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

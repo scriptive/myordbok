@@ -1,0 +1,79 @@
+{
+  "sentences": [
+    {
+      "trans": "Abysmally",
+      "orig": "အသူတစ်ရာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "a suu taitrar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "abysmally",
+        "toweringly"
+      ],
+      "entry": [
+        {
+          "word": "abysmally"
+        },
+        {
+          "word": "toweringly"
+        }
+      ],
+      "base_form": "အသူတစ်ရာ",
+      "pos_enum": 4
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "measure of height,depth equal to one hundred အသူ"
+      ],
+      "entry": [
+        {
+          "word": "measure of height,depth equal to one hundred အသူ"
+        }
+      ],
+      "base_form": "အသူတစ်ရာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သူ တစ်ရာ",
+      "alternative": [
+        {
+          "word_postproc": "Abysmally",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "အသူတစ်ရာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

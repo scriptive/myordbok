@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "trans": "Faltering",
+      "orig": "ညောင်နာနာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyaung nar nar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in a sickly manner"
+      ],
+      "entry": [
+        {
+          "word": "in a sickly manner"
+        }
+      ],
+      "base_form": "ညောင်နာနာ",
+      "pos_enum": 4
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "faltering"
+      ],
+      "entry": [
+        {
+          "word": "faltering"
+        }
+      ],
+      "base_form": "ညောင်နာနာ",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညောင် နာ နာ",
+      "alternative": [
+        {
+          "word_postproc": "Faltering",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ညောင်နာနာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

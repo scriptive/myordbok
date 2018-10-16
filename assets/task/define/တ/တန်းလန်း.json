@@ -1,0 +1,114 @@
+{
+  "sentences": [
+    {
+      "trans": "trailing",
+      "orig": "တန်းလန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "taann laann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "with sb",
+        "sth clinging",
+        "hanging",
+        "trailing",
+        "without completing",
+        "finishing",
+        "while",
+        "in the middle of"
+      ],
+      "entry": [
+        {
+          "word": "with sb"
+        },
+        {
+          "word": "sth clinging"
+        },
+        {
+          "word": "hanging"
+        },
+        {
+          "word": "trailing"
+        },
+        {
+          "word": "without completing"
+        },
+        {
+          "word": "finishing"
+        },
+        {
+          "word": "while"
+        },
+        {
+          "word": "in the middle of"
+        }
+      ],
+      "base_form": "တန်းလန်း",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တန်း လန်း",
+      "alternative": [
+        {
+          "word_postproc": "trailing",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "finishing",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hanging",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "while",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "without completing",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "တန်းလန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Tridacna",
+      "orig": "ကလွန်တောင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "k lwan taung"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "giant clam",
+        "tridacna"
+      ],
+      "entry": [
+        {
+          "word": "giant clam"
+        },
+        {
+          "word": "tridacna"
+        }
+      ],
+      "base_form": "ကလွန်တောင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "က လွန် တောင်",
+      "alternative": [
+        {
+          "word_postproc": "Tridacna",
+          "score": 983,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Giant clam",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ကလွန်တောင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

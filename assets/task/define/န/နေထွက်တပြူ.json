@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "Peep sunrise",
+      "orig": "နေထွက်တပြူ",
+      "backend": 0
+    },
+    {
+      "src_translit": "nayhtwat t pyauu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "time when part of the sun appears over the horizon"
+      ],
+      "entry": [
+        {
+          "word": "time when part of the sun appears over the horizon"
+        }
+      ],
+      "base_form": "နေထွက်တပြူ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြူ",
+      "alternative": [
+        {
+          "word_postproc": "Peep",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Commit",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Leans",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Bark",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Folks",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "နေထွက်တပြူ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "နေထွက်",
+      "alternative": [
+        {
+          "word_postproc": "sunrise",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Art of stone sculpture",
+      "orig": "ပန်းတမော့",
+      "backend": 0
+    },
+    {
+      "src_translit": "paann t mot"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "art of stone sculpture"
+      ],
+      "entry": [
+        {
+          "word": "art of stone sculpture"
+        }
+      ],
+      "base_form": "ပန်းတမော့",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပန်း တ မော့",
+      "alternative": [
+        {
+          "word_postproc": "Art of stone sculpture",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ပန်းတမော့",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "trans": "berate",
+      "orig": "မာန်မဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "maran mell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "scold",
+        "berate"
+      ],
+      "entry": [
+        {
+          "word": "scold",
+          "reverse_translation": [
+            "ကျိန်ဆဲ"
+          ],
+          "synset_id": [
+            78542
+          ]
+        }
+      ],
+      "base_form": "မာန်မဲ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မာန် မဲ",
+      "alternative": [
+        {
+          "word_postproc": "berate",
+          "score": 987,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "scold",
+          "score": 12,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "မာန်မဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

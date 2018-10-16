@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "uncle",
+      "orig": "ဘထွေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "bh htway"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "younger brother of one's father",
+        "husband of the younger sister of one's mother",
+        "uncle"
+      ],
+      "entry": [
+        {
+          "word": "uncle",
+          "reverse_translation": [
+            "ဘကြီး",
+            "ဉီးရေး"
+          ]
+        }
+      ],
+      "base_form": "ဘထွေး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘ ထွေး",
+      "alternative": [
+        {
+          "word_postproc": "uncle",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the uncle",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "uncle of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the uncle of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဘထွေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

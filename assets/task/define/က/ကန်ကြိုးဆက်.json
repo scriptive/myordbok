@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Single bend",
+      "orig": "ကန်ကြိုးဆက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kaan kyaoe saat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "single bend"
+      ],
+      "entry": [
+        {
+          "word": "single bend"
+        }
+      ],
+      "base_form": "ကန်ကြိုးဆက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကန် ကြိုး ဆက်",
+      "alternative": [
+        {
+          "word_postproc": "Single bend",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ကန်ကြိုးဆက်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

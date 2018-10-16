@@ -1,0 +1,100 @@
+{
+  "sentences": [
+    {
+      "trans": "Annoyance",
+      "orig": "မှောင့်ရောင့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "mhaaw in  raw in "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "harass",
+        "disturb",
+        "vex"
+      ],
+      "entry": [
+        {
+          "word": "harass",
+          "reverse_translation": [
+            "မောပန်းစေ"
+          ]
+        },
+        {
+          "word": "disturb",
+          "reverse_translation": [
+            "မေွှနေှာက်"
+          ],
+          "synset_id": [
+            22674
+          ]
+        }
+      ],
+      "base_form": "မှောင့်ရောင့်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မှော င့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Annoyance",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Disturbance",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Harassment",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Annoy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Disturb",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "မှောင့်ရောင့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

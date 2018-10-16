@@ -1,0 +1,107 @@
+{
+  "sentences": [
+    {
+      "trans": "threaten",
+      "orig": "ကြိမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaaim"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "threaten",
+        "proclaim",
+        "scold",
+        "be afraid"
+      ],
+      "entry": [
+        {
+          "word": "threaten",
+          "reverse_translation": [
+            "ဘေးအန္တရာယ်ပြု"
+          ],
+          "score": 0.043255754
+        },
+        {
+          "word": "proclaim",
+          "reverse_translation": [
+            "ကေြညာ"
+          ],
+          "score": 0.034756977
+        },
+        {
+          "word": "scold",
+          "reverse_translation": [
+            "ကျိန်ဆဲ"
+          ],
+          "score": 0.017476905
+        }
+      ],
+      "base_form": "ကြိမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြိမ်း",
+      "alternative": [
+        {
+          "word_postproc": "threaten",
+          "score": 673,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "defied",
+          "score": 325,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "scold",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "defy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "proclaim",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ကြိမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

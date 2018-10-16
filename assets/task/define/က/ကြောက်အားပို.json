@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "More afraid",
+      "orig": "ကြောက်အားပို",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawwat aarr po"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပို",
+      "alternative": [
+        {
+          "word_postproc": "More",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 9,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ကြောက်အားပို",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ကြောက်",
+      "alternative": [
+        {
+          "word_postproc": "afraid",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

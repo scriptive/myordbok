@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "sideline",
+      "orig": "ဘေးပန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "bhayy paann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "side - lines",
+        "other source of income",
+        "side",
+        "flank",
+        "outside"
+      ],
+      "entry": [
+        {
+          "word": "side",
+          "reverse_translation": [
+            "ဘက်"
+          ]
+        },
+        {
+          "word": "outside",
+          "reverse_translation": [
+            "ပြင်ဘက်"
+          ]
+        }
+      ],
+      "base_form": "ဘေးပန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘေး ပန်း",
+      "alternative": [
+        {
+          "word_postproc": "sideline",
+          "score": 986,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "flank",
+          "score": 12,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "source of income",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "side",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of income",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဘေးပန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

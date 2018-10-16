@@ -1,0 +1,70 @@
+{
+  "sentences": [
+    {
+      "trans": "Backwater",
+      "orig": "ပစ္စန္တရစ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pahc hcan t rait"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "outlying areas of a kingdom",
+        "remote parts of a country",
+        "backwater"
+      ],
+      "entry": [
+        {
+          "word": "outlying areas of a kingdom"
+        },
+        {
+          "word": "remote parts of a country"
+        },
+        {
+          "word": "backwater"
+        }
+      ],
+      "base_form": "ပစ္စန္တရစ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပစ္ စန္ တ ရစ်",
+      "alternative": [
+        {
+          "word_postproc": "Backwater",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ပစ္စန္တရစ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

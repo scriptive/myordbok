@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Terror",
+      "orig": "ကြောက်အားလန့်အား",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawwat aarr l n  aarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in fright",
+        "in terror"
+      ],
+      "entry": [
+        {
+          "word": "in fright"
+        },
+        {
+          "word": "in terror"
+        }
+      ],
+      "base_form": "ကြောက်အားလန့်အား",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြောက် အား လ န့",
+      "alternative": [
+        {
+          "word_postproc": "Terror",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "In terror",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ကြောက်အားလန့်အား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

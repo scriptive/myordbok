@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "robe",
+      "orig": "ဝတ်လုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "waat lone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "gown",
+        "robe",
+        "academic gown",
+        "official robe",
+        "barrister-at-law"
+      ],
+      "entry": [
+        {
+          "word": "robe",
+          "reverse_translation": [
+            "အဝတ်အစား"
+          ],
+          "synset_id": [
+            6801
+          ]
+        }
+      ],
+      "base_form": "ဝတ်လုံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝတ် လုံ",
+      "alternative": [
+        {
+          "word_postproc": "robe",
+          "score": 945,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the robe",
+          "score": 53,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "robe and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "robe of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဝတ်လုံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

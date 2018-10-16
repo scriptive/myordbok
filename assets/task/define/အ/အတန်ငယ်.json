@@ -1,0 +1,88 @@
+{
+  "sentences": [
+    {
+      "trans": "Mid",
+      "orig": "အတန်ငယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aataanngaal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "somewhat",
+        "little"
+      ],
+      "entry": [
+        {
+          "word": "somewhat",
+          "reverse_translation": [
+            "အတော်အတန်"
+          ],
+          "synset_id": [
+            33417
+          ],
+          "score": 0.39777252
+        }
+      ],
+      "base_form": "အတန်ငယ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အတန်ငယ်",
+      "alternative": [
+        {
+          "word_postproc": "Mid",
+          "score": 759,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "somewhat",
+          "score": 240,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "somewhat in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "little",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "အတန်ငယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

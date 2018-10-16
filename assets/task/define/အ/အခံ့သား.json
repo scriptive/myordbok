@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "In a dignified manner",
+      "orig": "အခံ့သား",
+      "backend": 0
+    },
+    {
+      "src_translit": "a hkan sarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in a dignified manner"
+      ],
+      "entry": [
+        {
+          "word": "in a dignified manner"
+        }
+      ],
+      "base_form": "အခံ့သား",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ ခံ့ သား",
+      "alternative": [
+        {
+          "word_postproc": "In a dignified manner",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A dignified manner",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "အခံ့သား",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

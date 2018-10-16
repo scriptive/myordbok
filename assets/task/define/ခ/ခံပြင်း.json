@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "up",
+      "orig": "ခံပြင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkan pyinn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "resent",
+        "be rankled",
+        "be embittered"
+      ],
+      "entry": [
+        {
+          "word": "resent",
+          "reverse_translation": [
+            "ဒေါသကြီး"
+          ]
+        }
+      ],
+      "base_form": "ခံပြင်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခံ ပြင်း",
+      "alternative": [
+        {
+          "word_postproc": "up",
+          "score": 757,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "great",
+          "score": 150,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rankled",
+          "score": 60,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "embittered",
+          "score": 29,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "resent",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ခံပြင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

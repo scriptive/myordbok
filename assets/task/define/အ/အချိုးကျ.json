@@ -1,0 +1,100 @@
+{
+  "sentences": [
+    {
+      "trans": "proportional",
+      "orig": "အချိုးကျ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aahkyoekya"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "proportionately"
+      ],
+      "entry": [
+        {
+          "word": "proportionately",
+          "score": 0.004559123
+        }
+      ],
+      "base_form": "အချိုးကျ",
+      "pos_enum": 4
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "be well proportioned"
+      ],
+      "entry": [
+        {
+          "word": "be well proportioned"
+        }
+      ],
+      "base_form": "အချိုးကျ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အချိုးကျ",
+      "alternative": [
+        {
+          "word_postproc": "proportional",
+          "score": 696,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "proportionally",
+          "score": 300,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a proportional",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "or proportionally",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the proportional",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "အချိုးကျ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

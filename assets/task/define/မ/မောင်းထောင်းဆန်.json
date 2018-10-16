@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "unmilled rice",
+      "orig": "မောင်းထောင်းဆန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "maungghtaungg saan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "unmilled rice"
+      ],
+      "entry": [
+        {
+          "word": "unmilled rice"
+        }
+      ],
+      "base_form": "မောင်းထောင်းဆန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မောင်းထောင်း",
+      "alternative": [
+        {
+          "word_postproc": "unmilled",
+          "score": 813,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "မောင်းထောင်းဆန်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဆန်",
+      "alternative": [
+        {
+          "word_postproc": "rice",
+          "score": 813,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 12,
+          "end": 15
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "Strait",
+      "orig": "ရေလက်ကြား",
+      "backend": 0
+    },
+    {
+      "src_translit": "raylaatkyarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "strait",
+        "channel"
+      ],
+      "entry": [
+        {
+          "word": "strait",
+          "reverse_translation": [
+            "ပင်လယ်ရေကြား"
+          ],
+          "score": 0.065957151
+        },
+        {
+          "word": "channel",
+          "reverse_translation": [
+            "ရုပ်မြင်သံကြားလွှင့်စီးကေြာင်း",
+            "ရေမေြာင်း"
+          ],
+          "score": 0.018315639
+        }
+      ],
+      "base_form": "ရေလက်ကြား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရေလက်ကြား",
+      "alternative": [
+        {
+          "word_postproc": "Strait",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the Strait",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Strait of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the Gulf of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ရေလက်ကြား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "sentences": [
+    {
+      "trans": "Parinibbana",
+      "orig": "ပရိနိဗ္ဗာန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "parinibbaran"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "Parinirvana",
+        "Parinibbana",
+        "annihilation of being",
+        "release from cravings and attachment to life"
+      ],
+      "entry": [
+        {
+          "word": "Parinirvana",
+          "score": 0.015912903
+        },
+        {
+          "word": "Parinibbana",
+          "score": 0.015912903
+        },
+        {
+          "word": "annihilation of being",
+          "score": 0.015912903
+        },
+        {
+          "word": "release from cravings and attachment to life"
+        }
+      ],
+      "base_form": "ပရိနိဗ္ဗာန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပရိနိဗ္ဗာန်",
+      "alternative": [
+        {
+          "word_postproc": "Parinibbana",
+          "score": 989,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Parinirvana",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the passing away",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "passing away",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "passing away of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ပရိနိဗ္ဗာန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

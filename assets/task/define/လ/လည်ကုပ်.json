@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "nape",
+      "orig": "လည်ကုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lai kote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "nape",
+        "scruff"
+      ],
+      "entry": [
+        {
+          "word": "nape",
+          "synset_id": [
+            56805
+          ]
+        },
+        {
+          "word": "scruff",
+          "synset_id": [
+            56805
+          ]
+        }
+      ],
+      "base_form": "လည်ကုပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လည် ကုပ်",
+      "alternative": [
+        {
+          "word_postproc": "nape",
+          "score": 643,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "scruff",
+          "score": 356,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "လည်ကုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

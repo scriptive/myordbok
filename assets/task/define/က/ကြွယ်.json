@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "wealth",
+      "orig": "ကြွယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "rich",
+        "wealthy",
+        "eloquent"
+      ],
+      "entry": [
+        {
+          "word": "rich",
+          "reverse_translation": [
+            "ကြွယ်ဝသော"
+          ],
+          "score": 0.13533528
+        },
+        {
+          "word": "wealthy",
+          "reverse_translation": [
+            "ဉစ္စဓနကြွယ်ဝသော"
+          ],
+          "score": 0.027928013
+        }
+      ],
+      "base_form": "ကြွယ်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြွယ်",
+      "alternative": [
+        {
+          "word_postproc": "wealth",
+          "score": 959,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wealthy",
+          "score": 20,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rich",
+          "score": 19,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Kywe",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of wealth",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကြွယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

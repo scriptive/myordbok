@@ -1,0 +1,110 @@
+{
+  "sentences": [
+    {
+      "trans": "array",
+      "orig": "ခင်းကျင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkainn kyinn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "display",
+        "exhibit",
+        "lay out attractively",
+        "deploy"
+      ],
+      "entry": [
+        {
+          "word": "display",
+          "reverse_translation": [
+            "ပြသ"
+          ],
+          "synset_id": [
+            110776
+          ]
+        },
+        {
+          "word": "exhibit",
+          "reverse_translation": [
+            "တင်ပြ"
+          ],
+          "synset_id": [
+            110776
+          ]
+        },
+        {
+          "word": "deploy",
+          "reverse_translation": [
+            "ကျယ်ပြန့်"
+          ]
+        }
+      ],
+      "base_form": "ခင်းကျင်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခင်း ကျင်း",
+      "alternative": [
+        {
+          "word_postproc": "array",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in array",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "array of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "set in array",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and drew up",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ခင်းကျင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "sentences": [
+    {
+      "trans": "fate",
+      "orig": "ကံကြမ္မာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kankyammar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "fortune",
+        "luck",
+        "lot",
+        "one's deed, word,thought which predetermines one's future"
+      ],
+      "entry": [
+        {
+          "word": "fortune",
+          "reverse_translation": [
+            "ဉစ္စာဓန"
+          ],
+          "synset_id": [
+            26756
+          ],
+          "score": 0.02749503
+        },
+        {
+          "word": "luck",
+          "reverse_translation": [
+            "ကံကောင်းခြင်း"
+          ],
+          "synset_id": [
+            26756
+          ],
+          "score": 0.011108996
+        },
+        {
+          "word": "lot",
+          "reverse_translation": [
+            "အမေြာက်အများ"
+          ],
+          "synset_id": [
+            26756
+          ],
+          "score": 0.0092096813
+        }
+      ],
+      "base_form": "ကံကြမ္မာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကံကြမ္မာ",
+      "alternative": [
+        {
+          "word_postproc": "fate",
+          "score": 483,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The fate",
+          "score": 455,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fate of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The fortunes",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of fate",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကံကြမ္မာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

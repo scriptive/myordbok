@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "တစ်ခြမ်းပဲ့",
+      "orig": "တစ်ခြမ်းပဲ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "taithkyampae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "state of being wanting in sth"
+      ],
+      "entry": [
+        {
+          "word": "state of being wanting in sth"
+        }
+      ],
+      "base_form": "တစ်ခြမ်းပဲ့",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တစ်ခြမ်းပဲ့",
+      "alternative": [
+        {
+          "word_postproc": "တစ်ခြမ်းပဲ့",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "တစ်ခြမ်းပဲ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

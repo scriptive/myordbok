@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "Remember the name",
+      "orig": "နာခံမှတ်သား",
+      "backend": 0
+    },
+    {
+      "src_translit": "nar hkan mhaatsarr"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မှတ်သား",
+      "alternative": [
+        {
+          "word_postproc": "Remember the",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Marked",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Note",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "နာခံမှတ်သား",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "နာ",
+      "alternative": [
+        {
+          "word_postproc": "name",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

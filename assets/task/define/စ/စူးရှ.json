@@ -1,0 +1,109 @@
+{
+  "sentences": [
+    {
+      "trans": "acute",
+      "orig": "စူးရှ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcuush"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "feel a prickly sensation",
+        "shrill",
+        "pungent",
+        "be pierced",
+        "be pricked",
+        "be sharp",
+        "be hard",
+        "be glaring",
+        "be effective"
+      ],
+      "entry": [
+        {
+          "word": "feel a prickly sensation",
+          "score": 0.016676579
+        },
+        {
+          "word": "shrill",
+          "score": 0.016676579
+        },
+        {
+          "word": "pungent",
+          "score": 0.016676579
+        },
+        {
+          "word": "be pierced"
+        },
+        {
+          "word": "be pricked"
+        },
+        {
+          "word": "be sharp"
+        },
+        {
+          "word": "be hard"
+        },
+        {
+          "word": "be glaring"
+        },
+        {
+          "word": "be effective"
+        }
+      ],
+      "base_form": "စူးရှ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စူးရှ",
+      "alternative": [
+        {
+          "word_postproc": "acute",
+          "score": 920,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sharp",
+          "score": 78,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the sharp",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "စူးရှ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

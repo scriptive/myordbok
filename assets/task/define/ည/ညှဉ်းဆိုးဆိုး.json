@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "sickly",
+      "orig": "ညှဉ်းဆိုးဆိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyhain soesoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "sickly",
+        "haggardly"
+      ],
+      "entry": [
+        {
+          "word": "sickly"
+        },
+        {
+          "word": "haggardly"
+        }
+      ],
+      "base_form": "ညှဉ်းဆိုးဆိုး",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညှဉ်း ဆိုးဆိုး",
+      "alternative": [
+        {
+          "word_postproc": "sickly",
+          "score": 982,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "haggardly",
+          "score": 17,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ညှဉ်းဆိုးဆိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

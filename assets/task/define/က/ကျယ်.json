@@ -1,0 +1,108 @@
+{
+  "sentences": [
+    {
+      "trans": "Enlarge",
+      "orig": "ကျယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "wide",
+        "broad",
+        "loud",
+        "spacious",
+        "insolent"
+      ],
+      "entry": [
+        {
+          "word": "wide",
+          "reverse_translation": [
+            "ကျယ်ဝန်းသော"
+          ],
+          "synset_id": [
+            34589
+          ],
+          "score": 0.088755049
+        },
+        {
+          "word": "broad",
+          "reverse_translation": [
+            "ကျယ်ဝန်းသော"
+          ],
+          "synset_id": [
+            34589
+          ],
+          "score": 0.027928013
+        },
+        {
+          "word": "loud",
+          "reverse_translation": [
+            "အသံကျယ်သော"
+          ],
+          "score": 0.011825466
+        }
+      ],
+      "base_form": "ကျယ်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျယ်",
+      "alternative": [
+        {
+          "word_postproc": "Enlarge",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wide",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "broad",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a wide",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကျယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

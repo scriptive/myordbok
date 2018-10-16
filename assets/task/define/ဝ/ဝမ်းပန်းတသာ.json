@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "joyously",
+      "orig": "ဝမ်းပန်းတသာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "wampaanntasar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "happily",
+        "joyously"
+      ],
+      "entry": [
+        {
+          "word": "happily",
+          "score": 0.17651048
+        },
+        {
+          "word": "joyously",
+          "score": 0.059123605
+        }
+      ],
+      "base_form": "ဝမ်းပန်းတသာ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝမ်းပန်းတသာ",
+      "alternative": [
+        {
+          "word_postproc": "joyously",
+          "score": 487,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "happily",
+          "score": 474,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "gladly",
+          "score": 37,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "also happily",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "heartily and cordially",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ဝမ်းပန်းတသာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

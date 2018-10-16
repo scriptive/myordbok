@@ -1,0 +1,102 @@
+{
+  "sentences": [
+    {
+      "trans": "pork",
+      "orig": "ဝက်",
+      "backend": 1
+    },
+    {
+      "src_translit": "waat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "pig",
+        "hog"
+      ],
+      "entry": [
+        {
+          "word": "pig",
+          "reverse_translation": [
+            "ဝက်"
+          ],
+          "synset_id": [
+            37411
+          ],
+          "score": 0.059123605
+        },
+        {
+          "word": "hog",
+          "reverse_translation": [
+            "ဝက်"
+          ],
+          "synset_id": [
+            37411
+          ],
+          "score": 0.0017576985
+        }
+      ],
+      "base_form": "ဝက်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "halve"
+      ],
+      "entry": [
+        {
+          "word": "halve",
+          "reverse_translation": [
+            "တဝက်ခဲွ"
+          ]
+        }
+      ],
+      "base_form": "ဝက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝက်",
+      "alternative": [
+        {
+          "word_postproc": "pork",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pig",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဝက်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "watchman",
+      "orig": "ကင်းစောင့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kainn hcawng"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "sentry",
+        "watchman"
+      ],
+      "entry": [
+        {
+          "word": "sentry",
+          "reverse_translation": [
+            "ကင်းစောင့်"
+          ],
+          "synset_id": [
+            2954
+          ]
+        },
+        {
+          "word": "watchman",
+          "reverse_translation": [
+            "ကင်းစောင့်"
+          ]
+        }
+      ],
+      "base_form": "ကင်းစောင့်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကင်း စောင့်",
+      "alternative": [
+        {
+          "word_postproc": "watchman",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sentry",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "watchmen",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a watchman",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The watchman",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ကင်းစောင့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

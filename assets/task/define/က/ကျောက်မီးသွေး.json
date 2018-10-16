@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "coal",
+      "orig": "ကျောက်မီးသွေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawwatmeesway"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "coal"
+      ],
+      "entry": [
+        {
+          "word": "coal",
+          "reverse_translation": [
+            "ကေျာက်မီးသေွး"
+          ],
+          "score": 0.50283158
+        }
+      ],
+      "base_form": "‌ကျောက်‌မီးသွေး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျောက်မီးသွေး",
+      "alternative": [
+        {
+          "word_postproc": "coal",
+          "score": 590,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of coal",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the coal",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "coal or",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a coal",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ကျောက်မီးသွေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "coins",
+      "orig": "ဒင်္ဂါး",
+      "backend": 0
+    },
+    {
+      "src_translit": "dain garr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "coin",
+        "minted piece of metal used as currency"
+      ],
+      "entry": [
+        {
+          "word": "coin",
+          "reverse_translation": [
+            "ဒင်္င ါးငေွ"
+          ]
+        }
+      ],
+      "base_form": "ဒင်္ဂါး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဒင်္ ဂါး",
+      "alternative": [
+        {
+          "word_postproc": "coins",
+          "score": 747,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "coin",
+          "score": 138,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "drams",
+          "score": 113,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "coins to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "darics",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဒင်္ဂါး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

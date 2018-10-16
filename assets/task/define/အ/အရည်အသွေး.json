@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "quality",
+      "orig": "အရည်အသွေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "aaraiaasway"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "hue",
+        "colour",
+        "ability",
+        "competence",
+        "qualification"
+      ],
+      "entry": [
+        {
+          "word": "colour",
+          "reverse_translation": [
+            "အရောင်"
+          ]
+        },
+        {
+          "word": "ability",
+          "reverse_translation": [
+            "စွမ်းအား"
+          ]
+        },
+        {
+          "word": "competence",
+          "reverse_translation": [
+            "တတ်မေြာက်ခြင်း"
+          ]
+        },
+        {
+          "word": "qualification",
+          "reverse_translation": [
+            "အရည်အချင်း"
+          ]
+        }
+      ],
+      "base_form": "အရည်အသွေး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အရည်အသွေး",
+      "alternative": [
+        {
+          "word_postproc": "quality",
+          "score": 995,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the quality",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Quality of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the quality of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အရည်အသွေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

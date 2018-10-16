@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "Included",
+      "orig": "အန္တောဂတဝင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aantaw g t wain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be inside",
+        "be included",
+        "be part of"
+      ],
+      "entry": [
+        {
+          "word": "be inside"
+        },
+        {
+          "word": "be included"
+        },
+        {
+          "word": "be part of"
+        }
+      ],
+      "base_form": "အန္တောဂတဝင်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အန္တော ဂ တ ဝင်",
+      "alternative": [
+        {
+          "word_postproc": "Included",
+          "score": 914,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Inside",
+          "score": 56,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Part of",
+          "score": 28,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "အန္တောဂတဝင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "False south",
+      "orig": "ဒက္ခိဏသာခါဆင်းတု",
+      "backend": 0
+    },
+    {
+      "src_translit": "dak hki n sar hkar sainntu"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆင်းတု",
+      "alternative": [
+        {
+          "word_postproc": "False",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Images",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 10,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "ဒက္ခိဏသာခါဆင်းတု",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဒက္ ခိ ဏ",
+      "alternative": [
+        {
+          "word_postproc": "south",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

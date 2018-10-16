@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "Familiarly",
+      "orig": "ဖက်လဲတကင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpaat lell t kainn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "familiarly",
+        "intimately",
+        "fondly"
+      ],
+      "entry": [
+        {
+          "word": "familiarly"
+        },
+        {
+          "word": "intimately"
+        },
+        {
+          "word": "fondly"
+        }
+      ],
+      "base_form": "ဖက်လဲတကင်း",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖက် လဲ တ ကင်း",
+      "alternative": [
+        {
+          "word_postproc": "Familiarly",
+          "score": 995,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Fondly",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Intimately",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ဖက်လဲတကင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

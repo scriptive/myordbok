@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "သျှိုး Jubilee",
+      "orig": "သျှိုးလိုက်ရတု",
+      "backend": 0
+    },
+    {
+      "src_translit": "shoe lite ratu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "verse recited during procession in the novitiation ceremony"
+      ],
+      "entry": [
+        {
+          "word": "verse recited during procession in the novitiation ceremony"
+        }
+      ],
+      "base_form": "သျှိုးလိုက်ရတု",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သျှိုး",
+      "alternative": [
+        {
+          "word_postproc": "သျှိုး",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "သျှိုးလိုက်ရတု",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ရတု",
+      "alternative": [
+        {
+          "word_postproc": "Jubilee",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 11,
+          "end": 14
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

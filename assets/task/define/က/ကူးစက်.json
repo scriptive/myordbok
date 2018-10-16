@@ -1,0 +1,101 @@
+{
+  "sentences": [
+    {
+      "trans": "infected",
+      "orig": "ကူးစက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kuuhcaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "spread",
+        "infect"
+      ],
+      "entry": [
+        {
+          "word": "spread",
+          "reverse_translation": [
+            "ပျံ့နှံ့"
+          ],
+          "synset_id": [
+            5531
+          ],
+          "score": 0.026649097
+        },
+        {
+          "word": "infect",
+          "reverse_translation": [
+            "ရောဂါကူးစက်စေ"
+          ],
+          "score": 0.025428746
+        }
+      ],
+      "base_form": "ကူးစက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကူးစက်",
+      "alternative": [
+        {
+          "word_postproc": "infected",
+          "score": 673,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "infectious",
+          "score": 146,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "infect",
+          "score": 134,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "transmitted",
+          "score": 44,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "infecting",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ကူးစက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

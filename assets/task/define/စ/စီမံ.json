@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "manage",
+      "orig": "စီမံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hceman"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "manage",
+        "plan",
+        "organize"
+      ],
+      "entry": [
+        {
+          "word": "manage",
+          "reverse_translation": [
+            "ဆောင်ရွက်နိုင်"
+          ],
+          "score": 0.17929012
+        },
+        {
+          "word": "plan",
+          "reverse_translation": [
+            "စီမံကိန်းချ"
+          ],
+          "score": 0.010435936
+        },
+        {
+          "word": "organize",
+          "reverse_translation": [
+            "ဖဲွ့စည်း"
+          ]
+        }
+      ],
+      "base_form": "စီမံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စီမံ",
+      "alternative": [
+        {
+          "word_postproc": "manage",
+          "score": 988,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and manage",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to manage",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "manage the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "managed by",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "စီမံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

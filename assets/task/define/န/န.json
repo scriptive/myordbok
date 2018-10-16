@@ -1,0 +1,107 @@
+{
+  "sentences": [
+    {
+      "trans": "system",
+      "orig": "န",
+      "backend": 0
+    },
+    {
+      "src_translit": "n"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be stupid",
+        "be dull",
+        "be a simpleton"
+      ],
+      "entry": [
+        {
+          "word": "be stupid"
+        },
+        {
+          "word": "be dull"
+        },
+        {
+          "word": "be a simpleton"
+        }
+      ],
+      "base_form": "န",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "twentieth letter of the Myanmar alphabet"
+      ],
+      "entry": [
+        {
+          "word": "twentieth letter of the Myanmar alphabet"
+        }
+      ],
+      "base_form": "န",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "န",
+      "alternative": [
+        {
+          "word_postproc": "system",
+          "score": 779,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "service",
+          "score": 115,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "responsibility",
+          "score": 86,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "initially",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the system",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 1
+        }
+      ],
+      "raw_src_segment": "န",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

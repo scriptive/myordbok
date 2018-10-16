@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "Copy",
+      "orig": "ဝါရမိတ္တုရက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "war r mit tu raat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "unlucky day"
+      ],
+      "entry": [
+        {
+          "word": "unlucky day"
+        }
+      ],
+      "base_form": "ဝါရမိတ္တုရက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မိတ္",
+      "alternative": [
+        {
+          "word_postproc": "Copy",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Copies",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Copies of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဝါရမိတ္တုရက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

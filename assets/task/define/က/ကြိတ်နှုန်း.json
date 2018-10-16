@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "average rate",
+      "orig": "ကြိတ်နှုန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaate nhuann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "average",
+        "average rate"
+      ],
+      "entry": [
+        {
+          "word": "average",
+          "reverse_translation": [
+            "ပျမ်းမှျမှု"
+          ]
+        }
+      ],
+      "base_form": "ကြိတ်နှုန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြိတ် နှုန်း",
+      "alternative": [
+        {
+          "word_postproc": "average rate",
+          "score": 981,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "average",
+          "score": 18,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ကြိတ်နှုန်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

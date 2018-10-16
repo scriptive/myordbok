@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Pattaya",
+      "orig": "ပတ္တာခံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pat tar hkan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "rent a piece of land from the government"
+      ],
+      "entry": [
+        {
+          "word": "rent a piece of land from the government"
+        }
+      ],
+      "base_form": "ပတ္တာခံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပတ္",
+      "alternative": [
+        {
+          "word_postproc": "Pattaya",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ပတ္တာခံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

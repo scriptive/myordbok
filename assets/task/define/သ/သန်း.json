@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "million",
+      "orig": "သန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "saann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "million",
+        "louse",
+        "head louse",
+        "tree from the bark of which a dye is obtained"
+      ],
+      "entry": [
+        {
+          "word": "million",
+          "reverse_translation": [
+            "သန်း"
+          ],
+          "synset_id": [
+            93251
+          ],
+          "score": 0.60653067
+        },
+        {
+          "word": "louse",
+          "reverse_translation": [
+            "သန်း"
+          ],
+          "synset_id": [
+            1343
+          ],
+          "score": 0.00018817748
+        }
+      ],
+      "base_form": "သန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သန်း",
+      "alternative": [
+        {
+          "word_postproc": "million",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "million and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "million for",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "သန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

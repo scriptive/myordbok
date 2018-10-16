@@ -1,0 +1,96 @@
+{
+  "sentences": [
+    {
+      "trans": "either",
+      "orig": "လည်းကောင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "laeekaungg"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "both",
+        "as well",
+        "also"
+      ],
+      "entry": [
+        {
+          "word": "both",
+          "score": 0.0075167231
+        },
+        {
+          "word": "as well",
+          "score": 0.0054993522
+        },
+        {
+          "word": "also"
+        }
+      ],
+      "base_form": "လည်းကောင်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လည်းကောင်း",
+      "alternative": [
+        {
+          "word_postproc": "either",
+          "score": 834,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "as well as",
+          "score": 117,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "both",
+          "score": 28,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Allah",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "as well",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "လည်းကောင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

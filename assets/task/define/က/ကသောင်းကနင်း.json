@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "Upheaval",
+      "orig": "ကသောင်းကနင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "k saungg k nainn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in disarray"
+      ],
+      "entry": [
+        {
+          "word": "in disarray"
+        }
+      ],
+      "base_form": "ကသောင်းကနင်း",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "က သောင်း က နင်း",
+      "alternative": [
+        {
+          "word_postproc": "Upheaval",
+          "score": 788,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "In disarray",
+          "score": 193,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Disarray",
+          "score": 18,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ကသောင်းကနင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

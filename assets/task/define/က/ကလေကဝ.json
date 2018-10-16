@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "Vagabond",
+      "orig": "ကလေကဝ",
+      "backend": 0
+    },
+    {
+      "src_translit": "k lay k w"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "vagabond",
+        "waif",
+        "person with no fixed abode",
+        "person of no status"
+      ],
+      "entry": [
+        {
+          "word": "vagabond"
+        },
+        {
+          "word": "waif"
+        },
+        {
+          "word": "person with no fixed abode"
+        },
+        {
+          "word": "person of no status"
+        }
+      ],
+      "base_form": "ကလေကဝ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "က လေ က ဝ",
+      "alternative": [
+        {
+          "word_postproc": "Vagabond",
+          "score": 502,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Waif",
+          "score": 497,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကလေကဝ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

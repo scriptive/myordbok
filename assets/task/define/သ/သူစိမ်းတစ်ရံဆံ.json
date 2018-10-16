@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Stranger",
+      "orig": "သူစိမ်းတစ်ရံဆံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "suuhcaim taitran san"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "stranger"
+      ],
+      "entry": [
+        {
+          "word": "stranger",
+          "reverse_translation": [
+            "လူစိမ်း",
+            "လူစိမ်း"
+          ]
+        }
+      ],
+      "base_form": "သူစိမ်းတစ်ရံဆံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သူစိမ်း တစ်ရံ ဆံ",
+      "alternative": [
+        {
+          "word_postproc": "Stranger",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "သူစိမ်းတစ်ရံဆံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

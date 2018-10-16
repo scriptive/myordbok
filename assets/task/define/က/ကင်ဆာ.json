@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "cancer",
+      "orig": "ကင်ဆာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kainsar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "cancer"
+      ],
+      "entry": [
+        {
+          "word": "cancer",
+          "reverse_translation": [
+            "ကေျာက်ပုဇွန် ၊ ကင်ဆာရောဂါ"
+          ],
+          "score": 0.36787945
+        }
+      ],
+      "base_form": "ကင်ဆာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကင်ဆာ",
+      "alternative": [
+        {
+          "word_postproc": "cancer",
+          "score": 948,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cancers",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cancerous",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of cancer",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကင်ဆာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

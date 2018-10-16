@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Lie",
+      "orig": "ပလီစိချောက်ချက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "p le hci hkyawwat hkyet"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "stuff and nonsense",
+        "lie"
+      ],
+      "entry": [
+        {
+          "word": "lie",
+          "reverse_translation": [
+            "မုသား"
+          ]
+        }
+      ],
+      "base_form": "ပလီစိချောက်ချက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပ လီ စိ ချောက်",
+      "alternative": [
+        {
+          "word_postproc": "Lie",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ပလီစိချောက်ချက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

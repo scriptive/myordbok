@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "universe",
+      "orig": "စကြဝဠာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcakyawalar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "great circular barrier,sphere surrounding the world, at the centre of which is a great mountain, \"mount meru\", encircled by four oceans each having a great island,continent, and having a sun and a moon",
+        "the extent of a such system",
+        "such cosmological systems existing in infinite numbers in the universe"
+      ],
+      "entry": [
+        {
+          "word": "great circular barrier,sphere surrounding the world, at the centre of which is a great mountain, \"mount meru\", encircled by four oceans each having a great island,continent, and having a sun and a moon"
+        },
+        {
+          "word": "the extent of a such system"
+        },
+        {
+          "word": "such cosmological systems existing in infinite numbers in the universe"
+        }
+      ],
+      "base_form": "စကြဝဠာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စကြဝဠာ",
+      "alternative": [
+        {
+          "word_postproc": "universe",
+          "score": 846,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the universe",
+          "score": 105,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "universal",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "စကြဝဠာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

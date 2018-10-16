@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "persecuted",
+      "orig": "ညှဉ်းဆဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyhain sell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "torture",
+        "ill treat",
+        "be a source of worry,trouble"
+      ],
+      "entry": [
+        {
+          "word": "torture",
+          "reverse_translation": [
+            "ညှဉ်းပမ်း"
+          ]
+        }
+      ],
+      "base_form": "ညှဉ်းဆဲ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညှဉ်း ဆဲ",
+      "alternative": [
+        {
+          "word_postproc": "persecuted",
+          "score": 593,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "persecute",
+          "score": 396,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "oppressed",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "oppress",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and persecute",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ညှဉ်းဆဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

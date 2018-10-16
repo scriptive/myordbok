@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Kind of slipper",
+      "orig": "ကွင်းထိုးဖိနပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kwin htoe hpinaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "kind of slipper"
+      ],
+      "entry": [
+        {
+          "word": "kind of slipper"
+        }
+      ],
+      "base_form": "ကွင်းထိုးဖိနပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကွင်း ထိုး ဖိနပ်",
+      "alternative": [
+        {
+          "word_postproc": "Kind of slipper",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ကွင်းထိုးဖိနပ်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

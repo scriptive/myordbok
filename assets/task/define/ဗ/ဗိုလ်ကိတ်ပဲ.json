@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Black-eyed pea",
+      "orig": "ဗိုလ်ကိတ်ပဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "bol kate pell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "cow pea",
+        "black-eyed pea"
+      ],
+      "entry": [
+        {
+          "word": "cow pea"
+        },
+        {
+          "word": "black-eyed pea"
+        }
+      ],
+      "base_form": "ဗိုလ်ကိတ်ပဲ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗိုလ် ကိတ် ပဲ",
+      "alternative": [
+        {
+          "word_postproc": "Black-eyed pea",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Cow pea",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ဗိုလ်ကိတ်ပဲ",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

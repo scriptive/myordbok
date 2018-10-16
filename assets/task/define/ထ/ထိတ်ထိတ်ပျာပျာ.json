@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Agitatedly",
+      "orig": "ထိတ်ထိတ်ပျာပျာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "htate htate pyaar pyaar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in an agitated manner",
+        "agitatedly"
+      ],
+      "entry": [
+        {
+          "word": "in an agitated manner"
+        },
+        {
+          "word": "agitatedly"
+        }
+      ],
+      "base_form": "ထိတ်ထိတ်ပျာပျာ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထိတ် ထိတ် ပျာ ပျာ",
+      "alternative": [
+        {
+          "word_postproc": "Agitatedly",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ထိတ်ထိတ်ပျာပျာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

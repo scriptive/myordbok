@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Saffron",
+      "orig": "မာလာကျိကျုပင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "mar lar kyai kyau pain"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လာ ကျိ ကျု",
+      "alternative": [
+        {
+          "word_postproc": "Saffron",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "မာလာကျိကျုပင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

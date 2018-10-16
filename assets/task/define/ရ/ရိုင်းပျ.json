@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "Crimea",
+      "orig": "ရိုင်းပျ",
+      "backend": 0
+    },
+    {
+      "src_translit": "rine pya"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "rude",
+        "coarse",
+        "vulgar"
+      ],
+      "entry": [
+        {
+          "word": "rude",
+          "reverse_translation": [
+            "ကြမ်းသော"
+          ]
+        },
+        {
+          "word": "coarse",
+          "reverse_translation": [
+            "ကြမ်းသော"
+          ],
+          "synset_id": [
+            68126
+          ]
+        },
+        {
+          "word": "vulgar",
+          "reverse_translation": [
+            "ရိုင်းသော"
+          ],
+          "synset_id": [
+            68126
+          ]
+        }
+      ],
+      "base_form": "ရိုင်းပျ",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရိုင်း",
+      "alternative": [
+        {
+          "word_postproc": "Crimea",
+          "score": 860,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "In the wild",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wild",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ရိုင်းပျ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

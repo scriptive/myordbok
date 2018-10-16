@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "help",
+      "orig": "ကိုကို",
+      "backend": 0
+    },
+    {
+      "src_translit": "ko ko"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "pronoun",
+      "terms": [
+        "term of familiarity,endearment applied to one's elder brother,to a male older than oneself"
+      ],
+      "entry": [
+        {
+          "word": "term of familiarity,endearment applied to one's elder brother,to a male older than oneself"
+        }
+      ],
+      "base_form": "ကိုကို",
+      "pos_enum": 8
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကို",
+      "alternative": [
+        {
+          "word_postproc": "help",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to help",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "us",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ကိုကို",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

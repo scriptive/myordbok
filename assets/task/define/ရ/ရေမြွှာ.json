@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "amniotic sac",
+      "orig": "ရေမြွှာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "ray myawhar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "amniotic sac"
+      ],
+      "entry": [
+        {
+          "word": "amniotic sac"
+        }
+      ],
+      "base_form": "ရေမြွှာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရေ မြွှာ",
+      "alternative": [
+        {
+          "word_postproc": "amniotic sac",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ရေမြွှာ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

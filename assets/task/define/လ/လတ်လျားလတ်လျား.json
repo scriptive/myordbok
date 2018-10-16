@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Aimlessly",
+      "orig": "လတ်လျားလတ်လျား",
+      "backend": 0
+    },
+    {
+      "src_translit": "laat lyarr laat lyarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "idly",
+        "aimlessly"
+      ],
+      "entry": [
+        {
+          "word": "idly"
+        },
+        {
+          "word": "aimlessly"
+        }
+      ],
+      "base_form": "လတ်လျားလတ်လျား",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လတ် လျား လတ် လျား",
+      "alternative": [
+        {
+          "word_postproc": "Aimlessly",
+          "score": 806,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Idly",
+          "score": 193,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "လတ်လျားလတ်လျား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

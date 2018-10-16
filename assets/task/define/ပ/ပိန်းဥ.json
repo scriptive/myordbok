@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "taro",
+      "orig": "ပိန်းဥ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pein u"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "roots tock of the taroplant",
+        "taro"
+      ],
+      "entry": [
+        {
+          "word": "roots tock of the taroplant"
+        },
+        {
+          "word": "taro"
+        }
+      ],
+      "base_form": "ပိန်းဥ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပိန်း ဥ",
+      "alternative": [
+        {
+          "word_postproc": "taro",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ပိန်းဥ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

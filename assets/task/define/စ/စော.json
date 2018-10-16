@@ -1,0 +1,143 @@
+{
+  "sentences": [
+    {
+      "trans": "Saw",
+      "orig": "စော",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcaw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "illustrious",
+        "honourable",
+        "holy"
+      ],
+      "entry": [
+        {
+          "word": "honourable",
+          "reverse_translation": [
+            "ဂုဏ်ပေးထိုက်သော"
+          ]
+        },
+        {
+          "word": "holy",
+          "reverse_translation": [
+            "မြင့်မြတ်ေေသာ"
+          ]
+        }
+      ],
+      "base_form": "စော",
+      "pos_enum": 3
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "be early",
+        "be ahead of time",
+        "premature",
+        "be eager",
+        "be intent",
+        "contemplate",
+        "consider"
+      ],
+      "entry": [
+        {
+          "word": "contemplate",
+          "reverse_translation": [
+            "အာရုံပြု"
+          ]
+        },
+        {
+          "word": "consider",
+          "reverse_translation": [
+            "စဉ်းစားဆင်ခြင်"
+          ]
+        }
+      ],
+      "base_form": "စော",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "lord",
+        "honorific term",
+        "title"
+      ],
+      "entry": [
+        {
+          "word": "lord",
+          "reverse_translation": [
+            "လူကြီးမင်း"
+          ]
+        },
+        {
+          "word": "title",
+          "reverse_translation": [
+            "ဘဲွ့"
+          ]
+        }
+      ],
+      "base_form": "စော",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စော",
+      "alternative": [
+        {
+          "word_postproc": "Saw",
+          "score": 992,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Edition",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "early",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "earlier",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "စော",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

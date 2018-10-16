@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "line,",
+      "orig": "မျဉ်းကြိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "myain kyaoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "ruling line",
+        "cord, dusted with lime and stretched between pegs, which is plucked to mark off a line one the surface below"
+      ],
+      "entry": [
+        {
+          "word": "ruling line"
+        },
+        {
+          "word": "cord, dusted with lime and stretched between pegs, which is plucked to mark off a line one the surface below"
+        }
+      ],
+      "base_form": "မျဉ်းကြိုး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မျဉ်း ကြိုး",
+      "alternative": [
+        {
+          "word_postproc": "line,",
+          "score": 758,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a line",
+          "score": 238,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "for a line",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "မျဉ်းကြိုး",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

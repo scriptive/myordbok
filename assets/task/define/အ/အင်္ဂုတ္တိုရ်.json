@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "Egypt flying",
+      "orig": "အင်္ဂုတ္တိုရ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aain gut tor"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "the  Anguttara Nikaya of Sutta Pitaka"
+      ],
+      "entry": [
+        {
+          "word": "the  Anguttara Nikaya of Sutta Pitaka"
+        }
+      ],
+      "base_form": "အင်္ဂုတ္တိုရ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဂုတ္",
+      "alternative": [
+        {
+          "word_postproc": "Egypt",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "အင်္ဂုတ္တိုရ်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "တိုရ်",
+      "alternative": [
+        {
+          "word_postproc": "flying",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 8,
+          "end": 13
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

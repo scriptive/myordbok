@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "Without a break",
+      "orig": "တစ်ကြိုးတည်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "tait kyaoe taee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in one stretch",
+        "without a break"
+      ],
+      "entry": [
+        {
+          "word": "in one stretch"
+        },
+        {
+          "word": "without a break"
+        }
+      ],
+      "base_form": "တစ်ကြိုးတည်း",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တစ် ကြိုး တည်း",
+      "alternative": [
+        {
+          "word_postproc": "Without a break",
+          "score": 839,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "One stretch",
+          "score": 157,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "In one stretch",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A break",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "တစ်ကြိုးတည်း",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

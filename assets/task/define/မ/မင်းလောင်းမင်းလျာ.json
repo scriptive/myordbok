@@ -1,0 +1,53 @@
+{
+  "sentences": [
+    {
+      "trans": "Crown prince",
+      "orig": "မင်းလောင်းမင်းလျာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "mainn laungg mainn lyaar"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မင်း လျာ",
+      "alternative": [
+        {
+          "word_postproc": "Crown prince",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Heir apparent",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 10,
+          "end": 17
+        }
+      ],
+      "raw_src_segment": "မင်းလောင်းမင်းလျာ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

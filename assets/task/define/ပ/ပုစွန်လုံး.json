@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "crab",
+      "orig": "ပုစွန်လုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "puhcwan lone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "land crab"
+      ],
+      "entry": [
+        {
+          "word": "land crab"
+        }
+      ],
+      "base_form": "ပုစွန်လုံး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပုစွန် လုံး",
+      "alternative": [
+        {
+          "word_postproc": "crab",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ပုစွန်လုံး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

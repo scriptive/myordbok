@@ -1,0 +1,121 @@
+{
+  "sentences": [
+    {
+      "trans": "The city",
+      "orig": "ထိုမြို့",
+      "backend": 0
+    },
+    {
+      "src_translit": "hto myahoet"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "",
+      "terms": [
+        "after that",
+        "besides that"
+      ],
+      "entry": [
+        {
+          "word": "after that"
+        },
+        {
+          "word": "besides that"
+        }
+      ],
+      "base_form": "ထိုမြို့",
+      "pos_enum": 20
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထို",
+      "alternative": [
+        {
+          "word_postproc": "The",
+          "score": 995,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "And",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "That",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "These",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ထိုမြို့",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "မြို့",
+      "alternative": [
+        {
+          "word_postproc": "city",
+          "score": 995,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "town",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cities",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the city",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 8
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

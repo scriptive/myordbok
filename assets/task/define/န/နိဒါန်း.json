@@ -1,0 +1,106 @@
+{
+  "sentences": [
+    {
+      "trans": "introduction",
+      "orig": "နိဒါန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "nidarann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "introduction",
+        "preface",
+        "foreword"
+      ],
+      "entry": [
+        {
+          "word": "introduction",
+          "reverse_translation": [
+            "နိဒါန်း",
+            "မိတ်ဆက်ပေးခြင်း"
+          ],
+          "synset_id": [
+            23395
+          ],
+          "score": 0.053832658
+        },
+        {
+          "word": "preface",
+          "reverse_translation": [
+            "နိဒါန်း"
+          ],
+          "synset_id": [
+            73297
+          ],
+          "score": 0.0025177868
+        }
+      ],
+      "base_form": "နိဒါန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နိဒါန်း",
+      "alternative": [
+        {
+          "word_postproc": "introduction",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "preface",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Introduction As",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "An Introduction",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "I. INTRODUCTION",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "နိဒါန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "sentences": [
+    {
+      "trans": "stone",
+      "orig": "ကျောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "rock",
+        "flint",
+        "jewel",
+        "precious stone",
+        "gall-stone",
+        "kidney stone",
+        "anchor",
+        "contagious disease",
+        "particularly smallpox",
+        "chickenpox",
+        "the back"
+      ],
+      "entry": [
+        {
+          "word": "rock",
+          "reverse_translation": [
+            "ကေျက်ဆောင်"
+          ],
+          "score": 0.13533528
+        },
+        {
+          "word": "jewel",
+          "reverse_translation": [
+            "ကေျာက်မျက်ရတနာ"
+          ],
+          "synset_id": [
+            33691
+          ]
+        },
+        {
+          "word": "anchor",
+          "reverse_translation": [
+            "ကေျာက်ဆူး"
+          ]
+        },
+        {
+          "word": "chickenpox",
+          "reverse_translation": [
+            "ကေျာက်ကြီးရောဂါ"
+          ]
+        }
+      ],
+      "base_form": "‌ကျောက်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "kick",
+        "strike"
+      ],
+      "entry": [
+        {
+          "word": "kick",
+          "reverse_translation": [
+            "ကန်ခြင်း"
+          ]
+        },
+        {
+          "word": "strike",
+          "reverse_translation": [
+            "ရိုက်"
+          ]
+        }
+      ],
+      "base_form": "‌ကျောက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျောက်",
+      "alternative": [
+        {
+          "word_postproc": "stone",
+          "score": 860,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rock",
+          "score": 137,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the rock",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "stones",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A stone",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ကျောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

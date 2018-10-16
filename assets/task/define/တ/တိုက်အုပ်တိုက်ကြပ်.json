@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "Tighten manager",
+      "orig": "တိုက်အုပ်တိုက်ကြပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "tite aote tite kyaut"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြပ်",
+      "alternative": [
+        {
+          "word_postproc": "Tighten",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Tight",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 14,
+          "end": 18
+        }
+      ],
+      "raw_src_segment": "တိုက်အုပ်တိုက်ကြပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "တိုက် အုပ်",
+      "alternative": [
+        {
+          "word_postproc": "manager",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "business manager",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

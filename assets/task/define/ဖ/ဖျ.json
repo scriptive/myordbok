@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "Soft",
+      "orig": "ဖျ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpya"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "minute",
+        "tiny"
+      ],
+      "entry": [
+        {
+          "word": "minute",
+          "reverse_translation": [
+            "အလွန်ငယ်သော"
+          ],
+          "score": 0.0066334847
+        },
+        {
+          "word": "tiny",
+          "reverse_translation": [
+            "အလွန်ငယ်သော"
+          ],
+          "score": 0.0066334847
+        }
+      ],
+      "base_form": "ဖျ",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖျ",
+      "alternative": [
+        {
+          "word_postproc": "Soft",
+          "score": 971,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "F.",
+          "score": 28,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "FAULTS",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "WolofBurmese",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Wolof",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ဖျ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

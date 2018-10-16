@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Useful",
+      "orig": "အသုံးတည့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aasone t i "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be suitable for use"
+      ],
+      "entry": [
+        {
+          "word": "be suitable for use"
+        }
+      ],
+      "base_form": "အသုံးတည့်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အသုံး တ ည့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Useful",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Get useful",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အသုံးတည့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

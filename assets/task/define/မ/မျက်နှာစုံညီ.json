@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "Commemorative",
+      "orig": "မျက်နှာစုံညီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "myetnhar hconenye"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "with all concerned present"
+      ],
+      "entry": [
+        {
+          "word": "with all concerned present"
+        }
+      ],
+      "base_form": "မျက်နှာစုံညီ",
+      "pos_enum": 4
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "plenary."
+      ],
+      "entry": [
+        {
+          "word": "plenary."
+        }
+      ],
+      "base_form": "မျက်နှာစုံညီ",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မျက်နှာ စုံညီ",
+      "alternative": [
+        {
+          "word_postproc": "Commemorative",
+          "score": 644,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "plenary",
+          "score": 333,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Plenary Session",
+          "score": 21,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the plenary",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Plenary Session in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "မျက်နှာစုံညီ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

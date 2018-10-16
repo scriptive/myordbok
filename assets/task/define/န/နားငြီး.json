@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "bored",
+      "orig": "နားငြီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "narr ngyee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be bored",
+        "be tired of hearing sth repeatedly"
+      ],
+      "entry": [
+        {
+          "word": "be bored"
+        },
+        {
+          "word": "be tired of hearing sth repeatedly"
+        }
+      ],
+      "base_form": "နားငြီး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နား ငြီး",
+      "alternative": [
+        {
+          "word_postproc": "bored",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "နားငြီး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

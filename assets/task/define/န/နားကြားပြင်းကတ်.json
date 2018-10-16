@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Hate to ear",
+      "orig": "နားကြားပြင်းကတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "narr kyarr pyinn kaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "hate to ear",
+        "be irritating to the ear"
+      ],
+      "entry": [
+        {
+          "word": "hate to ear"
+        },
+        {
+          "word": "be irritating to the ear"
+        }
+      ],
+      "base_form": "နားကြားပြင်းကတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နား ကြား ပြင်း ကတ်",
+      "alternative": [
+        {
+          "word_postproc": "Hate to ear",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "နားကြားပြင်းကတ်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

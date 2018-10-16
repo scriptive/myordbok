@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "A journey",
+      "orig": "တစ်ထောက်တစ်နား",
+      "backend": 0
+    },
+    {
+      "src_translit": "tait htout tait narr"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တစ်",
+      "alternative": [
+        {
+          "word_postproc": "A",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 8,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "တစ်ထောက်တစ်နား",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "တစ် ထောက်",
+      "alternative": [
+        {
+          "word_postproc": "journey",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

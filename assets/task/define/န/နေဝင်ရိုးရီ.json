@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "Dusk",
+      "orig": "နေဝင်ရိုးရီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "naywain roe re"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "dusk"
+      ],
+      "entry": [
+        {
+          "word": "dusk",
+          "reverse_translation": [
+            "ညနေချမ်း"
+          ]
+        }
+      ],
+      "base_form": "နေဝင်ရိုးရီ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နေဝင် ရိုး ရီ",
+      "alternative": [
+        {
+          "word_postproc": "Dusk",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "နေဝင်ရိုးရီ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

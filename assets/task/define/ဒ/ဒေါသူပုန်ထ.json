@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Angry",
+      "orig": "ဒေါသူပုန်ထ",
+      "backend": 0
+    },
+    {
+      "src_translit": "daw suuponeht"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be furious",
+        "fume with anger"
+      ],
+      "entry": [
+        {
+          "word": "be furious"
+        },
+        {
+          "word": "fume with anger"
+        }
+      ],
+      "base_form": "ဒေါသူပုန်ထ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဒေါ သူပုန်ထ",
+      "alternative": [
+        {
+          "word_postproc": "Angry",
+          "score": 934,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "furious",
+          "score": 65,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hysterical",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "became hysterical",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fume with anger",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ဒေါသူပုန်ထ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

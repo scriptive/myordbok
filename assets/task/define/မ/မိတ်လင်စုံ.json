@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "Friendships, husband",
+      "orig": "မိတ်လင်စုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "mate lain hcone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "multi-purpose comprehensive compilation"
+      ],
+      "entry": [
+        {
+          "word": "multi-purpose comprehensive compilation"
+        }
+      ],
+      "base_form": "မိတ်လင်စုံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မိတ်",
+      "alternative": [
+        {
+          "word_postproc": "Friendships,",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Friendships",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "မိတ်လင်စုံ",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "လင်",
+      "alternative": [
+        {
+          "word_postproc": "husband",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "her husband",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Lim",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 7
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

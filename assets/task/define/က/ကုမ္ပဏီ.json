@@ -1,0 +1,77 @@
+{
+  "sentences": [
+    {
+      "trans": "the company",
+      "orig": "ကုမ္ပဏီ",
+      "backend": 1
+    },
+    {
+      "src_translit": "kumpane"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "company"
+      ],
+      "entry": [
+        {
+          "word": "company",
+          "reverse_translation": [
+            "ကုမ္ပဏီ",
+            "လူစု",
+            "တိုက်ပဲွကြီး"
+          ],
+          "synset_id": [
+            7268
+          ],
+          "score": 0.24126123
+        }
+      ],
+      "base_form": "ကုမ္ပဏီ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကုမ္ပဏီ",
+      "alternative": [
+        {
+          "word_postproc": "the company",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "company",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကုမ္ပဏီ",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

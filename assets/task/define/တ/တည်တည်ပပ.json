@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "Gravely",
+      "orig": "တည်တည်ပပ",
+      "backend": 0
+    },
+    {
+      "src_translit": "tai tai p p"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "solemnly",
+        "gravely",
+        "seriously"
+      ],
+      "entry": [
+        {
+          "word": "solemnly"
+        },
+        {
+          "word": "gravely",
+          "synset_id": [
+            105188
+          ]
+        },
+        {
+          "word": "seriously",
+          "synset_id": [
+            105188
+          ]
+        }
+      ],
+      "base_form": "တည်တည်ပပ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တည် တည် ပ ပ",
+      "alternative": [
+        {
+          "word_postproc": "Gravely",
+          "score": 600,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Solemnly",
+          "score": 399,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "တည်တည်ပပ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

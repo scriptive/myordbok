@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "outdoor spaces",
+      "orig": "သဖွယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "sahpwal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "",
+      "terms": [
+        "particle suffixed to a noun to denote similitude"
+      ],
+      "entry": [
+        {
+          "word": "particle suffixed to a noun to denote similitude"
+        }
+      ],
+      "base_form": "သဖွယ်",
+      "pos_enum": 20
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သဖွယ်",
+      "alternative": [
+        {
+          "word_postproc": "outdoor spaces",
+          "score": 951,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "breached",
+          "score": 48,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "felt like a",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "together much",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "convincing the viewers",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "သဖွယ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

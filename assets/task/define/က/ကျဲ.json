@@ -1,0 +1,101 @@
+{
+  "sentences": [
+    {
+      "trans": "sparse",
+      "orig": "ကျဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "thin",
+        "watery",
+        "having wide gaps between",
+        "having spaces between component units"
+      ],
+      "entry": [
+        {
+          "word": "thin",
+          "reverse_translation": [
+            "ပါးသော",
+            "ပိန်သော"
+          ],
+          "score": 0.014948789
+        },
+        {
+          "word": "watery",
+          "reverse_translation": [
+            "ရေကဲ့သို့သော"
+          ],
+          "score": 0.0050072172
+        }
+      ],
+      "base_form": "ကျဲ",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျဲ",
+      "alternative": [
+        {
+          "word_postproc": "sparse",
+          "score": 965,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "scattered",
+          "score": 33,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "littered",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and intense",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "are sparse",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ကျဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

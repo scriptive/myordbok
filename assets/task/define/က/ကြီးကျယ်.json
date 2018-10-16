@@ -1,0 +1,116 @@
+{
+  "sentences": [
+    {
+      "trans": "me great",
+      "orig": "ကြီးကျယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyeekyaal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "great",
+        "vast",
+        "extensive",
+        "arrogant",
+        "haughty",
+        "high and mighty"
+      ],
+      "entry": [
+        {
+          "word": "great",
+          "reverse_translation": [
+            "ကြီးမားသော"
+          ],
+          "score": 0.15097742
+        },
+        {
+          "word": "vast",
+          "reverse_translation": [
+            "ကျယ်ဝန်းသော"
+          ],
+          "score": 0.0044188537
+        },
+        {
+          "word": "extensive",
+          "reverse_translation": [
+            "ကျယ်ဝန်းသော"
+          ],
+          "score": 0.0044188537
+        },
+        {
+          "word": "arrogant",
+          "reverse_translation": [
+            "မောက်မာသော"
+          ],
+          "score": 0.0044188537
+        }
+      ],
+      "base_form": "ကြီးကျယ်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြီးကျယ်",
+      "alternative": [
+        {
+          "word_postproc": "me great",
+          "score": 539,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "high and mighty",
+          "score": 422,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "I made me great",
+          "score": 23,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in grand",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "made me great",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကြီးကျယ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

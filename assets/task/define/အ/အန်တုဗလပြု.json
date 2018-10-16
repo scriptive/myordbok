@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Pit against",
+      "orig": "အန်တုဗလပြု",
+      "backend": 0
+    },
+    {
+      "src_translit": "aaantu bal pyu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "pit oneself against"
+      ],
+      "entry": [
+        {
+          "word": "pit oneself against"
+        }
+      ],
+      "base_form": "အန်တုဗလပြု",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အန်တု ဗလ ပြု",
+      "alternative": [
+        {
+          "word_postproc": "Pit against",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "အန်တုဗလပြု",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

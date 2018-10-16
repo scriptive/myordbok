@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "square",
+      "orig": "ကွက်လပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kwatlaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "blank",
+        "vacant area",
+        "square"
+      ],
+      "entry": [
+        {
+          "word": "square",
+          "reverse_translation": [
+            "ကွက်လပ်",
+            "စတုရမ်း"
+          ],
+          "score": 0.0046309186
+        }
+      ],
+      "base_form": "ကွက်လပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကွက်လပ်",
+      "alternative": [
+        {
+          "word_postproc": "square",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "blank gap",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "field blank",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကွက်လပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

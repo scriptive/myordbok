@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "textbook",
+      "orig": "ကျောင်းသုံးစာအုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaunggsone hcaraote"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျောင်းသုံး စာအုပ်",
+      "alternative": [
+        {
+          "word_postproc": "textbook",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "school textbook",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a textbook",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "textbook of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 17
+        }
+      ],
+      "raw_src_segment": "ကျောင်းသုံးစာအုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

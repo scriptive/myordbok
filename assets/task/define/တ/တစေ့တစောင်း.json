@@ -1,0 +1,96 @@
+{
+  "sentences": [
+    {
+      "trans": "furtively",
+      "orig": "တစေ့တစောင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "tahcaetahcaungg"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "furtively",
+        "surreptitiously",
+        "casually,in a general way"
+      ],
+      "entry": [
+        {
+          "word": "furtively",
+          "score": 0.019194625
+        },
+        {
+          "word": "surreptitiously",
+          "score": 0.019194625
+        },
+        {
+          "word": "casually,in a general way"
+        }
+      ],
+      "base_form": "တစေ့တစောင်း",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တစေ့တစောင်း",
+      "alternative": [
+        {
+          "word_postproc": "furtively",
+          "score": 981,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "surreptitiously",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "glimpse of",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "glimpse",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a glimpse of",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "တစေ့တစောင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

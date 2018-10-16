@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "prestige",
+      "orig": "ဂုဏ်သိန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "gun sein"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "qualities",
+        "characteristics",
+        "attributes",
+        "prestige"
+      ],
+      "entry": [
+        {
+          "word": "prestige",
+          "reverse_translation": [
+            "ဂုဏ်သိက္ခာ"
+          ]
+        }
+      ],
+      "base_form": "ဂုဏ်သိန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဂုဏ် သိန်",
+      "alternative": [
+        {
+          "word_postproc": "prestige",
+          "score": 819,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "attributes",
+          "score": 155,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "characteristics",
+          "score": 24,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "qualities",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဂုဏ်သိန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

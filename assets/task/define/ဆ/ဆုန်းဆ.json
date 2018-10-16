@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "estimate",
+      "orig": "ဆုန်းဆ",
+      "backend": 0
+    },
+    {
+      "src_translit": "sone s"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "contemplate",
+        "estimate"
+      ],
+      "entry": [
+        {
+          "word": "contemplate",
+          "reverse_translation": [
+            "အာရုံပြု"
+          ]
+        },
+        {
+          "word": "estimate",
+          "reverse_translation": [
+            "ခန့်မှန်း"
+          ]
+        }
+      ],
+      "base_form": "ဆုန်းဆ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆုန်း ဆ",
+      "alternative": [
+        {
+          "word_postproc": "estimate",
+          "score": 971,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "contemplate",
+          "score": 28,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဆုန်းဆ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

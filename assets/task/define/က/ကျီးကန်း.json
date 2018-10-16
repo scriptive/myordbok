@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "crow",
+      "orig": "ကျီးကန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaeekaann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "crow",
+        "house crow"
+      ],
+      "entry": [
+        {
+          "word": "crow",
+          "reverse_translation": [
+            "ကျီးကန်း"
+          ],
+          "synset_id": [
+            26660
+          ],
+          "score": 0.088755049
+        }
+      ],
+      "base_form": "ကျီးကန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျီးကန်း",
+      "alternative": [
+        {
+          "word_postproc": "crow",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "house crow",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "random",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကျီးကန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

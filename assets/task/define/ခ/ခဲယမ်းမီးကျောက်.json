@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Ammunition",
+      "orig": "ခဲယမ်းမီးကျောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkellyam mee kyawwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "shot, powder and flint",
+        "ammunition"
+      ],
+      "entry": [
+        {
+          "word": "ammunition",
+          "reverse_translation": [
+            "ခဲယမ်းမိကေျာက်"
+          ]
+        }
+      ],
+      "base_form": "ခဲယမ်းမီးကျောက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခဲယမ်း မီး ကျောက်",
+      "alternative": [
+        {
+          "word_postproc": "Ammunition",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "And ammunition",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Rounds of ammunition",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Ammunition from",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "And ammunition from",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "ခဲယမ်းမီးကျောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

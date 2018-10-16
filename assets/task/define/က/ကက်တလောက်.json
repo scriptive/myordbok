@@ -1,0 +1,71 @@
+{
+  "sentences": [
+    {
+      "trans": "Cataloged",
+      "orig": "ကက်တလောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kaat t lout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "catalogue"
+      ],
+      "entry": [
+        {
+          "word": "catalogue",
+          "reverse_translation": [
+            "စာရင်း"
+          ]
+        }
+      ],
+      "base_form": "ကက်တလောက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကက် တ လောက်",
+      "alternative": [
+        {
+          "word_postproc": "Cataloged",
+          "score": 710,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Catalog",
+          "score": 289,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကက်တလောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

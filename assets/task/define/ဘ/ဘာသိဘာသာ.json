@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Indifferently",
+      "orig": "ဘာသိဘာသာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "bhar si bharsar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "by oneself",
+        "indifferently"
+      ],
+      "entry": [
+        {
+          "word": "by oneself"
+        },
+        {
+          "word": "indifferently"
+        }
+      ],
+      "base_form": "ဘာသိဘာသာ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘာ သိ ဘာသာ",
+      "alternative": [
+        {
+          "word_postproc": "Indifferently",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဘာသိဘာသာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

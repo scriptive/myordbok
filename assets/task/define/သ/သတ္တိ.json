@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "bravery",
+      "orig": "သတ္တိ",
+      "backend": 1
+    },
+    {
+      "src_translit": "satti"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "courage",
+        "property",
+        "ability",
+        "attribute",
+        "prowess"
+      ],
+      "entry": [
+        {
+          "word": "courage",
+          "reverse_translation": [
+            "ရဲရင့်ခြင်း"
+          ],
+          "score": 0.10874496
+        },
+        {
+          "word": "property",
+          "reverse_translation": [
+            "ဉစ္စာပစ္စည်းများ"
+          ],
+          "synset_id": [
+            78881
+          ],
+          "score": 0.006530642
+        },
+        {
+          "word": "ability",
+          "reverse_translation": [
+            "စွမ်းအား"
+          ],
+          "score": 0.0050860695
+        }
+      ],
+      "base_form": "သတ္တိ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သတ္တိ",
+      "alternative": [
+        {
+          "word_postproc": "bravery",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Courage",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "သတ္တိ",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

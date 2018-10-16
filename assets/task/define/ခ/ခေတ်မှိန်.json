@@ -1,0 +1,85 @@
+{
+  "sentences": [
+    {
+      "trans": "fashion",
+      "orig": "ခေတ်မှိန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkayat mhaein"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "fade",
+        "go out of fashion",
+        "lose popularity"
+      ],
+      "entry": [
+        {
+          "word": "fade",
+          "reverse_translation": [
+            "ညိှုးနွမ်း"
+          ]
+        }
+      ],
+      "base_form": "ခေတ်မှိန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခေတ် မှိန်",
+      "alternative": [
+        {
+          "word_postproc": "fashion",
+          "score": 487,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fade",
+          "score": 431,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of fashion",
+          "score": 81,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lose popularity",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ခေတ်မှိန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

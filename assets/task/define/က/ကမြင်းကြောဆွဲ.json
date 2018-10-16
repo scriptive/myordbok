@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "Unrestrained",
+      "orig": "ကမြင်းကြောဆွဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "k myinn kyaww swal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be mischievous",
+        "unrestrained",
+        "be faithless",
+        "wanton,disloyal to one's spouse"
+      ],
+      "entry": [
+        {
+          "word": "be mischievous"
+        },
+        {
+          "word": "unrestrained"
+        },
+        {
+          "word": "be faithless"
+        },
+        {
+          "word": "wanton,disloyal to one's spouse"
+        }
+      ],
+      "base_form": "ကမြင်းကြောဆွဲ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "က မြင်း ကြော ဆွဲ",
+      "alternative": [
+        {
+          "word_postproc": "Unrestrained",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Faithless",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Mischievous",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ကမြင်းကြောဆွဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

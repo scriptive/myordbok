@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Buddha",
+      "orig": "ကာဠသုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kar l sote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "second of the eight levels of principal purgatories"
+      ],
+      "entry": [
+        {
+          "word": "second of the eight levels of principal purgatories"
+        }
+      ],
+      "base_form": "ကာဠသုတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဠ သုတ်",
+      "alternative": [
+        {
+          "word_postproc": "Buddha",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကာဠသုတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

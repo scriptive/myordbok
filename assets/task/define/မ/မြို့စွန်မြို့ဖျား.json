@@ -1,0 +1,109 @@
+{
+  "sentences": [
+    {
+      "trans": "Tip of the city outskirts",
+      "orig": "မြို့စွန်မြို့ဖျား",
+      "backend": 0
+    },
+    {
+      "src_translit": "myahoet hcwan myahoet hpyarr"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖျား",
+      "alternative": [
+        {
+          "word_postproc": "Tip of",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Fever",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Sick",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 14,
+          "end": 18
+        }
+      ],
+      "raw_src_segment": "မြို့စွန်မြို့ဖျား",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "မြို့",
+      "alternative": [
+        {
+          "word_postproc": "the city",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "town",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 9,
+          "end": 14
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 4
+    },
+    {
+      "src_phrase": "မြို့ စွန်",
+      "alternative": [
+        {
+          "word_postproc": "outskirts",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "outskirts of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "start_pos": 4,
+      "end_pos": 5
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

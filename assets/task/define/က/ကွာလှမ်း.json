@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "distant",
+      "orig": "ကွာလှမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "kwar lham"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be distant",
+        "be remote",
+        "be far away"
+      ],
+      "entry": [
+        {
+          "word": "be distant"
+        },
+        {
+          "word": "be remote"
+        },
+        {
+          "word": "be far away"
+        }
+      ],
+      "base_form": "ကွာလှမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကွာ လှမ်း",
+      "alternative": [
+        {
+          "word_postproc": "distant",
+          "score": 986,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "remote",
+          "score": 13,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "far",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "far away",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "far from",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကွာလှမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

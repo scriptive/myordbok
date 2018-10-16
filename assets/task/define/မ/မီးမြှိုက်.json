@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "singe",
+      "orig": "မီးမြှိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "mee myahaite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "singe",
+        "scorch"
+      ],
+      "entry": [
+        {
+          "word": "singe",
+          "synset_id": [
+            85028
+          ]
+        },
+        {
+          "word": "scorch",
+          "synset_id": [
+            85028
+          ]
+        }
+      ],
+      "base_form": "မီးမြှိုက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မီး မြှိုက်",
+      "alternative": [
+        {
+          "word_postproc": "singe",
+          "score": 958,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "scorch",
+          "score": 41,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "မီးမြှိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Vociferously",
+      "orig": "စွာကျယ်စွာကျယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcwar kyaal hcwar kyaal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "vociferously",
+        "noisily"
+      ],
+      "entry": [
+        {
+          "word": "vociferously"
+        },
+        {
+          "word": "noisily"
+        }
+      ],
+      "base_form": "စွာကျယ်စွာကျယ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စွာ ကျယ် စွာ ကျယ်",
+      "alternative": [
+        {
+          "word_postproc": "Vociferously",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Noisily",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "စွာကျယ်စွာကျယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

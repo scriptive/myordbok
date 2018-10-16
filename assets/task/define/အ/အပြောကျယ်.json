@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "Enlarge",
+      "orig": "အပြောကျယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "a pyaww kyaal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be broad",
+        "be extensive"
+      ],
+      "entry": [
+        {
+          "word": "be broad"
+        },
+        {
+          "word": "be extensive"
+        }
+      ],
+      "base_form": "အပြောကျယ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျယ်",
+      "alternative": [
+        {
+          "word_postproc": "Enlarge",
+          "score": 973,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Broad",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Wide",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အပြောကျယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

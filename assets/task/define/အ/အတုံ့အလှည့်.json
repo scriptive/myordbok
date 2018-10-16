@@ -1,0 +1,129 @@
+{
+  "sentences": [
+    {
+      "trans": "Rotate the reaction",
+      "orig": "အတုံ့အလှည့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "a tone a lha i "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in retaliation",
+        "in reciprocity"
+      ],
+      "entry": [
+        {
+          "word": "in retaliation"
+        },
+        {
+          "word": "in reciprocity"
+        }
+      ],
+      "base_form": "အတုံ့အလှည့်",
+      "pos_enum": 4
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "reciprocity"
+      ],
+      "entry": [
+        {
+          "word": "reciprocity"
+        }
+      ],
+      "base_form": "အတုံ့အလှည့်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လှ ည့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Rotate",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "အတုံ့အလှည့်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "အ",
+      "alternative": [
+        {
+          "word_postproc": "the",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 6
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "တုံ့",
+      "alternative": [
+        {
+          "word_postproc": "reaction",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "respond",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "response",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 5
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "and hide in",
+      "orig": "ပုန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "pone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "hide"
+      ],
+      "entry": [
+        {
+          "word": "hide",
+          "reverse_translation": [
+            "ဝှက်ထား"
+          ],
+          "score": 0.073580518
+        }
+      ],
+      "base_form": "ပုန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပုန်း",
+      "alternative": [
+        {
+          "word_postproc": "and hide in",
+          "score": 499,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hiding on",
+          "score": 233,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and hid themselves",
+          "score": 152,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hid themselves",
+          "score": 46,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hiding himself",
+          "score": 41,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ပုန်း",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

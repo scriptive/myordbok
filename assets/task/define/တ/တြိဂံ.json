@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "triangle",
+      "orig": "တြိဂံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "tyai gan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "triangle"
+      ],
+      "entry": [
+        {
+          "word": "triangle",
+          "reverse_translation": [
+            "တြိဂံ"
+          ],
+          "synset_id": [
+            9824
+          ]
+        }
+      ],
+      "base_form": "တြိဂံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တြိ ဂံ",
+      "alternative": [
+        {
+          "word_postproc": "triangle",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a triangle",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Iron Triangle",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the triangle",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "တြိဂံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

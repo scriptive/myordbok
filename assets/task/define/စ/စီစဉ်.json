@@ -1,0 +1,108 @@
+{
+  "sentences": [
+    {
+      "trans": "arrange",
+      "orig": "စီစဉ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcehcain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "plan",
+        "arrange",
+        "prepare"
+      ],
+      "entry": [
+        {
+          "word": "plan",
+          "reverse_translation": [
+            "စီမံကိန်းချ"
+          ],
+          "score": 0.030197384
+        },
+        {
+          "word": "arrange",
+          "reverse_translation": [
+            "စီစဉ်"
+          ],
+          "synset_id": [
+            30808
+          ],
+          "score": 0.029729217
+        },
+        {
+          "word": "prepare",
+          "reverse_translation": [
+            "ပြင်ဆင်ထား"
+          ]
+        }
+      ],
+      "base_form": "စီစဉ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စီစဉ်",
+      "alternative": [
+        {
+          "word_postproc": "arrange",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "arrange a",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "arranged for",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "arranging",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "arranged",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "စီစဉ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

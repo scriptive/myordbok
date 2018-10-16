@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Shingles tile",
+      "orig": "ပျဉ်ကြွပ်အုတ်ကြွပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyain kyawut aote kyawut"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပျဉ် ကြွပ်",
+      "alternative": [
+        {
+          "word_postproc": "Shingles",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ပျဉ်ကြွပ်အုတ်ကြွပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "အုတ် ကြွပ်",
+      "alternative": [
+        {
+          "word_postproc": "tile",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 9,
+          "end": 18
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

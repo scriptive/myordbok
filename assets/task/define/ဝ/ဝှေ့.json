@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "Boxing",
+      "orig": "ဝှေ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "whaae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "butt",
+        "gore",
+        "whirl"
+      ],
+      "entry": [
+        {
+          "word": "butt",
+          "score": 0.012011689
+        },
+        {
+          "word": "gore",
+          "score": 0.012011689
+        },
+        {
+          "word": "whirl",
+          "score": 0.012011689
+        }
+      ],
+      "base_form": "ဝှေ့",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝှေ့",
+      "alternative": [
+        {
+          "word_postproc": "Boxing",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wave",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "whirl",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "gore",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "butt",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဝှေ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

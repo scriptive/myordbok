@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "Food",
+      "orig": "စားဖွယ်သောက်ဖွယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcarrhpwal sout hpwal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "food"
+      ],
+      "entry": [
+        {
+          "word": "food",
+          "reverse_translation": [
+            "အစာ"
+          ]
+        }
+      ],
+      "base_form": "စားဖွယ်သောက်ဖွယ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စားဖွယ် သောက် ဖွယ်",
+      "alternative": [
+        {
+          "word_postproc": "Food",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "စားဖွယ်သောက်ဖွယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

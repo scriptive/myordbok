@@ -1,0 +1,111 @@
+{
+  "sentences": [
+    {
+      "trans": "covenant",
+      "orig": "ပဋိညာဉ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pati nyarin"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "vow",
+        "promise",
+        "pledge",
+        "agreement",
+        "covenant"
+      ],
+      "entry": [
+        {
+          "word": "vow",
+          "reverse_translation": [
+            "သစ္စဆိုချက်"
+          ]
+        },
+        {
+          "word": "promise",
+          "reverse_translation": [
+            "ကတိ"
+          ]
+        },
+        {
+          "word": "pledge",
+          "reverse_translation": [
+            "ကတိ"
+          ]
+        },
+        {
+          "word": "agreement",
+          "reverse_translation": [
+            "သဘောတူညီချက်"
+          ]
+        }
+      ],
+      "base_form": "ပဋိညာဉ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပဋိ ညာဉ်",
+      "alternative": [
+        {
+          "word_postproc": "covenant",
+          "score": 896,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the covenant",
+          "score": 102,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "covenant of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the covenant of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of the covenant",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ပဋိညာဉ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

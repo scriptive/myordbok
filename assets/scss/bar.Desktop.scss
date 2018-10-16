@@ -78,8 +78,8 @@ ol{
   &.menu{
     &.page{
       >li{
-        // border-bottom:1px solid gray;
         border-bottom:1px solid $ColorMain;
+        // border-bottom-color:red;
         >a{
           border-left:1px solid #d6d4d4; font-weight: bold;
         }

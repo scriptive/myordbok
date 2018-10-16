@@ -1,0 +1,127 @@
+{
+  "sentences": [
+    {
+      "trans": "belong",
+      "orig": "ပိုင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pine"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "own",
+        "belong",
+        "possess",
+        "be accomplished",
+        "have a right to do sth",
+        "be viscous"
+      ],
+      "entry": [
+        {
+          "word": "own",
+          "reverse_translation": [
+            "ပိုင်ဆိုင်"
+          ],
+          "synset_id": [
+            89670
+          ],
+          "score": 0.04462884
+        },
+        {
+          "word": "belong",
+          "reverse_translation": [
+            "ပိုင်"
+          ],
+          "score": 0.018604068
+        },
+        {
+          "word": "possess",
+          "reverse_translation": [
+            "ရယူ"
+          ],
+          "synset_id": [
+            89670
+          ],
+          "score": 0.014488863
+        }
+      ],
+      "base_form": "ပိုင်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "‌any one of the fish traps used in conjuction with bamboo barrier screens",
+        "pi",
+        "pie"
+      ],
+      "entry": [
+        {
+          "word": "pie",
+          "reverse_translation": [
+            "ဌပနာမုံ့"
+          ]
+        }
+      ],
+      "base_form": "ပိုင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပိုင်",
+      "alternative": [
+        {
+          "word_postproc": "belong",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "belonged",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "belonged to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "belong to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ပိုင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

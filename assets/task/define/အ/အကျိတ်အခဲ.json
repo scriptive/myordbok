@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "Induration",
+      "orig": "အကျိတ်အခဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "a kyaate aahkell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "1",
+        "rancour",
+        "grudge",
+        "induration"
+      ],
+      "entry": [
+        {
+          "word": "1"
+        },
+        {
+          "word": "rancour"
+        },
+        {
+          "word": "grudge"
+        },
+        {
+          "word": "induration"
+        }
+      ],
+      "base_form": "အကျိတ်အခဲ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ ကျိတ် အခဲ",
+      "alternative": [
+        {
+          "word_postproc": "Induration",
+          "score": 696,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Rancor",
+          "score": 303,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Grudge",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အကျိတ်အခဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

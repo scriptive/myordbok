@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "burden",
+      "orig": "ဝန်ထုပ်ဝန်ပိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "waanhtotewaanpoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "burden",
+        "baggage"
+      ],
+      "entry": [
+        {
+          "word": "burden",
+          "reverse_translation": [
+            "ဝန်"
+          ],
+          "score": 0.31466395
+        },
+        {
+          "word": "baggage",
+          "reverse_translation": [
+            "အထုပ်အပိုး"
+          ],
+          "score": 0.019194625
+        }
+      ],
+      "base_form": "ဝန်ထုပ်ဝန်ပိုး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝန်ထုပ်ဝန်ပိုး",
+      "alternative": [
+        {
+          "word_postproc": "burden",
+          "score": 964,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the burden",
+          "score": 31,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "burdensome",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "burdened",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a burden",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ဝန်ထုပ်ဝန်ပိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "Prologue",
+      "orig": "စကားချီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcakarrhkyaee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "introduction",
+        "preface"
+      ],
+      "entry": [
+        {
+          "word": "introduction",
+          "reverse_translation": [
+            "နိဒါန်း",
+            "မိတ်ဆက်ပေးခြင်း"
+          ],
+          "score": 0.062936753
+        },
+        {
+          "word": "preface",
+          "reverse_translation": [
+            "နိဒါန်း"
+          ],
+          "score": 0.062936753
+        }
+      ],
+      "base_form": "စကားချီး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စကားချီး",
+      "alternative": [
+        {
+          "word_postproc": "Prologue",
+          "score": 755,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Foreword",
+          "score": 244,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the foreword",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "preface",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Foreword The",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "စကားချီး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

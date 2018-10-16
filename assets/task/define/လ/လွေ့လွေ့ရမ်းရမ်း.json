@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "လွေ့လွေ့ရမ်းရမ်း",
+      "orig": "လွေ့လွေ့ရမ်းရမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "lwaelwaeramram"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လွေ့လွေ့ရမ်းရမ်း",
+      "alternative": [
+        {
+          "word_postproc": "လွေ့လွေ့ရမ်းရမ်း",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "လွေ့လွေ့ရမ်းရမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

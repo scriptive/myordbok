@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "chaos",
+      "orig": "ဇယားရှုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "jayarr shote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be in chaos"
+      ],
+      "entry": [
+        {
+          "word": "be in chaos"
+        }
+      ],
+      "base_form": "ဇယားရှုပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဇယား ရှုပ်",
+      "alternative": [
+        {
+          "word_postproc": "chaos",
+          "score": 992,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in chaos",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ဇယားရှုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

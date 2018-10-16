@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "အားအားယားယား",
+      "orig": "အားအားယားယား",
+      "backend": 0
+    },
+    {
+      "src_translit": "aarraarryarryarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "လုပ်ကိုင်ဆောင်ရွက်စရာဘာမျှမရှိဘဲအားအားလပ်လပ်ရှိနေသကဲ့သို့။"
+      ],
+      "entry": [
+        {
+          "word": "လုပ်ကိုင်ဆောင်ရွက်စရာဘာမျှမရှိဘဲအားအားလပ်လပ်ရှိနေသကဲ့သို့။"
+        }
+      ],
+      "base_form": "အားအားယားယား",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အားအားယားယား",
+      "alternative": [
+        {
+          "word_postproc": "အားအားယားယား",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "အားအားယားယား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

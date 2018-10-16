@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "shoes",
+      "orig": "ဖိနပ်ချွတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpinaut hkyawat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "door step",
+        "threshold"
+      ],
+      "entry": [
+        {
+          "word": "threshold",
+          "reverse_translation": [
+            "တံခါးဝ"
+          ]
+        }
+      ],
+      "base_form": "ဖိနပ်ချွတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖိနပ် ချွတ်",
+      "alternative": [
+        {
+          "word_postproc": "shoes",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "remove your shoes",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "threshold",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Shoes are taken off",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ဖိနပ်ချွတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

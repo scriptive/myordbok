@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "rough",
+      "orig": "ရိုင်းပျံ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "rine pyaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "rough",
+        "wild"
+      ],
+      "entry": [
+        {
+          "word": "rough",
+          "reverse_translation": [
+            "ကြမ်းတမ်းသော"
+          ]
+        },
+        {
+          "word": "wild",
+          "reverse_translation": [
+            "ရိုင်းသော"
+          ]
+        }
+      ],
+      "base_form": "ရိုင်းပျံ့",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရိုင်း ပျံ့",
+      "alternative": [
+        {
+          "word_postproc": "rough",
+          "score": 979,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wild",
+          "score": 20,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ရိုင်းပျံ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

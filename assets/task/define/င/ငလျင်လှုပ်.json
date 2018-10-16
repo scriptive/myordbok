@@ -1,0 +1,87 @@
+{
+  "sentences": [
+    {
+      "trans": "earthquake",
+      "orig": "ငလျင်လှုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "ngalyinlhuut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "quake"
+      ],
+      "entry": [
+        {
+          "word": "quake",
+          "score": 0.049787067
+        }
+      ],
+      "base_form": "ငလျင်လှုပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ငလျင်လှုပ်",
+      "alternative": [
+        {
+          "word_postproc": "earthquake",
+          "score": 687,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "earthquakes",
+          "score": 301,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "an earthquake",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "quake",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "If an earthquake",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ငလျင်လှုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

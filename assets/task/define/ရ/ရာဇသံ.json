@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "ultimatum",
+      "orig": "ရာဇသံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "rarjasan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "ultimatum",
+        "royal order",
+        "royal letter"
+      ],
+      "entry": [
+        {
+          "word": "ultimatum",
+          "score": 0.15576996
+        },
+        {
+          "word": "royal order",
+          "score": 0.031155951
+        },
+        {
+          "word": "royal letter",
+          "score": 0.031155951
+        }
+      ],
+      "base_form": "ရာဇသံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရာဇသံ",
+      "alternative": [
+        {
+          "word_postproc": "ultimatum",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "royal order",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "royal letter",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ultimatum to surrender",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the ultimatum",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ရာဇသံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

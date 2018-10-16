@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "bullet",
+      "orig": "ကျည်ဆန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaisaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "shell.",
+        "cartridge"
+      ],
+      "entry": [
+        {
+          "word": "shell.",
+          "reverse_translation": [
+            "အခံွ"
+          ],
+          "score": 0.014043087
+        },
+        {
+          "word": "cartridge",
+          "reverse_translation": [
+            "ကျည်တောင့်"
+          ],
+          "score": 0.0069518322
+        }
+      ],
+      "base_form": "ကျည်ဆန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျည်ဆန်",
+      "alternative": [
+        {
+          "word_postproc": "bullet",
+          "score": 981,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bullets",
+          "score": 17,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the bullet",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a bullet",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကျည်ဆန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

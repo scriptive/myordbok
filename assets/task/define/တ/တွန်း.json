@@ -1,0 +1,87 @@
+{
+  "sentences": [
+    {
+      "trans": "Push",
+      "orig": "တွန်း",
+      "backend": 1
+    },
+    {
+      "src_translit": "twann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "push",
+        "force",
+        "urge",
+        "goad",
+        "scrub",
+        "play a dirty trick"
+      ],
+      "entry": [
+        {
+          "word": "push",
+          "reverse_translation": [
+            "တွန်းထိုး"
+          ],
+          "synset_id": [
+            73045
+          ],
+          "score": 0.069122501
+        },
+        {
+          "word": "urge",
+          "reverse_translation": [
+            "တိုက်တွန်း"
+          ],
+          "score": 0.0028530264
+        },
+        {
+          "word": "scrub",
+          "reverse_translation": [
+            "ပွတ်တိုက်"
+          ]
+        }
+      ],
+      "base_form": "တွန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တွန်း",
+      "alternative": [
+        {
+          "word_postproc": "Push",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "တွန်း",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

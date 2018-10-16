@@ -1,0 +1,85 @@
+{
+  "sentences": [
+    {
+      "trans": "manager",
+      "orig": "မန်နေဂျာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "maannaygyaar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "manager"
+      ],
+      "entry": [
+        {
+          "word": "manager",
+          "reverse_translation": [
+            "အုပ်ချုပ်သူ",
+            "အုပ်ချုပ်သူ"
+          ],
+          "score": 0.34559074
+        }
+      ],
+      "base_form": "မန်နေဂျာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မန်နေဂျာ",
+      "alternative": [
+        {
+          "word_postproc": "manager",
+          "score": 910,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "managers",
+          "score": 45,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the manager",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "manager of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "မန်နေဂျာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

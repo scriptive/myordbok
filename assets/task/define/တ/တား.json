@@ -1,0 +1,147 @@
+{
+  "sentences": [
+    {
+      "trans": "stop",
+      "orig": "တား",
+      "backend": 0
+    },
+    {
+      "src_translit": "tarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "stop",
+        "prevent",
+        "forbid",
+        "bar",
+        "check",
+        "prohibit"
+      ],
+      "entry": [
+        {
+          "word": "stop",
+          "reverse_translation": [
+            "ပိတ်ဆို့"
+          ],
+          "synset_id": [
+            23578,
+            66463
+          ],
+          "score": 0.036998607
+        },
+        {
+          "word": "prevent",
+          "reverse_translation": [
+            "တားဆီး"
+          ],
+          "synset_id": [
+            112951
+          ],
+          "score": 0.014948789
+        },
+        {
+          "word": "forbid",
+          "reverse_translation": [
+            "ပိတ်ပင်"
+          ],
+          "synset_id": [
+            97206,
+            112951
+          ]
+        },
+        {
+          "word": "bar",
+          "reverse_translation": [
+            "ဆီးတား",
+            "မင်းတုံးထိုး"
+          ],
+          "synset_id": [
+            66463
+          ]
+        },
+        {
+          "word": "check",
+          "reverse_translation": [
+            "စစ်ဆေး"
+          ],
+          "synset_id": [
+            23578
+          ]
+        },
+        {
+          "word": "prohibit",
+          "reverse_translation": [
+            "တားမြစ်"
+          ],
+          "synset_id": [
+            97206
+          ]
+        }
+      ],
+      "base_form": "တား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တား",
+      "alternative": [
+        {
+          "word_postproc": "stop",
+          "score": 917,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "prevent",
+          "score": 41,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "discourage",
+          "score": 15,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "prevented",
+          "score": 11,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to stop",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "တား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

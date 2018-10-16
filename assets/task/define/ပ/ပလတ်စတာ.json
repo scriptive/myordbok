@@ -1,0 +1,67 @@
+{
+  "sentences": [
+    {
+      "trans": "Plaster",
+      "orig": "ပလတ်စတာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "p laat hc tar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "plaster",
+        "adhesive tape",
+        "plaster of Paris"
+      ],
+      "entry": [
+        {
+          "word": "plaster",
+          "reverse_translation": [
+            "သရွက်"
+          ]
+        }
+      ],
+      "base_form": "ပလတ်စတာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပ လတ် စ တာ",
+      "alternative": [
+        {
+          "word_postproc": "Plaster",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ပလတ်စတာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

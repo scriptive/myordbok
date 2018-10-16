@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "Electric lightning",
+      "orig": "လျှပ်စစ်လျှပ်စီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "shuthcait shut hcee"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လျှပ်စစ်",
+      "alternative": [
+        {
+          "word_postproc": "Electric",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Electrical",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Electricity",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "လျှပ်စစ်လျှပ်စီး",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "လျှပ် စီး",
+      "alternative": [
+        {
+          "word_postproc": "lightning",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "by lightning",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 8,
+          "end": 16
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

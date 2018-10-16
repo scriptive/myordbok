@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "combine",
+      "orig": "ဖက်တွဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpaat twal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "combine"
+      ],
+      "entry": [
+        {
+          "word": "combine",
+          "reverse_translation": [
+            "ပေါင်းစပ်"
+          ]
+        }
+      ],
+      "base_form": "ဖက်တွဲ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖက် တွဲ",
+      "alternative": [
+        {
+          "word_postproc": "combine",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဖက်တွဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

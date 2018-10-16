@@ -1,0 +1,88 @@
+{
+  "sentences": [
+    {
+      "trans": "Fist",
+      "orig": "လက်သီးဆုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "laatseesote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "size of a fist"
+      ],
+      "entry": [
+        {
+          "word": "size of a fist",
+          "score": 0.07243976
+        }
+      ],
+      "base_form": "လက်သီးဆုပ်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "close one's fist"
+      ],
+      "entry": [
+        {
+          "word": "close one's fist"
+        }
+      ],
+      "base_form": "လက်သီးဆုပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လက်သီးဆုပ်",
+      "alternative": [
+        {
+          "word_postproc": "Fist",
+          "score": 598,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "size of a fist",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "close one's fist",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "လက်သီးဆုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

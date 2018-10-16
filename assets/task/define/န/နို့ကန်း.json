@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "blind milk",
+      "orig": "နို့ကန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "nhoet kaann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "cease to yield mik"
+      ],
+      "entry": [
+        {
+          "word": "cease to yield mik"
+        }
+      ],
+      "base_form": "နို့ကန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကန်း",
+      "alternative": [
+        {
+          "word_postproc": "blind",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "နို့ကန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "နို့",
+      "alternative": [
+        {
+          "word_postproc": "milk",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

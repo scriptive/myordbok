@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "Yong",
+      "orig": "တယောင်တဆောင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "t yaung t saung"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "with pomp and splendour"
+      ],
+      "entry": [
+        {
+          "word": "with pomp and splendour"
+        }
+      ],
+      "base_form": "တယောင်တဆောင်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယောင်",
+      "alternative": [
+        {
+          "word_postproc": "Yong",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Pretend",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Claim",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Profess",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "တယောင်တဆောင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

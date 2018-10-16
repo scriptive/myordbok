@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "Corona Borealis constellations",
+      "orig": "ဝိသာခါနက္ခတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "wisarhkar nakhkaat"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝိသာခါ",
+      "alternative": [
+        {
+          "word_postproc": "Corona Borealis",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "aligned movement",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဝိသာခါနက္ခတ်",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "နက္ခတ်",
+      "alternative": [
+        {
+          "word_postproc": "constellations",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "astronomical",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 12
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

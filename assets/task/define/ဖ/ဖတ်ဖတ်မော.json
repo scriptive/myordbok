@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "exhausted",
+      "orig": "ဖတ်ဖတ်မော",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpaathpaat maw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be exhausted",
+        "be very tired",
+        "be spent"
+      ],
+      "entry": [
+        {
+          "word": "be exhausted"
+        },
+        {
+          "word": "be very tired"
+        },
+        {
+          "word": "be spent"
+        }
+      ],
+      "base_form": "ဖတ်ဖတ်မော",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖတ်ဖတ် မော",
+      "alternative": [
+        {
+          "word_postproc": "exhausted",
+          "score": 991,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "very tired",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "spent",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ဖတ်ဖတ်မော",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

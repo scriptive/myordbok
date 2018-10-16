@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "brother",
+      "orig": "အစ်ကို",
+      "backend": 0
+    },
+    {
+      "src_translit": "aaitko"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "brother",
+        "elder brother"
+      ],
+      "entry": [
+        {
+          "word": "brother",
+          "reverse_translation": [
+            "ညီ",
+            "အစ်ကို"
+          ],
+          "score": 0.34559074
+        }
+      ],
+      "base_form": "အစ်ကို",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အစ်ကို",
+      "alternative": [
+        {
+          "word_postproc": "brother",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "his brother's",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "older brother",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "brother by",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "အစ်ကို",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

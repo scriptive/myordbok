@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Rice gruel",
+      "orig": "ယက်မန်းရည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "yaat maann rai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "rice gruel"
+      ],
+      "entry": [
+        {
+          "word": "rice gruel"
+        }
+      ],
+      "base_form": "ယက်မန်းရည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယက် မန်း ရည်",
+      "alternative": [
+        {
+          "word_postproc": "Rice gruel",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ယက်မန်းရည်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

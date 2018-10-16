@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "Dolphin",
+      "orig": "ဖျံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpyaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "otter",
+        "kind of edible plant with bulbous root"
+      ],
+      "entry": [
+        {
+          "word": "otter",
+          "score": 0.061961006
+        },
+        {
+          "word": "kind of edible plant with bulbous root"
+        }
+      ],
+      "base_form": "ဖျံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖျံ",
+      "alternative": [
+        {
+          "word_postproc": "Dolphin",
+          "score": 626,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "otter",
+          "score": 147,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "seals",
+          "score": 128,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Radius",
+          "score": 96,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "forearm",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဖျံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

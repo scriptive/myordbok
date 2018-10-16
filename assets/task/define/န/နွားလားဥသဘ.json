@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Bull",
+      "orig": "နွားလားဥသဘ",
+      "backend": 0
+    },
+    {
+      "src_translit": "nwarr larr u s bh"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "leading bull of the herd"
+      ],
+      "entry": [
+        {
+          "word": "leading bull of the herd"
+        }
+      ],
+      "base_form": "နွားလားဥသဘ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နွား လား ဥ",
+      "alternative": [
+        {
+          "word_postproc": "Bull",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "နွားလားဥသဘ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "Invite",
+      "orig": "ဖိတ်မန္တကပြု",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpate mant k pyu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "invite"
+      ],
+      "entry": [
+        {
+          "word": "invite",
+          "reverse_translation": [
+            "ဖိတ်ခေါ်"
+          ]
+        }
+      ],
+      "base_form": "ဖိတ်မန္တကပြု",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖိတ် မန္တ က",
+      "alternative": [
+        {
+          "word_postproc": "Invite",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ဖိတ်မန္တကပြု",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

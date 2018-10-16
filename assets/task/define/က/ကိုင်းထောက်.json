@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "prop",
+      "orig": "ကိုင်းထောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kine htout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "prop",
+        "catch fish with a fishing rod which is set up and left unattended"
+      ],
+      "entry": [
+        {
+          "word": "prop"
+        },
+        {
+          "word": "catch fish with a fishing rod which is set up and left unattended"
+        }
+      ],
+      "base_form": "ကိုင်းထောက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိုင်း ထောက်",
+      "alternative": [
+        {
+          "word_postproc": "prop",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ကိုင်းထောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

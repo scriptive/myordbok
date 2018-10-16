@@ -1,0 +1,111 @@
+{
+  "sentences": [
+    {
+      "trans": "close",
+      "orig": "ကပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "stick",
+        "approach",
+        "affix",
+        "attach",
+        "come close",
+        "be near",
+        "offer things reverently",
+        "‌approach someone for favours"
+      ],
+      "entry": [
+        {
+          "word": "approach",
+          "reverse_translation": [
+            "ချဉ်းကပ်လာ"
+          ],
+          "score": 0.018315639
+        },
+        {
+          "word": "affix",
+          "reverse_translation": [
+            "ကပ်"
+          ],
+          "score": 0.00041749
+        },
+        {
+          "word": "attach",
+          "reverse_translation": [
+            "ကပ်"
+          ],
+          "score": 0.00041749
+        }
+      ],
+      "base_form": "ကပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကပ်",
+      "alternative": [
+        {
+          "word_postproc": "close",
+          "score": 615,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Close to",
+          "score": 234,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "stick",
+          "score": 115,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "approach",
+          "score": 31,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sticker",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ကပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

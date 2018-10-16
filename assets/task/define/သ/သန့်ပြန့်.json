@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "Unsoiled",
+      "orig": "သန့်ပြန့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "saant pya an "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "clean",
+        "unsoiled",
+        "pleasant to look at",
+        "comely"
+      ],
+      "entry": [
+        {
+          "word": "clean",
+          "reverse_translation": [
+            "သန့်ရှင်းသော"
+          ]
+        }
+      ],
+      "base_form": "သန့်ပြန့်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သန့် ပြ န့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Unsoiled",
+          "score": 944,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Comely",
+          "score": 55,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "သန့်ပြန့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

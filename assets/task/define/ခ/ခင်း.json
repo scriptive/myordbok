@@ -1,0 +1,113 @@
+{
+  "sentences": [
+    {
+      "trans": "spread",
+      "orig": "ခင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkainn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "spread",
+        "lay",
+        "set",
+        "rollout"
+      ],
+      "entry": [
+        {
+          "word": "spread",
+          "reverse_translation": [
+            "ပျံ့နှံ့"
+          ],
+          "score": 0.043936934
+        },
+        {
+          "word": "lay",
+          "reverse_translation": [
+            "ချထား"
+          ],
+          "synset_id": [
+            19602
+          ],
+          "score": 0.019194625
+        },
+        {
+          "word": "set",
+          "reverse_translation": [
+            "ထား"
+          ],
+          "synset_id": [
+            19602
+          ],
+          "score": 0.0068440544
+        }
+      ],
+      "base_form": "ခင်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခင်း",
+      "alternative": [
+        {
+          "word_postproc": "spread",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pavement",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "paved",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "array",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "spread out",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ခင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

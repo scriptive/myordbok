@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Medical expenses",
+      "orig": "ဆေးဖိုးဝါးခ",
+      "backend": 0
+    },
+    {
+      "src_translit": "sayy hpoe warr hk"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "medical fees",
+        "fees for medical attention,treatment"
+      ],
+      "entry": [
+        {
+          "word": "medical fees"
+        },
+        {
+          "word": "fees for medical attention,treatment"
+        }
+      ],
+      "base_form": "ဆေးဖိုးဝါးခ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆေး ဖိုး ဝါး ခ",
+      "alternative": [
+        {
+          "word_postproc": "Medical expenses",
+          "score": 995,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Medical fees",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ဆေးဖိုးဝါးခ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

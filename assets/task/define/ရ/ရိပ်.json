@@ -1,0 +1,127 @@
+{
+  "sentences": [
+    {
+      "trans": "shadow",
+      "orig": "ရိပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "riut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "shadow",
+        "shade",
+        "sign",
+        "reflection",
+        "refuge",
+        "protection"
+      ],
+      "entry": [
+        {
+          "word": "shadow",
+          "reverse_translation": [
+            "အရိပ်"
+          ],
+          "score": 0.15576996
+        },
+        {
+          "word": "shade",
+          "reverse_translation": [
+            "အရိပ်"
+          ],
+          "score": 0.050571099
+        },
+        {
+          "word": "sign",
+          "reverse_translation": [
+            "အမှတ်လက္ခဏာ"
+          ],
+          "score": 0.0027652478
+        },
+        {
+          "word": "reflection",
+          "reverse_translation": [
+            "ရောင်ပြန်ဟပ်မှု"
+          ]
+        },
+        {
+          "word": "refuge",
+          "reverse_translation": [
+            "ခိုကိုးရာ"
+          ]
+        },
+        {
+          "word": "protection",
+          "reverse_translation": [
+            "ကာကွယ်မှု"
+          ]
+        }
+      ],
+      "base_form": "ရိပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရိပ်",
+      "alternative": [
+        {
+          "word_postproc": "shadow",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "shade",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the shade",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the shadow",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the shadow of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ရိပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

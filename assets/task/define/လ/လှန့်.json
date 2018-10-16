@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "Flour",
+      "orig": "လှန့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lha an "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "frighten",
+        "scare",
+        "cause an alarm"
+      ],
+      "entry": [
+        {
+          "word": "frighten",
+          "reverse_translation": [
+            "ခေျာက်လှန့်"
+          ],
+          "synset_id": [
+            36907
+          ]
+        },
+        {
+          "word": "scare",
+          "reverse_translation": [
+            "ခေျာက်လှန့်"
+          ],
+          "synset_id": [
+            36907
+          ]
+        }
+      ],
+      "base_form": "လှန့်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "န့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Flour",
+          "score": 733,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Bread",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Dust",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Spread",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "လှန့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

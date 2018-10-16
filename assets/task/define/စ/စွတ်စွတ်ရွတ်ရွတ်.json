@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "With determination",
+      "orig": "စွတ်စွတ်ရွတ်ရွတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcwat hcwat rwat rwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "directly",
+        "with determination"
+      ],
+      "entry": [
+        {
+          "word": "directly"
+        },
+        {
+          "word": "with determination"
+        }
+      ],
+      "base_form": "စွတ်စွတ်ရွတ်ရွတ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စွတ် စွတ် ရွတ် ရွတ်",
+      "alternative": [
+        {
+          "word_postproc": "With determination",
+          "score": 822,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Determination",
+          "score": 173,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Directly",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "စွတ်စွတ်ရွတ်ရွတ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

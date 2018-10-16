@@ -1,0 +1,85 @@
+{
+  "sentences": [
+    {
+      "trans": "plentiful",
+      "orig": "မွမ်းဖြင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "mwm hpyin"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "numerous",
+        "plentiful",
+        "replete"
+      ],
+      "entry": [
+        {
+          "word": "numerous",
+          "reverse_translation": [
+            "များပြားသော"
+          ]
+        },
+        {
+          "word": "plentiful",
+          "reverse_translation": [
+            "ပေါများသော"
+          ]
+        }
+      ],
+      "base_form": "မွမ်းဖြင်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မွမ်း ဖြင်",
+      "alternative": [
+        {
+          "word_postproc": "plentiful",
+          "score": 896,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "replete",
+          "score": 90,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "numerous",
+          "score": 13,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "မွမ်းဖြင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

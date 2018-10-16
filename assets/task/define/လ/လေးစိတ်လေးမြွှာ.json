@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Into fragments",
+      "orig": "လေးစိတ်လေးမြွှာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "layy hcate layy myawhar"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လေး စိတ် လေး မြွှာ",
+      "alternative": [
+        {
+          "word_postproc": "Into fragments",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "လေးစိတ်လေးမြွှာ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

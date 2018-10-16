@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "swear",
+      "orig": "ကျိန်တွယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyane twal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "swear",
+        "promise on oath"
+      ],
+      "entry": [
+        {
+          "word": "swear",
+          "reverse_translation": [
+            "ကျိန်ဆို",
+            "ကျိန်ဆဲ"
+          ]
+        }
+      ],
+      "base_form": "ကျိန်တွယ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျိန် တွယ်",
+      "alternative": [
+        {
+          "word_postproc": "swear",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and swear",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "swear that",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "promise on oath",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and swear that",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကျိန်တွယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

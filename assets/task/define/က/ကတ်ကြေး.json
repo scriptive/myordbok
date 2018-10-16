@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "scissors",
+      "orig": "ကတ်ကြေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kaat kyay"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "scissors"
+      ],
+      "entry": [
+        {
+          "word": "scissors",
+          "reverse_translation": [
+            "ကပ်ကေျး"
+          ]
+        }
+      ],
+      "base_form": "ကတ်ကြေး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကတ် ကြေး",
+      "alternative": [
+        {
+          "word_postproc": "scissors",
+          "score": 996,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကတ်ကြေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

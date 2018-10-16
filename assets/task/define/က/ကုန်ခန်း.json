@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "exhaust",
+      "orig": "ကုန်ခန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "kone hkaann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be finished",
+        "run out of",
+        "be used up",
+        "exhaust"
+      ],
+      "entry": [
+        {
+          "word": "exhaust",
+          "reverse_translation": [
+            "ကုန်ခန်း"
+          ]
+        }
+      ],
+      "base_form": "ကုန်ခန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကုန် ခန်း",
+      "alternative": [
+        {
+          "word_postproc": "exhaust",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "exhaustion",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "perceptible",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "run",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "finished",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကုန်ခန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

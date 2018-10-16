@@ -1,0 +1,114 @@
+{
+  "sentences": [
+    {
+      "trans": "from",
+      "orig": "မှ",
+      "backend": 0
+    },
+    {
+      "src_translit": "mha"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "preposition",
+      "terms": [
+        "from",
+        "by"
+      ],
+      "entry": [
+        {
+          "word": "from",
+          "reverse_translation": [
+            "မှ"
+          ],
+          "score": 0.28650481
+        },
+        {
+          "word": "by",
+          "reverse_translation": [
+            "ဖြင့်",
+            "မှ",
+            "မတည့်မီ",
+            "အနားတွင်",
+            "ဖြတ်၍",
+            "အားဖြင့်"
+          ],
+          "score": 0.00023055986
+        }
+      ],
+      "base_form": "မှ",
+      "pos_enum": 5
+    },
+    {
+      "pos": "adverb",
+      "terms": [
+        "away"
+      ],
+      "entry": [
+        {
+          "word": "away",
+          "reverse_translation": [
+            "မှ"
+          ],
+          "score": 0.0000099730414
+        }
+      ],
+      "base_form": "မှ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မှ",
+      "alternative": [
+        {
+          "word_postproc": "from",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "from the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "from a",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "မှ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "panorama",
+      "orig": "မြင်ကွင်းကျယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "myinkwin kyaal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "panorama",
+        "cinemascope",
+        "cinerama"
+      ],
+      "entry": [
+        {
+          "word": "panorama"
+        },
+        {
+          "word": "cinemascope"
+        },
+        {
+          "word": "cinerama"
+        }
+      ],
+      "base_form": "‌မြင်ကွင်းကျယ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မြင်ကွင်း ကျယ်",
+      "alternative": [
+        {
+          "word_postproc": "panorama",
+          "score": 968,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "panoramic",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "panoramas",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a panoramic",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to Panorama",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "မြင်ကွင်းကျယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

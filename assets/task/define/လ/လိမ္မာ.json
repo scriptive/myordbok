@@ -1,0 +1,107 @@
+{
+  "sentences": [
+    {
+      "trans": "skillfulness",
+      "orig": "လိမ္မာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "limmar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "skilful",
+        "clever",
+        "polite",
+        "well-bred",
+        "well-trained"
+      ],
+      "entry": [
+        {
+          "word": "skilful",
+          "reverse_translation": [
+            "ကျွမ်းကျင်သော"
+          ],
+          "score": 0.015912903
+        },
+        {
+          "word": "clever",
+          "reverse_translation": [
+            "တတ်မေြာက်သော"
+          ],
+          "score": 0.0027652478
+        },
+        {
+          "word": "polite",
+          "reverse_translation": [
+            "ယဉ်ကေျးသော"
+          ]
+        }
+      ],
+      "base_form": "လိမ္မာ",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လိမ္မာ",
+      "alternative": [
+        {
+          "word_postproc": "skillfulness",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the skillfulness",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "skillfulness of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the skillfulness of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "for cunning",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "လိမ္မာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

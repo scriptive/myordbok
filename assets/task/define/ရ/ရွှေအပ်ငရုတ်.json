@@ -1,0 +1,59 @@
+{
+  "sentences": [
+    {
+      "trans": "Chili",
+      "orig": "ရွှေအပ်ငရုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "shway aaut ng rote"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "င ရုတ်",
+      "alternative": [
+        {
+          "word_postproc": "Chili",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Cayenne pepper",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Chilli",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ရွှေအပ်ငရုတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

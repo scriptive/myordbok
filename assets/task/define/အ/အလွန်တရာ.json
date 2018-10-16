@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "The extravagant",
+      "orig": "အလွန်တရာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aalwantarar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "very",
+        "so"
+      ],
+      "entry": [
+        {
+          "word": "very",
+          "reverse_translation": [
+            "မှန်သော"
+          ],
+          "score": 0.10539922
+        },
+        {
+          "word": "so",
+          "reverse_translation": [
+            "ထိုမှျ"
+          ],
+          "score": 0.012392981
+        }
+      ],
+      "base_form": "အလွန်တရာ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အလွန်တရာ",
+      "alternative": [
+        {
+          "word_postproc": "The extravagant",
+          "score": 764,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "extravagant",
+          "score": 235,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "exceedingly that",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "You became very",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "most earnestly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "အလွန်တရာ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

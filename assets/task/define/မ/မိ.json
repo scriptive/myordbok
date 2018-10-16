@@ -1,0 +1,113 @@
+{
+  "sentences": [
+    {
+      "trans": "mother",
+      "orig": "မိ",
+      "backend": 0
+    },
+    {
+      "src_translit": "mi"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "mother"
+      ],
+      "entry": [
+        {
+          "word": "mother",
+          "reverse_translation": [
+            "မိခင်"
+          ],
+          "score": 0.093014486
+        }
+      ],
+      "base_form": "မိ",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "catch",
+        "manage to catch",
+        "get caught",
+        "be caught",
+        "be effective",
+        "appropriate",
+        "agree with",
+        "particle suffixed to verbs to convey the meaning of \"happen to\""
+      ],
+      "entry": [
+        {
+          "word": "catch",
+          "reverse_translation": [
+            "ဖမ်း"
+          ]
+        }
+      ],
+      "base_form": "မိ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မိ",
+      "alternative": [
+        {
+          "word_postproc": "mother",
+          "score": 991,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "min",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mothers",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "done",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mother's",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "မိ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

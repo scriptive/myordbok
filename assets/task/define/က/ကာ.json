@@ -1,0 +1,160 @@
+{
+  "sentences": [
+    {
+      "trans": "a",
+      "orig": "ကာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "block",
+        "obstruct",
+        "bar",
+        "hide",
+        "shield",
+        "screen",
+        "hold",
+        "cover",
+        "particle suffixed to verbs to denote the sense \"only\", \"just\""
+      ],
+      "entry": [
+        {
+          "word": "block",
+          "reverse_translation": [
+            "ပိတ်ဆို့"
+          ],
+          "synset_id": [
+            21569,
+            66463
+          ]
+        },
+        {
+          "word": "obstruct",
+          "reverse_translation": [
+            "ပိတ်ဆို့ထား"
+          ],
+          "synset_id": [
+            21569
+          ]
+        },
+        {
+          "word": "bar",
+          "reverse_translation": [
+            "ဆီးတား",
+            "မင်းတုံးထိုး"
+          ],
+          "synset_id": [
+            66463
+          ]
+        },
+        {
+          "word": "hide",
+          "reverse_translation": [
+            "ဝှက်ထား"
+          ],
+          "synset_id": [
+            58522
+          ]
+        },
+        {
+          "word": "hold",
+          "reverse_translation": [
+            "ကိုင်"
+          ]
+        },
+        {
+          "word": "cover",
+          "reverse_translation": [
+            "ဖုံး"
+          ],
+          "synset_id": [
+            58522
+          ]
+        }
+      ],
+      "base_form": "ကာ",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "shield"
+      ],
+      "entry": [
+        {
+          "word": "shield",
+          "reverse_translation": [
+            "ဒိုင်း"
+          ]
+        }
+      ],
+      "base_form": "ကာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကာ",
+      "alternative": [
+        {
+          "word_postproc": "a",
+          "score": 990,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "an",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "front",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "physical",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "side",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ကာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

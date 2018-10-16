@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "earth to swallow",
+      "orig": "မြေမျို",
+      "backend": 0
+    },
+    {
+      "src_translit": "myay myao"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be swallowed up by a fissure appearing in the earth"
+      ],
+      "entry": [
+        {
+          "word": "be swallowed up by a fissure appearing in the earth"
+        }
+      ],
+      "base_form": "မြေမျို",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မြေ မျို",
+      "alternative": [
+        {
+          "word_postproc": "earth to swallow",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the earth to swallow",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "မြေမျို",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

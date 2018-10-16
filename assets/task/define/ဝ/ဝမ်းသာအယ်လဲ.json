@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "Effusively",
+      "orig": "ဝမ်းသာအယ်လဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "wamsar aaal lell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "effusively",
+        "very cordially",
+        "heartily"
+      ],
+      "entry": [
+        {
+          "word": "effusively"
+        },
+        {
+          "word": "very cordially"
+        },
+        {
+          "word": "heartily"
+        }
+      ],
+      "base_form": "ဝမ်းသာအယ်လဲ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝမ်းသာ အယ် လဲ",
+      "alternative": [
+        {
+          "word_postproc": "Effusively",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Heartily",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Very cordially",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ဝမ်းသာအယ်လဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

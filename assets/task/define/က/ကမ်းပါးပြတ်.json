@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "cut off from cliff",
+      "orig": "ကမ်းပါးပြတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kamparr pyat"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြတ်",
+      "alternative": [
+        {
+          "word_postproc": "cut off from",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cut off",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ကမ်းပါးပြတ်",
+      "start_pos": 0,
+      "end_pos": 3
+    },
+    {
+      "src_phrase": "ကမ်းပါး",
+      "alternative": [
+        {
+          "word_postproc": "cliff",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cliffs",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "start_pos": 3,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

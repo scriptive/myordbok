@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "crunchy",
+      "orig": "ရွ",
+      "backend": 0
+    },
+    {
+      "src_translit": "rw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "teem",
+        "itch",
+        "be eager to do sth"
+      ],
+      "entry": [
+        {
+          "word": "itch",
+          "reverse_translation": [
+            "ယား"
+          ],
+          "score": 0.010936768
+        }
+      ],
+      "base_form": "ရွ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရွ",
+      "alternative": [
+        {
+          "word_postproc": "crunchy",
+          "score": 806,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "asian",
+          "score": 184,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "teem",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "itch",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mite",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ရွ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

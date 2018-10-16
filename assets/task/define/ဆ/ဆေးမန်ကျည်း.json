@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Tamarisk",
+      "orig": "ဆေးမန်ကျည်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "sayy maan kyaee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "small tree, the bark of which is used as febrifuge. Vangueria spinosa"
+      ],
+      "entry": [
+        {
+          "word": "small tree, the bark of which is used as febrifuge. Vangueria spinosa"
+        }
+      ],
+      "base_form": "ဆေးမန်ကျည်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မန် ကျည်း",
+      "alternative": [
+        {
+          "word_postproc": "Tamarisk",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Tamarind",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ဆေးမန်ကျည်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

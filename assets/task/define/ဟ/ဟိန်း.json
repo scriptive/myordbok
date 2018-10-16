@@ -1,0 +1,100 @@
+{
+  "sentences": [
+    {
+      "trans": "Hein",
+      "orig": "ဟိန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hein"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "roar",
+        "growl",
+        "boom",
+        "reverberate",
+        "berate",
+        "boast",
+        "be widely known",
+        "be huge",
+        "be grand",
+        "be imposing"
+      ],
+      "entry": [
+        {
+          "word": "growl",
+          "reverse_translation": [
+            "ဟိန်းသံ"
+          ],
+          "score": 0.0036065632
+        },
+        {
+          "word": "boast",
+          "reverse_translation": [
+            "ကြွားဝါပေြာဆို"
+          ],
+          "score": 0.0036065632
+        }
+      ],
+      "base_form": "ဟိန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဟိန်း",
+      "alternative": [
+        {
+          "word_postproc": "Hein",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "resonator",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "growl",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "reverberate",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဟိန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

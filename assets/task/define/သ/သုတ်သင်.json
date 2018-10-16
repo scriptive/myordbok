@@ -1,0 +1,122 @@
+{
+  "sentences": [
+    {
+      "trans": "prune",
+      "orig": "သုတ်သင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "sotesain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "exterminate",
+        "wash",
+        "wipe out",
+        "clear",
+        "clean",
+        "edit",
+        "purify",
+        "look after"
+      ],
+      "entry": [
+        {
+          "word": "exterminate",
+          "reverse_translation": [
+            "ဖျက်သိမ်း"
+          ],
+          "score": 0.010274142
+        },
+        {
+          "word": "wash",
+          "reverse_translation": [
+            "ရေချိုး"
+          ],
+          "score": 0.0040867715
+        },
+        {
+          "word": "clear",
+          "reverse_translation": [
+            "ရှင်းလင်း ကြိ"
+          ]
+        },
+        {
+          "word": "clean",
+          "reverse_translation": [
+            "ဆေးကေြာ"
+          ]
+        },
+        {
+          "word": "edit",
+          "reverse_translation": [
+            "ပုံနှိပ်ရန်ပြင်ဆင်ရေးသား"
+          ]
+        }
+      ],
+      "base_form": "သုတ်သင်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သုတ်သင်",
+      "alternative": [
+        {
+          "word_postproc": "prune",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "has stripped",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "He has stripped",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "It has stripped",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "prune your",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "သုတ်သင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

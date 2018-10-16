@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "Around Yai",
+      "orig": "ဒယီးဒယိုင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "d yee d yine"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "with a stagger"
+      ],
+      "entry": [
+        {
+          "word": "with a stagger"
+        }
+      ],
+      "base_form": "ဒယီးဒယိုင်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယီး",
+      "alternative": [
+        {
+          "word_postproc": "Around",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဒယီးဒယိုင်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ယိုင်",
+      "alternative": [
+        {
+          "word_postproc": "Yai",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 10
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

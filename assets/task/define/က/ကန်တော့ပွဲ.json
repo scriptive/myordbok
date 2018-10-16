@@ -1,0 +1,67 @@
+{
+  "sentences": [
+    {
+      "trans": "offertory",
+      "orig": "ကန်တော့ပွဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kaantotpwal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "offertory",
+        "offertory consisting of hands of bananas, coconut,etc decoratively arranged"
+      ],
+      "entry": [
+        {
+          "word": "offertory",
+          "score": 0.077111721
+        },
+        {
+          "word": "offertory consisting of hands of bananas, coconut,etc decoratively arranged"
+        }
+      ],
+      "base_form": "ကန်တော့ပွဲ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကန်တော့ပွဲ",
+      "alternative": [
+        {
+          "word_postproc": "offertory",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ကန်တော့ပွဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

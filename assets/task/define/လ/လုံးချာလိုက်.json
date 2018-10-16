@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Go round in circles",
+      "orig": "လုံးချာလိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lone hkyaar lite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "go round in circles"
+      ],
+      "entry": [
+        {
+          "word": "go round in circles"
+        }
+      ],
+      "base_form": "လုံးချာလိုက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လုံး ချာ လိုက်",
+      "alternative": [
+        {
+          "word_postproc": "Go round in circles",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "လုံးချာလိုက်",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "sentences": [
+    {
+      "trans": "the arm",
+      "orig": "လက်ရုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "laat rone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "arm of a Myanmar harp"
+      ],
+      "entry": [
+        {
+          "word": "arm of a Myanmar harp"
+        }
+      ],
+      "base_form": "လက်ရုံး",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "upper arm",
+        "fighting ability",
+        "dependable person",
+        "handrail along the  side of a boat",
+        "handrail of a bullock cart"
+      ],
+      "entry": [
+        {
+          "word": "upper arm"
+        },
+        {
+          "word": "fighting ability"
+        },
+        {
+          "word": "dependable person"
+        },
+        {
+          "word": "handrail along the  side of a boat"
+        },
+        {
+          "word": "handrail of a bullock cart"
+        }
+      ],
+      "base_form": "လက်ရုံး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လက် ရုံး",
+      "alternative": [
+        {
+          "word_postproc": "the arm",
+          "score": 624,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "arm",
+          "score": 374,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "arm of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the arms of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the arm of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "လက်ရုံး",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "fable",
+      "orig": "ယုံတမ်းစကား",
+      "backend": 0
+    },
+    {
+      "src_translit": "yonetamhcakarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "",
+      "terms": [
+        "tall tale",
+        "fable",
+        "old wives' tale"
+      ],
+      "entry": [
+        {
+          "word": "tall tale",
+          "score": 0.052998058
+        },
+        {
+          "word": "fable",
+          "score": 0.052998058
+        },
+        {
+          "word": "old wives' tale"
+        }
+      ],
+      "base_form": "ယုံတမ်းစကား",
+      "pos_enum": 20
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယုံတမ်းစကား",
+      "alternative": [
+        {
+          "word_postproc": "fable",
+          "score": 553,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "myths",
+          "score": 439,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tall tale",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "myths surrounding",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ယုံတမ်းစကား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

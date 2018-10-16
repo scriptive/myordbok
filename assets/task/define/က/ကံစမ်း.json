@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "try one's luck",
+      "orig": "ကံစမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "kan hcam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "try one's luck"
+      ],
+      "entry": [
+        {
+          "word": "try one's luck"
+        }
+      ],
+      "base_form": "ကံစမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကံ စမ်း",
+      "alternative": [
+        {
+          "word_postproc": "try one's luck",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ကံစမ်း",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

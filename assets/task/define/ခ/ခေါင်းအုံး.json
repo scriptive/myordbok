@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "pillow",
+      "orig": "ခေါင်းအုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaungg aone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "pillow"
+      ],
+      "entry": [
+        {
+          "word": "pillow",
+          "reverse_translation": [
+            "ခေါင်းအုံး"
+          ],
+          "synset_id": [
+            113986
+          ]
+        }
+      ],
+      "base_form": "ခေါင်းအုံး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခေါင်း အုံး",
+      "alternative": [
+        {
+          "word_postproc": "pillow",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "his pillow",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a pillow",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "his pillows",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ခေါင်းအုံး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "Fleetingly",
+      "orig": "ဖြုတ်ခနဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpyuat hk nell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "suddenly",
+        "unexpectedly",
+        "in a fleeting manner",
+        "fleetingly"
+      ],
+      "entry": [
+        {
+          "word": "suddenly",
+          "reverse_translation": [
+            "ရုတ်တရက်"
+          ]
+        }
+      ],
+      "base_form": "ဖြုတ်ခနဲ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖြုတ် ခ နဲ",
+      "alternative": [
+        {
+          "word_postproc": "Fleetingly",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Unexpectedly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Suddenly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဖြုတ်ခနဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "ထေရ်",
+      "orig": "ထေရ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "htayr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "Buddhist monk of venerable standing"
+      ],
+      "entry": [
+        {
+          "word": "Buddhist monk of venerable standing"
+        }
+      ],
+      "base_form": "ထေရ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထေရ်",
+      "alternative": [
+        {
+          "word_postproc": "ထေရ်",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ထေရ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

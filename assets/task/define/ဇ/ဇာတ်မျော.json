@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "unnecessarily prolonged",
+      "orig": "ဇာတ်မျော",
+      "backend": 0
+    },
+    {
+      "src_translit": "jarat myaww"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be unnecessarily prolonged)",
+        "fail to achieve the desired effect"
+      ],
+      "entry": [
+        {
+          "word": "be unnecessarily prolonged)"
+        },
+        {
+          "word": "fail to achieve the desired effect"
+        }
+      ],
+      "base_form": "ဇာတ်မျော",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဇာတ် မျော",
+      "alternative": [
+        {
+          "word_postproc": "unnecessarily prolonged",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဇာတ်မျော",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

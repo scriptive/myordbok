@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Nimbus",
+      "orig": "ရောင်လျှံတော်",
+      "backend": 0
+    },
+    {
+      "src_translit": "raung shan taw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "halo around Buddha's head",
+        "nimbus"
+      ],
+      "entry": [
+        {
+          "word": "halo around Buddha's head"
+        },
+        {
+          "word": "nimbus"
+        }
+      ],
+      "base_form": "ရောင်လျှံတော်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရောင် လျှံ တော်",
+      "alternative": [
+        {
+          "word_postproc": "Nimbus",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ရောင်လျှံတော်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

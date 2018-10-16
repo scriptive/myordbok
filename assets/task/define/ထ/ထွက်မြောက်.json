@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "north",
+      "orig": "ထွက်မြောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "htwat myawwat"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မြောက်",
+      "alternative": [
+        {
+          "word_postproc": "north",
+          "score": 990,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ထွက်မြောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

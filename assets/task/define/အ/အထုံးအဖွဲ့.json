@@ -1,0 +1,85 @@
+{
+  "sentences": [
+    {
+      "trans": "Snag",
+      "orig": "အထုံးအဖွဲ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "a htone aahpwal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "knot",
+        "hitch",
+        "snag"
+      ],
+      "entry": [
+        {
+          "word": "knot",
+          "reverse_translation": [
+            "အထုံး"
+          ]
+        }
+      ],
+      "base_form": "အထုံးအဖွဲ့",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ ထုံး အဖွဲ့",
+      "alternative": [
+        {
+          "word_postproc": "Snag",
+          "score": 722,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Hitch",
+          "score": 255,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Knot",
+          "score": 18,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Statutes",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "အထုံးအဖွဲ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

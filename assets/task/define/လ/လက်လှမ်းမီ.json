@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "rEACH",
+      "orig": "လက်လှမ်းမီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "laatlham me"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be within reach",
+        "be at arm's length",
+        "be within the compass of one's comprehension"
+      ],
+      "entry": [
+        {
+          "word": "be within reach"
+        },
+        {
+          "word": "be at arm's length"
+        },
+        {
+          "word": "be within the compass of one's comprehension"
+        }
+      ],
+      "base_form": "လက်လှမ်းမီ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လက်လှမ်း မီ",
+      "alternative": [
+        {
+          "word_postproc": "rEACH",
+          "score": 678,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "access",
+          "score": 321,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "access to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "within reach",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "at arm's length",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "လက်လှမ်းမီ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

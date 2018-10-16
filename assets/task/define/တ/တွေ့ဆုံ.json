@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "Meet",
+      "orig": "တွေ့ဆုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "twaesone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "meet",
+        "come across"
+      ],
+      "entry": [
+        {
+          "word": "meet",
+          "reverse_translation": [
+            "တေွ့ဆုံ"
+          ],
+          "synset_id": [
+            4096
+          ],
+          "score": 0.088755049
+        }
+      ],
+      "base_form": "တွေ့ဆုံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တွေ့ဆုံ",
+      "alternative": [
+        {
+          "word_postproc": "Meet",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "meets",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "meeting with",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "meet with",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "met with",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "တွေ့ဆုံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

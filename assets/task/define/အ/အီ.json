@@ -1,0 +1,106 @@
+{
+  "sentences": [
+    {
+      "trans": "Egyptian",
+      "orig": "အီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "ae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "အဆီအအိမ့်များလွန်းသဖြင့် နောက်ထပ်မစားချင်လောက်အောင်ဖြစ်သည်။",
+        "အလွန်ကောင်းမွန်‌ေသာအတွေ့ကို ခံစားရသည်။",
+        "ဒီရေတက်ခါနီးတွင်လည်းကောင်း၊ ကျခါနီးတွင်လည်းကောင်း  ရေမည်သည့်ဘက်သို့မျှမစီးဘဲရပ်တန့်နေသည်။",
+        "လှည်းဝင်ရိုးနှင့်ဝင်ရိုးပေါက်ပွတ်တိုက်လွန်းသဖြင့်လေးတွဲ့သောအသံမြည် သည်။",
+        "လေးတွဲ့သောအသံဖြင့်ဆွဲဆွဲငင်ငင်မြည်တမ်းသည်။",
+        "အော်မြည်သည်။"
+      ],
+      "entry": [
+        {
+          "word": "အဆီအအိမ့်များလွန်းသဖြင့် နောက်ထပ်မစားချင်လောက်အောင်ဖြစ်သည်။"
+        },
+        {
+          "word": "အလွန်ကောင်းမွန်‌ေသာအတွေ့ကို ခံစားရသည်။"
+        },
+        {
+          "word": "ဒီရေတက်ခါနီးတွင်လည်းကောင်း၊ ကျခါနီးတွင်လည်းကောင်း  ရေမည်သည့်ဘက်သို့မျှမစီးဘဲရပ်တန့်နေသည်။"
+        },
+        {
+          "word": "လှည်းဝင်ရိုးနှင့်ဝင်ရိုးပေါက်ပွတ်တိုက်လွန်းသဖြင့်လေးတွဲ့သောအသံမြည် သည်။"
+        },
+        {
+          "word": "လေးတွဲ့သောအသံဖြင့်ဆွဲဆွဲငင်ငင်မြည်တမ်းသည်။"
+        },
+        {
+          "word": "အော်မြည်သည်။"
+        }
+      ],
+      "base_form": "အီ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အီ",
+      "alternative": [
+        {
+          "word_postproc": "Egyptian",
+          "score": 603,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Il",
+          "score": 389,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Ian",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Emmanuelle",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The Egyptian",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "အီ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

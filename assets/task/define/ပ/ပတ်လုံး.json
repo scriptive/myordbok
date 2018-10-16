@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "days",
+      "orig": "ပတ်လုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "paatlone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "",
+      "terms": [
+        "postpositional marker suffixed to a noun to indicate temporal mood"
+      ],
+      "entry": [
+        {
+          "word": "postpositional marker suffixed to a noun to indicate temporal mood"
+        }
+      ],
+      "base_form": "ပတ်လုံး",
+      "pos_enum": 20
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "graded drums of the drum circle"
+      ],
+      "entry": [
+        {
+          "word": "graded drums of the drum circle"
+        }
+      ],
+      "base_form": "ပတ်လုံး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပတ်လုံး",
+      "alternative": [
+        {
+          "word_postproc": "days",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "days and nights",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "days in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "days you",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ပတ်လုံး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "sentences": [
+    {
+      "trans": "Dump",
+      "orig": "စွတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "wet",
+        "soak",
+        "drag a load along the ground"
+      ],
+      "entry": [
+        {
+          "word": "soak",
+          "reverse_translation": [
+            "စိမ့်ဝင်"
+          ],
+          "score": 0.0090668984
+        }
+      ],
+      "base_form": "စွတ်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "wet"
+      ],
+      "entry": [
+        {
+          "word": "wet",
+          "reverse_translation": [
+            "စိုစွတ်သော"
+          ],
+          "score": 0.042585135
+        }
+      ],
+      "base_form": "စွတ်",
+      "pos_enum": 3
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "sled"
+      ],
+      "entry": [
+        {
+          "word": "sled",
+          "reverse_translation": [
+            "စွတ်ဖါး"
+          ],
+          "score": 0.0060398565
+        }
+      ],
+      "base_form": "စွတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စွတ်",
+      "alternative": [
+        {
+          "word_postproc": "Dump",
+          "score": 955,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wet",
+          "score": 32,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "heedlessly",
+          "score": 11,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "irrigated land",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sled",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "စွတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "sentences": [
+    {
+      "trans": "letter",
+      "orig": "စာ",
+      "backend": 1
+    },
+    {
+      "src_translit": "hcar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "food",
+        "letter",
+        "writing",
+        "feed",
+        "diet",
+        "particle suffixed to nouns to denote a waste product",
+        "particle suffixed to nouns to denote sufficiency for a certain number,utility over a certain length of time",
+        "particle suffixed to nouns to denote supportive material for a certain function",
+        "particle suffixed to nouns to connote that someone is deserving of being victimised,hit by sb,sth",
+        "means",
+        "12. subsistence",
+        "bait",
+        "prey",
+        "11. fodder",
+        "10. meal",
+        "cuisine",
+        "sth kept for consumption",
+        "sparrow",
+        "birthmark",
+        "lessons",
+        "verse",
+        "poetry",
+        "works",
+        "language",
+        "inscription"
+      ],
+      "entry": [
+        {
+          "word": "food",
+          "reverse_translation": [
+            "အစာ"
+          ],
+          "score": 0.066995822
+        },
+        {
+          "word": "letter",
+          "reverse_translation": [
+            "စာ",
+            "အက္ခရာ"
+          ],
+          "synset_id": [
+            12044
+          ],
+          "score": 0.046770621
+        },
+        {
+          "word": "writing",
+          "reverse_translation": [
+            "လက်ရေးလက်သား"
+          ],
+          "synset_id": [
+            38948
+          ],
+          "score": 0.015423315
+        },
+        {
+          "word": "feed",
+          "reverse_translation": [
+            "အစာ"
+          ],
+          "score": 0.0069518322
+        },
+        {
+          "word": "diet",
+          "reverse_translation": [
+            "ဓါတ်စာ"
+          ]
+        },
+        {
+          "word": "bait",
+          "reverse_translation": [
+            "ငါးစာ"
+          ]
+        },
+        {
+          "word": "prey",
+          "reverse_translation": [
+            "လုယက်ထားသောပစ္စည်းများ"
+          ]
+        },
+        {
+          "word": "birthmark",
+          "reverse_translation": [
+            "မေွးပါစာ"
+          ]
+        },
+        {
+          "word": "verse",
+          "reverse_translation": [
+            "လင်္ကာ"
+          ],
+          "synset_id": [
+            65869
+          ]
+        },
+        {
+          "word": "poetry",
+          "reverse_translation": [
+            "ကဗျာ"
+          ],
+          "synset_id": [
+            65869
+          ]
+        },
+        {
+          "word": "language",
+          "reverse_translation": [
+            "ဘာသာစကား"
+          ]
+        },
+        {
+          "word": "inscription",
+          "reverse_translation": [
+            "ရေးထိုးချက်"
+          ]
+        }
+      ],
+      "base_form": "စာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စာ",
+      "alternative": [
+        {
+          "word_postproc": "letter",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "စာ",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

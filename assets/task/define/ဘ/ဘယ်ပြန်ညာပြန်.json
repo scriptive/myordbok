@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "on both sides",
+      "orig": "ဘယ်ပြန်ညာပြန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "bhaalpyannyarpyan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "on both sides",
+        "thoroughly"
+      ],
+      "entry": [
+        {
+          "word": "on both sides",
+          "score": 0.33495805
+        },
+        {
+          "word": "thoroughly",
+          "score": 0.33495805
+        }
+      ],
+      "base_form": "ဘယ်ပြန်ညာပြန်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘယ်ပြန်ညာပြန်",
+      "alternative": [
+        {
+          "word_postproc": "on both sides",
+          "score": 726,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "both sides",
+          "score": 149,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "thoroughly",
+          "score": 123,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ဘယ်ပြန်ညာပြန်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "sentences": [
+    {
+      "trans": "drip",
+      "orig": "ယို",
+      "backend": 0
+    },
+    {
+      "src_translit": "yo"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "jam",
+        "candied fruit"
+      ],
+      "entry": [
+        {
+          "word": "jam",
+          "reverse_translation": [
+            "အကြပ်အတည်",
+            "သစ်သီးယို"
+          ],
+          "score": 0.11758133
+        }
+      ],
+      "base_form": "ယို",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "leak",
+        "drip",
+        "shed",
+        "transmit"
+      ],
+      "entry": [
+        {
+          "word": "leak",
+          "reverse_translation": [
+            "ယိုထွက်"
+          ],
+          "score": 0.014948789
+        },
+        {
+          "word": "drip",
+          "reverse_translation": [
+            "အစက်တစက်ကျ"
+          ],
+          "score": 0.011283938
+        },
+        {
+          "word": "transmit",
+          "reverse_translation": [
+            "ပို့ပေး",
+            "ယို"
+          ],
+          "score": 0.0010172778
+        }
+      ],
+      "base_form": "ယို",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယို",
+      "alternative": [
+        {
+          "word_postproc": "drip",
+          "score": 674,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "jam",
+          "score": 325,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the jam",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to drain",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "drop down",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ယို",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "sentences": [
+    {
+      "trans": "San",
+      "orig": "ဆန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "saann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be new",
+        "be novel",
+        "be unusual",
+        "be strange",
+        "be extraordinary",
+        "be different",
+        "be devious",
+        "begin a new year, season, etc",
+        "particle suffixed to a verb to convey the sense \"no more than.\""
+      ],
+      "entry": [
+        {
+          "word": "be new"
+        },
+        {
+          "word": "be novel"
+        },
+        {
+          "word": "be unusual"
+        },
+        {
+          "word": "be strange"
+        },
+        {
+          "word": "be extraordinary"
+        },
+        {
+          "word": "be different"
+        },
+        {
+          "word": "be devious"
+        },
+        {
+          "word": "begin a new year, season, etc"
+        },
+        {
+          "word": "particle suffixed to a verb to convey the sense \"no more than.\""
+        }
+      ],
+      "base_form": "ဆန်း",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "art of composing Pali verse"
+      ],
+      "entry": [
+        {
+          "word": "art of composing Pali verse"
+        }
+      ],
+      "base_form": "ဆန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆန်း",
+      "alternative": [
+        {
+          "word_postproc": "San",
+          "score": 582,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Sun",
+          "score": 416,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Sang",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Sann",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Hsan",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဆန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "flabby",
+      "orig": "ပျောင်းအိ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyaungg ai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "very soft to the touch",
+        "flabby",
+        "pulpy doughy",
+        "mushy",
+        "mashy",
+        "spongy of foamlike"
+      ],
+      "entry": [
+        {
+          "word": "very soft to the touch"
+        },
+        {
+          "word": "flabby"
+        },
+        {
+          "word": "pulpy doughy"
+        },
+        {
+          "word": "mushy"
+        },
+        {
+          "word": "mashy"
+        },
+        {
+          "word": "spongy of foamlike"
+        }
+      ],
+      "base_form": "ပျောင်းအိ",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပျောင်း အိ",
+      "alternative": [
+        {
+          "word_postproc": "flabby",
+          "score": 864,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mushy",
+          "score": 135,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mashy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ပျောင်းအိ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

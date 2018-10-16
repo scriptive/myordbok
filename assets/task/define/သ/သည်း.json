@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "excessively",
+      "orig": "သည်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "saee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "liver"
+      ],
+      "entry": [
+        {
+          "word": "liver",
+          "reverse_translation": [
+            "အသည်း"
+          ],
+          "score": 0.0028979548
+        }
+      ],
+      "base_form": "သည်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သည်း",
+      "alternative": [
+        {
+          "word_postproc": "excessively",
+          "score": 394,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "excessive",
+          "score": 307,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pass by",
+          "score": 162,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pass",
+          "score": 124,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "dense",
+          "score": 9,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "သည်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

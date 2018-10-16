@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "soon",
+      "orig": "များမကြာမီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "myarr makyaarme"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in a short while",
+        "before long"
+      ],
+      "entry": [
+        {
+          "word": "in a short while"
+        },
+        {
+          "word": "before long"
+        }
+      ],
+      "base_form": "များမကြာမီ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "များ မကြာမီ",
+      "alternative": [
+        {
+          "word_postproc": "soon",
+          "score": 984,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Soon afterward",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "will soon be",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and in recent",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "များမကြာမီ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

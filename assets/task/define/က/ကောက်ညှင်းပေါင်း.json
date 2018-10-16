@@ -1,0 +1,63 @@
+{
+  "sentences": [
+    {
+      "trans": "steamed glutinous rice",
+      "orig": "ကောက်ညှင်းပေါင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "koutnyhainnpaungg"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "steamed glutinous rice"
+      ],
+      "entry": [
+        {
+          "word": "steamed glutinous rice",
+          "score": 0.18211353
+        }
+      ],
+      "base_form": "ကောက်ညှင်းပေါင်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကောက်ညှင်းပေါင်း",
+      "alternative": [
+        {
+          "word_postproc": "steamed glutinous rice",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "ကောက်ညှင်းပေါင်း",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

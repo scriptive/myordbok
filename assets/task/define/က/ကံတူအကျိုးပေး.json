@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "m fine too",
+      "orig": "ကံတူအကျိုးပေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kantuu aakyoepayy"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "persons, nations, etc of similar destinies"
+      ],
+      "entry": [
+        {
+          "word": "persons, nations, etc of similar destinies"
+        }
+      ],
+      "base_form": "ကံတူအကျိုးပေး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကံတူ အကျိုးပေး",
+      "alternative": [
+        {
+          "word_postproc": "m fine too",
+          "score": 959,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ကံတူအကျိုးပေး",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

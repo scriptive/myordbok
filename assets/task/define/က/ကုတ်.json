@@ -1,0 +1,130 @@
+{
+  "sentences": [
+    {
+      "trans": "cODE",
+      "orig": "ကုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "scratch",
+        "claw",
+        "lever",
+        "strive",
+        "endeavour"
+      ],
+      "entry": [
+        {
+          "word": "scratch",
+          "reverse_translation": [
+            "ကုတ်ခြစ်"
+          ],
+          "score": 0.018315639
+        },
+        {
+          "word": "strive",
+          "reverse_translation": [
+            "ကြိုးစား"
+          ],
+          "synset_id": [
+            49620
+          ],
+          "score": 0.0030370306
+        }
+      ],
+      "base_form": "ကုတ်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "coat",
+        "lever"
+      ],
+      "entry": [
+        {
+          "word": "coat",
+          "reverse_translation": [
+            "တရိစာ္ဆန်ကိုယ်မေွး",
+            "အင်္ကျ ီ"
+          ],
+          "score": 0.004559123
+        },
+        {
+          "word": "lever",
+          "reverse_translation": [
+            "မောင်းတုံး"
+          ],
+          "score": 0.0030370306
+        }
+      ],
+      "base_form": "ကုတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကုတ်",
+      "alternative": [
+        {
+          "word_postproc": "cODE",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Succoth",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "scratched",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the code",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "code is",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကုတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

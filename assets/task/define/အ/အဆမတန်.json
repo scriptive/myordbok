@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "inordinately",
+      "orig": "အဆမတန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aasamataan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "excessively",
+        "inordinately"
+      ],
+      "entry": [
+        {
+          "word": "excessively",
+          "score": 0.028814545
+        },
+        {
+          "word": "inordinately",
+          "score": 0.014488863
+        }
+      ],
+      "base_form": "အဆမတန်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အဆမတန်",
+      "alternative": [
+        {
+          "word_postproc": "inordinately",
+          "score": 676,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "excessively",
+          "score": 200,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "outweighs",
+          "score": 116,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "excessive amounts",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "outweighs the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "အဆမတန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "cut off",
+      "orig": "ပြတ်ဆို",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyat so"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "assess",
+        "evaluate"
+      ],
+      "entry": [
+        {
+          "word": "assess",
+          "reverse_translation": [
+            "ခန့်မှန်း"
+          ],
+          "synset_id": [
+            53008
+          ]
+        },
+        {
+          "word": "evaluate",
+          "reverse_translation": [
+            "ခန့်မှန်း"
+          ],
+          "synset_id": [
+            53008
+          ]
+        }
+      ],
+      "base_form": "ပြတ်ဆို",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြတ်",
+      "alternative": [
+        {
+          "word_postproc": "cut off",
+          "score": 972,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ပြတ်ဆို",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

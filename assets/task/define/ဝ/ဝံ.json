@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "bears",
+      "orig": "ဝံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "wan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "bear"
+      ],
+      "entry": [
+        {
+          "word": "bear",
+          "reverse_translation": [
+            "ဝက်ဝံ"
+          ],
+          "score": 0.23752081
+        }
+      ],
+      "base_form": "ဝံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝံ",
+      "alternative": [
+        {
+          "word_postproc": "bears",
+          "score": 995,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a bear",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the bear",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ဝံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

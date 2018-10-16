@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "school",
+      "orig": "ကျောင်း",
+      "backend": 1
+    },
+    {
+      "src_translit": "kyaungg"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "school",
+        "monastery",
+        "general term for educational institutes"
+      ],
+      "entry": [
+        {
+          "word": "school",
+          "reverse_translation": [
+            "ကေျာင်း"
+          ],
+          "score": 0.21291229
+        },
+        {
+          "word": "monastery",
+          "reverse_translation": [
+            "ဘုန်းကြီးကေျာင်း"
+          ]
+        }
+      ],
+      "base_form": "ကျောင်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျောင်း",
+      "alternative": [
+        {
+          "word_postproc": "school",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကျောင်း",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

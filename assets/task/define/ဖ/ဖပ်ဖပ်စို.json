@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Soaking wet",
+      "orig": "ဖပ်ဖပ်စို",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpaut hpaut hco"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "soaking wet"
+      ],
+      "entry": [
+        {
+          "word": "soaking wet"
+        }
+      ],
+      "base_form": "ဖပ်ဖပ်စို",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖပ် ဖပ် စို",
+      "alternative": [
+        {
+          "word_postproc": "Soaking wet",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ဖပ်ဖပ်စို",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

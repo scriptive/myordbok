@@ -1,0 +1,96 @@
+{
+  "sentences": [
+    {
+      "trans": "resumes",
+      "orig": "ကိုယ်ရေးရာဇဝင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "korayyrarjawain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "personal history",
+        "curriculum vitae",
+        "bio-data"
+      ],
+      "entry": [
+        {
+          "word": "personal history",
+          "score": 0.01319226
+        },
+        {
+          "word": "curriculum vitae",
+          "score": 0.01319226
+        },
+        {
+          "word": "bio-data"
+        }
+      ],
+      "base_form": "ကိုယ်ရေးရာဇဝင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိုယ်ရေးရာဇဝင်",
+      "alternative": [
+        {
+          "word_postproc": "resumes",
+          "score": 923,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Resume",
+          "score": 46,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "biography",
+          "score": 27,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A biography",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Resume writing",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ကိုယ်ရေးရာဇဝင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

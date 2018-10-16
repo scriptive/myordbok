@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "please",
+      "orig": "ကထိန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kahtein"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "Kahtain: offering of yellow robes to the members of the Buddhist Order for a special purpose, between the first waning day of သီတင်းကျွတ် and full-moon day of တန်ဆောင်မုန်း"
+      ],
+      "entry": [
+        {
+          "word": "Kahtain: offering of yellow robes to the members of the Buddhist Order for a special purpose, between the first waning day of သီတင်းကျွတ် and full-moon day of တန်ဆောင်မုန်း"
+        }
+      ],
+      "base_form": "ကထိန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကထိန်",
+      "alternative": [
+        {
+          "word_postproc": "please",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကထိန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

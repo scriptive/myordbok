@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "munch",
+      "orig": "မြုံ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "myuan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "chew slowly with relish",
+        "munch"
+      ],
+      "entry": [
+        {
+          "word": "chew slowly with relish",
+          "score": 0.056416139
+        },
+        {
+          "word": "munch",
+          "score": 0.056416139
+        }
+      ],
+      "base_form": "မြုံ့",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မြုံ့",
+      "alternative": [
+        {
+          "word_postproc": "munch",
+          "score": 948,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "paws",
+          "score": 50,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Bangladesh",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "stripper columns",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "chew slowly with relish",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "မြုံ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

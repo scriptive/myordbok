@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Physique",
+      "orig": "ကိုယ်လုံးကိုယ်ပေါက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kolone ko pout"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိုယ်လုံး ကိုယ် ပေါက်",
+      "alternative": [
+        {
+          "word_postproc": "Physique",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 19
+        }
+      ],
+      "raw_src_segment": "ကိုယ်လုံးကိုယ်ပေါက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

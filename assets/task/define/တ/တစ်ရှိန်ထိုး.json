@@ -1,0 +1,70 @@
+{
+  "sentences": [
+    {
+      "trans": "At one swoop",
+      "orig": "တစ်ရှိန်ထိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "tait shein htoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in a sudden burst of speed",
+        "at one swoop",
+        "at one fell swoop"
+      ],
+      "entry": [
+        {
+          "word": "in a sudden burst of speed"
+        },
+        {
+          "word": "at one swoop"
+        },
+        {
+          "word": "at one fell swoop"
+        }
+      ],
+      "base_form": "တစ်ရှိန်ထိုး",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တစ် ရှိန် ထိုး",
+      "alternative": [
+        {
+          "word_postproc": "At one swoop",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "တစ်ရှိန်ထိုး",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

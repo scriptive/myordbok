@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "kindle",
+      "orig": "မီးညှိ",
+      "backend": 0
+    },
+    {
+      "src_translit": "mee nyhai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "light",
+        "adjust the flame of a lamp"
+      ],
+      "entry": [
+        {
+          "word": "light"
+        },
+        {
+          "word": "adjust the flame of a lamp"
+        }
+      ],
+      "base_form": "မီးညှိ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မီး ညှိ",
+      "alternative": [
+        {
+          "word_postproc": "kindle",
+          "score": 926,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a fire",
+          "score": 51,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "set a fire",
+          "score": 18,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "kindle in",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "set it on fire",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "မီးညှိ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

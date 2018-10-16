@@ -1,0 +1,109 @@
+{
+  "sentences": [
+    {
+      "trans": "afraid",
+      "orig": "ကြောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "fear",
+        "dread",
+        "be afraid of",
+        "be frightened",
+        "be scared"
+      ],
+      "entry": [
+        {
+          "word": "fear",
+          "synset_id": [
+            36087
+          ],
+          "score": 0.13323711
+        },
+        {
+          "word": "dread",
+          "synset_id": [
+            36087
+          ]
+        },
+        {
+          "word": "be afraid of"
+        },
+        {
+          "word": "be frightened"
+        },
+        {
+          "word": "be scared"
+        }
+      ],
+      "base_form": "ကြောက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြောက်",
+      "alternative": [
+        {
+          "word_postproc": "afraid",
+          "score": 561,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "was afraid",
+          "score": 305,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "afraid of",
+          "score": 131,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "are afraid",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "for fear of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ကြောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

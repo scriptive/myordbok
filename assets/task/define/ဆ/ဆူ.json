@@ -1,0 +1,128 @@
+{
+  "sentences": [
+    {
+      "trans": "boiling",
+      "orig": "ဆူ",
+      "backend": 0
+    },
+    {
+      "src_translit": "suu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "fat",
+        "plump"
+      ],
+      "entry": [
+        {
+          "word": "fat",
+          "reverse_translation": [
+            "ဝပေြာသော"
+          ],
+          "score": 0.11758133
+        }
+      ],
+      "base_form": "ဆူ",
+      "pos_enum": 3
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "boil",
+        "come to a boiling stage",
+        "effervesce",
+        "bubble",
+        "seethe",
+        "be noisy",
+        "clamour",
+        "scold",
+        "reprove",
+        "be in a state of unrest",
+        "be plump",
+        "be well-filled out"
+      ],
+      "entry": [
+        {
+          "word": "boil",
+          "reverse_translation": [
+            "ချက်ပြုတ်"
+          ],
+          "synset_id": [
+            70714
+          ],
+          "score": 0.04063502
+        },
+        {
+          "word": "scold",
+          "reverse_translation": [
+            "ကျိန်ဆဲ"
+          ]
+        }
+      ],
+      "base_form": "ဆူ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆူ",
+      "alternative": [
+        {
+          "word_postproc": "boiling",
+          "score": 549,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fat",
+          "score": 351,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "boil",
+          "score": 98,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fatness",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the boiling",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ဆူ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

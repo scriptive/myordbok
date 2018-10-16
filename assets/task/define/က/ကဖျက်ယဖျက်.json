@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Destructively",
+      "orig": "ကဖျက်ယဖျက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "k hpyet y hpyet"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "destructively",
+        "obstructively"
+      ],
+      "entry": [
+        {
+          "word": "destructively"
+        },
+        {
+          "word": "obstructively"
+        }
+      ],
+      "base_form": "ကဖျက်ယဖျက်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "က ဖျက် ယ ဖျက်",
+      "alternative": [
+        {
+          "word_postproc": "Destructively",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ကဖျက်ယဖျက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

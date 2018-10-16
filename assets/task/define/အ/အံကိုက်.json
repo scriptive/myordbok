@@ -1,0 +1,95 @@
+{
+  "sentences": [
+    {
+      "trans": "fit",
+      "orig": "အံကိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aan kite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "fit snugly",
+        "dovetail",
+        "coincide",
+        "co-occur"
+      ],
+      "entry": [
+        {
+          "word": "coincide",
+          "reverse_translation": [
+            "ထပ်ထူကျ"
+          ],
+          "synset_id": [
+            111786
+          ]
+        }
+      ],
+      "base_form": "အံကိုက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အံ ကိုက်",
+      "alternative": [
+        {
+          "word_postproc": "fit",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "dovetail",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to fit",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "will fit",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fit the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "အံကိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

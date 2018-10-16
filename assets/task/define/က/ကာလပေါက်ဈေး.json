@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "At market prices",
+      "orig": "ကာလပေါက်ဈေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "karl pout jhayy"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကာလ ပေါက် ဈေး",
+      "alternative": [
+        {
+          "word_postproc": "At market prices",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ကာလပေါက်ဈေး",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

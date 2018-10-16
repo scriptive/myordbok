@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Simply",
+      "orig": "ရိုးရိုးတန်းတန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "roeroe taann taann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "simply, straight for wardly"
+      ],
+      "entry": [
+        {
+          "word": "simply, straight for wardly"
+        }
+      ],
+      "base_form": "ရိုးရိုးတန်းတန်း",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရိုးရိုး တန်း တန်း",
+      "alternative": [
+        {
+          "word_postproc": "Simply",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "ရိုးရိုးတန်းတန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

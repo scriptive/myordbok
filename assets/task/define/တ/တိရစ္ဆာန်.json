@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "animals",
+      "orig": "တိရစ္ဆာန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "tirahcsaran"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "animal"
+      ],
+      "entry": [
+        {
+          "word": "animal",
+          "reverse_translation": [
+            "တိရစာ္ဆန်"
+          ],
+          "score": 0.11219689
+        }
+      ],
+      "base_form": "တိရစ္ဆာန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တိရစ္ဆာန်",
+      "alternative": [
+        {
+          "word_postproc": "animals",
+          "score": 685,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "beast",
+          "score": 162,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "animal",
+          "score": 149,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the beasts",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the animal",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "တိရစ္ဆာန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Shed-roofed hut",
+      "orig": "တစ်ဖက်ယပ်တဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "taithpaat yaut tell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "shelter consisting of a single slanting roof",
+        "shed-roofed hut"
+      ],
+      "entry": [
+        {
+          "word": "shelter consisting of a single slanting roof"
+        },
+        {
+          "word": "shed-roofed hut"
+        }
+      ],
+      "base_form": "တစ်ဖက်ယပ်တဲ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တစ်ဖက် ယပ် တဲ",
+      "alternative": [
+        {
+          "word_postproc": "Shed-roofed hut",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "တစ်ဖက်ယပ်တဲ",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

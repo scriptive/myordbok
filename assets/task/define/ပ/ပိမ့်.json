@@ -1,0 +1,104 @@
+{
+  "sentences": [
+    {
+      "trans": "Papular eruption",
+      "orig": "ပိမ့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pi m "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "particle",
+      "terms": [
+        "abbreviation of ပေအံ့ ppm"
+      ],
+      "entry": [
+        {
+          "word": "abbreviation of ပေအံ့ ppm"
+        }
+      ],
+      "base_form": "ပိမ့်",
+      "pos_enum": 19
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "slightly dented"
+      ],
+      "entry": [
+        {
+          "word": "slightly dented"
+        }
+      ],
+      "base_form": "ပိမ့်",
+      "pos_enum": 3
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "papular eruption",
+        "heart suit"
+      ],
+      "entry": [
+        {
+          "word": "papular eruption"
+        },
+        {
+          "word": "heart suit"
+        }
+      ],
+      "base_form": "ပိမ့်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပိ မ့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Papular eruption",
+          "score": 895,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Slightly dented",
+          "score": 103,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Heart suit",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ပိမ့်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

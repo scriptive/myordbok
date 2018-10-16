@@ -1,0 +1,111 @@
+{
+  "sentences": [
+    {
+      "trans": "palm",
+      "orig": "အုန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "aone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "make a loud noise",
+        "boom",
+        "reverberate"
+      ],
+      "entry": [
+        {
+          "word": "make a loud noise"
+        },
+        {
+          "word": "boom"
+        },
+        {
+          "word": "reverberate"
+        }
+      ],
+      "base_form": "အုန်း",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "coconut palm",
+        "boom"
+      ],
+      "entry": [
+        {
+          "word": "coconut palm"
+        },
+        {
+          "word": "boom"
+        }
+      ],
+      "base_form": "အုန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အုန်း",
+      "alternative": [
+        {
+          "word_postproc": "palm",
+          "score": 857,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Ohn",
+          "score": 105,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "coconut",
+          "score": 35,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the coconut",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "on palm",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "အုန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

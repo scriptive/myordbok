@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "rain tree",
+      "orig": "ကုက္ကို",
+      "backend": 0
+    },
+    {
+      "src_translit": "kuk ko"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "kind of tree",
+        "rain tree"
+      ],
+      "entry": [
+        {
+          "word": "kind of tree"
+        },
+        {
+          "word": "rain tree"
+        }
+      ],
+      "base_form": "ကုက္ကို",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကုက္ ကို",
+      "alternative": [
+        {
+          "word_postproc": "rain tree",
+          "score": 845,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "kind of tree",
+          "score": 154,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကုက္ကို",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

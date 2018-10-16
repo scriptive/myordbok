@@ -1,0 +1,132 @@
+{
+  "sentences": [
+    {
+      "trans": "Pu",
+      "orig": "ပူး",
+      "backend": 0
+    },
+    {
+      "src_translit": "puu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "bring together",
+        "be close together",
+        "be stuck together",
+        "be in conjunction",
+        "be thick with sb",
+        "clasp together",
+        "stick together",
+        "stay close to each other",
+        "be possessed by"
+      ],
+      "entry": [
+        {
+          "word": "bring together",
+          "score": 0.0032329024
+        },
+        {
+          "word": "be close together"
+        },
+        {
+          "word": "be stuck together"
+        },
+        {
+          "word": "be in conjunction"
+        },
+        {
+          "word": "be thick with sb"
+        },
+        {
+          "word": "clasp together"
+        },
+        {
+          "word": "stick together"
+        },
+        {
+          "word": "stay close to each other"
+        },
+        {
+          "word": "be possessed by"
+        }
+      ],
+      "base_form": "ပူး",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "guinea-pig"
+      ],
+      "entry": [
+        {
+          "word": "guinea-pig"
+        }
+      ],
+      "base_form": "ပူး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပူး",
+      "alternative": [
+        {
+          "word_postproc": "Pu",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Kapoor",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "attachments",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "stuck together",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in conjunction",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ပူး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

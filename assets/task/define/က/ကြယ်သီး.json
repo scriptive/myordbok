@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "button",
+      "orig": "ကြယ်သီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaalsee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "button",
+        "stud"
+      ],
+      "entry": [
+        {
+          "word": "button",
+          "reverse_translation": [
+            "ကြယ်သီး"
+          ],
+          "synset_id": [
+            55345
+          ],
+          "score": 0.24506053
+        }
+      ],
+      "base_form": "ကြယ်သီး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြယ်သီး",
+      "alternative": [
+        {
+          "word_postproc": "button",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and buttoning",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "button my",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and buttoning my",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "buttoned",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကြယ်သီး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

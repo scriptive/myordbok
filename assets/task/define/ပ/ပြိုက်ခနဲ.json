@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "Trice",
+      "orig": "ပြိုက်ခနဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyaite hk nell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in an instance",
+        "in a trice"
+      ],
+      "entry": [
+        {
+          "word": "in an instance"
+        },
+        {
+          "word": "in a trice"
+        }
+      ],
+      "base_form": "‌ပြိုက်ခနဲ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြိုက် ခ နဲ",
+      "alternative": [
+        {
+          "word_postproc": "Trice",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A trice",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "An instance",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Instance",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ပြိုက်ခနဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

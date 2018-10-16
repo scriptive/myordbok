@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "Moving on",
+      "orig": "လူပြိန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "luu pyaein"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "layman",
+        "the uninitiated"
+      ],
+      "entry": [
+        {
+          "word": "layman"
+        },
+        {
+          "word": "the uninitiated"
+        }
+      ],
+      "base_form": "လူပြိန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လူ ပြိန်း",
+      "alternative": [
+        {
+          "word_postproc": "Moving on",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Moving",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the uninitiated",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "layman",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "လူပြိန်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

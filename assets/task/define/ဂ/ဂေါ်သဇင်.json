@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Kind of orchid",
+      "orig": "ဂေါ်သဇင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "gaw s jain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "kind of orchid",
+        "creeper bearing sprays of flowers"
+      ],
+      "entry": [
+        {
+          "word": "kind of orchid"
+        },
+        {
+          "word": "creeper bearing sprays of flowers"
+        }
+      ],
+      "base_form": "ဂေါ်သဇင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဂေါ် သ ဇင်",
+      "alternative": [
+        {
+          "word_postproc": "Kind of orchid",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဂေါ်သဇင်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

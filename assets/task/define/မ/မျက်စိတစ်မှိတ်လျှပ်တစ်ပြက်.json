@@ -1,0 +1,103 @@
+{
+  "sentences": [
+    {
+      "trans": "A snapshot of the twinkling of an eye",
+      "orig": "မျက်စိတစ်မှိတ်လျှပ်တစ်ပြက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "myethci tait mhaate shuttaitpyaat"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လျှပ်တစ်ပြက်",
+      "alternative": [
+        {
+          "word_postproc": "A snapshot of the",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A snapshot",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A snapshot of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Snapshot",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 14,
+          "end": 26
+        }
+      ],
+      "raw_src_segment": "မျက်စိတစ်မှိတ်လျှပ်တစ်ပြက်",
+      "start_pos": 0,
+      "end_pos": 4
+    },
+    {
+      "src_phrase": "တစ် မှိတ်",
+      "alternative": [
+        {
+          "word_postproc": "twinkling of an",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 14
+        }
+      ],
+      "start_pos": 4,
+      "end_pos": 7
+    },
+    {
+      "src_phrase": "မျက်စိ",
+      "alternative": [
+        {
+          "word_postproc": "eye",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "start_pos": 7,
+      "end_pos": 8
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

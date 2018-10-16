@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Buddhist nun",
+      "orig": "သောပ္ပယိုမ",
+      "backend": 0
+    },
+    {
+      "src_translit": "sawp p yo m"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "Buddhist nun"
+      ],
+      "entry": [
+        {
+          "word": "Buddhist nun"
+        }
+      ],
+      "base_form": "သောပ္ပယိုမ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သောပ္ ပ ယို မ",
+      "alternative": [
+        {
+          "word_postproc": "Buddhist nun",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "သောပ္ပယိုမ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

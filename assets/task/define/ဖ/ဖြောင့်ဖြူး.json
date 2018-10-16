@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Plain sailing",
+      "orig": "ဖြောင့်ဖြူး",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpyaww in  hpyauu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "straight and clear",
+        "plain sailing"
+      ],
+      "entry": [
+        {
+          "word": "straight and clear"
+        },
+        {
+          "word": "plain sailing"
+        }
+      ],
+      "base_form": "ဖြောင့်ဖြူး",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖြော င့ ် ဖြူး",
+      "alternative": [
+        {
+          "word_postproc": "Plain sailing",
+          "score": 984,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Straight and clear",
+          "score": 15,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ဖြောင့်ဖြူး",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

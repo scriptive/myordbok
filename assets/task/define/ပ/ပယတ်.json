@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Glorified",
+      "orig": "ပယတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "p yaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "manner of articulation"
+      ],
+      "entry": [
+        {
+          "word": "manner of articulation"
+        }
+      ],
+      "base_form": "ပယတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယတ်",
+      "alternative": [
+        {
+          "word_postproc": "Glorified",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "term",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ပယတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

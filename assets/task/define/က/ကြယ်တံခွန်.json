@@ -1,0 +1,69 @@
+{
+  "sentences": [
+    {
+      "trans": "comet",
+      "orig": "ကြယ်တံခွန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaaltanhkwan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "comet"
+      ],
+      "entry": [
+        {
+          "word": "comet",
+          "reverse_translation": [
+            "ကြယ်တံခွန်"
+          ],
+          "synset_id": [
+            105741
+          ],
+          "score": 0.362176
+        }
+      ],
+      "base_form": "ကြယ်တံခွန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြယ်တံခွန်",
+      "alternative": [
+        {
+          "word_postproc": "comet",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ကြယ်တံခွန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

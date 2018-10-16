@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "prison",
+      "orig": "ထောင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "htaung"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "prison",
+        "jail"
+      ],
+      "entry": [
+        {
+          "word": "prison",
+          "reverse_translation": [
+            "ထောင်"
+          ],
+          "score": 0.094479255
+        },
+        {
+          "word": "jail",
+          "reverse_translation": [
+            "ထောင်"
+          ],
+          "score": 0.011642128
+        }
+      ],
+      "base_form": "ထောင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထောင်",
+      "alternative": [
+        {
+          "word_postproc": "prison",
+          "score": 994,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "jail",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in prison",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "prisons",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ထောင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

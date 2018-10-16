@@ -1,0 +1,87 @@
+{
+  "sentences": [
+    {
+      "trans": "consul",
+      "orig": "ကောင်စစ်ဝန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kaunghcaitwaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "consul"
+      ],
+      "entry": [
+        {
+          "word": "consul",
+          "reverse_translation": [
+            "ကောင်စစ်ဝန်"
+          ],
+          "synset_id": [
+            34799
+          ],
+          "score": 0.14633234
+        }
+      ],
+      "base_form": "ကောင်စစ်ဝန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကောင်စစ်ဝန်",
+      "alternative": [
+        {
+          "word_postproc": "consul",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "consular",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Consulate",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a consular",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ကောင်စစ်ဝန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

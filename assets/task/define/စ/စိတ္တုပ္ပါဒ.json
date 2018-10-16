@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Emotions and thoughts",
+      "orig": "စိတ္တုပ္ပါဒ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcit tup par d"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စိတ် တုပ် ပါ",
+      "alternative": [
+        {
+          "word_postproc": "Emotions and thoughts",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "စိတ္တုပ္ပါဒ",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

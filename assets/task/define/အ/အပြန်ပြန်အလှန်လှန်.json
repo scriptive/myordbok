@@ -1,0 +1,53 @@
+{
+  "sentences": [
+    {
+      "trans": "Back and forth",
+      "orig": "အပြန်ပြန်အလှန်လှန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "a pyanpyan aalhaan lhaan"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ ပြန်ပြန် အလှန် လှန်",
+      "alternative": [
+        {
+          "word_postproc": "Back and forth",
+          "score": 534,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Over and over",
+          "score": 465,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 18
+        }
+      ],
+      "raw_src_segment": "အပြန်ပြန်အလှန်လှန်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

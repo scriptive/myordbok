@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Someone",
+      "orig": "တစ်စုံတစ်ဦး",
+      "backend": 0
+    },
+    {
+      "src_translit": "taithcone tait u"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "pronoun",
+      "terms": [
+        "someone",
+        "somebody"
+      ],
+      "entry": [
+        {
+          "word": "somebody",
+          "reverse_translation": [
+            "တယောက်ယောက်"
+          ]
+        }
+      ],
+      "base_form": "တစ်စုံတစ်ဦး",
+      "pos_enum": 8
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တစ်စုံ တစ် ဦး",
+      "alternative": [
+        {
+          "word_postproc": "Someone",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "If someone",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Someone else",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Someone has",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Someone to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "တစ်စုံတစ်ဦး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

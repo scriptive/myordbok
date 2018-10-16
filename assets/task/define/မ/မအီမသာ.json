@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Does not",
+      "orig": "မအီမသာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "m ae m sar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "out of sorts"
+      ],
+      "entry": [
+        {
+          "word": "out of sorts"
+        }
+      ],
+      "base_form": "မအီမသာ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မ အီ မ သာ",
+      "alternative": [
+        {
+          "word_postproc": "Does not",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "မအီမသာ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

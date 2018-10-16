@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "uncle",
+      "orig": "ဘကြီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "bhakyee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "uncle",
+        "elder brother of one's father",
+        "husband of the elder sister of one's mother",
+        "respectful term used in addressing men older than one's father"
+      ],
+      "entry": [
+        {
+          "word": "uncle",
+          "reverse_translation": [
+            "ဘကြီး",
+            "ဉီးရေး"
+          ],
+          "synset_id": [
+            59912
+          ],
+          "score": 0.062936753
+        }
+      ],
+      "base_form": "ဘကြီး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘကြီး",
+      "alternative": [
+        {
+          "word_postproc": "uncle",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "enroll",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Marshall",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Powered",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": ".Students",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဘကြီး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

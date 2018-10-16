@@ -1,0 +1,134 @@
+{
+  "sentences": [
+    {
+      "trans": "you",
+      "orig": "သင်",
+      "backend": 1
+    },
+    {
+      "src_translit": "sain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "pronoun",
+      "terms": [
+        "you"
+      ],
+      "entry": [
+        {
+          "word": "you",
+          "reverse_translation": [
+            "ခင်ဗျား",
+            "မင်း",
+            "ခင်ဗျားတို့"
+          ],
+          "score": 0.39160562
+        }
+      ],
+      "base_form": "သင်",
+      "pos_enum": 8
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "learn",
+        "remove undesirable vegetate matter",
+        "peel",
+        "weed",
+        "teach",
+        "train"
+      ],
+      "entry": [
+        {
+          "word": "learn",
+          "reverse_translation": [
+            "သင်ကြား"
+          ],
+          "synset_id": [
+            95802
+          ],
+          "score": 0.0034414066
+        },
+        {
+          "word": "peel",
+          "reverse_translation": [
+            "အခွံနွှာ"
+          ]
+        },
+        {
+          "word": "teach",
+          "reverse_translation": [
+            "သင်ပေး"
+          ],
+          "synset_id": [
+            95802
+          ]
+        },
+        {
+          "word": "train",
+          "reverse_translation": [
+            "ယဉ်အောင်လုပ်",
+            "သင်ကြားလေ့ကျင့်ပေး"
+          ]
+        }
+      ],
+      "base_form": "သင်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "august personage",
+        "\"arhat\"",
+        "monk",
+        "kind of reed used for making mats"
+      ],
+      "entry": [
+        {
+          "word": "monk",
+          "reverse_translation": [
+            "ဘုန်းကြီး"
+          ]
+        }
+      ],
+      "base_form": "သင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သင်",
+      "alternative": [
+        {
+          "word_postproc": "you",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "သင်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

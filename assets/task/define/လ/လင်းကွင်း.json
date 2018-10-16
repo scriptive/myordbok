@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "cymbal",
+      "orig": "လင်းကွင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "lainn kwin"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "cymbals"
+      ],
+      "entry": [
+        {
+          "word": "cymbals"
+        }
+      ],
+      "base_form": "လင်းကွင်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လင်း ကွင်း",
+      "alternative": [
+        {
+          "word_postproc": "cymbal",
+          "score": 958,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cymbals",
+          "score": 41,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "လင်းကွင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

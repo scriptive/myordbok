@@ -1,0 +1,236 @@
+{
+  "sentences": [
+    {
+      "trans": "received",
+      "orig": "ခံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "receive",
+        "stand",
+        "accept",
+        "bear",
+        "suffer",
+        "endure",
+        "tolerate",
+        "last",
+        "be in the way",
+        "sth under",
+        "place",
+        "cushion",
+        "obstruct",
+        "enjoy",
+        "withstand",
+        "resist",
+        "catch",
+        "collect",
+        "intercept"
+      ],
+      "entry": [
+        {
+          "word": "receive",
+          "reverse_translation": [
+            "ခံယူ"
+          ],
+          "score": 0.03758125
+        },
+        {
+          "word": "stand",
+          "reverse_translation": [
+            "ရပ်နေ"
+          ],
+          "synset_id": [
+            42987,
+            51050
+          ],
+          "score": 0.012786376
+        },
+        {
+          "word": "accept",
+          "reverse_translation": [
+            "သဘောတူလက်ခံ"
+          ],
+          "synset_id": [
+            110488
+          ],
+          "score": 0.011642128
+        },
+        {
+          "word": "bear",
+          "reverse_translation": [
+            "ခံယူ"
+          ],
+          "synset_id": [
+            42987,
+            110488
+          ],
+          "score": 0.0087879393
+        },
+        {
+          "word": "suffer",
+          "reverse_translation": [
+            "ခံစား"
+          ],
+          "synset_id": [
+            42987
+          ],
+          "score": 0.0087879393
+        },
+        {
+          "word": "endure",
+          "reverse_translation": [
+            "တည်နေ"
+          ],
+          "synset_id": [
+            42987,
+            44142
+          ],
+          "score": 0.0025574362
+        },
+        {
+          "word": "tolerate",
+          "reverse_translation": [
+            "သည်းခံနေ"
+          ],
+          "synset_id": [
+            42987
+          ]
+        },
+        {
+          "word": "place",
+          "reverse_translation": [
+            "ထား"
+          ]
+        },
+        {
+          "word": "obstruct",
+          "reverse_translation": [
+            "ပိတ်ဆို့ထား"
+          ]
+        },
+        {
+          "word": "enjoy",
+          "reverse_translation": [
+            "နှစ်သက်"
+          ]
+        },
+        {
+          "word": "withstand",
+          "reverse_translation": [
+            "ခုခံ"
+          ],
+          "synset_id": [
+            102514
+          ]
+        },
+        {
+          "word": "resist",
+          "reverse_translation": [
+            "ခုခံ"
+          ],
+          "synset_id": [
+            51050,
+            102514
+          ]
+        },
+        {
+          "word": "catch",
+          "reverse_translation": [
+            "ဖမ်း"
+          ]
+        },
+        {
+          "word": "collect",
+          "reverse_translation": [
+            "စုဝေး"
+          ]
+        }
+      ],
+      "base_form": "ခံ",
+      "pos_enum": 2
+    },
+    {
+      "pos": "adverb",
+      "terms": [
+        "back"
+      ],
+      "entry": [
+        {
+          "word": "back",
+          "reverse_translation": [
+            "ပြန်၍"
+          ],
+          "score": 0.0031827807
+        }
+      ],
+      "base_form": "ခံ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခံ",
+      "alternative": [
+        {
+          "word_postproc": "received",
+          "score": 485,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "being",
+          "score": 320,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "receive",
+          "score": 152,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "been",
+          "score": 33,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "have been",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ခံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

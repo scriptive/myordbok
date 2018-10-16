@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "make obeisance",
+      "orig": "ညွတ်တုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nywat tote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "make obeisance"
+      ],
+      "entry": [
+        {
+          "word": "make obeisance"
+        }
+      ],
+      "base_form": "ညွတ်တုပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညွတ် တုပ်",
+      "alternative": [
+        {
+          "word_postproc": "make obeisance",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ညွတ်တုပ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

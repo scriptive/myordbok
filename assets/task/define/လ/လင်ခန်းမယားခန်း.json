@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "Connubial",
+      "orig": "လင်ခန်းမယားခန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "lain hkaann mayarr hkaann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "connubial state",
+        "marriage"
+      ],
+      "entry": [
+        {
+          "word": "marriage",
+          "reverse_translation": [
+            "အိမ်ထောင်ခြင်း"
+          ]
+        }
+      ],
+      "base_form": "လင်ခန်းမယားခန်း ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လင် ခန်း မယား ခန်း",
+      "alternative": [
+        {
+          "word_postproc": "Connubial",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Connubial state",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Marriage",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "လင်ခန်းမယားခန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

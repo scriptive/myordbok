@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Alphabetical order",
+      "orig": "အက္ခရာဝလိ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aakhkarar w li"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "alphabetical order"
+      ],
+      "entry": [
+        {
+          "word": "alphabetical order"
+        }
+      ],
+      "base_form": "အက္ခရာဝလိ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အက္ခရာ ဝ လိ",
+      "alternative": [
+        {
+          "word_postproc": "Alphabetical order",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အက္ခရာဝလိ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

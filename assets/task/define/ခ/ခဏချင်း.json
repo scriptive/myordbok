@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "within a short time",
+      "orig": "ခဏချင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkan hkyinn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "within a short time"
+      ],
+      "entry": [
+        {
+          "word": "within a short time"
+        }
+      ],
+      "base_form": "ခဏချင်း",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခဏ ချင်း",
+      "alternative": [
+        {
+          "word_postproc": "within a short time",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ခဏချင်း",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

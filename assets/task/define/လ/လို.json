@@ -1,0 +1,96 @@
+{
+  "sentences": [
+    {
+      "trans": "need",
+      "orig": "လို",
+      "backend": 1
+    },
+    {
+      "src_translit": "lo"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "need",
+        "want",
+        "desire",
+        "lack",
+        "wish for",
+        "short of a certain point of reference"
+      ],
+      "entry": [
+        {
+          "word": "need",
+          "reverse_translation": [
+            "လိုအပ်"
+          ],
+          "synset_id": [
+            100968
+          ],
+          "score": 0.053832658
+        },
+        {
+          "word": "want",
+          "reverse_translation": [
+            "အလိုရှိ",
+            "လိုအပ်"
+          ],
+          "synset_id": [
+            100968,
+            109131
+          ],
+          "score": 0.041274928
+        },
+        {
+          "word": "desire",
+          "reverse_translation": [
+            "အလိုရှိ"
+          ],
+          "synset_id": [
+            109131
+          ],
+          "score": 0.0077553294
+        }
+      ],
+      "base_form": "လို",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လို",
+      "alternative": [
+        {
+          "word_postproc": "need",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "လို",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

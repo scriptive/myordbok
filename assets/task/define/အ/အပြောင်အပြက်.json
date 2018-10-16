@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "Frivolity",
+      "orig": "အပြောင်အပြက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "a pyaung a pyaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "joke",
+        "jest",
+        "frivolity"
+      ],
+      "entry": [
+        {
+          "word": "joke",
+          "reverse_translation": [
+            "ပြက်ရယ်စကား"
+          ],
+          "synset_id": [
+            1042
+          ]
+        }
+      ],
+      "base_form": "အပြောင်အပြက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ ပြောင် အ ပြက်",
+      "alternative": [
+        {
+          "word_postproc": "Frivolity",
+          "score": 687,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Jest",
+          "score": 308,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Joke",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "အပြောင်အပြက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

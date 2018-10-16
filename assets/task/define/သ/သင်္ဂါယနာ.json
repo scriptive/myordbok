@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Buddhist synod",
+      "orig": "သင်္ဂါယနာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "sain gar y nar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "Buddhist synod"
+      ],
+      "entry": [
+        {
+          "word": "Buddhist synod"
+        }
+      ],
+      "base_form": "သင်္ဂါယနာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သင်္ ဂါ ယ နာ",
+      "alternative": [
+        {
+          "word_postproc": "Buddhist synod",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "သင်္ဂါယနာ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

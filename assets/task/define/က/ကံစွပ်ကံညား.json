@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "With luck",
+      "orig": "ကံစွပ်ကံညား",
+      "backend": 0
+    },
+    {
+      "src_translit": "kan hcwut kan nyarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "with luck"
+      ],
+      "entry": [
+        {
+          "word": "with luck"
+        }
+      ],
+      "base_form": "ကံစွပ်ကံညား",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကံ စွပ် ကံ ညား",
+      "alternative": [
+        {
+          "word_postproc": "With luck",
+          "score": 996,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Luck",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ကံစွပ်ကံညား",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "sentences": [
+    {
+      "trans": "row",
+      "orig": "တန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "taann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "class",
+        "row",
+        "line",
+        "standard",
+        "beam",
+        "bar, stick, rod, etc placed horizontally at a certain height",
+        "rope",
+        "wire, etc stretched across at a certain height",
+        "column",
+        "form",
+        "row of cells in a prison"
+      ],
+      "entry": [
+        {
+          "word": "class",
+          "reverse_translation": [
+            "အမျိုးအစား"
+          ],
+          "synset_id": [
+            84049
+          ],
+          "score": 0.02582919
+        },
+        {
+          "word": "row",
+          "reverse_translation": [
+            "အတန်း"
+          ],
+          "score": 0.020432571
+        },
+        {
+          "word": "line",
+          "reverse_translation": [
+            "အတန်း",
+            "လူတန်း",
+            "မျဉ်းကေြာင်း"
+          ],
+          "score": 0.017476905
+        },
+        {
+          "word": "standard",
+          "reverse_translation": [
+            "စံ"
+          ],
+          "score": 0.0026801701
+        },
+        {
+          "word": "beam",
+          "reverse_translation": [
+            "ရောင်ခြည်",
+            "တန်း"
+          ],
+          "score": 0.00095564412
+        },
+        {
+          "word": "rope",
+          "reverse_translation": [
+            "ကြိုးကြီး"
+          ]
+        },
+        {
+          "word": "column",
+          "reverse_translation": [
+            "ကေျာက်တိုင်"
+          ]
+        },
+        {
+          "word": "form",
+          "reverse_translation": [
+            "ပုံသဏ္ဌာန်"
+          ],
+          "synset_id": [
+            84049
+          ]
+        }
+      ],
+      "base_form": "တန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တန်း",
+      "alternative": [
+        {
+          "word_postproc": "row",
+          "score": 974,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "grade",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rows",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bar",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "class",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "တန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "In point of fact",
+      "orig": "အဟုတ်အဟတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "a hote aahaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in truth",
+        "in point of fact"
+      ],
+      "entry": [
+        {
+          "word": "in truth"
+        },
+        {
+          "word": "in point of fact"
+        }
+      ],
+      "base_form": "အဟုတ်အဟတ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ ဟုတ် အဟတ်",
+      "alternative": [
+        {
+          "word_postproc": "In point of fact",
+          "score": 993,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "In truth",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အဟုတ်အဟတ်",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

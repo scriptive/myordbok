@@ -5,9 +5,14 @@ html(lang='en')
       meta(charset='utf-8')
       title= title
       base(href='/')
+      link(rel='api', href='api')
       link(rel='icon', href='favicon.png' type='image/png')
+      script(src='https://code.jquery.com/jquery-3.3.1.min.js')
+      script.
+        $(function(){
+          $(document).MyOrdbok(['suggest ready','toggle menu','zA','zO']);
+        });
   body.home
-    h1#delete Hello World
     div.primary
       block bar
         div.portal#bar
@@ -19,22 +24,6 @@ html(lang='en')
                 include barUser
       block header
       block content
-        div.portal#content
-          div.resize.center
-            div.modest
-              div.logo
-                ol(data-lang="en").menu.dictionary#MyOrdbok-logo
-                  li.dictionary
-                    a(href="/dictionary")
-                      span English
-                      span Myanmar
-              div.search
-                form(name='search' method='get' action='/definition').abc
-                  p
-                    input(type="search" name="q" value="" placeholder=" ...Search" autocomplete="off")
-                  p
-                    button(type="submit" id="search") &#xe83d;
-                  div#suggest
       block footer
 
     script(type='text/javascript', src='/script.js')

@@ -1,0 +1,88 @@
+{
+  "sentences": [
+    {
+      "trans": "Far",
+      "orig": "တစ်မျှော်တစ်ခေါ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "tait myahaaw tait hkaw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "afar",
+        "far off",
+        "far away"
+      ],
+      "entry": [
+        {
+          "word": "afar"
+        },
+        {
+          "word": "far off"
+        },
+        {
+          "word": "far away"
+        }
+      ],
+      "base_form": "တစ်မျှော်တစ်ခေါ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တစ် မျှော် တစ် ခေါ်",
+      "alternative": [
+        {
+          "word_postproc": "Far",
+          "score": 641,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Afar",
+          "score": 338,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Far away",
+          "score": 18,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Far off",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "တစ်မျှော်တစ်ခေါ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

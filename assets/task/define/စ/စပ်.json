@@ -1,0 +1,145 @@
+{
+  "sentences": [
+    {
+      "trans": "Relationship",
+      "orig": "စပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "edge",
+        "one of a pair of semi-circular planks forming a spokeless cart wheel",
+        "cage for prisoners"
+      ],
+      "entry": [
+        {
+          "word": "edge",
+          "reverse_translation": [
+            "အစပ်"
+          ],
+          "score": 0.0050860695
+        }
+      ],
+      "base_form": "စပ်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "compound",
+        "compose",
+        "adjoin",
+        "be adjacent",
+        "be in contact",
+        "be connected",
+        "concerned with",
+        "join things together",
+        "mix things",
+        "blend",
+        "be related to",
+        "versify",
+        "negotiate",
+        "have sexual relations",
+        "smart"
+      ],
+      "entry": [
+        {
+          "word": "blend",
+          "reverse_translation": [
+            "ရောနေှာ"
+          ]
+        },
+        {
+          "word": "negotiate",
+          "reverse_translation": [
+            "စေ့စပ်ဆေွးနေွး"
+          ]
+        }
+      ],
+      "base_form": "စပ်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "hot",
+        "stinging"
+      ],
+      "entry": [
+        {
+          "word": "hot",
+          "reverse_translation": [
+            "ပူသော"
+          ]
+        }
+      ],
+      "base_form": "စပ်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စပ်",
+      "alternative": [
+        {
+          "word_postproc": "Relationship",
+          "score": 994,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mouth",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "spicy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hybrid",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "poets",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "စပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "sentences": [
+    {
+      "trans": "Cannes",
+      "orig": "ကိန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "kein"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "number",
+        "predestined event",
+        "probability"
+      ],
+      "entry": [
+        {
+          "word": "number",
+          "reverse_translation": [
+            "ဂဏန်း"
+          ],
+          "score": 0.10057265
+        },
+        {
+          "word": "probability",
+          "reverse_translation": [
+            "ဖြစ်နိုင်ဘွယ်ရှိခြင်း"
+          ]
+        }
+      ],
+      "base_form": "ကိန်း",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "live",
+        "dwell",
+        "enshrine"
+      ],
+      "entry": [
+        {
+          "word": "live",
+          "reverse_translation": [
+            "နေထိုင်"
+          ],
+          "synset_id": [
+            107858
+          ],
+          "score": 0.003084857
+        }
+      ],
+      "base_form": "ကိန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိန်း",
+      "alternative": [
+        {
+          "word_postproc": "Cannes",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Keane",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Kane",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "coefficients",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Coefficient",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကိန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

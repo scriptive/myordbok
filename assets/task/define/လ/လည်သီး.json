@@ -1,0 +1,96 @@
+{
+  "sentences": [
+    {
+      "trans": "fruit",
+      "orig": "လည်သီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "lai see"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "juncture of the stem and crown of a palm tree",
+        "part of a pagoda between ငှက်ဖျောဖူး and သပိတ်မှောက်",
+        "dependable pupil",
+        "follower",
+        "walls of လည်ပေါ်"
+      ],
+      "entry": [
+        {
+          "word": "juncture of the stem and crown of a palm tree"
+        },
+        {
+          "word": "part of a pagoda between ငှက်ဖျောဖူး and သပိတ်မှောက်"
+        },
+        {
+          "word": "dependable pupil"
+        },
+        {
+          "word": "follower"
+        },
+        {
+          "word": "walls of လည်ပေါ်"
+        }
+      ],
+      "base_form": "လည်သီး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သီး",
+      "alternative": [
+        {
+          "word_postproc": "fruit",
+          "score": 501,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the fruit",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "berries",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fruits",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "လည်သီး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

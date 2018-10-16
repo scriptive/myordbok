@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "referring to",
+      "orig": "ရည်ညွှန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "rainywhaann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "refer to",
+        "make a reference to"
+      ],
+      "entry": [
+        {
+          "word": "refer to",
+          "score": 0.046045512
+        },
+        {
+          "word": "make a reference to"
+        }
+      ],
+      "base_form": "ရည်ညွှန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရည်ညွှန်း",
+      "alternative": [
+        {
+          "word_postproc": "referring to",
+          "score": 565,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "referred to",
+          "score": 245,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "refer to",
+          "score": 100,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "refers to",
+          "score": 51,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "referred",
+          "score": 21,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ရည်ညွှန်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

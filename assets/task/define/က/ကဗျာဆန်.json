@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "poetic",
+      "orig": "ကဗျာဆန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kabyaar saan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "poetic",
+        "lyrical"
+      ],
+      "entry": [
+        {
+          "word": "poetic"
+        },
+        {
+          "word": "lyrical"
+        }
+      ],
+      "base_form": "ကဗျာဆန်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကဗျာ ဆန်",
+      "alternative": [
+        {
+          "word_postproc": "poetic",
+          "score": 580,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lyrical",
+          "score": 419,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကဗျာဆန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

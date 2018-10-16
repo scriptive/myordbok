@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "Islands",
+      "orig": "ကျွန်းစု",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawannhcu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "archipelago"
+      ],
+      "entry": [
+        {
+          "word": "archipelago",
+          "reverse_translation": [
+            "ကျွန်းစုံ"
+          ],
+          "score": 0.038774207
+        }
+      ],
+      "base_form": "ကျွန်းစု",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျွန်းစု",
+      "alternative": [
+        {
+          "word_postproc": "Islands",
+          "score": 913,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Archipelago",
+          "score": 86,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the archipelago",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of islands",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကျွန်းစု",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

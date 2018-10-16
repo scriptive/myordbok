@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Snail",
+      "orig": "ခရုပက်ကျိ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaru paat kyai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "snail"
+      ],
+      "entry": [
+        {
+          "word": "snail",
+          "reverse_translation": [
+            "ခရုပက်ကျိ"
+          ],
+          "synset_id": [
+            78804
+          ]
+        }
+      ],
+      "base_form": "ခရုပက်ကျိ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခရု ပက် ကျိ",
+      "alternative": [
+        {
+          "word_postproc": "Snail",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ခရုပက်ကျိ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

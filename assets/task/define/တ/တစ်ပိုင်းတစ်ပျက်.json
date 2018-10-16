@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Part of",
+      "orig": "တစ်ပိုင်းတစ်ပျက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "taitpine tait pyet"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "part of sth"
+      ],
+      "entry": [
+        {
+          "word": "part of sth"
+        }
+      ],
+      "base_form": "တစ်ပိုင်းတစ်ပျက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တစ်ပိုင်း တစ် ပျက်",
+      "alternative": [
+        {
+          "word_postproc": "Part of",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "တစ်ပိုင်းတစ်ပျက်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

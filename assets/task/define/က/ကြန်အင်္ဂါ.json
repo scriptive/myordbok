@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "Mark",
+      "orig": "ကြန်အင်္ဂါ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyan aain gar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "distinctive",
+        "significant",
+        "prominent sign",
+        "mark"
+      ],
+      "entry": [
+        {
+          "word": "mark",
+          "reverse_translation": [
+            "အမှတ်"
+          ]
+        }
+      ],
+      "base_form": "ကြန်အင်္ဂါ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြန် အင်္ ဂါ",
+      "alternative": [
+        {
+          "word_postproc": "Mark",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Distinctive",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Significant",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Prominent sign",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ကြန်အင်္ဂါ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

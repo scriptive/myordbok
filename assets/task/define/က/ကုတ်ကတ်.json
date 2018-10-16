@@ -1,0 +1,87 @@
+{
+  "sentences": [
+    {
+      "trans": "stingy",
+      "orig": "ကုတ်ကတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kote kaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "with difficulty"
+      ],
+      "entry": [
+        {
+          "word": "with difficulty"
+        }
+      ],
+      "base_form": "ကုတ်ကတ်",
+      "pos_enum": 4
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "be stingy"
+      ],
+      "entry": [
+        {
+          "word": "be stingy"
+        }
+      ],
+      "base_form": "ကုတ်ကတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကုတ် ကတ်",
+      "alternative": [
+        {
+          "word_postproc": "stingy",
+          "score": 600,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "difficulty",
+          "score": 388,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "with difficulty",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကုတ်ကတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

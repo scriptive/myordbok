@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "brother",
+      "orig": "ညီ",
+      "backend": 1
+    },
+    {
+      "src_translit": "nye"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "brother",
+        "younger brother"
+      ],
+      "entry": [
+        {
+          "word": "brother",
+          "reverse_translation": [
+            "ညီ",
+            "အစ်ကို"
+          ],
+          "score": 0.12131377
+        }
+      ],
+      "base_form": "ညီ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညီ",
+      "alternative": [
+        {
+          "word_postproc": "brother",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ညီ",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

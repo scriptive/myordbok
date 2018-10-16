@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Around surroundings",
+      "orig": "ပတ်ကုံးဝန်းကျင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "paat kone waannkyin"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝန်းကျင်",
+      "alternative": [
+        {
+          "word_postproc": "Around",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Environment",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "ပတ်ကုံးဝန်းကျင်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ပတ် ကုံး",
+      "alternative": [
+        {
+          "word_postproc": "surroundings",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

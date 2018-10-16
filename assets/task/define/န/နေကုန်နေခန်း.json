@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "From",
+      "orig": "နေကုန်နေခန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "nay kone nay hkaann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "the whole day."
+      ],
+      "entry": [
+        {
+          "word": "the whole day."
+        }
+      ],
+      "base_form": "နေကုန်နေခန်း",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နေ",
+      "alternative": [
+        {
+          "word_postproc": "From",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "While",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "နေကုန်နေခန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

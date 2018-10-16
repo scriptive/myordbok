@@ -1,0 +1,116 @@
+{
+  "sentences": [
+    {
+      "trans": "strategy",
+      "orig": "ဗျူဟာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "byauuhar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "host",
+        "deployment",
+        "display",
+        "military science",
+        "legion",
+        "horde",
+        "tactics concerning deployment of troops"
+      ],
+      "entry": [
+        {
+          "word": "host",
+          "reverse_translation": [
+            "ဧည့်သည်"
+          ],
+          "synset_id": [
+            53688
+          ],
+          "score": 0.0046309186
+        },
+        {
+          "word": "display",
+          "reverse_translation": [
+            "ရုပ်ထင်မှန်သား"
+          ],
+          "score": 0.003084857
+        },
+        {
+          "word": "legion",
+          "reverse_translation": [
+            "လီဂျင်တပ်ဖဲွ"
+          ],
+          "synset_id": [
+            53688
+          ],
+          "score": 0.003084857
+        }
+      ],
+      "base_form": "ဗျူဟာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗျူဟာ",
+      "alternative": [
+        {
+          "word_postproc": "strategy",
+          "score": 883,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "strategic",
+          "score": 55,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The Strategic",
+          "score": 38,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "strategically",
+          "score": 22,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "another tactic",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဗျူဟာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

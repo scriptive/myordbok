@@ -1,0 +1,87 @@
+{
+  "sentences": [
+    {
+      "trans": "caterpillar",
+      "orig": "ခူ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkuu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "caterpillar",
+        "jelly-fish",
+        "transverse brace in the frame of a loom",
+        "treadle device consisting of a trough turning on a pivot"
+      ],
+      "entry": [
+        {
+          "word": "caterpillar",
+          "reverse_translation": [
+            "ခူကောင်"
+          ],
+          "score": 0.086024337
+        }
+      ],
+      "base_form": "ခူ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခူ",
+      "alternative": [
+        {
+          "word_postproc": "caterpillar",
+          "score": 904,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Khu",
+          "score": 71,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "gallery",
+          "score": 24,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "with Armenian",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ခူ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

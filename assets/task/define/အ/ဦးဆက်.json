@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "U",
+      "orig": "ဦးဆက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "u saat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "place where the atlas joins the skull",
+        "base of the skull"
+      ],
+      "entry": [
+        {
+          "word": "place where the atlas joins the skull"
+        },
+        {
+          "word": "base of the skull"
+        }
+      ],
+      "base_form": "ဦးဆက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဦး",
+      "alternative": [
+        {
+          "word_postproc": "U",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Oo",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "first",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "two",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ဦးဆက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

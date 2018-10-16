@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "Siege camp",
+      "orig": "မြို့သိမ်းတပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "myahoet saim taut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "siege unit"
+      ],
+      "entry": [
+        {
+          "word": "siege unit"
+        }
+      ],
+      "base_form": "မြို့သိမ်းတပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မြို့ သိမ်း",
+      "alternative": [
+        {
+          "word_postproc": "Siege",
+          "score": 780,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "မြို့သိမ်းတပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "တပ်",
+      "alternative": [
+        {
+          "word_postproc": "camp",
+          "score": 780,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 10,
+          "end": 13
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

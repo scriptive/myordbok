@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Royal city",
+      "orig": "ရာဇဓာနီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "rarj dhar ne"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "capital where a king resides",
+        "royal city"
+      ],
+      "entry": [
+        {
+          "word": "capital where a king resides"
+        },
+        {
+          "word": "royal city"
+        }
+      ],
+      "base_form": "ရာဇဓာနီ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရာဇ ဓာ နီ",
+      "alternative": [
+        {
+          "word_postproc": "Royal city",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ရာဇဓာနီ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

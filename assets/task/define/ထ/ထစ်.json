@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "shelf",
+      "orig": "ထစ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "htait"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "stutter",
+        "stammer",
+        "emit a loud noise",
+        "sound",
+        "make a nick,notch",
+        "have a hitch"
+      ],
+      "entry": [
+        {
+          "word": "stutter",
+          "reverse_translation": [
+            "စကားထစ်"
+          ],
+          "synset_id": [
+            4916
+          ],
+          "score": 0.0083855102
+        }
+      ],
+      "base_form": "ထစ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထစ်",
+      "alternative": [
+        {
+          "word_postproc": "shelf",
+          "score": 673,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "notch",
+          "score": 203,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ledge",
+          "score": 122,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "indentation",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "settle",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ထစ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "ထန်ထန်",
+      "orig": "ထန်ထန်မာမာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "htaanhtaan mar mar"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထန်ထန်",
+      "alternative": [
+        {
+          "word_postproc": "ထန်ထန်",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ထန်ထန်မာမာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

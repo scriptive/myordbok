@@ -1,0 +1,107 @@
+{
+  "sentences": [
+    {
+      "trans": "under",
+      "orig": "အောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "preposition",
+      "terms": [
+        "under"
+      ],
+      "entry": [
+        {
+          "word": "under",
+          "reverse_translation": [
+            "အောက်"
+          ],
+          "score": 0.25682124
+        }
+      ],
+      "base_form": "အောက်",
+      "pos_enum": 5
+    },
+    {
+      "pos": "adverb",
+      "terms": [
+        "underneath"
+      ],
+      "entry": [
+        {
+          "word": "underneath",
+          "reverse_translation": [
+            "အောက်"
+          ],
+          "score": 0.0044884402
+        }
+      ],
+      "base_form": "အောက်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အောက်",
+      "alternative": [
+        {
+          "word_postproc": "under",
+          "score": 940,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "underneath",
+          "score": 59,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "it under",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "below the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lower",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "အောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

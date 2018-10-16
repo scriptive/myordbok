@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "God of love",
+      "orig": "သတ္တဘာဂနတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "satt bhar g naat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "god of love"
+      ],
+      "entry": [
+        {
+          "word": "god of love"
+        }
+      ],
+      "base_form": "သတ္တဘာဂနတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သတ္တ ဘာ ဂ နတ်",
+      "alternative": [
+        {
+          "word_postproc": "God of love",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "သတ္တဘာဂနတ်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

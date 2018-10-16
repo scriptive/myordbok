@@ -1,0 +1,76 @@
+{
+  "sentences": [
+    {
+      "trans": "Good",
+      "orig": "သူကောင်းသား",
+      "backend": 0
+    },
+    {
+      "src_translit": "suu kaungg sarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "man of good character",
+        "a noble",
+        "term used as pseudo praise,in derision"
+      ],
+      "entry": [
+        {
+          "word": "man of good character"
+        },
+        {
+          "word": "a noble"
+        },
+        {
+          "word": "term used as pseudo praise,in derision"
+        }
+      ],
+      "base_form": "သူကောင်းသား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကောင်း",
+      "alternative": [
+        {
+          "word_postproc": "Good",
+          "score": 979,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Well",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "သူကောင်းသား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

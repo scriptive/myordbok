@@ -1,0 +1,85 @@
+{
+  "sentences": [
+    {
+      "trans": "frivolous",
+      "orig": "သိမ်ဖျင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "sain hpyinn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "inferior",
+        "frivolous",
+        "idle"
+      ],
+      "entry": [
+        {
+          "word": "inferior",
+          "reverse_translation": [
+            "အောက်သော"
+          ]
+        },
+        {
+          "word": "idle",
+          "reverse_translation": [
+            "ပျင်းရိသော"
+          ]
+        }
+      ],
+      "base_form": "သိမ်ဖျင်း",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သိမ် ဖျင်း",
+      "alternative": [
+        {
+          "word_postproc": "frivolous",
+          "score": 937,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "idle",
+          "score": 59,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "inferior",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "သိမ်ဖျင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

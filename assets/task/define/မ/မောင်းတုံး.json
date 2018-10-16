@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "lever",
+      "orig": "မောင်းတုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "maungg tone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "boom",
+        "driving lever",
+        "bolt of a gun",
+        "lever"
+      ],
+      "entry": [
+        {
+          "word": "lever",
+          "reverse_translation": [
+            "မောင်းတုံး"
+          ]
+        }
+      ],
+      "base_form": "မောင်းတုံး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မောင်း တုံး",
+      "alternative": [
+        {
+          "word_postproc": "lever",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "boom",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "driving lever",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "မောင်းတုံး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

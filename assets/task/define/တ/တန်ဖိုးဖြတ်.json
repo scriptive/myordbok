@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "priceless",
+      "orig": "တန်ဖိုးဖြတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "taanhpoe hpyat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "appraise",
+        "assess the value of sth"
+      ],
+      "entry": [
+        {
+          "word": "appraise",
+          "reverse_translation": [
+            "တန်ဖိုး"
+          ]
+        }
+      ],
+      "base_form": "တန်ဖိုးဖြတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တန်ဖိုး ဖြတ်",
+      "alternative": [
+        {
+          "word_postproc": "priceless",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Rating",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "value",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "appraise",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "evaluating",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "တန်ဖိုးဖြတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

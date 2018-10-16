@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "hungry",
+      "orig": "မွတ်သိပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "mwat siut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be famished",
+        "be hungry."
+      ],
+      "entry": [
+        {
+          "word": "be famished"
+        },
+        {
+          "word": "be hungry."
+        }
+      ],
+      "base_form": "မွတ်သိပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မွတ် သိပ်",
+      "alternative": [
+        {
+          "word_postproc": "hungry",
+          "score": 982,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the hungry",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in hunger",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "မွတ်သိပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

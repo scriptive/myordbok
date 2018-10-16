@@ -1,0 +1,153 @@
+{
+  "sentences": [
+    {
+      "trans": "make",
+      "orig": "လုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "make",
+        "work",
+        "do",
+        "carry out",
+        "create",
+        "work as",
+        "behave",
+        "act",
+        "take the role of",
+        "make up",
+        "fabricate",
+        "beat",
+        "hit someone"
+      ],
+      "entry": [
+        {
+          "word": "make",
+          "reverse_translation": [
+            "ပြုလုပ်"
+          ],
+          "synset_id": [
+            6604,
+            12443,
+            65676,
+            110888
+          ],
+          "score": 0.064934582
+        },
+        {
+          "word": "do",
+          "reverse_translation": [
+            "ပြုလုပ်"
+          ],
+          "synset_id": [
+            6604,
+            94226
+          ],
+          "score": 0.042585135
+        },
+        {
+          "word": "create",
+          "reverse_translation": [
+            "ဖန်တီး"
+          ],
+          "synset_id": [
+            12443
+          ]
+        },
+        {
+          "word": "behave",
+          "reverse_translation": [
+            "ပြုမူ"
+          ],
+          "synset_id": [
+            94226
+          ]
+        },
+        {
+          "word": "act",
+          "reverse_translation": [
+            "ဇါတ်အခဏ်း"
+          ],
+          "synset_id": [
+            45915,
+            94226
+          ]
+        },
+        {
+          "word": "beat",
+          "reverse_translation": [
+            "ရိုက်"
+          ]
+        }
+      ],
+      "base_form": "လုပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လုပ်",
+      "alternative": [
+        {
+          "word_postproc": "make",
+          "score": 901,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "work",
+          "score": 87,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "made",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to make",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to work",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "လုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Thinzar",
+      "orig": "သဉ္ဇာလီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "sanyjar le"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "ornamented chair for the use of the nobility in the days of Myanmar kings"
+      ],
+      "entry": [
+        {
+          "word": "ornamented chair for the use of the nobility in the days of Myanmar kings"
+        }
+      ],
+      "base_form": "သဉ္ဇာလီ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သဉ္ဇာ",
+      "alternative": [
+        {
+          "word_postproc": "Thinzar",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "သဉ္ဇာလီ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

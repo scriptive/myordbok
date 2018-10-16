@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "cuisine",
+      "orig": "ဟင်းလျာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hainn lyaar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "meat,fish, etc to be eaten with rice",
+        "curry",
+        "meat,fish procured  for cooking"
+      ],
+      "entry": [
+        {
+          "word": "meat,fish, etc to be eaten with rice"
+        },
+        {
+          "word": "curry"
+        },
+        {
+          "word": "meat,fish procured  for cooking"
+        }
+      ],
+      "base_form": "ဟင်းလျာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဟင်း လျာ",
+      "alternative": [
+        {
+          "word_postproc": "cuisine",
+          "score": 916,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "curry",
+          "score": 77,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "dish",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "dishes",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cuisines",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဟင်းလျာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

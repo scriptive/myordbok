@@ -1,0 +1,83 @@
+{
+  "sentences": [
+    {
+      "trans": "Hip",
+      "orig": "တင်ပါးဆုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "tain parr sone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "buttocks"
+      ],
+      "entry": [
+        {
+          "word": "buttocks",
+          "reverse_translation": [
+            "တင်ပါး"
+          ]
+        }
+      ],
+      "base_form": "တင်ပါးဆုံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တင် ပါး ဆုံ",
+      "alternative": [
+        {
+          "word_postproc": "Hip",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Buttocks",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A hip",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Hip or",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "တင်ပါးဆုံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

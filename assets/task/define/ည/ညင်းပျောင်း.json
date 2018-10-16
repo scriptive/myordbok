@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "dulcet",
+      "orig": "ညင်းပျောင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyainn pyaungg"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "sweet and soft",
+        "dulcet"
+      ],
+      "entry": [
+        {
+          "word": "sweet and soft"
+        },
+        {
+          "word": "dulcet"
+        }
+      ],
+      "base_form": "ညင်းပျောင်း",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညင်း ပျောင်း",
+      "alternative": [
+        {
+          "word_postproc": "dulcet",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sweet and soft",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ညင်းပျောင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

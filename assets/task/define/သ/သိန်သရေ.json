@@ -1,0 +1,85 @@
+{
+  "sentences": [
+    {
+      "trans": "Good reputation",
+      "orig": "သိန်သရေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "sein s ray"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "glory",
+        "good reputation",
+        "dignity"
+      ],
+      "entry": [
+        {
+          "word": "glory",
+          "reverse_translation": [
+            "ဂုဏ်"
+          ]
+        },
+        {
+          "word": "dignity",
+          "reverse_translation": [
+            "ဂုဏ်"
+          ]
+        }
+      ],
+      "base_form": "သိန်သရေ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သိန် သ ရေ",
+      "alternative": [
+        {
+          "word_postproc": "Good reputation",
+          "score": 504,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Glory",
+          "score": 425,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Dignity",
+          "score": 69,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "သိန်သရေ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

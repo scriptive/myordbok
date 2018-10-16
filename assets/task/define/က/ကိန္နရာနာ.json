@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "kinnara",
+      "orig": "ကိန္နရာနာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kinnarar nar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "boil,abscess in the armpit"
+      ],
+      "entry": [
+        {
+          "word": "boil,abscess in the armpit"
+        }
+      ],
+      "base_form": "ကိန္နရာနာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိန္နရာ",
+      "alternative": [
+        {
+          "word_postproc": "kinnara",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကိန္နရာနာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

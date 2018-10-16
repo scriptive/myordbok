@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Sitting on the haunches",
+      "orig": "ဆောင့်ကြောင့်ထိုင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "saw in  kyount htine"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထိုင်",
+      "alternative": [
+        {
+          "word_postproc": "Sitting on the",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Sit",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Sitting",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Sat",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Sits",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 13,
+          "end": 18
+        }
+      ],
+      "raw_src_segment": "ဆောင့်ကြောင့်ထိုင်",
+      "start_pos": 0,
+      "end_pos": 3
+    },
+    {
+      "src_phrase": "ဆော င့ ် ကြောင့်",
+      "alternative": [
+        {
+          "word_postproc": "haunches",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "start_pos": 3,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "ungrateful",
+      "orig": "ကျေးစွပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaayy hcwut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be ungrateful"
+      ],
+      "entry": [
+        {
+          "word": "be ungrateful"
+        }
+      ],
+      "base_form": "ကျေးစွပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျေး စွပ်",
+      "alternative": [
+        {
+          "word_postproc": "ungrateful",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကျေးစွပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

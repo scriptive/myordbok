@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "cover the",
+      "orig": "ဖုံးလွှမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpone lwham"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be covered with",
+        "overcast",
+        "be clouded with",
+        "be dominated by"
+      ],
+      "entry": [
+        {
+          "word": "be covered with"
+        },
+        {
+          "word": "overcast"
+        },
+        {
+          "word": "be clouded with"
+        },
+        {
+          "word": "be dominated by"
+        }
+      ],
+      "base_form": "ဖုံးလွှမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖုံး လွှမ်း",
+      "alternative": [
+        {
+          "word_postproc": "cover the",
+          "score": 883,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to cover the",
+          "score": 116,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "has covered the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cover the earth",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ဖုံးလွှမ်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

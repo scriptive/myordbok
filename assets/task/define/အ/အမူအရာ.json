@@ -1,0 +1,102 @@
+{
+  "sentences": [
+    {
+      "trans": "gestures",
+      "orig": "အမူအရာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aamuuaarar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "gesture",
+        "expression",
+        "acting",
+        "behaviour"
+      ],
+      "entry": [
+        {
+          "word": "gesture",
+          "reverse_translation": [
+            "ဟန်အမူအရာ"
+          ],
+          "score": 0.027928013
+        },
+        {
+          "word": "expression",
+          "reverse_translation": [
+            "မျက်နှာထား",
+            "ညှစ်ခြင်း",
+            "စကားအသုံးအနှုန်း"
+          ],
+          "score": 0.011461634
+        },
+        {
+          "word": "behaviour",
+          "reverse_translation": [
+            "အပြုအမူ"
+          ]
+        }
+      ],
+      "base_form": "အမူအရာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အမူအရာ",
+      "alternative": [
+        {
+          "word_postproc": "gestures",
+          "score": 845,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "gesture",
+          "score": 90,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "their behavior",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "running boards",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "အမူအရာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Become treacly",
+      "orig": "ကြွက်မြီးတန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawat myee taann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "become treacly"
+      ],
+      "entry": [
+        {
+          "word": "become treacly"
+        }
+      ],
+      "base_form": "ကြွက်မြီးတန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြွက် မြီး တန်း",
+      "alternative": [
+        {
+          "word_postproc": "Become treacly",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ကြွက်မြီးတန်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

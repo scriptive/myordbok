@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "up",
+      "orig": "ရည်မျှော်",
+      "backend": 0
+    },
+    {
+      "src_translit": "rai myahaaw"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရည် မျှော်",
+      "alternative": [
+        {
+          "word_postproc": "up",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ရည်မျှော်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

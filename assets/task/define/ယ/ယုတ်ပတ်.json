@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "slander",
+      "orig": "ယုတ်ပတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "yote paat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "slander",
+        "accuse sb of being adulterous, philandering"
+      ],
+      "entry": [
+        {
+          "word": "slander"
+        },
+        {
+          "word": "accuse sb of being adulterous, philandering"
+        }
+      ],
+      "base_form": "ယုတ်ပတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယုတ် ပတ်",
+      "alternative": [
+        {
+          "word_postproc": "slander",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ယုတ်ပတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

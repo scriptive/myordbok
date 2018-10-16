@@ -1,0 +1,132 @@
+{
+  "sentences": [
+    {
+      "trans": "Wander",
+      "orig": "လှည့်လည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lha i  lai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "circle",
+        "travel around",
+        "wander",
+        "roam",
+        "encircle",
+        "circulate",
+        "turn"
+      ],
+      "entry": [
+        {
+          "word": "circle",
+          "reverse_translation": [
+            "ဝိုင်းရံ"
+          ],
+          "synset_id": [
+            21801,
+            101351
+          ]
+        },
+        {
+          "word": "wander",
+          "reverse_translation": [
+            "လှည့်လည်"
+          ],
+          "synset_id": [
+            40196
+          ]
+        },
+        {
+          "word": "encircle",
+          "reverse_translation": [
+            "ဝန်းဝိုင်း"
+          ],
+          "synset_id": [
+            101351
+          ]
+        },
+        {
+          "word": "circulate",
+          "reverse_translation": [
+            "လှည့်လည်"
+          ],
+          "synset_id": [
+            21801
+          ]
+        },
+        {
+          "word": "turn",
+          "reverse_translation": [
+            "လှည့်လည်"
+          ]
+        }
+      ],
+      "base_form": "လှည့်လည်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လှ ည့ ် လည်",
+      "alternative": [
+        {
+          "word_postproc": "Wander",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Turn",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Circulate",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "They wander",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "They wander for",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "လှည့်လည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

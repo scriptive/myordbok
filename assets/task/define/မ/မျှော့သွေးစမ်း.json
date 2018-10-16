@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Put out feelers",
+      "orig": "မျှော့သွေးစမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "myahaot sway hcam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "explore the possibilities surreptitiously",
+        "put out feelers"
+      ],
+      "entry": [
+        {
+          "word": "explore the possibilities surreptitiously"
+        },
+        {
+          "word": "put out feelers"
+        }
+      ],
+      "base_form": "မျှော့သွေးစမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မျှော့ သွေး စမ်း",
+      "alternative": [
+        {
+          "word_postproc": "Put out feelers",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "မျှော့သွေးစမ်း",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

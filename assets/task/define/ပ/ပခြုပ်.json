@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "gold",
+      "orig": "ပခြုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "p hkyuut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "four-cornered basket with removable cover, woven with strips from the toddy-palm leaf stalk, bamboo, etc",
+        "gold",
+        "silver casket",
+        "snake charmer's basket"
+      ],
+      "entry": [
+        {
+          "word": "gold",
+          "reverse_translation": [
+            "ရေွှ"
+          ]
+        }
+      ],
+      "base_form": "ပခြုပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပ ခြုပ်",
+      "alternative": [
+        {
+          "word_postproc": "gold",
+          "score": 895,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "prostitute",
+          "score": 52,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "silver casket",
+          "score": 51,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "snake charmer's basket",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ပခြုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

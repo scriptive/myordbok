@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "ring",
+      "orig": "ကြိုးဝိုင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaoe wine"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "ring",
+        "forest reserve"
+      ],
+      "entry": [
+        {
+          "word": "ring",
+          "reverse_translation": [
+            "အဝိုင်း လက်စွပ်"
+          ]
+        }
+      ],
+      "base_form": "ကြိုးဝိုင်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြိုး ဝိုင်း",
+      "alternative": [
+        {
+          "word_postproc": "ring",
+          "score": 812,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "forest reserve",
+          "score": 187,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ကြိုးဝိုင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

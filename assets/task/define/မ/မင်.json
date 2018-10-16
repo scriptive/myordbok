@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "ink",
+      "orig": "မင်",
+      "backend": 1
+    },
+    {
+      "src_translit": "main"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "ink",
+        "ink for writing , printing , tattooing"
+      ],
+      "entry": [
+        {
+          "word": "ink",
+          "reverse_translation": [
+            "မင်"
+          ],
+          "score": 0.021081172
+        }
+      ],
+      "base_form": "မင်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "love",
+        "like",
+        "be fond of"
+      ],
+      "entry": [
+        {
+          "word": "love",
+          "reverse_translation": [
+            "ချစ်ခင်"
+          ],
+          "score": 0.0043503456
+        }
+      ],
+      "base_form": "မင်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မင်",
+      "alternative": [
+        {
+          "word_postproc": "ink",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "မင်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

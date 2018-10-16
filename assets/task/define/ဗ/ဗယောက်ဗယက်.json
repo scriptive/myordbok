@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "In confusion",
+      "orig": "ဗယောက်ဗယက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "b yout b yaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in a restless manner",
+        "in confusion"
+      ],
+      "entry": [
+        {
+          "word": "in a restless manner"
+        },
+        {
+          "word": "in confusion"
+        }
+      ],
+      "base_form": "ဗယောက်ဗယက်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗ ယောက် ဗ ယက်",
+      "alternative": [
+        {
+          "word_postproc": "In confusion",
+          "score": 741,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Confusion",
+          "score": 258,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ဗယောက်ဗယက်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

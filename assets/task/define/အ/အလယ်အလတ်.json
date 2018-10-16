@@ -1,0 +1,69 @@
+{
+  "sentences": [
+    {
+      "trans": "medium",
+      "orig": "အလယ်အလတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aalaalaalaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "medium"
+      ],
+      "entry": [
+        {
+          "word": "medium",
+          "reverse_translation": [
+            "အလယ်အလတ်"
+          ],
+          "synset_id": [
+            25369
+          ],
+          "score": 0.099013411
+        }
+      ],
+      "base_form": "အလယ်အလတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အလယ်အလတ်",
+      "alternative": [
+        {
+          "word_postproc": "medium",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "အလယ်အလတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

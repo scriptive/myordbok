@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "Consumer preference",
+      "orig": "နှစ်ခြိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nhait hkyaite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "like",
+        "be pleased with",
+        "be delighted with",
+        "relish"
+      ],
+      "entry": [
+        {
+          "word": "like"
+        },
+        {
+          "word": "be pleased with"
+        },
+        {
+          "word": "be delighted with"
+        },
+        {
+          "word": "relish"
+        }
+      ],
+      "base_form": "နှစ်ခြိုက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နှစ် ခြိုက်",
+      "alternative": [
+        {
+          "word_postproc": "Consumer preference",
+          "score": 973,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "preferenceBREAK",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "thoroughly enjoy",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "have attracted",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Consumer preference for",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "နှစ်ခြိုက်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

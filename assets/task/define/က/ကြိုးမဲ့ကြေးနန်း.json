@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Wireless Telegraphy",
+      "orig": "ကြိုးမဲ့ကြေးနန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaoemae kyaynaann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "wireless"
+      ],
+      "entry": [
+        {
+          "word": "wireless"
+        }
+      ],
+      "base_form": "ကြိုးမဲ့ကြေးနန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြိုးမဲ့ ကြေးနန်း",
+      "alternative": [
+        {
+          "word_postproc": "Wireless Telegraphy",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wireless",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "ကြိုးမဲ့ကြေးနန်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

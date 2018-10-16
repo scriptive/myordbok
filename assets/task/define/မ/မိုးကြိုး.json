@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "Thunderstorms",
+      "orig": "မိုးကြိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "moekyaoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "thunder",
+        "thunderbolt",
+        "thunderclap",
+        "alloy of gold and copper",
+        "term for a combination of a six and a diagonally depicted seven, in a three-deck domino game"
+      ],
+      "entry": [
+        {
+          "word": "thunder",
+          "reverse_translation": [
+            "မျိုးချုန်းသံ"
+          ],
+          "score": 0.068050854
+        }
+      ],
+      "base_form": "မိုးကြိုး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မိုးကြိုး",
+      "alternative": [
+        {
+          "word_postproc": "Thunderstorms",
+          "score": 975,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Thunder",
+          "score": 24,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of Thunder",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lightning bolt",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lightening strikes",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "မိုးကြိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "sentences": [
+    {
+      "trans": "principles",
+      "orig": "ပရမတ်တရား",
+      "backend": 0
+    },
+    {
+      "src_translit": "paramaat tararr"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပရမတ် တရား",
+      "alternative": [
+        {
+          "word_postproc": "principles",
+          "score": 976,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "principles of",
+          "score": 23,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ပရမတ်တရား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

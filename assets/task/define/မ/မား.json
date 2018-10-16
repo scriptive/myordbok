@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "Mars",
+      "orig": "မား",
+      "backend": 0
+    },
+    {
+      "src_translit": "marr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "particle suffixed to such words as in ကြီး~၊ မြင့်~ to indicate magnitude"
+      ],
+      "entry": [
+        {
+          "word": "particle suffixed to such words as in ကြီး~၊ မြင့်~ to indicate magnitude"
+        }
+      ],
+      "base_form": "မား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မား",
+      "alternative": [
+        {
+          "word_postproc": "Mars",
+          "score": 441,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "higher",
+          "score": 203,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "marketing",
+          "score": 197,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "high",
+          "score": 103,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Mass",
+          "score": 30,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "မား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

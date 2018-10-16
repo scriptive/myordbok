@@ -1,0 +1,142 @@
+{
+  "sentences": [
+    {
+      "trans": "bishops",
+      "orig": "အုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "cover",
+        "take charge",
+        "11.devour",
+        "give sb the works",
+        "10.dispense punishment, hard words, etc",
+        "add antistrophe",
+        "cap a verse",
+        "complete a rhyme",
+        "conclude",
+        "wind up",
+        "look after",
+        "administer",
+        "suppress",
+        "subdue",
+        "restrain",
+        "conceal",
+        "cover-up",
+        "add garnish,seasoning to a dish just before taking it down from the fire",
+        "cover mature but green fruit with burlap,straw,etc to aid ripening",
+        "give another coating using a different colour"
+      ],
+      "entry": [
+        {
+          "word": "cover",
+          "reverse_translation": [
+            "ဖုံး"
+          ],
+          "score": 0.01720595
+        },
+        {
+          "word": "conclude",
+          "reverse_translation": [
+            "ကောက်ချက်ချ"
+          ]
+        },
+        {
+          "word": "administer",
+          "reverse_translation": [
+            "စီ၇င်အုပ်ချုပ်"
+          ]
+        },
+        {
+          "word": "suppress",
+          "reverse_translation": [
+            "ဖိနှိပ်"
+          ],
+          "synset_id": [
+            8150
+          ]
+        },
+        {
+          "word": "restrain",
+          "reverse_translation": [
+            "ဟန့်ထား"
+          ]
+        },
+        {
+          "word": "conceal",
+          "reverse_translation": [
+            "လှျို့ဝှက်"
+          ]
+        }
+      ],
+      "base_form": "အုပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အုပ်",
+      "alternative": [
+        {
+          "word_postproc": "bishops",
+          "score": 528,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in charge of",
+          "score": 216,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "charge of",
+          "score": 92,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the captains",
+          "score": 88,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "was over",
+          "score": 47,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "အုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

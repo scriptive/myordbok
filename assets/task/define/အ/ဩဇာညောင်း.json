@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Influential",
+      "orig": "ဩဇာညောင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "au jar nyaungg"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be able to exert one's authority"
+      ],
+      "entry": [
+        {
+          "word": "be able to exert one's authority"
+        }
+      ],
+      "base_form": "ဩဇာညောင်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဩ ဇာ ညောင်း",
+      "alternative": [
+        {
+          "word_postproc": "Influential",
+          "score": 925,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "An influential",
+          "score": 74,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ဩဇာညောင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

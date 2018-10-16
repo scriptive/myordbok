@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Mope",
+      "orig": "မှိုင်တွေချ",
+      "backend": 0
+    },
+    {
+      "src_translit": "mhaine tway hkya"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "mope",
+        "be downcast"
+      ],
+      "entry": [
+        {
+          "word": "mope"
+        },
+        {
+          "word": "be downcast"
+        }
+      ],
+      "base_form": "မှိုင်တွေချ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မှိုင် တွေ ချ",
+      "alternative": [
+        {
+          "word_postproc": "Mope",
+          "score": 574,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Downcast",
+          "score": 425,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "မှိုင်တွေချ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

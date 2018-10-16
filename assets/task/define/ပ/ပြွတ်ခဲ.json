@@ -1,0 +1,88 @@
+{
+  "sentences": [
+    {
+      "trans": "clustered",
+      "orig": "ပြွတ်ခဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyawat hkell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be clustered",
+        "be in a cluster",
+        "be crowded"
+      ],
+      "entry": [
+        {
+          "word": "be clustered"
+        },
+        {
+          "word": "be in a cluster"
+        },
+        {
+          "word": "be crowded"
+        }
+      ],
+      "base_form": "ပြွတ်ခဲ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြွတ် ခဲ",
+      "alternative": [
+        {
+          "word_postproc": "clustered",
+          "score": 897,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "crowded",
+          "score": 49,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cluster",
+          "score": 43,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a cluster",
+          "score": 9,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ပြွတ်ခဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

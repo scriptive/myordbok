@@ -1,0 +1,109 @@
+{
+  "sentences": [
+    {
+      "trans": "The active",
+      "orig": "သွက်လက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "swat laat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be quick",
+        "be nimble",
+        "be lively",
+        "be smart",
+        "be vivacious",
+        "move",
+        "act",
+        "speak briskly"
+      ],
+      "entry": [
+        {
+          "word": "move",
+          "reverse_translation": [
+            "လှုပ်ရှား",
+            "ပေြာင်းရေွှ့"
+          ],
+          "synset_id": [
+            10087
+          ]
+        },
+        {
+          "word": "act",
+          "reverse_translation": [
+            "ဇါတ်အခဏ်း"
+          ],
+          "synset_id": [
+            10087
+          ]
+        }
+      ],
+      "base_form": "သွက်လက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သွက် လက်",
+      "alternative": [
+        {
+          "word_postproc": "The active",
+          "score": 575,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "active",
+          "score": 193,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "vivacious",
+          "score": 134,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fluent",
+          "score": 77,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lively",
+          "score": 14,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "သွက်လက်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

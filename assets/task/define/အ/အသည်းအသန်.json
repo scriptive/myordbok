@@ -1,0 +1,96 @@
+{
+  "sentences": [
+    {
+      "trans": "desperately",
+      "orig": "အသည်းအသန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aasaeeaasaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "seriously",
+        "critically",
+        "strongly",
+        "excessively"
+      ],
+      "entry": [
+        {
+          "word": "seriously",
+          "score": 0.083377652
+        },
+        {
+          "word": "critically",
+          "score": 0.0083855102
+        },
+        {
+          "word": "strongly",
+          "score": 0.0083855102
+        },
+        {
+          "word": "excessively",
+          "score": 0.0083855102
+        }
+      ],
+      "base_form": "အသည်းအသန်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အသည်းအသန်",
+      "alternative": [
+        {
+          "word_postproc": "desperately",
+          "score": 959,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "seriously",
+          "score": 38,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "serious",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "passionate",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အသည်းအသန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

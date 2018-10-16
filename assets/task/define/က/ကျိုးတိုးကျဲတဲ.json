@@ -1,0 +1,69 @@
+{
+  "sentences": [
+    {
+      "trans": "sparsely",
+      "orig": "ကျိုးတိုးကျဲတဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyoetoekyaelltell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "sparsely"
+      ],
+      "entry": [
+        {
+          "word": "sparsely",
+          "score": 0.2528396
+        }
+      ],
+      "base_form": "ကျိုးတိုးကျဲတဲ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျိုးတိုးကျဲတဲ",
+      "alternative": [
+        {
+          "word_postproc": "sparsely",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "made by HR Textron",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ကျိုးတိုးကျဲတဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

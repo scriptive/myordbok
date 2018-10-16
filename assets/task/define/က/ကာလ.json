@@ -1,0 +1,124 @@
+{
+  "sentences": [
+    {
+      "trans": "period",
+      "orig": "ကာလ",
+      "backend": 0
+    },
+    {
+      "src_translit": "karl"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "time",
+        "period",
+        "term",
+        "tense",
+        "age",
+        "the present time"
+      ],
+      "entry": [
+        {
+          "word": "time",
+          "reverse_translation": [
+            "အချိန်"
+          ],
+          "score": 0.099013411
+        },
+        {
+          "word": "period",
+          "reverse_translation": [
+            "ကာလ",
+            "အနှုန်းအဖဲွ့",
+            "ရာသီသေွးလာချိန်"
+          ],
+          "synset_id": [
+            39885
+          ],
+          "score": 0.040005032
+        },
+        {
+          "word": "term",
+          "reverse_translation": [
+            "ကာလ",
+            "သက်တမ်း",
+            "စကား",
+            "စာသင်နှစ်ဝက်"
+          ],
+          "score": 0.00477792
+        },
+        {
+          "word": "tense",
+          "reverse_translation": [
+            "ကာလ"
+          ],
+          "score": 0.00012732725
+        },
+        {
+          "word": "age",
+          "reverse_translation": [
+            "အသက်အရွယ်"
+          ]
+        }
+      ],
+      "base_form": "ကာလ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကာလ",
+      "alternative": [
+        {
+          "word_postproc": "period",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "term",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "period of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "days of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ကာလ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

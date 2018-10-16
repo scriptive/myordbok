@@ -1,0 +1,102 @@
+{
+  "sentences": [
+    {
+      "trans": "see",
+      "orig": "မွ",
+      "backend": 0
+    },
+    {
+      "src_translit": "mw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be spongy",
+        "be flaky",
+        "be loose",
+        "be in profusion",
+        "be cluttered"
+      ],
+      "entry": [
+        {
+          "word": "be spongy"
+        },
+        {
+          "word": "be flaky"
+        },
+        {
+          "word": "be loose"
+        },
+        {
+          "word": "be in profusion"
+        },
+        {
+          "word": "be cluttered"
+        }
+      ],
+      "base_form": "မွ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မွ",
+      "alternative": [
+        {
+          "word_postproc": "see",
+          "score": 964,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "earth",
+          "score": 34,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to see",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the earth",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the river",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "မွ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

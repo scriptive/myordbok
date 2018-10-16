@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Transitioned",
+      "orig": "ကူးပြောင်းဆဲကာလ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kuupyaungg sell karl"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "period of transition"
+      ],
+      "entry": [
+        {
+          "word": "period of transition"
+        }
+      ],
+      "base_form": "ကူးပြောင်းဆဲကာလ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကူးပြောင်း ဆဲ ကာလ",
+      "alternative": [
+        {
+          "word_postproc": "Transitioned",
+          "score": 684,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Period of transition",
+          "score": 315,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "ကူးပြောင်းဆဲကာလ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

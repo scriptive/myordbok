@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Erratically",
+      "orig": "ကတိမ်းကယိမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "k taim k yaim"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "erratically"
+      ],
+      "entry": [
+        {
+          "word": "erratically"
+        }
+      ],
+      "base_form": "ကတိမ်းကယိမ်း",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "က တိမ်း က ယိမ်း",
+      "alternative": [
+        {
+          "word_postproc": "Erratically",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ကတိမ်းကယိမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

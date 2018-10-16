@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Roll",
+      "orig": "လူးလှိမ့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "luu lhai m "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "writhe, toss and turn"
+      ],
+      "entry": [
+        {
+          "word": "writhe, toss and turn"
+        }
+      ],
+      "base_form": "လူးလှိမ့်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လူး လှိ မ့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Roll",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "လူးလှိမ့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

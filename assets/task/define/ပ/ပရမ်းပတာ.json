@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "chaos",
+      "orig": "ပရမ်းပတာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "parampatar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "without order",
+        "discipline"
+      ],
+      "entry": [
+        {
+          "word": "without order",
+          "score": 0.03758125
+        },
+        {
+          "word": "discipline",
+          "score": 0.03758125
+        }
+      ],
+      "base_form": "ပရမ်းပတာ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပရမ်းပတာ",
+      "alternative": [
+        {
+          "word_postproc": "chaos",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "clearly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "total chaos",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "discipline",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "question",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ပရမ်းပတာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

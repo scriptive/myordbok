@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "abdominal",
+      "orig": "ဝမ်းဗိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "wambite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "abdomen"
+      ],
+      "entry": [
+        {
+          "word": "abdomen",
+          "reverse_translation": [
+            "ဝမ်း"
+          ],
+          "score": 0.12131377
+        }
+      ],
+      "base_form": "ဝမ်းဗိုက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝမ်းဗိုက်",
+      "alternative": [
+        {
+          "word_postproc": "abdominal",
+          "score": 614,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "abdomen",
+          "score": 382,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the abdomen",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "stomach",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the abdominal",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ဝမ်းဗိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "A flurry",
+      "orig": "ကသီလင်တ",
+      "backend": 0
+    },
+    {
+      "src_translit": "k se lain t"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in a flurry",
+        "in  straitened circumstances"
+      ],
+      "entry": [
+        {
+          "word": "in a flurry"
+        },
+        {
+          "word": "in  straitened circumstances"
+        }
+      ],
+      "base_form": "ကသီလင်တ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "က သီ လင် တ",
+      "alternative": [
+        {
+          "word_postproc": "A flurry",
+          "score": 829,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "In a flurry",
+          "score": 170,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကသီလင်တ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

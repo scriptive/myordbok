@@ -1,0 +1,109 @@
+{
+  "sentences": [
+    {
+      "trans": "boil",
+      "orig": "ပြုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyuat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "boil",
+        "lose",
+        "be detached",
+        "dislocate",
+        "be dislocated",
+        "be unhinged.",
+        "cry"
+      ],
+      "entry": [
+        {
+          "word": "boil",
+          "reverse_translation": [
+            "ချက်ပြုတ်"
+          ],
+          "score": 0.1157584
+        },
+        {
+          "word": "lose",
+          "reverse_translation": [
+            "ပေျာက်သွား"
+          ],
+          "score": 0.006737947
+        },
+        {
+          "word": "dislocate",
+          "reverse_translation": [
+            "နေရာပေြာင်း"
+          ]
+        },
+        {
+          "word": "cry",
+          "reverse_translation": [
+            "ငိုယို"
+          ]
+        }
+      ],
+      "base_form": "ပြုတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြုတ်",
+      "alternative": [
+        {
+          "word_postproc": "boil",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "boiled",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Boil the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "boiled in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ပြုတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

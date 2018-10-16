@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "tongue",
+      "orig": "လျှာလည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "shar lai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "develop a liking for some kind of food,drink",
+        "develop a taste for sth"
+      ],
+      "entry": [
+        {
+          "word": "develop a liking for some kind of food,drink"
+        },
+        {
+          "word": "develop a taste for sth"
+        }
+      ],
+      "base_form": "လျှာလည်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လျှာ",
+      "alternative": [
+        {
+          "word_postproc": "tongue",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the tongue",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "လျှာလည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "casket",
+      "orig": "ကြုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyuat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "casket"
+      ],
+      "entry": [
+        {
+          "word": "casket",
+          "reverse_translation": [
+            "သေတ္တာကလေး"
+          ],
+          "score": 0.015184198
+        }
+      ],
+      "base_form": "ကြုတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြုတ်",
+      "alternative": [
+        {
+          "word_postproc": "casket",
+          "score": 490,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to cease",
+          "score": 384,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "jet",
+          "score": 90,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "equality",
+          "score": 21,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကြုတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "throne",
+      "orig": "ပလ္လင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pallain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "throne",
+        "altar"
+      ],
+      "entry": [
+        {
+          "word": "throne",
+          "reverse_translation": [
+            "ရာဇပလ္လင်"
+          ],
+          "score": 0.17929012
+        },
+        {
+          "word": "altar",
+          "reverse_translation": [
+            "ယဇ်ပလ္လင်"
+          ],
+          "score": 0.16581626
+        }
+      ],
+      "base_form": "ပလ္လင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပလ္လင်",
+      "alternative": [
+        {
+          "word_postproc": "throne",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "seat of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "altar of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the altar of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ပလ္လင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

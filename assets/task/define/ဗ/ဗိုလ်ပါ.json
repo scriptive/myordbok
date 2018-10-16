@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "their hosts",
+      "orig": "ဗိုလ်ပါ",
+      "backend": 0
+    },
+    {
+      "src_translit": "bol par"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "troops",
+        "multitude",
+        "populace"
+      ],
+      "entry": [
+        {
+          "word": "troops",
+          "reverse_translation": [
+            "စစ်တပ်များ"
+          ]
+        }
+      ],
+      "base_form": "ဗိုလ်ပါ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗိုလ် ပါ",
+      "alternative": [
+        {
+          "word_postproc": "their hosts",
+          "score": 914,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "armies",
+          "score": 60,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hosts with",
+          "score": 14,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "their armies",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "army and",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဗိုလ်ပါ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

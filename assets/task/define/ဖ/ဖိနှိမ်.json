@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "restrain",
+      "orig": "ဖိနှိမ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpi nhaain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "curb",
+        "restrain"
+      ],
+      "entry": [
+        {
+          "word": "restrain",
+          "reverse_translation": [
+            "ဟန့်ထား"
+          ]
+        }
+      ],
+      "base_form": "ဖိနှိမ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖိ နှိမ်",
+      "alternative": [
+        {
+          "word_postproc": "restrain",
+          "score": 972,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "curb",
+          "score": 27,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဖိနှိမ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

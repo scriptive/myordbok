@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "Forgot",
+      "orig": "မေ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "mae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "forget",
+        "faint",
+        "lose consciousness"
+      ],
+      "entry": [
+        {
+          "word": "forget",
+          "reverse_translation": [
+            "သတိမေ့"
+          ],
+          "score": 0.11396374
+        },
+        {
+          "word": "faint",
+          "reverse_translation": [
+            "အားကုန်"
+          ]
+        }
+      ],
+      "base_form": "မေ့",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မေ့",
+      "alternative": [
+        {
+          "word_postproc": "Forgot",
+          "score": 972,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Forgetting",
+          "score": 20,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "forget",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "forgotten",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to forget",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "မေ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

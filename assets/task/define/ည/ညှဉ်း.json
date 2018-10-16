@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "torture",
+      "orig": "ညှဉ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyhain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "torture",
+        "ill treat",
+        "take advantage of friendship by soliciting money, a feed, etc"
+      ],
+      "entry": [
+        {
+          "word": "torture",
+          "reverse_translation": [
+            "ညှဉ်းပမ်း"
+          ],
+          "score": 0.016939197
+        }
+      ],
+      "base_form": "ညှဉ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညှဉ်း",
+      "alternative": [
+        {
+          "word_postproc": "torture",
+          "score": 926,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the violence",
+          "score": 41,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hotly",
+          "score": 30,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the violence of",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "violence of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ညှဉ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

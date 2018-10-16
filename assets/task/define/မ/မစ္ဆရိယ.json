@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "Pickpocketing",
+      "orig": "မစ္ဆရိယ",
+      "backend": 0
+    },
+    {
+      "src_translit": "mahcsariy"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "envy"
+      ],
+      "entry": [
+        {
+          "word": "envy",
+          "reverse_translation": [
+            "ြငူစူခြင်း"
+          ],
+          "score": 0.060054667
+        }
+      ],
+      "base_form": "မစ္ဆရိယ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မစ္ဆရိယ",
+      "alternative": [
+        {
+          "word_postproc": "Pickpocketing",
+          "score": 666,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Yellowstone",
+          "score": 333,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "envy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "မစ္ဆရိယ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

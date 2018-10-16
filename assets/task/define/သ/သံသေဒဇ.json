@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "H",
+      "orig": "သံသေဒဇ",
+      "backend": 0
+    },
+    {
+      "src_translit": "san say d j"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "process of birth out of foam"
+      ],
+      "entry": [
+        {
+          "word": "process of birth out of foam"
+        }
+      ],
+      "base_form": "သံသေဒဇ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဇ",
+      "alternative": [
+        {
+          "word_postproc": "H",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Bob",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "သံသေဒဇ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

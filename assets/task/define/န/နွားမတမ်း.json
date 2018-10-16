@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Heifer",
+      "orig": "နွားမတမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "nwarr m tam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "heifer"
+      ],
+      "entry": [
+        {
+          "word": "heifer"
+        }
+      ],
+      "base_form": "နွားမတမ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နွား မ တမ်း",
+      "alternative": [
+        {
+          "word_postproc": "Heifer",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "နွားမတမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

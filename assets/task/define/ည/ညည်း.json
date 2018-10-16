@@ -1,0 +1,134 @@
+{
+  "sentences": [
+    {
+      "trans": "hum",
+      "orig": "ညည်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyaee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "groan",
+        "complain",
+        "moan",
+        "grumble",
+        "grouse",
+        "hum",
+        "coo"
+      ],
+      "entry": [
+        {
+          "word": "groan",
+          "reverse_translation": [
+            "ညည်းညူ"
+          ],
+          "synset_id": [
+            74102
+          ],
+          "score": 0.01720595
+        },
+        {
+          "word": "complain",
+          "reverse_translation": [
+            "တိုင်ကြား"
+          ],
+          "score": 0.015184198
+        },
+        {
+          "word": "moan",
+          "reverse_translation": [
+            "ညည်းညူ"
+          ],
+          "synset_id": [
+            74102
+          ],
+          "score": 0.010767208
+        }
+      ],
+      "base_form": "ညည်း",
+      "pos_enum": 2
+    },
+    {
+      "pos": "pronoun",
+      "terms": [
+        "you"
+      ],
+      "entry": [
+        {
+          "word": "you",
+          "reverse_translation": [
+            "ခင်ဗျား",
+            "မင်း",
+            "ခင်ဗျားတို့"
+          ]
+        }
+      ],
+      "base_form": "ညည်း",
+      "pos_enum": 8
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညည်း",
+      "alternative": [
+        {
+          "word_postproc": "hum",
+          "score": 535,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mourn",
+          "score": 249,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "groan",
+          "score": 141,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a groan",
+          "score": 27,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "grouse",
+          "score": 25,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ညည်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "sentences": [
+    {
+      "trans": "Tiger Dam",
+      "orig": "ကျားကြီးဆည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyarr kyee sai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "large fishing screen erected at the end of the rains, acoss a watercourse formed by runoff from lakes, creeks and fields"
+      ],
+      "entry": [
+        {
+          "word": "large fishing screen erected at the end of the rains, acoss a watercourse formed by runoff from lakes, creeks and fields"
+        }
+      ],
+      "base_form": "ကျားကြီးဆည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျား",
+      "alternative": [
+        {
+          "word_postproc": "Tiger",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကျားကြီးဆည်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဆည်",
+      "alternative": [
+        {
+          "word_postproc": "Dam",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "dams",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 8,
+          "end": 11
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

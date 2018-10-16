@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "elected",
+      "orig": "တင်မြှောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "tainmyahaout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "appoint,elect someone to a high office",
+        "put,place sth,someone before another",
+        "put,place sth on sth"
+      ],
+      "entry": [
+        {
+          "word": "appoint,elect someone to a high office"
+        },
+        {
+          "word": "put,place sth,someone before another"
+        },
+        {
+          "word": "put,place sth on sth"
+        }
+      ],
+      "base_form": "တင်မြှောက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တင်မြှောက်",
+      "alternative": [
+        {
+          "word_postproc": "elected",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "elected by",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "be elected",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "parliamentary election",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "elected as",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "တင်မြှောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

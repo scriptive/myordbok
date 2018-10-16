@@ -1,0 +1,71 @@
+{
+  "sentences": [
+    {
+      "trans": "welcome",
+      "orig": "လှိုက်လှိုက်လှဲလှဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "lhaitelhaitelhaelllhaell"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လှိုက်လှိုက်လှဲလှဲ",
+      "alternative": [
+        {
+          "word_postproc": "welcome",
+          "score": 961,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "welcomed",
+          "score": 29,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "He welcomed",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "He welcomed the",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "warmly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 18
+        }
+      ],
+      "raw_src_segment": "လှိုက်လှိုက်လှဲလှဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "sentences": [
+    {
+      "trans": "Delphinus",
+      "orig": "ဓနသိဒ္ဓ",
+      "backend": 0
+    },
+    {
+      "src_translit": "dhan sid dh"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "asterism of four stars resembling a sal fruit",
+        "the 23rd lunar mansion",
+        "Delphinus"
+      ],
+      "entry": [
+        {
+          "word": "asterism of four stars resembling a sal fruit"
+        },
+        {
+          "word": "the 23rd lunar mansion"
+        },
+        {
+          "word": "Delphinus"
+        }
+      ],
+      "base_form": "ဓနသိဒ္ဓ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဓန သိဒ္ ဓ",
+      "alternative": [
+        {
+          "word_postproc": "Delphinus",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဓနသိဒ္ဓ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

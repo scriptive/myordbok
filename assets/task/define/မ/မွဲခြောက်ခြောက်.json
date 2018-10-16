@@ -1,0 +1,85 @@
+{
+  "sentences": [
+    {
+      "trans": "Always dry",
+      "orig": "မွဲခြောက်ခြောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "mwal hkyawwat hkyawwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "dull and unhealthy looking",
+        "dull and faded."
+      ],
+      "entry": [
+        {
+          "word": "dull and unhealthy looking"
+        },
+        {
+          "word": "dull and faded."
+        }
+      ],
+      "base_form": "မွဲခြောက်ခြောက်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မွဲ",
+      "alternative": [
+        {
+          "word_postproc": "Always",
+          "score": 511,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "မွဲခြောက်ခြောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ခြောက် ခြောက်",
+      "alternative": [
+        {
+          "word_postproc": "dry",
+          "score": 511,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 15
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

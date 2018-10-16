@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "Phonetics",
+      "orig": "သဒ္ဒဗေဒ",
+      "backend": 0
+    },
+    {
+      "src_translit": "sad d bayd"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "phonetics"
+      ],
+      "entry": [
+        {
+          "word": "phonetics",
+          "reverse_translation": [
+            "အသံထွက်ဆိုင်ရာပညာ"
+          ]
+        }
+      ],
+      "base_form": "သဒ္ဒဗေဒ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သဒ္ ဒ ဗေဒ",
+      "alternative": [
+        {
+          "word_postproc": "Phonetics",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "သဒ္ဒဗေဒ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

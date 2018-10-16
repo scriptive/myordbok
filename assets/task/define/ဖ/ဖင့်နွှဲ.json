@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Dilatory",
+      "orig": "ဖင့်နွှဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hp in  nwhaell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "delay",
+        "be dilatory"
+      ],
+      "entry": [
+        {
+          "word": "delay",
+          "reverse_translation": [
+            "နေှာင့်နေှး"
+          ]
+        }
+      ],
+      "base_form": "ဖင့်နွှဲ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖ င့ ် နွှဲ",
+      "alternative": [
+        {
+          "word_postproc": "Dilatory",
+          "score": 996,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Delay",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Tarry",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Not delay",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Quickly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဖင့်နွှဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

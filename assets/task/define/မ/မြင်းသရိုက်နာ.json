@@ -1,0 +1,53 @@
+{
+  "sentences": [
+    {
+      "trans": "Tumors",
+      "orig": "မြင်းသရိုက်နာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "myinn s rite nar"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မြင်း သ ရိုက် နာ",
+      "alternative": [
+        {
+          "word_postproc": "Tumors",
+          "score": 992,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The tumors",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "မြင်းသရိုက်နာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

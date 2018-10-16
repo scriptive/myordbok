@@ -1,0 +1,96 @@
+{
+  "sentences": [
+    {
+      "trans": "overturned",
+      "orig": "မှောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "mhaout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "capsize",
+        "prostrate",
+        "overturn",
+        "meet disaster",
+        "place sth face downwards",
+        "be ruined"
+      ],
+      "entry": [
+        {
+          "word": "capsize",
+          "reverse_translation": [
+            "မေှာက်"
+          ],
+          "score": 0.0061349706
+        },
+        {
+          "word": "overturn",
+          "reverse_translation": [
+            "မေှာက်လှန်"
+          ],
+          "score": 0.003084857
+        }
+      ],
+      "base_form": "မှောက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မှောက်",
+      "alternative": [
+        {
+          "word_postproc": "overturned",
+          "score": 994,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "capsize",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "They overturned",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "prone position",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "မှောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

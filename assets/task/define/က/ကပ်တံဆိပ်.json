@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "label",
+      "orig": "ကပ်တံဆိပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kaut tansiut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "label"
+      ],
+      "entry": [
+        {
+          "word": "label",
+          "reverse_translation": [
+            "ကပ်တံဆိပ်"
+          ]
+        }
+      ],
+      "base_form": "ကပ်တံဆိပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကပ် တံဆိပ်",
+      "alternative": [
+        {
+          "word_postproc": "label",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကပ်တံဆိပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

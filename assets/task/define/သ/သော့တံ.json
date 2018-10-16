@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "passkey",
+      "orig": "သော့တံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "sot tan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "သော့ခလောက်ကို ဖွင့်ပိတ်နိုင်သောအချောင်းအတံ။"
+      ],
+      "entry": [
+        {
+          "word": "သော့ခလောက်ကို ဖွင့်ပိတ်နိုင်သောအချောင်းအတံ။"
+        }
+      ],
+      "base_form": "သော့တံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သော့ တံ",
+      "alternative": [
+        {
+          "word_postproc": "passkey",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "passkey for",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "သော့တံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

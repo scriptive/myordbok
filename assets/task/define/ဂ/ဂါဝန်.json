@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "Dress",
+      "orig": "ဂါဝန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "gar waan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "gown",
+        "frock"
+      ],
+      "entry": [
+        {
+          "word": "gown"
+        },
+        {
+          "word": "frock"
+        }
+      ],
+      "base_form": "ဂါဝန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဂါ ဝန်",
+      "alternative": [
+        {
+          "word_postproc": "Dress",
+          "score": 841,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "frock",
+          "score": 136,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "gown",
+          "score": 21,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဂါဝန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

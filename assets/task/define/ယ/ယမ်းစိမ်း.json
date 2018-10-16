@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "saltpetre",
+      "orig": "ယမ်းစိမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "yamhcaim"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "saltpetre",
+        "potassium nitrate"
+      ],
+      "entry": [
+        {
+          "word": "saltpetre",
+          "synset_id": [
+            14879
+          ],
+          "score": 0.33495805
+        },
+        {
+          "word": "potassium nitrate",
+          "synset_id": [
+            14879
+          ],
+          "score": 0.33495805
+        }
+      ],
+      "base_form": "ယမ်းစိမ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယမ်းစိမ်း",
+      "alternative": [
+        {
+          "word_postproc": "saltpetre",
+          "score": 941,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "potassium nitrate",
+          "score": 58,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ယမ်းစိမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

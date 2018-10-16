@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "gelatine",
+      "orig": "ကျောက်ကျော",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawwatkyaww"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "gelatine",
+        "jelly",
+        "agar-agar"
+      ],
+      "entry": [
+        {
+          "word": "jelly",
+          "reverse_translation": [
+            "ဂျယ်လီ"
+          ],
+          "score": 0.057304565
+        }
+      ],
+      "base_form": "‌ကျောက်ကျော",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျောက်ကျော",
+      "alternative": [
+        {
+          "word_postproc": "gelatine",
+          "score": 513,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "jelly",
+          "score": 340,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ကျောက်ကျော",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

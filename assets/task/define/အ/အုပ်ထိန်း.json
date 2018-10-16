@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "guardian",
+      "orig": "အုပ်ထိန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "aote htein"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "act as a guardian: look after",
+        "take charge"
+      ],
+      "entry": [
+        {
+          "word": "act as a guardian: look after"
+        },
+        {
+          "word": "take charge"
+        }
+      ],
+      "base_form": "အုပ်ထိန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အုပ် ထိန်း",
+      "alternative": [
+        {
+          "word_postproc": "guardian",
+          "score": 823,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "guardians",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Parental",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "carer",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "or carer",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အုပ်ထိန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

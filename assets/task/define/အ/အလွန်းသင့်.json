@@ -1,0 +1,103 @@
+{
+  "sentences": [
+    {
+      "trans": "You too",
+      "orig": "အလွန်းသင့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "a lwann saint"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be on friendly terms",
+        "hit it off well"
+      ],
+      "entry": [
+        {
+          "word": "be on friendly terms"
+        },
+        {
+          "word": "hit it off well"
+        }
+      ],
+      "base_form": "အလွန်းသင့်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သင့်",
+      "alternative": [
+        {
+          "word_postproc": "You",
+          "score": 958,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Your",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "အလွန်းသင့်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "လွန်း",
+      "alternative": [
+        {
+          "word_postproc": "too",
+          "score": 958,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Lun",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "shuttle",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 6
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

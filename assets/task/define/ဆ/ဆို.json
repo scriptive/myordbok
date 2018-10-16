@@ -1,0 +1,111 @@
+{
+  "sentences": [
+    {
+      "trans": "any",
+      "orig": "ဆို",
+      "backend": 0
+    },
+    {
+      "src_translit": "so"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "say",
+        "declare",
+        "berate",
+        "scold",
+        "sing",
+        "be called",
+        "be named"
+      ],
+      "entry": [
+        {
+          "word": "say",
+          "reverse_translation": [
+            "ပေြာဆို"
+          ],
+          "score": 0.069122501
+        },
+        {
+          "word": "declare",
+          "reverse_translation": [
+            "ကေြညာ"
+          ]
+        },
+        {
+          "word": "scold",
+          "reverse_translation": [
+            "ကျိန်ဆဲ"
+          ],
+          "synset_id": [
+            78542
+          ]
+        },
+        {
+          "word": "sing",
+          "reverse_translation": [
+            "တေးသီချင်းဆို"
+          ]
+        }
+      ],
+      "base_form": "ဆို",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆို",
+      "alternative": [
+        {
+          "word_postproc": "any",
+          "score": 992,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "say",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to say",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in any",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဆို",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

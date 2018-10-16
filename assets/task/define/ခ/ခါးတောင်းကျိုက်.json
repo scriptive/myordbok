@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Gird one's loins",
+      "orig": "ခါးတောင်းကျိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkarr taungg kyaite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "gird one's loins"
+      ],
+      "entry": [
+        {
+          "word": "gird one's loins"
+        }
+      ],
+      "base_form": "ခါးတောင်းကျိုက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခါး တောင်း ကျိုက်",
+      "alternative": [
+        {
+          "word_postproc": "Gird one's loins",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "ခါးတောင်းကျိုက်",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

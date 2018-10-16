@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Acumen",
+      "orig": "ပါးရည်နပ်ရည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "parr rai naut rai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "acumen"
+      ],
+      "entry": [
+        {
+          "word": "acumen"
+        }
+      ],
+      "base_form": "ပါးရည်နပ်ရည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပါး ရည် နပ် ရည်",
+      "alternative": [
+        {
+          "word_postproc": "Acumen",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ပါးရည်နပ်ရည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Slightly deranged",
+      "orig": "သွပ်ချောင်ချောင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "swut hkyaung hkyaung"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "slightly deranged"
+      ],
+      "entry": [
+        {
+          "word": "slightly deranged"
+        }
+      ],
+      "base_form": "သွပ်ချောင်ချောင်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သွပ် ချောင် ချောင်",
+      "alternative": [
+        {
+          "word_postproc": "Slightly deranged",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "သွပ်ချောင်ချောင်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

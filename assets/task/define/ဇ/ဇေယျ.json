@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "Zeya",
+      "orig": "ဇေယျ",
+      "backend": 0
+    },
+    {
+      "src_translit": "jayyya"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "success",
+        "victory"
+      ],
+      "entry": [
+        {
+          "word": "success",
+          "reverse_translation": [
+            "အောင်မြင်ခြင်း"
+          ],
+          "score": 0.022794181
+        },
+        {
+          "word": "victory",
+          "reverse_translation": [
+            "အောင်မြင်ပဲွ"
+          ],
+          "score": 0.022794181
+        }
+      ],
+      "base_form": "ဇေယျ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဇေယျ",
+      "alternative": [
+        {
+          "word_postproc": "Zeya",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "victory",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "success",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဇေယျ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Remanded",
+      "orig": "ရမန်ခံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "r maan hkan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "apply for remand"
+      ],
+      "entry": [
+        {
+          "word": "apply for remand"
+        }
+      ],
+      "base_form": "ရမန်ခံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရ မန်",
+      "alternative": [
+        {
+          "word_postproc": "Remanded",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Remand",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ရမန်ခံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

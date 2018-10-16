@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "drive it",
+      "orig": "နှင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nhain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "expel",
+        "drive out/away someone",
+        "banish",
+        "drive a cart, etc"
+      ],
+      "entry": [
+        {
+          "word": "expel",
+          "reverse_translation": [
+            "ထုတ်ပယ်"
+          ],
+          "score": 0.0027652478
+        },
+        {
+          "word": "banish",
+          "reverse_translation": [
+            "နျင်ထုတ်"
+          ]
+        }
+      ],
+      "base_form": "နှင်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နှင်",
+      "alternative": [
+        {
+          "word_postproc": "drive it",
+          "score": 506,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "will drive",
+          "score": 187,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "drove",
+          "score": 141,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "He drove",
+          "score": 118,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "grind it",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "နှင်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

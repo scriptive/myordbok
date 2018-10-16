@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "tickled",
+      "orig": "သဘောခွေ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "sabhaw hkwae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be delighted",
+        "be pleased",
+        "be tickled"
+      ],
+      "entry": [
+        {
+          "word": "be delighted"
+        },
+        {
+          "word": "be pleased"
+        },
+        {
+          "word": "be tickled"
+        }
+      ],
+      "base_form": "သဘောခွေ့",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သဘော ခွေ့",
+      "alternative": [
+        {
+          "word_postproc": "tickled",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pleased",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "delighted",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "သဘောခွေ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

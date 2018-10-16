@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Coastal strip",
+      "orig": "ကမ်းမြောင်ဒေသ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kam myaung days"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "coastal strip"
+      ],
+      "entry": [
+        {
+          "word": "coastal strip"
+        }
+      ],
+      "base_form": "ကမ်း‌မြောင်ဒေသ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကမ်း မြောင် ဒေသ",
+      "alternative": [
+        {
+          "word_postproc": "Coastal strip",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ကမ်းမြောင်ဒေသ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

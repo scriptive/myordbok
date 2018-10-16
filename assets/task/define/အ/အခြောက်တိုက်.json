@@ -1,0 +1,76 @@
+{
+  "sentences": [
+    {
+      "trans": "Dry",
+      "orig": "အခြောက်တိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "a hkyawwat tite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in a dry condition",
+        "without any reason,cause",
+        "without anyoccompaniment"
+      ],
+      "entry": [
+        {
+          "word": "in a dry condition"
+        },
+        {
+          "word": "without any reason,cause"
+        },
+        {
+          "word": "without anyoccompaniment"
+        }
+      ],
+      "base_form": "အခြောက်တိုက်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ ခြောက်",
+      "alternative": [
+        {
+          "word_postproc": "Dry",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Dried",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "အခြောက်တိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

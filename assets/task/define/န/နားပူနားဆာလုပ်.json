@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Nag",
+      "orig": "နားပူနားဆာလုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "narr puu narr sar lote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "worry sb for a favour",
+        "nag"
+      ],
+      "entry": [
+        {
+          "word": "worry sb for a favour"
+        },
+        {
+          "word": "nag"
+        }
+      ],
+      "base_form": "နားပူနားဆာလုပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နား ပူ",
+      "alternative": [
+        {
+          "word_postproc": "Nag",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "နားပူနားဆာလုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

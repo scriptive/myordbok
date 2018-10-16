@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "compatibility",
+      "orig": "လိုက်ဖက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "litehpaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "match",
+        "go well with",
+        "be compatible"
+      ],
+      "entry": [
+        {
+          "word": "match",
+          "reverse_translation": [
+            "ကိုက်ညီ"
+          ],
+          "score": 0.064934582
+        }
+      ],
+      "base_form": "လိုက်ဖက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လိုက်ဖက်",
+      "alternative": [
+        {
+          "word_postproc": "compatibility",
+          "score": 983,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "compatible",
+          "score": 15,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "matched",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "matches",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a compatible",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "လိုက်ဖက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

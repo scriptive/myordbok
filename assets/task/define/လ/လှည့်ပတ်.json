@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "Went round the",
+      "orig": "လှည့်ပတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lha i  paat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "rotate",
+        "orbit",
+        "deceive"
+      ],
+      "entry": [
+        {
+          "word": "rotate",
+          "reverse_translation": [
+            "လှည့်"
+          ]
+        },
+        {
+          "word": "deceive",
+          "reverse_translation": [
+            "လှည့်ဖြား"
+          ]
+        }
+      ],
+      "base_form": "လှည့်ပတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လှ ည့ ် ပတ်",
+      "alternative": [
+        {
+          "word_postproc": "Went round the",
+          "score": 472,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "They marched around",
+          "score": 416,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "March around the",
+          "score": 47,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Marched around the",
+          "score": 44,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "And went round",
+          "score": 19,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "လှည့်ပတ်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

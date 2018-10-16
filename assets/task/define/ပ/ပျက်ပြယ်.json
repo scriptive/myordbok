@@ -1,0 +1,89 @@
+{
+  "sentences": [
+    {
+      "trans": "vOID",
+      "orig": "ပျက်ပြယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyetpyaal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "fade",
+        "lose power",
+        "potency",
+        "invalidated",
+        "become null and void",
+        "be nullified"
+      ],
+      "entry": [
+        {
+          "word": "fade",
+          "reverse_translation": [
+            "ညိှုးနွမ်း"
+          ],
+          "score": 0.0086516952
+        }
+      ],
+      "base_form": "ပျက်ပြယ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပျက်ပြယ်",
+      "alternative": [
+        {
+          "word_postproc": "vOID",
+          "score": 940,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "null and void",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "void and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "TO VOID",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ပျက်ပြယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

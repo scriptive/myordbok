@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "torus molding",
+      "orig": "ဖောင်းရစ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpaungg rait"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "circular decorative band made in high relief",
+        "torus moulding",
+        "ovolo moulding",
+        "ovolo moulding above the bell-like dome of a stupa",
+        "raised band at the shaft-end of an ear- stud"
+      ],
+      "entry": [
+        {
+          "word": "circular decorative band made in high relief"
+        },
+        {
+          "word": "torus moulding"
+        },
+        {
+          "word": "ovolo moulding"
+        },
+        {
+          "word": "ovolo moulding above the bell-like dome of a stupa"
+        },
+        {
+          "word": "raised band at the shaft-end of an ear- stud"
+        }
+      ],
+      "base_form": "ဖောင်းရစ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖောင်း ရစ်",
+      "alternative": [
+        {
+          "word_postproc": "torus molding",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ဖောင်းရစ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

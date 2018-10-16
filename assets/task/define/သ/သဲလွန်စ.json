@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "Clue",
+      "orig": "သဲလွန်စ",
+      "backend": 0
+    },
+    {
+      "src_translit": "selllwanhc"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "အမှုကိစ္စတစ်စုံတစ်ရာကို စုံစမ်းရာတွင် လမ်းစဖော်ပေးသော အရာဝတ္ထု၊ အချက်အလက်စသည်။"
+      ],
+      "entry": [
+        {
+          "word": "အမှုကိစ္စတစ်စုံတစ်ရာကို စုံစမ်းရာတွင် လမ်းစဖော်ပေးသော အရာဝတ္ထု၊ အချက်အလက်စသည်။"
+        }
+      ],
+      "base_form": "သဲလွန်စ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သဲလွန်စ",
+      "alternative": [
+        {
+          "word_postproc": "Clue",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "trace",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "clues",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "early clues",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "solving clues",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "သဲလွန်စ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

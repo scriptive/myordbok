@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "afraid to speak",
+      "orig": "ဝံ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "wan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "dare",
+        "particle suffixed to a verb to convey the meaning \"dare\""
+      ],
+      "entry": [
+        {
+          "word": "dare",
+          "score": 0.03758125
+        },
+        {
+          "word": "particle suffixed to a verb to convey the meaning \"dare\""
+        }
+      ],
+      "base_form": "ဝံ့",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝံ့",
+      "alternative": [
+        {
+          "word_postproc": "afraid to speak",
+          "score": 812,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "dares to",
+          "score": 122,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "would dare",
+          "score": 54,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "was afraid to",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "dare to",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဝံ့",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

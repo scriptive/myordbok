@@ -1,0 +1,135 @@
+{
+  "sentences": [
+    {
+      "trans": "nephew",
+      "orig": "တူ",
+      "backend": 0
+    },
+    {
+      "src_translit": "tuu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "nephew",
+        "hammer",
+        "chopsticks",
+        "Libra: the seventh sign of the zodiae"
+      ],
+      "entry": [
+        {
+          "word": "nephew",
+          "reverse_translation": [
+            "တူ"
+          ],
+          "synset_id": [
+            46758
+          ],
+          "score": 0.0044188537
+        },
+        {
+          "word": "hammer",
+          "reverse_translation": [
+            "တူ"
+          ],
+          "synset_id": [
+            25167
+          ],
+          "score": 0.0024403227
+        },
+        {
+          "word": "chopsticks",
+          "reverse_translation": [
+            "တူ"
+          ],
+          "score": 0.00020667253
+        }
+      ],
+      "base_form": "တူ",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "resemble",
+        "alike",
+        "be the same"
+      ],
+      "entry": [
+        {
+          "word": "resemble",
+          "reverse_translation": [
+            "တူ"
+          ],
+          "synset_id": [
+            57109
+          ],
+          "score": 0.00092624204
+        }
+      ],
+      "base_form": "တူ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တူ",
+      "alternative": [
+        {
+          "word_postproc": "nephew",
+          "score": 779,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hammer",
+          "score": 220,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "is like a",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "is like the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "are like",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "တူ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

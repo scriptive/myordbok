@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "expelled",
+      "orig": "ပြည်နှင်ဒဏ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyinhaindan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "exile",
+        "deportation",
+        "banishment."
+      ],
+      "entry": [
+        {
+          "word": "exile",
+          "reverse_translation": [
+            "နှင်ထုတ်ခြင်း"
+          ],
+          "synset_id": [
+            3058
+          ],
+          "score": 0.21291229
+        },
+        {
+          "word": "deportation",
+          "reverse_translation": [
+            "နှင်ထားခြင်း"
+          ],
+          "synset_id": [
+            3058
+          ],
+          "score": 0.11396374
+        }
+      ],
+      "base_form": "ပြည်နှင်ဒဏ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြည်နှင်ဒဏ်",
+      "alternative": [
+        {
+          "word_postproc": "expelled",
+          "score": 485,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "deportation",
+          "score": 302,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "exile",
+          "score": 205,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in exile",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "banishment",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ပြည်နှင်ဒဏ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

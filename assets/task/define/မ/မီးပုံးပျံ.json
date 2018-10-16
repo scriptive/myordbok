@@ -1,0 +1,79 @@
+{
+  "sentences": [
+    {
+      "trans": "balloon",
+      "orig": "မီးပုံးပျံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "meeponepyaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "balloon",
+        "hot air balloon"
+      ],
+      "entry": [
+        {
+          "word": "balloon",
+          "reverse_translation": [
+            "မီးပုံးပျံ"
+          ],
+          "score": 0.1157584
+        }
+      ],
+      "base_form": "မီးပုံးပျံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မီးပုံးပျံ",
+      "alternative": [
+        {
+          "word_postproc": "balloon",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hot air balloon",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the balloon",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "မီးပုံးပျံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

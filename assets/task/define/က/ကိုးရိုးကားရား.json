@@ -1,0 +1,102 @@
+{
+  "sentences": [
+    {
+      "trans": "Clumsily",
+      "orig": "ကိုးရိုးကားရား",
+      "backend": 0
+    },
+    {
+      "src_translit": "koe roe karr rarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "awkwardly",
+        "clumsily",
+        "in disorder",
+        "obstructively",
+        "contrarily"
+      ],
+      "entry": [
+        {
+          "word": "awkwardly"
+        },
+        {
+          "word": "clumsily"
+        },
+        {
+          "word": "in disorder"
+        },
+        {
+          "word": "obstructively"
+        },
+        {
+          "word": "contrarily"
+        }
+      ],
+      "base_form": "ကိုးရိုးကားရား",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိုး ရိုး ကား ရား",
+      "alternative": [
+        {
+          "word_postproc": "Clumsily",
+          "score": 993,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Contrarily",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Awkwardly",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "In disorder",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Obstructively",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ကိုးရိုးကားရား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "sentences": [
+    {
+      "trans": "Ground",
+      "orig": "ကြည်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyi"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "clear"
+      ],
+      "entry": [
+        {
+          "word": "clear",
+          "reverse_translation": [
+            "ရှင်းလင်းသော"
+          ],
+          "score": 0.0056739203
+        }
+      ],
+      "base_form": "ကြည်း",
+      "pos_enum": 3
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "land"
+      ],
+      "entry": [
+        {
+          "word": "land",
+          "reverse_translation": [
+            "မေြရာ"
+          ]
+        }
+      ],
+      "base_form": "ကြည်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြည်း",
+      "alternative": [
+        {
+          "word_postproc": "Ground",
+          "score": 976,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Army",
+          "score": 23,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the Ground",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "excepting",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Army Ground",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကြည်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

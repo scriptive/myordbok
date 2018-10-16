@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "ebony",
+      "orig": "မည်းကျော",
+      "backend": 0
+    },
+    {
+      "src_translit": "maee kyaww"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "glossy black",
+        "ebony"
+      ],
+      "entry": [
+        {
+          "word": "glossy black"
+        },
+        {
+          "word": "ebony"
+        }
+      ],
+      "base_form": "မည်းကျော",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မည်း ကျော",
+      "alternative": [
+        {
+          "word_postproc": "ebony",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "glossy black",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "မည်းကျော",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

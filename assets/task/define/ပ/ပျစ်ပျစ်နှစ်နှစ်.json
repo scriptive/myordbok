@@ -1,0 +1,71 @@
+{
+  "sentences": [
+    {
+      "trans": "Roundly",
+      "orig": "ပျစ်ပျစ်နှစ်နှစ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyit pyit nhaitnhait"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "thick"
+      ],
+      "entry": [
+        {
+          "word": "thick",
+          "reverse_translation": [
+            "ထူသော"
+          ]
+        }
+      ],
+      "base_form": "ပျစ်ပျစ်နှစ်နှစ်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပျစ် ပျစ် နှစ်နှစ်",
+      "alternative": [
+        {
+          "word_postproc": "Roundly",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Thick",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "ပျစ်ပျစ်နှစ်နှစ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

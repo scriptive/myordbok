@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "Gamble",
+      "orig": "လောင်းတမ်းကစား",
+      "backend": 0
+    },
+    {
+      "src_translit": "laungg tam kahcarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "gamble"
+      ],
+      "entry": [
+        {
+          "word": "gamble",
+          "reverse_translation": [
+            "လောင်းတမ်းကစား"
+          ]
+        }
+      ],
+      "base_form": "လောင်းတမ်းကစား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လောင်း တမ်း ကစား",
+      "alternative": [
+        {
+          "word_postproc": "Gamble",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "လောင်းတမ်းကစား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

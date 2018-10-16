@@ -1,0 +1,115 @@
+{
+  "sentences": [
+    {
+      "trans": "2 years",
+      "orig": "နှစ်",
+      "backend": 1
+    },
+    {
+      "src_translit": "nhait"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "two",
+        "year"
+      ],
+      "entry": [
+        {
+          "word": "two",
+          "reverse_translation": [
+            "နှစ်"
+          ],
+          "synset_id": [
+            26858
+          ],
+          "score": 0.13323711
+        },
+        {
+          "word": "year",
+          "reverse_translation": [
+            "ခုနှစ်"
+          ],
+          "score": 0.093014486
+        }
+      ],
+      "base_form": "နှစ်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "immerse",
+        "dip",
+        "demean oneself",
+        "degrade others",
+        "sacrifice"
+      ],
+      "entry": [
+        {
+          "word": "immerse",
+          "reverse_translation": [
+            "နှစ်မြှုပ်"
+          ]
+        },
+        {
+          "word": "dip",
+          "reverse_translation": [
+            "ခေတ္တနှစ်"
+          ]
+        },
+        {
+          "word": "sacrifice",
+          "reverse_translation": [
+            "ယစ်ပူဇော်"
+          ]
+        }
+      ],
+      "base_form": "နှစ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နှစ်",
+      "alternative": [
+        {
+          "word_postproc": "2 years",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "two",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "နှစ်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

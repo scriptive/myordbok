@@ -1,0 +1,59 @@
+{
+  "sentences": [
+    {
+      "trans": "Sporadically",
+      "orig": "ကြိုးကြားကြိုးကြား",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaoe kyarr kyaoe kyarr"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြိုး ကြား ကြိုး ကြား",
+      "alternative": [
+        {
+          "word_postproc": "Sporadically",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Off and on",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Off and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 18
+        }
+      ],
+      "raw_src_segment": "ကြိုးကြားကြိုးကြား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

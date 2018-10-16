@@ -1,0 +1,73 @@
+{
+  "sentences": [
+    {
+      "trans": "politely",
+      "orig": "အသာတကြည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aasartakyi"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "politely",
+        "willingly"
+      ],
+      "entry": [
+        {
+          "word": "politely",
+          "reverse_translation": [
+            "ယဉ်ကေျးစွာ"
+          ],
+          "score": 0.14406367
+        }
+      ],
+      "base_form": "အသာတကြည်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အသာတကြည်",
+      "alternative": [
+        {
+          "word_postproc": "politely",
+          "score": 984,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "willingly",
+          "score": 15,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "အသာတကြည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

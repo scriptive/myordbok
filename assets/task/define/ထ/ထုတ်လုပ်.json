@@ -1,0 +1,111 @@
+{
+  "sentences": [
+    {
+      "trans": "produced",
+      "orig": "ထုတ်လုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "htotelote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "produce",
+        "manufacture",
+        "make"
+      ],
+      "entry": [
+        {
+          "word": "produce",
+          "reverse_translation": [
+            "ထုတ်ဖေါ်"
+          ],
+          "synset_id": [
+            12443
+          ],
+          "score": 0.046045512
+        },
+        {
+          "word": "manufacture",
+          "reverse_translation": [
+            "ပြုလုပ်"
+          ],
+          "score": 0.010936768
+        },
+        {
+          "word": "make",
+          "reverse_translation": [
+            "ပြုလုပ်"
+          ],
+          "synset_id": [
+            12443
+          ]
+        }
+      ],
+      "base_form": "ထုတ်လုပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထုတ်လုပ်",
+      "alternative": [
+        {
+          "word_postproc": "produced",
+          "score": 902,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "produce",
+          "score": 42,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "producing",
+          "score": 22,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "produced by",
+          "score": 11,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to produce",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ထုတ်လုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

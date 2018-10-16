@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "Dead of night",
+      "orig": "ညကြီးမင်းကြီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "ny kyee mainnkyee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "at an untimely hour"
+      ],
+      "entry": [
+        {
+          "word": "at an untimely hour"
+        }
+      ],
+      "base_form": "ညကြီးမင်းကြီး",
+      "pos_enum": 4
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "untimely hour of the night",
+        "dead of the night"
+      ],
+      "entry": [
+        {
+          "word": "untimely hour of the night"
+        },
+        {
+          "word": "dead of the night"
+        }
+      ],
+      "base_form": "ညကြီးမင်းကြီး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြီး မင်းကြီး",
+      "alternative": [
+        {
+          "word_postproc": "Dead of",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ညကြီးမင်းကြီး",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "ည",
+      "alternative": [
+        {
+          "word_postproc": "night",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 1
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

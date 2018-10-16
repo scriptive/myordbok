@@ -1,0 +1,85 @@
+{
+  "sentences": [
+    {
+      "trans": "METHODS",
+      "orig": "စနည်းနာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hc naee nar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "enquire",
+        "investigate",
+        "nose about for news, information"
+      ],
+      "entry": [
+        {
+          "word": "enquire",
+          "reverse_translation": [
+            "မေးမြန်း"
+          ],
+          "synset_id": [
+            3074
+          ]
+        },
+        {
+          "word": "investigate",
+          "reverse_translation": [
+            "စစ်ဆေး"
+          ],
+          "synset_id": [
+            3074
+          ]
+        }
+      ],
+      "base_form": "စနည်းနာ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နည်း နာ",
+      "alternative": [
+        {
+          "word_postproc": "METHODS",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Tactics",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "စနည်းနာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

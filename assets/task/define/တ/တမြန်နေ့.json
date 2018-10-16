@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Just the other day",
+      "orig": "တမြန်နေ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "t myan nae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "day before yesterday"
+      ],
+      "entry": [
+        {
+          "word": "day before yesterday"
+        }
+      ],
+      "base_form": "တမြန်နေ့",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တ မြန် နေ့",
+      "alternative": [
+        {
+          "word_postproc": "Just the other day",
+          "score": 981,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Day before yesterday",
+          "score": 18,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "တမြန်နေ့",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

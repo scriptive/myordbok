@@ -1,0 +1,88 @@
+{
+  "sentences": [
+    {
+      "trans": "uncleanness",
+      "orig": "ညစ်ညူး",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyait nyuu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be depressed",
+        "be weary",
+        "be mean and base"
+      ],
+      "entry": [
+        {
+          "word": "be depressed"
+        },
+        {
+          "word": "be weary"
+        },
+        {
+          "word": "be mean and base"
+        }
+      ],
+      "base_form": "ညစ်ညူး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညစ် ညူး",
+      "alternative": [
+        {
+          "word_postproc": "uncleanness",
+          "score": 818,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "defiled",
+          "score": 181,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "all uncleanness",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to uncleanness",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ညစ်ညူး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

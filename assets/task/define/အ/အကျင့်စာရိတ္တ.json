@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Moral behavior",
+      "orig": "အကျင့်စာရိတ္တ",
+      "backend": 0
+    },
+    {
+      "src_translit": "a kyint hcarritt"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "moral behaviour"
+      ],
+      "entry": [
+        {
+          "word": "moral behaviour"
+        }
+      ],
+      "base_form": "အကျင့်စာရိတ္တ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ ကျင့် စာရိတ္တ",
+      "alternative": [
+        {
+          "word_postproc": "Moral behavior",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "အကျင့်စာရိတ္တ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

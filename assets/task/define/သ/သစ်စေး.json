@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "resin",
+      "orig": "သစ်စေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "sait hcayy"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "lacquer tree",
+        "oleo-resin obtained from the tree"
+      ],
+      "entry": [
+        {
+          "word": "lacquer tree"
+        },
+        {
+          "word": "oleo-resin obtained from the tree"
+        }
+      ],
+      "base_form": "သစ်စေး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သစ် စေး",
+      "alternative": [
+        {
+          "word_postproc": "resin",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "သစ်စေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

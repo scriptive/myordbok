@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Family Tree",
+      "orig": "ဆွေစဉ်မျိုးဆက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "sway hcain myoesaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "genealogy",
+        "lineage"
+      ],
+      "entry": [
+        {
+          "word": "genealogy"
+        },
+        {
+          "word": "lineage"
+        }
+      ],
+      "base_form": "ဆွေစဉ်မျိုးဆက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆွေ စဉ် မျိုးဆက်",
+      "alternative": [
+        {
+          "word_postproc": "Family Tree",
+          "score": 977,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Genealogy",
+          "score": 22,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Generations",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Of generations",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Lineage",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ဆွေစဉ်မျိုးဆက်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

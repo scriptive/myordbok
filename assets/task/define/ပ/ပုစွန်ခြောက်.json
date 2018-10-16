@@ -1,0 +1,109 @@
+{
+  "sentences": [
+    {
+      "trans": "dried shrimp",
+      "orig": "ပုစွန်ခြောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "puhcwan hkyawwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "dried shrimp",
+        "dried prawn"
+      ],
+      "entry": [
+        {
+          "word": "dried shrimp"
+        },
+        {
+          "word": "dried prawn"
+        }
+      ],
+      "base_form": "ပုစွန်ခြောက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခြောက်",
+      "alternative": [
+        {
+          "word_postproc": "dried",
+          "score": 970,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Six",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ပုစွန်ခြောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ပုစွန်",
+      "alternative": [
+        {
+          "word_postproc": "shrimp",
+          "score": 970,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "prawn",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "prawns",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "shrimps",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

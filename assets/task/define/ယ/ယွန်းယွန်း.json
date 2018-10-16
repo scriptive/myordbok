@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "heading",
+      "orig": "ယွန်းယွန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "ywannywann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "veering towards a certain direction"
+      ],
+      "entry": [
+        {
+          "word": "veering towards a certain direction"
+        }
+      ],
+      "base_form": "ယွန်းယွန်း",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယွန်းယွန်း",
+      "alternative": [
+        {
+          "word_postproc": "heading",
+          "score": 983,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "heading to",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ယွန်းယွန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

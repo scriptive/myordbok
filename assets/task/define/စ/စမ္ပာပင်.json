@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Heartwood from the tree",
+      "orig": "စမ္ပာပင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcam par pain"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စမ္ ပာ",
+      "alternative": [
+        {
+          "word_postproc": "Heartwood from the tree",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "စမ္ပာပင်",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

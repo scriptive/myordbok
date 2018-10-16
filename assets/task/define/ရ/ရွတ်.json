@@ -1,0 +1,111 @@
+{
+  "sentences": [
+    {
+      "trans": "clay",
+      "orig": "ရွတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "rwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "recite",
+        "be cussed",
+        "do a wrong thing wilfully"
+      ],
+      "entry": [
+        {
+          "word": "recite",
+          "reverse_translation": [
+            "ပြန်ပေြာ"
+          ],
+          "score": 0.0050072172
+        }
+      ],
+      "base_form": "ရွတ်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "tough",
+        "sinewy",
+        "stringy"
+      ],
+      "entry": [
+        {
+          "word": "tough",
+          "reverse_translation": [
+            "ခိုင်မာသော",
+            "ခဲခက်သော"
+          ]
+        }
+      ],
+      "base_form": "ရွတ်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရွတ်",
+      "alternative": [
+        {
+          "word_postproc": "clay",
+          "score": 850,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tendons",
+          "score": 103,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ligaments",
+          "score": 29,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ligament",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "recited",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ရွတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "A frog",
+      "orig": "ဖားတလက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hparr t laat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "species of frog which gives a staccato cry.'Rana Limnocharis.'"
+      ],
+      "entry": [
+        {
+          "word": "species of frog which gives a staccato cry.'Rana Limnocharis.'"
+        }
+      ],
+      "base_form": "ဖားတလက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တ",
+      "alternative": [
+        {
+          "word_postproc": "A",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "One",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဖားတလက်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဖား",
+      "alternative": [
+        {
+          "word_postproc": "frog",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "frogs",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

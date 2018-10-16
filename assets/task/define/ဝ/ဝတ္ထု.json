@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "novel",
+      "orig": "ဝတ္ထု",
+      "backend": 0
+    },
+    {
+      "src_translit": "wathtu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "matter",
+        "object",
+        "commodity",
+        "money offered for the use of monks",
+        "generic term for story, narrative, novel, fiction"
+      ],
+      "entry": [
+        {
+          "word": "object",
+          "reverse_translation": [
+            "အရာဝတ္တု"
+          ],
+          "score": 0.0036633583
+        }
+      ],
+      "base_form": "ဝတ္ထု",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝတ္ထု",
+      "alternative": [
+        {
+          "word_postproc": "novel",
+          "score": 945,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "novels",
+          "score": 38,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the novel",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဝတ္ထု",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

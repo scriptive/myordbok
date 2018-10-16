@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Go in circles",
+      "orig": "သဝေချာလည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "s way hkyaar lai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "go in circles"
+      ],
+      "entry": [
+        {
+          "word": "go in circles"
+        }
+      ],
+      "base_form": "သဝေချာလည်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သ ဝေ ချာ လည်",
+      "alternative": [
+        {
+          "word_postproc": "Go in circles",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "သဝေချာလည်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

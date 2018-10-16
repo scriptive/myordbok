@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "Indeterminatly",
+      "orig": "ဇဝေဇဝက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "j way j waat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "vaguely",
+        "hazily",
+        "indeterminatly"
+      ],
+      "entry": [
+        {
+          "word": "vaguely"
+        },
+        {
+          "word": "hazily"
+        },
+        {
+          "word": "indeterminatly"
+        }
+      ],
+      "base_form": "ဇဝေဇဝက်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဇ ဝေ ဇ ဝက်",
+      "alternative": [
+        {
+          "word_postproc": "Indeterminatly",
+          "score": 989,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Hazily",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Vaguely",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဇဝေဇဝက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

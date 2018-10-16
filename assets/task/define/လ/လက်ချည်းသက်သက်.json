@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Empty-handed",
+      "orig": "လက်ချည်းသက်သက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "laat hkyaee saatsaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "empty handed"
+      ],
+      "entry": [
+        {
+          "word": "empty handed"
+        }
+      ],
+      "base_form": "လက်ချည်းသက်သက်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လက် ချည်း သက်သက်",
+      "alternative": [
+        {
+          "word_postproc": "Empty-handed",
+          "score": 843,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Empty handed",
+          "score": 156,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "လက်ချည်းသက်သက်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

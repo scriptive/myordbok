@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "Ruminate",
+      "orig": "စားမြုံ့ပြန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcarr myuan pyan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "chew the cud",
+        "ruminate",
+        "reminisce"
+      ],
+      "entry": [
+        {
+          "word": "chew the cud"
+        },
+        {
+          "word": "ruminate"
+        },
+        {
+          "word": "reminisce"
+        }
+      ],
+      "base_form": "စားမြုံ့ပြန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စား မြုံ့ ပြန်",
+      "alternative": [
+        {
+          "word_postproc": "Ruminate",
+          "score": 963,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Chew the cud",
+          "score": 35,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Reminisce",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "စားမြုံ့ပြန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

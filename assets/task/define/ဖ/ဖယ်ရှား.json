@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "remove",
+      "orig": "ဖယ်ရှား",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpaalsharr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "remove"
+      ],
+      "entry": [
+        {
+          "word": "remove",
+          "reverse_translation": [
+            "ရေွှ့"
+          ],
+          "score": 0.16842748
+        }
+      ],
+      "base_form": "ဖယ်ရှား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖယ်ရှား",
+      "alternative": [
+        {
+          "word_postproc": "remove",
+          "score": 440,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "removal",
+          "score": 322,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "removed",
+          "score": 217,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "removing",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to remove",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဖယ်ရှား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

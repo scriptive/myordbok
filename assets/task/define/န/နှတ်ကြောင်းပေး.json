@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Stack the deck",
+      "orig": "နှတ်ကြောင်းပေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "nhaat kyaungg payy"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "stack the deck",
+        "make a reference line"
+      ],
+      "entry": [
+        {
+          "word": "stack the deck"
+        },
+        {
+          "word": "make a reference line"
+        }
+      ],
+      "base_form": "နှတ်ကြောင်းပေး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နှတ် ကြောင်း",
+      "alternative": [
+        {
+          "word_postproc": "Stack the deck",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "နှတ်ကြောင်းပေး",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

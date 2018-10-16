@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Street fighter",
+      "orig": "လမ်းသရဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "lam s rell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "hooligan"
+      ],
+      "entry": [
+        {
+          "word": "hooligan"
+        }
+      ],
+      "base_form": "လမ်းသရဲ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လမ်း သ ရဲ",
+      "alternative": [
+        {
+          "word_postproc": "Street fighter",
+          "score": 766,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Hooligan",
+          "score": 233,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "လမ်းသရဲ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

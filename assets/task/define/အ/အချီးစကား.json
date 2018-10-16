@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Prologue",
+      "orig": "အချီးစကား",
+      "backend": 0
+    },
+    {
+      "src_translit": "a hkyaee hcakarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "prologue"
+      ],
+      "entry": [
+        {
+          "word": "prologue"
+        }
+      ],
+      "base_form": "အချီးစကား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ ချီး စကား",
+      "alternative": [
+        {
+          "word_postproc": "Prologue",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အချီးစကား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

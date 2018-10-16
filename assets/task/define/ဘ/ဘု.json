@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "glory",
+      "orig": "ဘု",
+      "backend": 0
+    },
+    {
+      "src_translit": "bhu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "1 knob",
+        "kump",
+        "node",
+        "intransigent brusque speech,marner"
+      ],
+      "entry": [
+        {
+          "word": "1 knob"
+        },
+        {
+          "word": "kump"
+        },
+        {
+          "word": "node"
+        },
+        {
+          "word": "intransigent brusque speech,marner"
+        }
+      ],
+      "base_form": "ဘု",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘု",
+      "alternative": [
+        {
+          "word_postproc": "glory",
+          "score": 557,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Honor",
+          "score": 313,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The beauty",
+          "score": 13,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bookmarks",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "excellency",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ဘု",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

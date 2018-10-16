@@ -1,0 +1,96 @@
+{
+  "sentences": [
+    {
+      "trans": "Power",
+      "orig": "အစွမ်းအစ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aahcwm a hc"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "potential",
+        "ability"
+      ],
+      "entry": [
+        {
+          "word": "potential",
+          "reverse_translation": [
+            "ဖြစ်နိုင်ခြင်း"
+          ]
+        },
+        {
+          "word": "ability",
+          "reverse_translation": [
+            "စွမ်းအား"
+          ]
+        }
+      ],
+      "base_form": "အစွမ်းအစ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အစွမ်း",
+      "alternative": [
+        {
+          "word_postproc": "Power",
+          "score": 618,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Abilities",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Strength",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Ability",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "What power",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "အစွမ်းအစ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

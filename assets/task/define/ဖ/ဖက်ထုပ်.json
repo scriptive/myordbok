@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Dumpling",
+      "orig": "ဖက်ထုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpaathtote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "Chinese dish of minced meat, wrapped in dough, served fried,boiled"
+      ],
+      "entry": [
+        {
+          "word": "Chinese dish of minced meat, wrapped in dough, served fried,boiled"
+        }
+      ],
+      "base_form": "ဖက်ထုပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖက်ထုပ်",
+      "alternative": [
+        {
+          "word_postproc": "Dumpling",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to dumpling",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဖက်ထုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

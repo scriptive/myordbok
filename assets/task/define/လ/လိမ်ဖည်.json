@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "contorted",
+      "orig": "လိမ်ဖည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lain hpai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be warped",
+        "be twisted",
+        "be contorted",
+        "be crooked"
+      ],
+      "entry": [
+        {
+          "word": "be warped"
+        },
+        {
+          "word": "be twisted"
+        },
+        {
+          "word": "be contorted"
+        },
+        {
+          "word": "be crooked"
+        }
+      ],
+      "base_form": "လိမ်ဖည်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လိမ် ဖည်",
+      "alternative": [
+        {
+          "word_postproc": "contorted",
+          "score": 990,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "twisted",
+          "score": 9,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "warped",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "crooked",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "လိမ်ဖည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

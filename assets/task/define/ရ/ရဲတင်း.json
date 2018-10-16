@@ -1,0 +1,130 @@
+{
+  "sentences": [
+    {
+      "trans": "police report",
+      "orig": "ရဲတင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "rell tainn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "bold",
+        "brave",
+        "audacious"
+      ],
+      "entry": [
+        {
+          "word": "bold",
+          "reverse_translation": [
+            "ရဲရင့်သော"
+          ]
+        },
+        {
+          "word": "brave",
+          "reverse_translation": [
+            "ရဲရင့်သော"
+          ],
+          "synset_id": [
+            70384
+          ]
+        }
+      ],
+      "base_form": "ရဲတင်း",
+      "pos_enum": 3
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "hatchet",
+        "kind of poem that eulogizes bravery"
+      ],
+      "entry": [
+        {
+          "word": "hatchet",
+          "reverse_translation": [
+            "ပုဆိန်တိုကလေး"
+          ]
+        }
+      ],
+      "base_form": "ရဲတင်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရဲ",
+      "alternative": [
+        {
+          "word_postproc": "police",
+          "score": 819,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ရဲတင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "တင်း",
+      "alternative": [
+        {
+          "word_postproc": "report",
+          "score": 819,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "baskets",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "news",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the news",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 6
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

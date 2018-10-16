@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Zulu",
+      "orig": "ရာဇူ",
+      "backend": 0
+    },
+    {
+      "src_translit": "rar juu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "large scales"
+      ],
+      "entry": [
+        {
+          "word": "large scales"
+        }
+      ],
+      "base_form": "ရာဇူ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဇူ",
+      "alternative": [
+        {
+          "word_postproc": "Zulu",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Zhu",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ရာဇူ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

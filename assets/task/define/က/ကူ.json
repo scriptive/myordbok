@@ -1,0 +1,116 @@
+{
+  "sentences": [
+    {
+      "trans": "help",
+      "orig": "ကူ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kuu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "help",
+        "assist",
+        "aid",
+        "coo"
+      ],
+      "entry": [
+        {
+          "word": "help",
+          "reverse_translation": [
+            "ကူညီ"
+          ],
+          "synset_id": [
+            28365
+          ],
+          "score": 0.18211353
+        },
+        {
+          "word": "assist",
+          "reverse_translation": [
+            "ထောက်ပံ့"
+          ],
+          "synset_id": [
+            28365
+          ],
+          "score": 0.0051661632
+        },
+        {
+          "word": "aid",
+          "reverse_translation": [
+            "ကူညီ"
+          ],
+          "synset_id": [
+            28365
+          ],
+          "score": 0.0039610346
+        }
+      ],
+      "base_form": "ကူ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကူ",
+      "alternative": [
+        {
+          "word_postproc": "help",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Gu",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Kunming",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to help",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "coupon",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ကူ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

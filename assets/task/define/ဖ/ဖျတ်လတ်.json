@@ -1,0 +1,73 @@
+{
+  "sentences": [
+    {
+      "trans": "brisk",
+      "orig": "ဖျတ်လတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpyatlaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "brisk",
+        "active"
+      ],
+      "entry": [
+        {
+          "word": "active",
+          "reverse_translation": [
+            "လှုပ်ရှားသော"
+          ],
+          "score": 0.11943297
+        }
+      ],
+      "base_form": "ဖျတ်လတ်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖျတ်လတ်",
+      "alternative": [
+        {
+          "word_postproc": "brisk",
+          "score": 995,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "active",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဖျတ်လတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

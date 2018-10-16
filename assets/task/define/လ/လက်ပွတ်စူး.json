@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Bradawl",
+      "orig": "လက်ပွတ်စူး",
+      "backend": 0
+    },
+    {
+      "src_translit": "laat pwat hcuu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "bradawl"
+      ],
+      "entry": [
+        {
+          "word": "bradawl"
+        }
+      ],
+      "base_form": "လက်ပွတ်စူး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လက် ပွတ် စူး",
+      "alternative": [
+        {
+          "word_postproc": "Bradawl",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "လက်ပွတ်စူး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

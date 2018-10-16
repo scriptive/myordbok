@@ -1,0 +1,143 @@
+{
+  "sentences": [
+    {
+      "trans": "broken",
+      "orig": "ကျိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "break",
+        "be creased",
+        "violate",
+        "fall into a set patten",
+        "fall into a habit"
+      ],
+      "entry": [
+        {
+          "word": "break",
+          "reverse_translation": [
+            "ချိုး"
+          ],
+          "synset_id": [
+            5843
+          ],
+          "score": 0.017476905
+        },
+        {
+          "word": "violate",
+          "reverse_translation": [
+            "ဖေါက်ကေျာ်"
+          ],
+          "synset_id": [
+            5843
+          ]
+        }
+      ],
+      "base_form": "ကျိုး",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "effect",
+        "consequence",
+        "benefit",
+        "advantage"
+      ],
+      "entry": [
+        {
+          "word": "effect",
+          "reverse_translation": [
+            "အကျိုး"
+          ],
+          "synset_id": [
+            52743
+          ]
+        },
+        {
+          "word": "consequence",
+          "reverse_translation": [
+            "အကျိုးဆက်"
+          ],
+          "synset_id": [
+            52743
+          ]
+        },
+        {
+          "word": "benefit",
+          "reverse_translation": [
+            "အကျိုး"
+          ]
+        },
+        {
+          "word": "advantage",
+          "reverse_translation": [
+            "အကျိုးဖြစ်ထွန်းမှု"
+          ]
+        }
+      ],
+      "base_form": "ကျိုး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျိုး",
+      "alternative": [
+        {
+          "word_postproc": "broken",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "are broken",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "this broken",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "with broken",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကျိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

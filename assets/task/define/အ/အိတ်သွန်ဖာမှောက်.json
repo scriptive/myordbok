@@ -1,0 +1,89 @@
+{
+  "sentences": [
+    {
+      "trans": "Without exception",
+      "orig": "အိတ်သွန်ဖာမှောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aate swan hpar mhaout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "wholly",
+        "totally",
+        "thoroughly",
+        "without exception"
+      ],
+      "entry": [
+        {
+          "word": "totally",
+          "reverse_translation": [
+            "လုံးဝစွာ"
+          ],
+          "synset_id": [
+            38210
+          ]
+        }
+      ],
+      "base_form": "အိတ်သွန်ဖာမှောက်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အိတ် သွန် ဖာ မှောက်",
+      "alternative": [
+        {
+          "word_postproc": "Without exception",
+          "score": 598,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Wholly",
+          "score": 227,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Thoroughly",
+          "score": 163,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Totally",
+          "score": 9,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "အိတ်သွန်ဖာမှောက်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

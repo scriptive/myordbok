@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "Extremely",
+      "orig": "တာတေလံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "tar tay lan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "extremely"
+      ],
+      "entry": [
+        {
+          "word": "extremely",
+          "reverse_translation": [
+            "အလွန်"
+          ]
+        }
+      ],
+      "base_form": "တာတေလံ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တာ တေ လံ",
+      "alternative": [
+        {
+          "word_postproc": "Extremely",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "တာတေလံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

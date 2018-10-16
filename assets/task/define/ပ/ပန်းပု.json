@@ -1,0 +1,96 @@
+{
+  "sentences": [
+    {
+      "trans": "Sculpture",
+      "orig": "ပန်းပု",
+      "backend": 0
+    },
+    {
+      "src_translit": "paannpu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "woodcarving",
+        "ivory carving",
+        "art of carving wood,ivory"
+      ],
+      "entry": [
+        {
+          "word": "woodcarving",
+          "score": 0.010767208
+        },
+        {
+          "word": "ivory carving",
+          "score": 0.010767208
+        },
+        {
+          "word": "art of carving wood,ivory"
+        }
+      ],
+      "base_form": "ပန်းပု",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပန်းပု",
+      "alternative": [
+        {
+          "word_postproc": "Sculpture",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sculptures",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sculptor",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sculptural",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "woodcarving",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ပန်းပု",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

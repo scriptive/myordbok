@@ -1,0 +1,87 @@
+{
+  "sentences": [
+    {
+      "trans": "honey",
+      "orig": "ပျားရည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyarrrai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "honey"
+      ],
+      "entry": [
+        {
+          "word": "honey",
+          "reverse_translation": [
+            "ပျားရည်"
+          ],
+          "synset_id": [
+            30087
+          ],
+          "score": 0.53526145
+        }
+      ],
+      "base_form": "ပျားရည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပျားရည်",
+      "alternative": [
+        {
+          "word_postproc": "honey",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "honey is",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of honey",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "honey for",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ပျားရည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

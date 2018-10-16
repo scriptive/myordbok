@@ -1,0 +1,127 @@
+{
+  "sentences": [
+    {
+      "trans": "girded",
+      "orig": "စည်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcaee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "line",
+        "bunch",
+        "fence",
+        "discipline",
+        "ethics",
+        "code of conduct",
+        "timing bells",
+        "timing",
+        "beat",
+        "tempo",
+        "bundle",
+        "sandbank"
+      ],
+      "entry": [
+        {
+          "word": "line",
+          "reverse_translation": [
+            "အတန်း",
+            "လူတန်း",
+            "မျဉ်းကေြာင်း"
+          ],
+          "score": 0.023153137
+        },
+        {
+          "word": "fence",
+          "reverse_translation": [
+            "အကာ"
+          ]
+        },
+        {
+          "word": "discipline",
+          "reverse_translation": [
+            "စည်းကမ်း"
+          ]
+        },
+        {
+          "word": "beat",
+          "reverse_translation": [
+            "ရိုက်မှု"
+          ]
+        },
+        {
+          "word": "bundle",
+          "reverse_translation": [
+            "အထုပ်"
+          ]
+        }
+      ],
+      "base_form": "စည်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စည်း",
+      "alternative": [
+        {
+          "word_postproc": "girded",
+          "score": 894,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "girdle",
+          "score": 76,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "gird",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bunch",
+          "score": 12,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bound up",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "စည်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

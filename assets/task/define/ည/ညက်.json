@@ -1,0 +1,102 @@
+{
+  "sentences": [
+    {
+      "trans": "beat",
+      "orig": "ညက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "reduce to powder,paste",
+        "be smooth and delicate",
+        "be smooth",
+        "be subtle",
+        "be suave"
+      ],
+      "entry": [
+        {
+          "word": "reduce to powder,paste"
+        },
+        {
+          "word": "be smooth and delicate"
+        },
+        {
+          "word": "be smooth"
+        },
+        {
+          "word": "be subtle"
+        },
+        {
+          "word": "be suave"
+        }
+      ],
+      "base_form": "ညက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညက်",
+      "alternative": [
+        {
+          "word_postproc": "beat",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and beat",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pulverize",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "beaten small",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "frankincense thereon",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ညက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

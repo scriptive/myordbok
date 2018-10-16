@@ -1,0 +1,161 @@
+{
+  "sentences": [
+    {
+      "trans": "Seik",
+      "orig": "ဆိပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "siut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "port",
+        "terminal",
+        "jetty",
+        "dock",
+        "stand",
+        "poison",
+        "venom",
+        "pier",
+        "wharf",
+        "rank",
+        "landing-stage on rivers,streams used for swimming,bathing, etc"
+      ],
+      "entry": [
+        {
+          "word": "port",
+          "reverse_translation": [
+            "သငေ်္ဘာဆိပ်ကမ်း"
+          ],
+          "score": 0.041274928
+        },
+        {
+          "word": "terminal",
+          "reverse_translation": [
+            "ဘူတာရုံ"
+          ],
+          "synset_id": [
+            36831
+          ],
+          "score": 0.019496895
+        },
+        {
+          "word": "jetty",
+          "reverse_translation": [
+            "ဆိပ်ခံတံတား"
+          ],
+          "score": 0.012200845
+        },
+        {
+          "word": "dock",
+          "reverse_translation": [
+            "သငေ်္ဘာကျင်း"
+          ],
+          "synset_id": [
+            57177
+          ],
+          "score": 0.0098036546
+        },
+        {
+          "word": "poison",
+          "reverse_translation": [
+            "အဆိပ်"
+          ],
+          "score": 0.0098036546
+        },
+        {
+          "word": "pier",
+          "reverse_translation": [
+            "တံတားတိုက်ခံ"
+          ],
+          "synset_id": [
+            57177
+          ],
+          "score": 0.0072854576
+        },
+        {
+          "word": "wharf",
+          "reverse_translation": [
+            "သငေ်္ဘာကပ်တံတား"
+          ],
+          "synset_id": [
+            57177
+          ],
+          "score": 0.0048531611
+        },
+        {
+          "word": "rank",
+          "reverse_translation": [
+            "ဘဲွ့"
+          ],
+          "score": 0.0048531611
+        }
+      ],
+      "base_form": "ဆိပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆိပ်",
+      "alternative": [
+        {
+          "word_postproc": "Seik",
+          "score": 850,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "haven",
+          "score": 122,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a haven",
+          "score": 24,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "landing place",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a harbor",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဆိပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

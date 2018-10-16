@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "A disheveled state",
+      "orig": "ဦးဆံဖားလျား",
+      "backend": 0
+    },
+    {
+      "src_translit": "u san hparr lyarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in a dishevelled state"
+      ],
+      "entry": [
+        {
+          "word": "in a dishevelled state"
+        }
+      ],
+      "base_form": "ဦးဆံဖားလျား",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဦး ဆံ ဖား လျား",
+      "alternative": [
+        {
+          "word_postproc": "A disheveled state",
+          "score": 968,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "In a disheveled state",
+          "score": 31,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ဦးဆံဖားလျား",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

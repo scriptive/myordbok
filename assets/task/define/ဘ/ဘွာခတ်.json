@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "ask for a respite",
+      "orig": "ဘွာခတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "bhwar hkaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "ask for a respite",
+        "revoke one's word"
+      ],
+      "entry": [
+        {
+          "word": "ask for a respite"
+        },
+        {
+          "word": "revoke one's word"
+        }
+      ],
+      "base_form": "ဘွာခတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘွာ ခတ်",
+      "alternative": [
+        {
+          "word_postproc": "ask for a respite",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "revoke one's word",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဘွာခတ်",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

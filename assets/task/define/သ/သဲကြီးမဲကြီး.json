@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "in earnest",
+      "orig": "သဲကြီးမဲကြီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "sellkyeemellkyee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "စူးစူးစိုက်စိုက်ဇွဲကြီးစွာ။ ပြင်းပြင်းထန်ထန်။"
+      ],
+      "entry": [
+        {
+          "word": "စူးစူးစိုက်စိုက်ဇွဲကြီးစွာ။ ပြင်းပြင်းထန်ထန်။"
+        }
+      ],
+      "base_form": "သဲကြီးမဲကြီး",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သဲကြီးမဲကြီး",
+      "alternative": [
+        {
+          "word_postproc": "in earnest",
+          "score": 517,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "earnest",
+          "score": 481,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sheet of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a sheet",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "earnest when",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "သဲကြီးမဲကြီး",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

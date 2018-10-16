@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "enrollment",
+      "orig": "ကျောင်းအပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaunggaaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "enroll in",
+        "get admission to a school."
+      ],
+      "entry": [
+        {
+          "word": "enroll in",
+          "score": 0.01720595
+        },
+        {
+          "word": "get admission to a school."
+        }
+      ],
+      "base_form": "ကျောင်းအပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျောင်းအပ်",
+      "alternative": [
+        {
+          "word_postproc": "enrollment",
+          "score": 867,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Enrolled",
+          "score": 56,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "enrollments",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of enrollment",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "enroll",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ကျောင်းအပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

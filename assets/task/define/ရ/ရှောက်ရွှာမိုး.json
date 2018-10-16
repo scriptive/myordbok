@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Rain with hail",
+      "orig": "ရှောက်ရွှာမိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "shout shwar moe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "rain with hail"
+      ],
+      "entry": [
+        {
+          "word": "rain with hail"
+        }
+      ],
+      "base_form": "ရှောက်ရွှာမိုး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရှောက် ရွှာ မိုး",
+      "alternative": [
+        {
+          "word_postproc": "Rain with hail",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ရှောက်ရွှာမိုး",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

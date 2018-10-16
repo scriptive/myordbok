@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "density",
+      "orig": "သိပ်သည်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "siut saee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "compact",
+        "dense"
+      ],
+      "entry": [
+        {
+          "word": "compact",
+          "reverse_translation": [
+            "ကျစ်လစ်သော"
+          ]
+        },
+        {
+          "word": "dense",
+          "reverse_translation": [
+            "ထူထပ်သော"
+          ]
+        }
+      ],
+      "base_form": "သိပ်သည်း",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သိပ် သည်း",
+      "alternative": [
+        {
+          "word_postproc": "density",
+          "score": 971,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "dense",
+          "score": 28,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "unostentatious",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a dense",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "သိပ်သည်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

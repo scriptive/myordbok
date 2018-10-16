@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "rate",
+      "orig": "တနှုန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "t nhuann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "",
+      "terms": [
+        "particle denoting that the preceding noun is employed as an object of comparison"
+      ],
+      "entry": [
+        {
+          "word": "particle denoting that the preceding noun is employed as an object of comparison"
+        }
+      ],
+      "base_form": "တနှုန်း",
+      "pos_enum": 20
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နှုန်း",
+      "alternative": [
+        {
+          "word_postproc": "rate",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rate of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the rate",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the rate of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rates",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "တနှုန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

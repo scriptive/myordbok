@@ -1,0 +1,59 @@
+{
+  "sentences": [
+    {
+      "trans": "horizon",
+      "orig": "မိုးကုပ်စက်ဝိုင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "moekotehcaatwine"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မိုးကုပ်စက်ဝိုင်း",
+      "alternative": [
+        {
+          "word_postproc": "horizon",
+          "score": 996,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the horizon",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "this bright",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 17
+        }
+      ],
+      "raw_src_segment": "မိုးကုပ်စက်ဝိုင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

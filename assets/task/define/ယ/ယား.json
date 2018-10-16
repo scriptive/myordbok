@@ -1,0 +1,95 @@
+{
+  "sentences": [
+    {
+      "trans": "Cambodia",
+      "orig": "ယား",
+      "backend": 0
+    },
+    {
+      "src_translit": "yarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "itch",
+        "itch to do,say sth",
+        "champ at the bit"
+      ],
+      "entry": [
+        {
+          "word": "itch",
+          "reverse_translation": [
+            "ယား"
+          ],
+          "synset_id": [
+            6842
+          ],
+          "score": 0.001390454
+        }
+      ],
+      "base_form": "ယား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယား",
+      "alternative": [
+        {
+          "word_postproc": "Cambodia",
+          "score": 431,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Romania",
+          "score": 286,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "South Korea",
+          "score": 155,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Korea",
+          "score": 92,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Bosnia",
+          "score": 15,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ယား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "sentences": [
+    {
+      "trans": "Therefore",
+      "orig": "လက်ပစ်ကူး",
+      "backend": 0
+    },
+    {
+      "src_translit": "laatpaitkuu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "the crawl"
+      ],
+      "entry": [
+        {
+          "word": "the crawl",
+          "score": 0.10057265
+        }
+      ],
+      "base_form": "လက်ပစ်ကူး",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "swim the crawl"
+      ],
+      "entry": [
+        {
+          "word": "swim the crawl",
+          "score": 0.10057265
+        }
+      ],
+      "base_form": "လက်ပစ်ကူး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လက်ပစ်ကူး",
+      "alternative": [
+        {
+          "word_postproc": "Therefore",
+          "score": 508,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "crawl",
+          "score": 338,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the crawl",
+          "score": 152,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "swim the crawl",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "လက်ပစ်ကူး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

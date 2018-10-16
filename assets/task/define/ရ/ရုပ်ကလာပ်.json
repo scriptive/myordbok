@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "Cadaver",
+      "orig": "ရုပ်ကလာပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "rote k larut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "corpse",
+        "dead body",
+        "cadaver"
+      ],
+      "entry": [
+        {
+          "word": "corpse",
+          "reverse_translation": [
+            "အလောင်း"
+          ],
+          "synset_id": [
+            61358
+          ]
+        }
+      ],
+      "base_form": "ရုပ်ကလာပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရုပ် က လာပ်",
+      "alternative": [
+        {
+          "word_postproc": "Cadaver",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Corpse",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Dead body",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ရုပ်ကလာပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

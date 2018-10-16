@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Eloquent",
+      "orig": "အာဝဇ္ဇန်းရွှင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aar waj jaann shwin"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be fluent",
+        "eloquent"
+      ],
+      "entry": [
+        {
+          "word": "be fluent"
+        },
+        {
+          "word": "eloquent"
+        }
+      ],
+      "base_form": "အာဝဇ္ဇန်းရွှင်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အာ ဝဇ္ ဇန်း ရွှင်",
+      "alternative": [
+        {
+          "word_postproc": "Eloquent",
+          "score": 549,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Fluent",
+          "score": 450,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "အာဝဇ္ဇန်းရွှင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

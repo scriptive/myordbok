@@ -1,0 +1,70 @@
+{
+  "sentences": [
+    {
+      "trans": "understudy",
+      "orig": "ကိုယ်ခွဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "ko hkwal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "person to act in one's stead",
+        "person who deputizes for another",
+        "understudy"
+      ],
+      "entry": [
+        {
+          "word": "person to act in one's stead"
+        },
+        {
+          "word": "person who deputizes for another"
+        },
+        {
+          "word": "understudy"
+        }
+      ],
+      "base_form": "ကိုယ်ခွဲ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိုယ် ခွဲ",
+      "alternative": [
+        {
+          "word_postproc": "understudy",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကိုယ်ခွဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

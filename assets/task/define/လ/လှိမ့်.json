@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "Roll",
+      "orig": "လှိမ့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lhai m "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "roll sth,oneself on a surface",
+        "bluff",
+        "trick"
+      ],
+      "entry": [
+        {
+          "word": "roll sth,oneself on a surface"
+        },
+        {
+          "word": "bluff"
+        },
+        {
+          "word": "trick"
+        }
+      ],
+      "base_form": "လှိမ့်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လှိ မ့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Roll",
+          "score": 974,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Rolling",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Scroll",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "And roll",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Rolled",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "လှိမ့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Narrowly",
+      "orig": "ပွတ်ကာသီကာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pwat kar se kar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "narrowly",
+        "closely"
+      ],
+      "entry": [
+        {
+          "word": "closely",
+          "reverse_translation": [
+            "ထူထပ်စွာ"
+          ]
+        }
+      ],
+      "base_form": "ပွတ်ကာသီကာ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပွတ် ကာ သီ ကာ",
+      "alternative": [
+        {
+          "word_postproc": "Narrowly",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Closely",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ပွတ်ကာသီကာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

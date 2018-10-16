@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "trans": "the weather",
+      "orig": "မိုးလေဝသ",
+      "backend": 1
+    },
+    {
+      "src_translit": "moelaywas"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "meteorological conditions",
+        "state of weather",
+        "prevailing state of affairs",
+        "mood"
+      ],
+      "entry": [
+        {
+          "word": "mood",
+          "reverse_translation": [
+            "စိတ်နေသဘောထား"
+          ],
+          "score": 0.0044884402
+        }
+      ],
+      "base_form": "မိုးလေဝသ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မိုးလေဝသ",
+      "alternative": [
+        {
+          "word_postproc": "the weather",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Weather",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "မိုးလေဝသ",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "take shelter",
+      "orig": "ကွန်းခို",
+      "backend": 0
+    },
+    {
+      "src_translit": "kwann hko"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "take shelter"
+      ],
+      "entry": [
+        {
+          "word": "take shelter"
+        }
+      ],
+      "base_form": "ကွန်းခို",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကွန်း ခို",
+      "alternative": [
+        {
+          "word_postproc": "take shelter",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကွန်းခို",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "related",
+      "orig": "နှီးနွှယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nhaee nwhaal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be related",
+        "be connected"
+      ],
+      "entry": [
+        {
+          "word": "be related"
+        },
+        {
+          "word": "be connected"
+        }
+      ],
+      "base_form": "နှီးနွှယ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နှီး နွှယ်",
+      "alternative": [
+        {
+          "word_postproc": "related",
+          "score": 934,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "can interact",
+          "score": 49,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "connected",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "interact",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "နှီးနွှယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

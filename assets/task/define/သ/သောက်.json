@@ -1,0 +1,95 @@
+{
+  "sentences": [
+    {
+      "trans": "drink",
+      "orig": "သောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "sout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "drink",
+        "smoke",
+        "lighten up"
+      ],
+      "entry": [
+        {
+          "word": "drink",
+          "reverse_translation": [
+            "သောက်"
+          ],
+          "synset_id": [
+            2446
+          ],
+          "score": 0.24126123
+        },
+        {
+          "word": "smoke",
+          "reverse_translation": [
+            "မီးခိုးထွက် ၊ ဆေးလိပ်သောက်"
+          ]
+        }
+      ],
+      "base_form": "သောက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သောက်",
+      "alternative": [
+        {
+          "word_postproc": "drink",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and drink",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "drank",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "drink of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "သောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "Again and again",
+      "orig": "တစွတ်စွတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "t hcwat hcwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "again and again",
+        "time and again"
+      ],
+      "entry": [
+        {
+          "word": "again and again",
+          "synset_id": [
+            100259
+          ]
+        },
+        {
+          "word": "time and again",
+          "synset_id": [
+            100259
+          ]
+        }
+      ],
+      "base_form": "တစွတ်စွတ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တ စွတ် စွတ်",
+      "alternative": [
+        {
+          "word_postproc": "Again and again",
+          "score": 597,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Time and again",
+          "score": 402,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "တစွတ်စွတ်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

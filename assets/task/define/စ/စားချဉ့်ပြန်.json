@@ -1,0 +1,69 @@
+{
+  "sentences": [
+    {
+      "trans": "Night",
+      "orig": "စားချဉ့်ပြန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcarr hkya in  pyan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "eruct",
+        "belch"
+      ],
+      "entry": [
+        {
+          "word": "belch",
+          "reverse_translation": [
+            "လေချဉ်တက်ခြင်း"
+          ],
+          "synset_id": [
+            87183
+          ]
+        }
+      ],
+      "base_form": "စားချဉ့်ပြန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဉ့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Night",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "စားချဉ့်ပြန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

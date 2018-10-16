@@ -1,0 +1,102 @@
+{
+  "sentences": [
+    {
+      "trans": "brag",
+      "orig": "ကြွားဝါ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawarr war"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "boast",
+        "brag"
+      ],
+      "entry": [
+        {
+          "word": "boast",
+          "reverse_translation": [
+            "ကြွားဝါပေြာဆို"
+          ],
+          "synset_id": [
+            99882
+          ]
+        },
+        {
+          "word": "brag",
+          "reverse_translation": [
+            "ကြွားဝါ"
+          ],
+          "synset_id": [
+            99882
+          ]
+        }
+      ],
+      "base_form": "ကြွားဝါ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြွား ဝါ",
+      "alternative": [
+        {
+          "word_postproc": "brag",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "boast of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "boasts",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "boast",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "boasting",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကြွားဝါ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

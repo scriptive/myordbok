@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "to meet",
+      "orig": "ဆီးကြို",
+      "backend": 0
+    },
+    {
+      "src_translit": "see kyao"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "meet",
+        "welcome sb"
+      ],
+      "entry": [
+        {
+          "word": "meet",
+          "reverse_translation": [
+            "တေွ့ဆုံ"
+          ]
+        }
+      ],
+      "base_form": "ဆီးကြို",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆီး ကြို",
+      "alternative": [
+        {
+          "word_postproc": "to meet",
+          "score": 685,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "meet",
+          "score": 314,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "welcome",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "with him",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "met",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဆီးကြို",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

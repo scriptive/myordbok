@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "as things are",
+      "orig": "လျောက်လျား",
+      "backend": 0
+    },
+    {
+      "src_translit": "lyawwat lyarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "as things are",
+        "of one's accord,volition"
+      ],
+      "entry": [
+        {
+          "word": "as things are"
+        },
+        {
+          "word": "of one's accord,volition"
+        }
+      ],
+      "base_form": "လျောက်လျား",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လျောက် လျား",
+      "alternative": [
+        {
+          "word_postproc": "as things are",
+          "score": 980,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "things are",
+          "score": 19,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "လျောက်လျား",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

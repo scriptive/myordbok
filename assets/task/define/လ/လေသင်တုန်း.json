@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "razor",
+      "orig": "လေသင်တုန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "lay saintone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "fabulous wind supposed to cut things into pieces like a razor",
+        "paralytic stroke"
+      ],
+      "entry": [
+        {
+          "word": "fabulous wind supposed to cut things into pieces like a razor"
+        },
+        {
+          "word": "paralytic stroke"
+        }
+      ],
+      "base_form": "လေသင်တုန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သင်တုန်း",
+      "alternative": [
+        {
+          "word_postproc": "razor",
+          "score": 945,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "လေသင်တုန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

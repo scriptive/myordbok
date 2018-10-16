@@ -1,0 +1,71 @@
+{
+  "sentences": [
+    {
+      "trans": "skull",
+      "orig": "ဦးခွံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "u hkwan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "skull"
+      ],
+      "entry": [
+        {
+          "word": "skull",
+          "reverse_translation": [
+            "ဉီးခေါင်းခွံ"
+          ]
+        }
+      ],
+      "base_form": "ဦးခွံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဦး ခွံ",
+      "alternative": [
+        {
+          "word_postproc": "skull",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the skull",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဦးခွံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

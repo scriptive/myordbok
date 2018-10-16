@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "only",
+      "orig": "ကေသာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kay sar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "hair"
+      ],
+      "entry": [
+        {
+          "word": "hair",
+          "reverse_translation": [
+            "ဆံပင်",
+            "အမေွှး"
+          ]
+        }
+      ],
+      "base_form": "ကေသာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သာ",
+      "alternative": [
+        {
+          "word_postproc": "only",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကေသာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

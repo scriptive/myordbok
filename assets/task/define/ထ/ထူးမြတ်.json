@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "excel",
+      "orig": "ထူးမြတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "htuumyat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be sacred",
+        "be worthy of respect,veneration"
+      ],
+      "entry": [
+        {
+          "word": "be sacred"
+        },
+        {
+          "word": "be worthy of respect,veneration"
+        }
+      ],
+      "base_form": "ထူးမြတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထူးမြတ်",
+      "alternative": [
+        {
+          "word_postproc": "excel",
+          "score": 805,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Wonderful",
+          "score": 140,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "more than others",
+          "score": 54,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sacred",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "noble",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ထူးမြတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

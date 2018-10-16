@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Excessive eating",
+      "orig": "စားပိုးနင့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcarr poe n in "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "suffer from excessive eating"
+      ],
+      "entry": [
+        {
+          "word": "suffer from excessive eating"
+        }
+      ],
+      "base_form": "စားပိုးနင့်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စား ပိုး န",
+      "alternative": [
+        {
+          "word_postproc": "Excessive eating",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "စားပိုးနင့်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

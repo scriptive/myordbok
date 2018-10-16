@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "title",
+      "orig": "ခေါင်းစဉ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaungghcain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "heading",
+        "headlines",
+        "headline"
+      ],
+      "entry": [
+        {
+          "word": "heading",
+          "reverse_translation": [
+            "ဉီးတည်ချက်"
+          ],
+          "score": 0.023153137
+        },
+        {
+          "word": "headline",
+          "reverse_translation": [
+            "ခေါင်းစဉ်"
+          ],
+          "score": 0.0025977099
+        }
+      ],
+      "base_form": "ခေါင်းစဉ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခေါင်းစဉ်",
+      "alternative": [
+        {
+          "word_postproc": "title",
+          "score": 987,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The title",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Title of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the title of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "title for",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ခေါင်းစဉ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

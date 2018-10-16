@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "localized",
+      "orig": "လေကျစ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lay kyit"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be localized"
+      ],
+      "entry": [
+        {
+          "word": "be localized"
+        }
+      ],
+      "base_form": "‌လေကျစ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လေ ကျစ်",
+      "alternative": [
+        {
+          "word_postproc": "localized",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "လေကျစ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

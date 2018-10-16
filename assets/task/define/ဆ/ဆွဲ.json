@@ -1,0 +1,179 @@
+{
+  "sentences": [
+    {
+      "trans": "draw",
+      "orig": "ဆွဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "swal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "draw",
+        "pull",
+        "drag",
+        "hang",
+        "snatch away",
+        "hold one's attention,interest",
+        "commandeer",
+        "take away",
+        "carry off",
+        "borrow",
+        "procrastinate",
+        "prolong",
+        "delay",
+        "persuade",
+        "tug",
+        "tow",
+        "wear"
+      ],
+      "entry": [
+        {
+          "word": "draw",
+          "reverse_translation": [
+            "ဆဲွငင်"
+          ],
+          "synset_id": [
+            1610,
+            12810
+          ],
+          "score": 0.062936753
+        },
+        {
+          "word": "pull",
+          "reverse_translation": [
+            "ဆဲွငင်"
+          ],
+          "synset_id": [
+            1610
+          ],
+          "score": 0.016676579
+        },
+        {
+          "word": "drag",
+          "reverse_translation": [
+            "ဆဲွ"
+          ],
+          "synset_id": [
+            12810
+          ],
+          "score": 0.010435936
+        },
+        {
+          "word": "hang",
+          "reverse_translation": [
+            "ဆဲွထား"
+          ],
+          "score": 0.0042164996
+        },
+        {
+          "word": "borrow",
+          "reverse_translation": [
+            "ခေျးယူ"
+          ]
+        },
+        {
+          "word": "procrastinate",
+          "reverse_translation": [
+            "နေ့ရေွှ့"
+          ]
+        },
+        {
+          "word": "prolong",
+          "reverse_translation": [
+            "တိုးစေ"
+          ]
+        },
+        {
+          "word": "delay",
+          "reverse_translation": [
+            "နေှာင့်နေှး"
+          ]
+        },
+        {
+          "word": "persuade",
+          "reverse_translation": [
+            "သေွးဆောင်"
+          ]
+        },
+        {
+          "word": "tow",
+          "reverse_translation": [
+            "ကြိုးနှင့်ဆဲွသွား"
+          ]
+        },
+        {
+          "word": "wear",
+          "reverse_translation": [
+            "ဝတ်ဆင်"
+          ]
+        }
+      ],
+      "base_form": "ဆွဲ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆွဲ",
+      "alternative": [
+        {
+          "word_postproc": "draw",
+          "score": 899,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "drawing",
+          "score": 46,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pull",
+          "score": 38,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pulling",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to draw",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဆွဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "Filth",
+      "orig": "အညစ်အထည်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "aanyait a htaee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "filth",
+        "dirt"
+      ],
+      "entry": [
+        {
+          "word": "filth",
+          "reverse_translation": [
+            "အညစ်အကေြး"
+          ],
+          "synset_id": [
+            117512
+          ]
+        },
+        {
+          "word": "dirt",
+          "reverse_translation": [
+            "အညစ်အကေြး"
+          ],
+          "synset_id": [
+            117512
+          ]
+        }
+      ],
+      "base_form": "အညစ်အထည်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အညစ် အ ထည်း",
+      "alternative": [
+        {
+          "word_postproc": "Filth",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Dirt",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အညစ်အထည်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

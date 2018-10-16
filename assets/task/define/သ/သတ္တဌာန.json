@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "Department of disused",
+      "orig": "သတ္တဌာန",
+      "backend": 0
+    },
+    {
+      "src_translit": "satt htarn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "the seven places where Buddha sojourned for seven days each just after enlightenment"
+      ],
+      "entry": [
+        {
+          "word": "the seven places where Buddha sojourned for seven days each just after enlightenment"
+        }
+      ],
+      "base_form": "သတ္တဌာန",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဌာန",
+      "alternative": [
+        {
+          "word_postproc": "Department of",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Department",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "departments",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "သတ္တဌာန",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "သတ္တ",
+      "alternative": [
+        {
+          "word_postproc": "disused",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

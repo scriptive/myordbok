@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "corruption",
+      "orig": "အဂတိလိုက်စား",
+      "backend": 0
+    },
+    {
+      "src_translit": "aagatilitehcarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "show partiality in the dispensation of justice"
+      ],
+      "entry": [
+        {
+          "word": "show partiality in the dispensation of justice"
+        }
+      ],
+      "base_form": "အဂတိလိုက်စား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အဂတိလိုက်စား",
+      "alternative": [
+        {
+          "word_postproc": "corruption",
+          "score": 806,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "corrupt",
+          "score": 193,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "with corrupt",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "အဂတိလိုက်စား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

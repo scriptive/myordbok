@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "အန္တ",
+      "orig": "အန္တရကပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aant r kaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "time encompassing an epoch of increasing lifespan, followed by a declining one"
+      ],
+      "entry": [
+        {
+          "word": "time encompassing an epoch of increasing lifespan, followed by a declining one"
+        }
+      ],
+      "base_form": "အန္တရကပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အန္တ",
+      "alternative": [
+        {
+          "word_postproc": "အန္တ",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "အန္တရကပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

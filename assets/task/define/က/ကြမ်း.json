@@ -1,0 +1,139 @@
+{
+  "sentences": [
+    {
+      "trans": "coarse",
+      "orig": "ကြမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "floor",
+        "weighted bamboo screen pushed by men to drive fish into a weir"
+      ],
+      "entry": [
+        {
+          "word": "floor",
+          "reverse_translation": [
+            "အထပ်"
+          ],
+          "score": 0.088755049
+        }
+      ],
+      "base_form": "ကြမ်း",
+      "pos_enum": 1
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "rough",
+        "harsh",
+        "violent",
+        "vicious",
+        "severe"
+      ],
+      "entry": [
+        {
+          "word": "rough",
+          "reverse_translation": [
+            "ကြမ်းတမ်းသော"
+          ],
+          "synset_id": [
+            27385
+          ],
+          "score": 0.032651156
+        },
+        {
+          "word": "harsh",
+          "reverse_translation": [
+            "ခဲခက်သော"
+          ],
+          "synset_id": [
+            27385
+          ],
+          "score": 0.012392981
+        },
+        {
+          "word": "violent",
+          "reverse_translation": [
+            "ပြင်းထန်သော"
+          ],
+          "score": 0.0089263292
+        },
+        {
+          "word": "severe",
+          "reverse_translation": [
+            "ကြပ်တည်းသော",
+            "တိကျသော"
+          ]
+        }
+      ],
+      "base_form": "ကြမ်း",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြမ်း",
+      "alternative": [
+        {
+          "word_postproc": "coarse",
+          "score": 625,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the floor",
+          "score": 333,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A violent",
+          "score": 37,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the floor of",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mop the floor",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကြမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

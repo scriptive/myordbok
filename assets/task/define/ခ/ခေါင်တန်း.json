@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "ridge pole",
+      "orig": "ခေါင်တန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaung taann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "ridge pole"
+      ],
+      "entry": [
+        {
+          "word": "ridge pole"
+        }
+      ],
+      "base_form": "ခေါင်တန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခေါင် တန်း",
+      "alternative": [
+        {
+          "word_postproc": "ridge pole",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ခေါင်တန်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

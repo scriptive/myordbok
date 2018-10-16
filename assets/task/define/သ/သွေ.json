@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "ignorant",
+      "orig": "သွေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "sway"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "deviate",
+        "stray",
+        "be untrue"
+      ],
+      "entry": [
+        {
+          "word": "deviate",
+          "reverse_translation": [
+            "တိမ်းယိမ်း"
+          ],
+          "score": 0.011461634
+        }
+      ],
+      "base_form": "သွေ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သွေ",
+      "alternative": [
+        {
+          "word_postproc": "ignorant",
+          "score": 926,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "stray",
+          "score": 21,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "deviate",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "should",
+          "score": 13,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "untrue",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "သွေ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

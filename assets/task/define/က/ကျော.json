@@ -1,0 +1,156 @@
+{
+  "sentences": [
+    {
+      "trans": "back",
+      "orig": "ကျော",
+      "backend": 1
+    },
+    {
+      "src_translit": "kyaww"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "back",
+        "behind",
+        "rear",
+        "reverse page",
+        "verso"
+      ],
+      "entry": [
+        {
+          "word": "back",
+          "reverse_translation": [
+            "နောက်ဘက်",
+            "ကေျာ"
+          ],
+          "synset_id": [
+            49926
+          ],
+          "score": 0.22313017
+        },
+        {
+          "word": "behind",
+          "reverse_translation": [
+            "နောက်ပိုင်း"
+          ],
+          "synset_id": [
+            17014
+          ],
+          "score": 0.002638618
+        },
+        {
+          "word": "rear",
+          "reverse_translation": [
+            "နောက်ဘက်"
+          ],
+          "synset_id": [
+            17014,
+            49926
+          ]
+        }
+      ],
+      "base_form": "ကျော",
+      "pos_enum": 1
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "immaculate",
+        "pure",
+        "clean",
+        "smooth"
+      ],
+      "entry": [
+        {
+          "word": "immaculate",
+          "reverse_translation": [
+            "စင်ကြယ်သန့်ရှင်းသော"
+          ]
+        },
+        {
+          "word": "pure",
+          "reverse_translation": [
+            "သန့်စင်သော"
+          ]
+        },
+        {
+          "word": "clean",
+          "reverse_translation": [
+            "သန့်ရှင်းသော"
+          ]
+        },
+        {
+          "word": "smooth",
+          "reverse_translation": [
+            "ခေျာသော"
+          ]
+        }
+      ],
+      "base_form": "ကျော",
+      "pos_enum": 3
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "do better than others",
+        "excel",
+        "outdo sb",
+        "surpass",
+        "have the edge on sb",
+        "say, act, do sth to get unfair advantage",
+        "turn one's back on"
+      ],
+      "entry": [
+        {
+          "word": "surpass",
+          "reverse_translation": [
+            "လွန်ကဲ"
+          ],
+          "synset_id": [
+            14449
+          ]
+        }
+      ],
+      "base_form": "ကျော",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျော",
+      "alternative": [
+        {
+          "word_postproc": "back",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကျော",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

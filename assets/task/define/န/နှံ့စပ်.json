@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "everywhere",
+      "orig": "နှံ့စပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nhaan hcaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be everywhere",
+        "be well-informed",
+        "well-experienced"
+      ],
+      "entry": [
+        {
+          "word": "be everywhere"
+        },
+        {
+          "word": "be well-informed"
+        },
+        {
+          "word": "well-experienced"
+        }
+      ],
+      "base_form": "နှံ့စပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နှံ့ စပ်",
+      "alternative": [
+        {
+          "word_postproc": "everywhere",
+          "score": 857,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "thorough",
+          "score": 73,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "well",
+          "score": 51,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "နှံ့စပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "sentences": [
+    {
+      "trans": "air",
+      "orig": "လေ",
+      "backend": 1
+    },
+    {
+      "src_translit": "lay"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "air",
+        "wind",
+        "breeze",
+        "gas,wind in the body",
+        "words",
+        "empty talk",
+        "gas",
+        "style of delivery",
+        "tone",
+        "particle suffixed to a verb, noun,another particle to convey a note of resignation"
+      ],
+      "entry": [
+        {
+          "word": "air",
+          "reverse_translation": [
+            "လေ"
+          ],
+          "synset_id": [
+            52396
+          ],
+          "score": 0.038173068
+        },
+        {
+          "word": "wind",
+          "reverse_translation": [
+            "လေ"
+          ],
+          "synset_id": [
+            62945
+          ],
+          "score": 0.036424998
+        },
+        {
+          "word": "breeze",
+          "reverse_translation": [
+            "လေချို"
+          ],
+          "synset_id": [
+            52396
+          ]
+        },
+        {
+          "word": "gas",
+          "reverse_translation": [
+            "ဓါတ်ငေွ့"
+          ]
+        },
+        {
+          "word": "tone",
+          "reverse_translation": [
+            "အသံ",
+            "အသေွးအဆင်း"
+          ]
+        }
+      ],
+      "base_form": "လေ",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "be wasted",
+        "wander",
+        "wander about aimlessly",
+        "particle used as a sentence final marker to denote persuasion"
+      ],
+      "entry": [
+        {
+          "word": "wander",
+          "reverse_translation": [
+            "လှည့်လည်"
+          ]
+        }
+      ],
+      "base_form": "လေ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လေ",
+      "alternative": [
+        {
+          "word_postproc": "air",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wind",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "လေ",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

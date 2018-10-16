@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Lottery",
+      "orig": "မထိတထီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "m hti t hte"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထီ",
+      "alternative": [
+        {
+          "word_postproc": "Lottery",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "မထိတထီ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

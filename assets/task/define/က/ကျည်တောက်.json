@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "quiver",
+      "orig": "ကျည်တောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyai tout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "short length of bamboo closed at one end"
+      ],
+      "entry": [
+        {
+          "word": "short length of bamboo closed at one end"
+        }
+      ],
+      "base_form": "ကျည်တောက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျည် တောက်",
+      "alternative": [
+        {
+          "word_postproc": "quiver",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကျည်တောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

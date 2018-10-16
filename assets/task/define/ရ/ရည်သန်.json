@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "aim",
+      "orig": "ရည်သန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "rai saan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "hope for",
+        "aim at",
+        "intend",
+        "be meant for"
+      ],
+      "entry": [
+        {
+          "word": "intend",
+          "reverse_translation": [
+            "ကြံစည်"
+          ]
+        }
+      ],
+      "base_form": "ရည်သန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရည် သန်",
+      "alternative": [
+        {
+          "word_postproc": "aim",
+          "score": 502,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "intend",
+          "score": 410,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hope",
+          "score": 32,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "aim at",
+          "score": 19,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "purpose",
+          "score": 18,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ရည်သန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

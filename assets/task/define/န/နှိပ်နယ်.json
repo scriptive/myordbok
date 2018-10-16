@@ -1,0 +1,112 @@
+{
+  "sentences": [
+    {
+      "trans": "massage",
+      "orig": "နှိပ်နယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nhaiut naal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "massage",
+        "oppress",
+        "suppress"
+      ],
+      "entry": [
+        {
+          "word": "massage",
+          "reverse_translation": [
+            "နှိပ်နယ်"
+          ],
+          "synset_id": [
+            94054
+          ]
+        },
+        {
+          "word": "oppress",
+          "reverse_translation": [
+            "ညှင်းပန်း"
+          ],
+          "synset_id": [
+            102536
+          ]
+        },
+        {
+          "word": "suppress",
+          "reverse_translation": [
+            "ဖိနှိပ်"
+          ],
+          "synset_id": [
+            102536
+          ]
+        }
+      ],
+      "base_form": "နှိပ်နယ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နှိပ် နယ်",
+      "alternative": [
+        {
+          "word_postproc": "massage",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "massage to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Massages",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "massaging",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "massaged",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "နှိပ်နယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

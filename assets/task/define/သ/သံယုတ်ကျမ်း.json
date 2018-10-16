@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "Book သံယုတ်",
+      "orig": "သံယုတ်ကျမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "sanyote kyam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "variant of သံယုတ္တကျမ်း",
+        "one of the five collections of Buddha's canons"
+      ],
+      "entry": [
+        {
+          "word": "variant of သံယုတ္တကျမ်း"
+        },
+        {
+          "word": "one of the five collections of Buddha's canons"
+        }
+      ],
+      "base_form": "သံယုတ်ကျမ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျမ်း",
+      "alternative": [
+        {
+          "word_postproc": "Book",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "scriptures",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the Book",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "သံယုတ်ကျမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "သံယုတ်",
+      "alternative": [
+        {
+          "word_postproc": "သံယုတ်",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

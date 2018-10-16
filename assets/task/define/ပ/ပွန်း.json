@@ -1,0 +1,96 @@
+{
+  "sentences": [
+    {
+      "trans": "familiarly",
+      "orig": "ပွန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "pwann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "suffer abrasion",
+        "suffer a slight loss",
+        "be rubbed off"
+      ],
+      "entry": [
+        {
+          "word": "suffer abrasion",
+          "score": 0.016418032
+        },
+        {
+          "word": "suffer a slight loss",
+          "score": 0.016418032
+        },
+        {
+          "word": "be rubbed off"
+        }
+      ],
+      "base_form": "ပွန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပွန်း",
+      "alternative": [
+        {
+          "word_postproc": "familiarly",
+          "score": 577,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "abrasions",
+          "score": 422,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "conversant with",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "conversant",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "familiar with",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ပွန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

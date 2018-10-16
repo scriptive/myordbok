@@ -1,0 +1,121 @@
+{
+  "sentences": [
+    {
+      "trans": "numbness",
+      "orig": "ထုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "htone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "infuse",
+        "instil",
+        "permeate",
+        "be dull",
+        "be numbed",
+        "be torpid",
+        "be ingrained",
+        "be wont to",
+        "be infused"
+      ],
+      "entry": [
+        {
+          "word": "infuse",
+          "score": 0.0062315823
+        },
+        {
+          "word": "instil",
+          "score": 0.0062315823
+        },
+        {
+          "word": "permeate",
+          "score": 0.0062315823
+        },
+        {
+          "word": "be dull"
+        },
+        {
+          "word": "be numbed"
+        },
+        {
+          "word": "be torpid"
+        },
+        {
+          "word": "be ingrained"
+        },
+        {
+          "word": "be wont to"
+        },
+        {
+          "word": "be infused"
+        }
+      ],
+      "base_form": "ထုံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထုံ",
+      "alternative": [
+        {
+          "word_postproc": "numbness",
+          "score": 812,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "local anesthetic",
+          "score": 83,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "steady state",
+          "score": 51,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "numb",
+          "score": 45,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "torpid",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ထုံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

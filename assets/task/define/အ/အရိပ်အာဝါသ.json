@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "Shelter",
+      "orig": "အရိပ်အာဝါသ",
+      "backend": 0
+    },
+    {
+      "src_translit": "a riut aarwars"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "shady place",
+        "refuge",
+        "shelter"
+      ],
+      "entry": [
+        {
+          "word": "refuge",
+          "reverse_translation": [
+            "ခိုကိုးရာ"
+          ]
+        },
+        {
+          "word": "shelter",
+          "reverse_translation": [
+            "ခိုကိုးရာ"
+          ]
+        }
+      ],
+      "base_form": "အရိပ်အာဝါသ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ ရိပ် အာဝါသ",
+      "alternative": [
+        {
+          "word_postproc": "Shelter",
+          "score": 795,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Shade",
+          "score": 199,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Shady place",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Refuge",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "အရိပ်အာဝါသ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

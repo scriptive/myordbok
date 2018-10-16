@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "မုတ်ခါး",
+      "orig": "မုတ်ခါး",
+      "backend": 0
+    },
+    {
+      "src_translit": "motehkarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "medicinal preparation concocted from the pulp of the plant Aloe vera"
+      ],
+      "entry": [
+        {
+          "word": "medicinal preparation concocted from the pulp of the plant Aloe vera"
+        }
+      ],
+      "base_form": "မုတ်ခါး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မုတ်ခါး",
+      "alternative": [
+        {
+          "word_postproc": "မုတ်ခါး",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "မုတ်ခါး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

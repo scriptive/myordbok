@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "helm",
+      "orig": "ပဲ့စင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pae hcain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "steerman's seat at the stern end of a boat",
+        "helm"
+      ],
+      "entry": [
+        {
+          "word": "helm",
+          "reverse_translation": [
+            "တက်မ"
+          ]
+        }
+      ],
+      "base_form": "ပဲ့စင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပဲ့ စင်",
+      "alternative": [
+        {
+          "word_postproc": "helm",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ပဲ့စင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "sentences": [
+    {
+      "trans": "Mandalay Division",
+      "orig": "မန္တလေးတိုင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "mantalayytine"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မန္တလေးတိုင်း",
+      "alternative": [
+        {
+          "word_postproc": "Mandalay Division",
+          "score": 952,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Mandalay Region",
+          "score": 47,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in Mandalay Division",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "မန္တလေးတိုင်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

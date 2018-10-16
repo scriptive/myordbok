@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "physically",
+      "orig": "ကိုယ်ထိလက်ရောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kohtilaatrout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "physically",
+        "in person"
+      ],
+      "entry": [
+        {
+          "word": "physically",
+          "score": 0.16071463
+        },
+        {
+          "word": "in person",
+          "score": 0.017752126
+        }
+      ],
+      "base_form": "ကိုယ်ထိလက်ရောက်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိုယ်ထိလက်ရောက်",
+      "alternative": [
+        {
+          "word_postproc": "physically",
+          "score": 993,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Physical",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "unlikely",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in person",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bnt",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "ကိုယ်ထိလက်ရောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

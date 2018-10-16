@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "contorted",
+      "orig": "ဖည်ယမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpai yam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "twisted",
+        "contorted",
+        "wavery",
+        "swaying"
+      ],
+      "entry": [
+        {
+          "word": "twisted"
+        },
+        {
+          "word": "contorted"
+        },
+        {
+          "word": "wavery"
+        },
+        {
+          "word": "swaying"
+        }
+      ],
+      "base_form": "ဖည်ယမ်း",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖည် ယမ်း",
+      "alternative": [
+        {
+          "word_postproc": "contorted",
+          "score": 996,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "swaying",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "twisted",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wavery",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဖည်ယမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "sentences": [
+    {
+      "trans": "staff",
+      "orig": "တောင်ဝှေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "taung whaayy"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "staff"
+      ],
+      "entry": [
+        {
+          "word": "staff",
+          "reverse_translation": [
+            "အရာရှိစု"
+          ]
+        }
+      ],
+      "base_form": "တောင်ဝှေး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တောင် ဝှေး",
+      "alternative": [
+        {
+          "word_postproc": "staff",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "carry staffs",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "တောင်ဝှေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

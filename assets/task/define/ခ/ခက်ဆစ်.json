@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "glossary",
+      "orig": "ခက်ဆစ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaatsait"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "difficult word",
+        "phrase"
+      ],
+      "entry": [
+        {
+          "word": "phrase",
+          "reverse_translation": [
+            "အသုံးအနှုန်း"
+          ]
+        }
+      ],
+      "base_form": "ခက်ဆစ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခက်ဆစ်",
+      "alternative": [
+        {
+          "word_postproc": "glossary",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "difficult word",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ခက်ဆစ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

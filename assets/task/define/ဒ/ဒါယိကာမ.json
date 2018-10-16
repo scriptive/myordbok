@@ -1,0 +1,67 @@
+{
+  "sentences": [
+    {
+      "trans": "donor",
+      "orig": "ဒါယိကာမ",
+      "backend": 0
+    },
+    {
+      "src_translit": "daryikarm"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "donor",
+        "term of address used by a Buddhist monk when addressing a woman"
+      ],
+      "entry": [
+        {
+          "word": "donor",
+          "score": 0.038173068
+        },
+        {
+          "word": "term of address used by a Buddhist monk when addressing a woman"
+        }
+      ],
+      "base_form": "ဒါယိကာမ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဒါယိကာမ",
+      "alternative": [
+        {
+          "word_postproc": "donor",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဒါယိကာမ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

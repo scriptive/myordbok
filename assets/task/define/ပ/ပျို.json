@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "young",
+      "orig": "ပျို",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyao"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "young",
+        "tender"
+      ],
+      "entry": [
+        {
+          "word": "young",
+          "reverse_translation": [
+            "အသက်ငယ်သော"
+          ],
+          "score": 0.40403652
+        },
+        {
+          "word": "tender",
+          "reverse_translation": [
+            "နူးညံ့သော"
+          ]
+        }
+      ],
+      "base_form": "ပျို",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပျို",
+      "alternative": [
+        {
+          "word_postproc": "young",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the young",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cub",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a young",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of young",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ပျို",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

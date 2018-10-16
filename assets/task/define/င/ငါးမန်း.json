@@ -1,0 +1,69 @@
+{
+  "sentences": [
+    {
+      "trans": "shark",
+      "orig": "ငါးမန်း",
+      "backend": 1
+    },
+    {
+      "src_translit": "ngarrmaann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "shark"
+      ],
+      "entry": [
+        {
+          "word": "shark",
+          "reverse_translation": [
+            "ငါးမန်း"
+          ],
+          "synset_id": [
+            44584
+          ],
+          "score": 0.34559074
+        }
+      ],
+      "base_form": "ငါးမန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ငါးမန်း",
+      "alternative": [
+        {
+          "word_postproc": "shark",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ငါးမန်း",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

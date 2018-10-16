@@ -1,0 +1,104 @@
+{
+  "sentences": [
+    {
+      "trans": "Persecution",
+      "orig": "နှိပ်ကွပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nhaiutkwut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "suppress",
+        "oppress"
+      ],
+      "entry": [
+        {
+          "word": "suppress",
+          "reverse_translation": [
+            "ဖိနှိပ်"
+          ],
+          "synset_id": [
+            102536
+          ],
+          "score": 0.052176401
+        },
+        {
+          "word": "oppress",
+          "reverse_translation": [
+            "ညှင်းပန်း"
+          ],
+          "synset_id": [
+            102536
+          ],
+          "score": 0.0086516952
+        }
+      ],
+      "base_form": "နှိပ်ကွပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နှိပ်ကွပ်",
+      "alternative": [
+        {
+          "word_postproc": "Persecution",
+          "score": 992,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "suppress",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "repression",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the repression",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "suppressed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "နှိပ်ကွပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

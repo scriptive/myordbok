@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Tenon saw",
+      "orig": "စေ့ကောက်လွှ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcae kout lwha"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "tenon saw"
+      ],
+      "entry": [
+        {
+          "word": "tenon saw"
+        }
+      ],
+      "base_form": "စေ့ကောက်လွှ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စေ့ ကောက် လွှ",
+      "alternative": [
+        {
+          "word_postproc": "Tenon saw",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "စေ့ကောက်လွှ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

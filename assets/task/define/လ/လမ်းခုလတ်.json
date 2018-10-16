@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "Midway",
+      "orig": "လမ်းခုလတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lam hku laat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "en-route",
+        "midway."
+      ],
+      "entry": [
+        {
+          "word": "en-route"
+        },
+        {
+          "word": "midway."
+        }
+      ],
+      "base_form": "လမ်းခုလတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လမ်း ခု လတ်",
+      "alternative": [
+        {
+          "word_postproc": "Midway",
+          "score": 638,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Way",
+          "score": 171,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "On the way",
+          "score": 160,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The way",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "လမ်းခုလတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

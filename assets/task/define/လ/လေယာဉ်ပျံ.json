@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "Airplane",
+      "orig": "လေယာဉ်ပျံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "lay yarin pyaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "airplane",
+        "aeroplane",
+        "aircraft"
+      ],
+      "entry": [
+        {
+          "word": "airplane",
+          "reverse_translation": [
+            "လေယာဉ်ပျံ"
+          ],
+          "synset_id": [
+            38703
+          ]
+        },
+        {
+          "word": "aircraft",
+          "reverse_translation": [
+            "လေယာဉ်ပျံ"
+          ]
+        }
+      ],
+      "base_form": "လေယာဉ်ပျံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လေ ယာဉ် ပျံ",
+      "alternative": [
+        {
+          "word_postproc": "Airplane",
+          "score": 973,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Aircraft",
+          "score": 26,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "လေယာဉ်ပျံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

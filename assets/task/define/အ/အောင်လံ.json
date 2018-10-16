@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "flexibility",
+      "orig": "အောင်လံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aaunglan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "victory flag",
+        "victory pennant"
+      ],
+      "entry": [
+        {
+          "word": "victory flag",
+          "score": 0.029268308
+        },
+        {
+          "word": "victory pennant",
+          "score": 0.029268308
+        }
+      ],
+      "base_form": "အောင်လံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အောင်လံ",
+      "alternative": [
+        {
+          "word_postproc": "flexibility",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Aung Lan",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "victory flag",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Aunglan",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "victory pennant",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "အောင်လံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

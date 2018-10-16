@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "gold",
+      "orig": "ရှ",
+      "backend": 0
+    },
+    {
+      "src_translit": "sh"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "cut superficially",
+        "abrade",
+        "be effective",
+        "taste sharp"
+      ],
+      "entry": [
+        {
+          "word": "cut superficially"
+        },
+        {
+          "word": "abrade"
+        },
+        {
+          "word": "be effective"
+        },
+        {
+          "word": "taste sharp"
+        }
+      ],
+      "base_form": "ရှ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရှ",
+      "alternative": [
+        {
+          "word_postproc": "gold",
+          "score": 858,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cuttings",
+          "score": 61,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Persian",
+          "score": 47,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "eight",
+          "score": 28,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of gold",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ရှ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

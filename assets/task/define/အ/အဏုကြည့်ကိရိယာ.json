@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "Microscope",
+      "orig": "အဏုကြည့်ကိရိယာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "a nu kyi kiriyar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "microscope"
+      ],
+      "entry": [
+        {
+          "word": "microscope",
+          "reverse_translation": [
+            "မှန်ဘီလူး"
+          ]
+        }
+      ],
+      "base_form": "အဏုကြည့်ကိရိယာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ ဏု ကြည့် ကိရိယာ",
+      "alternative": [
+        {
+          "word_postproc": "Microscope",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "အဏုကြည့်ကိရိယာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

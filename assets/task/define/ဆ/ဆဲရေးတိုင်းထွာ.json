@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "Observation",
+      "orig": "ဆဲရေးတိုင်းထွာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "sell rayy tine htwar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "use excessively obscene language"
+      ],
+      "entry": [
+        {
+          "word": "use excessively obscene language"
+        }
+      ],
+      "base_form": "ဆဲရေးတိုင်းထွာ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တိုင်း ထွာ",
+      "alternative": [
+        {
+          "word_postproc": "Observation",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Measured",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Measurable",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Metrics",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ဆဲရေးတိုင်းထွာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

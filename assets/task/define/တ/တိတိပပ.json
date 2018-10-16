@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Precisely",
+      "orig": "တိတိပပ",
+      "backend": 0
+    },
+    {
+      "src_translit": "titi p p"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "specifically"
+      ],
+      "entry": [
+        {
+          "word": "specifically"
+        }
+      ],
+      "base_form": "တိတိပပ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တိတိ ပ ပ",
+      "alternative": [
+        {
+          "word_postproc": "Precisely",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "တိတိပပ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

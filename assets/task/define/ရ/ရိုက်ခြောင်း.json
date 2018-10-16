@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "boom",
+      "orig": "ရိုက်ခြောင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "rite hkyaungg"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "thunder",
+        "boom"
+      ],
+      "entry": [
+        {
+          "word": "thunder",
+          "synset_id": [
+            31409
+          ]
+        },
+        {
+          "word": "boom",
+          "synset_id": [
+            31409
+          ]
+        }
+      ],
+      "base_form": "ရိုက်‌ခြောင်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရိုက် ခြောင်း",
+      "alternative": [
+        {
+          "word_postproc": "boom",
+          "score": 991,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "thunder",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ရိုက်ခြောင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

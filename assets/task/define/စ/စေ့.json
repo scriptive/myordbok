@@ -1,0 +1,123 @@
+{
+  "sentences": [
+    {
+      "trans": "kernels",
+      "orig": "စေ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "seed",
+        "grain",
+        "bead",
+        "pellet",
+        "seedlike thing",
+        "kernel"
+      ],
+      "entry": [
+        {
+          "word": "seed",
+          "reverse_translation": [
+            "အစေ့"
+          ],
+          "score": 0.028367816
+        },
+        {
+          "word": "grain",
+          "reverse_translation": [
+            "စပါး"
+          ],
+          "score": 0.0047038449
+        }
+      ],
+      "base_form": "စေ့",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "come up to specified number,time",
+        "put,keep any two things tightly close together with no space in between",
+        "close",
+        "be meticulous",
+        "be thorough",
+        "particle suffixed to a verb denoting effectuation"
+      ],
+      "entry": [
+        {
+          "word": "close",
+          "reverse_translation": [
+            "ပိတ်"
+          ]
+        }
+      ],
+      "base_form": "စေ့",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စေ့",
+      "alternative": [
+        {
+          "word_postproc": "kernels",
+          "score": 280,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the end of",
+          "score": 259,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "chin",
+          "score": 249,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "intently",
+          "score": 172,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "are fulfilled",
+          "score": 33,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "စေ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

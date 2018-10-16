@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Boxing wrestling",
+      "orig": "လက်ဝှေ့လက်ပမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "laatwhaae laat pam"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လက်ဝှေ့",
+      "alternative": [
+        {
+          "word_postproc": "Boxing",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "လက်ဝှေ့လက်ပမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "လက် ပမ်း",
+      "alternative": [
+        {
+          "word_postproc": "wrestling",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 14
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

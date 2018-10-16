@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "Bread winter",
+      "orig": "မုန့်လက်ဆောင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "mu an  laat saungg"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "drink made of sugar,jaggery and coconut milk mixed with small lumps of rice jelly"
+      ],
+      "entry": [
+        {
+          "word": "drink made of sugar,jaggery and coconut milk mixed with small lumps of rice jelly"
+        }
+      ],
+      "base_form": "မုန့်လက်ဆောင်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မု န့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Bread",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "မုန့်လက်ဆောင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဆောင်း",
+      "alternative": [
+        {
+          "word_postproc": "winter",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 8,
+          "end": 14
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

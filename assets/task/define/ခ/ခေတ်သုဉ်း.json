@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "out dated",
+      "orig": "ခေတ်သုဉ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkayat suin"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "lose popularity",
+        "be out dated",
+        "be out- of- date"
+      ],
+      "entry": [
+        {
+          "word": "lose popularity"
+        },
+        {
+          "word": "be out dated"
+        },
+        {
+          "word": "be out- of- date"
+        }
+      ],
+      "base_form": "ခေတ်သုဉ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခေတ် သုဉ်း",
+      "alternative": [
+        {
+          "word_postproc": "out dated",
+          "score": 565,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lose popularity",
+          "score": 434,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "out- of- date",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ခေတ်သုဉ်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Feint",
+      "orig": "စွယ်ယောင်ပြ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcwal yaung pya"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "feint",
+        "sham."
+      ],
+      "entry": [
+        {
+          "word": "feint"
+        },
+        {
+          "word": "sham."
+        }
+      ],
+      "base_form": "စွယ်ယောင်ပြ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စွယ် ယောင် ပြ",
+      "alternative": [
+        {
+          "word_postproc": "Feint",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "စွယ်ယောင်ပြ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

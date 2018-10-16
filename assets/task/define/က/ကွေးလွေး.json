@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "very small",
+      "orig": "ကွေးလွေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kway lway"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "tiny",
+        "very small"
+      ],
+      "entry": [
+        {
+          "word": "tiny"
+        },
+        {
+          "word": "very small"
+        }
+      ],
+      "base_form": "ကွေးလွေး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကွေး လွေး",
+      "alternative": [
+        {
+          "word_postproc": "very small",
+          "score": 949,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tiny",
+          "score": 50,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကွေးလွေး",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

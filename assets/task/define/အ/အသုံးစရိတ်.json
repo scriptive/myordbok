@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "expenditure",
+      "orig": "အသုံးစရိတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aasonehcarate"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "expenditure",
+        "expense"
+      ],
+      "entry": [
+        {
+          "word": "expenditure",
+          "reverse_translation": [
+            "သုံးငေွ"
+          ],
+          "score": 0.071316682
+        },
+        {
+          "word": "expense",
+          "reverse_translation": [
+            "သုံးငေွ"
+          ],
+          "score": 0.018031681
+        }
+      ],
+      "base_form": "အသုံးစရိတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အသုံးစရိတ်",
+      "alternative": [
+        {
+          "word_postproc": "expenditure",
+          "score": 960,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "budget",
+          "score": 12,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "spending",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "expenditures",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "expenditures of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "အသုံးစရိတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "sentences": [
+    {
+      "trans": "Shoots",
+      "orig": "ညွန့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyw an "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "tendril",
+        "sprig",
+        "apex",
+        "prominence",
+        "growth"
+      ],
+      "entry": [
+        {
+          "word": "apex",
+          "reverse_translation": [
+            "အထွတ်"
+          ]
+        },
+        {
+          "word": "growth",
+          "reverse_translation": [
+            "တိုးတက်လာခြင်း",
+            "ကြီးထွားလာခြင်း",
+            "ဖူးရောင်ခြင်း"
+          ]
+        }
+      ],
+      "base_form": "ညွန့်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညွ န့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Shoots",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Nyunt",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The shoots",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Shoots and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Branch of righteousness",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ညွန့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

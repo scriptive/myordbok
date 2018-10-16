@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Substantially",
+      "orig": "ဟုတ်ဟုတ်ညားညား",
+      "backend": 0
+    },
+    {
+      "src_translit": "hotehote nyarr nyarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "earnestly",
+        "substantially"
+      ],
+      "entry": [
+        {
+          "word": "earnestly"
+        },
+        {
+          "word": "substantially"
+        }
+      ],
+      "base_form": "ဟုတ်ဟုတ်ညားညား",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဟုတ်ဟုတ် ညား ညား",
+      "alternative": [
+        {
+          "word_postproc": "Substantially",
+          "score": 979,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Earnestly",
+          "score": 20,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ဟုတ်ဟုတ်ညားညား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

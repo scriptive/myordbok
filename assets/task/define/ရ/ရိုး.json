@@ -1,0 +1,217 @@
+{
+  "sentences": [
+    {
+      "trans": "wall",
+      "orig": "ရိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "roe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "bone",
+        "shaft",
+        "long stretch,row, such as, ridge ,embankment, fencing, fluting, etc",
+        "long stretch",
+        "row",
+        "such as",
+        "watercourse",
+        "brook",
+        "rivulet",
+        "custom",
+        "tradition",
+        "lineage",
+        "family",
+        "ancestry",
+        "5handle",
+        "stalk, stem, etc"
+      ],
+      "entry": [
+        {
+          "word": "bone",
+          "reverse_translation": [
+            "အရိုး"
+          ],
+          "score": 0.021750359
+        },
+        {
+          "word": "shaft",
+          "reverse_translation": [
+            "ပြွန်တွင်း",
+            "လှံတံ",
+            "ဝင်ရိုး"
+          ],
+          "score": 0.0033355257
+        },
+        {
+          "word": "row",
+          "reverse_translation": [
+            "အတန်း"
+          ]
+        },
+        {
+          "word": "brook",
+          "reverse_translation": [
+            "ခေျာင်းငယ်"
+          ]
+        },
+        {
+          "word": "custom",
+          "reverse_translation": [
+            "ထုံးစံဓလေ့"
+          ],
+          "synset_id": [
+            72333
+          ]
+        },
+        {
+          "word": "tradition",
+          "reverse_translation": [
+            "ထုံစံဓလေ့"
+          ],
+          "synset_id": [
+            72333
+          ]
+        },
+        {
+          "word": "family",
+          "reverse_translation": [
+            "မိသားစု"
+          ]
+        },
+        {
+          "word": "ancestry",
+          "reverse_translation": [
+            "ဆေွစဉ်မျိုးဆက်"
+          ],
+          "synset_id": [
+            5333
+          ]
+        }
+      ],
+      "base_form": "ရိုး",
+      "pos_enum": 1
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "simple",
+        "honest",
+        "guileless",
+        "naive",
+        "what is usual,customary"
+      ],
+      "entry": [
+        {
+          "word": "simple",
+          "reverse_translation": [
+            "လွယ်ကူသော"
+          ],
+          "score": 0.021750359
+        },
+        {
+          "word": "honest",
+          "reverse_translation": [
+            "ရိုးသားသော"
+          ],
+          "score": 0.0044884402
+        }
+      ],
+      "base_form": "ရိုး",
+      "pos_enum": 3
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "be plain",
+        "unadorned",
+        "be outmoded",
+        "unsophisticated",
+        "be used to",
+        "become monotonous",
+        "lead",
+        "escort",
+        "particle suffixed to a verb, denoting veracity of a proposition"
+      ],
+      "entry": [
+        {
+          "word": "lead",
+          "reverse_translation": [
+            "လမ်းပြ"
+          ]
+        },
+        {
+          "word": "escort",
+          "reverse_translation": [
+            "စောင့်ကြပ်သွား"
+          ]
+        }
+      ],
+      "base_form": "ရိုး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရိုး",
+      "alternative": [
+        {
+          "word_postproc": "wall",
+          "score": 992,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "walls",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the wall",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the walls",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the bone",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ရိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

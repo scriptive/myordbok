@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "great egret",
+      "orig": "ဗျိုင်းငန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "byaine ngaann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "the great egret"
+      ],
+      "entry": [
+        {
+          "word": "the great egret"
+        }
+      ],
+      "base_form": "ဗျိုင်းငန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗျိုင်း ငန်း",
+      "alternative": [
+        {
+          "word_postproc": "great egret",
+          "score": 988,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the great egret",
+          "score": 11,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ဗျိုင်းငန်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "temple",
+      "orig": "ဗိမာန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "bimaran"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "edifice",
+        "stately building",
+        "celestial abode"
+      ],
+      "entry": [
+        {
+          "word": "edifice"
+        },
+        {
+          "word": "stately building"
+        },
+        {
+          "word": "celestial abode"
+        }
+      ],
+      "base_form": "ဗိမာန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗိမာန်",
+      "alternative": [
+        {
+          "word_postproc": "temple",
+          "score": 927,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the temple",
+          "score": 49,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "house of",
+          "score": 12,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the house of",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the temple of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဗိမာန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

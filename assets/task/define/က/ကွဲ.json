@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "Broken",
+      "orig": "ကွဲ",
+      "backend": 1
+    },
+    {
+      "src_translit": "kwal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "split",
+        "burst",
+        "be broken",
+        "become separated",
+        "be dispersed",
+        "explode",
+        "differ",
+        "vary"
+      ],
+      "entry": [
+        {
+          "word": "split",
+          "reverse_translation": [
+            "ကဲွပြားစေ"
+          ],
+          "synset_id": [
+            93529
+          ],
+          "score": 0.01720595
+        },
+        {
+          "word": "explode",
+          "reverse_translation": [
+            "ပေါက်ကဲွ"
+          ],
+          "synset_id": [
+            100557
+          ]
+        },
+        {
+          "word": "vary",
+          "reverse_translation": [
+            "လဲွှပေြာင်း"
+          ]
+        }
+      ],
+      "base_form": "ကွဲ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကွဲ",
+      "alternative": [
+        {
+          "word_postproc": "Broken",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "split",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ကွဲ",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

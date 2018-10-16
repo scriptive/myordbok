@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Dingy",
+      "orig": "ညစ်ထတ်ထတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyait htaat htaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "dingy"
+      ],
+      "entry": [
+        {
+          "word": "dingy"
+        }
+      ],
+      "base_form": "ညစ်ထတ်ထတ်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညစ် ထတ် ထတ်",
+      "alternative": [
+        {
+          "word_postproc": "Dingy",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ညစ်ထတ်ထတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

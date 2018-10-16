@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "illogical",
+      "orig": "ယုတ္တိတန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "yutti taan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be acceptable",
+        "be credible",
+        "be logical"
+      ],
+      "entry": [
+        {
+          "word": "be acceptable"
+        },
+        {
+          "word": "be credible"
+        },
+        {
+          "word": "be logical"
+        }
+      ],
+      "base_form": "ယုတ္တိတန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယုတ္တိ တန်",
+      "alternative": [
+        {
+          "word_postproc": "illogical",
+          "score": 907,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "logical",
+          "score": 82,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "credible",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "acceptable",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "not illogical",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ယုတ္တိတန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "sentences": [
+    {
+      "trans": "Nest",
+      "orig": "သိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "site"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "deposit",
+        "nest",
+        "group",
+        "clique",
+        "prophecy",
+        "bunch",
+        "treasure trove",
+        "oracle"
+      ],
+      "entry": [
+        {
+          "word": "deposit",
+          "reverse_translation": [
+            "အပ်ငေွ"
+          ],
+          "score": 0.07473924
+        },
+        {
+          "word": "nest",
+          "reverse_translation": [
+            "အသိုက်"
+          ],
+          "score": 0.029268308
+        },
+        {
+          "word": "group",
+          "reverse_translation": [
+            "အစု"
+          ],
+          "score": 0.0058540297
+        }
+      ],
+      "base_form": "သိုက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သိုက်",
+      "alternative": [
+        {
+          "word_postproc": "Nest",
+          "score": 919,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "deposits",
+          "score": 55,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "reserves",
+          "score": 24,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the deposit",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "deposits of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "သိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "implementation",
+      "orig": "အကောင်အထည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aakaungaahtai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "body structure",
+        "visible form"
+      ],
+      "entry": [
+        {
+          "word": "body structure",
+          "score": 0.0025574362
+        },
+        {
+          "word": "visible form",
+          "score": 0.0025574362
+        }
+      ],
+      "base_form": "အကောင်အထည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အကောင်အထည်",
+      "alternative": [
+        {
+          "word_postproc": "implementation",
+          "score": 513,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "implemented",
+          "score": 482,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "implementation of",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the implementation",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "implemented and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "အကောင်အထည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

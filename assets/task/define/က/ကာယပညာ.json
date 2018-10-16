@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "physical education",
+      "orig": "ကာယပညာ",
+      "backend": 1
+    },
+    {
+      "src_translit": "kar y panyar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "physical education"
+      ],
+      "entry": [
+        {
+          "word": "physical education"
+        }
+      ],
+      "base_form": "ကာယပညာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကာယပညာ",
+      "alternative": [
+        {
+          "word_postproc": "physical education",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ကာယပညာ",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

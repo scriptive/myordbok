@@ -1,0 +1,115 @@
+{
+  "sentences": [
+    {
+      "trans": "fortune",
+      "orig": "ကံဇာတာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kanjartar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "fortune",
+        "luck",
+        "lot"
+      ],
+      "entry": [
+        {
+          "word": "fortune",
+          "reverse_translation": [
+            "ဉစ္စာဓန"
+          ],
+          "synset_id": [
+            26756
+          ],
+          "score": 0.39777252
+        },
+        {
+          "word": "luck",
+          "reverse_translation": [
+            "ကံကောင်းခြင်း"
+          ],
+          "synset_id": [
+            26756
+          ],
+          "score": 0.07243976
+        },
+        {
+          "word": "lot",
+          "reverse_translation": [
+            "အမေြာက်အများ"
+          ],
+          "synset_id": [
+            26756
+          ],
+          "score": 0.07243976
+        }
+      ],
+      "base_form": "ကံဇာတာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကံဇာတာ",
+      "alternative": [
+        {
+          "word_postproc": "fortune",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fortunes",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lot",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "luck",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fortune came",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ကံဇာတာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

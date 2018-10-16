@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Partly",
+      "orig": "တပိတပိုင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "t pit pine"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "partly"
+      ],
+      "entry": [
+        {
+          "word": "partly"
+        }
+      ],
+      "base_form": "တပိတပိုင်း",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တ ပိတ ပိုင်း",
+      "alternative": [
+        {
+          "word_postproc": "Partly",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "တပိတပိုင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

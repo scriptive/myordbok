@@ -1,6 +1,12 @@
+/*
+var {router} = require('../');
+router()
+var MyOrdbok = require('../');
+MyOrdbok.router()
+*/
 // NOTE: mini
 var app = require('../');
-//     {express,path} = app.Core.evh(),
+//     {express,path} = app.root.evh(),
 //     {score} = require('../score'),
 //     querystring = require('querystring'),
 //     Definition = require('./classDefinition');
@@ -11,15 +17,11 @@ var app = require('../');
 //     {score} = require('../score');
 // var router = express.Router();
 
+// console.log(application);
 let router = app.router();
-
 router.get('/', function(req, res, next) {
-  // console.log(req.baseUrl);
-  // console.log('???',req.originalUrl);
-  // console.log(app.sql);
-  // console.log(app.score);
-  // console.log(score.sql);
   res.render('home', { title: 'MyOrdbok' });
+  // res.send({working:'dictionary'})
 });
 
 module.exports = router;

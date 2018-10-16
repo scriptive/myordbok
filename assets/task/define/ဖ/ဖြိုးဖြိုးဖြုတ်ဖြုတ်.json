@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Phyo Phyo by one",
+      "orig": "ဖြိုးဖြိုးဖြုတ်ဖြုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpyaoehpyaoe hpyuat hpyuat"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖြိုးဖြိုး",
+      "alternative": [
+        {
+          "word_postproc": "Phyo Phyo",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ဖြိုးဖြိုးဖြုတ်ဖြုတ်",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "ဖြုတ် ဖြုတ်",
+      "alternative": [
+        {
+          "word_postproc": "by one",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 10,
+          "end": 20
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

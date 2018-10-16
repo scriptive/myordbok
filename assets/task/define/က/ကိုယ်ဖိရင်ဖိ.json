@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "Phi Phi",
+      "orig": "ကိုယ်ဖိရင်ဖိ",
+      "backend": 0
+    },
+    {
+      "src_translit": "ko hpi rain hpi"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "without sparing any effort"
+      ],
+      "entry": [
+        {
+          "word": "without sparing any effort"
+        }
+      ],
+      "base_form": "ကိုယ်ဖိရင်ဖိ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖိ",
+      "alternative": [
+        {
+          "word_postproc": "Phi",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Phil",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကိုယ်ဖိရင်ဖိ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဖိ",
+      "alternative": [
+        {
+          "word_postproc": "Phi",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Phil",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 10,
+          "end": 12
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

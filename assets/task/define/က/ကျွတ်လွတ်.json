@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "scot-free",
+      "orig": "ကျွတ်လွတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawat lwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "get away",
+        "scot-free"
+      ],
+      "entry": [
+        {
+          "word": "get away"
+        },
+        {
+          "word": "scot-free"
+        }
+      ],
+      "base_form": "ကျွတ်လွတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျွတ် လွတ်",
+      "alternative": [
+        {
+          "word_postproc": "scot-free",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "get away",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကျွတ်လွတ်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

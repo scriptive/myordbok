@@ -1,0 +1,87 @@
+{
+  "sentences": [
+    {
+      "trans": "fourth",
+      "orig": "စတုတ္ထ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcatutht"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "",
+      "terms": [
+        "fourth"
+      ],
+      "entry": [
+        {
+          "word": "fourth",
+          "score": 0.39160562
+        }
+      ],
+      "base_form": "စတုတ္ထ",
+      "pos_enum": 20
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စတုတ္ထ",
+      "alternative": [
+        {
+          "word_postproc": "fourth",
+          "score": 581,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The fourth",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "In the fourth",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "And the fourth",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the fourth was",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "စတုတ္ထ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "Neuter",
+      "orig": "သင်းကွပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "sainn kwut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "castrate",
+        "geld"
+      ],
+      "entry": [
+        {
+          "word": "castrate",
+          "reverse_translation": [
+            "သင်း"
+          ]
+        }
+      ],
+      "base_form": "သင်းကွပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သင်း ကွပ်",
+      "alternative": [
+        {
+          "word_postproc": "Neuter",
+          "score": 977,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "castrate",
+          "score": 14,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "geld",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "neutered",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "သင်းကွပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

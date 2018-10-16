@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "freckles",
+      "orig": "တင်းတိပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "tainn tiut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "freckles"
+      ],
+      "entry": [
+        {
+          "word": "freckles"
+        }
+      ],
+      "base_form": "တင်းတိပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တင်း တိပ်",
+      "alternative": [
+        {
+          "word_postproc": "freckles",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "တင်းတိပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

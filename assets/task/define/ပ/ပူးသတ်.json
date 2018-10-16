@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "trans": "Pu",
+      "orig": "ပူးသတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "puu saat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "harm sb from within after gaining his confidence"
+      ],
+      "entry": [
+        {
+          "word": "harm sb from within after gaining his confidence"
+        }
+      ],
+      "base_form": "ပူးသတ်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "fight at close quarters"
+      ],
+      "entry": [
+        {
+          "word": "fight at close quarters"
+        }
+      ],
+      "base_form": "ပူးသတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပူး",
+      "alternative": [
+        {
+          "word_postproc": "Pu",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ပူးသတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "Faded",
+      "orig": "ရင့်ရော်",
+      "backend": 0
+    },
+    {
+      "src_translit": "r in  raw "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "old",
+        "faded",
+        "withered"
+      ],
+      "entry": [
+        {
+          "word": "old",
+          "reverse_translation": [
+            "အိုသော"
+          ]
+        }
+      ],
+      "base_form": "ရင့်ရော်",
+      "pos_enum": 3
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "proclaim",
+        "utter a melodious note"
+      ],
+      "entry": [
+        {
+          "word": "proclaim",
+          "reverse_translation": [
+            "ကေြညာ"
+          ]
+        }
+      ],
+      "base_form": "ရင့်ရော်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "င့ ် ရော ်",
+      "alternative": [
+        {
+          "word_postproc": "Faded",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ရင့်ရော်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

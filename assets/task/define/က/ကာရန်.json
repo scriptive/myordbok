@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "to",
+      "orig": "ကာရန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kar raan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "vowel sound of the letter",
+        "rhyme"
+      ],
+      "entry": [
+        {
+          "word": "vowel sound of the letter"
+        },
+        {
+          "word": "rhyme"
+        }
+      ],
+      "base_form": "ကာရန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရန်",
+      "alternative": [
+        {
+          "word_postproc": "to",
+          "score": 985,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကာရန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

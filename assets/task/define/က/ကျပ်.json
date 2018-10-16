@@ -1,0 +1,143 @@
+{
+  "sentences": [
+    {
+      "trans": "Ks",
+      "orig": "ကျပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "difficult",
+        "narrow"
+      ],
+      "entry": [
+        {
+          "word": "difficult",
+          "reverse_translation": [
+            "ခဲခက်သော"
+          ],
+          "score": 0.0048531611
+        },
+        {
+          "word": "narrow",
+          "reverse_translation": [
+            "ကျဉ်းသော"
+          ]
+        }
+      ],
+      "base_form": "ကျပ်",
+      "pos_enum": 3
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "be tight",
+        "tighten",
+        "be hard up",
+        "be difficult",
+        "be uncomfortable",
+        "feel constrained",
+        "twirl a feather,the like in one's ear to get relief"
+      ],
+      "entry": [
+        {
+          "word": "tighten",
+          "reverse_translation": [
+            "တိုး၍ကြပ်"
+          ]
+        }
+      ],
+      "base_form": "ကျပ်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "splint",
+        "pair of boards used for packing textiles",
+        "scrofula",
+        "rack placed above a fireplace to smoke fish",
+        "platform",
+        "\"kyat:\" Myanmar unit of weight",
+        "\"Kyat:\" Myanmar unit of money",
+        "deep basket"
+      ],
+      "entry": [
+        {
+          "word": "splint",
+          "reverse_translation": [
+            "အပြား"
+          ]
+        },
+        {
+          "word": "platform",
+          "reverse_translation": [
+            "ဇါတ်စင်",
+            "ပက်လက်ကုန်ရထားတဲွ"
+          ]
+        }
+      ],
+      "base_form": "ကျပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျပ်",
+      "alternative": [
+        {
+          "word_postproc": "Ks",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "shekels",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "kyat",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "kyats",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကျပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

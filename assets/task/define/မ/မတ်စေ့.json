@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "end of March",
+      "orig": "မတ်စေ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "maat hcae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "twenty-five-\"pya\" coin"
+      ],
+      "entry": [
+        {
+          "word": "twenty-five-\"pya\" coin"
+        }
+      ],
+      "base_form": "မတ်စေ့",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စေ့",
+      "alternative": [
+        {
+          "word_postproc": "end of",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "intently",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "are fulfilled",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "chin",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "မတ်စေ့",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "မတ်",
+      "alternative": [
+        {
+          "word_postproc": "March",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Smart",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

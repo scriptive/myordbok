@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Starvation",
+      "orig": "ငတ်မွတ်ခေါင်းပါး",
+      "backend": 0
+    },
+    {
+      "src_translit": "ngaat mwat hkaungg parr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "suffer from",
+        "face starvation"
+      ],
+      "entry": [
+        {
+          "word": "suffer from"
+        },
+        {
+          "word": "face starvation"
+        }
+      ],
+      "base_form": "ငတ်မွတ်ခေါင်းပါး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ငတ် မွတ် ခေါင်း ပါး",
+      "alternative": [
+        {
+          "word_postproc": "Starvation",
+          "score": 996,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Hunger",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Face starvation",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Of starvation",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Starvation of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "ငတ်မွတ်ခေါင်းပါး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

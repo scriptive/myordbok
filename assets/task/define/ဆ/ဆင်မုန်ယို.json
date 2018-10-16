@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Musth",
+      "orig": "ဆင်မုန်ယို",
+      "backend": 0
+    },
+    {
+      "src_translit": "sain mone yo"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မုန် ယို",
+      "alternative": [
+        {
+          "word_postproc": "Musth",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ဆင်မုန်ယို",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

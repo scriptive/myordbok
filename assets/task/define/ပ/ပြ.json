@@ -1,0 +1,138 @@
+{
+  "sentences": [
+    {
+      "trans": "show",
+      "orig": "ပြ",
+      "backend": 1
+    },
+    {
+      "src_translit": "pya"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "show",
+        "display",
+        "demonstrate",
+        "exhibit",
+        "Indicate",
+        "teach",
+        "direct",
+        "instruct",
+        "expose sth to",
+        "particle suffixed to a verb to convey the sense of demonstrating,relating sth"
+      ],
+      "entry": [
+        {
+          "word": "show",
+          "reverse_translation": [
+            "ပြသ"
+          ],
+          "synset_id": [
+            18282
+          ],
+          "score": 0.10705902
+        },
+        {
+          "word": "display",
+          "reverse_translation": [
+            "ပြသ"
+          ],
+          "synset_id": [
+            110776
+          ],
+          "score": 0.018604068
+        },
+        {
+          "word": "demonstrate",
+          "reverse_translation": [
+            "ပြသ"
+          ],
+          "synset_id": [
+            18282
+          ],
+          "score": 0.0040234118
+        },
+        {
+          "word": "exhibit",
+          "reverse_translation": [
+            "တင်ပြ"
+          ],
+          "synset_id": [
+            18282,
+            110776
+          ]
+        },
+        {
+          "word": "Indicate",
+          "reverse_translation": [
+            "ညွှန်ပြ"
+          ]
+        },
+        {
+          "word": "teach",
+          "reverse_translation": [
+            "သင်ပေး"
+          ],
+          "synset_id": [
+            95802
+          ]
+        },
+        {
+          "word": "direct",
+          "reverse_translation": [
+            "ညွှန်ပြ"
+          ]
+        },
+        {
+          "word": "instruct",
+          "reverse_translation": [
+            "သင်ကြားပြသ"
+          ],
+          "synset_id": [
+            95802
+          ]
+        }
+      ],
+      "base_form": "ပြ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြ",
+      "alternative": [
+        {
+          "word_postproc": "show",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ပြ",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

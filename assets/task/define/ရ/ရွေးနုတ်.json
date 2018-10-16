@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "redeemed",
+      "orig": "ရွေးနုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "rway note"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "pick-out",
+        "choose",
+        "redeem"
+      ],
+      "entry": [
+        {
+          "word": "choose",
+          "reverse_translation": [
+            "ရေွးချယ်"
+          ]
+        }
+      ],
+      "base_form": "ရွေးနုတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရွေး နုတ်",
+      "alternative": [
+        {
+          "word_postproc": "redeemed",
+          "score": 821,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ransomed",
+          "score": 133,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "redemption",
+          "score": 27,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ransom",
+          "score": 13,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "redeem",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ရွေးနုတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

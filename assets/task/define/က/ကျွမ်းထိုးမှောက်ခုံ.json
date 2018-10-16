@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Upside-down",
+      "orig": "ကျွမ်းထိုးမှောက်ခုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawm htoe mhaout hkone"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျွမ်း ထိုး မှောက် ခုံ",
+      "alternative": [
+        {
+          "word_postproc": "Upside-down",
+          "score": 956,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 19
+        }
+      ],
+      "raw_src_segment": "ကျွမ်းထိုးမှောက်ခုံ",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

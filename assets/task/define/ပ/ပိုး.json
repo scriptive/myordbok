@@ -1,0 +1,152 @@
+{
+  "sentences": [
+    {
+      "trans": "silk",
+      "orig": "ပိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "poe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "silk",
+        "insect",
+        "pest",
+        "germ",
+        "microbe",
+        "poisonous snake",
+        "maggot",
+        "silk worm",
+        "silk yarn",
+        "silk cloth",
+        "Pwo: one of the Kayin dialects and the people who speak it as their mother tongue"
+      ],
+      "entry": [
+        {
+          "word": "silk",
+          "reverse_translation": [
+            "ပိုး"
+          ],
+          "score": 0.014488863
+        },
+        {
+          "word": "insect",
+          "reverse_translation": [
+            "ပိုးကောင်"
+          ],
+          "score": 0.0033355257
+        },
+        {
+          "word": "pest",
+          "reverse_translation": [
+            "ကပ်ရောဂါ"
+          ]
+        },
+        {
+          "word": "germ",
+          "reverse_translation": [
+            "အစ"
+          ],
+          "synset_id": [
+            43994
+          ]
+        },
+        {
+          "word": "maggot",
+          "reverse_translation": [
+            "ဖလောင်းကောင်"
+          ]
+        }
+      ],
+      "base_form": "ပိုး",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "carry on the back",
+        "carry pickaback",
+        "piggyback",
+        "add on",
+        "splice on",
+        "tack on to",
+        "reinforce",
+        "court",
+        "woo"
+      ],
+      "entry": [
+        {
+          "word": "reinforce",
+          "reverse_translation": [
+            "စစ်ကူးအားဖြည့်"
+          ]
+        }
+      ],
+      "base_form": "ပိုး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပိုး",
+      "alternative": [
+        {
+          "word_postproc": "silk",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sterilized",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "infection",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "beetle",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "moths",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ပိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

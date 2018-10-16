@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "ဥဒါန်း course",
+      "orig": "ဥဒါန်းမကျေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "udarann m kyaay"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "ပြောစမှတ် ပြုစရာအချက်များ မပျောက်မပျက်အစဉ်အဆက်တည်တံ့သည်။"
+      ],
+      "entry": [
+        {
+          "word": "ပြောစမှတ် ပြုစရာအချက်များ မပျောက်မပျက်အစဉ်အဆက်တည်တံ့သည်။"
+        }
+      ],
+      "base_form": "ဥဒါန်းမကျေ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဥဒါန်း",
+      "alternative": [
+        {
+          "word_postproc": "ဥဒါန်း",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဥဒါန်းမကျေ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "မ ကျေ",
+      "alternative": [
+        {
+          "word_postproc": "course",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "indigestion",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of course",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 10
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

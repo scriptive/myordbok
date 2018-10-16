@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "Riotously",
+      "orig": "သောင်းသောင်းဖြဖြ",
+      "backend": 0
+    },
+    {
+      "src_translit": "saunggsaungg hpya hpya"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "riotously",
+        "tumultuously"
+      ],
+      "entry": [
+        {
+          "word": "riotously",
+          "synset_id": [
+            117261
+          ]
+        },
+        {
+          "word": "tumultuously",
+          "synset_id": [
+            117261
+          ]
+        }
+      ],
+      "base_form": "သောင်းသောင်းဖြဖြ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သောင်းသောင်း ဖြ ဖြ",
+      "alternative": [
+        {
+          "word_postproc": "Riotously",
+          "score": 964,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Tumultuously",
+          "score": 35,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "သောင်းသောင်းဖြဖြ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

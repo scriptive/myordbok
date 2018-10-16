@@ -1,0 +1,125 @@
+{
+  "sentences": [
+    {
+      "trans": "on",
+      "orig": "စ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hc"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "begin",
+        "start",
+        "commence",
+        "tease",
+        "taunt",
+        "word combined with a verb as an emphatic and also for euphonic effect"
+      ],
+      "entry": [
+        {
+          "word": "begin",
+          "reverse_translation": [
+            "အစပြု"
+          ],
+          "synset_id": [
+            23452
+          ]
+        },
+        {
+          "word": "start",
+          "reverse_translation": [
+            "စတင်",
+            "စက်နှုိး"
+          ],
+          "synset_id": [
+            23452
+          ]
+        },
+        {
+          "word": "commence",
+          "reverse_translation": [
+            "အစပြု"
+          ],
+          "synset_id": [
+            23452
+          ]
+        },
+        {
+          "word": "tease",
+          "reverse_translation": [
+            "ကျီစား"
+          ],
+          "synset_id": [
+            83787
+          ]
+        }
+      ],
+      "base_form": "စ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စ",
+      "alternative": [
+        {
+          "word_postproc": "on",
+          "score": 991,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "also",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "can",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "you can",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "can not",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 1
+        }
+      ],
+      "raw_src_segment": "စ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

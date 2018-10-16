@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "မီးခိုးတိတ်",
+      "orig": "မီးခိုးတိတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "meehkoetate"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in a manner obviating the need to cook at home"
+      ],
+      "entry": [
+        {
+          "word": "in a manner obviating the need to cook at home"
+        }
+      ],
+      "base_form": "မီးခိုးတိတ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မီးခိုးတိတ်",
+      "alternative": [
+        {
+          "word_postproc": "မီးခိုးတိတ်",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "မီးခိုးတိတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

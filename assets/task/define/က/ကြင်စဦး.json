@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Newly-weds",
+      "orig": "ကြင်စဦး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyin hc u"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "first love",
+        "newly-weds"
+      ],
+      "entry": [
+        {
+          "word": "first love"
+        },
+        {
+          "word": "newly-weds"
+        }
+      ],
+      "base_form": "ကြင်စဦး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြင် စ ဦး",
+      "alternative": [
+        {
+          "word_postproc": "Newly-weds",
+          "score": 640,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "First love",
+          "score": 359,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကြင်စဦး",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "personal",
+      "orig": "ကိုယ်ရေးကိုယ်တာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "korayykotar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "private matters",
+        "personal affairs"
+      ],
+      "entry": [
+        {
+          "word": "private matters"
+        },
+        {
+          "word": "personal affairs"
+        }
+      ],
+      "base_form": "ကိုယ်ရေးကိုယ်တာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိုယ်ရေးကိုယ်တာ",
+      "alternative": [
+        {
+          "word_postproc": "personal",
+          "score": 954,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Privacy",
+          "score": 39,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of Personal",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a privacy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a personal",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "ကိုယ်ရေးကိုယ်တာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

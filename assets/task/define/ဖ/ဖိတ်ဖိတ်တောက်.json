@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "Glitter",
+      "orig": "ဖိတ်ဖိတ်တောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpate hpate tout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "sparkle",
+        "glitter",
+        "shine brightly"
+      ],
+      "entry": [
+        {
+          "word": "sparkle"
+        },
+        {
+          "word": "glitter"
+        },
+        {
+          "word": "shine brightly"
+        }
+      ],
+      "base_form": "ဖိတ်ဖိတ်တောက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖိတ် ဖိတ် တောက်",
+      "alternative": [
+        {
+          "word_postproc": "Glitter",
+          "score": 548,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Sparkle",
+          "score": 451,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Shine brightly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ဖိတ်ဖိတ်တောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

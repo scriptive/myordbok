@@ -1,0 +1,180 @@
+{
+  "sentences": [
+    {
+      "trans": "Tin",
+      "orig": "တင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "tain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "set",
+        "keep",
+        "14.do sth in anticipation",
+        "cock",
+        "13.draw",
+        "13. string",
+        "12. offer at an altar,shrine",
+        "put up",
+        "11. submit",
+        "10.record",
+        "get",
+        "nett",
+        "remain",
+        "be left with",
+        "put,place sth on sth",
+        "retain",
+        "survive",
+        "be stranted run aground",
+        "be deposited",
+        "raise the selling price",
+        "wear",
+        "load",
+        "set a jewel",
+        "elevate sb to a higher position",
+        "put,place sth,someone before another"
+      ],
+      "entry": [
+        {
+          "word": "set",
+          "reverse_translation": [
+            "ထား"
+          ],
+          "score": 0.0027223767
+        },
+        {
+          "word": "keep",
+          "reverse_translation": [
+            "သိုထား"
+          ],
+          "synset_id": [
+            68233
+          ]
+        },
+        {
+          "word": "get",
+          "reverse_translation": [
+            "ရယူ"
+          ]
+        },
+        {
+          "word": "remain",
+          "reverse_translation": [
+            "ကျန်ရစ်"
+          ]
+        },
+        {
+          "word": "retain",
+          "reverse_translation": [
+            "လက်ရှိထား"
+          ],
+          "synset_id": [
+            68233
+          ]
+        },
+        {
+          "word": "survive",
+          "reverse_translation": [
+            "အသက်ရှင်"
+          ]
+        },
+        {
+          "word": "wear",
+          "reverse_translation": [
+            "ဝတ်ဆင်"
+          ]
+        },
+        {
+          "word": "load",
+          "reverse_translation": [
+            "ဝန်တင်"
+          ]
+        }
+      ],
+      "base_form": "တင်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "panniers used with pack-oxen",
+        "buttocks",
+        "hips"
+      ],
+      "entry": [
+        {
+          "word": "buttocks",
+          "reverse_translation": [
+            "တင်ပါး"
+          ]
+        }
+      ],
+      "base_form": "တင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တင်",
+      "alternative": [
+        {
+          "word_postproc": "Tin",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "loading",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "posted",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "upload",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "put",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "တင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

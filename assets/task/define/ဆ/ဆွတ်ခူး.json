@@ -1,0 +1,108 @@
+{
+  "sentences": [
+    {
+      "trans": "Wins",
+      "orig": "ဆွတ်ခူး",
+      "backend": 0
+    },
+    {
+      "src_translit": "swathkuu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "win",
+        "pick",
+        "pluck fruit",
+        "flowers",
+        "leaves",
+        "get"
+      ],
+      "entry": [
+        {
+          "word": "win",
+          "reverse_translation": [
+            "အောင်မြင်"
+          ],
+          "score": 0.02749503
+        },
+        {
+          "word": "pick",
+          "reverse_translation": [
+            "ခူး"
+          ],
+          "score": 0.0054993522
+        },
+        {
+          "word": "get",
+          "reverse_translation": [
+            "ရယူ"
+          ]
+        }
+      ],
+      "base_form": "ဆွတ်ခူး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆွတ်ခူး",
+      "alternative": [
+        {
+          "word_postproc": "Wins",
+          "score": 591,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "won",
+          "score": 407,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "won the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "win",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "award",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဆွတ်ခူး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

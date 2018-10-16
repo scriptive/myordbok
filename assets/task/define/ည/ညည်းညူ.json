@@ -1,0 +1,104 @@
+{
+  "sentences": [
+    {
+      "trans": "moan",
+      "orig": "ညည်းညူ",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyaeenyuu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "complain",
+        "grumble",
+        "groan",
+        "grouse",
+        "moan"
+      ],
+      "entry": [
+        {
+          "word": "complain",
+          "reverse_translation": [
+            "တိုင်ကြား"
+          ],
+          "score": 0.079559512
+        },
+        {
+          "word": "moan",
+          "reverse_translation": [
+            "ညည်းညူ"
+          ],
+          "synset_id": [
+            74102
+          ],
+          "score": 0.0087879393
+        }
+      ],
+      "base_form": "ညည်းညူ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညည်းညူ",
+      "alternative": [
+        {
+          "word_postproc": "moan",
+          "score": 927,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "groan",
+          "score": 72,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "complained about",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Concerns or complaints",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "complained",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ညည်းညူ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

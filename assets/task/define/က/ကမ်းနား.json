@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "shore",
+      "orig": "ကမ်းနား",
+      "backend": 0
+    },
+    {
+      "src_translit": "kamnarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "waterfront",
+        "strand"
+      ],
+      "entry": [
+        {
+          "word": "waterfront",
+          "score": 0.031646587
+        },
+        {
+          "word": "strand",
+          "score": 0.0078774579
+        }
+      ],
+      "base_form": "ကမ်းနား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကမ်းနား",
+      "alternative": [
+        {
+          "word_postproc": "shore",
+          "score": 669,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "waterfront",
+          "score": 211,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "coast",
+          "score": 118,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the waterfront",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the shore",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကမ်းနား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "sentences": [
+    {
+      "trans": "ton-sharing",
+      "orig": "တန်ရှယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "taan shal"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တန်",
+      "alternative": [
+        {
+          "word_postproc": "ton",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tonnes",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tons of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tons",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "တန်ရှယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ရှယ်",
+      "alternative": [
+        {
+          "word_postproc": "-sharing",
+          "score": 1000,
+          "has_preceeding_space": false,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "modestly",
+          "score": 0,
+          "has_preceeding_space": false,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "share",
+          "score": 0,
+          "has_preceeding_space": false,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 7
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

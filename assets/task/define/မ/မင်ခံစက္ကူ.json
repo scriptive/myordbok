@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Carbon paper",
+      "orig": "မင်ခံစက္ကူ",
+      "backend": 0
+    },
+    {
+      "src_translit": "main hkan hcakkuu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "carbon paper"
+      ],
+      "entry": [
+        {
+          "word": "carbon paper"
+        }
+      ],
+      "base_form": "မင်ခံစက္ကူ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မင် ခံ စက္ကူ",
+      "alternative": [
+        {
+          "word_postproc": "Carbon paper",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "မင်ခံစက္ကူ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

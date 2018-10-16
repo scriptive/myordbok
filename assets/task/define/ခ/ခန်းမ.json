@@ -1,0 +1,85 @@
+{
+  "sentences": [
+    {
+      "trans": "Hall",
+      "orig": "ခန်းမ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaannm"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "hall",
+        "main hall"
+      ],
+      "entry": [
+        {
+          "word": "hall",
+          "reverse_translation": [
+            "အခန်းကြီး"
+          ],
+          "score": 0.12913783
+        }
+      ],
+      "base_form": "ခန်းမ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခန်းမ",
+      "alternative": [
+        {
+          "word_postproc": "Hall",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Halls",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the hall",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Hall in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ခန်းမ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

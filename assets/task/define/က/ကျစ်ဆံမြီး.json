@@ -1,0 +1,79 @@
+{
+  "sentences": [
+    {
+      "trans": "Braid",
+      "orig": "ကျစ်ဆံမြီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyit san myee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "braid",
+        "pig-tail",
+        "queue."
+      ],
+      "entry": [
+        {
+          "word": "braid",
+          "reverse_translation": [
+            "ဖွတ်မြီးထိုးကြိုး"
+          ]
+        },
+        {
+          "word": "queue.",
+          "reverse_translation": [
+            "ဆံပင်ကြိုး"
+          ]
+        }
+      ],
+      "base_form": "ကျစ်ဆံမြီး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျစ် ဆံ မြီး",
+      "alternative": [
+        {
+          "word_postproc": "Braid",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Queue",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ကျစ်ဆံမြီး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "sentences": [
+    {
+      "trans": "Brownish stone",
+      "orig": "မျက်စဉ်းကျောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "myet hcain kyawwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "brownish stone",
+        "probably jasper",
+        "used in preparing collyrium"
+      ],
+      "entry": [
+        {
+          "word": "brownish stone"
+        },
+        {
+          "word": "probably jasper"
+        },
+        {
+          "word": "used in preparing collyrium"
+        }
+      ],
+      "base_form": "မျက်စဉ်းကျောက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မျက် စဉ်း ကျောက်",
+      "alternative": [
+        {
+          "word_postproc": "Brownish stone",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Probably jasper",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "မျက်စဉ်းကျောက်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

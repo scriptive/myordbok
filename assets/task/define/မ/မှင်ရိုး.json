@@ -1,0 +1,70 @@
+{
+  "sentences": [
+    {
+      "trans": "ink",
+      "orig": "မှင်ရိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "mhain roe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "neck of horse",
+        "ridge on the sound-box of the Myanmar harp to which the lower ends of strings are attached",
+        "edges of facets."
+      ],
+      "entry": [
+        {
+          "word": "neck of horse"
+        },
+        {
+          "word": "ridge on the sound-box of the Myanmar harp to which the lower ends of strings are attached"
+        },
+        {
+          "word": "edges of facets."
+        }
+      ],
+      "base_form": "မှင်ရိုး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မှင်",
+      "alternative": [
+        {
+          "word_postproc": "ink",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "မှင်ရိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

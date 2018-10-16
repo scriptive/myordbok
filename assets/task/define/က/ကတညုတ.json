@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "gratitude",
+      "orig": "ကတညုတ",
+      "backend": 0
+    },
+    {
+      "src_translit": "katanyut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "gratitude"
+      ],
+      "entry": [
+        {
+          "word": "gratitude",
+          "reverse_translation": [
+            "ကေျးဇူးတင်စကား"
+          ],
+          "score": 1
+        }
+      ],
+      "base_form": "ကတညုတ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကတညုတ",
+      "alternative": [
+        {
+          "word_postproc": "gratitude",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကတညုတ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

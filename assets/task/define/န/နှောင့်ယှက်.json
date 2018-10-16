@@ -1,0 +1,122 @@
+{
+  "sentences": [
+    {
+      "trans": "Disturb",
+      "orig": "နှောင့်ယှက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nhaaw in  yhaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "disturb",
+        "bother",
+        "interrupt",
+        "annoy"
+      ],
+      "entry": [
+        {
+          "word": "disturb",
+          "reverse_translation": [
+            "မေွှနေှာက်"
+          ],
+          "synset_id": [
+            19051
+          ]
+        },
+        {
+          "word": "bother",
+          "reverse_translation": [
+            "နေှာင့်ယှက်"
+          ],
+          "synset_id": [
+            19691
+          ]
+        },
+        {
+          "word": "interrupt",
+          "reverse_translation": [
+            "ကြားဖြတ်"
+          ],
+          "synset_id": [
+            19051
+          ]
+        },
+        {
+          "word": "annoy",
+          "reverse_translation": [
+            "စိတ်ဆိုးစေ"
+          ],
+          "synset_id": [
+            19691
+          ]
+        }
+      ],
+      "base_form": "နှောင့်ယှက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နှော င့ ် ယှက်",
+      "alternative": [
+        {
+          "word_postproc": "Disturb",
+          "score": 926,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Not Disturb",
+          "score": 73,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Harassment",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Harassed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Disturb the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "နှောင့်ယှက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

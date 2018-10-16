@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "bad times",
+      "orig": "ခေတ်ဆိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkayat soe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "bad times"
+      ],
+      "entry": [
+        {
+          "word": "bad times"
+        }
+      ],
+      "base_form": "ခေတ်ဆိုး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခေတ် ဆိုး",
+      "alternative": [
+        {
+          "word_postproc": "bad times",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ခေတ်ဆိုး",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

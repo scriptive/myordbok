@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "before",
+      "orig": "ပေမီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pay me"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "of standard height,stature"
+      ],
+      "entry": [
+        {
+          "word": "of standard height,stature"
+        }
+      ],
+      "base_form": "ပေမီ",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မီ",
+      "alternative": [
+        {
+          "word_postproc": "before",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ပေမီ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "cool-headed",
+      "orig": "ခေါင်းအေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaungg aayy"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be calm and collected",
+        "be cool-headed",
+        "be unruffled"
+      ],
+      "entry": [
+        {
+          "word": "be calm and collected"
+        },
+        {
+          "word": "be cool-headed"
+        },
+        {
+          "word": "be unruffled"
+        }
+      ],
+      "base_form": "ခေါင်းအေး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခေါင်း အေး",
+      "alternative": [
+        {
+          "word_postproc": "cool-headed",
+          "score": 837,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "head cold",
+          "score": 93,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "unruffled",
+          "score": 69,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ခေါင်းအေး",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

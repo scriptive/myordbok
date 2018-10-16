@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "Exempt",
+      "orig": "ကင်းလွတ်ကုန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kainnlwat kone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "exempted goods"
+      ],
+      "entry": [
+        {
+          "word": "exempted goods"
+        }
+      ],
+      "base_form": "ကင်းလွတ်ကုန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကင်းလွတ်",
+      "alternative": [
+        {
+          "word_postproc": "Exempt",
+          "score": 552,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "exempted",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "exemptions",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကင်းလွတ်ကုန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

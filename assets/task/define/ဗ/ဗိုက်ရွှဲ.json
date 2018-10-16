@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "paunchy",
+      "orig": "ဗိုက်ရွှဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "bite shwell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "paunchy"
+      ],
+      "entry": [
+        {
+          "word": "paunchy"
+        }
+      ],
+      "base_form": "ဗိုက်ရွှဲ",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗိုက် ရွှဲ",
+      "alternative": [
+        {
+          "word_postproc": "paunchy",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ဗိုက်ရွှဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

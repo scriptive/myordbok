@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "stiff",
+      "orig": "ခက်တရော်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaat taraw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "stiff",
+        "rigid",
+        "hard"
+      ],
+      "entry": [
+        {
+          "word": "stiff",
+          "reverse_translation": [
+            "တောင့်တင်းသော"
+          ],
+          "synset_id": [
+            34411
+          ]
+        },
+        {
+          "word": "rigid",
+          "reverse_translation": [
+            "တောင့်တင်းသော"
+          ],
+          "synset_id": [
+            34411
+          ]
+        },
+        {
+          "word": "hard",
+          "reverse_translation": [
+            "ခိုင်မာသော"
+          ]
+        }
+      ],
+      "base_form": "ခက်တရော်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခက် တရော်",
+      "alternative": [
+        {
+          "word_postproc": "stiff",
+          "score": 633,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rigid",
+          "score": 301,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hard",
+          "score": 64,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ခက်တရော်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "purchase",
+      "orig": "ဝယ်ခြမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "waal hkyam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "buy",
+        "purchase"
+      ],
+      "entry": [
+        {
+          "word": "buy",
+          "reverse_translation": [
+            "ဝယ်ခြမ်း"
+          ],
+          "synset_id": [
+            112419
+          ]
+        },
+        {
+          "word": "purchase",
+          "reverse_translation": [
+            "ဝယ်ခြမ်း"
+          ],
+          "synset_id": [
+            112419
+          ]
+        }
+      ],
+      "base_form": "ဝယ်ခြမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝယ် ခြမ်း",
+      "alternative": [
+        {
+          "word_postproc": "purchase",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "buy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "buyer",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဝယ်ခြမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

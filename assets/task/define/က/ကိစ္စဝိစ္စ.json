@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Sundry matters",
+      "orig": "ကိစ္စဝိစ္စ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kihchc wihc hc"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "sundry matters"
+      ],
+      "entry": [
+        {
+          "word": "sundry matters"
+        }
+      ],
+      "base_form": "ကိစ္စဝိစ္စ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိစ္စ ဝိစ္ စ",
+      "alternative": [
+        {
+          "word_postproc": "Sundry matters",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ကိစ္စဝိစ္စ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

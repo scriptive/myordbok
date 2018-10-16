@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "edited",
+      "orig": "တည်းဖြတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "taeehpyat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "edit"
+      ],
+      "entry": [
+        {
+          "word": "edit",
+          "reverse_translation": [
+            "ပုံနှိပ်ရန်ပြင်ဆင်ရေးသား"
+          ],
+          "score": 0.18498141
+        }
+      ],
+      "base_form": "တည်းဖြတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တည်းဖြတ်",
+      "alternative": [
+        {
+          "word_postproc": "edited",
+          "score": 497,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "edit",
+          "score": 479,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "editing",
+          "score": 22,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to edit",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the editing",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "တည်းဖြတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

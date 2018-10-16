@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Shuttle",
+      "orig": "လွန်းပြန်ယာဉ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lwann pyan yarin"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လွန်း ပြန် ယာဉ်",
+      "alternative": [
+        {
+          "word_postproc": "Shuttle",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "လွန်းပြန်ယာဉ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

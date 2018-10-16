@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "torture",
+      "orig": "နှိပ်စက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nhaiuthcaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "torture",
+        "persecute",
+        "ill-treat"
+      ],
+      "entry": [
+        {
+          "word": "torture",
+          "reverse_translation": [
+            "ညှဉ်းပမ်း"
+          ],
+          "score": 0.026235942
+        },
+        {
+          "word": "persecute",
+          "reverse_translation": [
+            "ညှဉ်းပန်း"
+          ],
+          "score": 0.0050860695
+        }
+      ],
+      "base_form": "နှိပ်စက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နှိပ်စက်",
+      "alternative": [
+        {
+          "word_postproc": "torture",
+          "score": 782,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "crush",
+          "score": 86,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tortured",
+          "score": 71,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tortures",
+          "score": 32,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "နှိပ်စက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

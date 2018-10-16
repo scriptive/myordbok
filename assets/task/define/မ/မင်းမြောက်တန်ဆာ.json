@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "North vessels",
+      "orig": "မင်းမြောက်တန်ဆာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "mainn myawwat taansar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "coronation regalianamely မကိုဋ်၊ထီးဖြူ၊သန်လျက်၊သားမြီးယပ်၊ခြေနင်း"
+      ],
+      "entry": [
+        {
+          "word": "coronation regalianamely မကိုဋ်၊ထီးဖြူ၊သန်လျက်၊သားမြီးယပ်၊ခြေနင်း"
+        }
+      ],
+      "base_form": "မင်းမြောက်တန်ဆာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မြောက်",
+      "alternative": [
+        {
+          "word_postproc": "North",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "မင်းမြောက်တန်ဆာ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "တန်ဆာ",
+      "alternative": [
+        {
+          "word_postproc": "vessels",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 10,
+          "end": 15
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

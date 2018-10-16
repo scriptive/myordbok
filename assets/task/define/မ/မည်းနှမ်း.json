@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "sooty",
+      "orig": "မည်းနှမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "maee nham"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "sooty",
+        "fuliginous"
+      ],
+      "entry": [
+        {
+          "word": "sooty"
+        },
+        {
+          "word": "fuliginous"
+        }
+      ],
+      "base_form": "မည်းနှမ်း",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မည်း နှမ်း",
+      "alternative": [
+        {
+          "word_postproc": "sooty",
+          "score": 976,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fuliginous",
+          "score": 23,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "မည်းနှမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

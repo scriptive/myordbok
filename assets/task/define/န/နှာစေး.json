@@ -1,0 +1,76 @@
+{
+  "sentences": [
+    {
+      "trans": "turn a blind eye",
+      "orig": "နှာစေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "nhar hcayy"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "catch cold",
+        "pretend not to notice sth",
+        "turn a blind eye"
+      ],
+      "entry": [
+        {
+          "word": "catch cold"
+        },
+        {
+          "word": "pretend not to notice sth"
+        },
+        {
+          "word": "turn a blind eye"
+        }
+      ],
+      "base_form": "နှာစေး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နှာ စေး",
+      "alternative": [
+        {
+          "word_postproc": "turn a blind eye",
+          "score": 995,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "catch cold",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "နှာစေး",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

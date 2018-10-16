@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Simmered",
+      "orig": "တအုံနွေးနွေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "t aone nwaynway"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in a smouldering state"
+      ],
+      "entry": [
+        {
+          "word": "in a smouldering state"
+        }
+      ],
+      "base_form": "တအုံနွေးနွေး",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အုံ နွေးနွေး",
+      "alternative": [
+        {
+          "word_postproc": "Simmered",
+          "score": 959,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Smoldering",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "တအုံနွေးနွေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

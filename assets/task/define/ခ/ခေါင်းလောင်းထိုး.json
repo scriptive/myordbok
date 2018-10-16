@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "bells",
+      "orig": "ခေါင်းလောင်းထိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaungglaungghtoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "strike",
+        "ring"
+      ],
+      "entry": [
+        {
+          "word": "strike",
+          "reverse_translation": [
+            "ရိုက်"
+          ],
+          "score": 0.040005032
+        },
+        {
+          "word": "ring",
+          "reverse_translation": [
+            "ကွင်းတပ်"
+          ],
+          "score": 0.040005032
+        }
+      ],
+      "base_form": "ခေါင်းလောင်းထိုး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခေါင်းလောင်းထိုး",
+      "alternative": [
+        {
+          "word_postproc": "bells",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "strike",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ring",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "ခေါင်းလောင်းထိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

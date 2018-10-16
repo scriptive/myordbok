@@ -1,0 +1,116 @@
+{
+  "sentences": [
+    {
+      "trans": "ten",
+      "orig": "ဆယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "saal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "ten"
+      ],
+      "entry": [
+        {
+          "word": "ten",
+          "reverse_translation": [
+            "ဆယ်"
+          ],
+          "synset_id": [
+            29477
+          ],
+          "score": 0.25682124
+        }
+      ],
+      "base_form": "ဆယ်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "save",
+        "rescue",
+        "salvage",
+        "take sth out of water, oil, etc"
+      ],
+      "entry": [
+        {
+          "word": "save",
+          "reverse_translation": [
+            "ကယ်ဆယ်",
+            "ငေွစု"
+          ],
+          "synset_id": [
+            64174
+          ]
+        },
+        {
+          "word": "rescue",
+          "reverse_translation": [
+            "ကယ်ဆယ်"
+          ]
+        }
+      ],
+      "base_form": "ဆယ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆယ်",
+      "alternative": [
+        {
+          "word_postproc": "ten",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and fifteen",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "for ten",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of ten",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဆယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

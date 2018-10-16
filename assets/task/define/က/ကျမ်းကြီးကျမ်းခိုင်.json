@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Authoritative works",
+      "orig": "ကျမ်းကြီးကျမ်းခိုင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyam kyee kyam hkine"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျမ်း ကြီး ကျမ်း ခိုင်",
+      "alternative": [
+        {
+          "word_postproc": "Authoritative works",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 19
+        }
+      ],
+      "raw_src_segment": "ကျမ်းကြီးကျမ်းခိုင်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

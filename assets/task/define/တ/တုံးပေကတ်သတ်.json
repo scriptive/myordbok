@@ -1,0 +1,76 @@
+{
+  "sentences": [
+    {
+      "trans": "Doggedly",
+      "orig": "တုံးပေကတ်သတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "tone pay kaat saat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "doggedly",
+        "stubbornly",
+        "with the capacity to endure"
+      ],
+      "entry": [
+        {
+          "word": "doggedly"
+        },
+        {
+          "word": "stubbornly"
+        },
+        {
+          "word": "with the capacity to endure"
+        }
+      ],
+      "base_form": "တုံးပေကတ်သတ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တုံး ပေ ကတ် သတ်",
+      "alternative": [
+        {
+          "word_postproc": "Doggedly",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Stubbornly",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "တုံးပေကတ်သတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

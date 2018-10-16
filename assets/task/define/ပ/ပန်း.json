@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "flower",
+      "orig": "ပန်း",
+      "backend": 1
+    },
+    {
+      "src_translit": "paann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "flower",
+        "floral design in a painting",
+        "the reverse of a coin bearing a floral design",
+        "tread",
+        "pink colour",
+        "menstruation",
+        "male genital organ",
+        "winning post in a race"
+      ],
+      "entry": [
+        {
+          "word": "flower",
+          "reverse_translation": [
+            "ပန်း"
+          ],
+          "synset_id": [
+            41483
+          ],
+          "score": 0.024646387
+        },
+        {
+          "word": "menstruation",
+          "reverse_translation": [
+            "မိန်းမဓမ္မတာသေွးလာခြင်း"
+          ]
+        }
+      ],
+      "base_form": "ပန်း",
+      "pos_enum": 1
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "red"
+      ],
+      "entry": [
+        {
+          "word": "red",
+          "reverse_translation": [
+            "နီသော"
+          ]
+        }
+      ],
+      "base_form": "ပန်း",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပန်း",
+      "alternative": [
+        {
+          "word_postproc": "flower",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ပန်း",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "United Nations",
+      "orig": "ကုလသမဂ္ဂ",
+      "backend": 1
+    },
+    {
+      "src_translit": "kulasamagg"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "The United Nations Organization"
+      ],
+      "entry": [
+        {
+          "word": "The United Nations Organization"
+        }
+      ],
+      "base_form": "ကု‌လသမဂ္ဂ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကုလသမဂ္ဂ",
+      "alternative": [
+        {
+          "word_postproc": "United Nations",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကုလသမဂ္ဂ",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

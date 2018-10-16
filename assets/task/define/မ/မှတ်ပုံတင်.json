@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "registration",
+      "orig": "မှတ်ပုံတင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "mhaatponetain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "register",
+        "patent"
+      ],
+      "entry": [
+        {
+          "word": "register",
+          "reverse_translation": [
+            "စာရင်းသွင်း"
+          ],
+          "score": 0.080812387
+        },
+        {
+          "word": "patent",
+          "reverse_translation": [
+            "ပိုင်ဆိုင်ခွင့်လက်မှတ် ရယူ"
+          ]
+        }
+      ],
+      "base_form": "မှတ်ပုံတင်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မှတ်ပုံတင်",
+      "alternative": [
+        {
+          "word_postproc": "registration",
+          "score": 981,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "register",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "registered",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "I register",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "registered as",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "မှတ်ပုံတင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

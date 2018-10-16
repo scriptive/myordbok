@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "Vinegar",
+      "orig": "ရှလကာရည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "sh l kar rai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "vinegar"
+      ],
+      "entry": [
+        {
+          "word": "vinegar",
+          "reverse_translation": [
+            "ရှလကာရည်"
+          ],
+          "synset_id": [
+            51073
+          ]
+        }
+      ],
+      "base_form": "ရှလကာရည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရှ လ ကာ ရည်",
+      "alternative": [
+        {
+          "word_postproc": "Vinegar",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "In vinegar",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The vinegar",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ရှလကာရည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

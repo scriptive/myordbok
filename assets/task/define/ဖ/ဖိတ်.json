@@ -1,0 +1,118 @@
+{
+  "sentences": [
+    {
+      "trans": "spill",
+      "orig": "ဖိတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpate"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "invite",
+        "spill",
+        "shine",
+        "glow"
+      ],
+      "entry": [
+        {
+          "word": "invite",
+          "reverse_translation": [
+            "ဖိတ်ခေါ်"
+          ],
+          "score": 0.043255754
+        },
+        {
+          "word": "spill",
+          "reverse_translation": [
+            "ဖိတ်ကျ"
+          ],
+          "score": 0.032144949
+        },
+        {
+          "word": "shine",
+          "reverse_translation": [
+            "တောက်ပ"
+          ],
+          "synset_id": [
+            37293
+          ]
+        },
+        {
+          "word": "glow",
+          "reverse_translation": [
+            "တောက်ခြင်း"
+          ],
+          "synset_id": [
+            37293
+          ]
+        }
+      ],
+      "base_form": "ဖိတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖိတ်",
+      "alternative": [
+        {
+          "word_postproc": "spill",
+          "score": 368,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Invite",
+          "score": 354,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "invited",
+          "score": 47,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "by invitation",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "invited to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဖိတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

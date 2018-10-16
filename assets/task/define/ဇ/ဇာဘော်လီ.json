@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Lace bodice",
+      "orig": "ဇာဘော်လီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "jar bhaw le"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "lace bodice"
+      ],
+      "entry": [
+        {
+          "word": "lace bodice"
+        }
+      ],
+      "base_form": "ဇာဘော်လီ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဇာ ဘော် လီ",
+      "alternative": [
+        {
+          "word_postproc": "Lace bodice",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဇာဘော်လီ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

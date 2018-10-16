@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "nirvana",
+      "orig": "နိဗ္ဗာန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nibbaran"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "heaven",
+        "nirvana"
+      ],
+      "entry": [
+        {
+          "word": "heaven",
+          "reverse_translation": [
+            "မိုးကောင်းကင်"
+          ],
+          "synset_id": [
+            27296
+          ],
+          "score": 0.011825466
+        }
+      ],
+      "base_form": "နိဗ္ဗာန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နိဗ္ဗာန်",
+      "alternative": [
+        {
+          "word_postproc": "nirvana",
+          "score": 976,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Nibbana",
+          "score": 23,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Savings above",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Religious Destination",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The nature of nirvana",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "နိဗ္ဗာန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

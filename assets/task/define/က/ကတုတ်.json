@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "bunker",
+      "orig": "ကတုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "k tote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "breastwork",
+        "bunker"
+      ],
+      "entry": [
+        {
+          "word": "bunker",
+          "reverse_translation": [
+            "ကတုတ်"
+          ]
+        }
+      ],
+      "base_form": "ကတုတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "က တုတ်",
+      "alternative": [
+        {
+          "word_postproc": "bunker",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "breastwork",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to pay them",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကတုတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

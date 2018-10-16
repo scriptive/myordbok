@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "thin wheat noodles",
+      "orig": "မြူစွမ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "myauu hcwm"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "thin wheat noodles"
+      ],
+      "entry": [
+        {
+          "word": "thin wheat noodles"
+        }
+      ],
+      "base_form": "မြူစွမ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မြူ စွမ်",
+      "alternative": [
+        {
+          "word_postproc": "thin wheat noodles",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "မြူစွမ်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

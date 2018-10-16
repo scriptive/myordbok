@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "Yu",
+      "orig": "ကယုကယ",
+      "backend": 0
+    },
+    {
+      "src_translit": "k yu k y"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "with tender care: tenderly"
+      ],
+      "entry": [
+        {
+          "word": "with tender care: tenderly"
+        }
+      ],
+      "base_form": "ကယုကယ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယု",
+      "alternative": [
+        {
+          "word_postproc": "Yu",
+          "score": 929,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Jews",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Jude",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ကယုကယ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

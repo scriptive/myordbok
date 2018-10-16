@@ -1,0 +1,146 @@
+{
+  "sentences": [
+    {
+      "trans": "bright",
+      "orig": "တောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "tout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "bright",
+        "shining",
+        "glowing",
+        "sparkling"
+      ],
+      "entry": [
+        {
+          "word": "bright",
+          "reverse_translation": [
+            "လင်းသော"
+          ],
+          "synset_id": [
+            58861
+          ],
+          "score": 0.04462884
+        }
+      ],
+      "base_form": "တောက်",
+      "pos_enum": 3
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "shine",
+        "glow",
+        "flick",
+        "glitter",
+        "suffer from toxicity",
+        "be poisoinouns",
+        "be sick",
+        "sprinkle water with fingers",
+        "sound",
+        "sound out",
+        "be eaten",
+        "blaze",
+        "sparkle",
+        "cry"
+      ],
+      "entry": [
+        {
+          "word": "shine",
+          "reverse_translation": [
+            "တောက်ပ"
+          ],
+          "synset_id": [
+            37293,
+            67878
+          ],
+          "score": 0.042585135
+        },
+        {
+          "word": "glow",
+          "reverse_translation": [
+            "တောက်ခြင်း"
+          ],
+          "synset_id": [
+            37293
+          ],
+          "score": 0.0072854576
+        },
+        {
+          "word": "cry",
+          "reverse_translation": [
+            "ငိုယို"
+          ]
+        }
+      ],
+      "base_form": "တောက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တောက်",
+      "alternative": [
+        {
+          "word_postproc": "bright",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "shine",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "blazes",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "is bright",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "was bright",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "တောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

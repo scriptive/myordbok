@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "queen",
+      "orig": "မိဖုရား",
+      "backend": 0
+    },
+    {
+      "src_translit": "mihpurarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "queen"
+      ],
+      "entry": [
+        {
+          "word": "queen",
+          "reverse_translation": [
+            "မိဘုရား"
+          ],
+          "score": 0.24891968
+        }
+      ],
+      "base_form": "မိဖုရား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မိဖုရား",
+      "alternative": [
+        {
+          "word_postproc": "queen",
+          "score": 881,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the queen",
+          "score": 105,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "queens",
+          "score": 12,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "queen mother",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the queens",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "မိဖုရား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

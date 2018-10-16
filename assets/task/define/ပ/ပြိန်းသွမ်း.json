@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "foolhardy",
+      "orig": "ပြိန်းသွမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyaein swm"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "foolhardy",
+        "blundering"
+      ],
+      "entry": [
+        {
+          "word": "foolhardy"
+        },
+        {
+          "word": "blundering"
+        }
+      ],
+      "base_form": "ပြိန်းသွမ်း",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြိန်း သွမ်း",
+      "alternative": [
+        {
+          "word_postproc": "foolhardy",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "blundering",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ပြိန်းသွမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

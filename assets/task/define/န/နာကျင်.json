@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "pain",
+      "orig": "နာကျင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "narkyin"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "suffer pain",
+        "be hurt"
+      ],
+      "entry": [
+        {
+          "word": "suffer pain"
+        },
+        {
+          "word": "be hurt"
+        }
+      ],
+      "base_form": "နာကျင်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နာကျင်",
+      "alternative": [
+        {
+          "word_postproc": "pain",
+          "score": 766,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "painful",
+          "score": 215,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hurt",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a painful",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "နာကျင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

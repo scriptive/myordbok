@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Caste of cemetery workers",
+      "orig": "စဏ္ဍာလ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcan dar l"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "caste of cemetery workers"
+      ],
+      "entry": [
+        {
+          "word": "caste of cemetery workers"
+        }
+      ],
+      "base_form": "စဏ္ဍာလ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စဏ္ ဍာ လ",
+      "alternative": [
+        {
+          "word_postproc": "Caste of cemetery workers",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "စဏ္ဍာလ",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

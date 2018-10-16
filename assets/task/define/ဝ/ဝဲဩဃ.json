@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Maelstrom",
+      "orig": "ဝဲဩဃ",
+      "backend": 0
+    },
+    {
+      "src_translit": "well au gh"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "maelstrom",
+        "giant whirlpool"
+      ],
+      "entry": [
+        {
+          "word": "maelstrom"
+        },
+        {
+          "word": "giant whirlpool"
+        }
+      ],
+      "base_form": "ဝဲဩဃ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝဲ ဩ ဃ",
+      "alternative": [
+        {
+          "word_postproc": "Maelstrom",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Giant whirlpool",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဝဲဩဃ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Labyrinthine",
+      "orig": "ဝင်္ကပါ",
+      "backend": 0
+    },
+    {
+      "src_translit": "wain k par"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "labyrinth",
+        "maze"
+      ],
+      "entry": [
+        {
+          "word": "labyrinth",
+          "synset_id": [
+            114715
+          ]
+        },
+        {
+          "word": "maze",
+          "synset_id": [
+            114715
+          ]
+        }
+      ],
+      "base_form": "ဝင်္ကပါ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝင်္ က ပါ",
+      "alternative": [
+        {
+          "word_postproc": "Labyrinthine",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဝင်္ကပါ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

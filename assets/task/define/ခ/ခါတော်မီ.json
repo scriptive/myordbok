@@ -1,0 +1,67 @@
+{
+  "sentences": [
+    {
+      "trans": "in time",
+      "orig": "ခါတော်မီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkartawme"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in time",
+        "in time for an occasion"
+      ],
+      "entry": [
+        {
+          "word": "in time",
+          "score": 0.2528396
+        },
+        {
+          "word": "in time for an occasion"
+        }
+      ],
+      "base_form": "ခါတော်မီ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခါတော်မီ",
+      "alternative": [
+        {
+          "word_postproc": "in time",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ခါတော်မီ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

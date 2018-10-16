@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "tilt",
+      "orig": "တရတွန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "tar twann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "headlong",
+        "full tilt"
+      ],
+      "entry": [
+        {
+          "word": "headlong"
+        },
+        {
+          "word": "full tilt"
+        }
+      ],
+      "base_form": "တရတွန်း",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တရ တွန်း",
+      "alternative": [
+        {
+          "word_postproc": "tilt",
+          "score": 957,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "full tilt",
+          "score": 42,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "headlong",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "တရတွန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

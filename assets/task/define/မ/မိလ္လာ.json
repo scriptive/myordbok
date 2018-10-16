@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "sewage",
+      "orig": "မိလ္လာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "mil lar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "sombre colour",
+        "dusky colour",
+        "niello",
+        "filth",
+        "excrement"
+      ],
+      "entry": [
+        {
+          "word": "filth",
+          "reverse_translation": [
+            "အညစ်အကေြး"
+          ]
+        }
+      ],
+      "base_form": "မိလ္လာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မိလ္ လာ",
+      "alternative": [
+        {
+          "word_postproc": "sewage",
+          "score": 742,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sanitation",
+          "score": 257,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the sewage",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "niello",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sewage pools",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "မိလ္လာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

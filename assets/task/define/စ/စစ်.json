@@ -1,0 +1,188 @@
+{
+  "sentences": [
+    {
+      "trans": "war",
+      "orig": "စစ်",
+      "backend": 1
+    },
+    {
+      "src_translit": "hcait"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "war"
+      ],
+      "entry": [
+        {
+          "word": "war",
+          "reverse_translation": [
+            "စစ်"
+          ],
+          "synset_id": [
+            50399
+          ],
+          "score": 0.13746651
+        }
+      ],
+      "base_form": "စစ်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "military",
+        "genuine",
+        "pure",
+        "real"
+      ],
+      "entry": [
+        {
+          "word": "military",
+          "reverse_translation": [
+            "စစ်ရေး"
+          ],
+          "score": 0.058206979
+        },
+        {
+          "word": "genuine",
+          "reverse_translation": [
+            "အရင်း"
+          ],
+          "synset_id": [
+            72373
+          ],
+          "score": 0.002943591
+        },
+        {
+          "word": "pure",
+          "reverse_translation": [
+            "သန့်စင်သော"
+          ],
+          "score": 0.0027223767
+        },
+        {
+          "word": "real",
+          "reverse_translation": [
+            "စစ်မှန်သော"
+          ],
+          "synset_id": [
+            72373
+          ]
+        }
+      ],
+      "base_form": "စစ်",
+      "pos_enum": 3
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "filter",
+        "pure",
+        "refine",
+        "be genuine",
+        "real",
+        "inspect",
+        "examine",
+        "interrogate",
+        "drain",
+        "strain off/ out",
+        "recede",
+        "dwindle",
+        "become",
+        "leaner"
+      ],
+      "entry": [
+        {
+          "word": "filter",
+          "reverse_translation": [
+            "စိမ့်ထွက်"
+          ],
+          "score": 0.0032329024
+        },
+        {
+          "word": "refine",
+          "reverse_translation": [
+            "စစ်"
+          ],
+          "score": 0.00020992715
+        },
+        {
+          "word": "inspect",
+          "reverse_translation": [
+            "ကြည့်ရှုစစ်ဆေး"
+          ]
+        },
+        {
+          "word": "examine",
+          "reverse_translation": [
+            "စစ်ဆေးကြည့်ရှု"
+          ]
+        },
+        {
+          "word": "interrogate",
+          "reverse_translation": [
+            "မေြးမြန်း"
+          ]
+        },
+        {
+          "word": "drain",
+          "reverse_translation": [
+            "ရေစစ်"
+          ]
+        },
+        {
+          "word": "recede",
+          "reverse_translation": [
+            "နောက်ဆုတ်"
+          ]
+        },
+        {
+          "word": "become",
+          "reverse_translation": [
+            "ဖြစ်လာ"
+          ]
+        }
+      ],
+      "base_form": "စစ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စစ်",
+      "alternative": [
+        {
+          "word_postproc": "war",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "စစ်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

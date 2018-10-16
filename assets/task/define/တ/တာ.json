@@ -1,0 +1,134 @@
+{
+  "sentences": [
+    {
+      "trans": "best",
+      "orig": "တာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "tar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "measure",
+        "speak,act in an endearing manner",
+        "prattle",
+        "particle suffixed to verbs and adjective to form nouns"
+      ],
+      "entry": [
+        {
+          "word": "measure",
+          "reverse_translation": [
+            "တိုင်းတာ"
+          ]
+        }
+      ],
+      "base_form": "တာ",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "unit of distance measure",
+        "embankment",
+        "receptacle with cover, box",
+        "duty",
+        "responsibility",
+        "assignment",
+        "length of time",
+        "the period of သင်္ကြန်"
+      ],
+      "entry": [
+        {
+          "word": "duty",
+          "reverse_translation": [
+            "တာဝန်",
+            "အကောက်"
+          ],
+          "synset_id": [
+            80424
+          ]
+        },
+        {
+          "word": "responsibility",
+          "reverse_translation": [
+            "တာဝန်"
+          ],
+          "synset_id": [
+            80424
+          ]
+        },
+        {
+          "word": "assignment",
+          "reverse_translation": [
+            "လွှဲအပ်စာတမ်း"
+          ]
+        }
+      ],
+      "base_form": "တာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တာ",
+      "alternative": [
+        {
+          "word_postproc": "best",
+          "score": 722,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "much",
+          "score": 177,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lot",
+          "score": 41,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "taking",
+          "score": 40,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "life",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "တာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

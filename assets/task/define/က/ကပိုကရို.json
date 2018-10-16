@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "ကပိုကရို",
+      "orig": "ကပိုကရို",
+      "backend": 0
+    },
+    {
+      "src_translit": "kapokaro"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "without much care for one's appearance"
+      ],
+      "entry": [
+        {
+          "word": "without much care for one's appearance"
+        }
+      ],
+      "base_form": "ကပိုကရို",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကပိုကရို",
+      "alternative": [
+        {
+          "word_postproc": "ကပိုကရို",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကပိုကရို",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

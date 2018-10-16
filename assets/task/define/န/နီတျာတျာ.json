@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Scarlet red",
+      "orig": "နီတျာတျာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "ne tyaar tyaar"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တျာ တျာ",
+      "alternative": [
+        {
+          "word_postproc": "Scarlet",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "နီတျာတျာ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "နီ",
+      "alternative": [
+        {
+          "word_postproc": "red",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

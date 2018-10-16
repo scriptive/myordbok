@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "calamity",
+      "orig": "ဘေးဘျမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "bhayy bhyam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "calamity",
+        "danger"
+      ],
+      "entry": [
+        {
+          "word": "danger",
+          "reverse_translation": [
+            "ဘေးအန္တရာယ်"
+          ]
+        }
+      ],
+      "base_form": "ဘေးဘျမ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘေး ဘျမ်း",
+      "alternative": [
+        {
+          "word_postproc": "calamity",
+          "score": 957,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "danger",
+          "score": 42,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဘေးဘျမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

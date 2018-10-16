@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "safety pin",
+      "orig": "တွယ်ချိတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "twal hkyaate"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "safety pin"
+      ],
+      "entry": [
+        {
+          "word": "safety pin"
+        }
+      ],
+      "base_form": "တွယ်ချိတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တွယ် ချိတ်",
+      "alternative": [
+        {
+          "word_postproc": "safety pin",
+          "score": 859,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Pin",
+          "score": 140,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "တွယ်ချိတ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

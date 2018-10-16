@@ -1,0 +1,115 @@
+{
+  "sentences": [
+    {
+      "trans": "ancient",
+      "orig": "ရှေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "shayy"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "ancient",
+        "old",
+        "past",
+        "early",
+        "olden"
+      ],
+      "entry": [
+        {
+          "word": "ancient",
+          "reverse_translation": [
+            "ရေှးကျသော"
+          ],
+          "score": 0.13323711
+        },
+        {
+          "word": "old",
+          "reverse_translation": [
+            "အိုသော"
+          ],
+          "score": 0.097478345
+        },
+        {
+          "word": "past",
+          "reverse_translation": [
+            "လွန်ခဲ့သော"
+          ],
+          "score": 0.011825466
+        },
+        {
+          "word": "early",
+          "reverse_translation": [
+            "စောစော"
+          ],
+          "score": 0.0092096813
+        }
+      ],
+      "base_form": "ရှေး",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရှေး",
+      "alternative": [
+        {
+          "word_postproc": "ancient",
+          "score": 961,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "In ancient",
+          "score": 21,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of old",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the ancient",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of ancient",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ရှေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

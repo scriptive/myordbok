@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "open air",
+      "orig": "လဟာပြင်",
+      "backend": 1
+    },
+    {
+      "src_translit": "l har pyin"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "open space",
+        "glade",
+        "expanse of water, land, etc",
+        "open skies",
+        "a swell"
+      ],
+      "entry": [
+        {
+          "word": "open space"
+        },
+        {
+          "word": "glade"
+        },
+        {
+          "word": "expanse of water, land, etc"
+        },
+        {
+          "word": "open skies"
+        },
+        {
+          "word": "a swell"
+        }
+      ],
+      "base_form": "လဟာပြင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လဟာပြင်",
+      "alternative": [
+        {
+          "word_postproc": "open air",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Outdoor",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "လဟာပြင်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

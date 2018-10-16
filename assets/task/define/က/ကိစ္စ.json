@@ -1,0 +1,107 @@
+{
+  "sentences": [
+    {
+      "trans": "case",
+      "orig": "ကိစ္စ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kihchc"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "business",
+        "affair",
+        "transaction",
+        "work to be done"
+      ],
+      "entry": [
+        {
+          "word": "business",
+          "reverse_translation": [
+            "အလုပ်အကိုင်"
+          ],
+          "score": 0.0038391664
+        },
+        {
+          "word": "affair",
+          "reverse_translation": [
+            "ကိစ္စ"
+          ],
+          "score": 0.0021201891
+        },
+        {
+          "word": "transaction",
+          "reverse_translation": [
+            "ကိစ္စ"
+          ],
+          "score": 0.00024929465
+        }
+      ],
+      "base_form": "ကိစ္စ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိစ္စ",
+      "alternative": [
+        {
+          "word_postproc": "case",
+          "score": 662,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "issues",
+          "score": 319,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "issue",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the issue",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "matter",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကိစ္စ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

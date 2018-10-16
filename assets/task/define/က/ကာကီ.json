@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Kentucky",
+      "orig": "ကာကီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kar ke"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "kha ki"
+      ],
+      "entry": [
+        {
+          "word": "kha ki"
+        }
+      ],
+      "base_form": "ကာကီ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကီ",
+      "alternative": [
+        {
+          "word_postproc": "Kentucky",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကာကီ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "sentences": [
+    {
+      "trans": "propensity",
+      "orig": "ဉာဉ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyarin"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "propensity",
+        "bent",
+        "habit",
+        "nature"
+      ],
+      "entry": [
+        {
+          "word": "habit",
+          "reverse_translation": [
+            "ဓလေ့ထုံးစံ"
+          ],
+          "score": 0.031646587
+        },
+        {
+          "word": "nature",
+          "reverse_translation": [
+            "သဘာဝ",
+            "အတွင်းသဘော"
+          ],
+          "score": 0.031646587
+        }
+      ],
+      "base_form": "ဉာဉ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဉာဉ်",
+      "alternative": [
+        {
+          "word_postproc": "propensity",
+          "score": 986,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "is coming to",
+          "score": 12,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "nature",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "habit",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bent",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဉာဉ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

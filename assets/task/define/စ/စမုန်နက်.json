@@ -1,0 +1,88 @@
+{
+  "sentences": [
+    {
+      "trans": "Fennel",
+      "orig": "စမုန်နက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hc mone naat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "black cumin",
+        "small fennel",
+        "\"Nigella sativa.\""
+      ],
+      "entry": [
+        {
+          "word": "black cumin"
+        },
+        {
+          "word": "small fennel"
+        },
+        {
+          "word": "\"Nigella sativa.\""
+        }
+      ],
+      "base_form": "စမုန်နက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စ မုန် နက်",
+      "alternative": [
+        {
+          "word_postproc": "Fennel",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Caraway",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Small fennel",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Black cumin",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "စမုန်နက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

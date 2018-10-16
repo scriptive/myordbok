@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Fellow countrymen",
+      "orig": "သွေးချင်းသားချင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "swayhkyinn sarr hkyinn"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သွေးချင်း သား ချင်း",
+      "alternative": [
+        {
+          "word_postproc": "Fellow countrymen",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 17
+        }
+      ],
+      "raw_src_segment": "သွေးချင်းသားချင်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Swarm around",
+      "orig": "ပျားပန်းခပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyarr paann hkaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "bustle about",
+        "swarm around"
+      ],
+      "entry": [
+        {
+          "word": "bustle about"
+        },
+        {
+          "word": "swarm around"
+        }
+      ],
+      "base_form": "ပျားပန်းခပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပျား ပန်း ခပ်",
+      "alternative": [
+        {
+          "word_postproc": "Swarm around",
+          "score": 606,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Bustle about",
+          "score": 393,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ပျားပန်းခပ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

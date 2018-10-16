@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "exercise book",
+      "orig": "ကော်ပီစာအုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kawpe hcaraote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "copy book",
+        "exercise book"
+      ],
+      "entry": [
+        {
+          "word": "copy book"
+        },
+        {
+          "word": "exercise book"
+        }
+      ],
+      "base_form": "ကော်ပီစာအုပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကော်ပီ စာအုပ်",
+      "alternative": [
+        {
+          "word_postproc": "exercise book",
+          "score": 984,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "copy book",
+          "score": 15,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ကော်ပီစာအုပ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

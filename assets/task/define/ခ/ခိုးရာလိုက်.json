@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Elope",
+      "orig": "ခိုးရာလိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkoe rar lite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "elope",
+        "be a willing partner in an elopement"
+      ],
+      "entry": [
+        {
+          "word": "elope"
+        },
+        {
+          "word": "be a willing partner in an elopement"
+        }
+      ],
+      "base_form": "ခိုးရာလိုက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခိုး ရာ လိုက်",
+      "alternative": [
+        {
+          "word_postproc": "Elope",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ခိုးရာလိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

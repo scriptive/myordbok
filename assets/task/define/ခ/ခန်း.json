@@ -1,0 +1,134 @@
+{
+  "sentences": [
+    {
+      "trans": "Khan",
+      "orig": "ခန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "room",
+        "chapter",
+        "episode",
+        "act",
+        "scene",
+        "role"
+      ],
+      "entry": [
+        {
+          "word": "room",
+          "reverse_translation": [
+            "အခန်း",
+            "နေရာ"
+          ],
+          "score": 0.079559512
+        },
+        {
+          "word": "chapter",
+          "reverse_translation": [
+            "အခဏ်း"
+          ],
+          "score": 0.002943591
+        },
+        {
+          "word": "act",
+          "reverse_translation": [
+            "အလုပ်"
+          ]
+        }
+      ],
+      "base_form": "ခန်း",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "dry up",
+        "evaporate",
+        "cease",
+        "be used up"
+      ],
+      "entry": [
+        {
+          "word": "evaporate",
+          "reverse_translation": [
+            "အခိုးအငေွ့ဖြစ်"
+          ]
+        },
+        {
+          "word": "cease",
+          "reverse_translation": [
+            "ရပ်စဲ"
+          ]
+        }
+      ],
+      "base_form": "ခန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခန်း",
+      "alternative": [
+        {
+          "word_postproc": "Khan",
+          "score": 544,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Room",
+          "score": 263,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rooms",
+          "score": 99,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "chamber",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "living room",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ခန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

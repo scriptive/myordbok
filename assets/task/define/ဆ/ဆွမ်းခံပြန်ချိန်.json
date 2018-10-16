@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "Reset your alms",
+      "orig": "ဆွမ်းခံပြန်ချိန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "swmhkan pyan hkyane"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "time round about nine and ten in the morning ie time of the day when monks return from the round of accepting offerings of food"
+      ],
+      "entry": [
+        {
+          "word": "time round about nine and ten in the morning ie time of the day when monks return from the round of accepting offerings of food"
+        }
+      ],
+      "base_form": "ဆွမ်းခံပြန်ချိန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြန် ချိန်",
+      "alternative": [
+        {
+          "word_postproc": "Reset your",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Reset",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "ဆွမ်းခံပြန်ချိန်",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "ဆွမ်းခံ",
+      "alternative": [
+        {
+          "word_postproc": "alms",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "blasphemy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

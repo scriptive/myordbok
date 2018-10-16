@@ -1,0 +1,106 @@
+{
+  "sentences": [
+    {
+      "trans": "Nick",
+      "orig": "နစ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nait"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "sink",
+        "drown",
+        "embed",
+        "retreat",
+        "back-out"
+      ],
+      "entry": [
+        {
+          "word": "sink",
+          "reverse_translation": [
+            "နစ်မြှုပ်"
+          ],
+          "score": 0.029268308
+        },
+        {
+          "word": "drown",
+          "reverse_translation": [
+            "ရေနစ်"
+          ]
+        },
+        {
+          "word": "retreat",
+          "reverse_translation": [
+            "နောက်ဆုတ်ခွါ"
+          ]
+        }
+      ],
+      "base_form": "နစ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နစ်",
+      "alternative": [
+        {
+          "word_postproc": "Nick",
+          "score": 975,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sink",
+          "score": 23,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Nicki",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "drowning",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to sink",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "နစ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

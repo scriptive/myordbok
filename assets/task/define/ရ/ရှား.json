@@ -1,0 +1,104 @@
+{
+  "sentences": [
+    {
+      "trans": "Indonesia",
+      "orig": "ရှား",
+      "backend": 0
+    },
+    {
+      "src_translit": "sharr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "rare",
+        "scarce",
+        "expensive"
+      ],
+      "entry": [
+        {
+          "word": "rare",
+          "reverse_translation": [
+            "ရှားပါးသော"
+          ],
+          "score": 0.014488863
+        },
+        {
+          "word": "scarce",
+          "reverse_translation": [
+            "နည်းပါးသော"
+          ]
+        },
+        {
+          "word": "expensive",
+          "reverse_translation": [
+            "စေျးကြီးသော"
+          ]
+        }
+      ],
+      "base_form": "ရှား",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရှား",
+      "alternative": [
+        {
+          "word_postproc": "Indonesia",
+          "score": 923,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Shah",
+          "score": 75,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Indonesian",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Persia",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "away",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ရှား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

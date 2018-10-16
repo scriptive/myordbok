@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Half-awake",
+      "orig": "အိပ်မှုန်စုံမွှား",
+      "backend": 0
+    },
+    {
+      "src_translit": "aiut mhuan hcone mwhar"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အိပ် မှုန် စုံ မွှား",
+      "alternative": [
+        {
+          "word_postproc": "Half-awake",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 17
+        }
+      ],
+      "raw_src_segment": "အိပ်မှုန်စုံမွှား",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

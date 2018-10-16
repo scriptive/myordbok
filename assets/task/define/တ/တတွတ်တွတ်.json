@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "incessantly",
+      "orig": "တတွတ်တွတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "tatwattwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "incessantly",
+        "repeatedly"
+      ],
+      "entry": [
+        {
+          "word": "incessantly",
+          "score": 0.066995822
+        },
+        {
+          "word": "repeatedly",
+          "score": 0.066995822
+        }
+      ],
+      "base_form": "တတွတ်တွတ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တတွတ်တွတ်",
+      "alternative": [
+        {
+          "word_postproc": "incessantly",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "repeatedly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "တတွတ်တွတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

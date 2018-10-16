@@ -1,0 +1,118 @@
+{
+  "sentences": [
+    {
+      "trans": "Pickled",
+      "orig": "နှပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nhaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "snot",
+        "mucous discharge from the nose"
+      ],
+      "entry": [
+        {
+          "word": "snot",
+          "score": 0.012786376
+        },
+        {
+          "word": "mucous discharge from the nose"
+        }
+      ],
+      "base_form": "နှပ်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "tenderize",
+        "swindle",
+        "bring to a proper consistency",
+        "take a few more winks after waking from sleep, take a short nap"
+      ],
+      "entry": [
+        {
+          "word": "tenderize",
+          "score": 0.012786376
+        },
+        {
+          "word": "swindle",
+          "score": 0.012786376
+        },
+        {
+          "word": "bring to a proper consistency"
+        },
+        {
+          "word": "take a few more winks after waking from sleep, take a short nap"
+        }
+      ],
+      "base_form": "နှပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နှပ်",
+      "alternative": [
+        {
+          "word_postproc": "Pickled",
+          "score": 990,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tenderize",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "trickery",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "swindling",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "snot",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "နှပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

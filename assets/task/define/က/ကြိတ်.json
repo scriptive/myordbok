@@ -1,0 +1,106 @@
+{
+  "sentences": [
+    {
+      "trans": "mill",
+      "orig": "ကြိတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaate"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "mill",
+        "grind",
+        "be run over",
+        "do sth wih all -out effort"
+      ],
+      "entry": [
+        {
+          "word": "mill",
+          "reverse_translation": [
+            "ကြိတ်"
+          ],
+          "synset_id": [
+            16162
+          ],
+          "score": 0.033165336
+        },
+        {
+          "word": "grind",
+          "reverse_translation": [
+            "ကြိတ်"
+          ],
+          "synset_id": [
+            13124
+          ],
+          "score": 0.028814545
+        }
+      ],
+      "base_form": "ကြိတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြိတ်",
+      "alternative": [
+        {
+          "word_postproc": "mill",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "grind",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "grind flour",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "at the millstones",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "by grinding",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကြိတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

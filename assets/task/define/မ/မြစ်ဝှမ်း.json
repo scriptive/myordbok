@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Basin",
+      "orig": "မြစ်ဝှမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "myit wham"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "river valley",
+        "river basin"
+      ],
+      "entry": [
+        {
+          "word": "river valley"
+        },
+        {
+          "word": "river basin"
+        }
+      ],
+      "base_form": "မြစ်ဝှမ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မြစ် ဝှမ်း",
+      "alternative": [
+        {
+          "word_postproc": "Basin",
+          "score": 929,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "River Basin",
+          "score": 62,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "River Delta",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Water Basin",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "River valley",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "မြစ်ဝှမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "extinct",
+      "orig": "ဆိတ်သုဉ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "sate suin"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "cease to exist",
+        "be extinct"
+      ],
+      "entry": [
+        {
+          "word": "cease to exist"
+        },
+        {
+          "word": "be extinct"
+        }
+      ],
+      "base_form": "ဆိတ်သုဉ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆိတ် သုဉ်း",
+      "alternative": [
+        {
+          "word_postproc": "extinct",
+          "score": 846,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lays out",
+          "score": 143,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "stealing",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lays",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ceased to exist",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ဆိတ်သုဉ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "sentences": [
+    {
+      "trans": "birth",
+      "orig": "မွေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "mway"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "hair",
+        "fur",
+        "feather"
+      ],
+      "entry": [
+        {
+          "word": "hair",
+          "reverse_translation": [
+            "ဆံပင်",
+            "အမေွှး"
+          ],
+          "score": 0.02426428
+        },
+        {
+          "word": "fur",
+          "reverse_translation": [
+            "သားမေွှး"
+          ],
+          "score": 0.0026801701
+        },
+        {
+          "word": "feather",
+          "reverse_translation": [
+            "ကြက်ငှက်အမေွးအတောင်"
+          ]
+        }
+      ],
+      "base_form": "မွေး",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "foster",
+        "give birth",
+        "be born",
+        "keep",
+        "raise",
+        "bring up",
+        "rear",
+        "nurture",
+        "culture",
+        "cultivate"
+      ],
+      "entry": [
+        {
+          "word": "keep",
+          "reverse_translation": [
+            "သိုထား"
+          ]
+        },
+        {
+          "word": "raise",
+          "reverse_translation": [
+            "မေြှာက်ပင့်"
+          ],
+          "synset_id": [
+            6835
+          ]
+        },
+        {
+          "word": "rear",
+          "reverse_translation": [
+            "မေွးထား"
+          ],
+          "synset_id": [
+            6835
+          ]
+        },
+        {
+          "word": "cultivate",
+          "reverse_translation": [
+            "စိုက်ပျိုးလုပ်ကိုင်"
+          ]
+        }
+      ],
+      "base_form": "မွေး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မွေး",
+      "alternative": [
+        {
+          "word_postproc": "birth",
+          "score": 990,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "born",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "at birth",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "was born",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "gave birth",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "မွေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

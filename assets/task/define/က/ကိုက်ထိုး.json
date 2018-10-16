@@ -1,0 +1,108 @@
+{
+  "sentences": [
+    {
+      "trans": "chamfer",
+      "orig": "ကိုက်ထိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kite htoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "chamfer",
+        "make a groove",
+        "channel",
+        "furrow",
+        "measure with a yardstick"
+      ],
+      "entry": [
+        {
+          "word": "chamfer",
+          "synset_id": [
+            42993
+          ]
+        },
+        {
+          "word": "make a groove"
+        },
+        {
+          "word": "channel"
+        },
+        {
+          "word": "furrow",
+          "synset_id": [
+            42993
+          ]
+        },
+        {
+          "word": "measure with a yardstick"
+        }
+      ],
+      "base_form": "ကိုက်ထိုး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိုက် ထိုး",
+      "alternative": [
+        {
+          "word_postproc": "chamfer",
+          "score": 954,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "furrow",
+          "score": 45,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "make a groove",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "channel",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "measure with a yardstick",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကိုက်ထိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

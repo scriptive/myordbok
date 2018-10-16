@@ -1,0 +1,130 @@
+{
+  "sentences": [
+    {
+      "trans": "partner",
+      "orig": "ဖက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "hug",
+        "embrace",
+        "put one's arm around someone",
+        "use together with",
+        "go together",
+        "match"
+      ],
+      "entry": [
+        {
+          "word": "hug",
+          "reverse_translation": [
+            "ပေွ့ဖက်"
+          ],
+          "synset_id": [
+            41836
+          ],
+          "score": 0.0074001872
+        },
+        {
+          "word": "embrace",
+          "reverse_translation": [
+            "ဖက်"
+          ],
+          "synset_id": [
+            41836
+          ],
+          "score": 0.0023652418
+        },
+        {
+          "word": "match",
+          "reverse_translation": [
+            "ကိုက်ညီ"
+          ]
+        }
+      ],
+      "base_form": "ဖက်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "leaf"
+      ],
+      "entry": [
+        {
+          "word": "leaf",
+          "reverse_translation": [
+            "အရွက်"
+          ]
+        }
+      ],
+      "base_form": "ဖက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖက်",
+      "alternative": [
+        {
+          "word_postproc": "partner",
+          "score": 501,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "partners",
+          "score": 456,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sides",
+          "score": 31,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "partnership",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hug",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဖက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "was satisfied",
+      "orig": "ပရိယတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pariyaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "study of ပိဋကတ်"
+      ],
+      "entry": [
+        {
+          "word": "study of ပိဋကတ်"
+        }
+      ],
+      "base_form": "ပရိယတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပရိယတ်",
+      "alternative": [
+        {
+          "word_postproc": "was satisfied",
+          "score": 943,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "satisfied",
+          "score": 32,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "taken",
+          "score": 23,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ပရိယတ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "sentences": [
+    {
+      "trans": "drive",
+      "orig": "မောင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "maungg"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "drive",
+        "drive out",
+        "run",
+        "operate",
+        "goad"
+      ],
+      "entry": [
+        {
+          "word": "drive",
+          "reverse_translation": [
+            "မောင်း"
+          ],
+          "synset_id": [
+            70037
+          ],
+          "score": 0.075916216
+        },
+        {
+          "word": "run",
+          "reverse_translation": [
+            "ပေြးသွား"
+          ],
+          "synset_id": [
+            72616
+          ]
+        },
+        {
+          "word": "operate",
+          "reverse_translation": [
+            "ခဲွစိတ်ကုသ",
+            "စီမံအုပ်ချုပ်"
+          ],
+          "synset_id": [
+            72616
+          ]
+        }
+      ],
+      "base_form": "မောင်း",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "crane",
+        "upper arm",
+        "lever",
+        "sweep",
+        "firing mechanism of a gun,trigger mechanism of a crossbow",
+        "simple wooden device of boom and pestle for polishing rice",
+        "gong",
+        "Myanmar unit of time",
+        "maund, unit of measure approximately equal to 22.5 viss",
+        "particle suffixed to some nouns to convey the notion of being long and slender"
+      ],
+      "entry": [
+        {
+          "word": "crane",
+          "reverse_translation": [
+            "မောင်း",
+            "ကြိုးကြာငှက်"
+          ],
+          "score": 0.00059802679
+        },
+        {
+          "word": "lever",
+          "reverse_translation": [
+            "မောင်းတုံး"
+          ]
+        }
+      ],
+      "base_form": "မောင်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မောင်း",
+      "alternative": [
+        {
+          "word_postproc": "drive",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "drive a",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Drive to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "driver",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "drive on",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "မောင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

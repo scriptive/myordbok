@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "cost",
+      "orig": "ကုန်ကျစရိတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "konekyahcarate"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "expenses"
+      ],
+      "entry": [
+        {
+          "word": "expenses",
+          "score": 0.041924916
+        }
+      ],
+      "base_form": "ကုန်ကျစရိတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကုန်ကျစရိတ်",
+      "alternative": [
+        {
+          "word_postproc": "cost",
+          "score": 861,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "costs",
+          "score": 132,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Cost of",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the cost",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ကုန်ကျစရိတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

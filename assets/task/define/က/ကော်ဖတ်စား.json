@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Sandpaper",
+      "orig": "ကော်ဖတ်စား",
+      "backend": 0
+    },
+    {
+      "src_translit": "kaw hpaat hcarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "sandpaper",
+        "make smooth with sandpaper"
+      ],
+      "entry": [
+        {
+          "word": "sandpaper"
+        },
+        {
+          "word": "make smooth with sandpaper"
+        }
+      ],
+      "base_form": "ကော်ဖတ်စား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကော် ဖတ် စား",
+      "alternative": [
+        {
+          "word_postproc": "Sandpaper",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Smooth with sandpaper",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ကော်ဖတ်စား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

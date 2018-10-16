@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "Belly",
+      "orig": "ဗိုက်",
+      "backend": 1
+    },
+    {
+      "src_translit": "bite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "belly",
+        "stomach",
+        "pregnancy"
+      ],
+      "entry": [
+        {
+          "word": "belly",
+          "reverse_translation": [
+            "ဝမ်းပိုက်"
+          ],
+          "synset_id": [
+            91959
+          ],
+          "score": 0.058206979
+        },
+        {
+          "word": "stomach",
+          "reverse_translation": [
+            "ဝမ်း"
+          ],
+          "synset_id": [
+            91959
+          ],
+          "score": 0.039384812
+        },
+        {
+          "word": "pregnancy",
+          "reverse_translation": [
+            "ပဍိသနေ္ဓရှိခြင်း"
+          ]
+        }
+      ],
+      "base_form": "ဗိုက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗိုက်",
+      "alternative": [
+        {
+          "word_postproc": "Belly",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "abdomen",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "C",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဗိုက်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

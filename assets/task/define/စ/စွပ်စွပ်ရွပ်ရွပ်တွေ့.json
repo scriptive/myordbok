@@ -1,0 +1,59 @@
+{
+  "sentences": [
+    {
+      "trans": "By coincidence",
+      "orig": "စွပ်စွပ်ရွပ်ရွပ်တွေ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcwut hcwut rwut rwut twae"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စွပ် စွပ် ရွပ် ရွပ်",
+      "alternative": [
+        {
+          "word_postproc": "By coincidence",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "By chance",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Coincidence",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "စွပ်စွပ်ရွပ်ရွပ်တွေ့",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "sentences": [
+    {
+      "trans": "up",
+      "orig": "မျှော်",
+      "backend": 0
+    },
+    {
+      "src_translit": "myahaaw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "expect",
+        "look into the distance",
+        "look forward to",
+        "hope for",
+        "long for",
+        "look at sth with a longing"
+      ],
+      "entry": [
+        {
+          "word": "expect",
+          "reverse_translation": [
+            "မေှျာ်လင့်"
+          ],
+          "score": 0.011642128
+        }
+      ],
+      "base_form": "မျှော်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မျှော်",
+      "alternative": [
+        {
+          "word_postproc": "up",
+          "score": 786,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Look",
+          "score": 213,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Lift up",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "expecting",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "expecting to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "မျှော်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

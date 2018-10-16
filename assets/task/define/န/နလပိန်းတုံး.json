@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Blockhead",
+      "orig": "နလပိန်းတုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "n l pein tone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "blockhead",
+        "dumbbell"
+      ],
+      "entry": [
+        {
+          "word": "blockhead"
+        },
+        {
+          "word": "dumbbell"
+        }
+      ],
+      "base_form": "နလပိန်းတုံး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "န လ ပိန်း တုံး",
+      "alternative": [
+        {
+          "word_postproc": "Blockhead",
+          "score": 994,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Dumbbell",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "နလပိန်းတုံး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

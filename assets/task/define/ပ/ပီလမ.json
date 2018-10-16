@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "ပီလ",
+      "orig": "ပီလမ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pel m"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "hooded rainwear made of woven fronds"
+      ],
+      "entry": [
+        {
+          "word": "hooded rainwear made of woven fronds"
+        }
+      ],
+      "base_form": "ပီလမ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပီလ",
+      "alternative": [
+        {
+          "word_postproc": "ပီလ",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ပီလမ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "sentences": [
+    {
+      "trans": "support",
+      "orig": "ပံ့ပိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "panpoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "help",
+        "subsidise",
+        "aid"
+      ],
+      "entry": [
+        {
+          "word": "help",
+          "reverse_translation": [
+            "ကူညီ"
+          ],
+          "synset_id": [
+            28365
+          ]
+        },
+        {
+          "word": "subsidise",
+          "reverse_translation": [
+            "ထောက်ခံ"
+          ]
+        },
+        {
+          "word": "aid",
+          "reverse_translation": [
+            "ကူညီ"
+          ],
+          "synset_id": [
+            28365
+          ]
+        }
+      ],
+      "base_form": "ပံ့ပိုး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပံ့ပိုး",
+      "alternative": [
+        {
+          "word_postproc": "support",
+          "score": 994,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "supported",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "supported by",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to support the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a supported",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ပံ့ပိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

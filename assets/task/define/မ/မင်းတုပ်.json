@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "bolt",
+      "orig": "မင်းတုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "mainn tote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "bar",
+        "bolt"
+      ],
+      "entry": [
+        {
+          "word": "bar",
+          "reverse_translation": [
+            "အရက်ဆိုင်",
+            "ကန့်လန့်",
+            "သံခေျာင်းရှည်",
+            "မင်းတုံး"
+          ]
+        },
+        {
+          "word": "bolt",
+          "reverse_translation": [
+            "မင်းတုံး"
+          ]
+        }
+      ],
+      "base_form": "မင်းတုပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မင်း တုပ်",
+      "alternative": [
+        {
+          "word_postproc": "bolt",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bar",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "မင်းတုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

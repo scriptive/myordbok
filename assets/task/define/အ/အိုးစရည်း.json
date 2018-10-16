@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "Big glazed pot",
+      "orig": "အိုးစရည်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "aoe hc raee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "big glazed earthen pot"
+      ],
+      "entry": [
+        {
+          "word": "big glazed earthen pot"
+        }
+      ],
+      "base_form": "အိုးစရည်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စ ရည်း",
+      "alternative": [
+        {
+          "word_postproc": "Big glazed",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Kind of tree",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အိုးစရည်း",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "အိုး",
+      "alternative": [
+        {
+          "word_postproc": "pot",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "jars",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pots",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

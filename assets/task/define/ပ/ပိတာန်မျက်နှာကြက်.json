@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Canopied ceiling ceiling",
+      "orig": "ပိတာန်မျက်နှာကြက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pi taran myetnhar kyaat"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပိ တာန်",
+      "alternative": [
+        {
+          "word_postproc": "Canopied ceiling",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ပိတာန်မျက်နှာကြက်",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "မျက်နှာ ကြက်",
+      "alternative": [
+        {
+          "word_postproc": "ceiling",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 17
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "valid",
+      "orig": "ခိုင်လုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkine lone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be sufficient",
+        "irrefutable",
+        "secure",
+        "be impregnable"
+      ],
+      "entry": [
+        {
+          "word": "be sufficient"
+        },
+        {
+          "word": "irrefutable"
+        },
+        {
+          "word": "secure"
+        },
+        {
+          "word": "be impregnable"
+        }
+      ],
+      "base_form": "ခိုင်လုံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခိုင် လုံ",
+      "alternative": [
+        {
+          "word_postproc": "valid",
+          "score": 405,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "validity",
+          "score": 310,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "irrefutable",
+          "score": 257,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "warrant",
+          "score": 15,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "impregnable",
+          "score": 9,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ခိုင်လုံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

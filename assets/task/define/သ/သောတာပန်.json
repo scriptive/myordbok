@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "worlds",
+      "orig": "သောတာပန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "sawtarpaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "အရိယာလေးဆင့်တွင် ပထမအဆင့်၌ တည်သောပုဂ္ဂိုလ်။ နိဗ္ဗာန်သို့ဝင်ရာ အရိယာမဂ်ရေစီးကြောင်းသို့ ဦးစွာဆိုက်ရောက်သူ။"
+      ],
+      "entry": [
+        {
+          "word": "အရိယာလေးဆင့်တွင် ပထမအဆင့်၌ တည်သောပုဂ္ဂိုလ်။ နိဗ္ဗာန်သို့ဝင်ရာ အရိယာမဂ်ရေစီးကြောင်းသို့ ဦးစွာဆိုက်ရောက်သူ။"
+        }
+      ],
+      "base_form": "သောတာပန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သောတာပန်",
+      "alternative": [
+        {
+          "word_postproc": "worlds",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": ".I",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "သောတာပန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

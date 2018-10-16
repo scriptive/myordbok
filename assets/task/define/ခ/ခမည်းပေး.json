@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Father",
+      "orig": "ခမည်းပေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "hk maee payy"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "give a small token gift to a child as a sort of charm for his well-being",
+        "give a present to a young friend,relative to mark some momentous occasion in his life"
+      ],
+      "entry": [
+        {
+          "word": "give a small token gift to a child as a sort of charm for his well-being"
+        },
+        {
+          "word": "give a present to a young friend,relative to mark some momentous occasion in his life"
+        }
+      ],
+      "base_form": "ခ‌မည်းပေး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခ မည်း",
+      "alternative": [
+        {
+          "word_postproc": "Father",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ခမည်းပေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

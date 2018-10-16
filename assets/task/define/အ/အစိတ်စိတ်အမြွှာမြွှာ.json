@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Fragments",
+      "orig": "အစိတ်စိတ်အမြွှာမြွှာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "a hcate hcate aamyawhar myawhar"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စိတ် စိတ် အမြွှာ မြွှာ",
+      "alternative": [
+        {
+          "word_postproc": "Fragments",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 20
+        }
+      ],
+      "raw_src_segment": "အစိတ်စိတ်အမြွှာမြွှာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

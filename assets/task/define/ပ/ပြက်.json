@@ -1,0 +1,108 @@
+{
+  "sentences": [
+    {
+      "trans": "lightning",
+      "orig": "ပြက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "jest",
+        "scintillate",
+        "give out a flash of light",
+        "be distinct",
+        "make a crack",
+        "add a pinch of sth to sth"
+      ],
+      "entry": [
+        {
+          "word": "jest",
+          "score": 0.014488863
+        },
+        {
+          "word": "scintillate",
+          "score": 0.0096516637
+        },
+        {
+          "word": "give out a flash of light"
+        },
+        {
+          "word": "be distinct"
+        },
+        {
+          "word": "make a crack"
+        },
+        {
+          "word": "add a pinch of sth to sth"
+        }
+      ],
+      "base_form": "ပြက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြက်",
+      "alternative": [
+        {
+          "word_postproc": "lightning",
+          "score": 961,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "scintillate",
+          "score": 30,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "jest",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "laughed",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ridiculed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ပြက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

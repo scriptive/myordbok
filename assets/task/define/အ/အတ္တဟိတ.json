@@ -1,0 +1,63 @@
+{
+  "sentences": [
+    {
+      "trans": "personal benefit",
+      "orig": "အတ္တဟိတ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aattahit"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "personal benefit"
+      ],
+      "entry": [
+        {
+          "word": "personal benefit",
+          "score": 0.18211353
+        }
+      ],
+      "base_form": "အတ္တဟိတ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အတ္တဟိတ",
+      "alternative": [
+        {
+          "word_postproc": "personal benefit",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "အတ္တဟိတ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

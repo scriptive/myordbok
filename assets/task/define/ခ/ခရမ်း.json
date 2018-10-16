@@ -1,0 +1,103 @@
+{
+  "sentences": [
+    {
+      "trans": "eggplant",
+      "orig": "ခရမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaram"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "egg-plant",
+        "aubergine",
+        "brinjal"
+      ],
+      "entry": [
+        {
+          "word": "egg-plant",
+          "score": 0.059123605
+        },
+        {
+          "word": "aubergine",
+          "synset_id": [
+            18986
+          ],
+          "score": 0.0062315823
+        },
+        {
+          "word": "brinjal",
+          "synset_id": [
+            18986
+          ],
+          "score": 0.0062315823
+        }
+      ],
+      "base_form": "ခရမ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခရမ်း",
+      "alternative": [
+        {
+          "word_postproc": "eggplant",
+          "score": 486,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Tomato",
+          "score": 360,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Tomatoes",
+          "score": 152,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "aubergine",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ultraviolet",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ခရမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "remembrance",
+      "orig": "အမှတ်တရ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aamhaattar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "remembrance"
+      ],
+      "entry": [
+        {
+          "word": "remembrance",
+          "reverse_translation": [
+            "အမှတ်တရ"
+          ],
+          "score": 0.0036633583
+        }
+      ],
+      "base_form": "အမှတ်တရ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အမှတ်တရ",
+      "alternative": [
+        {
+          "word_postproc": "remembrance",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Memorabilia",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "memorable",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "memories",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and memorable",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "အမှတ်တရ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

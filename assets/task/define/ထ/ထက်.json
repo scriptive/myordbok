@@ -1,0 +1,147 @@
+{
+  "sentences": [
+    {
+      "trans": "than",
+      "orig": "ထက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "htaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "conjunction",
+      "terms": [
+        "than"
+      ],
+      "entry": [
+        {
+          "word": "than",
+          "reverse_translation": [
+            "ထက်"
+          ],
+          "score": 0.38553435
+        }
+      ],
+      "base_form": "ထက်",
+      "pos_enum": 7
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "sharp",
+        "keen",
+        "be harsh",
+        "poteut",
+        "powerful",
+        "effecive",
+        "bright"
+      ],
+      "entry": [
+        {
+          "word": "sharp",
+          "reverse_translation": [
+            "ထက်သော"
+          ],
+          "synset_id": [
+            15870
+          ],
+          "score": 0.0074001872
+        },
+        {
+          "word": "powerful",
+          "reverse_translation": [
+            "တန်ခိုးရှိသော"
+          ]
+        },
+        {
+          "word": "bright",
+          "reverse_translation": [
+            "လင်းသော"
+          ]
+        }
+      ],
+      "base_form": "ထက်",
+      "pos_enum": 3
+    },
+    {
+      "pos": "adverb",
+      "terms": [
+        "rather",
+        "beside"
+      ],
+      "entry": [
+        {
+          "word": "rather",
+          "reverse_translation": [
+            "ထက်"
+          ],
+          "score": 0.002638618
+        },
+        {
+          "word": "beside",
+          "reverse_translation": [
+            "ထက်"
+          ],
+          "score": 0.000056501125
+        }
+      ],
+      "base_form": "ထက်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထက်",
+      "alternative": [
+        {
+          "word_postproc": "than",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rather",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "more than",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rather than",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ထက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "rice",
+      "orig": "ပဲဆန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pell saan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "gram",
+        "chick pea"
+      ],
+      "entry": [
+        {
+          "word": "gram",
+          "reverse_translation": [
+            "ဂရမ်"
+          ]
+        }
+      ],
+      "base_form": "ပဲဆန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆန်",
+      "alternative": [
+        {
+          "word_postproc": "rice",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ပဲဆန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "buildings",
+      "orig": "အဆောက်အဦ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aasouta u"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "equipment",
+        "paraphernalia"
+      ],
+      "entry": [
+        {
+          "word": "equipment",
+          "reverse_translation": [
+            "ပစ္စည်းကရိယာ"
+          ]
+        }
+      ],
+      "base_form": "အဆောက်အဦ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အဆောက်အ ဦ",
+      "alternative": [
+        {
+          "word_postproc": "buildings",
+          "score": 851,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "building",
+          "score": 139,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "structures",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "apartment building",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "အဆောက်အဦ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

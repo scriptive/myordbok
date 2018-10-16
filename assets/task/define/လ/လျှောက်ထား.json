@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "apply",
+      "orig": "လျှောက်ထား",
+      "backend": 0
+    },
+    {
+      "src_translit": "shouthtarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "apply for",
+        "address formally"
+      ],
+      "entry": [
+        {
+          "word": "apply for",
+          "score": 0.031155951
+        },
+        {
+          "word": "address formally"
+        }
+      ],
+      "base_form": "လျှောက်ထား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လျှောက်ထား",
+      "alternative": [
+        {
+          "word_postproc": "apply",
+          "score": 958,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "applicants",
+          "score": 25,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "applicant",
+          "score": 12,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "applying",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the applicant",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "လျှောက်ထား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

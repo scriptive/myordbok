@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "reflect",
+      "orig": "အရောင်ဟပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aaraung haut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "reflect"
+      ],
+      "entry": [
+        {
+          "word": "reflect",
+          "reverse_translation": [
+            "ရောင်ပြန်ဟပ်"
+          ]
+        }
+      ],
+      "base_form": "အရောင်ဟပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အရောင် ဟပ်",
+      "alternative": [
+        {
+          "word_postproc": "reflect",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အရောင်ဟပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

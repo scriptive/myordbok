@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "drum",
+      "orig": "ခေါ်ဗုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaw bone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "small drum for playing the overture to a performance on the big-drum"
+      ],
+      "entry": [
+        {
+          "word": "small drum for playing the overture to a performance on the big-drum"
+        }
+      ],
+      "base_form": "ခေါ်ဗုံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗုံ",
+      "alternative": [
+        {
+          "word_postproc": "drum",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "blue",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "drums",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ခေါ်ဗုံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

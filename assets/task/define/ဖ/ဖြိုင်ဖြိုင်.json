@@ -1,0 +1,111 @@
+{
+  "sentences": [
+    {
+      "trans": "copiously",
+      "orig": "ဖြိုင်ဖြိုင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpyaine hpyaine"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "continuously and abundantly",
+        "copiously",
+        "profusely",
+        "abundantly",
+        "plentifully"
+      ],
+      "entry": [
+        {
+          "word": "continuously and abundantly"
+        },
+        {
+          "word": "copiously",
+          "synset_id": [
+            45999
+          ]
+        },
+        {
+          "word": "profusely",
+          "synset_id": [
+            45999
+          ]
+        },
+        {
+          "word": "abundantly",
+          "synset_id": [
+            45999
+          ]
+        },
+        {
+          "word": "plentifully"
+        }
+      ],
+      "base_form": "ဖြိုင်ဖြိုင်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖြိုင် ဖြိုင်",
+      "alternative": [
+        {
+          "word_postproc": "copiously",
+          "score": 972,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "plentifully",
+          "score": 26,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "profusely",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "abundantly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "continuously and abundantly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ဖြိုင်ဖြိုင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

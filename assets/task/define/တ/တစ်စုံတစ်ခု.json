@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "something",
+      "orig": "တစ်စုံတစ်ခု",
+      "backend": 0
+    },
+    {
+      "src_translit": "taithconetaithku"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "pronoun",
+      "terms": [
+        "something"
+      ],
+      "entry": [
+        {
+          "word": "something",
+          "reverse_translation": [
+            "တစုံတခု"
+          ],
+          "score": 0.15822297
+        }
+      ],
+      "base_form": "တစ်စုံတစ်ခု",
+      "pos_enum": 8
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တစ်စုံတစ်ခု",
+      "alternative": [
+        {
+          "word_postproc": "something",
+          "score": 989,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Something else",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Something's",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Something went",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "something is",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "တစ်စုံတစ်ခု",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

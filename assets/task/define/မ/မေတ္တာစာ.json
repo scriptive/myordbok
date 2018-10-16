@@ -1,0 +1,79 @@
+{
+  "sentences": [
+    {
+      "trans": "letters",
+      "orig": "မေတ္တာစာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "mayttarhcar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "love letter",
+        "homily written in a sympathetic vein"
+      ],
+      "entry": [
+        {
+          "word": "love letter",
+          "score": 0.052998058
+        },
+        {
+          "word": "homily written in a sympathetic vein"
+        }
+      ],
+      "base_form": "မေတ္တာစာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မေတ္တာစာ",
+      "alternative": [
+        {
+          "word_postproc": "letters",
+          "score": 863,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "love",
+          "score": 119,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "love letter",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "မေတ္တာစာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

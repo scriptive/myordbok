@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "eroded by water",
+      "orig": "ကျုံစား",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaone hcarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be eroded by water"
+      ],
+      "entry": [
+        {
+          "word": "be eroded by water"
+        }
+      ],
+      "base_form": "ကျုံစား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျုံ စား",
+      "alternative": [
+        {
+          "word_postproc": "eroded by water",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကျုံစား",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

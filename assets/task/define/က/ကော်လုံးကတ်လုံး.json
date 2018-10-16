@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Caustic criticism",
+      "orig": "ကော်လုံးကတ်လုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kaw lone kaat lone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "caustic criticism",
+        "perverse term"
+      ],
+      "entry": [
+        {
+          "word": "caustic criticism"
+        },
+        {
+          "word": "perverse term"
+        }
+      ],
+      "base_form": "ကော်လုံးကတ်လုံး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကော် လုံး ကတ် လုံး",
+      "alternative": [
+        {
+          "word_postproc": "Caustic criticism",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Perverse term",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "ကော်လုံးကတ်လုံး",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "sentences": [
+    {
+      "trans": "Clamorously",
+      "orig": "အုန်းအုန်းကျွက်ကျွက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aone aone kyawat kyawat"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အုန်း အုန်း ကျွက် ကျွက်",
+      "alternative": [
+        {
+          "word_postproc": "Clamorously",
+          "score": 845,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Noisily",
+          "score": 154,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 20
+        }
+      ],
+      "raw_src_segment": "အုန်းအုန်းကျွက်ကျွက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

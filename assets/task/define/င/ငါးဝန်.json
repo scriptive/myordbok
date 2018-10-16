@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "whale",
+      "orig": "ငါးဝန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "ngarr waan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "whale"
+      ],
+      "entry": [
+        {
+          "word": "whale",
+          "reverse_translation": [
+            "ဝေလငါး"
+          ]
+        }
+      ],
+      "base_form": "ငါးဝန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ငါး ဝန်",
+      "alternative": [
+        {
+          "word_postproc": "whale",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ငါးဝန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

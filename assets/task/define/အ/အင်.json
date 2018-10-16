@@ -1,0 +1,202 @@
+{
+  "sentences": [
+    {
+      "trans": "Indiana",
+      "orig": "အင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "inclination",
+        "em",
+        "attribute",
+        "feature",
+        "characteristic",
+        "quality",
+        "broad-leaved tall timber tree yielding reddish, resinous wood",
+        "bowl",
+        "basin",
+        "plight",
+        "situation",
+        "occurence",
+        "quantity",
+        "disposition",
+        "resources",
+        "assets",
+        "potential. strength",
+        "capacity to achieve,bear",
+        "standard",
+        "measure",
+        "extent",
+        "amount",
+        "number"
+      ],
+      "entry": [
+        {
+          "word": "inclination",
+          "reverse_translation": [
+            "ယိုင်ခြင်း"
+          ],
+          "synset_id": [
+            96292
+          ]
+        },
+        {
+          "word": "feature",
+          "reverse_translation": [
+            "လက္ခဏာ"
+          ],
+          "synset_id": [
+            58048
+          ]
+        },
+        {
+          "word": "quality",
+          "reverse_translation": [
+            "အမျိုးအစား"
+          ]
+        },
+        {
+          "word": "bowl",
+          "reverse_translation": [
+            "ခွက်"
+          ]
+        },
+        {
+          "word": "basin",
+          "reverse_translation": [
+            "စလုံး"
+          ]
+        },
+        {
+          "word": "situation",
+          "reverse_translation": [
+            "အခေြအနေ"
+          ]
+        },
+        {
+          "word": "quantity",
+          "reverse_translation": [
+            "အရေအတွက်"
+          ],
+          "synset_id": [
+            22425
+          ]
+        },
+        {
+          "word": "assets",
+          "reverse_translation": [
+            "ကိုယ်ပိုင်ပစ္စည်း"
+          ]
+        },
+        {
+          "word": "standard",
+          "reverse_translation": [
+            "စံ"
+          ],
+          "synset_id": [
+            32723
+          ]
+        },
+        {
+          "word": "measure",
+          "reverse_translation": [
+            "အတိုင်းအတာ"
+          ],
+          "synset_id": [
+            22425,
+            32723
+          ]
+        },
+        {
+          "word": "extent",
+          "reverse_translation": [
+            "အကျယ်အဝန်း"
+          ]
+        },
+        {
+          "word": "amount",
+          "reverse_translation": [
+            "စုပေါင်း"
+          ],
+          "synset_id": [
+            22425
+          ]
+        },
+        {
+          "word": "number",
+          "reverse_translation": [
+            "ဂဏန်း"
+          ]
+        }
+      ],
+      "base_form": "အင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အင်",
+      "alternative": [
+        {
+          "word_postproc": "Indiana",
+          "score": 938,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "institutions",
+          "score": 44,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Institute",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Indie",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "energy",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "အင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

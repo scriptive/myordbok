@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "preservatives",
+      "orig": "ကြာရှည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaarshi"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "take a long time",
+        "be along time"
+      ],
+      "entry": [
+        {
+          "word": "take a long time"
+        },
+        {
+          "word": "be along time"
+        }
+      ],
+      "base_form": "ကြာရှည်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြာရှည်",
+      "alternative": [
+        {
+          "word_postproc": "preservatives",
+          "score": 965,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Long as",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကြာရှည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

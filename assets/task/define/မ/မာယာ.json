@@ -1,0 +1,102 @@
+{
+  "sentences": [
+    {
+      "trans": "Maya",
+      "orig": "မာယာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "maryar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "wile",
+        "guile",
+        "artifice",
+        "deceit",
+        "illusion",
+        "pretence"
+      ],
+      "entry": [
+        {
+          "word": "deceit",
+          "reverse_translation": [
+            "လိမ်ညာမှု"
+          ],
+          "score": 0.0038996246
+        },
+        {
+          "word": "illusion",
+          "reverse_translation": [
+            "မေှာက်မှားခြင်း"
+          ],
+          "score": 0.0038996246
+        }
+      ],
+      "base_form": "မာယာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မာယာ",
+      "alternative": [
+        {
+          "word_postproc": "Maya",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Mayan",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The Maya",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the Mayan",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and Maya",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "မာယာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "sesame Distributor",
+      "orig": "နှမ်းဖြူး",
+      "backend": 0
+    },
+    {
+      "src_translit": "nham hpyauu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "add superfluous touches to someone else's work just to show off one's knowledge,skill"
+      ],
+      "entry": [
+        {
+          "word": "add superfluous touches to someone else's work just to show off one's knowledge,skill"
+        }
+      ],
+      "base_form": "နှမ်းဖြူး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နှမ်း",
+      "alternative": [
+        {
+          "word_postproc": "sesame",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "နှမ်းဖြူး",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဖြူး",
+      "alternative": [
+        {
+          "word_postproc": "Distributor",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 9
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

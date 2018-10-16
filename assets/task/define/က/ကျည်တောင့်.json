@@ -1,0 +1,88 @@
+{
+  "sentences": [
+    {
+      "trans": "Cartridge",
+      "orig": "ကျည်တောင့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyai taw ng "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "cartridge",
+        "shell",
+        "round."
+      ],
+      "entry": [
+        {
+          "word": "cartridge",
+          "reverse_translation": [
+            "ကျည်တောင့်"
+          ],
+          "synset_id": [
+            25919
+          ]
+        },
+        {
+          "word": "shell",
+          "reverse_translation": [
+            "အခံွ"
+          ]
+        }
+      ],
+      "base_form": "ကျည်တောင့်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျည် တော င့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Cartridge",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Round",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Shell",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ကျည်တောင့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

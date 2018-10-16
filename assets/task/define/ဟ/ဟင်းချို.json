@@ -1,0 +1,85 @@
+{
+  "sentences": [
+    {
+      "trans": "soup",
+      "orig": "ဟင်းချို",
+      "backend": 0
+    },
+    {
+      "src_translit": "hainnhkyao"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "soup",
+        "kind of thin soup"
+      ],
+      "entry": [
+        {
+          "word": "soup",
+          "reverse_translation": [
+            "ဟင်းချို"
+          ],
+          "score": 0.43009463
+        }
+      ],
+      "base_form": "ဟင်းချို",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဟင်းချို",
+      "alternative": [
+        {
+          "word_postproc": "soup",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "soup in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "soup of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "kind of thin soup",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဟင်းချို",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

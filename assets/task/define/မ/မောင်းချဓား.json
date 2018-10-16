@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "Jack-knife",
+      "orig": "မောင်းချဓား",
+      "backend": 0
+    },
+    {
+      "src_translit": "maungg hkya dharr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "jack-knife",
+        "clasp knife",
+        "pen knife"
+      ],
+      "entry": [
+        {
+          "word": "jack-knife"
+        },
+        {
+          "word": "clasp knife"
+        },
+        {
+          "word": "pen knife"
+        }
+      ],
+      "base_form": "မောင်းချဓား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မောင်း ချ ဓား",
+      "alternative": [
+        {
+          "word_postproc": "Jack-knife",
+          "score": 842,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Clasp knife",
+          "score": 121,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Pen knife",
+          "score": 36,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "မောင်းချဓား",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

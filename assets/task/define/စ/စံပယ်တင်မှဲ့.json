@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Mole on cheek",
+      "orig": "စံပယ်တင်မှဲ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcanpaal tain mhaae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "mole on cheek"
+      ],
+      "entry": [
+        {
+          "word": "mole on cheek"
+        }
+      ],
+      "base_form": "စံပယ်တင်မှဲ့",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စံပယ် တင် မှဲ့",
+      "alternative": [
+        {
+          "word_postproc": "Mole on cheek",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "စံပယ်တင်မှဲ့",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

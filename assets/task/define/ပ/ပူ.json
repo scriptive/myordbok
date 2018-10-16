@@ -1,0 +1,138 @@
+{
+  "sentences": [
+    {
+      "trans": "hot",
+      "orig": "ပူ",
+      "backend": 0
+    },
+    {
+      "src_translit": "puu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "hot",
+        "warm"
+      ],
+      "entry": [
+        {
+          "word": "hot",
+          "reverse_translation": [
+            "ပူသော"
+          ],
+          "score": 0.16071463
+        },
+        {
+          "word": "warm",
+          "reverse_translation": [
+            "နေွးသော"
+          ],
+          "score": 0.012392981
+        }
+      ],
+      "base_form": "ပူ",
+      "pos_enum": 3
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "worry",
+        "be worried about",
+        "be anxious about",
+        "pester",
+        "nag",
+        "be plagued with",
+        "be in fested with",
+        "be pressing",
+        "be restive",
+        "drill",
+        "bore",
+        "bulge in the middle"
+      ],
+      "entry": [
+        {
+          "word": "worry",
+          "reverse_translation": [
+            "စိုးရိမ်"
+          ],
+          "score": 0.0089263292
+        },
+        {
+          "word": "drill",
+          "reverse_translation": [
+            "စူးဖေါက် ၊ သင်ကြား"
+          ],
+          "synset_id": [
+            44763
+          ]
+        },
+        {
+          "word": "bore",
+          "reverse_translation": [
+            "ထွင်းဖေါက်"
+          ],
+          "synset_id": [
+            44763
+          ]
+        }
+      ],
+      "base_form": "ပူ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပူ",
+      "alternative": [
+        {
+          "word_postproc": "hot",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the hot",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "is hot",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hot and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ပူ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Frontier area",
+      "orig": "တိုင်းစွန်ပြည်နား",
+      "backend": 0
+    },
+    {
+      "src_translit": "tine hcwan pyi narr"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တိုင်း စွန် ပြည် နား",
+      "alternative": [
+        {
+          "word_postproc": "Frontier area",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 17
+        }
+      ],
+      "raw_src_segment": "တိုင်းစွန်ပြည်နား",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

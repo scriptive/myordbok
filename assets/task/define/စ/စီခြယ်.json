@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "adorn",
+      "orig": "စီခြယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hce hkyaal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "adorn",
+        "decorate"
+      ],
+      "entry": [
+        {
+          "word": "adorn",
+          "reverse_translation": [
+            "ဆင်ယင်"
+          ],
+          "synset_id": [
+            53848
+          ]
+        },
+        {
+          "word": "decorate",
+          "reverse_translation": [
+            "ဆင်ယင်မွမ်းမံ"
+          ],
+          "synset_id": [
+            53848
+          ]
+        }
+      ],
+      "base_form": "စီခြယ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စီ ခြယ်",
+      "alternative": [
+        {
+          "word_postproc": "adorn",
+          "score": 811,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "decorate",
+          "score": 151,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "adorned",
+          "score": 36,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "စီခြယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

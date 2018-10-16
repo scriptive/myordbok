@@ -1,0 +1,79 @@
+{
+  "sentences": [
+    {
+      "trans": "Acquaintance",
+      "orig": "စဉ်းသိမျဉ်းသိ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcain si myain si"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "intimate",
+        "close",
+        "acquaintance"
+      ],
+      "entry": [
+        {
+          "word": "acquaintance",
+          "reverse_translation": [
+            "သိခြင်း"
+          ]
+        }
+      ],
+      "base_form": "စဉ်းသိမျဉ်းသိ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စဉ်း သိ မျဉ်း သိ",
+      "alternative": [
+        {
+          "word_postproc": "Acquaintance",
+          "score": 947,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Intimate",
+          "score": 48,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Close",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "စဉ်းသိမျဉ်းသိ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

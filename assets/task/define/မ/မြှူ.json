@@ -1,0 +1,111 @@
+{
+  "sentences": [
+    {
+      "trans": "amuse",
+      "orig": "မြှူ",
+      "backend": 0
+    },
+    {
+      "src_translit": "myahauu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "lure",
+        "entice",
+        "tempt",
+        "persuade",
+        "amuse"
+      ],
+      "entry": [
+        {
+          "word": "tempt",
+          "reverse_translation": [
+            "သေွးဆောင်"
+          ],
+          "synset_id": [
+            89708
+          ],
+          "score": 0.083377652
+        },
+        {
+          "word": "persuade",
+          "reverse_translation": [
+            "သေွးဆောင်"
+          ],
+          "score": 0.083377652
+        },
+        {
+          "word": "amuse",
+          "reverse_translation": [
+            "ရွှင်မြူးစေ"
+          ],
+          "score": 0.083377652
+        }
+      ],
+      "base_form": "မြှူ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မြှူ",
+      "alternative": [
+        {
+          "word_postproc": "amuse",
+          "score": 903,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lure",
+          "score": 94,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "entice",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tempt",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "persuade",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "မြှူ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

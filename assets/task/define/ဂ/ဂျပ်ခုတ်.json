@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "trans": "hand-woven",
+      "orig": "ဂျပ်ခုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "gyaut hkote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "hand-woven"
+      ],
+      "entry": [
+        {
+          "word": "hand-woven"
+        }
+      ],
+      "base_form": "ဂျပ်ခုတ်",
+      "pos_enum": 3
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "weave on a backstrap loom"
+      ],
+      "entry": [
+        {
+          "word": "weave on a backstrap loom"
+        }
+      ],
+      "base_form": "ဂျပ်ခုတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဂျပ် ခုတ်",
+      "alternative": [
+        {
+          "word_postproc": "hand-woven",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဂျပ်ခုတ်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

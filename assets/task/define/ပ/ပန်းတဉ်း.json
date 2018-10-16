@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "pump",
+      "orig": "ပန်းတဉ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "paann tain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "art of making items cast,wrought from bronze, copper,brass"
+      ],
+      "entry": [
+        {
+          "word": "art of making items cast,wrought from bronze, copper,brass"
+        }
+      ],
+      "base_form": "ပန်းတဉ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပန်း တဉ်း",
+      "alternative": [
+        {
+          "word_postproc": "pump",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ပန်းတဉ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

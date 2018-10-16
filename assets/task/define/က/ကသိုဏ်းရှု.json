@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Fixedly",
+      "orig": "ကသိုဏ်းရှု",
+      "backend": 0
+    },
+    {
+      "src_translit": "k son shu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "concentrate intensely on an object as a means of meditation",
+        "look fixedly"
+      ],
+      "entry": [
+        {
+          "word": "concentrate intensely on an object as a means of meditation"
+        },
+        {
+          "word": "look fixedly"
+        }
+      ],
+      "base_form": "ကသိုဏ်းရှု",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "က သိုဏ်း",
+      "alternative": [
+        {
+          "word_postproc": "Fixedly",
+          "score": 613,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကသိုဏ်းရှု",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

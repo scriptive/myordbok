@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Some",
+      "orig": "ပြတန်ဆောင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "pya taan saungg"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တန် ဆောင်း",
+      "alternative": [
+        {
+          "word_postproc": "Some",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ပြတန်ဆောင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

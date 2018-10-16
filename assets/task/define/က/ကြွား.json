@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "glory",
+      "orig": "ကြွား",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "boast",
+        "brag",
+        "be prominent"
+      ],
+      "entry": [
+        {
+          "word": "boast",
+          "reverse_translation": [
+            "ကြွားဝါပေြာဆို"
+          ],
+          "synset_id": [
+            99882
+          ],
+          "score": 0.023153137
+        },
+        {
+          "word": "brag",
+          "reverse_translation": [
+            "ကြွားဝါ"
+          ],
+          "synset_id": [
+            99882
+          ],
+          "score": 0.0028087941
+        }
+      ],
+      "base_form": "ကြွား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြွား",
+      "alternative": [
+        {
+          "word_postproc": "glory",
+          "score": 866,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "boast",
+          "score": 100,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "magnified",
+          "score": 17,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "boasting",
+          "score": 11,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "proud",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကြွား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

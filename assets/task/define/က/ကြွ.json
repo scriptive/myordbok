@@ -1,0 +1,101 @@
+{
+  "sentences": [
+    {
+      "trans": "Lift",
+      "orig": "ကြွ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "come",
+        "go",
+        "rise up",
+        "invite,bid farewell politely"
+      ],
+      "entry": [
+        {
+          "word": "come",
+          "reverse_translation": [
+            "လာ"
+          ],
+          "score": 0.034756977
+        },
+        {
+          "word": "go",
+          "reverse_translation": [
+            "သွား",
+            "စီး၍ သွား"
+          ],
+          "score": 0.0059462176
+        }
+      ],
+      "base_form": "ကြွ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြွ",
+      "alternative": [
+        {
+          "word_postproc": "Lift",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "walking",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "coming",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lifted",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cometh",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ကြွ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

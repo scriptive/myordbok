@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Exhausted",
+      "orig": "နုံးချည့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "none hkya i "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be very tired",
+        "be exhausted"
+      ],
+      "entry": [
+        {
+          "word": "be very tired"
+        },
+        {
+          "word": "be exhausted"
+        }
+      ],
+      "base_form": "နုံးချည့်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နုံး ချ ည့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Exhausted",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "နုံးချည့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

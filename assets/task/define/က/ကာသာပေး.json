@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Only",
+      "orig": "ကာသာပေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kar sar payy"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "favour",
+        "be partial"
+      ],
+      "entry": [
+        {
+          "word": "favour",
+          "reverse_translation": [
+            "ကေျးဇူးပြု"
+          ]
+        }
+      ],
+      "base_form": "ကာသာပေး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သာ",
+      "alternative": [
+        {
+          "word_postproc": "Only",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကာသာပေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

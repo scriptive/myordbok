@@ -1,0 +1,123 @@
+{
+  "sentences": [
+    {
+      "trans": "gulp down",
+      "orig": "ကျိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "stupa",
+        "pagoda"
+      ],
+      "entry": [
+        {
+          "word": "stupa",
+          "score": 0.019496895
+        },
+        {
+          "word": "pagoda",
+          "score": 0.019496895
+        }
+      ],
+      "base_form": "ကျိုက်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "gulp down",
+        "tuck up one's nether garment"
+      ],
+      "entry": [
+        {
+          "word": "gulp down",
+          "score": 0.019496895
+        },
+        {
+          "word": "tuck up one's nether garment"
+        }
+      ],
+      "base_form": "ကျိုက်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "particle",
+      "terms": [
+        "particle used as a numerical classifier for counting draughts gulped down"
+      ],
+      "entry": [
+        {
+          "word": "particle used as a numerical classifier for counting draughts gulped down"
+        }
+      ],
+      "base_form": "ကျိုက်",
+      "pos_enum": 19
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျိုက်",
+      "alternative": [
+        {
+          "word_postproc": "gulp down",
+          "score": 995,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "stupa",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wind",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Kyaik",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Kyaikhto",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ကျိုက်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "trans": "hypocrite",
+      "orig": "ကျီးအာသီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaeeaarsee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "kind of creeper",
+        "hypocrite",
+        "person whose fair appearance belies his true character"
+      ],
+      "entry": [
+        {
+          "word": "hypocrite",
+          "reverse_translation": [
+            "အရေခြံု",
+            "အရေခြံု"
+          ],
+          "score": 0.50283158
+        }
+      ],
+      "base_form": "ကျီးအာသီး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျီးအာသီး",
+      "alternative": [
+        {
+          "word_postproc": "hypocrite",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "kind of creeper",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကျီးအာသီး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

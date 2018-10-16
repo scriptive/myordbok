@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "Exactly",
+      "orig": "တထေရာတည်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "t htay rar taee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "exactly"
+      ],
+      "entry": [
+        {
+          "word": "exactly",
+          "reverse_translation": [
+            "တိကျစွာ"
+          ]
+        }
+      ],
+      "base_form": "တထေရာတည်း",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တ ထေ ရာ တည်း",
+      "alternative": [
+        {
+          "word_postproc": "Exactly",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "တထေရာတည်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

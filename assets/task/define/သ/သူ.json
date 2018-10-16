@@ -1,0 +1,76 @@
+{
+  "sentences": [
+    {
+      "trans": "he",
+      "orig": "သူ",
+      "backend": 1
+    },
+    {
+      "src_translit": "suu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "pronoun",
+      "terms": [
+        "he",
+        "she",
+        "person",
+        "one who does sth"
+      ],
+      "entry": [
+        {
+          "word": "he",
+          "reverse_translation": [
+            "သူ"
+          ],
+          "score": 0.12913783
+        },
+        {
+          "word": "she",
+          "reverse_translation": [
+            "သူမ"
+          ],
+          "score": 0.028814545
+        }
+      ],
+      "base_form": "သူ",
+      "pos_enum": 8
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သူ",
+      "alternative": [
+        {
+          "word_postproc": "he",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "သူ",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

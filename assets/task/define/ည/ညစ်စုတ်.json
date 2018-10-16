@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "vile",
+      "orig": "ညစ်စုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyait hcote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be tattered and torn",
+        "be vile",
+        "be mean"
+      ],
+      "entry": [
+        {
+          "word": "be tattered and torn"
+        },
+        {
+          "word": "be vile"
+        },
+        {
+          "word": "be mean"
+        }
+      ],
+      "base_form": "ညစ်စုတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညစ် စုတ်",
+      "alternative": [
+        {
+          "word_postproc": "vile",
+          "score": 983,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tattered and torn",
+          "score": 15,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mean",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ညစ်စုတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

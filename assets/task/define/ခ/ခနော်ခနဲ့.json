@@ -1,0 +1,113 @@
+{
+  "sentences": [
+    {
+      "trans": "Rickety",
+      "orig": "ခနော်ခနဲ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "hk naw hk nae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "flimsily",
+        "in a ramshackle condition"
+      ],
+      "entry": [
+        {
+          "word": "flimsily"
+        },
+        {
+          "word": "in a ramshackle condition"
+        }
+      ],
+      "base_form": "ခနော်ခနဲ့",
+      "pos_enum": 4
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "rickety",
+        "wobbly"
+      ],
+      "entry": [
+        {
+          "word": "rickety",
+          "synset_id": [
+            80431
+          ]
+        },
+        {
+          "word": "wobbly",
+          "synset_id": [
+            80431
+          ]
+        }
+      ],
+      "base_form": "ခနော်ခနဲ့",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခ နော် ခ နဲ့",
+      "alternative": [
+        {
+          "word_postproc": "Rickety",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Wobbly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Flimsily",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Ramshackle condition",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A ramshackle condition",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ခနော်ခနဲ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

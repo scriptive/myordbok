@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "Stingy",
+      "orig": "တွန့်တို",
+      "backend": 0
+    },
+    {
+      "src_translit": "tw an  to"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "stint",
+        "grudge",
+        "be stingy"
+      ],
+      "entry": [
+        {
+          "word": "stint"
+        },
+        {
+          "word": "grudge"
+        },
+        {
+          "word": "be stingy"
+        }
+      ],
+      "base_form": "တွန့်တို",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တွ န့ ် တို",
+      "alternative": [
+        {
+          "word_postproc": "Stingy",
+          "score": 740,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Stint",
+          "score": 250,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Grudge",
+          "score": 9,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "တွန့်တို",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

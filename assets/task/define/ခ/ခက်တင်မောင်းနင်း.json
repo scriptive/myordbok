@@ -1,0 +1,118 @@
+{
+  "sentences": [
+    {
+      "trans": "Your shoes on your hard drive",
+      "orig": "ခက်တင်မောင်းနင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaat tain maungg nainn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "non-committal way of speaking"
+      ],
+      "entry": [
+        {
+          "word": "non-committal way of speaking"
+        }
+      ],
+      "base_form": "ခက်တင်မောင်းနင်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နင်း",
+      "alternative": [
+        {
+          "word_postproc": "Your shoes on your",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Tread",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 12,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "ခက်တင်မောင်းနင်း",
+      "start_pos": 0,
+      "end_pos": 4
+    },
+    {
+      "src_phrase": "ခက်",
+      "alternative": [
+        {
+          "word_postproc": "hard",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "difficult",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "start_pos": 4,
+      "end_pos": 5
+    },
+    {
+      "src_phrase": "မောင်း",
+      "alternative": [
+        {
+          "word_postproc": "drive",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "driving",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 12
+        }
+      ],
+      "start_pos": 5,
+      "end_pos": 6
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

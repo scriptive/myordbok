@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "heaven",
+      "orig": "ကောင်းကင်ဘုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kaunggkainbhone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "heaven"
+      ],
+      "entry": [
+        {
+          "word": "heaven",
+          "reverse_translation": [
+            "မိုးကောင်းကင်"
+          ],
+          "score": 0.31466395
+        }
+      ],
+      "base_form": "ကောင်းကင်ဘုံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကောင်းကင်ဘုံ",
+      "alternative": [
+        {
+          "word_postproc": "heaven",
+          "score": 873,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The heaven",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "by heaven",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ကောင်းကင်ဘုံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

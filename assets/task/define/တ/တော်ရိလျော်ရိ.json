@@ -1,0 +1,79 @@
+{
+  "sentences": [
+    {
+      "trans": "haphazardly",
+      "orig": "တော်ရိလျော်ရိ",
+      "backend": 0
+    },
+    {
+      "src_translit": "tawrilyawri"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "haphazardly",
+        "in a slipshod manner."
+      ],
+      "entry": [
+        {
+          "word": "haphazardly",
+          "score": 0.18211353
+        },
+        {
+          "word": "in a slipshod manner."
+        }
+      ],
+      "base_form": "တော်ရိလျော်ရိ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တော်ရိလျော်ရိ",
+      "alternative": [
+        {
+          "word_postproc": "haphazardly",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "slipshod manner",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a slipshod manner",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "တော်ရိလျော်ရိ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

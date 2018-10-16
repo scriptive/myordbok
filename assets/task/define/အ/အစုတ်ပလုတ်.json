@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "Junk",
+      "orig": "အစုတ်ပလုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "a hcote p lote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "tear",
+        "torn pieces cloth,paper",
+        "junk",
+        "useless thing"
+      ],
+      "entry": [
+        {
+          "word": "tear",
+          "reverse_translation": [
+            "မျက်ရည်",
+            "အစုတ်"
+          ]
+        }
+      ],
+      "base_form": "အစုတ်ပလုတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ စုတ် ပ လုတ်",
+      "alternative": [
+        {
+          "word_postproc": "Junk",
+          "score": 960,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Tear",
+          "score": 36,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Useless thing",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "အစုတ်ပလုတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

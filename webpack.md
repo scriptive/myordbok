@@ -24,6 +24,7 @@ npm i -D node-sass
 npm i -D sass-loader
 npm i -D file-loader
 npm i -D url-loader
+npm i -D script-loader
 
 # babel
 npm i -D babel-core babel-loader babel-preset-es2015

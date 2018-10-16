@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "from",
+      "orig": "ထံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "htan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "",
+      "terms": [
+        "postpositional marker indicating direction"
+      ],
+      "entry": [
+        {
+          "word": "postpositional marker indicating direction"
+        }
+      ],
+      "base_form": "ထံ",
+      "pos_enum": 20
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထံ",
+      "alternative": [
+        {
+          "word_postproc": "from",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Dealer",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "presence",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the presence of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "from the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ထံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

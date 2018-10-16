@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "overflow",
+      "orig": "ပြည့်လျှံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyi shan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "overflow",
+        "be flooded"
+      ],
+      "entry": [
+        {
+          "word": "overflow",
+          "reverse_translation": [
+            "ပြည့်လှျံ"
+          ]
+        }
+      ],
+      "base_form": "ပြည့်လျှံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြည့် လျှံ",
+      "alternative": [
+        {
+          "word_postproc": "overflow",
+          "score": 992,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "flooded",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "liar",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ပြည့်လျှံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

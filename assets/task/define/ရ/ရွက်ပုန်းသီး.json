@@ -1,0 +1,67 @@
+{
+  "sentences": [
+    {
+      "trans": "fruit hidden by leaves",
+      "orig": "ရွက်ပုန်းသီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "rwatponesee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "fruit hidden by leaves",
+        "little known person of talent,beauty"
+      ],
+      "entry": [
+        {
+          "word": "fruit hidden by leaves",
+          "score": 0.33495805
+        },
+        {
+          "word": "little known person of talent,beauty"
+        }
+      ],
+      "base_form": "ရွက်ပုန်းသီး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရွက်ပုန်းသီး",
+      "alternative": [
+        {
+          "word_postproc": "fruit hidden by leaves",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ရွက်ပုန်းသီး",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

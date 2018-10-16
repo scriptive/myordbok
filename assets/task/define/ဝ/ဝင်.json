@@ -1,0 +1,153 @@
+{
+  "sentences": [
+    {
+      "trans": "incoming",
+      "orig": "ဝင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "wain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "enter",
+        "come in",
+        "get into a certain condition",
+        "reach a certain stage",
+        "set",
+        "entail",
+        "involve",
+        "go into",
+        "accomodate",
+        "fit",
+        "hold",
+        "be a member of",
+        "be listed in",
+        "be included",
+        "enroll",
+        "enlist",
+        "join",
+        "get in",
+        "1take in",
+        "go in"
+      ],
+      "entry": [
+        {
+          "word": "enter",
+          "reverse_translation": [
+            "ဝင်ရောက်"
+          ],
+          "synset_id": [
+            23279,
+            45790
+          ],
+          "score": 0.046770621
+        },
+        {
+          "word": "set",
+          "reverse_translation": [
+            "ထား"
+          ]
+        },
+        {
+          "word": "involve",
+          "reverse_translation": [
+            "ပါဝင်စေ"
+          ]
+        },
+        {
+          "word": "fit",
+          "reverse_translation": [
+            "လိုက်",
+            "တော်အောင်ပြုပြင်"
+          ]
+        },
+        {
+          "word": "hold",
+          "reverse_translation": [
+            "ကိုင်"
+          ]
+        },
+        {
+          "word": "enroll",
+          "reverse_translation": [
+            "စာရင်းသွင်း"
+          ],
+          "synset_id": [
+            45790
+          ]
+        },
+        {
+          "word": "join",
+          "reverse_translation": [
+            "ပူးပေါင်း"
+          ]
+        }
+      ],
+      "base_form": "ဝင်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝင်",
+      "alternative": [
+        {
+          "word_postproc": "incoming",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Sign in",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "enter",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "entered",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "enter the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဝင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

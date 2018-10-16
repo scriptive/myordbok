@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Repentence",
+      "orig": "ကုက္ကုစ္စ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kuk kuhc hc"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "repentence",
+        "miserliness"
+      ],
+      "entry": [
+        {
+          "word": "repentence"
+        },
+        {
+          "word": "miserliness"
+        }
+      ],
+      "base_form": "ကုက္ကုစ္စ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကုက္ ကုစ္ စ",
+      "alternative": [
+        {
+          "word_postproc": "Repentence",
+          "score": 653,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Miserliness",
+          "score": 346,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကုက္ကုစ္စ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

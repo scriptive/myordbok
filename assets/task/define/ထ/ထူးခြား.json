@@ -1,0 +1,101 @@
+{
+  "sentences": [
+    {
+      "trans": "remarkable",
+      "orig": "ထူးခြား",
+      "backend": 0
+    },
+    {
+      "src_translit": "htuuhkyarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "unusual",
+        "extraordinary",
+        "distinctive",
+        "be different"
+      ],
+      "entry": [
+        {
+          "word": "unusual",
+          "score": 0.019496895
+        },
+        {
+          "word": "extraordinary",
+          "score": 0.011461634
+        },
+        {
+          "word": "distinctive",
+          "score": 0.0052475184
+        },
+        {
+          "word": "be different"
+        }
+      ],
+      "base_form": "ထူးခြား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထူးခြား",
+      "alternative": [
+        {
+          "word_postproc": "remarkable",
+          "score": 814,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Remarkably",
+          "score": 176,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "unique",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "exceptional",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "unusual",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ထူးခြား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "genesis",
+      "orig": "အမွန်အစ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aamwanaahc"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "origin",
+        "beginning",
+        "genesis"
+      ],
+      "entry": [
+        {
+          "word": "origin",
+          "reverse_translation": [
+            "အရင်းအမြစ်"
+          ],
+          "synset_id": [
+            4596
+          ],
+          "score": 0.33495805
+        },
+        {
+          "word": "beginning",
+          "reverse_translation": [
+            "အစ"
+          ],
+          "synset_id": [
+            4596
+          ],
+          "score": 0.33495805
+        }
+      ],
+      "base_form": "အမွန်အစ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အမွန်အစ",
+      "alternative": [
+        {
+          "word_postproc": "genesis",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "origin",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "beginning",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "အမွန်အစ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

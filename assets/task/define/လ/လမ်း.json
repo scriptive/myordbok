@@ -1,0 +1,164 @@
+{
+  "sentences": [
+    {
+      "trans": "way",
+      "orig": "လမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "lam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "way",
+        "road",
+        "street",
+        "path",
+        "opportunity",
+        "route",
+        "track",
+        "pathway",
+        "orbit"
+      ],
+      "entry": [
+        {
+          "word": "way",
+          "reverse_translation": [
+            "လမ်း"
+          ],
+          "synset_id": [
+            8004
+          ],
+          "score": 0.18789443
+        },
+        {
+          "word": "road",
+          "reverse_translation": [
+            "လမ်း"
+          ],
+          "synset_id": [
+            58042
+          ],
+          "score": 0.041924916
+        },
+        {
+          "word": "street",
+          "reverse_translation": [
+            "လမ်း"
+          ],
+          "synset_id": [
+            39774
+          ],
+          "score": 0.021413151
+        },
+        {
+          "word": "path",
+          "reverse_translation": [
+            "ခေြလမ်း"
+          ],
+          "synset_id": [
+            8004,
+            101058,
+            111904
+          ],
+          "score": 0.017476905
+        },
+        {
+          "word": "opportunity",
+          "reverse_translation": [
+            "အခွင့်အရေး"
+          ],
+          "score": 0.0038996246
+        },
+        {
+          "word": "route",
+          "reverse_translation": [
+            "ခရီးစဉ်"
+          ],
+          "synset_id": [
+            58042,
+            111904
+          ],
+          "score": 0.0029899459
+        },
+        {
+          "word": "track",
+          "reverse_translation": [
+            "လမ်း",
+            "သံလမ်း",
+            "အမှတ်",
+            "အရာ"
+          ],
+          "synset_id": [
+            101058
+          ],
+          "score": 0.00043074254
+        }
+      ],
+      "base_form": "လမ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လမ်း",
+      "alternative": [
+        {
+          "word_postproc": "way",
+          "score": 864,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "road",
+          "score": 72,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "street",
+          "score": 62,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the road",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the way",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "လမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

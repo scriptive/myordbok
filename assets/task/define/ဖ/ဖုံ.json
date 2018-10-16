@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "dust",
+      "orig": "ဖုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "dust",
+        "cushion",
+        "mat for wiping one's feet"
+      ],
+      "entry": [
+        {
+          "word": "dust",
+          "reverse_translation": [
+            "ဖုံ"
+          ],
+          "score": 0.036998607
+        },
+        {
+          "word": "cushion",
+          "reverse_translation": [
+            "လက်တင်အုံး"
+          ],
+          "score": 0.016418032
+        }
+      ],
+      "base_form": "ဖုံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖုံ",
+      "alternative": [
+        {
+          "word_postproc": "dust",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "be mad",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cushion",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": ".Thou",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "be mad for",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဖုံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

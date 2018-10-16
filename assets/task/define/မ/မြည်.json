@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "Lam",
+      "orig": "မြည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "myi"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "sound",
+        "produce sound",
+        "give a cry,emit a sound",
+        "berate. scold"
+      ],
+      "entry": [
+        {
+          "word": "sound",
+          "score": 0.026235942
+        },
+        {
+          "word": "produce sound"
+        },
+        {
+          "word": "give a cry,emit a sound"
+        },
+        {
+          "word": "berate. scold"
+        }
+      ],
+      "base_form": "မြည်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မြည်",
+      "alternative": [
+        {
+          "word_postproc": "Lam",
+          "score": 981,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "howling",
+          "score": 18,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "laments",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ringing",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lamentation",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "မြည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

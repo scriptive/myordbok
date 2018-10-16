@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "Flourish",
+      "orig": "ပွင့်လန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "pw in  laann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be fresh",
+        "be happy",
+        "be cheerful",
+        "be well liked by most people"
+      ],
+      "entry": [
+        {
+          "word": "be fresh"
+        },
+        {
+          "word": "be happy"
+        },
+        {
+          "word": "be cheerful"
+        },
+        {
+          "word": "be well liked by most people"
+        }
+      ],
+      "base_form": "ပွင့်လန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပွ င့ ် လန်း",
+      "alternative": [
+        {
+          "word_postproc": "Flourish",
+          "score": 738,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Blossom",
+          "score": 204,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Fresh",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Cheerful",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ပွင့်လန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

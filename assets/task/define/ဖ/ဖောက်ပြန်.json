@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "corruptly",
+      "orig": "ဖောက်ပြန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpoutpyan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "change for the worse",
+        "be a turbcoat",
+        "be abnormal",
+        "be guilty of adultery"
+      ],
+      "entry": [
+        {
+          "word": "change for the worse"
+        },
+        {
+          "word": "be a turbcoat"
+        },
+        {
+          "word": "be abnormal"
+        },
+        {
+          "word": "be guilty of adultery"
+        }
+      ],
+      "base_form": "ဖောက်ပြန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖောက်ပြန်",
+      "alternative": [
+        {
+          "word_postproc": "corruptly",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "change for the worse",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "adultery.",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "deal corruptly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "immortality to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ဖောက်ပြန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

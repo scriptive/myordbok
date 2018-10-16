@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Piercingly",
+      "orig": "ကစိန်းကဝါး",
+      "backend": 0
+    },
+    {
+      "src_translit": "k hcein k warr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "piercingly",
+        "in a wild manner"
+      ],
+      "entry": [
+        {
+          "word": "piercingly"
+        },
+        {
+          "word": "in a wild manner"
+        }
+      ],
+      "base_form": "ကစိန်းကဝါး",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "က စိန်း က ဝါး",
+      "alternative": [
+        {
+          "word_postproc": "Piercingly",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ကစိန်းကဝါး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

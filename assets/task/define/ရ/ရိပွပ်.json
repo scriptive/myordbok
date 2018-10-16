@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "decayed",
+      "orig": "ရိပွပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "ri pwut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be decayed",
+        "rotten"
+      ],
+      "entry": [
+        {
+          "word": "be decayed"
+        },
+        {
+          "word": "rotten"
+        }
+      ],
+      "base_form": "ရိပွပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရိ ပွပ်",
+      "alternative": [
+        {
+          "word_postproc": "decayed",
+          "score": 995,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rotten",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ရိပွပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

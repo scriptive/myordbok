@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "forecast",
+      "orig": "ခန့်မှန်းချက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkan mhaannhkyet"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "assessment",
+        "forecast"
+      ],
+      "entry": [
+        {
+          "word": "assessment",
+          "reverse_translation": [
+            "ခန့်မှန်းချက်"
+          ]
+        },
+        {
+          "word": "forecast",
+          "reverse_translation": [
+            "ခန့်မှန်းချက်"
+          ]
+        }
+      ],
+      "base_form": "ခန့်မှန်းချက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခန့် မှန်းချက်",
+      "alternative": [
+        {
+          "word_postproc": "forecast",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "assessment",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "According to estimates",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ACCORDING to estimates by",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ခန့်မှန်းချက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

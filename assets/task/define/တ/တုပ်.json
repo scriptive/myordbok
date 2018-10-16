@@ -1,0 +1,123 @@
+{
+  "sentences": [
+    {
+      "trans": "tie",
+      "orig": "တုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "tote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "tie",
+        "sting",
+        "bind",
+        "fasten",
+        "tethertightly",
+        "crush",
+        "feel restricted,bound by one's clothes"
+      ],
+      "entry": [
+        {
+          "word": "tie",
+          "reverse_translation": [
+            "ချည်နေှာင်"
+          ],
+          "synset_id": [
+            7127
+          ],
+          "score": 0.07473924
+        },
+        {
+          "word": "sting",
+          "reverse_translation": [
+            "တုပ်ရာ"
+          ],
+          "score": 0.02706876
+        },
+        {
+          "word": "bind",
+          "reverse_translation": [
+            "ချည်နေှာင်"
+          ],
+          "synset_id": [
+            7127
+          ],
+          "score": 0.013611027
+        },
+        {
+          "word": "fasten",
+          "reverse_translation": [
+            "ချည်နေှာင်"
+          ],
+          "score": 0.013611027
+        }
+      ],
+      "base_form": "တုပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တုပ်",
+      "alternative": [
+        {
+          "word_postproc": "tie",
+          "score": 988,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sting",
+          "score": 11,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fasten",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tethertightly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bind",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "တုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

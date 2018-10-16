@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Sweetheart",
+      "orig": "ရည်းစားသနံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "raeehcarr s nan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "sweetheart"
+      ],
+      "entry": [
+        {
+          "word": "sweetheart"
+        }
+      ],
+      "base_form": "ရည်းစားသနံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရည်းစား သ နံ",
+      "alternative": [
+        {
+          "word_postproc": "Sweetheart",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ရည်းစားသနံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

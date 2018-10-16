@@ -1,0 +1,163 @@
+{
+  "sentences": [
+    {
+      "trans": "close",
+      "orig": "ပိတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pate"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "close",
+        "shut",
+        "shut down",
+        "block",
+        "turn off",
+        "cover",
+        "obstruct",
+        "deny",
+        "become clogged",
+        "be blocked",
+        "cut off"
+      ],
+      "entry": [
+        {
+          "word": "close",
+          "reverse_translation": [
+            "ပိတ်"
+          ],
+          "synset_id": [
+            30527,
+            92456
+          ],
+          "score": 0.073580518
+        },
+        {
+          "word": "shut",
+          "reverse_translation": [
+            "ပိတ်"
+          ],
+          "synset_id": [
+            92456
+          ],
+          "score": 0.066995822
+        },
+        {
+          "word": "block",
+          "reverse_translation": [
+            "ပိတ်ဆို့"
+          ],
+          "synset_id": [
+            76418
+          ],
+          "score": 0.0066334847
+        },
+        {
+          "word": "cover",
+          "reverse_translation": [
+            "ဖုံး"
+          ]
+        },
+        {
+          "word": "obstruct",
+          "reverse_translation": [
+            "ပိတ်ဆို့ထား"
+          ],
+          "synset_id": [
+            76418
+          ]
+        },
+        {
+          "word": "deny",
+          "reverse_translation": [
+            "ြငင်းဆို"
+          ]
+        }
+      ],
+      "base_form": "ပိတ်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "cloth",
+        "cotton cloth"
+      ],
+      "entry": [
+        {
+          "word": "cloth",
+          "reverse_translation": [
+            "အထည်"
+          ],
+          "score": 0.0041511287
+        }
+      ],
+      "base_form": "ပိတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပိတ်",
+      "alternative": [
+        {
+          "word_postproc": "close",
+          "score": 991,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "shut",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "closed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a linen",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "are closed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ပိတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Orange",
+      "orig": "ခရမ်းပိမ့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaram pi m "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "orange",
+        "\"Citrus aurantium.\""
+      ],
+      "entry": [
+        {
+          "word": "orange",
+          "reverse_translation": [
+            "လိမ်မော်သီး"
+          ]
+        }
+      ],
+      "base_form": "ခရမ်းပိမ့်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခရမ်း ပိ မ့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Orange",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ခရမ်းပိမ့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

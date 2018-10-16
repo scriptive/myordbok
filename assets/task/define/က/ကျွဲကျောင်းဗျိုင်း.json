@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Cattle egret",
+      "orig": "ကျွဲကျောင်းဗျိုင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawal kyaungg byaine"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျွဲ ကျောင်း ဗျိုင်း",
+      "alternative": [
+        {
+          "word_postproc": "Cattle egret",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 18
+        }
+      ],
+      "raw_src_segment": "ကျွဲကျောင်းဗျိုင်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "worm",
+      "orig": "သန်ကောင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "saan kaung"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "worm"
+      ],
+      "entry": [
+        {
+          "word": "worm",
+          "reverse_translation": [
+            "ပိုးကောင်"
+          ]
+        }
+      ],
+      "base_form": "သန်ကောင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သန် ကောင်",
+      "alternative": [
+        {
+          "word_postproc": "worm",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "သန်ကောင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

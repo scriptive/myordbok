@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "vitamin",
+      "orig": "ဗီတာမင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "betarmain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "vitamin"
+      ],
+      "entry": [
+        {
+          "word": "vitamin",
+          "reverse_translation": [
+            "သြဇါဓါတ်"
+          ],
+          "score": 0.19691168
+        }
+      ],
+      "base_form": "ဗီတာမင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗီတာမင်",
+      "alternative": [
+        {
+          "word_postproc": "vitamin",
+          "score": 584,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Vitamins",
+          "score": 412,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of vitamin",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of vitamins",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Vitamins are",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဗီတာမင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

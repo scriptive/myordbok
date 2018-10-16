@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "aster",
+      "orig": "မေမြို့ပန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "maymyahoet paann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "aster"
+      ],
+      "entry": [
+        {
+          "word": "aster"
+        }
+      ],
+      "base_form": "မေမြို့ပန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မေမြို့ ပန်း",
+      "alternative": [
+        {
+          "word_postproc": "aster",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "မေမြို့ပန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

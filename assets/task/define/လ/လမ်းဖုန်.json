@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Dust",
+      "orig": "လမ်းဖုန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lam hpone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be well trodden",
+        "be much travelled"
+      ],
+      "entry": [
+        {
+          "word": "be well trodden"
+        },
+        {
+          "word": "be much travelled"
+        }
+      ],
+      "base_form": "လမ်းဖုန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖုန်",
+      "alternative": [
+        {
+          "word_postproc": "Dust",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "dusty",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "လမ်းဖုန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

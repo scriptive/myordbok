@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "very full",
+      "orig": "ပြည့်သိပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyi siut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be packed tight",
+        "be jampacked"
+      ],
+      "entry": [
+        {
+          "word": "be packed tight"
+        },
+        {
+          "word": "be jampacked"
+        }
+      ],
+      "base_form": "ပြည့်သိပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သိပ်",
+      "alternative": [
+        {
+          "word_postproc": "very",
+          "score": 904,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "too",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "too much",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ပြည့်သိပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ပြည့်",
+      "alternative": [
+        {
+          "word_postproc": "full",
+          "score": 904,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

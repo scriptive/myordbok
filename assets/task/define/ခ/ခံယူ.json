@@ -1,0 +1,133 @@
+{
+  "sentences": [
+    {
+      "trans": "receive",
+      "orig": "ခံယူ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkanyuu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "receive",
+        "accept",
+        "bear",
+        "adopt",
+        "believe",
+        "catch",
+        "intercept"
+      ],
+      "entry": [
+        {
+          "word": "receive",
+          "reverse_translation": [
+            "ခံယူ"
+          ],
+          "score": 0.095967084
+        },
+        {
+          "word": "accept",
+          "reverse_translation": [
+            "သဘောတူလက်ခံ"
+          ],
+          "synset_id": [
+            110488
+          ],
+          "score": 0.02706876
+        },
+        {
+          "word": "bear",
+          "reverse_translation": [
+            "ခံယူ"
+          ],
+          "synset_id": [
+            110488
+          ],
+          "score": 0.0098036546
+        },
+        {
+          "word": "adopt",
+          "reverse_translation": [
+            "ခံယူ"
+          ],
+          "synset_id": [
+            20634
+          ],
+          "score": 0.0039610346
+        },
+        {
+          "word": "believe",
+          "reverse_translation": [
+            "ယုံကြည်"
+          ],
+          "score": 0.0033355257
+        },
+        {
+          "word": "catch",
+          "reverse_translation": [
+            "ဖမ်း"
+          ]
+        }
+      ],
+      "base_form": "ခံယူ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခံယူ",
+      "alternative": [
+        {
+          "word_postproc": "receive",
+          "score": 989,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bear",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "adopt",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "acceptation",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ခံယူ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

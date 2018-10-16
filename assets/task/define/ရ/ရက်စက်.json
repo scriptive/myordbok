@@ -1,0 +1,88 @@
+{
+  "sentences": [
+    {
+      "trans": "cruel",
+      "orig": "ရက်စက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "raathcaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be cruel",
+        "be pitiless",
+        "be ruthless"
+      ],
+      "entry": [
+        {
+          "word": "be cruel"
+        },
+        {
+          "word": "be pitiless"
+        },
+        {
+          "word": "be ruthless"
+        }
+      ],
+      "base_form": "ရက်စက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရက်စက်",
+      "alternative": [
+        {
+          "word_postproc": "cruel",
+          "score": 807,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "brutal",
+          "score": 191,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cruel to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pitiless",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ရက်စက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

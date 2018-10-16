@@ -1,0 +1,138 @@
+{
+  "sentences": [
+    {
+      "trans": "Shin",
+      "orig": "ရှင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "shin"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "live",
+        "be alive",
+        "be sharp",
+        "flash"
+      ],
+      "entry": [
+        {
+          "word": "live",
+          "reverse_translation": [
+            "နေထိုင်"
+          ],
+          "score": 0.066995822
+        }
+      ],
+      "base_form": "‌ရှင်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "owner",
+        "proprietor",
+        "monk",
+        "novice",
+        "prefix to the name,title of a monk,noble",
+        "prefix to a woman's name"
+      ],
+      "entry": [
+        {
+          "word": "owner",
+          "reverse_translation": [
+            "ပိုင်ဆိုင်သူ",
+            "ပိုင်ဆိုင်သူ"
+          ],
+          "synset_id": [
+            3141
+          ],
+          "score": 0.020115795
+        },
+        {
+          "word": "monk",
+          "reverse_translation": [
+            "ဘုန်းကြီး"
+          ]
+        }
+      ],
+      "base_form": "‌ရှင်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "pronoun",
+      "terms": [
+        "you"
+      ],
+      "entry": [
+        {
+          "word": "you",
+          "reverse_translation": [
+            "ခင်ဗျား",
+            "မင်း",
+            "ခင်ဗျားတို့"
+          ],
+          "score": 0.0032838131
+        }
+      ],
+      "base_form": "‌ရှင်",
+      "pos_enum": 8
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရှင်",
+      "alternative": [
+        {
+          "word_postproc": "Shin",
+          "score": 996,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "owner",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "live",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the owner",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ရှင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

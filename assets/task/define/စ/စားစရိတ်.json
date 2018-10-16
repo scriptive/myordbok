@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "Outline",
+      "orig": "စားစရိတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcarrhcarate"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "household expenses",
+        "maintenance",
+        "alimony"
+      ],
+      "entry": [
+        {
+          "word": "maintenance",
+          "reverse_translation": [
+            "တည်မြဲစေခြင်း"
+          ],
+          "synset_id": [
+            78317
+          ],
+          "score": 0.02749503
+        },
+        {
+          "word": "alimony",
+          "reverse_translation": [
+            "ကလေးစရိတ်"
+          ],
+          "synset_id": [
+            78317
+          ],
+          "score": 0.02749503
+        }
+      ],
+      "base_form": "စားစရိတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စားစရိတ်",
+      "alternative": [
+        {
+          "word_postproc": "Outline",
+          "score": 785,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "provisions",
+          "score": 180,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "alimony",
+          "score": 33,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "household expenses",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "maintenance",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "စားစရိတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

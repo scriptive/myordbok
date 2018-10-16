@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "trying to iron",
+      "orig": "သံကြိုးစာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "san kyaoehcar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "သတင်းပို့ကြေးနန်းကြိုးမှတစ်ဆင့်ပေးပို့သောအကြောင်းကြားစာ။"
+      ],
+      "entry": [
+        {
+          "word": "သတင်းပို့ကြေးနန်းကြိုးမှတစ်ဆင့်ပေးပို့သောအကြောင်းကြားစာ။"
+        }
+      ],
+      "base_form": "သံကြိုးစာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြိုးစာ",
+      "alternative": [
+        {
+          "word_postproc": "trying to",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hard",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "trying",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "again",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "try",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "သံကြိုးစာ",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "သံ",
+      "alternative": [
+        {
+          "word_postproc": "iron",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

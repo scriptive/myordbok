@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "harsh",
+      "orig": "ခက်ထန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaathtaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "stern",
+        "be harsh"
+      ],
+      "entry": [
+        {
+          "word": "stern",
+          "score": 0.018031681
+        },
+        {
+          "word": "be harsh"
+        }
+      ],
+      "base_form": "ခက်ထန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခက်ထန်",
+      "alternative": [
+        {
+          "word_postproc": "harsh",
+          "score": 472,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "shewed",
+          "score": 376,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cruel",
+          "score": 138,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Heavy",
+          "score": 9,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "stern",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ခက်ထန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

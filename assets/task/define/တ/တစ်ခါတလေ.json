@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "Sometimes",
+      "orig": "တစ်ခါတလေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "taithkartalay"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "sometimes",
+        "occasionally",
+        "once in a while",
+        "now and then",
+        "from time to time."
+      ],
+      "entry": [
+        {
+          "word": "sometimes",
+          "reverse_translation": [
+            "တခါတလေ"
+          ],
+          "score": 0.11396374
+        },
+        {
+          "word": "occasionally",
+          "reverse_translation": [
+            "တခါတရံ"
+          ],
+          "synset_id": [
+            14128
+          ],
+          "score": 0.011283938
+        }
+      ],
+      "base_form": "တစ်ခါတလေ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တစ်ခါတလေ",
+      "alternative": [
+        {
+          "word_postproc": "Sometimes",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "At times",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Sometimes I",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Sometimes we",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "တစ်ခါတလေ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

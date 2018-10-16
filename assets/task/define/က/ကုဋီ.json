@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "ဋီ",
+      "orig": "ကုဋီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "ku te"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "chamber used for religious purposes",
+        "water-closet for Buddhist monks"
+      ],
+      "entry": [
+        {
+          "word": "chamber used for religious purposes"
+        },
+        {
+          "word": "water-closet for Buddhist monks"
+        }
+      ],
+      "base_form": "ကုဋီ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဋီ",
+      "alternative": [
+        {
+          "word_postproc": "ဋီ",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကုဋီ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

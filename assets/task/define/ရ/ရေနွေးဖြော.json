@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "blanch",
+      "orig": "ရေနွေးဖြော",
+      "backend": 0
+    },
+    {
+      "src_translit": "raynway hpyaww"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "blanch",
+        "immerse sth in hot water,warm water"
+      ],
+      "entry": [
+        {
+          "word": "blanch"
+        },
+        {
+          "word": "immerse sth in hot water,warm water"
+        }
+      ],
+      "base_form": "ရေနွေးဖြော",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရေနွေး ဖြော",
+      "alternative": [
+        {
+          "word_postproc": "blanch",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ရေနွေးဖြော",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

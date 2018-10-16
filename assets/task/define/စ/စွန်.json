@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "periphery",
+      "orig": "စွန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcwan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "kite"
+      ],
+      "entry": [
+        {
+          "word": "kite",
+          "reverse_translation": [
+            "စွန်ငှက်"
+          ],
+          "score": 0.0080015101
+        }
+      ],
+      "base_form": "စွန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စွန်",
+      "alternative": [
+        {
+          "word_postproc": "periphery",
+          "score": 738,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "edge",
+          "score": 138,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "kite",
+          "score": 110,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the outskirts",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "outskirts",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "စွန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

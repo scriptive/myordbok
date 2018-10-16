@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "Psychological",
+      "orig": "စိတ်ဓာတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcatedharat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "spirit",
+        "morale"
+      ],
+      "entry": [
+        {
+          "word": "spirit",
+          "reverse_translation": [
+            "စိတ်နေသဘောထား"
+          ],
+          "score": 0.075916216
+        }
+      ],
+      "base_form": "စိတ်ဓာတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စိတ်ဓာတ်",
+      "alternative": [
+        {
+          "word_postproc": "Psychological",
+          "score": 954,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "discouraged",
+          "score": 19,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "discouragement",
+          "score": 18,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "depressed",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "discouraging",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "စိတ်ဓာတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

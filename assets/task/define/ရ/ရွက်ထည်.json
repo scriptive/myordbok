@@ -1,0 +1,73 @@
+{
+  "sentences": [
+    {
+      "trans": "canvas",
+      "orig": "ရွက်ထည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "rwat htai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "sail cloth",
+        "canvas"
+      ],
+      "entry": [
+        {
+          "word": "canvas",
+          "reverse_translation": [
+            "ပိုက်ဆံချည်ထည်ပိတ်",
+            "ရွက်တည်ကား"
+          ]
+        }
+      ],
+      "base_form": "ရွက်ထည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရွက် ထည်",
+      "alternative": [
+        {
+          "word_postproc": "canvas",
+          "score": 747,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sail cloth",
+          "score": 252,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ရွက်ထည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

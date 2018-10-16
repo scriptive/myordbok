@@ -1,0 +1,71 @@
+{
+  "sentences": [
+    {
+      "trans": "beehive",
+      "orig": "ပျားအုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyarr aone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "beehive"
+      ],
+      "entry": [
+        {
+          "word": "beehive",
+          "reverse_translation": [
+            "ပျားအိမ်"
+          ]
+        }
+      ],
+      "base_form": "ပျားအုံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပျား အုံ",
+      "alternative": [
+        {
+          "word_postproc": "beehive",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bees",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ပျားအုံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

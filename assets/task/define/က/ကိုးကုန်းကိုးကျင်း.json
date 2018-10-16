@@ -1,0 +1,53 @@
+{
+  "sentences": [
+    {
+      "trans": "Where",
+      "orig": "ကိုးကုန်းကိုးကျင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "koe kone koe kyinn"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိုး ကုန်း ကိုး ကျင်း",
+      "alternative": [
+        {
+          "word_postproc": "Where",
+          "score": 994,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Every where",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 18
+        }
+      ],
+      "raw_src_segment": "ကိုးကုန်းကိုးကျင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

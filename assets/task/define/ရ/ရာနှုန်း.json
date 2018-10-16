@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "percent",
+      "orig": "ရာနှုန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "rarnhuann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "percentage"
+      ],
+      "entry": [
+        {
+          "word": "percentage",
+          "reverse_translation": [
+            "ရာခိုင်နှုန်း"
+          ],
+          "score": 0.0053301547
+        }
+      ],
+      "base_form": "ရာနှုန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရာနှုန်း",
+      "alternative": [
+        {
+          "word_postproc": "percent",
+          "score": 971,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "percent of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "per cent",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "one hundred percent",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "per cent of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ရာနှုန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

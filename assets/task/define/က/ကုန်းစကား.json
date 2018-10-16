@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "trans": "calumny",
+      "orig": "ကုန်းစကား",
+      "backend": 0
+    },
+    {
+      "src_translit": "kone hcakarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "slander",
+        "calumny"
+      ],
+      "entry": [
+        {
+          "word": "slander",
+          "reverse_translation": [
+            "အတင်းစကား"
+          ],
+          "synset_id": [
+            713
+          ]
+        }
+      ],
+      "base_form": "ကုန်းစကား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကုန်း စကား",
+      "alternative": [
+        {
+          "word_postproc": "calumny",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "slander",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကုန်းစကား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

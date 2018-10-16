@@ -1,0 +1,122 @@
+{
+  "sentences": [
+    {
+      "trans": "Shields shields at full speed at full speed",
+      "orig": "ဒုန်းဒုန်းဒိုင်းဒိုင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "done done dine dine"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဒိုင်း",
+      "alternative": [
+        {
+          "word_postproc": "Shields",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 10,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "ဒုန်းဒုန်းဒိုင်းဒိုင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဒိုင်း",
+      "alternative": [
+        {
+          "word_postproc": "shields",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 16,
+          "end": 22
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "ဒုန်း",
+      "alternative": [
+        {
+          "word_postproc": "at full speed",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Dome",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Half Dome",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 10
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 5
+    },
+    {
+      "src_phrase": "ဒုန်း",
+      "alternative": [
+        {
+          "word_postproc": "at full speed",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Half Dome",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "start_pos": 5,
+      "end_pos": 8
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "sentences": [
+    {
+      "trans": "Karen bamboo",
+      "orig": "ကရင်ဝါး",
+      "backend": 0
+    },
+    {
+      "src_translit": "karain warr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "thin-walled bamboo, the slender culms of which are used in making the handles of paper umbrellas"
+      ],
+      "entry": [
+        {
+          "word": "thin-walled bamboo, the slender culms of which are used in making the handles of paper umbrellas"
+        }
+      ],
+      "base_form": "ကရင်ဝါး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကရင်",
+      "alternative": [
+        {
+          "word_postproc": "Karen",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကရင်ဝါး",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဝါး",
+      "alternative": [
+        {
+          "word_postproc": "bamboo",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Wah",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 7
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

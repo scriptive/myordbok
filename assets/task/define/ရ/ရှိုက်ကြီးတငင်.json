@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Bitterly",
+      "orig": "ရှိုက်ကြီးတငင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "shite kyee t ngain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "bitterly"
+      ],
+      "entry": [
+        {
+          "word": "bitterly"
+        }
+      ],
+      "base_form": "ရှိုက်ကြီးတငင်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရှိုက် ကြီး တ ငင်",
+      "alternative": [
+        {
+          "word_postproc": "Bitterly",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ရှိုက်ကြီးတငင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

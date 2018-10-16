@@ -1,0 +1,79 @@
+{
+  "sentences": [
+    {
+      "trans": "arrive",
+      "orig": "ကြွရောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawrout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "arrive",
+        "come"
+      ],
+      "entry": [
+        {
+          "word": "arrive",
+          "reverse_translation": [
+            "ရောက်လာ"
+          ],
+          "synset_id": [
+            35065
+          ],
+          "score": 0.032651156
+        },
+        {
+          "word": "come",
+          "reverse_translation": [
+            "လာ"
+          ],
+          "synset_id": [
+            35065
+          ]
+        }
+      ],
+      "base_form": "ကြွရောက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြွရောက်",
+      "alternative": [
+        {
+          "word_postproc": "arrive",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကြွရောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

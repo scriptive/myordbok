@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "bismuth",
+      "orig": "ကြွပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "brittle",
+        "crisp"
+      ],
+      "entry": [
+        {
+          "word": "brittle",
+          "reverse_translation": [
+            "ကျိုးပဲ့လွယ်သော"
+          ],
+          "score": 0.049787067
+        }
+      ],
+      "base_form": "ကြွပ်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြွပ်",
+      "alternative": [
+        {
+          "word_postproc": "bismuth",
+          "score": 532,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tiles",
+          "score": 438,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "callus",
+          "score": 19,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "brittle",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "crisp",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကြွပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

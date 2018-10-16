@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Up",
+      "orig": "တက်ကစီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "taat k hcee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "all found"
+      ],
+      "entry": [
+        {
+          "word": "all found"
+        }
+      ],
+      "base_form": "တက်ကစီး",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တက်",
+      "alternative": [
+        {
+          "word_postproc": "Up",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "တက်ကစီး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "sentences": [
+    {
+      "trans": "the result",
+      "orig": "ရလဒ်",
+      "backend": 1
+    },
+    {
+      "src_translit": "ralad"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "result",
+        "outcome",
+        "effect",
+        "consequence"
+      ],
+      "entry": [
+        {
+          "word": "result",
+          "reverse_translation": [
+            "ရလဒ်"
+          ],
+          "synset_id": [
+            52743
+          ],
+          "score": 0.21291229
+        },
+        {
+          "word": "outcome",
+          "reverse_translation": [
+            "အကျိုး"
+          ],
+          "synset_id": [
+            52743
+          ],
+          "score": 0.028367816
+        },
+        {
+          "word": "effect",
+          "reverse_translation": [
+            "အကျိုး"
+          ],
+          "synset_id": [
+            52743
+          ],
+          "score": 0.0038996246
+        },
+        {
+          "word": "consequence",
+          "reverse_translation": [
+            "အကျိုးဆက်"
+          ],
+          "synset_id": [
+            52743
+          ],
+          "score": 0.0034414066
+        }
+      ],
+      "base_form": "ရလဒ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရလဒ်",
+      "alternative": [
+        {
+          "word_postproc": "the result",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "result",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ရလဒ်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

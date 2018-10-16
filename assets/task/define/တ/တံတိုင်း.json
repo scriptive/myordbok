@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "wall",
+      "orig": "တံတိုင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "tantine"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "wall"
+      ],
+      "entry": [
+        {
+          "word": "wall",
+          "reverse_translation": [
+            "နံရံ"
+          ],
+          "score": 0.13323711
+        }
+      ],
+      "base_form": "တံတိုင်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တံတိုင်း",
+      "alternative": [
+        {
+          "word_postproc": "wall",
+          "score": 951,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "courtyard.",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "courts had",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fence of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "တံတိုင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "permanent",
+      "orig": "ရာသက်ပန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "rarsaatpaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "for life"
+      ],
+      "entry": [
+        {
+          "word": "for life",
+          "score": 0.016163494
+        }
+      ],
+      "base_form": "ရာသက်ပန်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရာသက်ပန်",
+      "alternative": [
+        {
+          "word_postproc": "permanent",
+          "score": 918,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "permanently",
+          "score": 75,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lifelong",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "No permanent",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ရာသက်ပန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

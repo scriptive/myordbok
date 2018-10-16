@@ -1,0 +1,67 @@
+{
+  "sentences": [
+    {
+      "trans": "love letter",
+      "orig": "မှာတမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "mhartam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "love letter",
+        "letter containing an appeal,message"
+      ],
+      "entry": [
+        {
+          "word": "love letter",
+          "score": 0.03758125
+        },
+        {
+          "word": "letter containing an appeal,message"
+        }
+      ],
+      "base_form": "မှာတမ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မှာတမ်း",
+      "alternative": [
+        {
+          "word_postproc": "love letter",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "မှာတမ်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

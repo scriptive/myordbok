@@ -1,0 +1,59 @@
+{
+  "sentences": [
+    {
+      "trans": "Stretches for",
+      "orig": "ဆန့်တန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "s an  taann"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆ န့ ် တန်း",
+      "alternative": [
+        {
+          "word_postproc": "Stretches for",
+          "score": 914,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "And stretches",
+          "score": 44,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Stretches",
+          "score": 40,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဆန့်တန်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

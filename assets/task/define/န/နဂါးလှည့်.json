@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "Rotate the dragon",
+      "orig": "နဂါးလှည့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nagarr lha i "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "direction of the head of the serpent dragon which is believed to guard a house and thus determines the direction favourable for making a journey"
+      ],
+      "entry": [
+        {
+          "word": "direction of the head of the serpent dragon which is believed to guard a house and thus determines the direction favourable for making a journey"
+        }
+      ],
+      "base_form": "နဂါးလှည့်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လှ ည့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Rotate",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Rotation",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Turning",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "နဂါးလှည့်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "နဂါး",
+      "alternative": [
+        {
+          "word_postproc": "the dragon",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "dragon",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

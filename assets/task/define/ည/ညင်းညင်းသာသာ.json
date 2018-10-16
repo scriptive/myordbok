@@ -1,0 +1,53 @@
+{
+  "sentences": [
+    {
+      "trans": "Default",
+      "orig": "ညင်းညင်းသာသာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyainn nyainn sar sar"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညင်း ညင်း",
+      "alternative": [
+        {
+          "word_postproc": "Default",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Default that",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ညင်းညင်းသာသာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

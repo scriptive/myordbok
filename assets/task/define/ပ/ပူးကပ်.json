@@ -1,0 +1,118 @@
+{
+  "sentences": [
+    {
+      "trans": "stick",
+      "orig": "ပူးကပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "puu kaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be close together",
+        "be stuck together",
+        "be in conjunction",
+        "be trick with sb",
+        "bring together",
+        "clasp together",
+        "stick together",
+        "stay close to each other",
+        "be possessed by"
+      ],
+      "entry": [
+        {
+          "word": "be close together"
+        },
+        {
+          "word": "be stuck together"
+        },
+        {
+          "word": "be in conjunction"
+        },
+        {
+          "word": "be trick with sb"
+        },
+        {
+          "word": "bring together"
+        },
+        {
+          "word": "clasp together"
+        },
+        {
+          "word": "stick together"
+        },
+        {
+          "word": "stay close to each other"
+        },
+        {
+          "word": "be possessed by"
+        }
+      ],
+      "base_form": "ပူးကပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပူး ကပ်",
+      "alternative": [
+        {
+          "word_postproc": "stick",
+          "score": 868,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "stick together",
+          "score": 126,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in conjunction",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "stuck together",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "close together",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ပူးကပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "sentences": [
+    {
+      "trans": "curse",
+      "orig": "ကျိန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyane"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "curse",
+        "swear",
+        "curse with harm,evil to others"
+      ],
+      "entry": [
+        {
+          "word": "curse",
+          "reverse_translation": [
+            "ကျိန်"
+          ],
+          "synset_id": [
+            83010
+          ],
+          "score": 0.13963129
+        },
+        {
+          "word": "swear",
+          "reverse_translation": [
+            "ကျိန်ဆို",
+            "ကျိန်ဆဲ"
+          ],
+          "synset_id": [
+            83010
+          ],
+          "score": 0.022440789
+        }
+      ],
+      "base_form": "ကျိန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျိန်",
+      "alternative": [
+        {
+          "word_postproc": "curse",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cursed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "be accursed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "had devoted",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကျိန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

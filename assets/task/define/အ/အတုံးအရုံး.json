@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "All over the place",
+      "orig": "အတုံးအရုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "a tone aarone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in shambles, in a jumble",
+        "all over the place"
+      ],
+      "entry": [
+        {
+          "word": "in shambles, in a jumble"
+        },
+        {
+          "word": "all over the place"
+        }
+      ],
+      "base_form": "အတုံးအရုံး",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ တုံး အရုံး",
+      "alternative": [
+        {
+          "word_postproc": "All over the place",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "အတုံးအရုံး",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

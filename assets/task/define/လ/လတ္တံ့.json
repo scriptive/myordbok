@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "will be",
+      "orig": "လတ္တံ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "lat tan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "particle",
+      "terms": [
+        "postpositional marker suffixed to a verb to indicate a statement presaging some event"
+      ],
+      "entry": [
+        {
+          "word": "postpositional marker suffixed to a verb to indicate a statement presaging some event"
+        }
+      ],
+      "base_form": "လတ္တံ့",
+      "pos_enum": 19
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လတ္ တံ့",
+      "alternative": [
+        {
+          "word_postproc": "will be",
+          "score": 555,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "will",
+          "score": 443,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "shall",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "လတ္တံ့",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

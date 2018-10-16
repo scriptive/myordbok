@@ -1,0 +1,89 @@
+{
+  "sentences": [
+    {
+      "trans": "the devil",
+      "orig": "မာရ်နတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "marrnaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "Mara",
+        "the archangel of evil",
+        "person who upsets the applecart"
+      ],
+      "entry": [
+        {
+          "word": "Mara",
+          "score": 0.0090668984
+        },
+        {
+          "word": "the archangel of evil"
+        },
+        {
+          "word": "person who upsets the applecart"
+        }
+      ],
+      "base_form": "မာရ်နတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မာရ်နတ်",
+      "alternative": [
+        {
+          "word_postproc": "the devil",
+          "score": 842,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "devil",
+          "score": 146,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the Evil One",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Evil One",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "မာရ်နတ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

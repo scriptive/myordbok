@@ -1,0 +1,102 @@
+{
+  "sentences": [
+    {
+      "trans": "control",
+      "orig": "ကြီးကြပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyeekyaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "supervise",
+        "control",
+        "superintend"
+      ],
+      "entry": [
+        {
+          "word": "supervise",
+          "reverse_translation": [
+            "ကြီးကြပ်ကြည့်ရှု"
+          ],
+          "synset_id": [
+            100754
+          ],
+          "score": 0.03758125
+        },
+        {
+          "word": "control",
+          "reverse_translation": [
+            "ကြီးကြပ်"
+          ],
+          "score": 0.0034414066
+        }
+      ],
+      "base_form": "ကြီးကြပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြီးကြပ်",
+      "alternative": [
+        {
+          "word_postproc": "control",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "oversee",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "overseeing",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "overseeing the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "oversee the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကြီးကြပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

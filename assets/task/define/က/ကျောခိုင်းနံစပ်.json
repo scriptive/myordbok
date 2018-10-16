@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Adjoining",
+      "orig": "ကျောခိုင်းနံစပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawwhkine nan hcaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "adjoining",
+        "neighbouring"
+      ],
+      "entry": [
+        {
+          "word": "adjoining"
+        },
+        {
+          "word": "neighbouring"
+        }
+      ],
+      "base_form": "ကျောခိုင်းနံစပ်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျောခိုင်း နံ စပ်",
+      "alternative": [
+        {
+          "word_postproc": "Adjoining",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Neighboring",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "ကျောခိုင်းနံစပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

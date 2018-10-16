@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "Commit to memory",
+      "orig": "အာဂုံဆောင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aar gone saung"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "commit to memory",
+        "memorize"
+      ],
+      "entry": [
+        {
+          "word": "commit to memory"
+        },
+        {
+          "word": "memorize"
+        }
+      ],
+      "base_form": "အာဂုံဆောင်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အာ ဂုံ ဆောင်",
+      "alternative": [
+        {
+          "word_postproc": "Commit to memory",
+          "score": 754,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Memorize",
+          "score": 243,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The oral",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "That the oral",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "အာဂုံဆောင်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

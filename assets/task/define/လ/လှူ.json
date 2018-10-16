@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "dedicated",
+      "orig": "လှူ",
+      "backend": 0
+    },
+    {
+      "src_translit": "lhauu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "donate",
+        "give away things in charity",
+        "sacrifice"
+      ],
+      "entry": [
+        {
+          "word": "donate",
+          "reverse_translation": [
+            "ပေးကမ်း"
+          ],
+          "score": 0.025428746
+        },
+        {
+          "word": "sacrifice",
+          "reverse_translation": [
+            "ယစ်ပူဇော်"
+          ]
+        }
+      ],
+      "base_form": "လှူ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လှူ",
+      "alternative": [
+        {
+          "word_postproc": "dedicated",
+          "score": 521,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "donated",
+          "score": 335,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "offered",
+          "score": 124,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "donate",
+          "score": 16,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "donating",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "လှူ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

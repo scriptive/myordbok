@@ -1,0 +1,139 @@
+{
+  "sentences": [
+    {
+      "trans": "medicine",
+      "orig": "ဆေး",
+      "backend": 1
+    },
+    {
+      "src_translit": "sayy"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "drug",
+        "medicine",
+        "paint",
+        "tobacco",
+        "potion",
+        "philtre",
+        "poison",
+        "dye",
+        "narcotic drug"
+      ],
+      "entry": [
+        {
+          "word": "drug",
+          "reverse_translation": [
+            "ဆေး"
+          ],
+          "score": 0.035860281
+        },
+        {
+          "word": "medicine",
+          "reverse_translation": [
+            "ဆေးဝါး"
+          ],
+          "score": 0.020754337
+        },
+        {
+          "word": "paint",
+          "reverse_translation": [
+            "ရေးဆဲွခြင်း"
+          ],
+          "score": 0.006737947
+        },
+        {
+          "word": "tobacco",
+          "reverse_translation": [
+            "ဆေးရွက်"
+          ]
+        },
+        {
+          "word": "poison",
+          "reverse_translation": [
+            "အဆိပ်"
+          ]
+        },
+        {
+          "word": "dye",
+          "reverse_translation": [
+            "အရောင်"
+          ]
+        }
+      ],
+      "base_form": "ဆေး",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "wash",
+        "clean",
+        "temper",
+        "anneal"
+      ],
+      "entry": [
+        {
+          "word": "wash",
+          "reverse_translation": [
+            "ရေချိုး"
+          ],
+          "score": 0.02749503
+        },
+        {
+          "word": "clean",
+          "reverse_translation": [
+            "ဆေးကေြာ"
+          ],
+          "score": 0.0032838131
+        }
+      ],
+      "base_form": "ဆေး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆေး",
+      "alternative": [
+        {
+          "word_postproc": "medicine",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "drug",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဆေး",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

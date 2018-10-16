@@ -1,0 +1,95 @@
+{
+  "sentences": [
+    {
+      "trans": "Condemn",
+      "orig": "ရှုံ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "shone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "wrinkle",
+        "contract",
+        "shrink"
+      ],
+      "entry": [
+        {
+          "word": "shrink",
+          "reverse_translation": [
+            "သေးငယ်လိုက်"
+          ],
+          "synset_id": [
+            92549
+          ],
+          "score": 0.011642128
+        }
+      ],
+      "base_form": "ရှုံ့",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရှုံ့",
+      "alternative": [
+        {
+          "word_postproc": "Condemn",
+          "score": 629,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "drawstring",
+          "score": 246,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wrinkle",
+          "score": 80,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "shriveling",
+          "score": 42,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wrinkled",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ရှုံ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

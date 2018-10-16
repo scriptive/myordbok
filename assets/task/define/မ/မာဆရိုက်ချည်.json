@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Mercerized cotton",
+      "orig": "မာဆရိုက်ချည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "mar s rite hkyai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "mercerized cotton"
+      ],
+      "entry": [
+        {
+          "word": "mercerized cotton"
+        }
+      ],
+      "base_form": "မာဆရိုက်ချည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မာ ဆ ရိုက် ချည်",
+      "alternative": [
+        {
+          "word_postproc": "Mercerized cotton",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "မာဆရိုက်ချည်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

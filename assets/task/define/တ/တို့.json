@@ -1,0 +1,115 @@
+{
+  "sentences": [
+    {
+      "trans": "men",
+      "orig": "တို့",
+      "backend": 0
+    },
+    {
+      "src_translit": "thoet"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "touch",
+        "touch sth lightly",
+        "dab",
+        "goad",
+        "jot down",
+        "dip in sauce, etc",
+        "instigate surreptitiously",
+        "incite on the sly",
+        "particle suffixed to some verbs for emphasis,euphony"
+      ],
+      "entry": [
+        {
+          "word": "touch",
+          "reverse_translation": [
+            "တို့"
+          ],
+          "score": 0.0013688969
+        }
+      ],
+      "base_form": "တို့",
+      "pos_enum": 2
+    },
+    {
+      "pos": "pronoun",
+      "terms": [
+        "we",
+        "our"
+      ],
+      "entry": [
+        {
+          "word": "we",
+          "reverse_translation": [
+            "ကျွန်တော်တို့"
+          ]
+        }
+      ],
+      "base_form": "တို့",
+      "pos_enum": 8
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တို့",
+      "alternative": [
+        {
+          "word_postproc": "men",
+          "score": 665,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "them",
+          "score": 233,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "were",
+          "score": 80,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "among",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "among the",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "တို့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

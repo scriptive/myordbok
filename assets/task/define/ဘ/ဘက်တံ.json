@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "bat",
+      "orig": "ဘက်တံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "bhaat tan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "bat",
+        "racket"
+      ],
+      "entry": [
+        {
+          "word": "bat",
+          "reverse_translation": [
+            "လင်းနို့"
+          ]
+        }
+      ],
+      "base_form": "ဘက်တံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘက် တံ",
+      "alternative": [
+        {
+          "word_postproc": "bat",
+          "score": 419,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "racket",
+          "score": 223,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဘက်တံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

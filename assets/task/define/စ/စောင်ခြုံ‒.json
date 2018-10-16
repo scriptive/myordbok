@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Blanket -",
+      "orig": "စောင်ခြုံ‒",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcaung hkyuan‒"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စောင် ခြုံ",
+      "alternative": [
+        {
+          "word_postproc": "Blanket",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "စောင်ခြုံ‒",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "--",
+      "alternative": [
+        {
+          "word_postproc": "-",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 9,
+          "end": 10
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

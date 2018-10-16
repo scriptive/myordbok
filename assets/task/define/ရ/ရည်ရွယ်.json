@@ -1,0 +1,101 @@
+{
+  "sentences": [
+    {
+      "trans": "aim",
+      "orig": "ရည်ရွယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "rairwal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "aim",
+        "intend",
+        "hope for",
+        "aim at",
+        "be meant for"
+      ],
+      "entry": [
+        {
+          "word": "aim",
+          "reverse_translation": [
+            "ရည်ရွယ်"
+          ],
+          "score": 0.02503451
+        },
+        {
+          "word": "intend",
+          "reverse_translation": [
+            "ကြံစည်"
+          ],
+          "score": 0.021081172
+        }
+      ],
+      "base_form": "ရည်ရွယ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရည်ရွယ်",
+      "alternative": [
+        {
+          "word_postproc": "aim",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "aimed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "aims to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "intend to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "aimed at",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ရည်ရွယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

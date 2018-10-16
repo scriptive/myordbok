@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "large quantities",
+      "orig": "အမြောက်အမြား",
+      "backend": 0
+    },
+    {
+      "src_translit": "aamyawwataamyarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "many",
+        "a lot of"
+      ],
+      "entry": [
+        {
+          "word": "many",
+          "score": 0.084690653
+        },
+        {
+          "word": "a lot of",
+          "score": 0.015423315
+        }
+      ],
+      "base_form": "အမြောက်အမြား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အမြောက်အမြား",
+      "alternative": [
+        {
+          "word_postproc": "large quantities",
+          "score": 829,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "large amounts",
+          "score": 61,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "large quantities of",
+          "score": 54,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "large amounts of",
+          "score": 44,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "for mass",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "အမြောက်အမြား",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

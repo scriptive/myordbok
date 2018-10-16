@@ -1,0 +1,79 @@
+{
+  "sentences": [
+    {
+      "trans": "Gleet",
+      "orig": "အရိအရွဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "a ri a rwal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "gleet",
+        "discharge from wound",
+        "slimy matter"
+      ],
+      "entry": [
+        {
+          "word": "gleet",
+          "synset_id": [
+            83940
+          ]
+        },
+        {
+          "word": "discharge from wound"
+        },
+        {
+          "word": "slimy matter"
+        }
+      ],
+      "base_form": "အရိအရွဲ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ ရိ အ ရွဲ",
+      "alternative": [
+        {
+          "word_postproc": "Gleet",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Slimy matter",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "အရိအရွဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

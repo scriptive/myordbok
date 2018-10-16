@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "Move",
+      "orig": "ရွေ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "rwae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "move",
+        "be displaced"
+      ],
+      "entry": [
+        {
+          "word": "move",
+          "reverse_translation": [
+            "လှုပ်ရှား",
+            "ပေြာင်းရေွှ့"
+          ],
+          "score": 0.040005032
+        }
+      ],
+      "base_form": "ရွေ့",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရွေ့",
+      "alternative": [
+        {
+          "word_postproc": "Move",
+          "score": 956,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "moved",
+          "score": 31,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Move the",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "as long as",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "is moved",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ရွေ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

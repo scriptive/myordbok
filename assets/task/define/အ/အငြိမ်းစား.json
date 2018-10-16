@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "retired",
+      "orig": "အငြိမ်းစား",
+      "backend": 0
+    },
+    {
+      "src_translit": "aangyaaimhcarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "government pensioner",
+        "person who lives comfortably without having to do any work"
+      ],
+      "entry": [
+        {
+          "word": "government pensioner",
+          "score": 0.0027652478
+        },
+        {
+          "word": "person who lives comfortably without having to do any work"
+        }
+      ],
+      "base_form": "အငြိမ်းစား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အငြိမ်းစား",
+      "alternative": [
+        {
+          "word_postproc": "retired",
+          "score": 670,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The retired",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A retired",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "by retired",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "retired people",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "အငြိမ်းစား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

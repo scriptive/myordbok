@@ -1,0 +1,106 @@
+{
+  "sentences": [
+    {
+      "trans": "and turned back",
+      "orig": "လှန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lhaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "open",
+        "uncover",
+        "change,reverse position of things",
+        "turn inside out",
+        "turn up",
+        "turn the leaves",
+        "fight back",
+        "repel",
+        "go against",
+        "tilt back",
+        "recount"
+      ],
+      "entry": [
+        {
+          "word": "open",
+          "reverse_translation": [
+            "ဖွင့်လှစ်"
+          ],
+          "score": 0.0068440544
+        },
+        {
+          "word": "repel",
+          "reverse_translation": [
+            "တွန်းလှန်"
+          ]
+        }
+      ],
+      "base_form": "လှန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လှန်",
+      "alternative": [
+        {
+          "word_postproc": "and turned back",
+          "score": 984,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "turned backward",
+          "score": 15,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "turn it back",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "discover the face",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "discover the face of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "လှန်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "တမ်းချင်း",
+      "orig": "တမ်းချင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "tamhkyinn"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တမ်းချင်း",
+      "alternative": [
+        {
+          "word_postproc": "တမ်းချင်း",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "တမ်းချင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "untidily",
+      "orig": "ဗရပွ",
+      "backend": 0
+    },
+    {
+      "src_translit": "barapw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "untidily",
+        "disorderly"
+      ],
+      "entry": [
+        {
+          "word": "untidily",
+          "score": 0.16842748
+        },
+        {
+          "word": "disorderly",
+          "score": 0.16842748
+        }
+      ],
+      "base_form": "ဗရပွ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗရပွ",
+      "alternative": [
+        {
+          "word_postproc": "untidily",
+          "score": 947,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "disorderly",
+          "score": 52,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဗရပွ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

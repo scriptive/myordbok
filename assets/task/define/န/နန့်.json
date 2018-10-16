@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "Flirt",
+      "orig": "နန့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "n an "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "wag",
+        "jiggle",
+        "be flighty",
+        "flirt"
+      ],
+      "entry": [
+        {
+          "word": "wag"
+        },
+        {
+          "word": "jiggle"
+        },
+        {
+          "word": "be flighty"
+        },
+        {
+          "word": "flirt"
+        }
+      ],
+      "base_form": "နန့်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "န န့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Flirt",
+          "score": 852,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Jiggle",
+          "score": 122,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Wag",
+          "score": 21,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Flighty",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "နန့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

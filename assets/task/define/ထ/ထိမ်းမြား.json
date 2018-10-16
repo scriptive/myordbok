@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "marriages",
+      "orig": "ထိမ်းမြား",
+      "backend": 0
+    },
+    {
+      "src_translit": "htaim myarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "marry",
+        "wed"
+      ],
+      "entry": [
+        {
+          "word": "marry",
+          "reverse_translation": [
+            "အိမ်ထောင်"
+          ],
+          "synset_id": [
+            12440
+          ]
+        }
+      ],
+      "base_form": "ထိမ်းမြား",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထိမ်း မြား",
+      "alternative": [
+        {
+          "word_postproc": "marriages",
+          "score": 536,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "marry",
+          "score": 462,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "make marriages",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "marriages with",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "intermarried",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ထိမ်းမြား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

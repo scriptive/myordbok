@@ -1,0 +1,120 @@
+{
+  "sentences": [
+    {
+      "trans": "water",
+      "orig": "ရေ",
+      "backend": 1
+    },
+    {
+      "src_translit": "ray"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "water",
+        "skin",
+        "hide",
+        "pelt"
+      ],
+      "entry": [
+        {
+          "word": "water",
+          "reverse_translation": [
+            "ရေ"
+          ],
+          "synset_id": [
+            24162
+          ],
+          "score": 0.24126123
+        },
+        {
+          "word": "skin",
+          "reverse_translation": [
+            "အသားအရေ"
+          ],
+          "synset_id": [
+            82239
+          ],
+          "score": 0.013400008
+        },
+        {
+          "word": "hide",
+          "reverse_translation": [
+            "သားရေ"
+          ],
+          "synset_id": [
+            82239
+          ]
+        },
+        {
+          "word": "pelt",
+          "reverse_translation": [
+            "သားရေကြမ်း"
+          ],
+          "synset_id": [
+            82239
+          ]
+        }
+      ],
+      "base_form": "ရေ",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "count",
+        "enumerate"
+      ],
+      "entry": [
+        {
+          "word": "count",
+          "reverse_translation": [
+            "ရေတွက်"
+          ],
+          "synset_id": [
+            46798
+          ]
+        }
+      ],
+      "base_form": "ရေ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရေ",
+      "alternative": [
+        {
+          "word_postproc": "water",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ရေ",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

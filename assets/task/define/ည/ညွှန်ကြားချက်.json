@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "instruction",
+      "orig": "ညွှန်ကြားချက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nywhaankyarrhkyet"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "instruction",
+        "directive",
+        "guidance"
+      ],
+      "entry": [
+        {
+          "word": "instruction",
+          "reverse_translation": [
+            "ညွှန်ကြားချက်"
+          ],
+          "score": 0.069122501
+        },
+        {
+          "word": "guidance",
+          "reverse_translation": [
+            "လမ်းညွှန်ခြင်း"
+          ],
+          "score": 0.0042828997
+        }
+      ],
+      "base_form": "ညွှန်ကြားချက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညွှန်ကြားချက်",
+      "alternative": [
+        {
+          "word_postproc": "instruction",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "directive can",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "directives as",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "directive",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "directives",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ညွှန်ကြားချက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

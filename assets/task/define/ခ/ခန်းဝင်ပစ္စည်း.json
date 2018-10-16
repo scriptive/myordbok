@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Dowry",
+      "orig": "ခန်းဝင်ပစ္စည်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaann wain pahchcaee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "wedding presents given by the parents of the bride and bridegroom",
+        "dowry"
+      ],
+      "entry": [
+        {
+          "word": "dowry",
+          "reverse_translation": [
+            "ခန်းဝင်ပစ္စည်း"
+          ]
+        }
+      ],
+      "base_form": "ခန်းဝင်ပစ္စည်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခန်း ဝင် ပစ္စည်း",
+      "alternative": [
+        {
+          "word_postproc": "Dowry",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ခန်းဝင်ပစ္စည်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

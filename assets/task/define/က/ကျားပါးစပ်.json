@@ -1,0 +1,103 @@
+{
+  "sentences": [
+    {
+      "trans": "tiger mouth",
+      "orig": "ကျားပါးစပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyarr parrhcaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "conical fish net set against the current",
+        "wicket gate set in the main gate of a jail",
+        "snapdragon \"Antirrhinum majus\"",
+        "Large rat trap",
+        "scoop of an excavating machine,bucket loader"
+      ],
+      "entry": [
+        {
+          "word": "conical fish net set against the current"
+        },
+        {
+          "word": "wicket gate set in the main gate of a jail"
+        },
+        {
+          "word": "snapdragon \"Antirrhinum majus\""
+        },
+        {
+          "word": "Large rat trap"
+        },
+        {
+          "word": "scoop of an excavating machine,bucket loader"
+        }
+      ],
+      "base_form": "ကျားပါးစပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျား",
+      "alternative": [
+        {
+          "word_postproc": "tiger",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကျားပါးစပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ပါးစပ်",
+      "alternative": [
+        {
+          "word_postproc": "mouth",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "oral",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 10
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

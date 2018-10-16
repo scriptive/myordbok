@@ -1,0 +1,95 @@
+{
+  "sentences": [
+    {
+      "trans": "mud",
+      "orig": "ရွံ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "rwan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "shrink from",
+        "be afraid",
+        "be timid"
+      ],
+      "entry": [
+        {
+          "word": "shrink from",
+          "score": 0.002943591
+        },
+        {
+          "word": "be afraid"
+        },
+        {
+          "word": "be timid"
+        }
+      ],
+      "base_form": "ရွံ့",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရွံ့",
+      "alternative": [
+        {
+          "word_postproc": "mud",
+          "score": 515,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the mire",
+          "score": 217,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mire",
+          "score": 147,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the mud",
+          "score": 119,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "depths also",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ရွံ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

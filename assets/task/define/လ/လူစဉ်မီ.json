@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Before",
+      "orig": "လူစဉ်မီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "luu hcain me"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be of standard"
+      ],
+      "entry": [
+        {
+          "word": "be of standard"
+        }
+      ],
+      "base_form": "လူစဉ်မီ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မီ",
+      "alternative": [
+        {
+          "word_postproc": "Before",
+          "score": 986,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "လူစဉ်မီ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

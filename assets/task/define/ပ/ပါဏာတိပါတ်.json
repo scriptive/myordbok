@@ -1,0 +1,87 @@
+{
+  "sentences": [
+    {
+      "trans": "Prior week",
+      "orig": "ပါဏာတိပါတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "par nar ti parat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "taking of life"
+      ],
+      "entry": [
+        {
+          "word": "taking of life"
+        }
+      ],
+      "base_form": "ပါဏာတိပါတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပါ ဏာ တိ",
+      "alternative": [
+        {
+          "word_postproc": "Prior",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ပါဏာတိပါတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ပါတ်",
+      "alternative": [
+        {
+          "word_postproc": "week",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "weeks",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 10
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

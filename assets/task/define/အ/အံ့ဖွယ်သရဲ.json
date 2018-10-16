@@ -1,0 +1,79 @@
+{
+  "sentences": [
+    {
+      "trans": "Miraculous",
+      "orig": "အံ့ဖွယ်သရဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aanhpwal s rell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "miraculous",
+        "amazing event",
+        "thing"
+      ],
+      "entry": [
+        {
+          "word": "thing",
+          "reverse_translation": [
+            "အရာ"
+          ]
+        }
+      ],
+      "base_form": "အံ့ဖွယ်သရဲ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အံ့ဖွယ် သ ရဲ",
+      "alternative": [
+        {
+          "word_postproc": "Miraculous",
+          "score": 930,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Thing",
+          "score": 67,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Amazing event",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "အံ့ဖွယ်သရဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

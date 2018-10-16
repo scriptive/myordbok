@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "cover up",
+      "orig": "ဖုံးဝှက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpone whaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "cover up",
+        "conceal",
+        "hide sth"
+      ],
+      "entry": [
+        {
+          "word": "conceal",
+          "reverse_translation": [
+            "လှျို့ဝှက်"
+          ]
+        }
+      ],
+      "base_form": "ဖုံးဝှက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖုံး ဝှက်",
+      "alternative": [
+        {
+          "word_postproc": "cover up",
+          "score": 433,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "conceal",
+          "score": 402,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cover",
+          "score": 155,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hide",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "obscure",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဖုံးဝှက်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

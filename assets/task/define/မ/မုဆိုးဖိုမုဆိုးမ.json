@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Widow, widower",
+      "orig": "မုဆိုးဖိုမုဆိုးမ",
+      "backend": 0
+    },
+    {
+      "src_translit": "musoe hpo musoem"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မုဆိုးမ",
+      "alternative": [
+        {
+          "word_postproc": "Widow,",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The widow",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Widowed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Widow",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Widows",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 9,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "မုဆိုးဖိုမုဆိုးမ",
+      "start_pos": 0,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "မုဆိုး ဖို",
+      "alternative": [
+        {
+          "word_postproc": "widower",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Dead to the world",
+      "orig": "ကုလားသေကုလားမော",
+      "backend": 0
+    },
+    {
+      "src_translit": "kularr say kularr maw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "dead to the world."
+      ],
+      "entry": [
+        {
+          "word": "dead to the world."
+        }
+      ],
+      "base_form": "ကုလားသေကုလားမော",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကုလား သေ ကုလား မော",
+      "alternative": [
+        {
+          "word_postproc": "Dead to the world",
+          "score": 987,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Dead to the",
+          "score": 12,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "ကုလားသေကုလားမော",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

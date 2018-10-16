@@ -1,0 +1,149 @@
+{
+  "sentences": [
+    {
+      "trans": "bronze",
+      "orig": "ကြေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyay"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "brass",
+        "bronze",
+        "fees",
+        "copper",
+        "money",
+        "price",
+        "general term for brass,bronze percussion instruments",
+        "wager",
+        "bet",
+        "stake",
+        "grime",
+        "dirt."
+      ],
+      "entry": [
+        {
+          "word": "brass",
+          "reverse_translation": [
+            "ကေြးဝါ"
+          ],
+          "score": 0.042585135
+        },
+        {
+          "word": "bronze",
+          "reverse_translation": [
+            "ကေြးညို"
+          ],
+          "score": 0.04063502
+        },
+        {
+          "word": "copper",
+          "reverse_translation": [
+            "ကေြးနီ"
+          ],
+          "score": 0.023517746
+        },
+        {
+          "word": "money",
+          "reverse_translation": [
+            "ပိုက်ဆံ"
+          ],
+          "score": 0.0068440544
+        },
+        {
+          "word": "price",
+          "reverse_translation": [
+            "စေျး"
+          ]
+        },
+        {
+          "word": "bet",
+          "reverse_translation": [
+            "လောင်းကစားခြင်း"
+          ],
+          "synset_id": [
+            83395
+          ]
+        },
+        {
+          "word": "grime",
+          "reverse_translation": [
+            "အညစ်အကေြး"
+          ]
+        },
+        {
+          "word": "dirt.",
+          "reverse_translation": [
+            "အညစ်အကေြး"
+          ]
+        }
+      ],
+      "base_form": "ကြေး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြေး",
+      "alternative": [
+        {
+          "word_postproc": "bronze",
+          "score": 806,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fee",
+          "score": 157,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fees",
+          "score": 30,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "scales",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bronzes",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကြေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

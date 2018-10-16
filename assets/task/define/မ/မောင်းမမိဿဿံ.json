@@ -1,0 +1,128 @@
+{
+  "sentences": [
+    {
+      "trans": "Drivers do not desire peace",
+      "orig": "မောင်းမမိဿဿံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "maungg m mi ဿ ဿan"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မောင်း",
+      "alternative": [
+        {
+          "word_postproc": "Drivers",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Driver",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Driving",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "မောင်းမမိဿဿံ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "မ",
+      "alternative": [
+        {
+          "word_postproc": "do not",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "not",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 7
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 3
+    },
+    {
+      "src_phrase": "ဿံ",
+      "alternative": [
+        {
+          "word_postproc": "desire",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "gods",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 10,
+          "end": 12
+        }
+      ],
+      "start_pos": 3,
+      "end_pos": 4
+    },
+    {
+      "src_phrase": "မိ ဿ",
+      "alternative": [
+        {
+          "word_postproc": "peace",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 10
+        }
+      ],
+      "start_pos": 4,
+      "end_pos": 5
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

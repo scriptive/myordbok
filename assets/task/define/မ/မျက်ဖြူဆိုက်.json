@@ -1,0 +1,89 @@
+{
+  "sentences": [
+    {
+      "trans": "Sclera site",
+      "orig": "မျက်ဖြူဆိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "myet hpyauu site"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "show the white of the eyes",
+        "be at death's door",
+        "be in a very serious predicament"
+      ],
+      "entry": [
+        {
+          "word": "show the white of the eyes"
+        },
+        {
+          "word": "be at death's door"
+        },
+        {
+          "word": "be in a very serious predicament"
+        }
+      ],
+      "base_form": "မျက်ဖြူဆိုက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မျက် ဖြူ",
+      "alternative": [
+        {
+          "word_postproc": "Sclera",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "မျက်ဖြူဆိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဆိုက်",
+      "alternative": [
+        {
+          "word_postproc": "site",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 12
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

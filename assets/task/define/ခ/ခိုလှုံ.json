@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "refuge",
+      "orig": "ခိုလှုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkolhuan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "take refuge",
+        "shelter",
+        "seek protection"
+      ],
+      "entry": [
+        {
+          "word": "shelter",
+          "reverse_translation": [
+            "ခိုလှုံစေ"
+          ],
+          "score": 0.0078774579
+        }
+      ],
+      "base_form": "ခိုလှုံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခိုလှုံ",
+      "alternative": [
+        {
+          "word_postproc": "refuge",
+          "score": 784,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "take refuge",
+          "score": 148,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "trust in",
+          "score": 59,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "seeking refuge",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to take refuge",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ခိုလှုံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

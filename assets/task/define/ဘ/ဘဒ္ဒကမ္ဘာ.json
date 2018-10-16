@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "the present world",
+      "orig": "ဘဒ္ဒကမ္ဘာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "bhadd kambhar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "period of time which is distinguished by enlightenment of five successive Buddhas namely ကကုသန်, ကောဏာဂုံ, ကဿပ, ဂေါတမ and အရိမေတ္တေယျ",
+        "the present world"
+      ],
+      "entry": [
+        {
+          "word": "period of time which is distinguished by enlightenment of five successive Buddhas namely ကကုသန်, ကောဏာဂုံ, ကဿပ, ဂေါတမ and အရိမေတ္တေယျ"
+        },
+        {
+          "word": "the present world"
+        }
+      ],
+      "base_form": "ဘဒ္ဒကမ္ဘာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘဒ္ဒ ကမ္ဘာ",
+      "alternative": [
+        {
+          "word_postproc": "the present world",
+          "score": 939,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "present world",
+          "score": 60,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ဘဒ္ဒကမ္ဘာ",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

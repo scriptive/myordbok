@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "metamorphose",
+      "orig": "တစ်ဖြစ်လဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "taithpyitlell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "metamorphose"
+      ],
+      "entry": [
+        {
+          "word": "metamorphose",
+          "score": 0.12516467
+        }
+      ],
+      "base_form": "တစ်ဖြစ်လဲ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တစ်ဖြစ်လဲ",
+      "alternative": [
+        {
+          "word_postproc": "metamorphose",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "junk",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "their junk",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the chair of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "တစ်ဖြစ်လဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

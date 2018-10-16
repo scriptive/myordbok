@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Attitude",
+      "orig": "ရာဇဂြိုဟ်မြို့",
+      "backend": 0
+    },
+    {
+      "src_translit": "rarj gyaoh myahoet"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရာဇ ဂြိုဟ်",
+      "alternative": [
+        {
+          "word_postproc": "Attitude",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ရာဇဂြိုဟ်မြို့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

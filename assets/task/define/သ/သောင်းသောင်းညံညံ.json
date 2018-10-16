@@ -1,0 +1,103 @@
+{
+  "sentences": [
+    {
+      "trans": "Tens of thousands desolate desolate",
+      "orig": "သောင်းသောင်းညံညံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "saunggsaungg nyan nyan"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သောင်းသောင်း",
+      "alternative": [
+        {
+          "word_postproc": "Tens of thousands",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Swarming",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Ten thousands",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Tumultuously",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "သောင်းသောင်းညံညံ",
+      "start_pos": 0,
+      "end_pos": 3
+    },
+    {
+      "src_phrase": "ညံ",
+      "alternative": [
+        {
+          "word_postproc": "desolate",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 12,
+          "end": 14
+        }
+      ],
+      "start_pos": 3,
+      "end_pos": 4
+    },
+    {
+      "src_phrase": "ညံ",
+      "alternative": [
+        {
+          "word_postproc": "desolate",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 14,
+          "end": 16
+        }
+      ],
+      "start_pos": 4,
+      "end_pos": 5
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

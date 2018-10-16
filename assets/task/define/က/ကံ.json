@@ -1,0 +1,129 @@
+{
+  "sentences": [
+    {
+      "trans": "Kan",
+      "orig": "ကံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "luck",
+        "lot",
+        "chance",
+        "one's deed, word,thought which predetermines one's future",
+        "fortune",
+        "object"
+      ],
+      "entry": [
+        {
+          "word": "luck",
+          "reverse_translation": [
+            "ကံကောင်းခြင်း"
+          ],
+          "synset_id": [
+            26756,
+            59374
+          ],
+          "score": 0.010936768
+        },
+        {
+          "word": "lot",
+          "reverse_translation": [
+            "အမေြာက်အများ"
+          ],
+          "synset_id": [
+            26756
+          ],
+          "score": 0.0027652478
+        },
+        {
+          "word": "chance",
+          "reverse_translation": [
+            "ကံ"
+          ],
+          "synset_id": [
+            59374
+          ],
+          "score": 0.0018420522
+        },
+        {
+          "word": "fortune",
+          "reverse_translation": [
+            "ဉစ္စာဓန"
+          ],
+          "synset_id": [
+            26756,
+            59374
+          ]
+        },
+        {
+          "word": "object",
+          "reverse_translation": [
+            "အရာဝတ္တု"
+          ]
+        }
+      ],
+      "base_form": "ကံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကံ",
+      "alternative": [
+        {
+          "word_postproc": "Kan",
+          "score": 965,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Unfortunately",
+          "score": 23,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Fortunately",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Ken",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ကံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "sentences": [
+    {
+      "trans": "Applaud",
+      "orig": "ဩဘာပေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "au bhar payy"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "cheer",
+        "applaud",
+        "speak words of praise"
+      ],
+      "entry": [
+        {
+          "word": "cheer",
+          "reverse_translation": [
+            "ရွှင်လန်း"
+          ]
+        },
+        {
+          "word": "applaud",
+          "reverse_translation": [
+            "ကောင်းချီးပေး"
+          ]
+        }
+      ],
+      "base_form": "ဩဘာပေး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဩ ဘာ ပေး",
+      "alternative": [
+        {
+          "word_postproc": "Applaud",
+          "score": 847,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Cheer",
+          "score": 152,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဩဘာပေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

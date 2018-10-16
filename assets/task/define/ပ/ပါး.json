@@ -1,0 +1,103 @@
+{
+  "sentences": [
+    {
+      "trans": "cheek",
+      "orig": "ပါး",
+      "backend": 1
+    },
+    {
+      "src_translit": "parr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "cheek"
+      ],
+      "entry": [
+        {
+          "word": "cheek",
+          "reverse_translation": [
+            "ပါး"
+          ],
+          "synset_id": [
+            34961
+          ],
+          "score": 0.012588142
+        }
+      ],
+      "base_form": "ပါး",
+      "pos_enum": 1
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "thin",
+        "flimsy",
+        "sharp",
+        "shrewd",
+        "astute"
+      ],
+      "entry": [
+        {
+          "word": "thin",
+          "reverse_translation": [
+            "ပါးသော",
+            "ပိန်သော"
+          ],
+          "synset_id": [
+            106932
+          ],
+          "score": 0.010274142
+        },
+        {
+          "word": "sharp",
+          "reverse_translation": [
+            "ထက်သော"
+          ],
+          "synset_id": [
+            79281
+          ]
+        }
+      ],
+      "base_form": "ပါး",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပါး",
+      "alternative": [
+        {
+          "word_postproc": "cheek",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ပါး",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

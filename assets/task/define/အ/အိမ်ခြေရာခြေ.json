@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Property",
+      "orig": "အိမ်ခြေရာခြေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aainhkyay rar hkyay"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "home",
+        "property"
+      ],
+      "entry": [
+        {
+          "word": "home",
+          "reverse_translation": [
+            "နေအိမ်"
+          ]
+        },
+        {
+          "word": "property",
+          "reverse_translation": [
+            "ဉစ္စာပစ္စည်းများ"
+          ]
+        }
+      ],
+      "base_form": "အိမ်ခြေရာခြေ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အိမ်ခြေ ရာ ခြေ",
+      "alternative": [
+        {
+          "word_postproc": "Property",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "အိမ်ခြေရာခြေ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

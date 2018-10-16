@@ -1,0 +1,92 @@
+{
+  "sentences": [
+    {
+      "trans": "bend",
+      "orig": "မပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "maut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "lean",
+        "bend"
+      ],
+      "entry": [
+        {
+          "word": "lean",
+          "reverse_translation": [
+            "ကုန်း"
+          ],
+          "score": 0.13533528
+        },
+        {
+          "word": "bend",
+          "reverse_translation": [
+            "ကောက်စေ"
+          ],
+          "score": 0.13533528
+        }
+      ],
+      "base_form": "မပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မပ်",
+      "alternative": [
+        {
+          "word_postproc": "bend",
+          "score": 886,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Abraham",
+          "score": 55,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lean",
+          "score": 54,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "And Abraham",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "မပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

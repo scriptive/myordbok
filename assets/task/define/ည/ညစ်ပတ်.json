@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "dirty",
+      "orig": "ညစ်ပတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyait paat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be unclean",
+        "be dirty",
+        "be filthy",
+        "cheat",
+        "be dishonest",
+        "be deceitful"
+      ],
+      "entry": [
+        {
+          "word": "cheat",
+          "reverse_translation": [
+            "လိမ်လည်"
+          ]
+        }
+      ],
+      "base_form": "ညစ်ပတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညစ် ပတ်",
+      "alternative": [
+        {
+          "word_postproc": "dirty",
+          "score": 986,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "filthy",
+          "score": 11,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and dirty",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ညစ်ပတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

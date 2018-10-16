@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "pen name",
+      "orig": "ကလောင်နာမည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kalaung narmai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "pen name",
+        "nom de plume"
+      ],
+      "entry": [
+        {
+          "word": "pen name",
+          "synset_id": [
+            10346
+          ]
+        },
+        {
+          "word": "nom de plume",
+          "synset_id": [
+            10346
+          ]
+        }
+      ],
+      "base_form": "ကလောင်နာမည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကလောင်",
+      "alternative": [
+        {
+          "word_postproc": "pen",
+          "score": 969,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ကလောင်နာမည်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "နာမည်",
+      "alternative": [
+        {
+          "word_postproc": "name",
+          "score": 969,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "names",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 11
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

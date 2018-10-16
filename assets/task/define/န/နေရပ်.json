@@ -1,0 +1,100 @@
+{
+  "sentences": [
+    {
+      "trans": "Location",
+      "orig": "နေရပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nayraut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "home",
+        "address",
+        "place where one resides"
+      ],
+      "entry": [
+        {
+          "word": "home",
+          "reverse_translation": [
+            "နေအိမ်"
+          ],
+          "score": 0.050571099
+        },
+        {
+          "word": "address",
+          "reverse_translation": [
+            "လိပ်စာ",
+            "စကားပေြာဟောချက်"
+          ],
+          "score": 0.014488863
+        }
+      ],
+      "base_form": "နေရပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နေရပ်",
+      "alternative": [
+        {
+          "word_postproc": "Location",
+          "score": 990,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "home",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "displaced",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "address",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "where",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "နေရပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

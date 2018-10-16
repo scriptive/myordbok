@@ -1,0 +1,95 @@
+{
+  "sentences": [
+    {
+      "trans": "the end of the mole",
+      "orig": "မှဲ့စွန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "mhaae hcwann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "have one's reputation marred",
+        "have one's character stained",
+        "suffer a slur on one's reputation"
+      ],
+      "entry": [
+        {
+          "word": "have one's reputation marred"
+        },
+        {
+          "word": "have one's character stained"
+        },
+        {
+          "word": "suffer a slur on one's reputation"
+        }
+      ],
+      "base_form": "မှဲ့စွန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စွန်း",
+      "alternative": [
+        {
+          "word_postproc": "the end of the",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ends",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "မှဲ့စွန်း",
+      "start_pos": 0,
+      "end_pos": 4
+    },
+    {
+      "src_phrase": "မှဲ့",
+      "alternative": [
+        {
+          "word_postproc": "mole",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "start_pos": 4,
+      "end_pos": 5
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

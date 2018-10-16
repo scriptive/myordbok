@@ -1,0 +1,104 @@
+{
+  "sentences": [
+    {
+      "trans": "memory",
+      "orig": "ညင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyainn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "soft",
+        "gentle"
+      ],
+      "entry": [
+        {
+          "word": "soft",
+          "reverse_translation": [
+            "ပေျာ့ပေျာင်းသော"
+          ],
+          "synset_id": [
+            62462
+          ],
+          "score": 0.013400008
+        },
+        {
+          "word": "gentle",
+          "reverse_translation": [
+            "အမျိုးအနွယ်ကောင်းသော"
+          ],
+          "synset_id": [
+            62462
+          ],
+          "score": 0.013400008
+        }
+      ],
+      "base_form": "ညင်း",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညင်း",
+      "alternative": [
+        {
+          "word_postproc": "memory",
+          "score": 766,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "gentle",
+          "score": 159,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sweet",
+          "score": 46,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "soft",
+          "score": 24,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sweet and",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ညင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

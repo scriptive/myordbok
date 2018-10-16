@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "sprinkle",
+      "orig": "ဖြန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpyan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "bluff",
+        "become puffy",
+        "flush"
+      ],
+      "entry": [
+        {
+          "word": "bluff"
+        },
+        {
+          "word": "become puffy"
+        },
+        {
+          "word": "flush"
+        }
+      ],
+      "base_form": "ဖြန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖြန်း",
+      "alternative": [
+        {
+          "word_postproc": "sprinkle",
+          "score": 987,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sprinkle the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sprinkle their",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sprinkle some of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "been sprinkled on",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဖြန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

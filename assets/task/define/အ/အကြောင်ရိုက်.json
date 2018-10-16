@@ -1,0 +1,117 @@
+{
+  "sentences": [
+    {
+      "trans": "Content type",
+      "orig": "အကြောင်ရိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aakyaung rite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "put up a brazen pretence",
+        "bluff it out",
+        "brazen it out",
+        "fool"
+      ],
+      "entry": [
+        {
+          "word": "put up a brazen pretence"
+        },
+        {
+          "word": "bluff it out"
+        },
+        {
+          "word": "brazen it out"
+        },
+        {
+          "word": "fool"
+        }
+      ],
+      "base_form": "အကြောင်ရိုက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အကြောင်",
+      "alternative": [
+        {
+          "word_postproc": "Content",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "About",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "အကြောင်ရိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ရိုက်",
+      "alternative": [
+        {
+          "word_postproc": "type",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "beat",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "struck",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "typing",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 7,
+          "end": 12
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

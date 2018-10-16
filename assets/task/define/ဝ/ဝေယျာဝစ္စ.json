@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "Everyday tasks",
+      "orig": "ဝေယျာဝစ္စ",
+      "backend": 0
+    },
+    {
+      "src_translit": "way yyaar wahc hc"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "sundry matters",
+        "sundry tasks",
+        "chores"
+      ],
+      "entry": [
+        {
+          "word": "sundry matters"
+        },
+        {
+          "word": "sundry tasks"
+        },
+        {
+          "word": "chores"
+        }
+      ],
+      "base_form": "ဝေယျာဝစ္စ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝေ ယျာ ဝစ္ စ",
+      "alternative": [
+        {
+          "word_postproc": "Everyday tasks",
+          "score": 837,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Chores",
+          "score": 162,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "With everyday tasks",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Sundry matters",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Sundry tasks",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ဝေယျာဝစ္စ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "Schoolmates",
+      "orig": "ကျောင်းနေဖက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaungg nay hpaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "classmate",
+        "schoolmate."
+      ],
+      "entry": [
+        {
+          "word": "classmate"
+        },
+        {
+          "word": "schoolmate."
+        }
+      ],
+      "base_form": "ကျောင်းနေဖက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျောင်း နေ ဖက်",
+      "alternative": [
+        {
+          "word_postproc": "Schoolmates",
+          "score": 996,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Schoolmate",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "My Schoolmates",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Fellow students",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "To schoolmates",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ကျောင်းနေဖက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

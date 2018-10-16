@@ -1,0 +1,150 @@
+{
+  "sentences": [
+    {
+      "trans": "on",
+      "orig": "ပေါ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "paw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "appear",
+        "arise",
+        "show",
+        "slaughter livestock for meat",
+        "come on the market",
+        "become available in market",
+        "materialize",
+        "occur",
+        "happen",
+        "be in season",
+        "float",
+        "be visible",
+        "be noticeable",
+        "be prominent",
+        "emerge",
+        "surface",
+        "be afloat"
+      ],
+      "entry": [
+        {
+          "word": "appear",
+          "reverse_translation": [
+            "ဖြစ်ပေါ်လာ"
+          ],
+          "score": 0.021081172
+        },
+        {
+          "word": "arise",
+          "reverse_translation": [
+            "ပေါ်ပေါက်"
+          ],
+          "score": 0.0040234118
+        },
+        {
+          "word": "show",
+          "reverse_translation": [
+            "ပြသ"
+          ]
+        },
+        {
+          "word": "occur",
+          "reverse_translation": [
+            "ဖြစ်ပျက်"
+          ],
+          "synset_id": [
+            63271
+          ]
+        },
+        {
+          "word": "happen",
+          "reverse_translation": [
+            "ဖြစ်ပျက်"
+          ],
+          "synset_id": [
+            43645,
+            63271
+          ]
+        },
+        {
+          "word": "float",
+          "reverse_translation": [
+            "မေျာ"
+          ]
+        },
+        {
+          "word": "emerge",
+          "reverse_translation": [
+            "ပေါ်လာ"
+          ]
+        }
+      ],
+      "base_form": "ပေါ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပေါ်",
+      "alternative": [
+        {
+          "word_postproc": "on",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "on the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "appear",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "appears",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "on a",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ပေါ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

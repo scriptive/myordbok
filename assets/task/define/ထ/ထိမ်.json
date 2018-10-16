@@ -1,0 +1,95 @@
+{
+  "sentences": [
+    {
+      "trans": "silversmiths",
+      "orig": "ထိမ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "htain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "withhold",
+        "keep back",
+        "cover up",
+        "conceal",
+        "burke",
+        "suffer from"
+      ],
+      "entry": [
+        {
+          "word": "conceal",
+          "reverse_translation": [
+            "လှျို့ဝှက်"
+          ],
+          "score": 0.017752126
+        }
+      ],
+      "base_form": "ထိမ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထိမ်",
+      "alternative": [
+        {
+          "word_postproc": "silversmiths",
+          "score": 532,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "withhold",
+          "score": 251,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "burke",
+          "score": 214,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "conceal",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cover up",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ထိမ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "filch",
+      "orig": "ကဲ့ဝှက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kae whaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "pilfer",
+        "filch",
+        "steal in small amounts,numbers"
+      ],
+      "entry": [
+        {
+          "word": "pilfer",
+          "synset_id": [
+            39629
+          ]
+        },
+        {
+          "word": "filch",
+          "synset_id": [
+            39629
+          ]
+        },
+        {
+          "word": "steal in small amounts,numbers"
+        }
+      ],
+      "base_form": "ကဲ့ဝှက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကဲ့ ဝှက်",
+      "alternative": [
+        {
+          "word_postproc": "filch",
+          "score": 795,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pilfer",
+          "score": 204,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ကဲ့ဝှက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

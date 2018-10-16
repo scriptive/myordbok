@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Bring to mind",
+      "orig": "ရည်ရော်",
+      "backend": 0
+    },
+    {
+      "src_translit": "rai raw "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "bring to mind",
+        "envision"
+      ],
+      "entry": [
+        {
+          "word": "bring to mind"
+        },
+        {
+          "word": "envision"
+        }
+      ],
+      "base_form": "ရည်ရော်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရည် ရော ်",
+      "alternative": [
+        {
+          "word_postproc": "Bring to mind",
+          "score": 598,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Envision",
+          "score": 401,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ရည်ရော်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

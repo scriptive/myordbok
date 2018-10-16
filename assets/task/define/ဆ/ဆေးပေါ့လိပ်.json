@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "ဆေးပေါ့လိပ်",
+      "orig": "ဆေးပေါ့လိပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "sayypotliut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "cheroot-like smoking article consisting of a filler of roasted tobacco plus other ingredients and a filter encased in a cylinder of သနပ် leaf"
+      ],
+      "entry": [
+        {
+          "word": "cheroot-like smoking article consisting of a filler of roasted tobacco plus other ingredients and a filter encased in a cylinder of သနပ် leaf"
+        }
+      ],
+      "base_form": "ဆေးပေါ့လိပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆေးပေါ့လိပ်",
+      "alternative": [
+        {
+          "word_postproc": "ဆေးပေါ့လိပ်",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ဆေးပေါ့လိပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

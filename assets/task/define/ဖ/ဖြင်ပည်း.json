@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "trans": "plentiful",
+      "orig": "ဖြင်ပည်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpyin paee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "bountiful",
+        "plentiful"
+      ],
+      "entry": [
+        {
+          "word": "plentiful",
+          "reverse_translation": [
+            "ပေါများသော"
+          ],
+          "synset_id": [
+            29292
+          ]
+        }
+      ],
+      "base_form": "ဖြင်ပည်း",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖြင် ပည်း",
+      "alternative": [
+        {
+          "word_postproc": "plentiful",
+          "score": 950,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bountiful",
+          "score": 49,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဖြင်ပည်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

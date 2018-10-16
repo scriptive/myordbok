@@ -1,0 +1,102 @@
+{
+  "sentences": [
+    {
+      "trans": "fabric",
+      "orig": "အထည်အလိပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aahtaiaaliut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "textile",
+        "stuff",
+        "fabric"
+      ],
+      "entry": [
+        {
+          "word": "stuff",
+          "reverse_translation": [
+            "အထည်အလိပ်"
+          ],
+          "score": 0.016163494
+        },
+        {
+          "word": "fabric",
+          "reverse_translation": [
+            "အထည်အလိပ်"
+          ],
+          "synset_id": [
+            101411
+          ],
+          "score": 0.016163494
+        }
+      ],
+      "base_form": "အထည်အလိပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အထည်အလိပ်",
+      "alternative": [
+        {
+          "word_postproc": "fabric",
+          "score": 826,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "stuff",
+          "score": 173,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "for textile",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "each status",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Fabrics",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အထည်အလိပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

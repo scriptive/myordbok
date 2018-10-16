@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "rejoice",
+      "orig": "ဝမ်းမြောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "wammyawwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "rejoice",
+        "be glad",
+        "be happy",
+        "be elated"
+      ],
+      "entry": [
+        {
+          "word": "rejoice",
+          "reverse_translation": [
+            "ရွှင်လန်း"
+          ],
+          "score": 0.11758133
+        }
+      ],
+      "base_form": "ဝမ်းမြောက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝမ်းမြောက်",
+      "alternative": [
+        {
+          "word_postproc": "rejoice",
+          "score": 993,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "glad",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rejoiced",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Be glad",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rejoice when",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ဝမ်းမြောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

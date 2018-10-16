@@ -1,0 +1,227 @@
+{
+  "sentences": [
+    {
+      "trans": "go",
+      "orig": "သွား",
+      "backend": 0
+    },
+    {
+      "src_translit": "swarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "go",
+        "pass",
+        "proceed",
+        "move",
+        "2",
+        "depart",
+        "be incisive",
+        "be sharp",
+        "fornicate"
+      ],
+      "entry": [
+        {
+          "word": "go",
+          "reverse_translation": [
+            "သွား",
+            "စီး၍ သွား"
+          ],
+          "synset_id": [
+            13257,
+            46523,
+            97386
+          ],
+          "score": 0.10539922
+        },
+        {
+          "word": "pass",
+          "reverse_translation": [
+            "သွား"
+          ],
+          "synset_id": [
+            97386
+          ],
+          "score": 0.0058540297
+        },
+        {
+          "word": "proceed",
+          "reverse_translation": [
+            "ဆက်လက်ပြုလုပ်"
+          ],
+          "synset_id": [
+            46523
+          ]
+        },
+        {
+          "word": "move",
+          "reverse_translation": [
+            "လှုပ်ရှား",
+            "ပေြာင်းရေွှ့"
+          ],
+          "synset_id": [
+            46523
+          ]
+        },
+        {
+          "word": "depart",
+          "reverse_translation": [
+            "ထွက်သွား"
+          ],
+          "synset_id": [
+            13257
+          ]
+        }
+      ],
+      "base_form": "သွား",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "walk",
+        "tooth",
+        ". tooth",
+        ". cog",
+        ". blade",
+        "edge",
+        ". gait",
+        ".style",
+        ".tune"
+      ],
+      "entry": [
+        {
+          "word": "walk",
+          "reverse_translation": [
+            "လမ်းလေှျာက်သွားခြင်း"
+          ],
+          "score": 0.0046309186
+        },
+        {
+          "word": "tooth",
+          "reverse_translation": [
+            "သွား"
+          ],
+          "synset_id": [
+            60891
+          ],
+          "score": 0.00091188197
+        },
+        {
+          "word": ". tooth",
+          "reverse_translation": [
+            "သွား"
+          ]
+        },
+        {
+          "word": ". blade",
+          "reverse_translation": [
+            "အရွက်",
+            "ဓါးရွက်"
+          ]
+        },
+        {
+          "word": "edge",
+          "reverse_translation": [
+            "အစပ်"
+          ]
+        },
+        {
+          "word": ".style",
+          "reverse_translation": [
+            "ထုံးနည်း"
+          ]
+        },
+        {
+          "word": ".tune",
+          "reverse_translation": [
+            "အသံ"
+          ]
+        }
+      ],
+      "base_form": "သွား",
+      "pos_enum": 1
+    },
+    {
+      "pos": "adverb",
+      "terms": [
+        "through",
+        "off"
+      ],
+      "entry": [
+        {
+          "word": "through",
+          "reverse_translation": [
+            "သွား"
+          ],
+          "score": 0.0028087941
+        },
+        {
+          "word": "off",
+          "reverse_translation": [
+            "သွား"
+          ],
+          "score": 0.0022219392
+        }
+      ],
+      "base_form": "သွား",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သွား",
+      "alternative": [
+        {
+          "word_postproc": "go",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "through",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pass",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "going to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "သွား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

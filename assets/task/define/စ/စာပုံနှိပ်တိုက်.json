@@ -1,0 +1,71 @@
+{
+  "sentences": [
+    {
+      "trans": "Press",
+      "orig": "စာပုံနှိပ်တိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcar ponenhaiut tite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "press"
+      ],
+      "entry": [
+        {
+          "word": "press",
+          "reverse_translation": [
+            "စာနယ်ဇင်းများ"
+          ]
+        }
+      ],
+      "base_form": "စာပုံနှိပ်တိုက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စာ ပုံနှိပ် တိုက်",
+      "alternative": [
+        {
+          "word_postproc": "Press",
+          "score": 644,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Invitation Printing",
+          "score": 355,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 15
+        }
+      ],
+      "raw_src_segment": "စာပုံနှိပ်တိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

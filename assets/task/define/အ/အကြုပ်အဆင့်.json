@@ -1,0 +1,73 @@
+{
+  "sentences": [
+    {
+      "trans": "Stack",
+      "orig": "အကြုပ်အဆင့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "a kyuut aasaint"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "nested things",
+        "stack",
+        "tier"
+      ],
+      "entry": [
+        {
+          "word": "stack",
+          "reverse_translation": [
+            "အပုံ"
+          ]
+        }
+      ],
+      "base_form": "အကြုပ်အဆင့်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ ကြုပ် အဆင့်",
+      "alternative": [
+        {
+          "word_postproc": "Stack",
+          "score": 551,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Tier",
+          "score": 448,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "အကြုပ်အဆင့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

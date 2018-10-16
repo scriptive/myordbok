@@ -1,0 +1,79 @@
+{
+  "sentences": [
+    {
+      "trans": "chameleon",
+      "orig": "ပုတ်သင်ညို",
+      "backend": 0
+    },
+    {
+      "src_translit": "potesainnyo"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "chameleon",
+        "yes-man"
+      ],
+      "entry": [
+        {
+          "word": "chameleon",
+          "score": 0.13533528
+        },
+        {
+          "word": "yes-man"
+        }
+      ],
+      "base_form": "ပုတ်သင်ညို",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပုတ်သင်ညို",
+      "alternative": [
+        {
+          "word_postproc": "chameleon",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "constant duplicity",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of constant duplicity",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ပုတ်သင်ညို",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

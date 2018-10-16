@@ -1,0 +1,107 @@
+{
+  "sentences": [
+    {
+      "trans": "Physics",
+      "orig": "ဗေဒ",
+      "backend": 0
+    },
+    {
+      "src_translit": "bayd"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "science",
+        "Veda",
+        "knowledge",
+        "discipline"
+      ],
+      "entry": [
+        {
+          "word": "science",
+          "reverse_translation": [
+            "အသိပညာ"
+          ],
+          "score": 0.016676579
+        },
+        {
+          "word": "knowledge",
+          "reverse_translation": [
+            "အသိပညာ"
+          ],
+          "score": 0.011108996
+        },
+        {
+          "word": "discipline",
+          "reverse_translation": [
+            "စည်းကမ်း"
+          ],
+          "score": 0.011108996
+        }
+      ],
+      "base_form": "ဗေဒ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗေဒ",
+      "alternative": [
+        {
+          "word_postproc": "Physics",
+          "score": 799,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Choreography",
+          "score": 91,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Sociology",
+          "score": 65,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "aesthetics",
+          "score": 19,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Veda",
+          "score": 13,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဗေဒ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

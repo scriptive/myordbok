@@ -1,0 +1,80 @@
+{
+  "sentences": [
+    {
+      "trans": "replanting",
+      "orig": "ကောက်စိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kout hcite"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "transplant paddy"
+      ],
+      "entry": [
+        {
+          "word": "transplant paddy"
+        }
+      ],
+      "base_form": "ကောက်စိုက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကောက် စိုက်",
+      "alternative": [
+        {
+          "word_postproc": "replanting",
+          "score": 669,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "paddy",
+          "score": 330,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "transplant paddy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "replanting their",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ကောက်စိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

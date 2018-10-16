@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "sovereignty",
+      "orig": "အချုပ်အခြာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aahkyaoteaahkyaar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "main point",
+        "person in full charge of an undertaking"
+      ],
+      "entry": [
+        {
+          "word": "main point",
+          "score": 0.021750359
+        },
+        {
+          "word": "person in full charge of an undertaking"
+        }
+      ],
+      "base_form": "အချုပ်အခြာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အချုပ်အခြာ",
+      "alternative": [
+        {
+          "word_postproc": "sovereignty",
+          "score": 868,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the sum",
+          "score": 66,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sovereign",
+          "score": 46,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the main point",
+          "score": 18,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "an outline of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "အချုပ်အခြာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

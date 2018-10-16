@@ -1,0 +1,108 @@
+{
+  "sentences": [
+    {
+      "trans": "while",
+      "orig": "စဉ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "conjunction",
+      "terms": [
+        "while"
+      ],
+      "entry": [
+        {
+          "word": "while",
+          "reverse_translation": [
+            "စဉ်"
+          ],
+          "score": 0.04462884
+        }
+      ],
+      "base_form": "စဉ်",
+      "pos_enum": 7
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "be flung out",
+        "be spattered",
+        "splash",
+        "spatter",
+        "line up",
+        "arrange in order"
+      ],
+      "entry": [
+        {
+          "word": "splash",
+          "reverse_translation": [
+            "ရေပက်"
+          ],
+          "synset_id": [
+            104368
+          ]
+        }
+      ],
+      "base_form": "စဉ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စဉ်",
+      "alternative": [
+        {
+          "word_postproc": "while",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "always",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "during",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "during the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "စဉ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

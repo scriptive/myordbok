@@ -1,0 +1,82 @@
+{
+  "sentences": [
+    {
+      "trans": "have sexual relations",
+      "orig": "စပ်ယှက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcaut yhaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be connected",
+        "concerned with",
+        "have sexual relations"
+      ],
+      "entry": [
+        {
+          "word": "be connected"
+        },
+        {
+          "word": "concerned with"
+        },
+        {
+          "word": "have sexual relations"
+        }
+      ],
+      "base_form": "စပ်ယှက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စပ် ယှက်",
+      "alternative": [
+        {
+          "word_postproc": "have sexual relations",
+          "score": 906,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "connected",
+          "score": 81,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "concerned with",
+          "score": 12,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "စပ်ယှက်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

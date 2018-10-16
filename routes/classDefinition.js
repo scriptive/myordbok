@@ -1,9 +1,6 @@
 var app = require('../'),
-    {express,path} = app.Core.evh();
-// var core = require.main.exports,
-
-// const {express,path} = require.main.exports();
-// const {score} = require('../score');
+    {express,path,fs} = app.root.evh(),
+    {dictionaries} = require('../score');
 
 var util = require('util'),
     moby = require('moby'),
@@ -38,26 +35,50 @@ let examine={
 let table={
   word:'en_word',
   sense:'en_sense',
-  track:'zd_track'
-};
+  exam:'en_exam',
+  type:'en_type',
+  kind:'en_kind'
+},
+wordTable='',
+solDefault='en',
+solActive='test';
+// source, target
 
 module.exports = class Definition {
-  constructor(request) {
-    this.request=request;
+  constructor(requestURL) {
+    this.requestURL=requestURL;
     this.result={};
     this.database=app.sql;
-    // this.database=score.sql;
-    // this.database=new process.database();
   }
 
-  search___notation(callback) {
-    // NOTE: the search() property is only for temporarily, and when using search_NEXT() uncomment database connection from constructor!
-    // let abc = new notation(this.request.q).result;
-    let abc = notation.get(this.request.q);
-    callback(abc);
+  dictionaries(callback) {
+    callback({dictionaries:dictionaries,active:this.requestURL.cookies.solId});
   }
-  search(callback) {
-    let q=this.request.q,
+  thesaurus(callback) {
+    let word = this.requestURL.query.q;
+    if (word){
+      // NOTE: Moby -> normal
+      callback(moby.search(word));
+      // NOTE: Moby -> reverse
+      // moby.reverseSearch(word);
+    }
+  }
+  notation(callback) {
+    let note = notation.get(this.requestURL.query.q);
+    callback(note);
+  }
+  suggestion(callback) {
+    this.requestTableName();
+    this.querySuggestion(this.requestURL.query.q+'%').then(raw => {
+      return raw.map(row=>row.word)
+    }).then(function(words){
+      callback(words);
+    });
+  }
+  definition(callback) {
+    // NOTE: the search() property is only for temporarily, and when using search_NEXT() uncomment database connection from constructor!
+    this.requestTableName();
+    let q=this.requestURL.query.q,
         result={
           info:{
             q:q,
@@ -66,16 +87,20 @@ module.exports = class Definition {
             sentence:false,
             translate:false
           },
+          // solId:this.requestURL.cookies.solId,
+          // solName:this.requestURL.cookies.solName,
+          solActive:solActive,
+          solDefault:solDefault,
           data:{}
         };
         // listGrammar={},
         // listKind={},
 
     const asyncRow = async (row,word,resultRow) => {
-      if (!resultRow.hasOwnProperty('_row_'))resultRow['_row_']={};
+      if (!resultRow.hasOwnProperty('row'))resultRow['row']={};
       let grammar = row.type;
-      if (!resultRow._row_.hasOwnProperty(grammar)) resultRow._row_[grammar]=[];
-      resultRow._row_[grammar].push({
+      if (!resultRow['row'].hasOwnProperty(grammar)) resultRow['row'][grammar]=[];
+      resultRow['row'][grammar].push({
         sense:row.sense,
         // wid:row.wid,
         // tid:row.tid,
@@ -112,17 +137,15 @@ module.exports = class Definition {
       //   resultRow.mobyReverse=moby.reverseSearch(word);
       // }
       return resultRow;
-    }
-
-    const asyncMean = async (raw) => {
+    },
+    asyncMean = async (raw) => {
       let resultMean={};
       for(const row of raw){
          await asyncRow(row,row.word,resultMean);
       }
       return resultMean;
-    }
-
-    const asyncWord = async (words) => {
+    },
+    asyncWord = async (words) => {
       let resultWord={};
       for(const word of words){
           resultWord[word] = await this.queryMean(word).then(raw => {
@@ -136,61 +159,112 @@ module.exports = class Definition {
          });
       }
       return resultWord;
+    },
+    resultCallback = () => {
+
+      if (solActive == solDefault){
+        return this.queryMean(q).then(raw => {
+          if (raw.length > 0) {
+            // return asyncMean(raw);
+            return asyncMean(raw).then(resultRow=>{
+              result.data[q]=resultRow;
+            });
+          } else if (examine.isNumeric(q)) {
+            result.info.type='numeric';
+            result.data[q]=this.requestNumeric(q);
+          } else {
+            let words = examine.wordExplode(q);
+            if (words.length > 1) {
+              return asyncWord(words).then(resultRow=>{
+                result.info.sentence=true;
+                result.data=resultRow;
+              });
+            } else {
+              result[q]=this.requestNone(q);
+            }
+          }
+        });
+      } else {
+        // this.queryInsertDump().then(function(){
+        //   callback('inserted dump');
+        // });
+        return this.queryTranslate(q).then(raw=>{
+          if (raw.length > 0) {
+            let words = this.taskMerge(raw);
+            return asyncWord(words).then(resultRow=>{
+              result.info.type='translate';
+              result.info.translate=true;
+              result.data[q]=resultRow;
+            });
+          } else if (examine.isNumeric(q)) {
+            // result[q]=this.requestNumeric(q);
+            result.data[q]=this.requestNumeric(q);
+          } else {
+            let words = examine.wordExplode(q);
+            if (words.length > 1) {
+              // return asyncWord(words);
+            } else {
+              // result[q]=this.requestNone(q);
+            }
+          }
+        });
+      }
     }
-
-    this.queryMean(q).then(raw => {
-      if (raw.length > 0) {
-        // return asyncMean(raw);
-        return asyncMean(raw).then(resultRow=>{
-          result.data[q]=resultRow;
-        });
-      } else if (examine.isNumeric(q)) {
-        result.info.type='numeric';
-        result.data[q]=this.requestNumeric(q);
-      } else {
-        let words = examine.wordExplode(q);
-        if (words.length > 1) {
-          return asyncWord(words).then(resultRow=>{
-            result.info.sentence=true;
-            result.data=resultRow;
-          });
-        } else {
-          result[q]=this.requestNone(q);
-        }
-      }
-    }).then(function(){
+    resultCallback().then(function(){
       callback(result);
     });
 
-
-    // this.queryInsertDump().then(function(){
-    //   callback('inserted dump');
-    // });
-    /*
-    this.queryTranslate(q).then(raw=>{
-      if (raw.length > 0) {
-        let words = this.taskMerge(raw);
-        return asyncWord(words).then(resultRow=>{
-          result.info.type='translate';
-          result.info.translate=true;
-          result.data[q]=resultRow;
-        });
-      } else if (examine.isNumeric(q)) {
-        // result[q]=this.requestNumeric(q);
-        result.data[q]=this.requestNumeric(q);
-      } else {
-        let words = examine.wordExplode(q);
-        if (words.length > 1) {
-          // return asyncWord(words);
-        } else {
-          // result[q]=this.requestNone(q);
-        }
-      }
-    }).then(function(abc){
-      callback(result);
-    });
-    */
-
+    // if (solActive == solDefault){
+    //   this.queryMean(q).then(raw => {
+    //     if (raw.length > 0) {
+    //       // return asyncMean(raw);
+    //       return asyncMean(raw).then(resultRow=>{
+    //         result.data[q]=resultRow;
+    //       });
+    //     } else if (examine.isNumeric(q)) {
+    //       result.info.type='numeric';
+    //       result.data[q]=this.requestNumeric(q);
+    //     } else {
+    //       let words = examine.wordExplode(q);
+    //       if (words.length > 1) {
+    //         return asyncWord(words).then(resultRow=>{
+    //           result.info.sentence=true;
+    //           result.data=resultRow;
+    //         });
+    //       } else {
+    //         result[q]=this.requestNone(q);
+    //       }
+    //     }
+    //   }).then(function(){
+    //     callback(result);
+    //   });
+    // } else {
+    //   // this.queryInsertDump().then(function(){
+    //   //   callback('inserted dump');
+    //   // });
+    //   this.queryTranslate(q).then(raw=>{
+    //     if (raw.length > 0) {
+    //       let words = this.taskMerge(raw);
+    //       return asyncWord(words).then(resultRow=>{
+    //         result.info.type='translate';
+    //         result.info.translate=true;
+    //         result.data[q]=resultRow;
+    //       });
+    //     } else if (examine.isNumeric(q)) {
+    //       // result[q]=this.requestNumeric(q);
+    //       result.data[q]=this.requestNumeric(q);
+    //     } else {
+    //       let words = examine.wordExplode(q);
+    //       if (words.length > 1) {
+    //         // return asyncWord(words);
+    //       } else {
+    //         // result[q]=this.requestNone(q);
+    //       }
+    //     }
+    //   }).then(function(abc){
+    //     callback(result);
+    //   });
+    // }
   }
   taskMerge(raw) {
     let senseDump = raw.map(function(row){ return row.sense }).join(',').split(',');
@@ -207,20 +281,38 @@ module.exports = class Definition {
     }
     return sense;
   }
+  querySuggestion(word) {
+    return this.database.query('SELECT word FROM ?? WHERE word LIKE ? ORDER BY word ASC LIMIT 10',[wordTable,word])
+  }
   queryMean(word) {
-    return this.database.query("SELECT w.`word`,d.*,s.`exam`,g.`name` AS type\
+    /*
+    SELECT w.`word`,d.*,s.`exam`,g.`name` AS type\
       FROM `en_word` w\
-    	JOIN `en_sense` d\
-    	JOIN `en_exam` s\
-    	JOIN `en_type` g\
+      JOIN `en_sense` d\
+      JOIN `en_exam` s\
+      JOIN `en_type` g\
       ON s.`id` = d.`id` AND d.`wid` = w.`id` AND g.`id` = d.`tid`\
-        WHERE w.`word` LIKE ? ORDER BY d.`tid`, d.`sid` ASC", [word]);
+        WHERE w.`word` LIKE 'test' ORDER BY d.`tid`, d.`sid` ASC
+    */
+    return this.database.query("SELECT w.`word`,d.*,s.`exam`,g.`name` AS type\
+      FROM ?? w\
+    	JOIN ?? d\
+    	JOIN ?? s\
+    	JOIN ?? g\
+      ON s.`id` = d.`id` AND d.`wid` = w.`id` AND g.`id` = d.`tid`\
+        WHERE w.`word` LIKE ? ORDER BY d.`tid`, d.`sid` ASC", [
+          table.word,
+          table.sense,
+          table.exam,
+          table.type,
+          word
+        ]);
   }
   queryTranslate(word) {
-    return this.database.query("SELECT * FROM ?? WHERE word = ?", ['test_word',word]);
+    return this.database.query("SELECT * FROM ?? WHERE word = ?", [wordTable,word]);
   }
   queryInsertDump() {
-    return this.database.query("INSERT INTO ?? (id,word,sense) VALUES (1,'love','orange,apple'),(2,'love','last')",['test_word']);
+    return this.database.query("INSERT INTO ?? (id,word,sense) VALUES (1,'love','orange,apple'),(2,'love','last')",[wordTable]);
   }
   // queryDelete(word) {
   //   // return this.database.query("DELETE FROM ?? WHERE word=?", ['no_word',word]);
@@ -228,13 +320,13 @@ module.exports = class Definition {
   // }
   queryDeleteHighest(word) {
     // AND word IN (?)
-    return this.database.query("DELETE FROM ?? WHERE word IN (?) AND id NOT IN (SELECT * FROM (SELECT MAX(n.id) FROM ?? n GROUP BY n.word) x)", ['test_word',word,'test_word']);
+    return this.database.query("DELETE FROM ?? WHERE word IN (?) AND id NOT IN (SELECT * FROM (SELECT MAX(n.id) FROM ?? n GROUP BY n.word) x)", [wordTable,word,wordTable]);
   }
   // queryInsert(word,sense) {
   //   return this.database.query("INSERT INTO ?? (word, sense) VALUES (?,?)", ['no_word',word,sense]);
   // }
   queryUpdate(word,sense) {
-    return this.database.query("UPDATE ?? SET sense=? WHERE word IN (?)", ['test_word',sense,word]);
+    return this.database.query("UPDATE ?? SET sense=? WHERE word IN (?)", [wordTable,sense,word]);
   }
   queryDerive(word) {
     return this.database.query("SELECT\
@@ -252,19 +344,20 @@ module.exports = class Definition {
 				WHERE s.`word`=? GROUP BY w.`word`;", [word]);
   }
   queryKind() {
-    return this.database.query('SELECT * FROM ?? ORDER BY id ASC',['en_kind']);
+    return this.database.query('SELECT * FROM ?? ORDER BY id ASC',[table.kind]);
   }
   queryType() {
-    return this.database.query('SELECT * FROM ?? ORDER BY id ASC',['en_type']);
+    return this.database.query('SELECT * FROM ?? ORDER BY id ASC',[table.type]);
+  }
+  requestTableName() {
+    // solActive=this.requestURL.cookies.solId;
+    wordTable=table.word.replace('en',solActive);
   }
   requestMath(){
     return 'math';
   }
   requestNumeric(num){
-    // return 'numeric';
-    // return new notation().get(num);
     return notation.get(num);
-    // return new notation(this.request.q);
   }
   requestNone(){
     return 'none';

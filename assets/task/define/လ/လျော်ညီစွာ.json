@@ -1,0 +1,59 @@
+{
+  "sentences": [
+    {
+      "trans": "Accordance with the",
+      "orig": "လျော်ညီစွာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "lyaw nye hcwar"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လျော် ညီ စွာ",
+      "alternative": [
+        {
+          "word_postproc": "Accordance with the",
+          "score": 887,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Accordingly",
+          "score": 107,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Accordance with",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "လျော်ညီစွာ",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

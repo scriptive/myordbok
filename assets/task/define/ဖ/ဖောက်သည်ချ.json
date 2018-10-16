@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "customer",
+      "orig": "ဖောက်သည်ချ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpoutsai hkya"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "sellat wholesale prices",
+        "repeat,spread news, etc exactly as one has heard"
+      ],
+      "entry": [
+        {
+          "word": "sellat wholesale prices"
+        },
+        {
+          "word": "repeat,spread news, etc exactly as one has heard"
+        }
+      ],
+      "base_form": "ဖောက်သည်ချ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖောက်သည်",
+      "alternative": [
+        {
+          "word_postproc": "customer",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "client",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "clients",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "customers",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဖောက်သည်ချ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

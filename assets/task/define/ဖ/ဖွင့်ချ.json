@@ -1,0 +1,106 @@
+{
+  "sentences": [
+    {
+      "trans": "Open",
+      "orig": "ဖွင့်ချ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpw in  hkya"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "expose",
+        "disclose",
+        "reveal"
+      ],
+      "entry": [
+        {
+          "word": "expose",
+          "reverse_translation": [
+            "ကျရောက်စေ"
+          ],
+          "synset_id": [
+            15822
+          ]
+        },
+        {
+          "word": "disclose",
+          "reverse_translation": [
+            "ဖွင့်လှစ်"
+          ],
+          "synset_id": [
+            15822
+          ]
+        },
+        {
+          "word": "reveal",
+          "reverse_translation": [
+            "ဖေါ်ပြ"
+          ],
+          "synset_id": [
+            15822
+          ]
+        }
+      ],
+      "base_form": "ဖွင့်ချ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖွ င့ ်",
+      "alternative": [
+        {
+          "word_postproc": "Open",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Opened",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Enable",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Open the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဖွင့်ချ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

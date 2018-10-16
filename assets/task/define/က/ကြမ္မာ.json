@@ -1,0 +1,88 @@
+{
+  "sentences": [
+    {
+      "trans": "fate",
+      "orig": "ကြမ္မာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyammar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "fate",
+        "karma"
+      ],
+      "entry": [
+        {
+          "word": "fate",
+          "reverse_translation": [
+            "ကြမ္မာ"
+          ],
+          "synset_id": [
+            26756
+          ],
+          "score": 0.083377652
+        }
+      ],
+      "base_form": "ကြမ္မာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြမ္မာ",
+      "alternative": [
+        {
+          "word_postproc": "fate",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "glorious",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "destinies",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "destiny",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ကြမ္မာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "sentences": [
+    {
+      "trans": "irritable",
+      "orig": "ရွပ်ဆတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "rwut saat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "petulant",
+        "irritable",
+        "wilful"
+      ],
+      "entry": [
+        {
+          "word": "irritable",
+          "reverse_translation": [
+            "စိတ်ထွက်လွယ်သော"
+          ],
+          "synset_id": [
+            42478
+          ]
+        },
+        {
+          "word": "wilful",
+          "reverse_translation": [
+            "ပေြာရခက်သော"
+          ]
+        }
+      ],
+      "base_form": "ရွပ်ဆတ်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရွပ် ဆတ်",
+      "alternative": [
+        {
+          "word_postproc": "irritable",
+          "score": 865,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "petulant",
+          "score": 112,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "willful",
+          "score": 22,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ရွပ်ဆတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

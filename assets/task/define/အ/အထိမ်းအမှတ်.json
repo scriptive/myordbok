@@ -1,0 +1,152 @@
+{
+  "sentences": [
+    {
+      "trans": "emblem",
+      "orig": "အထိမ်းအမှတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aahtaimaamhaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "mark",
+        "memorial",
+        "symbol",
+        "emblem",
+        "commemoration",
+        "sign",
+        "indication",
+        "remembrance",
+        "token"
+      ],
+      "entry": [
+        {
+          "word": "mark",
+          "reverse_translation": [
+            "အမှတ်"
+          ],
+          "synset_id": [
+            64628
+          ],
+          "score": 0.061000392
+        },
+        {
+          "word": "memorial",
+          "reverse_translation": [
+            "သတိရစရာ"
+          ],
+          "synset_id": [
+            65797
+          ],
+          "score": 0.035860281
+        },
+        {
+          "word": "symbol",
+          "reverse_translation": [
+            "အထိမ်းအမှတ်"
+          ],
+          "synset_id": [
+            19109
+          ],
+          "score": 0.029729217
+        },
+        {
+          "word": "emblem",
+          "reverse_translation": [
+            "အထိမ်းအမှတ်"
+          ],
+          "score": 0.0083855102
+        },
+        {
+          "word": "sign",
+          "reverse_translation": [
+            "အမှတ်လက္ခဏာ"
+          ],
+          "synset_id": [
+            64628
+          ]
+        },
+        {
+          "word": "indication",
+          "reverse_translation": [
+            "ညွှန်ပြချက်"
+          ]
+        },
+        {
+          "word": "remembrance",
+          "reverse_translation": [
+            "အမှတ်တရ"
+          ],
+          "synset_id": [
+            65797
+          ]
+        }
+      ],
+      "base_form": "အထိမ်းအမှတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အထိမ်းအမှတ်",
+      "alternative": [
+        {
+          "word_postproc": "emblem",
+          "score": 633,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "symbol",
+          "score": 366,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "commemorate the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mark the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a commemorative",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "အထိမ်းအမှတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

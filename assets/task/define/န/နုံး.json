@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "fatigued",
+      "orig": "နုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "none"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be tired",
+        "be worn- out",
+        "be fatigued"
+      ],
+      "entry": [
+        {
+          "word": "be tired"
+        },
+        {
+          "word": "be worn- out"
+        },
+        {
+          "word": "be fatigued"
+        }
+      ],
+      "base_form": "နုံး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နုံး",
+      "alternative": [
+        {
+          "word_postproc": "fatigued",
+          "score": 514,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tired",
+          "score": 212,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "very tired",
+          "score": 69,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the capabilities",
+          "score": 54,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "capabilities",
+          "score": 52,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "နုံး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

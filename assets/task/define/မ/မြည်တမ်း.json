@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "lament",
+      "orig": "မြည်တမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "myi tam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "lament",
+        "bewail"
+      ],
+      "entry": [
+        {
+          "word": "lament",
+          "synset_id": [
+            101436
+          ]
+        },
+        {
+          "word": "bewail",
+          "synset_id": [
+            101436
+          ]
+        }
+      ],
+      "base_form": "မြည်တမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မြည် တမ်း",
+      "alternative": [
+        {
+          "word_postproc": "lament",
+          "score": 943,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wail",
+          "score": 28,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lamented",
+          "score": 27,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "မြည်တမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

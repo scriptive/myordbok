@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "Subjectively",
+      "orig": "ပုဂ္ဂလဓိဋ္ဌာန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "puggal dhit htaran"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "subjectively"
+      ],
+      "entry": [
+        {
+          "word": "subjectively"
+        }
+      ],
+      "base_form": "ပုဂ္ဂလဓိဋ္ဌာန်",
+      "pos_enum": 4
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "subjectivity"
+      ],
+      "entry": [
+        {
+          "word": "subjectivity"
+        }
+      ],
+      "base_form": "ပုဂ္ဂလဓိဋ္ဌာန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပုဂ္ဂလ ဓိဋ္ ဌာန်",
+      "alternative": [
+        {
+          "word_postproc": "Subjectively",
+          "score": 561,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Subjectivity",
+          "score": 438,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ပုဂ္ဂလဓိဋ္ဌာန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

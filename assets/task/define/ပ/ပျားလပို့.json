@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "Honeycomb",
+      "orig": "ပျားလပို့",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyarr l phoet"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "upper part of the honeycomb",
+        "honeycomb"
+      ],
+      "entry": [
+        {
+          "word": "honeycomb",
+          "reverse_translation": [
+            "ပျားလပို့"
+          ]
+        }
+      ],
+      "base_form": "ပျားလပို့",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပျား လ ပို့",
+      "alternative": [
+        {
+          "word_postproc": "Honeycomb",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A honeycomb",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "An honeycomb",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ပျားလပို့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

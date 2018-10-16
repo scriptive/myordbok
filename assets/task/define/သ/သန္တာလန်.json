@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "great loss",
+      "orig": "သန္တာလန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "santar laan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "behave in an outrageous way",
+        "suffer great loss"
+      ],
+      "entry": [
+        {
+          "word": "behave in an outrageous way"
+        },
+        {
+          "word": "suffer great loss"
+        }
+      ],
+      "base_form": "သန္တာလန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သန္တာ လန်",
+      "alternative": [
+        {
+          "word_postproc": "great loss",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "suffer great loss",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "သန္တာလန်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

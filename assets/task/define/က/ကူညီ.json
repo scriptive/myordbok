@@ -1,0 +1,115 @@
+{
+  "sentences": [
+    {
+      "trans": "help",
+      "orig": "ကူညီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kuunye"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "help",
+        "assist",
+        "aid"
+      ],
+      "entry": [
+        {
+          "word": "help",
+          "reverse_translation": [
+            "ကူညီ"
+          ],
+          "synset_id": [
+            28365
+          ],
+          "score": 0.28206295
+        },
+        {
+          "word": "assist",
+          "reverse_translation": [
+            "ထောက်ပံ့"
+          ],
+          "synset_id": [
+            28365
+          ],
+          "score": 0.015666196
+        },
+        {
+          "word": "aid",
+          "reverse_translation": [
+            "ကူညီ"
+          ],
+          "synset_id": [
+            28365
+          ],
+          "score": 0.0072854576
+        }
+      ],
+      "base_form": "ကူညီ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကူညီ",
+      "alternative": [
+        {
+          "word_postproc": "help",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "aid",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "help the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "assist",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "help us",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကူညီ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

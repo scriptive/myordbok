@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "urge",
+      "orig": "တိုက်တွန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "titetwann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "urge",
+        "exhort"
+      ],
+      "entry": [
+        {
+          "word": "urge",
+          "reverse_translation": [
+            "တိုက်တွန်း"
+          ],
+          "synset_id": [
+            95593
+          ],
+          "score": 0.032144949
+        }
+      ],
+      "base_form": "တိုက်တွန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တိုက်တွန်း",
+      "alternative": [
+        {
+          "word_postproc": "urge",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "urged",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "urged the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to urge",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "urge the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "တိုက်တွန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

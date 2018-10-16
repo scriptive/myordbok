@@ -1,0 +1,106 @@
+{
+  "sentences": [
+    {
+      "trans": "filthiness",
+      "orig": "အညစ်အကြေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "aanyaitaakyay"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "dirt",
+        "excrement",
+        "refuse",
+        "trash",
+        "grime"
+      ],
+      "entry": [
+        {
+          "word": "dirt",
+          "reverse_translation": [
+            "အညစ်အကေြး"
+          ],
+          "synset_id": [
+            117512
+          ],
+          "score": 0.023153137
+        },
+        {
+          "word": "trash",
+          "reverse_translation": [
+            "အသုံးမရသောအရာ"
+          ]
+        },
+        {
+          "word": "grime",
+          "reverse_translation": [
+            "အညစ်အကေြး"
+          ],
+          "synset_id": [
+            117512
+          ]
+        }
+      ],
+      "base_form": "အညစ်အကြေး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အညစ်အကြေး",
+      "alternative": [
+        {
+          "word_postproc": "filthiness",
+          "score": 781,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "impurities",
+          "score": 218,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and blemishes",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "without spot",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အညစ်အကြေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Disgusted",
+      "orig": "အော့ကြောလန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aot kyaww laan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be disgusted with sb"
+      ],
+      "entry": [
+        {
+          "word": "be disgusted with sb"
+        }
+      ],
+      "base_form": "အော့ကြောလန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အော့ ကြော လန်",
+      "alternative": [
+        {
+          "word_postproc": "Disgusted",
+          "score": 995,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Disgusted with",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "အော့ကြောလန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

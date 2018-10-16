@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "raisins",
+      "orig": "ပျဉ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "plank",
+        "timber",
+        "flat sheet"
+      ],
+      "entry": [
+        {
+          "word": "plank",
+          "score": 0.025428746
+        },
+        {
+          "word": "timber",
+          "score": 0.016939197
+        },
+        {
+          "word": "flat sheet",
+          "score": 0.0085175633
+        }
+      ],
+      "base_form": "ပျဉ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပျဉ်",
+      "alternative": [
+        {
+          "word_postproc": "raisins",
+          "score": 996,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "plank",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "planks",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of raisins",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ပျဉ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

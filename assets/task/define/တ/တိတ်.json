@@ -1,0 +1,109 @@
+{
+  "sentences": [
+    {
+      "trans": "States",
+      "orig": "တိတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "tate"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "cease",
+        "stop",
+        "end",
+        "die",
+        "be silent",
+        "be quiet"
+      ],
+      "entry": [
+        {
+          "word": "cease",
+          "reverse_translation": [
+            "ရပ်စဲ"
+          ],
+          "synset_id": [
+            85226
+          ],
+          "score": 0.010435936
+        },
+        {
+          "word": "stop",
+          "reverse_translation": [
+            "ပိတ်ဆို့"
+          ],
+          "synset_id": [
+            85226
+          ],
+          "score": 0.0038996246
+        },
+        {
+          "word": "die",
+          "reverse_translation": [
+            "သေဆုံး"
+          ],
+          "score": 0.0025977099
+        }
+      ],
+      "base_form": "တိတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တိတ်",
+      "alternative": [
+        {
+          "word_postproc": "States",
+          "score": 991,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Tate",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Taik",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Silent",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "တိတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

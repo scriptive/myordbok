@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "dedicate",
+      "orig": "အပ်နှံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "aautnhaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "dedicate",
+        "entrust",
+        "enroll",
+        "place an order"
+      ],
+      "entry": [
+        {
+          "word": "dedicate",
+          "reverse_translation": [
+            "အပ်နှံ"
+          ],
+          "score": 0.0078774579
+        },
+        {
+          "word": "enroll",
+          "reverse_translation": [
+            "စာရင်းသွင်း"
+          ]
+        }
+      ],
+      "base_form": "အပ်နှံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အပ်နှံ",
+      "alternative": [
+        {
+          "word_postproc": "dedicate",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "betray",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "dedication",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "betrayed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "dedication of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "အပ်နှံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

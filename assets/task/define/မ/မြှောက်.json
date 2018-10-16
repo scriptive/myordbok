@@ -1,0 +1,112 @@
+{
+  "sentences": [
+    {
+      "trans": "multiply",
+      "orig": "မြှောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "myahaout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "multiply",
+        "raise",
+        "flatter",
+        "elevate",
+        "toss sth up",
+        "appoint,elect someone to a high office"
+      ],
+      "entry": [
+        {
+          "word": "multiply",
+          "reverse_translation": [
+            "တိုးမြှင့်"
+          ],
+          "score": 0.020432571
+        },
+        {
+          "word": "raise",
+          "reverse_translation": [
+            "မေြှာက်ပင့်"
+          ],
+          "synset_id": [
+            18822
+          ],
+          "score": 0.0066334847
+        },
+        {
+          "word": "flatter",
+          "reverse_translation": [
+            "မေြှာက်"
+          ],
+          "score": 0.0034956008
+        }
+      ],
+      "base_form": "မြှောက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မြှောက်",
+      "alternative": [
+        {
+          "word_postproc": "multiply",
+          "score": 986,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "times",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "flattery",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "multiplying",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "multiplied by",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "မြှောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

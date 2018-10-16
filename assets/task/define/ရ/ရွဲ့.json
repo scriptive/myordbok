@@ -1,0 +1,107 @@
+{
+  "sentences": [
+    {
+      "trans": "awry",
+      "orig": "ရွဲ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "rwal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "act contrarily",
+        "be askew",
+        "be out of shape",
+        "be awry",
+        "be sarcastic",
+        "be perverse"
+      ],
+      "entry": [
+        {
+          "word": "act contrarily",
+          "score": 0.038774207
+        },
+        {
+          "word": "be askew"
+        },
+        {
+          "word": "be out of shape"
+        },
+        {
+          "word": "be awry"
+        },
+        {
+          "word": "be sarcastic"
+        },
+        {
+          "word": "be perverse"
+        }
+      ],
+      "base_form": "ရွဲ့",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရွဲ့",
+      "alternative": [
+        {
+          "word_postproc": "awry",
+          "score": 798,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "askew",
+          "score": 195,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "out of shape",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sarcastic",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "perverse",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ရွဲ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

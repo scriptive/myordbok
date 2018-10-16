@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Indifferent",
+      "orig": "သရိုးသရီဖြစ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "s roe s re hpyit"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be generally debilitated",
+        "be of indifferent health"
+      ],
+      "entry": [
+        {
+          "word": "be generally debilitated"
+        },
+        {
+          "word": "be of indifferent health"
+        }
+      ],
+      "base_form": "သရိုးသရီဖြစ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရိုး သ ရီ",
+      "alternative": [
+        {
+          "word_postproc": "Indifferent",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "သရိုးသရီဖြစ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

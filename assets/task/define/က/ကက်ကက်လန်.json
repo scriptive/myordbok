@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Loudly and rudely",
+      "orig": "ကက်ကက်လန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kaat kaat laan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "loudly and rudely"
+      ],
+      "entry": [
+        {
+          "word": "loudly and rudely"
+        }
+      ],
+      "base_form": "ကက်ကက်လန်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကက် ကက် လန်",
+      "alternative": [
+        {
+          "word_postproc": "Loudly and rudely",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကက်ကက်လန်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

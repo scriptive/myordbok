@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "nod",
+      "orig": "ညိတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyate"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "nod"
+      ],
+      "entry": [
+        {
+          "word": "nod",
+          "reverse_translation": [
+            "ခေါင်းညှိတ်"
+          ],
+          "score": 0.12913783
+        }
+      ],
+      "base_form": "ညိတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညိတ်",
+      "alternative": [
+        {
+          "word_postproc": "nod",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ညိတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

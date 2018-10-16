@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "rake",
+      "orig": "ထွန်ခြစ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "htwan hkyit"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "rake"
+      ],
+      "entry": [
+        {
+          "word": "rake",
+          "reverse_translation": [
+            "ထွန်ခြစ်"
+          ],
+          "synset_id": [
+            10804
+          ]
+        }
+      ],
+      "base_form": "ထွန်ခြစ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထွန် ခြစ်",
+      "alternative": [
+        {
+          "word_postproc": "rake",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ထွန်ခြစ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

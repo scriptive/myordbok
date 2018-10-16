@@ -1,0 +1,86 @@
+{
+  "sentences": [
+    {
+      "trans": "own",
+      "orig": "သတတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "s taat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "",
+      "terms": [
+        "sentence final marker indicating that the foregoing is a reported speech"
+      ],
+      "entry": [
+        {
+          "word": "sentence final marker indicating that the foregoing is a reported speech"
+        }
+      ],
+      "base_form": "သတတ်",
+      "pos_enum": 20
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တတ်",
+      "alternative": [
+        {
+          "word_postproc": "own",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "does not",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "gives",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "keeps",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "does",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "သတတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

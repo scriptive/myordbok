@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "estimate",
+      "orig": "ခန့်တွက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkan twat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "estimate",
+        "calculate"
+      ],
+      "entry": [
+        {
+          "word": "estimate",
+          "reverse_translation": [
+            "ခန့်မှန်း"
+          ],
+          "synset_id": [
+            24494
+          ]
+        },
+        {
+          "word": "calculate",
+          "reverse_translation": [
+            "ရေတွက်"
+          ],
+          "synset_id": [
+            24494
+          ]
+        }
+      ],
+      "base_form": "ခန့်တွက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခန့် တွက်",
+      "alternative": [
+        {
+          "word_postproc": "estimate",
+          "score": 875,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "calculate",
+          "score": 124,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ခန့်တွက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

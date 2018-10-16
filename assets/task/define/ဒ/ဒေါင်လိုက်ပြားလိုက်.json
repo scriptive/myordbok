@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Vertical flat",
+      "orig": "ဒေါင်လိုက်ပြားလိုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "daunglite pyarr lite"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဒေါင်လိုက်",
+      "alternative": [
+        {
+          "word_postproc": "Vertical",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ဒေါင်လိုက်ပြားလိုက်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ပြား လိုက်",
+      "alternative": [
+        {
+          "word_postproc": "flat",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 10,
+          "end": 19
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

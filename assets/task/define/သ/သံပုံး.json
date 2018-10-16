@@ -1,0 +1,95 @@
+{
+  "sentences": [
+    {
+      "trans": "bucket",
+      "orig": "သံပုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "san pone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "tin",
+        "bucket",
+        "pail"
+      ],
+      "entry": [
+        {
+          "word": "tin",
+          "reverse_translation": [
+            "သံဘူး",
+            "ခဲမဖြူ"
+          ]
+        },
+        {
+          "word": "bucket",
+          "reverse_translation": [
+            "ရေပုံး"
+          ],
+          "synset_id": [
+            13864
+          ]
+        }
+      ],
+      "base_form": "သံပုံး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သံ ပုံး",
+      "alternative": [
+        {
+          "word_postproc": "bucket",
+          "score": 994,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the bucket",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pail",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tin",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "သံပုံး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

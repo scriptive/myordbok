@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Yoke stick for driving cattle",
+      "orig": "ထမ်းပိုးလှင်ကန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "htam poe lhain kaan"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထမ်း ပိုး",
+      "alternative": [
+        {
+          "word_postproc": "Yoke",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The yoke",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ထမ်းပိုးလှင်ကန်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "လှင် ကန်",
+      "alternative": [
+        {
+          "word_postproc": "stick for driving cattle",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 8,
+          "end": 15
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 5
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

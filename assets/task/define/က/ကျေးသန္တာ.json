@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Indian lorikeet",
+      "orig": "ကျေးသန္တာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaayy santar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "the Indian lorikeet"
+      ],
+      "entry": [
+        {
+          "word": "the Indian lorikeet"
+        }
+      ],
+      "base_form": "ကျေးသန္တာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျေး သန္တာ",
+      "alternative": [
+        {
+          "word_postproc": "Indian lorikeet",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the Indian lorikeet",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကျေးသန္တာ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "sentences": [
+    {
+      "trans": "headquarters",
+      "orig": "ဌာနချုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "htarnahkyaote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "headquarters",
+        "main office",
+        "central office"
+      ],
+      "entry": [
+        {
+          "word": "headquarters",
+          "reverse_translation": [
+            "ရုံးစိုက်ရာအရပ်"
+          ],
+          "synset_id": [
+            85589
+          ],
+          "score": 0.37955719
+        }
+      ],
+      "base_form": "ဌာနချုပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဌာနချုပ်",
+      "alternative": [
+        {
+          "word_postproc": "headquarters",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "headquarters in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "headquarters of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "their headquarters",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဌာနချုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

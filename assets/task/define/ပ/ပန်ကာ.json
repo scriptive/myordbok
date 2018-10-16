@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "fan",
+      "orig": "ပန်ကာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "paan kar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "punkah",
+        "mechanical fan",
+        "electric fan",
+        "propellor",
+        "sharp and  shrewd person",
+        "fan",
+        "propeller"
+      ],
+      "entry": [
+        {
+          "word": "fan",
+          "reverse_translation": [
+            "ပန်ကာ",
+            "ဝါသနာပါသူ"
+          ]
+        },
+        {
+          "word": "propeller",
+          "reverse_translation": [
+            "ပန်ကာ"
+          ],
+          "synset_id": [
+            60199
+          ]
+        }
+      ],
+      "base_form": "ပန်ကာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပန် ကာ",
+      "alternative": [
+        {
+          "word_postproc": "fan",
+          "score": 985,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "propeller",
+          "score": 14,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the fan",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in fan",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "with the fan",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ပန်ကာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "again",
+      "orig": "ဆောက်တည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "souttai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "concentrate",
+        "observe religious precepts,duties"
+      ],
+      "entry": [
+        {
+          "word": "concentrate",
+          "reverse_translation": [
+            "စုရုံး"
+          ],
+          "score": 0.0076350942
+        }
+      ],
+      "base_form": "ဆောက်တည်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆောက်တည်",
+      "alternative": [
+        {
+          "word_postproc": "again",
+          "score": 773,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "articulate",
+          "score": 216,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "abstraction",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "concentrate",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "unlocked",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဆောက်တည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

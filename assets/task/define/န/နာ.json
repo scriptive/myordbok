@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "hurt",
+      "orig": "နာ",
+      "backend": 1
+    },
+    {
+      "src_translit": "nar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "listen",
+        "obey an order",
+        "listen to advice",
+        "listen to a sermon",
+        "investigate",
+        "suffer pain",
+        "be hurt",
+        "be ill",
+        "suffer a loss",
+        "feel deeply hurt",
+        "feel bitter",
+        "be thorough"
+      ],
+      "entry": [
+        {
+          "word": "listen",
+          "reverse_translation": [
+            "နားထောင်"
+          ]
+        },
+        {
+          "word": "investigate",
+          "reverse_translation": [
+            "စစ်ဆေး"
+          ]
+        }
+      ],
+      "base_form": "နာ",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "lead"
+      ],
+      "entry": [
+        {
+          "word": "lead",
+          "reverse_translation": [
+            "ခဲ",
+            "ခေါင်းဆောင်ခြင်း"
+          ]
+        }
+      ],
+      "base_form": "နာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နာ",
+      "alternative": [
+        {
+          "word_postproc": "hurt",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "name",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "နာ",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

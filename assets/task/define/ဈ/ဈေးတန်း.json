@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "static",
+      "orig": "ဈေးတန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "jhayy taann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "level off",
+        "remain static"
+      ],
+      "entry": [
+        {
+          "word": "level off"
+        },
+        {
+          "word": "remain static"
+        }
+      ],
+      "base_form": "ဈေးတန်း",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "row of shops,stalls at a pagoda festival,fairs"
+      ],
+      "entry": [
+        {
+          "word": "row of shops,stalls at a pagoda festival,fairs"
+        }
+      ],
+      "base_form": "ဈေးတန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဈေး တန်း",
+      "alternative": [
+        {
+          "word_postproc": "static",
+          "score": 511,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "level off",
+          "score": 483,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "remain static",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဈေးတန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

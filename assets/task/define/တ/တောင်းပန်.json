@@ -1,0 +1,103 @@
+{
+  "sentences": [
+    {
+      "trans": "apologize",
+      "orig": "တောင်းပန်",
+      "backend": 1
+    },
+    {
+      "src_translit": "taunggpaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "request",
+        "beg",
+        "crave",
+        "apologise",
+        "implore",
+        "beseech to do sth"
+      ],
+      "entry": [
+        {
+          "word": "request",
+          "reverse_translation": [
+            "တောင်းပန်"
+          ],
+          "synset_id": [
+            4541
+          ],
+          "score": 0.026235942
+        },
+        {
+          "word": "beg",
+          "reverse_translation": [
+            "တောင်းပန်"
+          ],
+          "synset_id": [
+            72910
+          ],
+          "score": 0.019496895
+        },
+        {
+          "word": "crave",
+          "reverse_translation": [
+            "တောင်းပန်"
+          ],
+          "score": 0.00059802679
+        },
+        {
+          "word": "apologise",
+          "reverse_translation": [
+            "ထုခေျတောင်းပန်"
+          ]
+        }
+      ],
+      "base_form": "တောင်းပန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တောင်းပန်",
+      "alternative": [
+        {
+          "word_postproc": "apologize",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "request",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "တောင်းပန်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "sentences": [
+    {
+      "trans": "mirror",
+      "orig": "မှန်",
+      "backend": 1
+    },
+    {
+      "src_translit": "mhaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "right",
+        "true",
+        "correct"
+      ],
+      "entry": [
+        {
+          "word": "right",
+          "reverse_translation": [
+            "မှန်သော",
+            "အဘက်ဘက်"
+          ],
+          "synset_id": [
+            31464
+          ],
+          "score": 0.087379023
+        },
+        {
+          "word": "correct",
+          "reverse_translation": [
+            "မှန်ကန်သော"
+          ],
+          "synset_id": [
+            31464
+          ],
+          "score": 0.0092096813
+        }
+      ],
+      "base_form": "မှန်",
+      "pos_enum": 3
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "glass",
+        "mirror"
+      ],
+      "entry": [
+        {
+          "word": "glass",
+          "reverse_translation": [
+            "ဖန်",
+            "ဖန်ခွက်"
+          ],
+          "score": 0.021750359
+        },
+        {
+          "word": "mirror",
+          "reverse_translation": [
+            "ကြည့်မှန်"
+          ],
+          "score": 0.014717029
+        }
+      ],
+      "base_form": "မှန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မှန်",
+      "alternative": [
+        {
+          "word_postproc": "mirror",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "right",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "မှန်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

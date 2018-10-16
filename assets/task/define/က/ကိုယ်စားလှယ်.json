@@ -1,0 +1,116 @@
+{
+  "sentences": [
+    {
+      "trans": "representative",
+      "orig": "ကိုယ်စားလှယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kohcarrlhaal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "representative",
+        "agent",
+        "delegate",
+        "proxy"
+      ],
+      "entry": [
+        {
+          "word": "representative",
+          "reverse_translation": [
+            "ကိုယ်စားလှယ်",
+            "ကိုယ်စားလှယ်"
+          ],
+          "synset_id": [
+            14935
+          ],
+          "score": 0.13746651
+        },
+        {
+          "word": "agent",
+          "reverse_translation": [
+            "ကိုယ်စားလှယ်",
+            "ကိုယ်စားလှယ်"
+          ],
+          "synset_id": [
+            1089
+          ],
+          "score": 0.016418032
+        },
+        {
+          "word": "delegate",
+          "reverse_translation": [
+            "ကိုယ်စားလှည်အဖဲွ့ဝင်",
+            "ကိုယ်စားလှည်အဖဲွ့ဝင်"
+          ],
+          "score": 0.011642128
+        }
+      ],
+      "base_form": "ကိုယ်စားလှယ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိုယ်စားလှယ်",
+      "alternative": [
+        {
+          "word_postproc": "representative",
+          "score": 755,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "agent",
+          "score": 244,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "representative in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Representative of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Representative for",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ကိုယ်စားလှယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

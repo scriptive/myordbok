@@ -1,0 +1,102 @@
+{
+  "sentences": [
+    {
+      "trans": "pump",
+      "orig": "စုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "suck",
+        "soak up",
+        "tighten"
+      ],
+      "entry": [
+        {
+          "word": "suck",
+          "reverse_translation": [
+            "စုတ်ယူ"
+          ],
+          "synset_id": [
+            22817
+          ],
+          "score": 0.0048531611
+        },
+        {
+          "word": "tighten",
+          "reverse_translation": [
+            "တိုး၍ကြပ်"
+          ],
+          "score": 0.0032329024
+        }
+      ],
+      "base_form": "စုပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စုပ်",
+      "alternative": [
+        {
+          "word_postproc": "pump",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "absorbed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "absorb",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "be absorbed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "be absorbed by",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "စုပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

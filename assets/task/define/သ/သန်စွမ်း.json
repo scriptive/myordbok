@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "vigor",
+      "orig": "သန်စွမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "saan hcwm"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be strong",
+        "have vigour",
+        "be powerful",
+        "be luxuriant",
+        "thrive"
+      ],
+      "entry": [
+        {
+          "word": "thrive",
+          "reverse_translation": [
+            "စီးပါွးတိုးတက်"
+          ]
+        }
+      ],
+      "base_form": "သန်စွမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သန် စွမ်း",
+      "alternative": [
+        {
+          "word_postproc": "vigor",
+          "score": 579,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "vigorous",
+          "score": 419,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and vigorous",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "stronger",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "luxuriant",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "သန်စွမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

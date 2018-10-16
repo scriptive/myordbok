@@ -1,0 +1,76 @@
+{
+  "sentences": [
+    {
+      "trans": "Incredible",
+      "orig": "မဟုတ်ကဟုတ်က",
+      "backend": 0
+    },
+    {
+      "src_translit": "mahote k hote k"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "anything silly",
+        "ridiculous",
+        "incredible"
+      ],
+      "entry": [
+        {
+          "word": "anything silly"
+        },
+        {
+          "word": "ridiculous"
+        },
+        {
+          "word": "incredible"
+        }
+      ],
+      "base_form": "မဟုတ်ကဟုတ်က",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မဟုတ် က ဟုတ် က",
+      "alternative": [
+        {
+          "word_postproc": "Incredible",
+          "score": 837,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Ridiculous",
+          "score": 162,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "မဟုတ်ကဟုတ်က",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

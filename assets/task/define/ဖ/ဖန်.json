@@ -1,0 +1,101 @@
+{
+  "sentences": [
+    {
+      "trans": "glass",
+      "orig": "ဖန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "glass"
+      ],
+      "entry": [
+        {
+          "word": "glass",
+          "reverse_translation": [
+            "ဖန်",
+            "ဖန်ခွက်"
+          ],
+          "synset_id": [
+            9761
+          ],
+          "score": 0.23383839
+        }
+      ],
+      "base_form": "ဖန်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "make",
+        "create",
+        "clean newly-picked cotton, coir, etc",
+        "have irritating sensation"
+      ],
+      "entry": [
+        {
+          "word": "make",
+          "reverse_translation": [
+            "ပြုလုပ်"
+          ],
+          "synset_id": [
+            12443
+          ]
+        },
+        {
+          "word": "create",
+          "reverse_translation": [
+            "ဖန်တီး"
+          ],
+          "synset_id": [
+            12443
+          ]
+        }
+      ],
+      "base_form": "ဖန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖန်",
+      "alternative": [
+        {
+          "word_postproc": "glass",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဖန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

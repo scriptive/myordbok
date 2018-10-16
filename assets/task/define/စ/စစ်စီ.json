@@ -1,0 +1,70 @@
+{
+  "sentences": [
+    {
+      "trans": "each",
+      "orig": "စစ်စီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcait hce"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be frugal",
+        "be stingy",
+        "miserly"
+      ],
+      "entry": [
+        {
+          "word": "be frugal"
+        },
+        {
+          "word": "be stingy"
+        },
+        {
+          "word": "miserly"
+        }
+      ],
+      "base_form": "စစ်စီ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စီ",
+      "alternative": [
+        {
+          "word_postproc": "each",
+          "score": 611,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "စစ်စီ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

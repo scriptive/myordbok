@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "chemistry",
+      "orig": "ဓာတုဗေဒ",
+      "backend": 0
+    },
+    {
+      "src_translit": "dhartubayd"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "chemistry"
+      ],
+      "entry": [
+        {
+          "word": "chemistry",
+          "reverse_translation": [
+            "ဓါတုဗေဒပညာ"
+          ],
+          "score": 0.17377394
+        }
+      ],
+      "base_form": "ဓာတုဗေဒ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဓာတုဗေဒ",
+      "alternative": [
+        {
+          "word_postproc": "chemistry",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The chemical",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The chemistry",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of Chemistry",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဓာတုဗေဒ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Bully",
+      "orig": "ကြီးနိုင်ငယ်ညှဉ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyee nine ngaal nyhain"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြီး နိုင် ငယ် ညှဉ်း",
+      "alternative": [
+        {
+          "word_postproc": "Bully",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 17
+        }
+      ],
+      "raw_src_segment": "ကြီးနိုင်ငယ်ညှဉ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

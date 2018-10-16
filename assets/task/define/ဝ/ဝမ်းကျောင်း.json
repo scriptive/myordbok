@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "earn a living",
+      "orig": "ဝမ်းကျောင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "wam kyaungg"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "earn a living"
+      ],
+      "entry": [
+        {
+          "word": "earn a living"
+        }
+      ],
+      "base_form": "ဝမ်းကျောင်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝမ်း ကျောင်း",
+      "alternative": [
+        {
+          "word_postproc": "earn a living",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ဝမ်းကျောင်း",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

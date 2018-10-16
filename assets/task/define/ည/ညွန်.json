@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "Directional",
+      "orig": "ညွန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nywan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "marsh",
+        "mire",
+        "alluvium",
+        "silt deposited on the bank of a river"
+      ],
+      "entry": [
+        {
+          "word": "marsh",
+          "reverse_translation": [
+            "စိမ့်မေြ"
+          ],
+          "score": 0.015666196
+        }
+      ],
+      "base_form": "ညွန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညွန်",
+      "alternative": [
+        {
+          "word_postproc": "Directional",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "alluvium",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "marsh",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "offerer",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "directions are",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ညွန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

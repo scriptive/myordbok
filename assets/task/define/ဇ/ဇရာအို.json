@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "aged-person",
+      "orig": "ဇရာအို",
+      "backend": 0
+    },
+    {
+      "src_translit": "jararao"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "aged-person"
+      ],
+      "entry": [
+        {
+          "word": "aged-person"
+        }
+      ],
+      "base_form": "ဇရာအို",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဇရာအို",
+      "alternative": [
+        {
+          "word_postproc": "aged-person",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဇရာအို",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

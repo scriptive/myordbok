@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "persecute",
+      "orig": "ညှဉ်းပန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyhain paann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "torture",
+        "ill treat",
+        "be a source of worry,trouble",
+        "persecute"
+      ],
+      "entry": [
+        {
+          "word": "torture",
+          "reverse_translation": [
+            "ညှဉ်းပမ်း"
+          ]
+        },
+        {
+          "word": "persecute",
+          "reverse_translation": [
+            "ညှဉ်းပန်း"
+          ]
+        }
+      ],
+      "base_form": "ညှဉ်းပန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညှဉ်း ပန်း",
+      "alternative": [
+        {
+          "word_postproc": "persecute",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "everywhere",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "persecution",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ill treat",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "persecution at",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ညှဉ်းပန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "တန်ဆောင်တိုင်",
+      "orig": "တန်ဆောင်တိုင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "taansaungtine"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တန်ဆောင်တိုင်",
+      "alternative": [
+        {
+          "word_postproc": "တန်ဆောင်တိုင်",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "တန်ဆောင်တိုင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

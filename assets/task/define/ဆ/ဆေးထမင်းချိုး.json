@@ -1,0 +1,87 @@
+{
+  "sentences": [
+    {
+      "trans": "Lunch break",
+      "orig": "ဆေးထမင်းချိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "sayy htamainn hkyoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "kind of plant the root of which is officinal"
+      ],
+      "entry": [
+        {
+          "word": "kind of plant the root of which is officinal"
+        }
+      ],
+      "base_form": "ဆေးထမင်းချိုး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထမင်း",
+      "alternative": [
+        {
+          "word_postproc": "Lunch",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Rice",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဆေးထမင်းချိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ချိုး",
+      "alternative": [
+        {
+          "word_postproc": "break",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 8,
+          "end": 13
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

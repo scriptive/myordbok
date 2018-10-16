@@ -1,0 +1,110 @@
+{
+  "sentences": [
+    {
+      "trans": "Hide",
+      "orig": "ဖျောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpyawwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "make sth disappear",
+        "make sth go away",
+        "get rid of sth",
+        "falsify",
+        "lose sth",
+        "excecute",
+        "dispatch"
+      ],
+      "entry": [
+        {
+          "word": "make sth disappear"
+        },
+        {
+          "word": "make sth go away"
+        },
+        {
+          "word": "get rid of sth"
+        },
+        {
+          "word": "falsify"
+        },
+        {
+          "word": "lose sth"
+        },
+        {
+          "word": "excecute"
+        },
+        {
+          "word": "dispatch"
+        }
+      ],
+      "base_form": "ဖျောက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖျောက်",
+      "alternative": [
+        {
+          "word_postproc": "Hide",
+          "score": 910,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Hiding",
+          "score": 88,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to hide",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and Hide",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hide the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဖျောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

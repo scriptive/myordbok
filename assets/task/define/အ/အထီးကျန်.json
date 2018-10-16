@@ -1,0 +1,103 @@
+{
+  "sentences": [
+    {
+      "trans": "forever alone",
+      "orig": "အထီးကျန်",
+      "backend": 1
+    },
+    {
+      "src_translit": "aahteekyaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "isolated",
+        "solitary",
+        "be alone",
+        "forsaken"
+      ],
+      "entry": [
+        {
+          "word": "isolated",
+          "score": 0.070211023
+        },
+        {
+          "word": "solitary",
+          "score": 0.0036633583
+        },
+        {
+          "word": "be alone"
+        },
+        {
+          "word": "forsaken"
+        }
+      ],
+      "base_form": "အထီးကျန်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "loner",
+        "person without friends,companions",
+        "the destitute"
+      ],
+      "entry": [
+        {
+          "word": "loner"
+        },
+        {
+          "word": "person without friends,companions"
+        },
+        {
+          "word": "the destitute"
+        }
+      ],
+      "base_form": "အထီးကျန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အထီးကျန်",
+      "alternative": [
+        {
+          "word_postproc": "forever alone",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lonely",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "အထီးကျန်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "looks",
+      "orig": "ရုပ်ရည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "roterai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "looks",
+        "appearance"
+      ],
+      "entry": [
+        {
+          "word": "appearance",
+          "reverse_translation": [
+            "ဖြစ်ပေါ်လာခြင်း"
+          ],
+          "score": 0.010435936
+        }
+      ],
+      "base_form": "ရုပ်‌ရည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရုပ်ရည်",
+      "alternative": [
+        {
+          "word_postproc": "looks",
+          "score": 576,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "appearance",
+          "score": 371,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "decrease",
+          "score": 48,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "down",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "research",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ရုပ်ရည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

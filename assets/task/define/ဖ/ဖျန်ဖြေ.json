@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "mediation",
+      "orig": "ဖျန်ဖြေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpyaan hpyay"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "mediate",
+        "conciliate",
+        "reconcile"
+      ],
+      "entry": [
+        {
+          "word": "mediate",
+          "reverse_translation": [
+            "ကြားဖြန်"
+          ]
+        }
+      ],
+      "base_form": "ဖျန်ဖြေ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖျန် ဖြေ",
+      "alternative": [
+        {
+          "word_postproc": "mediation",
+          "score": 945,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mediator",
+          "score": 53,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "conciliate",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the mediator",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mediate",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဖျန်ဖြေ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

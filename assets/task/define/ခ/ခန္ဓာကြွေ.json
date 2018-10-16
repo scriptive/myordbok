@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "trans": "die",
+      "orig": "ခန္ဓာကြွေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkandhar kyaway"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "die",
+        "pass away"
+      ],
+      "entry": [
+        {
+          "word": "die",
+          "reverse_translation": [
+            "သေဆုံး"
+          ],
+          "synset_id": [
+            78184
+          ]
+        }
+      ],
+      "base_form": "ခန္ဓာကြွေ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခန္ဓာ ကြွေ",
+      "alternative": [
+        {
+          "word_postproc": "die",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pass away",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ခန္ဓာကြွေ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

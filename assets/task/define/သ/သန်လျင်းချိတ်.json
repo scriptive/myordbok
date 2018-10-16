@@ -1,0 +1,87 @@
+{
+  "sentences": [
+    {
+      "trans": "Palanquin hooks",
+      "orig": "သန်လျင်းချိတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "saan lyinn hkyaate"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "iron hook attached to a palanquin,a bier for royalty"
+      ],
+      "entry": [
+        {
+          "word": "iron hook attached to a palanquin,a bier for royalty"
+        }
+      ],
+      "base_form": "သန်လျင်းချိတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သန် လျင်း",
+      "alternative": [
+        {
+          "word_postproc": "Palanquin",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "သန်လျင်းချိတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ချိတ်",
+      "alternative": [
+        {
+          "word_postproc": "hooks",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hook",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 8,
+          "end": 13
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

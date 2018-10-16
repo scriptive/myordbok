@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Crown prince",
+      "orig": "ထီးရန်နန်းရန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "htee raan naann raan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "crown prince",
+        "heir apparent to the throne"
+      ],
+      "entry": [
+        {
+          "word": "crown prince"
+        },
+        {
+          "word": "heir apparent to the throne"
+        }
+      ],
+      "base_form": "ထီးရန်နန်းရန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထီး ရန် နန်း ရန်",
+      "alternative": [
+        {
+          "word_postproc": "Crown prince",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ထီးရန်နန်းရန်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

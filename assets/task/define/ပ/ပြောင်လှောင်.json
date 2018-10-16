@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "ridicule",
+      "orig": "ပြောင်လှောင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "pyaung lhaawin"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "mock",
+        "ridicule",
+        "jeer",
+        "deride"
+      ],
+      "entry": [
+        {
+          "word": "mock"
+        },
+        {
+          "word": "ridicule"
+        },
+        {
+          "word": "jeer"
+        },
+        {
+          "word": "deride"
+        }
+      ],
+      "base_form": "ပြောင်လှောင်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပြောင် လှောင်",
+      "alternative": [
+        {
+          "word_postproc": "ridicule",
+          "score": 630,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "deride",
+          "score": 217,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "jeer",
+          "score": 148,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mock",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in mock",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ပြောင်လှောင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

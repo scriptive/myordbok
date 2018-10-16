@@ -1,0 +1,123 @@
+{
+  "sentences": [
+    {
+      "trans": "confess",
+      "orig": "ဝန်ခံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "waanhkan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "confess",
+        "acknowledge",
+        "admit",
+        "promise"
+      ],
+      "entry": [
+        {
+          "word": "confess",
+          "reverse_translation": [
+            "ဝန်ခံ"
+          ],
+          "synset_id": [
+            38165
+          ],
+          "score": 0.053832658
+        },
+        {
+          "word": "acknowledge",
+          "reverse_translation": [
+            "ဝန်ခံ"
+          ],
+          "synset_id": [
+            86588
+          ],
+          "score": 0.052998058
+        },
+        {
+          "word": "admit",
+          "reverse_translation": [
+            "ဝင်ခွင့်ပြု",
+            "ဖေြာင့်ဆို"
+          ],
+          "synset_id": [
+            86588
+          ],
+          "score": 0.028367816
+        },
+        {
+          "word": "promise",
+          "reverse_translation": [
+            "ကတိပြု"
+          ]
+        }
+      ],
+      "base_form": "ဝန်ခံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝန်ခံ",
+      "alternative": [
+        {
+          "word_postproc": "confess",
+          "score": 854,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "acknowledge",
+          "score": 145,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "confess that",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "acknowledgeth",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "confessed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဝန်ခံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

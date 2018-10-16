@@ -1,0 +1,163 @@
+{
+  "sentences": [
+    {
+      "trans": "difficult",
+      "orig": "ခက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "difficult",
+        "hard",
+        "tough",
+        "not easy",
+        "stiff"
+      ],
+      "entry": [
+        {
+          "word": "difficult",
+          "reverse_translation": [
+            "ခဲခက်သော"
+          ],
+          "synset_id": [
+            81295
+          ],
+          "score": 0.083377652
+        },
+        {
+          "word": "hard",
+          "reverse_translation": [
+            "ခိုင်မာသော"
+          ],
+          "synset_id": [
+            81295,
+            85587
+          ],
+          "score": 0.075916216
+        },
+        {
+          "word": "tough",
+          "reverse_translation": [
+            "ခိုင်မာသော",
+            "ခဲခက်သော"
+          ],
+          "synset_id": [
+            85587
+          ],
+          "score": 0.0034414066
+        },
+        {
+          "word": "stiff",
+          "reverse_translation": [
+            "တောင့်တင်းသော"
+          ]
+        }
+      ],
+      "base_form": "ခက်",
+      "pos_enum": 3
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "difficulty",
+        "offshoot from the branch",
+        "twig",
+        "spray"
+      ],
+      "entry": [
+        {
+          "word": "difficulty",
+          "reverse_translation": [
+            "အခက်"
+          ],
+          "score": 0.011461634
+        }
+      ],
+      "base_form": "ခက်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "make a network",
+        "weave",
+        "entwine"
+      ],
+      "entry": [
+        {
+          "word": "weave",
+          "reverse_translation": [
+            "ယက်လုပ်"
+          ]
+        }
+      ],
+      "base_form": "ခက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခက်",
+      "alternative": [
+        {
+          "word_postproc": "difficult",
+          "score": 989,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hard",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "difficult to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "harder",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "find it hard",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ခက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

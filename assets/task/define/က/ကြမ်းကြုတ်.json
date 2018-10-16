@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "a cruel",
+      "orig": "ကြမ်းကြုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyam kyuat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be harsh",
+        "cruel",
+        "ferocious"
+      ],
+      "entry": [
+        {
+          "word": "be harsh"
+        },
+        {
+          "word": "cruel"
+        },
+        {
+          "word": "ferocious"
+        }
+      ],
+      "base_form": "ကြမ်းကြုတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြမ်း ကြုတ်",
+      "alternative": [
+        {
+          "word_postproc": "a cruel",
+          "score": 609,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "are cruel",
+          "score": 244,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "They are cruel",
+          "score": 142,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "become cruel",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "has become cruel",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ကြမ်းကြုတ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

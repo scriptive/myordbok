@@ -1,0 +1,119 @@
+{
+  "sentences": [
+    {
+      "trans": "Mark",
+      "orig": "မာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "mar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "hard",
+        "firm",
+        "healthy",
+        "stiff"
+      ],
+      "entry": [
+        {
+          "word": "hard",
+          "reverse_translation": [
+            "ခိုင်မာသော"
+          ],
+          "score": 0.071316682
+        },
+        {
+          "word": "firm",
+          "reverse_translation": [
+            "ခိုင်မာသော"
+          ],
+          "synset_id": [
+            47881
+          ],
+          "score": 0.011108996
+        },
+        {
+          "word": "healthy",
+          "reverse_translation": [
+            "ကျန်းမာသော"
+          ],
+          "score": 0.0050860695
+        },
+        {
+          "word": "stiff",
+          "reverse_translation": [
+            "တောင့်တင်းသော"
+          ],
+          "synset_id": [
+            47881
+          ]
+        }
+      ],
+      "base_form": "မာ",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မာ",
+      "alternative": [
+        {
+          "word_postproc": "Mark",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Macedonia",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Martha",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hard",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Khmer",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "မာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

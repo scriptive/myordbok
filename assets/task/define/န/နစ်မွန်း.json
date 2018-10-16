@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "preoccupied",
+      "orig": "နစ်မွန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "nait mwann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be drowned",
+        "go under",
+        "be ruined",
+        "be completely absorbed,engrossed in"
+      ],
+      "entry": [
+        {
+          "word": "be drowned"
+        },
+        {
+          "word": "go under"
+        },
+        {
+          "word": "be ruined"
+        },
+        {
+          "word": "be completely absorbed,engrossed in"
+        }
+      ],
+      "base_form": "နစ်မွန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နစ် မွန်း",
+      "alternative": [
+        {
+          "word_postproc": "preoccupied",
+          "score": 735,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "drowned",
+          "score": 118,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "preoccupied with",
+          "score": 100,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "are preoccupied with",
+          "score": 42,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "are preoccupied",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "နစ်မွန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

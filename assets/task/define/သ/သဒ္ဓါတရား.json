@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "Generosity",
+      "orig": "သဒ္ဓါတရား",
+      "backend": 0
+    },
+    {
+      "src_translit": "saddhartararr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "faith",
+        "generosity"
+      ],
+      "entry": [
+        {
+          "word": "faith",
+          "reverse_translation": [
+            "ယုံကြည်ခြင်း",
+            "ယုံကြည်စိတ်ချခြင်း"
+          ]
+        },
+        {
+          "word": "generosity",
+          "reverse_translation": [
+            "ရက်ရောခြင်း"
+          ]
+        }
+      ],
+      "base_form": "သဒ္ဓါတရား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သဒ် ဓါ တရား",
+      "alternative": [
+        {
+          "word_postproc": "Generosity",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Faith",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Endowed with faith",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Endowed with faith and",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "သဒ္ဓါတရား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "stick for driving cattle",
+      "orig": "လှင်ကန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lhain kaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "stick for driving cattle"
+      ],
+      "entry": [
+        {
+          "word": "stick for driving cattle"
+        }
+      ],
+      "base_form": "လှင်ကန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လှင် ကန်",
+      "alternative": [
+        {
+          "word_postproc": "stick for driving cattle",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "လှင်ကန်",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

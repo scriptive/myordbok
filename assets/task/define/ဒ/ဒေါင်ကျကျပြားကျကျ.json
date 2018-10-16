@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "Shine",
+      "orig": "ဒေါင်ကျကျပြားကျကျ",
+      "backend": 0
+    },
+    {
+      "src_translit": "daung kyakya pyarr kyakya"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဒေါင် ကျကျ ပြား ကျကျ",
+      "alternative": [
+        {
+          "word_postproc": "Shine",
+          "score": 854,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Come shine",
+          "score": 96,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Rain",
+          "score": 48,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Come rain",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 17
+        }
+      ],
+      "raw_src_segment": "ဒေါင်ကျကျပြားကျကျ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

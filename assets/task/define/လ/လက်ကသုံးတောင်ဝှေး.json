@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Three staff",
+      "orig": "လက်ကသုံးတောင်ဝှေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "laat k sone taung whaayy"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သုံး",
+      "alternative": [
+        {
+          "word_postproc": "Three",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "လက်ကသုံးတောင်ဝှေး",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "တောင် ဝှေး",
+      "alternative": [
+        {
+          "word_postproc": "staff",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 8,
+          "end": 17
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

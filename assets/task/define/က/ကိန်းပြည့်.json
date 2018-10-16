@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "integer",
+      "orig": "ကိန်းပြည့်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kein pyany"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "whole number"
+      ],
+      "entry": [
+        {
+          "word": "whole number"
+        }
+      ],
+      "base_form": "ကိန်းပြည့်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိန်း ပြည့်",
+      "alternative": [
+        {
+          "word_postproc": "integer",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "whole number",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ကိန်းပြည့်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

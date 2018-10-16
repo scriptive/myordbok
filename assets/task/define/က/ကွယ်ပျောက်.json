@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "vanish",
+      "orig": "ကွယ်ပျောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kwal pyawwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "diappear",
+        "vanish"
+      ],
+      "entry": [
+        {
+          "word": "vanish",
+          "reverse_translation": [
+            "ကွယ်ပေျာက်"
+          ]
+        }
+      ],
+      "base_form": "ကွယ်‌ပျောက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကွယ် ပျောက်",
+      "alternative": [
+        {
+          "word_postproc": "vanish",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "vanish from",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "be dissolved",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "will soon disappear",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "vanish away",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ကွယ်ပျောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

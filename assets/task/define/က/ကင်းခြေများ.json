@@ -1,0 +1,65 @@
+{
+  "sentences": [
+    {
+      "trans": "Centipede",
+      "orig": "ကင်းခြေများ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kainn hkyay myarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "centipede"
+      ],
+      "entry": [
+        {
+          "word": "centipede",
+          "reverse_translation": [
+            "ပိုးနသန်းကောင်"
+          ]
+        }
+      ],
+      "base_form": "ကင်းခြေများ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကင်း ခြေ များ",
+      "alternative": [
+        {
+          "word_postproc": "Centipede",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ကင်းခြေများ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

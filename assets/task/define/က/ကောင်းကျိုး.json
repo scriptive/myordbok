@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "The advantage",
+      "orig": "ကောင်းကျိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kaunggkyoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "the good",
+        "reward",
+        "merit",
+        "benefit"
+      ],
+      "entry": [
+        {
+          "word": "reward",
+          "reverse_translation": [
+            "ဆု"
+          ]
+        },
+        {
+          "word": "merit",
+          "reverse_translation": [
+            "ကောင်းမှု"
+          ]
+        },
+        {
+          "word": "benefit",
+          "reverse_translation": [
+            "အကျိုး"
+          ]
+        }
+      ],
+      "base_form": "ကောင်းကျိုး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကောင်းကျိုး",
+      "alternative": [
+        {
+          "word_postproc": "The advantage",
+          "score": 677,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the good",
+          "score": 311,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "good things",
+          "score": 9,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "good things are",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ကောင်းကျိုး",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

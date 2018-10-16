@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "Humidity",
+      "orig": "စို",
+      "backend": 0
+    },
+    {
+      "src_translit": "hco"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "wet",
+        "get wet",
+        "bright"
+      ],
+      "entry": [
+        {
+          "word": "wet",
+          "reverse_translation": [
+            "စိုစွတ်သော"
+          ],
+          "score": 0.046045512
+        },
+        {
+          "word": "bright",
+          "reverse_translation": [
+            "လင်းသော"
+          ]
+        }
+      ],
+      "base_form": "စို",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စို",
+      "alternative": [
+        {
+          "word_postproc": "Humidity",
+          "score": 994,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Moisture",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wet",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "raw",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "soaking",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "စို",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

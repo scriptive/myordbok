@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "Saturday",
+      "orig": "စနေနေ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcanaynae"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "Saturday"
+      ],
+      "entry": [
+        {
+          "word": "Saturday",
+          "reverse_translation": [
+            "စနေနေ့"
+          ],
+          "score": 0.37367269
+        }
+      ],
+      "base_form": "စနေနေ့",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စနေနေ့",
+      "alternative": [
+        {
+          "word_postproc": "Saturday",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of Saturday's",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "on Saturday",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of Saturday",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "စနေနေ့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

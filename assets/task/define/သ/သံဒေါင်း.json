@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "DOWNLOAD",
+      "orig": "သံဒေါင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "san daungg"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "one twelfth of ရာဟု"
+      ],
+      "entry": [
+        {
+          "word": "one twelfth of ရာဟု"
+        }
+      ],
+      "base_form": "သံဒေါင်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဒေါင်း",
+      "alternative": [
+        {
+          "word_postproc": "DOWNLOAD",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "peacock",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "peacocks",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "သံဒေါင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

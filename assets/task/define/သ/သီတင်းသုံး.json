@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "week",
+      "orig": "သီတင်းသုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "setainnsone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "live, reside,stay at a certain place"
+      ],
+      "entry": [
+        {
+          "word": "live, reside,stay at a certain place"
+        }
+      ],
+      "base_form": "သီတင်းသုံး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သီတင်းသုံး",
+      "alternative": [
+        {
+          "word_postproc": "week",
+          "score": 981,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "last",
+          "score": 17,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "after",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "သီတင်းသုံး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

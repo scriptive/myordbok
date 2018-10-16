@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "မျှဉ်း",
+      "orig": "မျှဉ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "myahain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "take one's time do things slowly and deliberately"
+      ],
+      "entry": [
+        {
+          "word": "take one's time do things slowly and deliberately"
+        }
+      ],
+      "base_form": "မျှဉ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မျှဉ်း",
+      "alternative": [
+        {
+          "word_postproc": "မျှဉ်း",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "မျှဉ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

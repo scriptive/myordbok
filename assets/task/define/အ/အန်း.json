@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "trans": "Anne",
+      "orig": "အန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "aaann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "swell slightly"
+      ],
+      "entry": [
+        {
+          "word": "swell slightly",
+          "score": 0.0078774579
+        }
+      ],
+      "base_form": "အန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အန်း",
+      "alternative": [
+        {
+          "word_postproc": "Anne",
+          "score": 892,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Ang",
+          "score": 64,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Ann",
+          "score": 42,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "အန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

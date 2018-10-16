@@ -1,0 +1,101 @@
+{
+  "sentences": [
+    {
+      "trans": "blocks",
+      "orig": "ဘလောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "bhalout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "block",
+        "blouse"
+      ],
+      "entry": [
+        {
+          "word": "block",
+          "reverse_translation": [
+            "အတုံး"
+          ],
+          "synset_id": [
+            4841
+          ],
+          "score": 0.14633234
+        },
+        {
+          "word": "blouse",
+          "reverse_translation": [
+            "အလုပ်အင်္ကျ ီ"
+          ],
+          "score": 0.020754337
+        }
+      ],
+      "base_form": "ဘလောက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘလောက်",
+      "alternative": [
+        {
+          "word_postproc": "blocks",
+          "score": 728,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "block",
+          "score": 161,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Blogger",
+          "score": 15,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "blog",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "blouse",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဘလောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

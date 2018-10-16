@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Silt",
+      "orig": "ဧည့်မြေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "e i  myay"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "silt",
+        "2 .landfill"
+      ],
+      "entry": [
+        {
+          "word": "silt"
+        },
+        {
+          "word": "2 .landfill"
+        }
+      ],
+      "base_form": "ဧည့်မြေ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဧ ည့ ် မြေ",
+      "alternative": [
+        {
+          "word_postproc": "Silt",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "ဧည့်မြေ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "sentences": [
+    {
+      "trans": "the string",
+      "orig": "ညှို့",
+      "backend": 0
+    },
+    {
+      "src_translit": "nyhahoet"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "hypnotize",
+        "mesmerize",
+        "charm"
+      ],
+      "entry": [
+        {
+          "word": "hypnotize",
+          "reverse_translation": [
+            "အိပ်မေွ့ချ"
+          ],
+          "synset_id": [
+            39125
+          ],
+          "score": 0.030672923
+        }
+      ],
+      "base_form": "ညှို့",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ညှို့",
+      "alternative": [
+        {
+          "word_postproc": "the string",
+          "score": 346,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hypnotize",
+          "score": 256,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fascination",
+          "score": 169,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "mesmerize",
+          "score": 49,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ညှို့",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

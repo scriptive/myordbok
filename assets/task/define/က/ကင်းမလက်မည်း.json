@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "Black scorpion",
+      "orig": "ကင်းမလက်မည်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "kainn m laat maee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "black-earth scorpion"
+      ],
+      "entry": [
+        {
+          "word": "black-earth scorpion"
+        }
+      ],
+      "base_form": "ကင်းမလက်မည်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မည်း",
+      "alternative": [
+        {
+          "word_postproc": "Black",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 8,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ကင်းမလက်မည်း",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ကင်း မ လက်",
+      "alternative": [
+        {
+          "word_postproc": "scorpion",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

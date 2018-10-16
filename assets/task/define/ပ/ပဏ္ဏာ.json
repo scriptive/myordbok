@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "present",
+      "orig": "ပဏ္ဏာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pan nar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "gift",
+        "present"
+      ],
+      "entry": [
+        {
+          "word": "gift",
+          "reverse_translation": [
+            "လက်ဆောင်ပစ္စည်း"
+          ]
+        },
+        {
+          "word": "present",
+          "reverse_translation": [
+            "လက်ဆောင်"
+          ]
+        }
+      ],
+      "base_form": "ပဏ္ဏာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပဏ္ ဏာ",
+      "alternative": [
+        {
+          "word_postproc": "present",
+          "score": 978,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "gift",
+          "score": 21,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ပဏ္ဏာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

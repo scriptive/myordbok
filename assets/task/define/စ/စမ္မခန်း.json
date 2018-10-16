@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "စမ္",
+      "orig": "စမ္မခန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcam m hkaann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "planet assigned to one's birthday"
+      ],
+      "entry": [
+        {
+          "word": "planet assigned to one's birthday"
+        }
+      ],
+      "base_form": "စမ္မခန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စမ္",
+      "alternative": [
+        {
+          "word_postproc": "စမ္",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "စမ္မခန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

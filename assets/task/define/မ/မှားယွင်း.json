@@ -1,0 +1,103 @@
+{
+  "sentences": [
+    {
+      "trans": "go astray",
+      "orig": "မှားယွင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "mharywin"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "err",
+        "make a mistake",
+        "do wrong",
+        "go wrong",
+        "violate social taboos concerning sex"
+      ],
+      "entry": [
+        {
+          "word": "err",
+          "score": 0.016418032
+        },
+        {
+          "word": "make a mistake"
+        },
+        {
+          "word": "do wrong"
+        },
+        {
+          "word": "go wrong"
+        },
+        {
+          "word": "violate social taboos concerning sex"
+        }
+      ],
+      "base_form": "မှားယွင်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မှားယွင်း",
+      "alternative": [
+        {
+          "word_postproc": "go astray",
+          "score": 676,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "whoring",
+          "score": 254,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in error",
+          "score": 45,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "prostituted",
+          "score": 20,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a whoring",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "မှားယွင်း",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

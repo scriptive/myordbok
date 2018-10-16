@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "Buffalo grain",
+      "orig": "ငကျွဲစပါး",
+      "backend": 0
+    },
+    {
+      "src_translit": "ng kyawal hcaparr"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျွဲ",
+      "alternative": [
+        {
+          "word_postproc": "Buffalo",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ငကျွဲစပါး",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "စပါး",
+      "alternative": [
+        {
+          "word_postproc": "grain",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "corn",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "paddy",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 9
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

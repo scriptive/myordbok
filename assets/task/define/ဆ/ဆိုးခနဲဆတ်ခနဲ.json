@@ -1,0 +1,75 @@
+{
+  "sentences": [
+    {
+      "trans": "Abruptly",
+      "orig": "ဆိုးခနဲဆတ်ခနဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "soe hk nell saathkanell"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "abruptly",
+        "suddenly"
+      ],
+      "entry": [
+        {
+          "word": "suddenly",
+          "reverse_translation": [
+            "ရုတ်တရက်"
+          ],
+          "synset_id": [
+            20222
+          ]
+        }
+      ],
+      "base_form": "ဆိုးခနဲဆတ်ခနဲ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆိုး ခ နဲ ဆတ်ခနဲ",
+      "alternative": [
+        {
+          "word_postproc": "Abruptly",
+          "score": 958,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Suddenly",
+          "score": 41,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ဆိုးခနဲဆတ်ခနဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

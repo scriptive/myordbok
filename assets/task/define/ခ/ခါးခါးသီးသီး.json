@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "bitterly",
+      "orig": "ခါးခါးသီးသီး",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkarrhkarrseesee"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "bitterly",
+        "rudely",
+        "inconsiderately"
+      ],
+      "entry": [
+        {
+          "word": "bitterly",
+          "score": 0.20636167
+        },
+        {
+          "word": "rudely",
+          "score": 0.02426428
+        },
+        {
+          "word": "inconsiderately",
+          "score": 0.02426428
+        }
+      ],
+      "base_form": "ခါးခါးသီးသီး",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခါးခါးသီးသီး",
+      "alternative": [
+        {
+          "word_postproc": "bitterly",
+          "score": 689,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "inconsiderately",
+          "score": 308,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bitter",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "rudely",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "particularly bitter",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ခါးခါးသီးသီး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

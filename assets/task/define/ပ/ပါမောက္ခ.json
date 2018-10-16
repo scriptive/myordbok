@@ -1,0 +1,109 @@
+{
+  "sentences": [
+    {
+      "trans": "professor",
+      "orig": "ပါမောက္ခ",
+      "backend": 0
+    },
+    {
+      "src_translit": "parmawkhk"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "professor",
+        "chief",
+        "head"
+      ],
+      "entry": [
+        {
+          "word": "professor",
+          "reverse_translation": [
+            "ပါမောက္ခ",
+            "ပါမောက္ခ"
+          ],
+          "synset_id": [
+            52961
+          ],
+          "score": 0.21291229
+        },
+        {
+          "word": "chief",
+          "reverse_translation": [
+            "ခေါင်းဆောင်",
+            "ခေါင်းဆောင်ကြီး"
+          ],
+          "synset_id": [
+            57117
+          ]
+        },
+        {
+          "word": "head",
+          "reverse_translation": [
+            "ဉီးခေါင်း"
+          ],
+          "synset_id": [
+            57117
+          ]
+        }
+      ],
+      "base_form": "ပါမောက္ခ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပါမောက္ခ",
+      "alternative": [
+        {
+          "word_postproc": "professor",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a professor",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Prof",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "by Professor",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ပါမောက္ခ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

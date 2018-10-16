@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "What",
+      "orig": "ဘာ",
+      "backend": 1
+    },
+    {
+      "src_translit": "bhar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "pronoun",
+      "terms": [
+        "what"
+      ],
+      "entry": [
+        {
+          "word": "what",
+          "reverse_translation": [
+            "မည်သည့်အရာ"
+          ],
+          "score": 0.10215643
+        }
+      ],
+      "base_form": "ဘာ",
+      "pos_enum": 8
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘာ",
+      "alternative": [
+        {
+          "word_postproc": "What",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ဘာ",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

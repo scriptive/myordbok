@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "Beer all",
+      "orig": "ဗေလုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "bay lone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "enlargement of the spleen caused by repeated malaria infection"
+      ],
+      "entry": [
+        {
+          "word": "enlargement of the spleen caused by repeated malaria infection"
+        }
+      ],
+      "base_form": "ဗေလုံး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗေ",
+      "alternative": [
+        {
+          "word_postproc": "Beer",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of Beer",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ဗေလုံး",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "လုံး",
+      "alternative": [
+        {
+          "word_postproc": "all",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "both",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "whole",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 6
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

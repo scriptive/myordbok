@@ -1,0 +1,76 @@
+{
+  "sentences": [
+    {
+      "trans": "pennant",
+      "orig": "တံခွန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "tan hkwan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "pennant",
+        "penon",
+        "pennant-like ligatureplaced on top of the final consonant to delete the vowel sound အ/a./"
+      ],
+      "entry": [
+        {
+          "word": "pennant"
+        },
+        {
+          "word": "penon"
+        },
+        {
+          "word": "pennant-like ligatureplaced on top of the final consonant to delete the vowel sound အ/a./"
+        }
+      ],
+      "base_form": "တံခွန်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တံ ခွန်",
+      "alternative": [
+        {
+          "word_postproc": "pennant",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "penon",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "တံခွန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

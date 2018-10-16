@@ -1,0 +1,70 @@
+{
+  "sentences": [
+    {
+      "trans": "Spring",
+      "orig": "စိမ့်စမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "hci m  hcam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "spring"
+      ],
+      "entry": [
+        {
+          "word": "spring",
+          "reverse_translation": [
+            "ညွှတ်သံခေွ",
+            "နေွဉီးရာသီ",
+            "စိမ့်စမ်း"
+          ],
+          "synset_id": [
+            26880
+          ]
+        }
+      ],
+      "base_form": "စိမ့်စမ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စိ မ့ ် စမ်း",
+      "alternative": [
+        {
+          "word_postproc": "Spring",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "စိမ့်စမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

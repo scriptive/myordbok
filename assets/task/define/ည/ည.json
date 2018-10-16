@@ -1,0 +1,70 @@
+{
+  "sentences": [
+    {
+      "trans": "night",
+      "orig": "ည",
+      "backend": 1
+    },
+    {
+      "src_translit": "ny"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "night",
+        "tenth letter of the Myanmar alphabet"
+      ],
+      "entry": [
+        {
+          "word": "night",
+          "reverse_translation": [
+            "ည"
+          ],
+          "synset_id": [
+            14531
+          ],
+          "score": 0.12913783
+        }
+      ],
+      "base_form": "ည",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ည",
+      "alternative": [
+        {
+          "word_postproc": "night",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 1
+        }
+      ],
+      "raw_src_segment": "ည",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

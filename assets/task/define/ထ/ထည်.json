@@ -1,0 +1,114 @@
+{
+  "sentences": [
+    {
+      "trans": "ware",
+      "orig": "ထည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "htai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "fabric",
+        "ware",
+        "material",
+        "material form",
+        "article",
+        "textile"
+      ],
+      "entry": [
+        {
+          "word": "fabric",
+          "reverse_translation": [
+            "အထည်အလိပ်"
+          ],
+          "synset_id": [
+            101411
+          ],
+          "score": 0.016939197
+        },
+        {
+          "word": "material",
+          "reverse_translation": [
+            "ဝတ္တု"
+          ],
+          "synset_id": [
+            101411
+          ],
+          "score": 0.0059462176
+        },
+        {
+          "word": "article",
+          "reverse_translation": [
+            "ဆောင်းပါး"
+          ]
+        }
+      ],
+      "base_form": "ထည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထည်",
+      "alternative": [
+        {
+          "word_postproc": "ware",
+          "score": 552,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "volume",
+          "score": 259,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cloth",
+          "score": 106,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hull",
+          "score": 57,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fabric",
+          "score": 21,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ထည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

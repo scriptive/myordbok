@@ -1,0 +1,103 @@
+{
+  "sentences": [
+    {
+      "trans": "Disruption",
+      "orig": "အနှောင့်အယှက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "a nhaaw in  aayhaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "disturbance",
+        "trouble",
+        "interference"
+      ],
+      "entry": [
+        {
+          "word": "disturbance",
+          "reverse_translation": [
+            "မေွှနေှာက်ခြင်း"
+          ],
+          "synset_id": [
+            60059
+          ]
+        },
+        {
+          "word": "trouble",
+          "reverse_translation": [
+            "ဒုက္ခ"
+          ]
+        },
+        {
+          "word": "interference",
+          "reverse_translation": [
+            "ရေဒီယိုအသံအနေှာင့်အယှက်"
+          ],
+          "synset_id": [
+            60059
+          ]
+        }
+      ],
+      "base_form": "အနှောင့်အယှက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နှော င့ ် အယှက်",
+      "alternative": [
+        {
+          "word_postproc": "Disruption",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Harass",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Interfere with",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Harassed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "အနှောင့်အယှက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

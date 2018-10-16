@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "Tellingly, the eunuch",
+      "orig": "နပုန်းပဏ္ဍုက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "n pone pan duat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "person of uncertain gender"
+      ],
+      "entry": [
+        {
+          "word": "person of uncertain gender"
+        }
+      ],
+      "base_form": "နပုန်းပဏ္ဍုက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပုန်း",
+      "alternative": [
+        {
+          "word_postproc": "Tellingly, the",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "နပုန်းပဏ္ဍုက်",
+      "start_pos": 0,
+      "end_pos": 3
+    },
+    {
+      "src_phrase": "ပဏ္ ဍုက်",
+      "alternative": [
+        {
+          "word_postproc": "eunuch",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 13
+        }
+      ],
+      "start_pos": 3,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Tight",
+      "orig": "အသိပ်အနှက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "a siut a nhaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "tight"
+      ],
+      "entry": [
+        {
+          "word": "tight"
+        }
+      ],
+      "base_form": "အသိပ်အနှက်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အ သိပ် အ နှက်",
+      "alternative": [
+        {
+          "word_postproc": "Tight",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "အသိပ်အနှက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

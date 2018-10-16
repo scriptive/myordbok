@@ -1,0 +1,146 @@
+{
+  "sentences": [
+    {
+      "trans": "bad",
+      "orig": "ဆိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "soe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "evil",
+        "bad",
+        "wicked",
+        "serious",
+        "naughty",
+        "mischievous",
+        "critical",
+        "foul"
+      ],
+      "entry": [
+        {
+          "word": "evil",
+          "reverse_translation": [
+            "ဆိုးသော"
+          ],
+          "score": 0.11396374
+        },
+        {
+          "word": "bad",
+          "reverse_translation": [
+            "ဆိုးသော"
+          ],
+          "score": 0.10705902
+        },
+        {
+          "word": "wicked",
+          "reverse_translation": [
+            "ဆိုးသော"
+          ],
+          "synset_id": [
+            47651,
+            106173
+          ],
+          "score": 0.082084998
+        },
+        {
+          "word": "serious",
+          "reverse_translation": [
+            "လေးနက်သော"
+          ],
+          "score": 0.0025574362
+        },
+        {
+          "word": "critical",
+          "reverse_translation": [
+            "ဝေဖန်ရေးသဘောရှိသော"
+          ]
+        }
+      ],
+      "base_form": "ဆိုး",
+      "pos_enum": 3
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "dye",
+        "colour",
+        "stain"
+      ],
+      "entry": [
+        {
+          "word": "dye",
+          "reverse_translation": [
+            "ဆေးဆိုး"
+          ]
+        }
+      ],
+      "base_form": "ဆိုး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆိုး",
+      "alternative": [
+        {
+          "word_postproc": "bad",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Wicked",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "evil",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the bad",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "that evil",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဆိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

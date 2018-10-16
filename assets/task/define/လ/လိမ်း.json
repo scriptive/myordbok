@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "anointing",
+      "orig": "လိမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "laim"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "apply",
+        "smear",
+        "paint",
+        "become slurred"
+      ],
+      "entry": [
+        {
+          "word": "apply",
+          "reverse_translation": [
+            "လေှျာက်တောင်း"
+          ],
+          "score": 0.0057632714
+        },
+        {
+          "word": "smear",
+          "reverse_translation": [
+            "သုတ်လိမ်း"
+          ]
+        },
+        {
+          "word": "paint",
+          "reverse_translation": [
+            "ပန်းချီရေးဆဲွ"
+          ]
+        }
+      ],
+      "base_form": "လိမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လိမ်း",
+      "alternative": [
+        {
+          "word_postproc": "anointing",
+          "score": 681,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "anoint",
+          "score": 147,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the anointing",
+          "score": 122,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and anoint",
+          "score": 27,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and anointed",
+          "score": 20,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "လိမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

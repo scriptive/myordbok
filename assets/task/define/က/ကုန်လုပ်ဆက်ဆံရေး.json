@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Production relations",
+      "orig": "ကုန်လုပ်ဆက်ဆံရေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kone lote saatsanrayy"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "production relations"
+      ],
+      "entry": [
+        {
+          "word": "production relations"
+        }
+      ],
+      "base_form": "ကုန်လုပ်ဆက်ဆံရေး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကုန် လုပ် ဆက်ဆံရေး",
+      "alternative": [
+        {
+          "word_postproc": "Production relations",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 16
+        }
+      ],
+      "raw_src_segment": "ကုန်လုပ်ဆက်ဆံရေး",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

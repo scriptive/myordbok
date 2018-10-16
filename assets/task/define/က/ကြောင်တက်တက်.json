@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "daze",
+      "orig": "ကြောင်တက်တက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaung taattaat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "in a daze",
+        "in a befuddled state",
+        "out of place"
+      ],
+      "entry": [
+        {
+          "word": "in a daze"
+        },
+        {
+          "word": "in a befuddled state"
+        },
+        {
+          "word": "out of place"
+        }
+      ],
+      "base_form": "ကြောင်တက်တက်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြောင် တက်တက်",
+      "alternative": [
+        {
+          "word_postproc": "daze",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "out of place",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a daze",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "befuddled state",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a befuddled state",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ကြောင်တက်တက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

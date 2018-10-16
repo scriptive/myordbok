@@ -1,0 +1,63 @@
+{
+  "sentences": [
+    {
+      "trans": "all manner of things",
+      "orig": "ထွေလီကာလီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "htwaylekarle"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "all manner of things"
+      ],
+      "entry": [
+        {
+          "word": "all manner of things",
+          "score": 0.18211353
+        }
+      ],
+      "base_form": "ထွေလီကာလီ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထွေလီကာလီ",
+      "alternative": [
+        {
+          "word_postproc": "all manner of things",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ထွေလီကာလီ",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

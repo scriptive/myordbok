@@ -1,0 +1,154 @@
+{
+  "sentences": [
+    {
+      "trans": "event",
+      "orig": "ပွဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "pwal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "festival",
+        "public function",
+        "communal event",
+        "mass celebration",
+        "public entertainment",
+        "show open to all",
+        "fair",
+        "meet",
+        "contest",
+        "action",
+        "mêle'e",
+        "offertory",
+        "oblation",
+        "course",
+        "entre'e",
+        "dish"
+      ],
+      "entry": [
+        {
+          "word": "festival",
+          "reverse_translation": [
+            "ပဲွတော်ကြီး"
+          ],
+          "score": 0.0090668984
+        },
+        {
+          "word": "fair",
+          "reverse_translation": [
+            "စေျးပြပဲွ",
+            "ရွှင်လန်းစရာ"
+          ]
+        },
+        {
+          "word": "action",
+          "reverse_translation": [
+            "လှုပ်ရှားခြင်း"
+          ]
+        },
+        {
+          "word": "course",
+          "reverse_translation": [
+            "လမ်းကေြာင်း နှစ်"
+          ]
+        },
+        {
+          "word": "dish",
+          "reverse_translation": [
+            "ဟင်း"
+          ]
+        }
+      ],
+      "base_form": "ပွဲ",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "cease",
+        "come to an end",
+        "close"
+      ],
+      "entry": [
+        {
+          "word": "cease",
+          "reverse_translation": [
+            "ရပ်စဲ"
+          ]
+        },
+        {
+          "word": "close",
+          "reverse_translation": [
+            "ပိတ်"
+          ]
+        }
+      ],
+      "base_form": "ပွဲ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပွဲ",
+      "alternative": [
+        {
+          "word_postproc": "event",
+          "score": 936,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "table",
+          "score": 39,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Festival",
+          "score": 18,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "feast",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Ceremony",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ပွဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

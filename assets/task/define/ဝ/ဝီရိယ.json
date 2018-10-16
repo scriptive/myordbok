@@ -1,0 +1,104 @@
+{
+  "sentences": [
+    {
+      "trans": "industrious",
+      "orig": "ဝီရိယ",
+      "backend": 0
+    },
+    {
+      "src_translit": "weriy"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "effort",
+        "striving",
+        "endeavour"
+      ],
+      "entry": [
+        {
+          "word": "effort",
+          "reverse_translation": [
+            "ကြိုးပမ်းခြင်း"
+          ],
+          "synset_id": [
+            76031
+          ],
+          "score": 0.0095020281
+        },
+        {
+          "word": "endeavour",
+          "reverse_translation": [
+            "ကြိုးစားခြင်း"
+          ],
+          "synset_id": [
+            76031
+          ]
+        }
+      ],
+      "base_form": "ဝီရိယ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝီရိယ",
+      "alternative": [
+        {
+          "word_postproc": "industrious",
+          "score": 980,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Countless",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Happiest",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "diligent",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cherishing",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဝီရိယ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

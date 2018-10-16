@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "Zar",
+      "orig": "ဇာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "jar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "lace",
+        "netting"
+      ],
+      "entry": [
+        {
+          "word": "lace",
+          "reverse_translation": [
+            "ထိုးဇါ"
+          ],
+          "score": 0.0054993522
+        }
+      ],
+      "base_form": "ဇာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဇာ",
+      "alternative": [
+        {
+          "word_postproc": "Zar",
+          "score": 619,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lace",
+          "score": 267,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Zechariah",
+          "score": 106,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Eleazar",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the origin",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ဇာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

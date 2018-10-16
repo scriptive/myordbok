@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "Glass glass",
+      "orig": "ဖန်တလီဖန်တလာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpaan t le hpaan t lar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "endearingly"
+      ],
+      "entry": [
+        {
+          "word": "endearingly"
+        }
+      ],
+      "base_form": "ဖန်တလီဖန်တလာ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖန်",
+      "alternative": [
+        {
+          "word_postproc": "Glass",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဖန်တလီဖန်တလာ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဖန်",
+      "alternative": [
+        {
+          "word_postproc": "glass",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 9
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

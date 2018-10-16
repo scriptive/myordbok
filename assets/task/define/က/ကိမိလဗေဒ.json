@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Entomology",
+      "orig": "ကိမိလဗေဒ",
+      "backend": 0
+    },
+    {
+      "src_translit": "ki mi l bayd"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "entomology"
+      ],
+      "entry": [
+        {
+          "word": "entomology"
+        }
+      ],
+      "base_form": "ကိမိလဗေဒ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိ မိ လ ဗေဒ",
+      "alternative": [
+        {
+          "word_postproc": "Entomology",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကိမိလဗေဒ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "sentences": [
+    {
+      "trans": "Luke",
+      "orig": "လု",
+      "backend": 0
+    },
+    {
+      "src_translit": "lu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "take by force",
+        "rob",
+        "usurp",
+        "snatch",
+        "vie for",
+        "jostle to gain an advantage",
+        "particle suffixed to verbs to convey the meaning of nearly, \"about to.\""
+      ],
+      "entry": [
+        {
+          "word": "rob",
+          "reverse_translation": [
+            "လုယက်"
+          ]
+        }
+      ],
+      "base_form": "လု",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လု",
+      "alternative": [
+        {
+          "word_postproc": "Luke",
+          "score": 967,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "actions",
+          "score": 14,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "almost",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ready",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "had",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "လု",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

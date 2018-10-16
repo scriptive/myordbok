@@ -1,0 +1,102 @@
+{
+  "sentences": [
+    {
+      "trans": "The measure",
+      "orig": "အတိုင်းအရှည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aatine aashi"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "extent",
+        "measure"
+      ],
+      "entry": [
+        {
+          "word": "extent",
+          "reverse_translation": [
+            "အကျယ်အဝန်း"
+          ],
+          "synset_id": [
+            5212
+          ]
+        },
+        {
+          "word": "measure",
+          "reverse_translation": [
+            "အတိုင်းအတာ"
+          ],
+          "synset_id": [
+            22405
+          ]
+        }
+      ],
+      "base_form": "အတိုင်းအရှည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အတိုင်း အရှည်",
+      "alternative": [
+        {
+          "word_postproc": "The measure",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "measureless",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Their measure",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The measure of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Its measure",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "အတိုင်းအရှည်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

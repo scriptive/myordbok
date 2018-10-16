@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "tumor",
+      "orig": "ကျိတ်နာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaate nar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "tumour on the lower jaw",
+        "black-quarter disease"
+      ],
+      "entry": [
+        {
+          "word": "tumour on the lower jaw"
+        },
+        {
+          "word": "black-quarter disease"
+        }
+      ],
+      "base_form": "ကျိတ်နာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျိတ်",
+      "alternative": [
+        {
+          "word_postproc": "tumor",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tumors",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကျိတ်နာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

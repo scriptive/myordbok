@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "low",
+      "orig": "နည်းပါး",
+      "backend": 0
+    },
+    {
+      "src_translit": "naeeparr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "few",
+        "little",
+        "scant"
+      ],
+      "entry": [
+        {
+          "word": "few",
+          "reverse_translation": [
+            "နည်းသော"
+          ],
+          "score": 0.036998607
+        },
+        {
+          "word": "little",
+          "reverse_translation": [
+            "သေးငယ်သော"
+          ],
+          "score": 0.034218118
+        }
+      ],
+      "base_form": "နည်းပါး",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နည်းပါး",
+      "alternative": [
+        {
+          "word_postproc": "low",
+          "score": 990,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "lower",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "less",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "very low",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the low",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "နည်းပါး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

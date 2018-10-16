@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Narrow spot",
+      "orig": "နံကျဉ်းနံကျယ်နံပြောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nan kyain nan kyaal nan pyawwat"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျဉ်း",
+      "alternative": [
+        {
+          "word_postproc": "Narrow",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 2,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "နံကျဉ်းနံကျယ်နံပြောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ပြောက်",
+      "alternative": [
+        {
+          "word_postproc": "spot",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "spots",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 15,
+          "end": 21
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

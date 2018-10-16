@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "Nyein",
+      "orig": "ငြိမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "ngyaaim"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "die out",
+        "be extinguished",
+        "come to an end",
+        "be free"
+      ],
+      "entry": [
+        {
+          "word": "die out"
+        },
+        {
+          "word": "be extinguished"
+        },
+        {
+          "word": "come to an end"
+        },
+        {
+          "word": "be free"
+        }
+      ],
+      "base_form": "ငြိမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ငြိမ်း",
+      "alternative": [
+        {
+          "word_postproc": "Nyein",
+          "score": 644,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "to cease",
+          "score": 254,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cease",
+          "score": 80,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Retd",
+          "score": 14,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "peace in",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ငြိမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

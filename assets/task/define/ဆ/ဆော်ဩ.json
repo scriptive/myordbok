@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "convener",
+      "orig": "ဆော်ဩ",
+      "backend": 0
+    },
+    {
+      "src_translit": "saw au"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "convene",
+        "summon",
+        "urge generally"
+      ],
+      "entry": [
+        {
+          "word": "convene",
+          "reverse_translation": [
+            "စည်းဝေး"
+          ]
+        },
+        {
+          "word": "summon",
+          "reverse_translation": [
+            "ဆင့်ခေါ်"
+          ]
+        }
+      ],
+      "base_form": "ဆော်ဩ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆော် ဩ",
+      "alternative": [
+        {
+          "word_postproc": "convener",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "organizer",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "convene",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "summon",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "urge generally",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဆော်ဩ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

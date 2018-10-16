@@ -1,0 +1,87 @@
+{
+  "sentences": [
+    {
+      "trans": "thickly",
+      "orig": "ဖုန်ဖုန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpone hpone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "thickly"
+      ],
+      "entry": [
+        {
+          "word": "thickly"
+        }
+      ],
+      "base_form": "ဖုန်ဖုန်",
+      "pos_enum": 4
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "distinct"
+      ],
+      "entry": [
+        {
+          "word": "distinct"
+        }
+      ],
+      "base_form": "ဖုန်ဖုန်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖုန် ဖုန်",
+      "alternative": [
+        {
+          "word_postproc": "thickly",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "trodden",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "distinct",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဖုန်ဖုန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

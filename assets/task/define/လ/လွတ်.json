@@ -1,0 +1,153 @@
+{
+  "sentences": [
+    {
+      "trans": "escape",
+      "orig": "လွတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "lwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "escape",
+        "miss",
+        "be free from",
+        "be exempt",
+        "be free from restrictions",
+        "be set free",
+        "be out of control",
+        "clear",
+        "be clear of"
+      ],
+      "entry": [
+        {
+          "word": "escape",
+          "reverse_translation": [
+            "ထွက်ပေြး"
+          ],
+          "synset_id": [
+            93656
+          ],
+          "score": 0.03758125
+        },
+        {
+          "word": "miss",
+          "reverse_translation": [
+            "နောက်ကျ",
+            "လွမ်း",
+            "လဲွ",
+            "လဲွ"
+          ],
+          "synset_id": [
+            93656
+          ],
+          "score": 0.0031827807
+        },
+        {
+          "word": "clear",
+          "reverse_translation": [
+            "ရှင်းလင်း ကြိ"
+          ]
+        }
+      ],
+      "base_form": "‌လွတ်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "empty",
+        "blank",
+        "free of",
+        "vacant"
+      ],
+      "entry": [
+        {
+          "word": "empty",
+          "reverse_translation": [
+            "ဗလာဖြစ်သော"
+          ],
+          "score": 0.015666196
+        },
+        {
+          "word": "blank",
+          "reverse_translation": [
+            "ဗလာဖြစ်သော"
+          ],
+          "score": 0.014488863
+        },
+        {
+          "word": "vacant",
+          "reverse_translation": [
+            "လစ်လပ်သော"
+          ]
+        }
+      ],
+      "base_form": "‌လွတ်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လွတ်",
+      "alternative": [
+        {
+          "word_postproc": "escape",
+          "score": 725,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "blank",
+          "score": 221,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "escaped",
+          "score": 21,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "have escaped",
+          "score": 20,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "freelancers",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "လွတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

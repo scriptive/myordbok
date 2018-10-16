@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "many pre",
+      "orig": "ခေတ်ကြို",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkayat kyao"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "preliminary period of certain important era"
+      ],
+      "entry": [
+        {
+          "word": "preliminary period of certain important era"
+        }
+      ],
+      "base_form": "ခေတ်ကြို",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခေတ် ကြို",
+      "alternative": [
+        {
+          "word_postproc": "many pre",
+          "score": 929,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pre",
+          "score": 70,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ခေတ်ကြို",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

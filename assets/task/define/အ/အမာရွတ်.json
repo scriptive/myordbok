@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "scar",
+      "orig": "အမာရွတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aamarrwat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "scar"
+      ],
+      "entry": [
+        {
+          "word": "scar",
+          "reverse_translation": [
+            "အနာရွတ်"
+          ],
+          "score": 0.28206295
+        }
+      ],
+      "base_form": "အမာရွတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အမာရွတ်",
+      "alternative": [
+        {
+          "word_postproc": "scar",
+          "score": 974,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Scars",
+          "score": 19,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the scar",
+          "score": 5,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "scar on",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "အမာရွတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "sentences": [
+    {
+      "trans": "Latvia",
+      "orig": "လတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "laat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "medium",
+        "middle",
+        "fresh",
+        "fair"
+      ],
+      "entry": [
+        {
+          "word": "medium",
+          "reverse_translation": [
+            "အလယ်အလတ်ဖြစ်သော"
+          ],
+          "score": 0.070211023
+        },
+        {
+          "word": "middle",
+          "reverse_translation": [
+            "အလယ်"
+          ],
+          "score": 0.01720595
+        },
+        {
+          "word": "fresh",
+          "reverse_translation": [
+            "လတ်ဆတ်သော"
+          ],
+          "score": 0.011642128
+        },
+        {
+          "word": "fair",
+          "reverse_translation": [
+            "မှန်ကန်သော",
+            "လှပသော"
+          ],
+          "synset_id": [
+            963
+          ]
+        }
+      ],
+      "base_form": "လတ်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လတ်",
+      "alternative": [
+        {
+          "word_postproc": "Latvia",
+          "score": 972,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "medium",
+          "score": 20,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Latt",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the medium",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "medium-",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "လတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

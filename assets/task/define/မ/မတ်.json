@@ -1,0 +1,130 @@
+{
+  "sentences": [
+    {
+      "trans": "March",
+      "orig": "မတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "maat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "March",
+        "younger brother of one's husband",
+        "husband of one's younger sister, one's brother-in-law",
+        "mark",
+        "a quarter",
+        "brother-in-law"
+      ],
+      "entry": [
+        {
+          "word": "March",
+          "reverse_translation": [
+            "မတ်လ"
+          ],
+          "score": 0.13323711
+        },
+        {
+          "word": "mark",
+          "reverse_translation": [
+            "အမှတ်"
+          ]
+        },
+        {
+          "word": "brother-in-law",
+          "reverse_translation": [
+            "ခဲအို",
+            "ခဲအို",
+            "မတ်",
+            "မယားညီအစ်ကို"
+          ]
+        }
+      ],
+      "base_form": "မတ်",
+      "pos_enum": 1
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "upright",
+        "vertical"
+      ],
+      "entry": [
+        {
+          "word": "vertical",
+          "reverse_translation": [
+            "တည့်မတ်သော"
+          ],
+          "synset_id": [
+            102732
+          ]
+        }
+      ],
+      "base_form": "မတ်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မတ်",
+      "alternative": [
+        {
+          "word_postproc": "March",
+          "score": 987,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Smart",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "upright",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of March",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "on March",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "မတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "debt",
+      "orig": "ကြွေးမြီ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyawaymye"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "debt"
+      ],
+      "entry": [
+        {
+          "word": "debt",
+          "reverse_translation": [
+            "ကေြွး"
+          ],
+          "score": 0.44374731
+        }
+      ],
+      "base_form": "ကြွေးမြီ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြွေးမြီ",
+      "alternative": [
+        {
+          "word_postproc": "debt",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "debt was",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကြွေးမြီ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

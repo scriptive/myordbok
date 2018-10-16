@@ -1,0 +1,131 @@
+{
+  "sentences": [
+    {
+      "trans": "The night of sleep the night",
+      "orig": "ညဉ့်အိပ်ညဉ့်နေ",
+      "backend": 0
+    },
+    {
+      "src_translit": "ny in  aiut ny in  nay"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "overnight"
+      ],
+      "entry": [
+        {
+          "word": "overnight"
+        }
+      ],
+      "base_form": "ညဉ့်အိပ်ညဉ့်နေ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နေ",
+      "alternative": [
+        {
+          "word_postproc": "The",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 12,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ညဉ့်အိပ်ညဉ့်နေ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ည ဉ့ ်",
+      "alternative": [
+        {
+          "word_postproc": "night of",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "night",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 8,
+          "end": 12
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 3
+    },
+    {
+      "src_phrase": "အိပ်",
+      "alternative": [
+        {
+          "word_postproc": "sleep",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 8
+        }
+      ],
+      "start_pos": 3,
+      "end_pos": 4
+    },
+    {
+      "src_phrase": "ည ဉ့ ်",
+      "alternative": [
+        {
+          "word_postproc": "the night",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "night",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "start_pos": 4,
+      "end_pos": 6
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

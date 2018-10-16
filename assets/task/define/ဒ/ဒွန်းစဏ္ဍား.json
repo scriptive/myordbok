@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "gravedigger",
+      "orig": "ဒွန်းစဏ္ဍား",
+      "backend": 0
+    },
+    {
+      "src_translit": "dwannhcandarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "gravedigger",
+        "beggar"
+      ],
+      "entry": [
+        {
+          "word": "beggar",
+          "reverse_translation": [
+            "သူတောင်းစား",
+            "သူတောင်းစား"
+          ],
+          "score": 0.50283158
+        }
+      ],
+      "base_form": "ဒွန်းစဏ္ဍား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဒွန်းစဏ္ဍား",
+      "alternative": [
+        {
+          "word_postproc": "gravedigger",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "beggar",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ဒွန်းစဏ္ဍား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

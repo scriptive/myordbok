@@ -1,0 +1,97 @@
+{
+  "sentences": [
+    {
+      "trans": "beware",
+      "orig": "ကြဉ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "aviod",
+        "shun",
+        "excommunicate"
+      ],
+      "entry": [
+        {
+          "word": "aviod",
+          "score": 0.0041511287
+        },
+        {
+          "word": "shun",
+          "score": 0.0041511287
+        },
+        {
+          "word": "excommunicate",
+          "score": 0.0041511287
+        }
+      ],
+      "base_form": "ကြဉ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြဉ်",
+      "alternative": [
+        {
+          "word_postproc": "beware",
+          "score": 881,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "excommunicate",
+          "score": 95,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Guard",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "beware of",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "renounce",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကြဉ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

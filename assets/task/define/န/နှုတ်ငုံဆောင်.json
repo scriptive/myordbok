@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Commit to memory",
+      "orig": "နှုတ်ငုံဆောင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "nhuat ngone saung"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "commit to memory",
+        "be able to relate from memory"
+      ],
+      "entry": [
+        {
+          "word": "commit to memory"
+        },
+        {
+          "word": "be able to relate from memory"
+        }
+      ],
+      "base_form": "နှုတ်ငုံဆောင်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နှုတ် ငုံ ဆောင်",
+      "alternative": [
+        {
+          "word_postproc": "Commit to memory",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "နှုတ်ငုံဆောင်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "sentences": [
+    {
+      "trans": "human",
+      "orig": "လူ",
+      "backend": 1
+    },
+    {
+      "src_translit": "luu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "man",
+        "person",
+        "homo sapiens",
+        "male",
+        "one's man",
+        "one's supporter",
+        "servitor",
+        "people in general",
+        "thief",
+        "burglar"
+      ],
+      "entry": [
+        {
+          "word": "man",
+          "reverse_translation": [
+            "လူယောကျ်ား"
+          ],
+          "score": 0.10705902
+        },
+        {
+          "word": "person",
+          "reverse_translation": [
+            "လူ"
+          ],
+          "score": 0.011642128
+        },
+        {
+          "word": "thief",
+          "reverse_translation": [
+            "သူခိုး",
+            "သူခိုး"
+          ]
+        },
+        {
+          "word": "burglar",
+          "reverse_translation": [
+            "အိမ်ဖေါက်ဖျက်ခိုးဝှက်သူမ",
+            "အိမ်ဖေါက်ဖျက်ခိုးဝှက်သူ"
+          ]
+        }
+      ],
+      "base_form": "လူ",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "rise",
+        "climb",
+        "mount"
+      ],
+      "entry": [
+        {
+          "word": "rise",
+          "reverse_translation": [
+            "တက်"
+          ],
+          "synset_id": [
+            80316
+          ]
+        },
+        {
+          "word": "climb",
+          "reverse_translation": [
+            "တက်"
+          ],
+          "synset_id": [
+            80316
+          ]
+        }
+      ],
+      "base_form": "လူ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လူ",
+      "alternative": [
+        {
+          "word_postproc": "human",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "person",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "လူ",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

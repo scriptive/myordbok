@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Sports and games",
+      "orig": "ကစားခုန်စား",
+      "backend": 0
+    },
+    {
+      "src_translit": "kahcarr hkone hcarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "sports and games"
+      ],
+      "entry": [
+        {
+          "word": "sports and games"
+        }
+      ],
+      "base_form": "ကစားခုန်စား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကစား ခုန် စား",
+      "alternative": [
+        {
+          "word_postproc": "Sports and games",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ကစားခုန်စား",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

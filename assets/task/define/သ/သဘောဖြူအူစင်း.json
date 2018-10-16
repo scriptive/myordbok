@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Upright",
+      "orig": "သဘောဖြူအူစင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "sabhaw hpyauu auu hcainn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "upright",
+        "honest"
+      ],
+      "entry": [
+        {
+          "word": "honest",
+          "reverse_translation": [
+            "ရိုးသားသော"
+          ]
+        }
+      ],
+      "base_form": "သဘောဖြူအူစင်း",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သဘော ဖြူ အူ စင်း",
+      "alternative": [
+        {
+          "word_postproc": "Upright",
+          "score": 854,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Honest",
+          "score": 145,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "သဘောဖြူအူစင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

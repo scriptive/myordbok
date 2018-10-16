@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "wall",
+      "orig": "ရိုးရင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "roe rainn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "intend to"
+      ],
+      "entry": [
+        {
+          "word": "intend to"
+        }
+      ],
+      "base_form": "ရိုးရင်း",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "friend made in one's later life"
+      ],
+      "entry": [
+        {
+          "word": "friend made in one's later life"
+        }
+      ],
+      "base_form": "ရိုးရင်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရိုး",
+      "alternative": [
+        {
+          "word_postproc": "wall",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "walls",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ရိုးရင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

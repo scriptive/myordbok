@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "profit",
+      "orig": "ကျေးဇူးရှိ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaayyjuu shi"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be indebted to sb",
+        "be beneficial",
+        "be profitable"
+      ],
+      "entry": [
+        {
+          "word": "be indebted to sb"
+        },
+        {
+          "word": "be beneficial"
+        },
+        {
+          "word": "be profitable"
+        }
+      ],
+      "base_form": "ကျေးဇူးရှိ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျေးဇူး ရှိ",
+      "alternative": [
+        {
+          "word_postproc": "profit",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "advantaged",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "any pleasure",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pleasure to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "that profit",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "ကျေးဇူးရှိ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

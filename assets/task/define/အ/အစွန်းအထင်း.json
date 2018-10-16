@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "Stains",
+      "orig": "အစွန်းအထင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "aahcwann a htainn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "stain",
+        "blemish"
+      ],
+      "entry": [
+        {
+          "word": "stain",
+          "reverse_translation": [
+            "အစက်"
+          ]
+        },
+        {
+          "word": "blemish",
+          "reverse_translation": [
+            "အသွင်ပျက်ချက်"
+          ]
+        }
+      ],
+      "base_form": "အစွန်းအထင်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အစွန်း အ ထင်း",
+      "alternative": [
+        {
+          "word_postproc": "Stains",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Stain",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Blemish",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "အစွန်းအထင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

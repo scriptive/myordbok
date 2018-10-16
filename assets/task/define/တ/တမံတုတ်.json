@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "build a dyke",
+      "orig": "တမံတုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "taman tote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "build a dyke"
+      ],
+      "entry": [
+        {
+          "word": "build a dyke"
+        }
+      ],
+      "base_form": "တမံတုတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တမံ တုတ်",
+      "alternative": [
+        {
+          "word_postproc": "build a dyke",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "တမံတုတ်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "sentences": [
+    {
+      "trans": "Thin",
+      "orig": "သင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "sainn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "society",
+        "club",
+        "association"
+      ],
+      "entry": [
+        {
+          "word": "society",
+          "reverse_translation": [
+            "လူဘောင်"
+          ],
+          "synset_id": [
+            77955
+          ],
+          "score": 0.0044188537
+        },
+        {
+          "word": "club",
+          "reverse_translation": [
+            "ကလပ်",
+            "တင်းပုတ်"
+          ],
+          "synset_id": [
+            77955
+          ],
+          "score": 0.0027652478
+        },
+        {
+          "word": "association",
+          "reverse_translation": [
+            "အသင်း"
+          ]
+        }
+      ],
+      "base_form": "သင်း",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "castrate",
+        "exude a pleasing aroma",
+        "sear",
+        "scorch",
+        "toast",
+        "geld"
+      ],
+      "entry": [
+        {
+          "word": "castrate",
+          "reverse_translation": [
+            "သင်း"
+          ],
+          "synset_id": [
+            56178
+          ],
+          "score": 0.0011172611
+        }
+      ],
+      "base_form": "သင်း",
+      "pos_enum": 2
+    },
+    {
+      "pos": "pronoun",
+      "terms": [
+        "he",
+        "she",
+        "him",
+        "her"
+      ],
+      "entry": [
+        {
+          "word": "he",
+          "reverse_translation": [
+            "သူ"
+          ]
+        },
+        {
+          "word": "she",
+          "reverse_translation": [
+            "သူမ"
+          ]
+        },
+        {
+          "word": "him",
+          "reverse_translation": [
+            "သူ့ကို"
+          ]
+        },
+        {
+          "word": "her",
+          "reverse_translation": [
+            "သူမ၏"
+          ]
+        }
+      ],
+      "base_form": "သင်း",
+      "pos_enum": 8
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "aromatic",
+        "pure",
+        "solid",
+        "virtuous"
+      ],
+      "entry": [
+        {
+          "word": "pure",
+          "reverse_translation": [
+            "သန့်စင်သော"
+          ],
+          "synset_id": [
+            37413
+          ]
+        },
+        {
+          "word": "solid",
+          "reverse_translation": [
+            "ခိုင်မာသော"
+          ]
+        }
+      ],
+      "base_form": "သင်း",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သင်း",
+      "alternative": [
+        {
+          "word_postproc": "Thin",
+          "score": 984,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "teams",
+          "score": 9,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Associate",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "teams in",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "သင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "fit and strong",
+      "orig": "ကျန်းခံ့",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyann hkan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be fit and strong."
+      ],
+      "entry": [
+        {
+          "word": "be fit and strong."
+        }
+      ],
+      "base_form": "ကျန်းခံ့",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျန်း ခံ့",
+      "alternative": [
+        {
+          "word_postproc": "fit and strong",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ကျန်းခံ့",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "sentences": [
+    {
+      "trans": "Everywhere bread",
+      "orig": "မုန့်တွန်စာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "mu an  twan hcar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "thin strands of rice flour eaten with shredded coconut and sugar as a snack"
+      ],
+      "entry": [
+        {
+          "word": "thin strands of rice flour eaten with shredded coconut and sugar as a snack"
+        }
+      ],
+      "base_form": "မုန့်တွန်စာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တွန်",
+      "alternative": [
+        {
+          "word_postproc": "Everywhere",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Crow",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "မုန့်တွန်စာ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "မု န့ ်",
+      "alternative": [
+        {
+          "word_postproc": "bread",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

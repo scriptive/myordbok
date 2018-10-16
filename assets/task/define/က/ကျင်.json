@@ -1,0 +1,128 @@
+{
+  "sentences": [
+    {
+      "trans": "against",
+      "orig": "ကျင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyin"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "decayed"
+      ],
+      "entry": [
+        {
+          "word": "decayed"
+        }
+      ],
+      "base_form": "ကျင်",
+      "pos_enum": 3
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "pan for gold",
+        "excel in",
+        "be adept in",
+        "feel pain"
+      ],
+      "entry": [
+        {
+          "word": "pan for gold"
+        },
+        {
+          "word": "excel in"
+        },
+        {
+          "word": "be adept in"
+        },
+        {
+          "word": "feel pain"
+        }
+      ],
+      "base_form": "ကျင်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "excrement",
+        "anything rod-like"
+      ],
+      "entry": [
+        {
+          "word": "excrement"
+        },
+        {
+          "word": "anything rod-like"
+        }
+      ],
+      "base_form": "ကျင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျင်",
+      "alternative": [
+        {
+          "word_postproc": "against",
+          "score": 780,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "around",
+          "score": 119,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bars",
+          "score": 79,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "environment",
+          "score": 11,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "nature",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကျင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "March",
+      "orig": "မတ်လ",
+      "backend": 0
+    },
+    {
+      "src_translit": "maatl"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "March"
+      ],
+      "entry": [
+        {
+          "word": "March",
+          "reverse_translation": [
+            "မတ်လ"
+          ],
+          "score": 0.56978285
+        }
+      ],
+      "base_form": "မတ်လ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မတ်လ",
+      "alternative": [
+        {
+          "word_postproc": "March",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "in March",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "မတ်လ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

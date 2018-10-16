@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Tenaciously",
+      "orig": "ကျားပိန်တွယ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyarr pein twal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "tenaciously."
+      ],
+      "entry": [
+        {
+          "word": "tenaciously."
+        }
+      ],
+      "base_form": "ကျားပိန်တွယ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျား ပိန် တွယ်",
+      "alternative": [
+        {
+          "word_postproc": "Tenaciously",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "ကျားပိန်တွယ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

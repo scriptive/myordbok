@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Handicapped",
+      "orig": "တစ်ပန်းရှုံး",
+      "backend": 0
+    },
+    {
+      "src_translit": "tait paann shone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be handicapped"
+      ],
+      "entry": [
+        {
+          "word": "be handicapped"
+        }
+      ],
+      "base_form": "တစ်ပန်းရှုံး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တစ် ပန်း ရှုံး",
+      "alternative": [
+        {
+          "word_postproc": "Handicapped",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 12
+        }
+      ],
+      "raw_src_segment": "တစ်ပန်းရှုံး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

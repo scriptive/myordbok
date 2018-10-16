@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "Over wheels",
+      "orig": "ဘီးကျော်ပတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "bhee kyaw paat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "hairdo with the hair wound around a comb on the head"
+      ],
+      "entry": [
+        {
+          "word": "hairdo with the hair wound around a comb on the head"
+        }
+      ],
+      "base_form": "ဘီးကျော်ပတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျော်",
+      "alternative": [
+        {
+          "word_postproc": "Over",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "More than",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဘီးကျော်ပတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဘီး",
+      "alternative": [
+        {
+          "word_postproc": "wheels",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wheel",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "sentences": [
+    {
+      "trans": "smother",
+      "orig": "မွှန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "mwhaann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "recite aloud",
+        "smother",
+        "make a number of shallow incisions",
+        "be bedecked with"
+      ],
+      "entry": [
+        {
+          "word": "smother",
+          "reverse_translation": [
+            "လည်မျိုညှစ်"
+          ],
+          "score": 0.020432571
+        }
+      ],
+      "base_form": "မွှန်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မွှန်း",
+      "alternative": [
+        {
+          "word_postproc": "smother",
+          "score": 531,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bedecked",
+          "score": 467,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the cloud of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cloud of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bedecked with",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "မွှန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

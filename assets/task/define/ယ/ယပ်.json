@@ -1,0 +1,85 @@
+{
+  "sentences": [
+    {
+      "trans": "fan",
+      "orig": "ယပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "yaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "fan"
+      ],
+      "entry": [
+        {
+          "word": "fan",
+          "reverse_translation": [
+            "ပန်ကာ",
+            "ဝါသနာပါသူ"
+          ],
+          "score": 0.10705902
+        }
+      ],
+      "base_form": "ယပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယပ်",
+      "alternative": [
+        {
+          "word_postproc": "fan",
+          "score": 532,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "whisk",
+          "score": 464,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Kayak",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "beckon",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ယပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

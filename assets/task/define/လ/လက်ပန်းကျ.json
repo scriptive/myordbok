@@ -1,0 +1,68 @@
+{
+  "sentences": [
+    {
+      "trans": "Tired out",
+      "orig": "လက်ပန်းကျ",
+      "backend": 0
+    },
+    {
+      "src_translit": "laat paann kya"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be tired out"
+      ],
+      "entry": [
+        {
+          "word": "be tired out"
+        }
+      ],
+      "base_form": "လက်ပန်းကျ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လက် ပန်း ကျ",
+      "alternative": [
+        {
+          "word_postproc": "Tired out",
+          "score": 957,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Fatigued",
+          "score": 42,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "လက်ပန်းကျ",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

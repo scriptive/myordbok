@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Skull-cap",
+      "orig": "သံပရာခွံဦးထုပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "sanparar hkwan u htote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "skull-cap"
+      ],
+      "entry": [
+        {
+          "word": "skull-cap"
+        }
+      ],
+      "base_form": "သံပရာခွံဦးထုပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သံပရာ ခွံ ဦး ထုပ်",
+      "alternative": [
+        {
+          "word_postproc": "Skull-cap",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "သံပရာခွံဦးထုပ်",
+      "start_pos": 0,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

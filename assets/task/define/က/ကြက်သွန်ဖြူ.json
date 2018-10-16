@@ -1,0 +1,69 @@
+{
+  "sentences": [
+    {
+      "trans": "garlic",
+      "orig": "ကြက်သွန်ဖြူ",
+      "backend": 1
+    },
+    {
+      "src_translit": "kyaatswanhpyauu"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "garlic"
+      ],
+      "entry": [
+        {
+          "word": "garlic",
+          "reverse_translation": [
+            "ကြက်သွန်ဖြူ"
+          ],
+          "synset_id": [
+            8994
+          ],
+          "score": 0.41686201
+        }
+      ],
+      "base_form": "ကြက်သွန်ဖြူ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြက်သွန်ဖြူ",
+      "alternative": [
+        {
+          "word_postproc": "garlic",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ကြက်သွန်ဖြူ",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

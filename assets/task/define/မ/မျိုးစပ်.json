@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "hybrid",
+      "orig": "မျိုးစပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "myoe hcaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "crossbreed",
+        "cross",
+        "hybird"
+      ],
+      "entry": [
+        {
+          "word": "cross",
+          "reverse_translation": [
+            "ကြက်ခေြ"
+          ],
+          "synset_id": [
+            112250
+          ]
+        }
+      ],
+      "base_form": "မျိုး‌စပ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မျိုး စပ်",
+      "alternative": [
+        {
+          "word_postproc": "hybrid",
+          "score": 949,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "crossbreed",
+          "score": 47,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hybird",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "interbreed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "hybrids",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "မျိုးစပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

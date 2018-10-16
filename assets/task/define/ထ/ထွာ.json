@@ -1,0 +1,119 @@
+{
+  "sentences": [
+    {
+      "trans": "span",
+      "orig": "ထွာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "htwar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "a quarter yard",
+        "nine inches"
+      ],
+      "entry": [
+        {
+          "word": "a quarter yard",
+          "score": 0.0081275152
+        },
+        {
+          "word": "nine inches",
+          "score": 0.0081275152
+        }
+      ],
+      "base_form": "ထွာ",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "measure by hand span"
+      ],
+      "entry": [
+        {
+          "word": "measure by hand span",
+          "score": 0.0081275152
+        }
+      ],
+      "base_form": "ထွာ",
+      "pos_enum": 2
+    },
+    {
+      "pos": "particle",
+      "terms": [
+        "numerical classifier used in counting the number of hand spans"
+      ],
+      "entry": [
+        {
+          "word": "numerical classifier used in counting the number of hand spans"
+        }
+      ],
+      "base_form": "ထွာ",
+      "pos_enum": 19
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထွာ",
+      "alternative": [
+        {
+          "word_postproc": "span",
+          "score": 548,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Observation",
+          "score": 450,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "thirteen",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and a half",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "half",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ထွာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "sentences": [
+    {
+      "trans": "Age",
+      "orig": "ခေတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hkayat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "era",
+        "times",
+        "age",
+        "period",
+        "extent",
+        "domain"
+      ],
+      "entry": [
+        {
+          "word": "age",
+          "reverse_translation": [
+            "အသက်အရွယ်"
+          ],
+          "score": 0.039384812
+        },
+        {
+          "word": "period",
+          "reverse_translation": [
+            "ကာလ",
+            "အနှုန်းအဖဲွ့",
+            "ရာသီသေွးလာချိန်"
+          ],
+          "score": 0.014488863
+        },
+        {
+          "word": "extent",
+          "reverse_translation": [
+            "အကျယ်အဝန်း"
+          ]
+        }
+      ],
+      "base_form": "ခေတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ခေတ်",
+      "alternative": [
+        {
+          "word_postproc": "Age",
+          "score": 626,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Ages",
+          "score": 253,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "era",
+          "score": 63,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the era",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "an era",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ခေတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "sentences": [
+    {
+      "trans": "cut",
+      "orig": "ဖြတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpyat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "cut",
+        "cross",
+        "quit",
+        "stop",
+        "sever",
+        "go across",
+        "go past",
+        "break off",
+        "end",
+        "deduct"
+      ],
+      "entry": [
+        {
+          "word": "cut",
+          "reverse_translation": [
+            "ဖြတ်"
+          ],
+          "synset_id": [
+            93516
+          ],
+          "score": 0.14863673
+        },
+        {
+          "word": "quit",
+          "reverse_translation": [
+            "ထွက်သွား"
+          ],
+          "synset_id": [
+            105034
+          ],
+          "score": 0.0040234118
+        },
+        {
+          "word": "stop",
+          "reverse_translation": [
+            "ပိတ်ဆို့"
+          ],
+          "synset_id": [
+            52009,
+            85226,
+            105034
+          ],
+          "score": 0.0038391664
+        },
+        {
+          "word": "sever",
+          "reverse_translation": [
+            "ခဲွဖြတ်"
+          ],
+          "synset_id": [
+            18450
+          ]
+        },
+        {
+          "word": "deduct",
+          "reverse_translation": [
+            "နှုတ်ယူ"
+          ]
+        }
+      ],
+      "base_form": "ဖြတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖြတ်",
+      "alternative": [
+        {
+          "word_postproc": "cut",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cut asunder",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cut asunder the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ဖြတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

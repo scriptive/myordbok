@@ -1,0 +1,115 @@
+{
+  "sentences": [
+    {
+      "trans": "news",
+      "orig": "တင်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "tainn"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "make taut",
+        "be tight",
+        "stand firm",
+        "add weight,make an adjustment to balance things",
+        "be less"
+      ],
+      "entry": [
+        {
+          "word": "make taut"
+        },
+        {
+          "word": "be tight"
+        },
+        {
+          "word": "stand firm"
+        },
+        {
+          "word": "add weight,make an adjustment to balance things"
+        },
+        {
+          "word": "be less"
+        }
+      ],
+      "base_form": "တင်း",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "unit of measure for grain i e a basket which holds sixteen ပြည် of grain"
+      ],
+      "entry": [
+        {
+          "word": "unit of measure for grain i e a basket which holds sixteen ပြည် of grain"
+        }
+      ],
+      "base_form": "တင်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တင်း",
+      "alternative": [
+        {
+          "word_postproc": "news",
+          "score": 622,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "report",
+          "score": 376,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the news",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "baskets",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the report",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "တင်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

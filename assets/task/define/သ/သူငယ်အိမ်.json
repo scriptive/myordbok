@@ -1,0 +1,67 @@
+{
+  "sentences": [
+    {
+      "trans": "pupil",
+      "orig": "သူငယ်အိမ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "suungaal aain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "pupil"
+      ],
+      "entry": [
+        {
+          "word": "pupil",
+          "reverse_translation": [
+            "မျက်ဆန်",
+            "ကေျာင်းသူ",
+            "ကေျာင်းသား"
+          ]
+        }
+      ],
+      "base_form": "သူငယ်အိမ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သူငယ် အိမ်",
+      "alternative": [
+        {
+          "word_postproc": "pupil",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "သူငယ်အိမ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "fart",
+      "orig": "လေပုန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "lay pone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "unexpected blast of wind",
+        "fart"
+      ],
+      "entry": [
+        {
+          "word": "unexpected blast of wind"
+        },
+        {
+          "word": "fart"
+        }
+      ],
+      "base_form": "လေပုန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လေ ပုန်း",
+      "alternative": [
+        {
+          "word_postproc": "fart",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "လေပုန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

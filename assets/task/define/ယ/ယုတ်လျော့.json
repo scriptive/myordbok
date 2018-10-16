@@ -1,0 +1,103 @@
+{
+  "sentences": [
+    {
+      "trans": "decreased",
+      "orig": "ယုတ်လျော့",
+      "backend": 0
+    },
+    {
+      "src_translit": "yote lyaww"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "get less",
+        "lessen",
+        "decrease"
+      ],
+      "entry": [
+        {
+          "word": "lessen",
+          "reverse_translation": [
+            "အနည်းငယ်စေ"
+          ],
+          "synset_id": [
+            11150
+          ]
+        },
+        {
+          "word": "decrease",
+          "reverse_translation": [
+            "လေျာ့ပေါ့စေ"
+          ],
+          "synset_id": [
+            11150
+          ]
+        }
+      ],
+      "base_form": "ယုတ်လျော့",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ယုတ် လျော့",
+      "alternative": [
+        {
+          "word_postproc": "decreased",
+          "score": 998,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "abated",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "decrease",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "diminished",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "and decreasing",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ယုတ်လျော့",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

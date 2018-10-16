@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Feudalism",
+      "orig": "ကံကျွေးချစနစ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kan kyaway hkya hcanait"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "feudalism"
+      ],
+      "entry": [
+        {
+          "word": "feudalism"
+        }
+      ],
+      "base_form": "ကံကျွေးချစနစ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကံ ကျွေး ချ စနစ်",
+      "alternative": [
+        {
+          "word_postproc": "Feudalism",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 13
+        }
+      ],
+      "raw_src_segment": "ကံကျွေးချစနစ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

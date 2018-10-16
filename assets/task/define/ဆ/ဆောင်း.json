@@ -1,0 +1,95 @@
+{
+  "sentences": [
+    {
+      "trans": "winter",
+      "orig": "ဆောင်း",
+      "backend": 1
+    },
+    {
+      "src_translit": "saungg"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "winter",
+        "conical basket used in fishing",
+        "cold season"
+      ],
+      "entry": [
+        {
+          "word": "winter",
+          "reverse_translation": [
+            "ဆောင်းရာသီဉတု"
+          ],
+          "score": 0.11219689
+        }
+      ],
+      "base_form": "ဆောင်း",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "cover one's head",
+        "wear",
+        "give sth extra",
+        "supplement",
+        "contribute",
+        "catch fish with a bamboo conical basket by plunging it into the water"
+      ],
+      "entry": [
+        {
+          "word": "wear",
+          "reverse_translation": [
+            "ဝတ်ဆင်"
+          ]
+        },
+        {
+          "word": "contribute",
+          "reverse_translation": [
+            "ထောက်ပံ့"
+          ]
+        }
+      ],
+      "base_form": "ဆောင်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆောင်း",
+      "alternative": [
+        {
+          "word_postproc": "winter",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဆောင်း",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

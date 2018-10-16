@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "road",
+      "orig": "လမ်းပန်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "lampaann"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "road",
+        "street",
+        "pathway"
+      ],
+      "entry": [
+        {
+          "word": "road",
+          "reverse_translation": [
+            "လမ်း"
+          ],
+          "score": 0.094479255
+        },
+        {
+          "word": "street",
+          "reverse_translation": [
+            "လမ်း"
+          ],
+          "score": 0.046770621
+        }
+      ],
+      "base_form": "လမ်းပန်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လမ်းပန်း",
+      "alternative": [
+        {
+          "word_postproc": "road",
+          "score": 403,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "transport",
+          "score": 373,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "transport and",
+          "score": 173,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pathway",
+          "score": 40,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "street",
+          "score": 8,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "လမ်းပန်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

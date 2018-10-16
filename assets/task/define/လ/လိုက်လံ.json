@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "chase",
+      "orig": "လိုက်လံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "litelan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "chase",
+        "pursue"
+      ],
+      "entry": [
+        {
+          "word": "chase",
+          "reverse_translation": [
+            "လိုက်လံ"
+          ],
+          "score": 0.004559123
+        },
+        {
+          "word": "pursue",
+          "reverse_translation": [
+            "လိုက်လံ"
+          ],
+          "score": 0.004559123
+        }
+      ],
+      "base_form": "လိုက်လံ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လိုက်လံ",
+      "alternative": [
+        {
+          "word_postproc": "chase",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "pursue",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "chasing",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a depression",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "began pursuing",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "လိုက်လံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

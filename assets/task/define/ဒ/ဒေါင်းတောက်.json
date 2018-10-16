@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "dizzy",
+      "orig": "ဒေါင်းတောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "daungg tout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "be dizzy",
+        "flustered"
+      ],
+      "entry": [
+        {
+          "word": "be dizzy"
+        },
+        {
+          "word": "flustered"
+        }
+      ],
+      "base_form": "ဒေါင်းတောက်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဒေါင်း တောက်",
+      "alternative": [
+        {
+          "word_postproc": "dizzy",
+          "score": 795,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "flustered",
+          "score": 204,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ဒေါင်းတောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

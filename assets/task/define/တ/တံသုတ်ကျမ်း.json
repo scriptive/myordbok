@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "Book strickle",
+      "orig": "တံသုတ်ကျမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "tan sote kyam"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "level a surface with a strickle"
+      ],
+      "entry": [
+        {
+          "word": "level a surface with a strickle"
+        }
+      ],
+      "base_form": "တံသုတ်ကျမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကျမ်း",
+      "alternative": [
+        {
+          "word_postproc": "Book",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 6,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "တံသုတ်ကျမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "တံ သုတ်",
+      "alternative": [
+        {
+          "word_postproc": "strickle",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

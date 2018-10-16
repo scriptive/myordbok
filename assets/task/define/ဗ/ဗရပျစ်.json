@@ -1,0 +1,94 @@
+{
+  "sentences": [
+    {
+      "trans": "A profusion",
+      "orig": "ဗရပျစ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "b r pyit"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "with a profusion of",
+        "encumbered with",
+        "saddled with"
+      ],
+      "entry": [
+        {
+          "word": "with a profusion of"
+        },
+        {
+          "word": "encumbered with"
+        },
+        {
+          "word": "saddled with"
+        }
+      ],
+      "base_form": "ဗရပျစ်",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဗ ရ ပျစ်",
+      "alternative": [
+        {
+          "word_postproc": "A profusion",
+          "score": 468,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Profusion of",
+          "score": 194,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Encumbered",
+          "score": 166,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Profusion",
+          "score": 147,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "A profusion of",
+          "score": 18,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 6
+        }
+      ],
+      "raw_src_segment": "ဗရပျစ်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

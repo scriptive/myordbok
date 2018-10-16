@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "The king",
+      "orig": "ရှင်ဘုရင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "shinbhurain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "king",
+        "monarch"
+      ],
+      "entry": [
+        {
+          "word": "king",
+          "reverse_translation": [
+            "ဘုရင်မင်းကြီး"
+          ],
+          "score": 0.36787945
+        }
+      ],
+      "base_form": "ရှင်ဘုရင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ရှင်ဘုရင်",
+      "alternative": [
+        {
+          "word_postproc": "The king",
+          "score": 671,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "king",
+          "score": 279,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "king of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "And the king",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the king of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ရှင်ဘုရင်",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

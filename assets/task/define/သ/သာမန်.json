@@ -1,0 +1,106 @@
+{
+  "sentences": [
+    {
+      "trans": "ordinary",
+      "orig": "သာမန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "sarmaan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "ordinary",
+        "normal",
+        "usual"
+      ],
+      "entry": [
+        {
+          "word": "ordinary",
+          "reverse_translation": [
+            "သာမန်ဖြစ်သော"
+          ],
+          "score": 0.12322418
+        },
+        {
+          "word": "normal",
+          "reverse_translation": [
+            "ပုံမှန်ဖြစ်သော"
+          ],
+          "score": 0.083377652
+        },
+        {
+          "word": "usual",
+          "reverse_translation": [
+            "ထုံးစံဖြစ်သော"
+          ],
+          "score": 0.006530642
+        }
+      ],
+      "base_form": "သာမန်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သာမန်",
+      "alternative": [
+        {
+          "word_postproc": "ordinary",
+          "score": 619,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "normal",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "an ordinary",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the average",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the ordinary",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "သာမန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

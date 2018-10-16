@@ -1,0 +1,74 @@
+{
+  "sentences": [
+    {
+      "trans": "you",
+      "orig": "နင်",
+      "backend": 1
+    },
+    {
+      "src_translit": "nain"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "pronoun",
+      "terms": [
+        "you"
+      ],
+      "entry": [
+        {
+          "word": "you",
+          "reverse_translation": [
+            "ခင်ဗျား",
+            "မင်း",
+            "ခင်ဗျားတို့"
+          ],
+          "score": 0.010600278
+        }
+      ],
+      "base_form": "နင်",
+      "pos_enum": 8
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နင်",
+      "alternative": [
+        {
+          "word_postproc": "you",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Benin",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "နင်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

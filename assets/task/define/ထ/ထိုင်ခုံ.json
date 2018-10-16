@@ -1,0 +1,107 @@
+{
+  "sentences": [
+    {
+      "trans": "seats",
+      "orig": "ထိုင်ခုံ",
+      "backend": 0
+    },
+    {
+      "src_translit": "htinehkone"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "seat",
+        "chair",
+        "stool",
+        "bench"
+      ],
+      "entry": [
+        {
+          "word": "seat",
+          "reverse_translation": [
+            "ထိုင်စရာ"
+          ],
+          "score": 0.18498141
+        },
+        {
+          "word": "chair",
+          "reverse_translation": [
+            "ကုလားထိုင်"
+          ],
+          "score": 0.036998607
+        },
+        {
+          "word": "bench",
+          "reverse_translation": [
+            "ခုံရှည်"
+          ],
+          "score": 0.0034956008
+        }
+      ],
+      "base_form": "ထိုင်ခုံ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထိုင်ခုံ",
+      "alternative": [
+        {
+          "word_postproc": "seats",
+          "score": 495,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "SEAT",
+          "score": 290,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "seating",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "more seats",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "my seat",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ထိုင်ခုံ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

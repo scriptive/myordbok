@@ -1,0 +1,81 @@
+{
+  "sentences": [
+    {
+      "trans": "Ah-encompassing compassion",
+      "orig": "ဩဓိသမေတ္တာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "au dhi s mayttar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "compassion directed towards a specific direction,person"
+      ],
+      "entry": [
+        {
+          "word": "compassion directed towards a specific direction,person"
+        }
+      ],
+      "base_form": "ဩဓိသမေတ္တာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဩ",
+      "alternative": [
+        {
+          "word_postproc": "Ah",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 1
+        }
+      ],
+      "raw_src_segment": "ဩဓိသမေတ္တာ",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဓိ သ မေတ္တာ",
+      "alternative": [
+        {
+          "word_postproc": "-encompassing compassion",
+          "score": 1000,
+          "has_preceeding_space": false,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 1,
+          "end": 10
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

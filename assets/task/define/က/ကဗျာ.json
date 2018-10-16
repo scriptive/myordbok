@@ -1,0 +1,111 @@
+{
+  "sentences": [
+    {
+      "trans": "poetry",
+      "orig": "ကဗျာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kabyaar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "poetry",
+        "poem",
+        "verse"
+      ],
+      "entry": [
+        {
+          "word": "poetry",
+          "reverse_translation": [
+            "ကဗျာ"
+          ],
+          "synset_id": [
+            65869
+          ],
+          "score": 0.032651156
+        },
+        {
+          "word": "poem",
+          "reverse_translation": [
+            "လင်္ကာ"
+          ],
+          "score": 0.019194625
+        },
+        {
+          "word": "verse",
+          "reverse_translation": [
+            "လင်္ကာ"
+          ],
+          "synset_id": [
+            65869
+          ]
+        }
+      ],
+      "base_form": "ကဗျာ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကဗျာ",
+      "alternative": [
+        {
+          "word_postproc": "poetry",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "My Photo",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Poem",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "poems",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "My",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ကဗျာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

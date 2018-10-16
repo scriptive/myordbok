@@ -1,0 +1,149 @@
+{
+  "sentences": [
+    {
+      "trans": "ပိဏ္ m-week meal",
+      "orig": "ပိဏ္ဍပါတ်ဆွမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "pin d parat swm"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "meals received by a monk on his daily food receiving rounds"
+      ],
+      "entry": [
+        {
+          "word": "meals received by a monk on his daily food receiving rounds"
+        }
+      ],
+      "base_form": "ပိဏ္ဍပါတ်ဆွမ်း",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ပိဏ္",
+      "alternative": [
+        {
+          "word_postproc": "ပိဏ္",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "ပိဏ္ဍပါတ်ဆွမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ဍ",
+      "alternative": [
+        {
+          "word_postproc": "m",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "P.",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 4,
+          "end": 5
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "ပါတ်",
+      "alternative": [
+        {
+          "word_postproc": "-week",
+          "score": 1000,
+          "has_preceeding_space": false,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "week",
+          "score": 0,
+          "has_preceeding_space": false,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "weeks",
+          "score": 0,
+          "has_preceeding_space": false,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 5,
+          "end": 9
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 4
+    },
+    {
+      "src_phrase": "ဆွမ်း",
+      "alternative": [
+        {
+          "word_postproc": "meal",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "alms",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "visible",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 9,
+          "end": 14
+        }
+      ],
+      "start_pos": 4,
+      "end_pos": 5
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

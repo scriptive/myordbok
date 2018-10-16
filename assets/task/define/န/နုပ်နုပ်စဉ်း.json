@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "trans": "Finely",
+      "orig": "နုပ်နုပ်စဉ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "note note hcain"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နုပ် နုပ်",
+      "alternative": [
+        {
+          "word_postproc": "Finely",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "နုပ်နုပ်စဉ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

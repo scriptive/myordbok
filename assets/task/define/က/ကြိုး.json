@@ -1,0 +1,164 @@
+{
+  "sentences": [
+    {
+      "trans": "string",
+      "orig": "ကြိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "cord",
+        "rope",
+        "string",
+        "chord",
+        "star",
+        "string instrument"
+      ],
+      "entry": [
+        {
+          "word": "cord",
+          "reverse_translation": [
+            "ကျစ်ကြိုး"
+          ],
+          "score": 0.016418032
+        },
+        {
+          "word": "rope",
+          "reverse_translation": [
+            "ကြိုးကြီး"
+          ],
+          "score": 0.0080015101
+        },
+        {
+          "word": "string",
+          "reverse_translation": [
+            "ကြိုး"
+          ],
+          "synset_id": [
+            20263
+          ],
+          "score": 0.0040867715
+        },
+        {
+          "word": "chord",
+          "reverse_translation": [
+            "ကြိုး"
+          ],
+          "score": 0.00064662116
+        },
+        {
+          "word": "star",
+          "reverse_translation": [
+            "ကြယ်"
+          ]
+        }
+      ],
+      "base_form": "ကြိုး",
+      "pos_enum": 1
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "try",
+        "strive",
+        "endeavour",
+        "make great effort",
+        "rumble",
+        "roll",
+        "roar",
+        "reverberate"
+      ],
+      "entry": [
+        {
+          "word": "try",
+          "reverse_translation": [
+            "ကြိုးစား",
+            "တရားစဲွ"
+          ]
+        },
+        {
+          "word": "strive",
+          "reverse_translation": [
+            "ကြိုးစား"
+          ],
+          "synset_id": [
+            49620
+          ]
+        },
+        {
+          "word": "roll",
+          "reverse_translation": [
+            "လှမ့်"
+          ]
+        }
+      ],
+      "base_form": "ကြိုး",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြိုး",
+      "alternative": [
+        {
+          "word_postproc": "string",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cable",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cord",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "cords",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "benefit",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ကြိုး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

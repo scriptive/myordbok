@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "dream",
+      "orig": "အိ",
+      "backend": 0
+    },
+    {
+      "src_translit": "ai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "နူးညံ့ပျော့ပျောင်းသော။"
+      ],
+      "entry": [
+        {
+          "word": "နူးညံ့ပျော့ပျောင်းသော။"
+        }
+      ],
+      "base_form": "အိ",
+      "pos_enum": 3
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "ထိန်းနိုင်စွမ်းနည်းသဖြင့်ညွတ်ကျသည်။"
+      ],
+      "entry": [
+        {
+          "word": "ထိန်းနိုင်စွမ်းနည်းသဖြင့်ညွတ်ကျသည်။"
+        }
+      ],
+      "base_form": "အိ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အိ",
+      "alternative": [
+        {
+          "word_postproc": "dream",
+          "score": 947,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "dreams",
+          "score": 23,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bags",
+          "score": 10,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Ei",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "sleep",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "အိ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "sentences": [
+    {
+      "trans": "meeting",
+      "orig": "အစည်းအဝေး",
+      "backend": 0
+    },
+    {
+      "src_translit": "aahcaeeaawayy"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "meeting",
+        "conference",
+        "assembly",
+        "congregation"
+      ],
+      "entry": [
+        {
+          "word": "meeting",
+          "reverse_translation": [
+            "အစည်းအဝေး"
+          ],
+          "synset_id": [
+            2647
+          ],
+          "score": 0.24126123
+        },
+        {
+          "word": "conference",
+          "reverse_translation": [
+            "အစည်းအဝေး"
+          ],
+          "synset_id": [
+            4897
+          ],
+          "score": 0.0090668984
+        },
+        {
+          "word": "assembly",
+          "reverse_translation": [
+            "အစည်းအဝေး"
+          ],
+          "score": 0.0041511287
+        },
+        {
+          "word": "congregation",
+          "reverse_translation": [
+            "အစည်းအဝေး"
+          ],
+          "score": 0.0037796458
+        }
+      ],
+      "base_form": "အစည်းအဝေး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အစည်းအဝေး",
+      "alternative": [
+        {
+          "word_postproc": "meeting",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "conference",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "assembly",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "congregation",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a meeting",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "အစည်းအဝေး",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

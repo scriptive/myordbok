@@ -1,0 +1,98 @@
+{
+  "sentences": [
+    {
+      "trans": "Observation",
+      "orig": "တိုင်းထွာ",
+      "backend": 0
+    },
+    {
+      "src_translit": "tine htwar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "measure",
+        "gauge",
+        "compare",
+        "abuse by reference to immodest things"
+      ],
+      "entry": [
+        {
+          "word": "measure",
+          "reverse_translation": [
+            "တိုင်းတာ"
+          ]
+        },
+        {
+          "word": "compare",
+          "reverse_translation": [
+            "နိှုင်းယှသ်"
+          ]
+        }
+      ],
+      "base_form": "တိုင်းထွာ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တိုင်း ထွာ",
+      "alternative": [
+        {
+          "word_postproc": "Observation",
+          "score": 975,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "measured",
+          "score": 21,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "measurable",
+          "score": 2,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "metrics",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "measures of length",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "တိုင်းထွာ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "bitter gourd",
+      "orig": "ကြက်ဟင်းခါး",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaat hainnhkarr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "bitter gourd"
+      ],
+      "entry": [
+        {
+          "word": "bitter gourd"
+        }
+      ],
+      "base_form": "ကြက်ဟင်းခါး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြက် ဟင်းခါး",
+      "alternative": [
+        {
+          "word_postproc": "bitter gourd",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "ကြက်ဟင်းခါး",
+      "start_pos": 0,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

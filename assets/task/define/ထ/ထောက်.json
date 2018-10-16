@@ -1,0 +1,162 @@
+{
+  "sentences": [
+    {
+      "trans": "support",
+      "orig": "ထောက်",
+      "backend": 0
+    },
+    {
+      "src_translit": "htout"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "support",
+        "consider",
+        "take into consideration",
+        "be old",
+        "feel",
+        "be far",
+        "haltto pitch camp",
+        "investigate",
+        "reconnoitre",
+        "keep watch",
+        "considering that",
+        "refer to",
+        "propup, support: be on",
+        "press against",
+        "2point",
+        "prompt",
+        "aid",
+        "provide",
+        "maintain",
+        "rest on"
+      ],
+      "entry": [
+        {
+          "word": "support",
+          "reverse_translation": [
+            "ထောက်ပံ့",
+            "ထောက်"
+          ],
+          "synset_id": [
+            17338
+          ],
+          "score": 0.078326054
+        },
+        {
+          "word": "consider",
+          "reverse_translation": [
+            "စဉ်းစားဆင်ခြင်"
+          ],
+          "score": 0.0044188537
+        },
+        {
+          "word": "feel",
+          "reverse_translation": [
+            "တေွ့သိ"
+          ]
+        },
+        {
+          "word": "investigate",
+          "reverse_translation": [
+            "စစ်ဆေး"
+          ]
+        },
+        {
+          "word": "aid",
+          "reverse_translation": [
+            "ကူညီ"
+          ]
+        },
+        {
+          "word": "provide",
+          "reverse_translation": [
+            "ပေးသွင်း"
+          ]
+        },
+        {
+          "word": "maintain",
+          "reverse_translation": [
+            "တည်မြဲစေ"
+          ]
+        }
+      ],
+      "base_form": "ထောက်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "brace"
+      ],
+      "entry": [
+        {
+          "word": "brace",
+          "reverse_translation": [
+            "ထောက်",
+            "သိုင်းကြိုး"
+          ],
+          "score": 0.00068832462
+        }
+      ],
+      "base_form": "ထောက်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ထောက်",
+      "alternative": [
+        {
+          "word_postproc": "support",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "leaned",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "detective",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "leaned on",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ထောက်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

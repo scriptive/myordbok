@@ -1,0 +1,78 @@
+{
+  "sentences": [
+    {
+      "trans": "where",
+      "orig": "ဘယ်",
+      "backend": 1
+    },
+    {
+      "src_translit": "bhaal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "which"
+      ],
+      "entry": [
+        {
+          "word": "which",
+          "reverse_translation": [
+            "ဘယ်သူ"
+          ],
+          "score": 0.022794181
+        }
+      ],
+      "base_form": "ဘယ်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘယ်",
+      "alternative": [
+        {
+          "word_postproc": "where",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "which",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "what",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဘယ်",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

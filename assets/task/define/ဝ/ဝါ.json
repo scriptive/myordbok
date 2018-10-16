@@ -1,0 +1,219 @@
+{
+  "sentences": [
+    {
+      "trans": "cotton",
+      "orig": "ဝါ",
+      "backend": 0
+    },
+    {
+      "src_translit": "war"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "yellow",
+        "stentorian",
+        "loud"
+      ],
+      "entry": [
+        {
+          "word": "yellow",
+          "reverse_translation": [
+            "ဝါသော"
+          ],
+          "score": 0.068050854
+        },
+        {
+          "word": "loud",
+          "reverse_translation": [
+            "အသံကျယ်သော"
+          ]
+        }
+      ],
+      "base_form": "ဝါ",
+      "pos_enum": 3
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "cotton",
+        "cotton plant",
+        "undressed cotton",
+        "period of monsoon retreat for Buddhist monks",
+        "Buddhist lent",
+        "number of years of monkhood",
+        "religious lesson given to monks",
+        "aura",
+        "glow",
+        "sight",
+        "look",
+        "vision",
+        "extent",
+        "span",
+        "part"
+      ],
+      "entry": [
+        {
+          "word": "cotton",
+          "reverse_translation": [
+            "ဝါ"
+          ],
+          "synset_id": [
+            108312
+          ],
+          "score": 0.017752126
+        },
+        {
+          "word": "sight",
+          "reverse_translation": [
+            "မျက်မြင်"
+          ],
+          "synset_id": [
+            76732
+          ]
+        },
+        {
+          "word": "look",
+          "reverse_translation": [
+            "အသွင်အပြင်",
+            "အကြည့်"
+          ]
+        },
+        {
+          "word": "vision",
+          "reverse_translation": [
+            "မြင်ခြင်း"
+          ],
+          "synset_id": [
+            76732
+          ]
+        },
+        {
+          "word": "extent",
+          "reverse_translation": [
+            "အကျယ်အဝန်း"
+          ]
+        },
+        {
+          "word": "part",
+          "reverse_translation": [
+            "အပိုင်း"
+          ]
+        }
+      ],
+      "base_form": "ဝါ",
+      "pos_enum": 1
+    },
+    {
+      "pos": "conjunction",
+      "terms": [
+        "in other words",
+        "or",
+        "also known as"
+      ],
+      "entry": [
+        {
+          "word": "or",
+          "reverse_translation": [
+            "သို့မဟုတ်"
+          ]
+        }
+      ],
+      "base_form": "ဝါ",
+      "pos_enum": 7
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "boast",
+        "brag",
+        "exa1ggerate",
+        "estimate length",
+        "height"
+      ],
+      "entry": [
+        {
+          "word": "boast",
+          "reverse_translation": [
+            "ကြွားဝါပေြာဆို"
+          ],
+          "synset_id": [
+            99882
+          ]
+        },
+        {
+          "word": "brag",
+          "reverse_translation": [
+            "ကြွားဝါ"
+          ],
+          "synset_id": [
+            99882
+          ]
+        }
+      ],
+      "base_form": "ဝါ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဝါ",
+      "alternative": [
+        {
+          "word_postproc": "cotton",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "a yellow",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of yellow",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bronze",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the yellow",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 2
+        }
+      ],
+      "raw_src_segment": "ဝါ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

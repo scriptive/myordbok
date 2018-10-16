@@ -1,0 +1,91 @@
+{
+  "sentences": [
+    {
+      "trans": "Finished",
+      "orig": "လက်စသတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "laat hc saat"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "finish",
+        "complete sth",
+        "give a finishing touch to a piece of work"
+      ],
+      "entry": [
+        {
+          "word": "finish",
+          "reverse_translation": [
+            "အပြီးသတ်"
+          ]
+        }
+      ],
+      "base_form": "လက်စသတ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "လက် စ သတ်",
+      "alternative": [
+        {
+          "word_postproc": "Finished",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Was finished",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Finished the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Finished all",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Finisheth",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "လက်စသတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

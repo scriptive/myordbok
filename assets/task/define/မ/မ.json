@@ -1,0 +1,178 @@
+{
+  "sentences": [
+    {
+      "trans": "no",
+      "orig": "မ",
+      "backend": 0
+    },
+    {
+      "src_translit": "m"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adjective",
+      "terms": [
+        "main",
+        "original",
+        "big",
+        "mature"
+      ],
+      "entry": [
+        {
+          "word": "main",
+          "reverse_translation": [
+            "အဓိက"
+          ]
+        },
+        {
+          "word": "original",
+          "reverse_translation": [
+            "မူရင်းဖြစ်သော"
+          ]
+        },
+        {
+          "word": "big",
+          "reverse_translation": [
+            "ကြီးမားသော"
+          ]
+        },
+        {
+          "word": "mature",
+          "reverse_translation": [
+            "ရင့်ကျက်သော"
+          ]
+        }
+      ],
+      "base_form": "မ",
+      "pos_enum": 3
+    },
+    {
+      "pos": "verb",
+      "terms": [
+        "lift",
+        "support",
+        "assist",
+        "help",
+        "supervise",
+        "guide. gather",
+        "drive",
+        "shower attention on",
+        "pamper",
+        "particle prefixed to a verb to convey a negative sense"
+      ],
+      "entry": [
+        {
+          "word": "lift",
+          "reverse_translation": [
+            "မေြှာက်ပင့်"
+          ]
+        },
+        {
+          "word": "support",
+          "reverse_translation": [
+            "ထောက်ပံ့",
+            "ထောက်"
+          ]
+        },
+        {
+          "word": "assist",
+          "reverse_translation": [
+            "ထောက်ပံ့"
+          ],
+          "synset_id": [
+            28365
+          ]
+        },
+        {
+          "word": "help",
+          "reverse_translation": [
+            "ကူညီ"
+          ],
+          "synset_id": [
+            28365
+          ]
+        },
+        {
+          "word": "supervise",
+          "reverse_translation": [
+            "ကြီးကြပ်ကြည့်ရှု"
+          ]
+        },
+        {
+          "word": "drive",
+          "reverse_translation": [
+            "မောင်း"
+          ]
+        },
+        {
+          "word": "pamper",
+          "reverse_translation": [
+            "ပျက်စီးစေ"
+          ]
+        }
+      ],
+      "base_form": "မ",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "မ",
+      "alternative": [
+        {
+          "word_postproc": "no",
+          "score": 557,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "not",
+          "score": 358,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Do not",
+          "score": 74,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "does not",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "is not",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 1
+        }
+      ],
+      "raw_src_segment": "မ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 0,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      0
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

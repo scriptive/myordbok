@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "thoroughbred",
+      "orig": "အာဇာနည်",
+      "backend": 0
+    },
+    {
+      "src_translit": "aarjarnai"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "person with discrimination and courage of his convictions",
+        "hero who is prepared to sacrifice his life for a good cause"
+      ],
+      "entry": [
+        {
+          "word": "person with discrimination and courage of his convictions"
+        },
+        {
+          "word": "hero who is prepared to sacrifice his life for a good cause"
+        }
+      ],
+      "base_form": "အာဇာနည်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "အာဇာနည်",
+      "alternative": [
+        {
+          "word_postproc": "thoroughbred",
+          "score": 993,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "martyr",
+          "score": 4,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "martyrs",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "martyrdom",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "အာဇာနည်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

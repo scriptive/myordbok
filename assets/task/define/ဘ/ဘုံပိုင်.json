@@ -1,0 +1,104 @@
+{
+  "sentences": [
+    {
+      "trans": "hydrant",
+      "orig": "ဘုံပိုင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "bhone pine"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "public-owned property,etc",
+        "water tap",
+        "hydrant",
+        "siphon operated by a plunger device"
+      ],
+      "entry": [
+        {
+          "word": "public-owned property,etc"
+        },
+        {
+          "word": "water tap",
+          "synset_id": [
+            24992
+          ]
+        },
+        {
+          "word": "hydrant",
+          "synset_id": [
+            24992
+          ]
+        },
+        {
+          "word": "siphon operated by a plunger device"
+        }
+      ],
+      "base_form": "ဘုံပိုင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဘုံ ပိုင်",
+      "alternative": [
+        {
+          "word_postproc": "hydrant",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "common",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the tap",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "tap",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "other common",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဘုံပိုင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "sentences": [
+    {
+      "trans": "Sweats",
+      "orig": "ဇောချွေးပြန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "jaw hkyaway pyan"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "sweat,perspire in perplexity, terr,or agony",
+        "break out into a clammy sweat"
+      ],
+      "entry": [
+        {
+          "word": "sweat,perspire in perplexity, terr,or agony"
+        },
+        {
+          "word": "break out into a clammy sweat"
+        }
+      ],
+      "base_form": "ဇောချွေးပြန်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဇော ချွေး",
+      "alternative": [
+        {
+          "word_postproc": "Sweats",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 8
+        }
+      ],
+      "raw_src_segment": "ဇောချွေးပြန်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

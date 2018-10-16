@@ -1,0 +1,85 @@
+{
+  "sentences": [
+    {
+      "trans": "University",
+      "orig": "တက္ကသိုလ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "takkasol"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "university",
+        "institute of higher learning"
+      ],
+      "entry": [
+        {
+          "word": "university",
+          "reverse_translation": [
+            "တက္ဏသိုလ်ကေျာင်း"
+          ],
+          "score": 0.087379023
+        }
+      ],
+      "base_form": "တက္ကသိုလ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တက္ကသိုလ်",
+      "alternative": [
+        {
+          "word_postproc": "University",
+          "score": 994,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "University of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The University of",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the University",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "တက္ကသိုလ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

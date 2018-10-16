@@ -1,0 +1,103 @@
+{
+  "sentences": [
+    {
+      "trans": "ships",
+      "orig": "သင်္ဘော",
+      "backend": 0
+    },
+    {
+      "src_translit": "sainbhaw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "ship",
+        "vessel",
+        "papaya",
+        "paw paw"
+      ],
+      "entry": [
+        {
+          "word": "ship",
+          "reverse_translation": [
+            "သငေ်္ဘာ"
+          ],
+          "score": 0.15822297
+        }
+      ],
+      "base_form": "သင်္ဘော",
+      "pos_enum": 1
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "foreign"
+      ],
+      "entry": [
+        {
+          "word": "foreign",
+          "reverse_translation": [
+            "နိုင်ငံခြားရေး"
+          ]
+        }
+      ],
+      "base_form": "သင်္ဘော",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သင်္ဘော",
+      "alternative": [
+        {
+          "word_postproc": "ships",
+          "score": 773,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "ship",
+          "score": 222,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the ship",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the ships",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 7
+        }
+      ],
+      "raw_src_segment": "သင်္ဘော",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

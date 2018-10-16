@@ -1,0 +1,99 @@
+{
+  "sentences": [
+    {
+      "trans": "rational",
+      "orig": "ဆင်ခြင်တုံတရား",
+      "backend": 0
+    },
+    {
+      "src_translit": "sainhkyintonetararr"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "reasoning",
+        "consideration",
+        "rationalism"
+      ],
+      "entry": [
+        {
+          "word": "reasoning",
+          "reverse_translation": [
+            "ဆင်ခြင်ခြင်း"
+          ],
+          "score": 0.012392981
+        },
+        {
+          "word": "consideration",
+          "reverse_translation": [
+            "ဆင်ခြင်ခြင်း"
+          ],
+          "score": 0.0062315823
+        }
+      ],
+      "base_form": "ဆင်ခြင်တုံတရား",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆင်ခြင်တုံတရား",
+      "alternative": [
+        {
+          "word_postproc": "rational",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "of reason",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "the rational",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "is logical to",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "reason from",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ဆင်ခြင်တုံတရား",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "sentences": [
+    {
+      "trans": "Related",
+      "orig": "ကြောင်းတူသံကွဲ",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyaunggtuusankwal"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "synonym"
+      ],
+      "entry": [
+        {
+          "word": "synonym",
+          "reverse_translation": [
+            "အဓိပ္ပါယ်တူစကား"
+          ],
+          "score": 0.011283938
+        }
+      ],
+      "base_form": "ကြောင်းတူသံကွဲ",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြောင်းတူသံကွဲ",
+      "alternative": [
+        {
+          "word_postproc": "Related",
+          "score": 999,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Mutation",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Related terms",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "synonym",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "ကြောင်းတူသံကွဲ",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

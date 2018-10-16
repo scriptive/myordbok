@@ -1,0 +1,90 @@
+{
+  "sentences": [
+    {
+      "trans": "monitor",
+      "orig": "စောင့်ကြပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "hcaung kyaut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "guard",
+        "oversee"
+      ],
+      "entry": [
+        {
+          "word": "guard",
+          "reverse_translation": [
+            "ကာကွယ်စောင့်ရေှာက်"
+          ]
+        }
+      ],
+      "base_form": "စောင့်ကြပ်",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "စောင့် ကြပ်",
+      "alternative": [
+        {
+          "word_postproc": "monitor",
+          "score": 942,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "escort",
+          "score": 48,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "guarded",
+          "score": 7,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "be monitored",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "closely guarded",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 10
+        }
+      ],
+      "raw_src_segment": "စောင့်ကြပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

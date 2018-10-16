@@ -1,0 +1,197 @@
+{
+  "sentences": [
+    {
+      "trans": "lead",
+      "orig": "ဆောင်",
+      "backend": 0
+    },
+    {
+      "src_translit": "saung"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "take",
+        "carry",
+        "5allude",
+        "play the role",
+        "take the form",
+        "5depict",
+        "generate",
+        "bring forth",
+        "4bear",
+        "pay in",
+        "4pay up",
+        "perform",
+        "act",
+        "do",
+        "commit to memory",
+        "keep with one",
+        "carry with one",
+        "bring along"
+      ],
+      "entry": [
+        {
+          "word": "take",
+          "reverse_translation": [
+            "ယူ",
+            "သိမ်းယူ",
+            "ရယူ",
+            "ရရှိ",
+            "ကိုင်ယူ",
+            "သုံးစဲွ"
+          ],
+          "synset_id": [
+            63045
+          ],
+          "score": 0.022440789
+        },
+        {
+          "word": "carry",
+          "reverse_translation": [
+            "သယ်"
+          ],
+          "synset_id": [
+            63045
+          ],
+          "score": 0.008255505
+        },
+        {
+          "word": "generate",
+          "reverse_translation": [
+            "ဖြစ်ပါွးစေ"
+          ],
+          "synset_id": [
+            58340
+          ]
+        },
+        {
+          "word": "perform",
+          "reverse_translation": [
+            "လုပ်ဆောင်"
+          ],
+          "synset_id": [
+            58222
+          ]
+        },
+        {
+          "word": "act",
+          "reverse_translation": [
+            "ဇါတ်အခဏ်း"
+          ],
+          "synset_id": [
+            94226
+          ]
+        },
+        {
+          "word": "do",
+          "reverse_translation": [
+            "ပြုလုပ်"
+          ],
+          "synset_id": [
+            58222,
+            94226
+          ]
+        }
+      ],
+      "base_form": "ဆောင်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "noun",
+      "terms": [
+        "room",
+        "chamber",
+        "hall",
+        "hostel"
+      ],
+      "entry": [
+        {
+          "word": "room",
+          "reverse_translation": [
+            "အခန်း",
+            "နေရာ"
+          ]
+        },
+        {
+          "word": "chamber",
+          "reverse_translation": [
+            "အခန်းမ"
+          ]
+        },
+        {
+          "word": "hall",
+          "reverse_translation": [
+            "အခန်းကြီး"
+          ],
+          "synset_id": [
+            1340
+          ]
+        }
+      ],
+      "base_form": "ဆောင်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆောင်",
+      "alternative": [
+        {
+          "word_postproc": "lead",
+          "score": 997,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "leads",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "leading",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "brought",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "bring",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဆောင်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

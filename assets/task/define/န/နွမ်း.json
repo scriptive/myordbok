@@ -1,0 +1,103 @@
+{
+  "sentences": [
+    {
+      "trans": "wither",
+      "orig": "နွမ်း",
+      "backend": 0
+    },
+    {
+      "src_translit": "nwm"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "wither",
+        "wilt",
+        "fade",
+        "be worn-out"
+      ],
+      "entry": [
+        {
+          "word": "wilt",
+          "reverse_translation": [
+            "ညှုိးလေျာ်"
+          ],
+          "score": 0.0034414066
+        },
+        {
+          "word": "fade",
+          "reverse_translation": [
+            "ညိှုးနွမ်း"
+          ],
+          "synset_id": [
+            63846
+          ],
+          "score": 0.0034414066
+        }
+      ],
+      "base_form": "နွမ်း",
+      "pos_enum": 2
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နွမ်း",
+      "alternative": [
+        {
+          "word_postproc": "wither",
+          "score": 504,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "fading",
+          "score": 298,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "weakness",
+          "score": 133,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "withers",
+          "score": 59,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "waxed",
+          "score": 3,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "နွမ်း",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

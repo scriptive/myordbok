@@ -1,0 +1,53 @@
+{
+  "sentences": [
+    {
+      "trans": "Full-length mirror",
+      "orig": "ကိုယ်လုံးပေါ်မှန်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kolone paw mhaan"
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကိုယ်လုံး ပေါ် မှန်",
+      "alternative": [
+        {
+          "word_postproc": "Full-length mirror",
+          "score": 664,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Cheval glass",
+          "score": 335,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 17
+        }
+      ],
+      "raw_src_segment": "ကိုယ်လုံးပေါ်မှန်",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

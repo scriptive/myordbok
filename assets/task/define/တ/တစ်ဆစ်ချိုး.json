@@ -1,0 +1,62 @@
+{
+  "sentences": [
+    {
+      "trans": "Elbow-shaped bend",
+      "orig": "တစ်ဆစ်ချိုး",
+      "backend": 0
+    },
+    {
+      "src_translit": "tait sait hkyoe"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "elbow-shaped bend"
+      ],
+      "entry": [
+        {
+          "word": "elbow-shaped bend"
+        }
+      ],
+      "base_form": "တစ်ဆစ်ချိုး",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "တစ် ဆစ် ချိုး",
+      "alternative": [
+        {
+          "word_postproc": "Elbow-shaped bend",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 11
+        }
+      ],
+      "raw_src_segment": "တစ်ဆစ်ချိုး",
+      "start_pos": 0,
+      "end_pos": 4
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

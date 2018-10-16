@@ -1,0 +1,118 @@
+{
+  "sentences": [
+    {
+      "trans": "swell",
+      "orig": "နိပ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "niut"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "verb",
+      "terms": [
+        "decline",
+        "settle",
+        "be suppressed",
+        "be quelled"
+      ],
+      "entry": [
+        {
+          "word": "decline",
+          "reverse_translation": [
+            "ဆင်းလာ",
+            "ြငင်းဆို"
+          ],
+          "score": 0.032144949
+        },
+        {
+          "word": "settle",
+          "reverse_translation": [
+            "စေ့စပ်"
+          ],
+          "score": 0.032144949
+        }
+      ],
+      "base_form": "နိပ်",
+      "pos_enum": 2
+    },
+    {
+      "pos": "adjective",
+      "terms": [
+        "swell",
+        "good"
+      ],
+      "entry": [
+        {
+          "word": "good",
+          "reverse_translation": [
+            "ကောင်းသော"
+          ]
+        }
+      ],
+      "base_form": "နိပ်",
+      "pos_enum": 3
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "နိပ်",
+      "alternative": [
+        {
+          "word_postproc": "swell",
+          "score": 922,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "quelled",
+          "score": 69,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "subside",
+          "score": 6,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "decline",
+          "score": 1,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "suppressed",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 4
+        }
+      ],
+      "raw_src_segment": "နိပ်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

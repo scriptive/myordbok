@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "laid back",
+      "orig": "သက်သောင့်သက်သာ",
+      "backend": 1
+    },
+    {
+      "src_translit": "saat saw in  saatsar"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "adverb",
+      "terms": [
+        "at ease",
+        "comfortably"
+      ],
+      "entry": [
+        {
+          "word": "at ease"
+        },
+        {
+          "word": "comfortably"
+        }
+      ],
+      "base_form": "သက်သောင့်သက်သာ",
+      "pos_enum": 4
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "သက်သောင့်သက်သာ",
+      "alternative": [
+        {
+          "word_postproc": "laid back",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Convenient",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 14
+        }
+      ],
+      "raw_src_segment": "သက်သောင့်သက်သာ",
+      "start_pos": 0,
+      "end_pos": 0
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "sentences": [
+    {
+      "trans": "Phone Numbers",
+      "orig": "ဖုန်းဆိုးတော",
+      "backend": 0
+    },
+    {
+      "src_translit": "hpone soe taw"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "abandoned clearing overgrown with trees and bushes"
+      ],
+      "entry": [
+        {
+          "word": "abandoned clearing overgrown with trees and bushes"
+        }
+      ],
+      "base_form": "ဖုန်းဆိုးတော",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဖုန်း",
+      "alternative": [
+        {
+          "word_postproc": "Phone",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Phones",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "The phone",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 5
+        }
+      ],
+      "raw_src_segment": "ဖုန်းဆိုးတော",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "တော",
+      "alternative": [
+        {
+          "word_postproc": "Numbers",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "forest",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "wilderness",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 9,
+          "end": 12
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "sentences": [
+    {
+      "trans": "Thorn spike buttons",
+      "orig": "ဆူးငြောင့်ခလုတ်",
+      "backend": 0
+    },
+    {
+      "src_translit": "suu ngyaww in  hkalote"
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "obstacle",
+        "impediment",
+        "obstruction"
+      ],
+      "entry": [
+        {
+          "word": "obstacle",
+          "reverse_translation": [
+            "အဆီးအတား"
+          ],
+          "synset_id": [
+            35012
+          ]
+        },
+        {
+          "word": "obstruction",
+          "reverse_translation": [
+            "အပိတ်အဆို့"
+          ],
+          "synset_id": [
+            7091,
+            35012
+          ]
+        }
+      ],
+      "base_form": "ဆူးငြောင့်ခလုတ်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ဆူး",
+      "alternative": [
+        {
+          "word_postproc": "Thorn",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "Thorns",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 3
+        }
+      ],
+      "raw_src_segment": "ဆူးငြောင့်ခလုတ်",
+      "start_pos": 0,
+      "end_pos": 1
+    },
+    {
+      "src_phrase": "ငြော င့",
+      "alternative": [
+        {
+          "word_postproc": "spike",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "spike on",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "spike on the",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 3,
+          "end": 9
+        }
+      ],
+      "start_pos": 1,
+      "end_pos": 2
+    },
+    {
+      "src_phrase": "ခလုတ်",
+      "alternative": [
+        {
+          "word_postproc": "buttons",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        },
+        {
+          "word_postproc": "button",
+          "score": 0,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 10,
+          "end": 15
+        }
+      ],
+      "start_pos": 2,
+      "end_pos": 3
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}

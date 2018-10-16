@@ -1,0 +1,72 @@
+{
+  "sentences": [
+    {
+      "trans": "Grime",
+      "orig": "ကြေးညှော်",
+      "backend": 0
+    },
+    {
+      "src_translit": "kyay nyhaaw "
+    }
+  ],
+  "dict": [
+    {
+      "pos": "noun",
+      "terms": [
+        "grime",
+        "dirt."
+      ],
+      "entry": [
+        {
+          "word": "grime",
+          "reverse_translation": [
+            "အညစ်အကေြး"
+          ]
+        },
+        {
+          "word": "dirt.",
+          "reverse_translation": [
+            "အညစ်အကေြး"
+          ]
+        }
+      ],
+      "base_form": "ကြေးညှော်",
+      "pos_enum": 1
+    }
+  ],
+  "src": "my",
+  "alternative_translations": [
+    {
+      "src_phrase": "ကြေး ညှော ်",
+      "alternative": [
+        {
+          "word_postproc": "Grime",
+          "score": 1000,
+          "has_preceeding_space": true,
+          "attach_to_next_token": false
+        }
+      ],
+      "srcunicodeoffsets": [
+        {
+          "begin": 0,
+          "end": 9
+        }
+      ],
+      "raw_src_segment": "ကြေးညှော်",
+      "start_pos": 0,
+      "end_pos": 1
+    }
+  ],
+  "confidence": 1,
+  "ld_result": {
+    "srclangs": [
+      "my"
+    ],
+    "srclangs_confidences": [
+      1
+    ],
+    "extended_srclangs": [
+      "my"
+    ]
+  }
+}
