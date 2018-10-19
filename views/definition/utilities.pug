@@ -1,0 +1,75 @@
+
+mixin link(q)
+  a(href='definition?q='+q.toLowerCase())= q
+
+mixin example(eg)
+  eg.replace(/{-/g,'<a href="definition?q=').replace(/-:-/g,'">').replace(/-}/g,'</a>')
+
+mixin translation(o)
+  dl.definition.sentence
+    each raw, w in o
+      dt.dt
+        p= w
+          span.speech(class=solActive).zA.icon-sound
+      dd.dd
+        +definition(raw)
+
+mixin definition(o)
+  dl.definition.word
+    each raw, w in o
+      dt.dt
+        p= w
+          span.speech.en.zA.icon-sound
+      dd.dd
+        if raw.row
+          each define,grammar in raw.row
+            dl(class=grammar.toLowerCase())
+              dt
+                span= grammar
+              dd
+                each mean,type in define
+                  p!= mean.sense
+                  if mean.exam
+                    ul.eg
+                      each eg in mean.exam
+                        li!= eg.replace(/\{-(.*?)\-}/g, '<a href="definition?q=$1">$1</a>')
+
+        if raw.antonym
+          if raw.antonym.length
+            dl.thesaurus.antonym
+              dt
+                span Antonym
+              dd.dd
+                p
+                  each k in raw.antonym
+                    +link(k)
+
+        if raw.synonym
+          if raw.synonym.length
+            dl.thesaurus.synonym
+              dt
+                span Synonym
+              dd.dd
+                p
+                  each k in raw.synonym
+                    +link(k)
+
+        if raw.mobyNormal
+          if raw.mobyNormal.length
+            dl.thesaurus.moby
+              dt
+                span Moby
+              dd.dd
+                p
+                  each k in raw.mobyNormal
+                    +link(k)
+
+        if raw.mobyReverse
+          if raw.mobyReverse.length
+            dl.thesaurus.mobyReverse
+              dt
+                span Thesaurus
+              dd.dd
+                p
+                  each k in raw.mobyReverse
+                    +link(k)

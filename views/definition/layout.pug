@@ -1,0 +1,27 @@
+extends ../layout
+block header
+  include ../header
+
+block content
+  div.portal#content
+    div.resize
+      div.define
+        include utilities
+        case meta.type
+          when 'pleaseenter'
+            p working for pleaseenter
+          when 'notfound'
+            p working for notfound
+          when 'numeric'
+            p working for numeric
+          when 'math'
+            p working for math
+          when 'roman'
+            p working for roman
+          when 'translate'
+            +translation(data)
+          default
+            +definition(data)
+
+block footer
+  include ../footer

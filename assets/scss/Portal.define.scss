@@ -178,11 +178,13 @@
               // list-style: none;
               padding-left: 7%;
               padding-bottom: 2%;
+              margin-top: 1%;
               margin-left: 2%;
-              font-size:85%;
+              font-size:89%;
               // border-left: 1px solid #ccc;
               li{
-                color: lighten($ColorSecond,15%);
+                color: darken($ColorSecond,5%);
+                padding: 3px;
                 a{
                   &:link {
                     color: darken(#0000EE,5%);
@@ -194,10 +196,11 @@
                   &:hover {
                     // color: darken($ColorMain,50%);
                     text-decoration: underline;
-                    color: darken(#0000EE,1%);
+                    // color: darken(#0000EE,1%);
+                    color: darken($ColorMain,15%);
                   }
                   &:active {
-                      color: yellow;
+                      color: red;
                   }
                 }
               }

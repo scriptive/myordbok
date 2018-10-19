@@ -1,6 +1,6 @@
 var app = require('../'),
     {express,path} = app.root.evh(),
-    {dictionaries} = require('../score');
+    // {dictionaries} = require('../score'),
     https = require('https'),
     querystring = require('querystring'),
     search = require('./classDefinition');
@@ -15,10 +15,7 @@ router.get('/', (req, res, next) => {
 });
 
 router.get('/dictionaries', (req, res, next) => {
-  // console.log(req.signedCookies);
-  // console.log(res.cookie('sol'));
   new search(req).dictionaries(raw => {
-    // res.clearCookie('sol');
     return res.send(raw)
   });
 });
@@ -92,7 +89,6 @@ router.get('/suggestion', (req, res, next) => {
 });
 router.get('/definition', (req, res, next) => {
   // TODO: req.query
-  // console.log(res.locals.solId);
   new search(req).definition(raw => {
     return res.send(raw)
   })

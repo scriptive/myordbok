@@ -16,6 +16,7 @@ app.core.use(function(req, res, next){
   // res.clearCookie('foo');
   // res.cookie('sol', {id:'en',name:'English'});
   // res.clearCookie('solId');
+  // console.log(Object.values(dictionaries));
   let solId='en', solName = 'English';
   if (req.cookies.solId || req.cookies.solId != undefined || req.cookies.solName || req.cookies.solName != undefined) {
     solId=req.cookies.solId;

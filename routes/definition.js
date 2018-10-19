@@ -1,8 +1,8 @@
-var app = require('../');
-//     {express,path} = app.root.evh(),
-//     {score} = require('../score'),
-//     querystring = require('querystring'),
-//     Definition = require('./classDefinition');
+var app = require('../'),
+    {path} = app.root.evh(),
+    {score} = require('../score'),
+    querystring = require('querystring'),
+    search = require('./classDefinition');
 
 let router = app.router();
 router.get('/', function(req, res, next) {
@@ -45,11 +45,14 @@ router.get('/', function(req, res, next) {
   word,sentence,
   pleaseenter,notfound
   */
-  res.render('definition/meaning', { title: 'MyOrdboks' });
+  // res.render('definition/meaning', { title: 'MyOrdboks' });
   // res.render('definition/translate', { title: 'MyOrdbok' });
   // res.render('definition/pleaseenter', { title: 'MyOrdbok' });
   // res.render('definition/notfound', { title: 'MyOrdbok' });
   // res.render('definition/numeric', { title: 'MyOrdbok' });
+  new search(req).definition(raw => {
+    res.render('definition/layout', raw);
+  })
 
 });
 module.exports = router;

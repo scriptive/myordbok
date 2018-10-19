@@ -27,7 +27,7 @@ let examine={
     //     return (el.hero === "Batman");
     // }),
     // artist_map:row.listArtist.split(",").map(function(e){return e.trim();}),
-    return Array.from(new Set(res.map(function(e){return e.trim();}).filter(function (item, pos, self) {
+    return Array.from(new Set(res.map(e=>e.trim()).filter((item, pos, self) => {
         return self.indexOf(item) == pos && item!='';
     })));
   }
@@ -39,7 +39,7 @@ let table={
   type:'en_type',
   kind:'en_kind'
 },
-wordTable='',
+wordTable=null,
 solDefault='en',
 solActive='test';
 // source, target
@@ -77,15 +77,20 @@ module.exports = class Definition {
   }
   definition(callback) {
     // NOTE: the search() property is only for temporarily, and when using search_NEXT() uncomment database connection from constructor!
+    /*
+    meaning, translate, numeric, math, roman
+    word,sentence,
+    pleaseenter,notfound
+    */
     this.requestTableName();
     let q=this.requestURL.query.q,
         result={
-          info:{
+          meta:{
             q:q,
             msg:'???',
-            type:'meaning',
-            sentence:false,
-            translate:false
+            type:'meaning'
+            // sentence:false,
+            // translate:false
           },
           // solId:this.requestURL.cookies.solId,
           // solName:this.requestURL.cookies.solName,
@@ -96,46 +101,78 @@ module.exports = class Definition {
         // listGrammar={},
         // listKind={},
 
-    const asyncRow = async (row,word,resultRow) => {
+    const formatSense = (s) => {
+      return s;
+      return s.replace(/<b>(.*?)<\/b>/, function(s,t) {
+        return '{-*-}'.replace(/\*/g,t);
+      });
+    },
+    formatExam = (exam) => {
+      return exam.replace(/<b>(.*?)<\/b>/, function(s,t) {
+
+      }).replace(/\[(.*?)\]/, function(s,t) {
+        let e = t.split(':');
+        if (e.length > 1) {
+          return e[1].split('/').map(function(word){
+            // return '<a href="definition?q=*">*</a>'.replace(/\*/g,word);
+            // li!= eg.replace(/\{-(.*?)\-}/g, '<a href="definition?q=$1">$1</a>')
+            return '{-*-}'.replace(/\*/g,word);
+          }).join('/');
+        } else {
+          return s;
+        }
+      }).split("\r\n");
+    },
+    asyncRow = async (row,word,resultRow) => {
       if (!resultRow.hasOwnProperty('row'))resultRow['row']={};
       let grammar = row.type;
       if (!resultRow['row'].hasOwnProperty(grammar)) resultRow['row'][grammar]=[];
       resultRow['row'][grammar].push({
-        sense:row.sense,
+        sense:formatSense(row.sense),
         // wid:row.wid,
         // tid:row.tid,
         // sid:row.sid,
         // kid:row.kid,
-        exam:row.exam.split("\r\n")
+        exam:formatExam(row.exam)
       });
-      // NOTE: Antonym
-      // if (!resultRow.hasOwnProperty('antonym')) {
-      //   resultRow.antonym=[];
-      //   await this.queryAntonym(word).then(function(raw){
-      //     resultRow.antonym = raw.map(function(row){ return row.word });
-      //   });
-      // }
-      // NOTE: Derive
-      // if (!resultRow.hasOwnProperty('derive')) {
-      //   resultRow.derive = [];
-      //   await this.queryDerive(word).then(function(raw){
-      //     for(const row of raw){
-      //       resultRow.derive.push({
-      //         word:(row.word == word)?row.derive:row.word,
-      //         wame:row.wame,
-      //         dame:row.dame
-      //       })
-      //     }
-      //   });
-      // }
-      // NOTE: Moby -> normal
-      if (!resultRow.hasOwnProperty('moby')) {
-        resultRow.moby=moby.search(word);
+      // NOTE: Synonym
+      if (!resultRow.hasOwnProperty('synonym')) {
+        resultRow.synonym=[];
+        await this.querySynonym(word).then(function(raw){
+          resultRow.synonym = raw.map(function(row){ return row.word });
+        });
       }
-      // NOTE: Moby -> reverse
-      // if (!resultRow.hasOwnProperty('mobyReverse')) {
-      //   resultRow.mobyReverse=moby.reverseSearch(word);
+      // NOTE: Antonym
+      if (!resultRow.hasOwnProperty('antonym')) {
+        resultRow.antonym=[];
+        await this.queryAntonym(word).then(function(raw){
+          resultRow.antonym = raw.map(function(row){ return row.word });
+        });
+      }
+      // NOTE: Derive
+      if (!resultRow.hasOwnProperty('derive')) {
+        resultRow.derive = [];
+        await this.queryDerive(word).then(function(raw){
+          for(const row of raw){
+            resultRow.derive.push({
+              word:(row.word == word)?row.derive:row.word,
+              wame:row.wame,
+              dame:row.dame
+            })
+          }
+        });
+      }
+      // NOTE: Moby -> normal
+      // if (!resultRow.hasOwnProperty('mobyNormal')) {
+      //   let mobyNormal = moby.search(word);
+      //   // resultRow.mobyNormal=moby.search(word);
+      //   if (mobyNormal.length)resultRow.mobyNormal=mobyNormal;
       // }
+      // NOTE: Moby -> reverse
+      if (!resultRow.hasOwnProperty('mobyReverse')) {
+        let mobyReverse = moby.reverseSearch(word);
+        if (mobyReverse.length)resultRow.mobyReverse=mobyReverse;
+      }
       return resultRow;
     },
     asyncMean = async (raw) => {
@@ -161,7 +198,6 @@ module.exports = class Definition {
       return resultWord;
     },
     resultCallback = () => {
-
       if (solActive == solDefault){
         return this.queryMean(q).then(raw => {
           if (raw.length > 0) {
@@ -170,16 +206,17 @@ module.exports = class Definition {
               result.data[q]=resultRow;
             });
           } else if (examine.isNumeric(q)) {
-            result.info.type='numeric';
+            result.meta.type='numeric';
             result.data[q]=this.requestNumeric(q);
           } else {
             let words = examine.wordExplode(q);
             if (words.length > 1) {
               return asyncWord(words).then(resultRow=>{
-                result.info.sentence=true;
+                result.meta.sentence=true;
                 result.data=resultRow;
               });
             } else {
+              result.meta.type='notfound';
               result[q]=this.requestNone(q);
             }
           }
@@ -192,19 +229,24 @@ module.exports = class Definition {
           if (raw.length > 0) {
             let words = this.taskMerge(raw);
             return asyncWord(words).then(resultRow=>{
-              result.info.type='translate';
-              result.info.translate=true;
+              result.meta.type='translate';
+              // result.meta.translate=true;
               result.data[q]=resultRow;
             });
           } else if (examine.isNumeric(q)) {
             // result[q]=this.requestNumeric(q);
+            result.meta.type='numeric';
             result.data[q]=this.requestNumeric(q);
           } else {
             let words = examine.wordExplode(q);
             if (words.length > 1) {
-              // return asyncWord(words);
+              return asyncWord(words).then(resultRow=>{
+                result.meta.sentence=true;
+                result.data=resultRow;
+              });
             } else {
-              // result[q]=this.requestNone(q);
+              result.meta.type='notfound';
+              result[q]=this.requestNone(q);
             }
           }
         });
@@ -213,58 +255,6 @@ module.exports = class Definition {
     resultCallback().then(function(){
       callback(result);
     });
-
-    // if (solActive == solDefault){
-    //   this.queryMean(q).then(raw => {
-    //     if (raw.length > 0) {
-    //       // return asyncMean(raw);
-    //       return asyncMean(raw).then(resultRow=>{
-    //         result.data[q]=resultRow;
-    //       });
-    //     } else if (examine.isNumeric(q)) {
-    //       result.info.type='numeric';
-    //       result.data[q]=this.requestNumeric(q);
-    //     } else {
-    //       let words = examine.wordExplode(q);
-    //       if (words.length > 1) {
-    //         return asyncWord(words).then(resultRow=>{
-    //           result.info.sentence=true;
-    //           result.data=resultRow;
-    //         });
-    //       } else {
-    //         result[q]=this.requestNone(q);
-    //       }
-    //     }
-    //   }).then(function(){
-    //     callback(result);
-    //   });
-    // } else {
-    //   // this.queryInsertDump().then(function(){
-    //   //   callback('inserted dump');
-    //   // });
-    //   this.queryTranslate(q).then(raw=>{
-    //     if (raw.length > 0) {
-    //       let words = this.taskMerge(raw);
-    //       return asyncWord(words).then(resultRow=>{
-    //         result.info.type='translate';
-    //         result.info.translate=true;
-    //         result.data[q]=resultRow;
-    //       });
-    //     } else if (examine.isNumeric(q)) {
-    //       // result[q]=this.requestNumeric(q);
-    //       result.data[q]=this.requestNumeric(q);
-    //     } else {
-    //       let words = examine.wordExplode(q);
-    //       if (words.length > 1) {
-    //         // return asyncWord(words);
-    //       } else {
-    //         // result[q]=this.requestNone(q);
-    //       }
-    //     }
-    //   }).then(function(abc){
-    //     callback(result);
-    //   });
-    // }
   }
   taskMerge(raw) {
     let senseDump = raw.map(function(row){ return row.sense }).join(',').split(',');
@@ -288,17 +278,15 @@ module.exports = class Definition {
     /*
     SELECT w.`word`,d.*,s.`exam`,g.`name` AS type\
       FROM `en_word` w\
-      JOIN `en_sense` d\
-      JOIN `en_exam` s\
-      JOIN `en_type` g\
+        JOIN `en_sense` d\
+        JOIN `en_exam` s\
+        JOIN `en_type` g\
       ON s.`id` = d.`id` AND d.`wid` = w.`id` AND g.`id` = d.`tid`\
         WHERE w.`word` LIKE 'test' ORDER BY d.`tid`, d.`sid` ASC
     */
     return this.database.query("SELECT w.`word`,d.*,s.`exam`,g.`name` AS type\
       FROM ?? w\
-    	JOIN ?? d\
-    	JOIN ?? s\
-    	JOIN ?? g\
+      	JOIN ?? d JOIN ?? s JOIN ?? g\
       ON s.`id` = d.`id` AND d.`wid` = w.`id` AND g.`id` = d.`tid`\
         WHERE w.`word` LIKE ? ORDER BY d.`tid`, d.`sid` ASC", [
           table.word,
@@ -343,6 +331,12 @@ module.exports = class Definition {
 			JOIN `ww_sense` w ON w.`word_sense`=a.`word_sense2`\
 				WHERE s.`word`=? GROUP BY w.`word`;", [word]);
   }
+  querySynonym(word) {
+    return this.database.query("SELECT distinct w.`word`,w.`word_type`\
+      FROM `ww_sense` AS o, `ww_sense` AS w\
+        WHERE o.`equiv_word`=? AND o.`ID`=w.`ID` AND o.`word_sense`<>w.`word_sense`\
+          ORDER BY w.`word_type`,w.`word`;", [word]);
+  }
   queryKind() {
     return this.database.query('SELECT * FROM ?? ORDER BY id ASC',[table.kind]);
   }
@@ -350,7 +344,7 @@ module.exports = class Definition {
     return this.database.query('SELECT * FROM ?? ORDER BY id ASC',[table.type]);
   }
   requestTableName() {
-    // solActive=this.requestURL.cookies.solId;
+    solActive=this.requestURL.cookies.solId;
     wordTable=table.word.replace('en',solActive);
   }
   requestMath(){
