@@ -1,38 +1,29 @@
 var app = require('../'),
-    {express,path,fs} = app.root.evh(),
+    {path,fs,utility} = app.root.evh(),
+    url = require('url'),
+    querystring = require('querystring'),
     {dictionaries} = require('../score');
 
 var util = require('util'),
     moby = require('moby'),
-    notation = require('myanmar-notation');
+    notation = require('myanmar-notation'),
+    mathJs = require('mathjs');
 
 // const Timer = require('./class.timer');
+
+/*
+utility.check.isNumeric(k);
+utility.word.explode(k);
+utility.word.count(k);
+*/
 let config={
   track_limit:30
-};
-let examine={
-  isNumeric:function(k){
-    return /^-{0,1}\d+$/.test(k);
-  },
-  wordExplode:function(k){
-    return k.trim().split(/\s+/);
-  },
-  wordCount:function(k){
-    return this.wordExplode(k).length;
-  },
-  unique:function(res){
-    // artist_newset:Array.from(new Set(row.listArtist.split(","))),
-    // artist_dum:row.listArtist,
-    // artist_filter:row.listArtist.split(",").filter(function (el) {
-    //     return (el.hero === "Batman");
-    // }),
-    // artist_map:row.listArtist.split(",").map(function(e){return e.trim();}),
-    return Array.from(new Set(res.map(e=>e.trim()).filter((item, pos, self) => {
-        return self.indexOf(item) == pos && item!='';
-    })));
-  }
-};
-let table={
+},
+registry={
+  pos:{},
+  math:{}
+},
+table={
   word:'en_word',
   sense:'en_sense',
   exam:'en_exam',
@@ -49,6 +40,7 @@ module.exports = class Definition {
     this.requestURL=requestURL;
     this.result={};
     this.database=app.sql;
+    // this.q=null;
   }
 
   dictionaries(callback) {
@@ -68,7 +60,7 @@ module.exports = class Definition {
     callback(note);
   }
   suggestion(callback) {
-    this.requestTableName();
+    this.tableName();
     this.querySuggestion(this.requestURL.query.q+'%').then(raw => {
       return raw.map(row=>row.word)
     }).then(function(words){
@@ -82,18 +74,16 @@ module.exports = class Definition {
     word,sentence,
     pleaseenter,notfound
     */
-    this.requestTableName();
+    this.tableName();
     let q=this.requestURL.query.q,
         result={
           meta:{
             q:q,
-            msg:'???',
+            // msg:'???',
             type:'meaning'
             // sentence:false,
             // translate:false
           },
-          // solId:this.requestURL.cookies.solId,
-          // solName:this.requestURL.cookies.solName,
           solActive:solActive,
           solDefault:solDefault,
           data:{}
@@ -127,97 +117,136 @@ module.exports = class Definition {
       if (!resultRow.hasOwnProperty('row'))resultRow['row']={};
       let grammar = row.type;
       if (!resultRow['row'].hasOwnProperty(grammar)) resultRow['row'][grammar]=[];
-      resultRow['row'][grammar].push({
+      let rowGrammar={
         sense:formatSense(row.sense),
         // wid:row.wid,
         // tid:row.tid,
         // sid:row.sid,
         // kid:row.kid,
-        exam:formatExam(row.exam)
-      });
+        // exam:formatExam(row.exam)
+      };
+      if (row.exam) {
+        rowGrammar.exam=formatExam(row.exam);
+      }
+      resultRow['row'][grammar].push(rowGrammar);
+      // NOTE: Derive(Pos)
+      if (!resultRow.hasOwnProperty('pos')) {
+        resultRow.pos = [];
+        if (registry.pos.hasOwnProperty(word)){
+          resultRow.pos=registry.pos[word];
+        } else {
+          await this.queryPOS(word).then(function(raw){
+            for(const row of raw){
+              resultRow.pos.push({
+                word:(row.word == word)?row.derive:row.word,
+                wame:row.wame,
+                dame:row.dame
+              })
+            }
+          });
+        }
+      }
       // NOTE: Synonym
       if (!resultRow.hasOwnProperty('synonym')) {
         resultRow.synonym=[];
-        await this.querySynonym(word).then(function(raw){
-          resultRow.synonym = raw.map(function(row){ return row.word });
-        });
+        // await this.querySynonym(word).then(function(raw){
+        //   resultRow.synonym = raw.map(function(row){ return row.word });
+        // });
       }
       // NOTE: Antonym
       if (!resultRow.hasOwnProperty('antonym')) {
         resultRow.antonym=[];
-        await this.queryAntonym(word).then(function(raw){
-          resultRow.antonym = raw.map(function(row){ return row.word });
-        });
-      }
-      // NOTE: Derive
-      if (!resultRow.hasOwnProperty('derive')) {
-        resultRow.derive = [];
-        await this.queryDerive(word).then(function(raw){
-          for(const row of raw){
-            resultRow.derive.push({
-              word:(row.word == word)?row.derive:row.word,
-              wame:row.wame,
-              dame:row.dame
-            })
-          }
-        });
+        // await this.queryAntonym(word).then(function(raw){
+        //   resultRow.antonym = raw.map(function(row){ return row.word });
+        // });
       }
       // NOTE: Moby -> normal
-      // if (!resultRow.hasOwnProperty('mobyNormal')) {
-      //   let mobyNormal = moby.search(word);
-      //   // resultRow.mobyNormal=moby.search(word);
-      //   if (mobyNormal.length)resultRow.mobyNormal=mobyNormal;
-      // }
-      // NOTE: Moby -> reverse
+      if (!resultRow.hasOwnProperty('mobyNormal')) {
+        // let mobyNormal = moby.search(word);
+        // if (mobyNormal.length)resultRow.mobyNormal=mobyNormal;
+      }
+      // NOTE: Moby -> reverse (thesaurus)
       if (!resultRow.hasOwnProperty('mobyReverse')) {
-        let mobyReverse = moby.reverseSearch(word);
-        if (mobyReverse.length)resultRow.mobyReverse=mobyReverse;
+        // let mobyReverse = moby.reverseSearch(word);
+        // if (mobyReverse.length)resultRow.mobyReverse=mobyReverse;
       }
       return resultRow;
     },
     asyncMean = async (raw) => {
-      let resultMean={};
+      let r={};
       for(const row of raw){
-         await asyncRow(row,row.word,resultMean);
+         await asyncRow(row,row.word,r);
       }
-      return resultMean;
+      return r;
     },
     asyncWord = async (words) => {
-      let resultWord={};
+      let r={};
       for(const word of words){
-          resultWord[word] = await this.queryMean(word).then(raw => {
+          r[word] = await this.queryMean(word).then(raw => {
            if (raw.length > 0) {
              return asyncMean(raw);
-           } else if (examine.isNumeric(word)) {
+           } else if (utility.check.isNumeric(word)) {
              return this.requestNumeric(word);
+           } else if (this.requestMath(word)) {
+             return registry.math.row;
            } else {
              return this.requestNone(word);
            }
          });
       }
-      return resultWord;
+      return r;
+    },
+    asyncPOS = async (word) => {
+      return await this.queryPOS(word).then(function(raw){
+        return raw;
+      });
     },
     resultCallback = () => {
       if (solActive == solDefault){
         return this.queryMean(q).then(raw => {
           if (raw.length > 0) {
-            // return asyncMean(raw);
             return asyncMean(raw).then(resultRow=>{
               result.data[q]=resultRow;
             });
-          } else if (examine.isNumeric(q)) {
+          } else if (utility.check.isNumeric(q)) {
             result.meta.type='numeric';
             result.data[q]=this.requestNumeric(q);
+          } else if (this.requestMath()) {
+            result.meta.type='math';
+            // result.meta.q = registry.mathQuery;
+            result.meta.q = registry.math.q;
+            result.data[registry.math.q]=registry.math.row;
           } else {
-            let words = examine.wordExplode(q);
+            let words = utility.word.explode(q);
             if (words.length > 1) {
               return asyncWord(words).then(resultRow=>{
                 result.meta.sentence=true;
                 result.data=resultRow;
               });
             } else {
-              result.meta.type='notfound';
-              result[q]=this.requestNone(q);
+              // NOTE: not sentense, no match found in math,number,roman
+              return asyncPOS(words[0]).then(r0=>{
+                if (r0.length){
+                  // NOTE: add POS to registry to get faster load!
+                  registry.pos[r0[0].word]=r0;
+                  if (words[0] != r0[0].word ){
+                    // result.meta.type='meaning';
+                    return this.queryMean(r0[0].word).then(r1 => {
+                      if (r1.length > 0) {
+                        return asyncMean(r1).then(r2=>{
+                          result.data[q]=r2;
+                        });
+                      }
+                    })
+                  } else {
+                    result.meta.type='partofspeech';
+                    result.data[q]=r0;
+                  }
+                } else {
+                  result.meta.type='notfound';
+                  result.data[q]=this.requestNone(q);
+                }
+              });
             }
           }
         });
@@ -233,12 +262,11 @@ module.exports = class Definition {
               // result.meta.translate=true;
               result.data[q]=resultRow;
             });
-          } else if (examine.isNumeric(q)) {
-            // result[q]=this.requestNumeric(q);
+          } else if (utility.check.isNumeric(q)) {
             result.meta.type='numeric';
             result.data[q]=this.requestNumeric(q);
           } else {
-            let words = examine.wordExplode(q);
+            let words = utility.word.explode(q);
             if (words.length > 1) {
               return asyncWord(words).then(resultRow=>{
                 result.meta.sentence=true;
@@ -275,15 +303,6 @@ module.exports = class Definition {
     return this.database.query('SELECT word FROM ?? WHERE word LIKE ? ORDER BY word ASC LIMIT 10',[wordTable,word])
   }
   queryMean(word) {
-    /*
-    SELECT w.`word`,d.*,s.`exam`,g.`name` AS type\
-      FROM `en_word` w\
-        JOIN `en_sense` d\
-        JOIN `en_exam` s\
-        JOIN `en_type` g\
-      ON s.`id` = d.`id` AND d.`wid` = w.`id` AND g.`id` = d.`tid`\
-        WHERE w.`word` LIKE 'test' ORDER BY d.`tid`, d.`sid` ASC
-    */
     return this.database.query("SELECT w.`word`,d.*,s.`exam`,g.`name` AS type\
       FROM ?? w\
       	JOIN ?? d JOIN ?? s JOIN ?? g\
@@ -295,6 +314,7 @@ module.exports = class Definition {
           table.type,
           word
         ]);
+    // console.log(this.database.result.sql);
   }
   queryTranslate(word) {
     return this.database.query("SELECT * FROM ?? WHERE word = ?", [wordTable,word]);
@@ -316,9 +336,8 @@ module.exports = class Definition {
   queryUpdate(word,sense) {
     return this.database.query("UPDATE ?? SET sense=? WHERE word IN (?)", [wordTable,sense,word]);
   }
-  queryDerive(word) {
-    return this.database.query("SELECT\
-      w.`word_id` AS id, w.`word` AS word, d.`word` AS derive, d.`derived_type` AS d_type, d.`word_type` AS w_type, wt.`name` AS wame, dt.`derivation` AS dame\
+  queryPOS(word) {
+    return this.database.query("SELECT w.`word` AS word, d.`word` AS derive, wt.`name` AS wame, dt.`derivation` AS dame\
       FROM `ww_derive` AS d\
       INNER JOIN `ww_word` w ON w.`word_id`=d.`root_id`\
       INNER JOIN `ww_derive_type` dt ON dt.`derived_type`=d.`derived_type`\
@@ -343,12 +362,62 @@ module.exports = class Definition {
   queryType() {
     return this.database.query('SELECT * FROM ?? ORDER BY id ASC',[table.type]);
   }
-  requestTableName() {
+  tableName() {
     solActive=this.requestURL.cookies.solId;
     wordTable=table.word.replace('en',solActive);
   }
-  requestMath(){
-    return 'math';
+  requestMath(q){
+    /*
+    // NOTE: http://mathjs.org/
+    // functions and constants
+    math.round(math.e, 3)            // 2.718
+    math.atan2(3, -3) / math.pi      // 0.75
+    math.log(10000, 10)              // 4
+    math.sqrt(-4)                    // 2i
+    math.derivative('x^2 + x', 'x')  // 2*x+1
+    math.pow([[-1, 2], [3, 1]], 2)
+         // [[7, 0], [0, 7]]
+
+    // expressions
+    math.eval('1.2 * (2 + 4.5)')     // 7.8
+    math.eval('12.7 cm to inch')     // 5 inch
+    math.eval('sin(45 deg) ^ 2')     // 0.5
+    math.eval('9 / 3 + 2i')          // 3 + 2i
+    math.eval('det([-1, 2; 3, 1])')  // -7
+
+    // chaining
+    math.chain(3)
+        .add(4)
+        .multiply(2)
+        .done() // 14
+    */
+    registry.math={};
+    if (!q){
+      let parsedUrl = url.parse(this.requestURL.originalUrl);
+      q = querystring.unescape(parsedUrl.query.match(/q=([^&]+)/)[1]);
+    }
+    try {
+      let equation = mathJs.eval(q);
+      if (utility.check.isObject(equation)){
+        // JSON.stringify(obj)
+        // JSON.parse(str)
+        registry.math.row={
+          math:[JSON.parse(JSON.stringify(equation))]
+        }
+      } else {
+        registry.math.row={
+          math:[
+            {
+              equation:equation
+            }
+          ]
+        }
+      }
+      registry.math.q=q;
+    } catch (e) {
+      return false;
+    }
+    return true;
   }
   requestNumeric(num){
     return notation.get(num);
@@ -356,4 +425,14 @@ module.exports = class Definition {
   requestNone(){
     return 'none';
   }
+  // rowNone(){
+  // }
+  // rowNumeric(){
+  // }
+  // rowMath(){
+  // }
+  // rowRoman(){
+  // }
+  // rowOther(){
+  // }
 }

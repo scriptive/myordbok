@@ -22,3 +22,6 @@
 - Admin
   - [ ] import
   - [ ] export
+
+
+- [ ] You should not have pug tags with multiple attributes.

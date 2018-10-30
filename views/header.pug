@@ -12,7 +12,7 @@ div.portal#header
         each v, route in navDefinition
           form(name='search' method='get' action=v.url)
             p
-              input(type="search" name="q" value="" placeholder=" ...Search" autocomplete="off")
+              input(type="search" name="q" placeholder=" ...Search" autocomplete="off")
             p
               button(type="submit" id="search") &#xe83d;
             div#suggest

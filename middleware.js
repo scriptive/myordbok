@@ -8,6 +8,12 @@ const app = require('./'),
       {dictionaries} = require('./score'),
       {cookieParser,utility} = app.root.evh();
 
+
+// var qs = require('qs');
+// app.core.set('query parser', function (str) {
+//   return qs.parse(str, { decode: function (s) { return decodeURIComponent(s); } });
+// });
+
 app.core.use(function(req, res, next){
   //Expires after 360000 ms from the time it is set.
   // res.cookie(name, 'value', {expire: 360000 + Date.now()});
