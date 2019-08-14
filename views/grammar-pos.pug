@@ -1,0 +1,59 @@
+extends layout
+mixin highlight(eg)
+  eg.replace(/\'(.*?)\'/g, "<em>$1</em>")
+
+block content
+  div.portal#content
+    div.resize
+      div.grammar.forPartsofspeech
+        div.row.primary.text-centers
+          div
+            h1= grammar.root.name
+            p= grammar.root.desc
+            ul.note
+              li!= grammar.root.note.replace(/\'(.*?)\'/g, "<em>$1</em>")
+
+        div.row.secondary.text-centers
+          div.detail
+            ul.word(data-name=grammar.word.name)
+              each w in grammar.word.desc
+                li= w
+            ol.exam
+              each e in grammar.exam
+                li
+                  p= e.name
+                  ol
+                    each d in e.desc
+                      li!= d.replace(/\'(.*?)\'/g, "<em>$1</em>")
+
+            each o,id in grammar.kind
+              div
+                h2= o.root.name
+                div
+                  p= o.root.desc
+                  if o.root.note
+                    p= o.root.note
+                  if o.kind
+                    each i in o.kind
+                      div
+                        h3= i.root.name
+                        div
+                          p= i.root.desc
+                          if i.word && i.word.desc
+                            ul.word(data-name=i.word.name)
+                              each w in i.word.desc
+                                li= w
+
+                          if i.exam && i.exam.length
+                            ol.exam
+                              each e,id in i.exam
+                                li
+                                  p!= e.name.replace(/\'(.*?)\'/g, "<em>$1</em>")
+                                  if e.desc && e.desc.length
+                                    ol
+                                      each d in e.desc
+                                        li!= d.replace(/\'(.*?)\'/g, "<em>$1</em>")
+
+
+block footer
+  include footer

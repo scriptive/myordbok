@@ -1,33 +1,25 @@
-/*
-var {nav} = require('./');
-nav()
-var app = require('./');
-app.nav()
-*/
-var app = require('./');
+// const {Navigation} = require('./');
+const app = require('./');
 
-app.nav('navAPI')
-  .route({url: '/api',route: 'api', text: 'API'});
-// (/:langName) ?/:id ?/*
-app.nav('navDictionary')
+app.Navigation('navAPI')
+  .route({url: '/api',route: 'api', text: 'API'})
+  .route({url: '/test',route: 'test'});
+
+app.Navigation('navDictionary')
   .route({url: '/dictionary/:id?',route: 'dictionary', text: 'Dictionary'});
-// app.nav('navDictionarys')
-//   .route({url: '/dictionary/:id',route: 'dictionary', text: 'Dictionary'});
 
-app.nav('navDefinition')
+app.Navigation('navDefinition')
   .route({url: '/definition',route: 'definition', text: 'Definition'});
 
-app.nav('navTerms')
-  .route({url: '/privacy',route: 'home', text: 'Privacy'})
-  .route({url: '/terms',route: 'home', text: 'Terms'});
+app.Navigation('navTerms')
+  .route({url: '/privacy',route: 'privacy', text: 'Privacy'})
+  .route({url: '/terms',route: 'terms', text: 'Terms'});
 
-app.nav('navPage')
+app.Navigation('navPage')
   .route({url: '/',route: 'home', text: 'Home'})
   .route({url: '/about',route: 'about', text: 'About'})
-  .route({url: '/myanmar-fonts',route: 'home', text: 'Fonts'})
-  .route({url: '/grammar',route: 'home', text: 'Grammar'});
-app.nav('navFallback')
-  .route({url: '*',route: 'home', text: 'Fallback'})
+  .route({url: '/grammar',route: 'grammar', text: 'Grammar'})
+  .route({url: '/myanmar-fonts',route: 'fonts', text: 'Fonts'});
 
-// app.nav('navFallback')
-//   .route({url: '/',route: 'home', text: 'Fallback'})
+app.Navigation('navFallback')
+  .route({url: '*',route: 'home', text: 'Fallback'})

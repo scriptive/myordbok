@@ -1,9 +1,9 @@
-
 mixin link(q)
   a(href='definition?q='+q.toLowerCase())= q
 
 mixin example(eg)
-  eg.replace(/{-/g,'<a href="definition?q=').replace(/-:-/g,'">').replace(/-}/g,'</a>')
+  //- eg.replace(/{-/g,'<a href="definition?q=').replace(/-:-/g,'">').replace(/-}/g,'</a>')
+  eg
 
 mixin translation(o)
   dl.definition.sentence
@@ -33,6 +33,16 @@ mixin definition(o)
                     ul.eg
                       each eg in mean.exam
                         li!= eg.replace(/\{-(.*?)\-}/g, '<a href="definition?q=$1">$1</a>')
+
+        if raw.pos
+          if raw.pos.length
+            dl.thesaurus.pos
+              dt
+                span Part of speech
+              dd.dd
+                ul
+                  each k in raw.pos
+                    li(class=k.wame.toLowerCase()) #[a(href='definition?q='+k.word)= k.word] #[span= k.wame] #[em= k.dame]
 
         if raw.antonym
           if raw.antonym.length

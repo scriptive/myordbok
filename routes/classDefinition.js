@@ -1,16 +1,14 @@
-var app = require('../'),
-    {path,fs,utility} = app.root.evh(),
-    url = require('url'),
-    querystring = require('querystring'),
-    {dictionaries} = require('../score');
+const app = require('../');
+const {dictionaries} = app.Config;
+const {utility} = app.Common;
 
-var util = require('util'),
+var url = require('url'),
+  util = require('util'),querystring = require('querystring'),
     moby = require('moby'),
     notation = require('myanmar-notation'),
     mathJs = require('mathjs');
 
 // const Timer = require('./class.timer');
-
 /*
 utility.check.isNumeric(k);
 utility.word.explode(k);
@@ -35,7 +33,7 @@ solDefault='en',
 solActive='test';
 // source, target
 
-module.exports = class Definition {
+class search {
   constructor(requestURL) {
     this.requestURL=requestURL;
     this.result={};
@@ -92,6 +90,7 @@ module.exports = class Definition {
         // listKind={},
 
     const formatSense = (s) => {
+      // TODO: ???
       return s;
       return s.replace(/<b>(.*?)<\/b>/, function(s,t) {
         return '{-*-}'.replace(/\*/g,t);
@@ -132,18 +131,26 @@ module.exports = class Definition {
       // NOTE: Derive(Pos)
       if (!resultRow.hasOwnProperty('pos')) {
         resultRow.pos = [];
+        // TODO: ???
         if (registry.pos.hasOwnProperty(word)){
           resultRow.pos=registry.pos[word];
+          // for(const row of registry.pos[word]){
+          //   resultRow.pos.push({
+          //     word:(row.word == word)?row.derive:row.word,
+          //     wame:row.wame,
+          //     dame:row.dame
+          //   })
+          // }
         } else {
-          await this.queryPOS(word).then(function(raw){
-            for(const row of raw){
-              resultRow.pos.push({
-                word:(row.word == word)?row.derive:row.word,
-                wame:row.wame,
-                dame:row.dame
-              })
-            }
-          });
+          // await this.queryPOS(word).then(function(raw){
+          //   for(const row of raw){
+          //     resultRow.pos.push({
+          //       word:(row.word == word)?row.derive:row.word,
+          //       wame:row.wame,
+          //       dame:row.dame
+          //     })
+          //   }
+          // });
         }
       }
       // NOTE: Synonym
@@ -300,21 +307,12 @@ module.exports = class Definition {
     return sense;
   }
   querySuggestion(word) {
-    return this.database.query('SELECT word FROM ?? WHERE word LIKE ? ORDER BY word ASC LIMIT 10',[wordTable,word])
+    return this.database.query('SELECT word FROM ?? WHERE word LIKE ? ORDER BY word ASC LIMIT 10',[wordTable,word]);
   }
   queryMean(word) {
-    return this.database.query("SELECT w.`word`,d.*,s.`exam`,g.`name` AS type\
-      FROM ?? w\
-      	JOIN ?? d JOIN ?? s JOIN ?? g\
-      ON s.`id` = d.`id` AND d.`wid` = w.`id` AND g.`id` = d.`tid`\
-        WHERE w.`word` LIKE ? ORDER BY d.`tid`, d.`sid` ASC", [
-          table.word,
-          table.sense,
-          table.exam,
-          table.type,
-          word
+    return this.database.query("SELECT w.`word`, d.*, s.`exam`, g.`name` AS type FROM ?? w	JOIN ?? d JOIN ?? s JOIN ?? g ON s.`id` = d.`id` AND d.`wid` = w.`id` AND g.`id` = d.`tid` WHERE w.`word` LIKE ? ORDER BY d.`tid`, d.`sid` ASC", [
+          table.word, table.sense, table.exam, table.type, word
         ]);
-    // console.log(this.database.result.sql);
   }
   queryTranslate(word) {
     return this.database.query("SELECT * FROM ?? WHERE word = ?", [wordTable,word]);
@@ -337,23 +335,15 @@ module.exports = class Definition {
     return this.database.query("UPDATE ?? SET sense=? WHERE word IN (?)", [wordTable,sense,word]);
   }
   queryPOS(word) {
-    return this.database.query("SELECT w.`word` AS word, d.`word` AS derive, wt.`name` AS wame, dt.`derivation` AS dame\
-      FROM `ww_derive` AS d\
-      INNER JOIN `ww_word` w ON w.`word_id`=d.`root_id`\
-      INNER JOIN `ww_derive_type` dt ON dt.`derived_type`=d.`derived_type`\
-      INNER JOIN `ww_word_type` wt ON wt.`word_type`=d.`word_type`\
-        WHERE (d.`word`=? OR w.`word`=?) and (d.`derived_type` <> 0 OR d.`word_type` = 0);", [word,word]);
+    return this.database.query("SELECT w.`word` AS word, d.`word` AS derive, wt.`name` AS wame, dt.`derivation` AS dame FROM `ww_derive` AS d INNER JOIN `ww_word` w ON w.`word_id`=d.`root_id` INNER JOIN `ww_derive_type` dt ON dt.`derived_type`=d.`derived_type` INNER JOIN `ww_word_type` wt ON wt.`word_type`=d.`word_type` WHERE (d.`word`=? OR w.`word`=?) and (d.`derived_type` <> 0 OR d.`word_type` = 0);", [word,word]);
   }
   queryAntonym(word) {
-    return this.database.query("SELECT w.`word` as word FROM `ww_antonym` AS a\
-			JOIN `ww_sense` s ON s.`word_sense`=a.`word_sense1`\
-			JOIN `ww_sense` w ON w.`word_sense`=a.`word_sense2`\
-				WHERE s.`word`=? GROUP BY w.`word`;", [word]);
+    return this.database.query("SELECT w.`word` AS word FROM `ww_antonym` AS a JOIN `ww_sense` s ON s.`word_sense`=a.`word_sense1` JOIN `ww_sense` w ON w.`word_sense`=a.`word_sense2` WHERE s.`word`=? GROUP BY w.`word`;", [word]);
   }
   querySynonym(word) {
-    return this.database.query("SELECT distinct w.`word`,w.`word_type`\
-      FROM `ww_sense` AS o, `ww_sense` AS w\
-        WHERE o.`equiv_word`=? AND o.`ID`=w.`ID` AND o.`word_sense`<>w.`word_sense`\
+    return this.database.query("SELECT distinct w.`word`, w.`word_type` \
+      FROM `ww_sense` AS o, `ww_sense` AS w \
+        WHERE o.`equiv_word`=? AND o.`ID`=w.`ID` AND o.`word_sense`<>w.`word_sense` \
           ORDER BY w.`word_type`,w.`word`;", [word]);
   }
   queryKind() {
@@ -436,3 +426,4 @@ module.exports = class Definition {
   // rowOther(){
   // }
 }
+module.exports = {search};

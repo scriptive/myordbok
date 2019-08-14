@@ -1,22 +1,9 @@
-// NOTE: mini
-var app = require('../'),
-    {dictionaries} = require('../score');
-//     {express,path} = app.root.evh(),
-//     querystring = require('querystring'),
-//     Definition = require('./classDefinition');
+const app = require('../');
+const {dictionaries} = app.Config;
+const routes = app.Router();
 
-let router = app.router();
-router.get('/', function(req, res, next) {
-  // let sol=req.cookies.sol;
-  // for (var continental in dictionaries) {
-  //   if (dictionaries.hasOwnProperty(continental)) {
-  //     if (dictionaries[continental].hasOwnProperty(sol)) {
-  //
-  //     }
-  //     // console.log(continental + " -> " + dictionaries[continental]);
-  //   }
-  // }
+routes.get('/', function(req, res, next) {
   res.render('dictionary', { title: 'MyOrdbok', dictionaries:dictionaries});
 });
 
-module.exports = router;
+module.exports = routes;

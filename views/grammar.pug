@@ -1,0 +1,31 @@
+extends layout
+block content
+  div.portal#content
+    div.resize
+      div.grammar.forPartsofspeech
+        div.row.primary.text-centers
+          div
+            h1= grammar.context.name
+            p= grammar.context.desc
+            ul.note
+              each o in grammar.context.kind
+                li
+                  strong #{o.name}
+                  | #{o.desc}
+
+        div.row.secondary.text-centers
+          div.pos
+            ul.partsofspeech
+              each o,id in grammar.pos
+                li
+                  a(href="/grammar/pos-"+id)= o.root.name
+                  p= o.root.desc
+          div.grammar
+            ul.summary
+              each o,id in grammar.grammar
+                li
+                  strong= o.name
+                  p= o.desc
+
+block footer
+  include footer

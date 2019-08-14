@@ -1,20 +1,17 @@
-var app = require('../'),
-    {express,path} = app.root.evh(),
-    // {dictionaries} = require('../score'),
-    https = require('https'),
-    querystring = require('querystring'),
-    search = require('./classDefinition');
+const app = require('../');
+const routes = app.Router();
+const {search} = require('./classDefinition');
+var https = require('https');
+var querystring = require('querystring');
 
-let router = app.router();
-
-router.get('/', (req, res, next) => {
+routes.get('/', (req, res, next) => {
   res.send({
-    name:app.score.name,
-    version:app.score.version
+    name:app.Config.name,
+    version:app.Config.version
   })
 });
 
-router.get('/dictionaries', (req, res, next) => {
+routes.get('/dictionaries', (req, res, next) => {
   new search(req).dictionaries(raw => {
     return res.send(raw)
   });
@@ -25,35 +22,35 @@ https://translate.google.com/translate_a/single?
 https://translation.googleapis.com/language/translate/v2?
 https://translation.googleapis.com/language/translate/v2?source=en&target=my&q=love
 */
-router.get('/translate', (req, res, next) => {
+routes.get('/translate', (req, res, next) => {
   res.send({working:'translate'})
 });
 
 // NOTE: api/post
-// router.get('/post', (req, res, next) => {
+// routes.get('/post', (req, res, next) => {
 //   res.send({working:'post'});
 // });
-// router.get('/import', (req, res, next) => {
+// routes.get('/import', (req, res, next) => {
 //   res.send({working:'import'})
 // });
-// router.get('/editor', (req, res, next) => {
+// routes.get('/editor', (req, res, next) => {
 //   res.send({working:'editor'})
 // });
 
-router.get('/thesaurus', (req, res, next) => {
+routes.get('/thesaurus', (req, res, next) => {
   // TODO: req.query
   new search(req).thesaurus(raw => {
     return res.send(raw)
   })
 });
 // NOTE: main
-router.get('/speech', (req, res, next) => {
+routes.get('/speech', (req, res, next) => {
   // querystring.escape('One two');
   // querystring.stringify({query: "SELECT name FROM user WHERE uid = me()"});
   let query= req.query,
       word = querystring.escape(query.q),
       lang = query.l,
-      url = app.score.speechUrl.replace('$q',word).replace('$l',lang);
+      url = app.Config.speechUrl.replace('$q',word).replace('$l',lang);
   // res.send({working:'speech',q:q,l:l,url:url})
   res.set({
     'Content-Type': 'audio/mpeg',
@@ -75,26 +72,64 @@ router.get('/speech', (req, res, next) => {
     res.sendStatus(404);
   });
 });
-router.get('/notation', (req, res, next) => {
+routes.get('/notation', (req, res, next) => {
   // TODO: req.query
   new search(req).notation(raw => {
     return res.send(raw)
   })
 });
-router.get('/suggestion', (req, res, next) => {
+routes.get('/suggestion', (req, res, next) => {
   // TODO: req.query
   new search(req).suggestion(raw => {
     return res.send(raw)
   })
 });
-router.get('/definition', (req, res, next) => {
+routes.get('/definition', (req, res, next) => {
   // TODO: req.query
   new search(req).definition(raw => {
     return res.send(raw)
   })
 });
+routes.get('/audio', (req, res, next) => {
+  var key = req.params.key;
+  // var music = '../../leyts/dist/mp/' + key + '.mp3';
+  var music = '../leyts/dist/mp3/25/1032.mp3';
+  var stat = fs.statSync(music);
+  range = req.headers.range;
+  var readStream;
 
-// router.get('/music', function(req,res){
+  if (range !== undefined) {
+      var parts = range.replace(/bytes=/, "").split("-");
+
+      var partial_start = parts[0];
+      var partial_end = parts[1];
+
+      if ((isNaN(partial_start) && partial_start.length > 1) || (isNaN(partial_end) && partial_end.length > 1)) {
+          return res.sendStatus(500); //ERR_INCOMPLETE_CHUNKED_ENCODING
+      }
+
+      var start = parseInt(partial_start, 10);
+      var end = partial_end ? parseInt(partial_end, 10) : stat.size - 1;
+      var content_length = (end - start) + 1;
+
+      res.status(206).header({
+          'Content-Type': 'audio/mpeg',
+          'Content-Length': content_length,
+          'Content-Range': "bytes " + start + "-" + end + "/" + stat.size
+      });
+
+      readStream = fs.createReadStream(music, {start: start, end: end});
+  } else {
+      res.header({
+          'Content-Type': 'audio/mpeg',
+          'Content-Length': stat.size
+      });
+      readStream = fs.createReadStream(music);
+  }
+  readStream.pipe(res);
+});
+
+// routes.get('/music', function(req,res){
 // 	let file = 'music.mp3'
 // 	fs.exists(file,function(exists){
 // 		if(exists){
@@ -106,7 +141,7 @@ router.get('/definition', (req, res, next) => {
 // 		}
 // 	});
 // });
-// router.get('/music', function(req,res){
+// routes.get('/music', function(req,res){
 // 	let file = 'music.mp3'
 // 	fs.exists(file,function(exists){
 // 		if(exists){
@@ -120,4 +155,4 @@ router.get('/definition', (req, res, next) => {
 // 		}
 // 	});
 // });
-module.exports = router;
+module.exports = routes;

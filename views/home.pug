@@ -10,6 +10,9 @@ block content
                 a(href=v.url.replace(':id',solName.toLowerCase()).replace('?',''))
                   span #{solName}
                   span Myanmar
+        //- div.test
+        //-   p=visits_count
+        //-   p=visits_total
         div.search
           each v, route in navDefinition
             form(name='search' method='get' action=v.url)

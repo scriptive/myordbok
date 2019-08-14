@@ -1,12 +1,19 @@
-var app = require('../'),
-    {path} = app.root.evh(),
-    {score} = require('../score'),
-    querystring = require('querystring'),
-    search = require('./classDefinition');
+const app = require('../');
+const routes = app.Router();
+const {search} = require('./classDefinition');
 
-let router = app.router();
-router.get('/', function(req, res, next) {
-  /*
+routes.get('/', function(req, res, next) {
+  // res.render('definition/meaning', { title: 'MyOrdboks' });
+  // res.render('definition/translate', { title: 'MyOrdbok' });
+  // res.render('definition/pleaseenter', { title: 'MyOrdbok' });
+  // res.render('definition/notfound', { title: 'MyOrdbok' });
+  // res.render('definition/numeric', { title: 'MyOrdbok' });
+  new search(req).definition(raw => {
+    res.render('definition/layout', raw);
+  })
+});
+/*
+routes.get('/', function(req, res, next) {
   let param={},
       query=req.query;
   if (query.q){
@@ -31,8 +38,7 @@ router.get('/', function(req, res, next) {
     // });
     res.send(raw);
   });
-  */
-  /*
+
   definition
   numeric
   translate
@@ -44,15 +50,7 @@ router.get('/', function(req, res, next) {
   meaning, translate
   word,sentence,
   pleaseenter,notfound
-  */
-  // res.render('definition/meaning', { title: 'MyOrdboks' });
-  // res.render('definition/translate', { title: 'MyOrdbok' });
-  // res.render('definition/pleaseenter', { title: 'MyOrdbok' });
-  // res.render('definition/notfound', { title: 'MyOrdbok' });
-  // res.render('definition/numeric', { title: 'MyOrdbok' });
-  new search(req).definition(raw => {
-    res.render('definition/layout', raw);
-  })
 
 });
-module.exports = router;
+*/
+module.exports = routes;

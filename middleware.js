@@ -1,20 +1,15 @@
-/*
-var app = require('./');
-app.core.use();
-const {core} = require('./');
-core.use();
-*/
-const app = require('./'),
-      {dictionaries} = require('./score'),
-      {cookieParser,utility} = app.root.evh();
+const app = require('./');
+const {dictionaries} = app.Config;
+const {utility} = app.Common;
 
+app.Core.use('/jquery.js',app.Common.express.static(__dirname + '/node_modules/jquery/dist/jquery.min.js'));
 
 // var qs = require('qs');
-// app.core.set('query parser', function (str) {
+// app.Core.set('query parser', function (str) {
 //   return qs.parse(str, { decode: function (s) { return decodeURIComponent(s); } });
 // });
 
-app.core.use(function(req, res, next){
+app.Core.use(function(req, res, next){
   //Expires after 360000 ms from the time it is set.
   // res.cookie(name, 'value', {expire: 360000 + Date.now()});
   //This cookie also expires after 360000 ms from the time it is set.
@@ -23,6 +18,12 @@ app.core.use(function(req, res, next){
   // res.cookie('sol', {id:'en',name:'English'});
   // res.clearCookie('solId');
   // console.log(Object.values(dictionaries));
+  // console.log(app.Config);
+
+  // res.locals.app_locale = locale;
+  // var solId, solName;
+  res.locals.appName = app.Config.name;
+  res.locals.appVersion = app.Config.version;
   let solId='en', solName = 'English';
   if (req.cookies.solId || req.cookies.solId != undefined || req.cookies.solName || req.cookies.solName != undefined) {
     solId=req.cookies.solId;
@@ -38,7 +39,6 @@ app.core.use(function(req, res, next){
     let Id, Name = sol[2];
      // && req.cookies.solName && Name.toLowerCase() !== req.cookies.solName.toLowerCase()
     if (Name) {
-
       for (var continental in dictionaries) {
         if (dictionaries.hasOwnProperty(continental)) {
           Id = utility.objects.getKeybyValue(dictionaries[continental],Name,'i');
@@ -60,14 +60,14 @@ app.core.use(function(req, res, next){
 });
 
 
-
-var webpack = require('webpack');
-// process.env.WEBPACK_CONFIG ? process.env.WEBPACK_CONFIG :
-var webpackConfig = require('./webpack.middleware');
-var compiler = webpack(webpackConfig);
-app.core.use(require('webpack-dev-middleware')(compiler, {
-  logLevel: 'warn', publicPath: webpackConfig.output.publicPath
-}));
-app.core.use(require('webpack-hot-middleware')(compiler, {
-  log: console.log, path: '/__webpack_hmr', heartbeat: 10 * 1000
-}));
+if (app.Config.development) {
+  var webpack = require('webpack');
+  var webpackConfig = require('./webpack.middleware');
+  var compiler = webpack(webpackConfig);
+  app.Core.use(require('webpack-dev-middleware')(compiler, {
+    logLevel: 'warn', publicPath: webpackConfig.output.publicPath
+  }));
+  app.Core.use(require('webpack-hot-middleware')(compiler, {
+    log: console.log, path: '/__webpack_hmr', heartbeat: 10 * 1000
+  }));
+}

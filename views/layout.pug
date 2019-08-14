@@ -3,11 +3,21 @@ html(lang='en')
   head
     block head
       meta(charset='utf-8')
-      title= title
+      meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+      if title
+        title= title
+      if keywords
+        meta(name="keywords" content=keywords)
+      if description
+        meta(name="description" content=description)
+      meta(name="application-name" content=appName data-version=appVersion)
       base(href='/')
       link(rel='api', href='api')
       link(rel='icon', href='favicon.png' type='image/png')
-      script(src='https://code.jquery.com/jquery-3.3.1.min.js')
+      //- script(src='https://code.jquery.com/jquery-3.3.1.min.js')
+      script(src='/jquery.js')
+      script(type='text/javascript', src='/script.js')
+      link(rel='stylesheet', href='/style.css')
       script.
         $(function(){
           $(document).MyOrdbok(['suggest ready','toggle menu','zA','zO']);
@@ -19,12 +29,7 @@ html(lang='en')
           div
             div.navigate
               div.column
-                include barPage
-              div.column
-                include barUser
+                include bar-page
       block header
       block content
       block footer
-
-    script(type='text/javascript', src='/script.js')
-    link(rel='stylesheet', href='/style.css')

@@ -1,0 +1,165 @@
+extends layout
+block content
+
+  if info
+    div.portal.detail
+      div.center
+        div.fonts
+          div.row.info
+            each o in info
+              div(class=o.class)
+                #{o.tag}= o.text
+            if url
+              ul.url
+                each o in url
+                  li
+                    a(href=o.href, target='blank')= o.text
+
+          div.row.more
+            div.toggle
+              ul.menu
+                if definition
+                  li(class='definition' data-toggle='definition') Description
+                if license
+                  li(class='license' data-toggle='license') License
+                if download
+                  li.download
+                    a(href=`/myanmar-fonts/download/${type}?font=${download}`) Download
+
+              div.container
+                if definition
+                  div.definition
+                    each o in definition
+                      #{o.tag}= o.text
+
+                if license
+                  div.license
+                    each o in license
+                      #{o.tag}= o.text
+
+  div.portal#content
+    div
+      div.fonts
+        div.row.primary
+          div.column.Myanmar3
+            h2 Myanmar 3
+              span Version 1.358
+            ul.keyboard
+              li.apple
+                a.not(href="#")
+                  span.icon-apple Mac
+                  em none
+              li.linux
+                a.not(href="#")
+                  span.icon-linux Linux
+                  em none
+              li.windows
+                a.not(href="#")
+                  span.icon-windows Windows
+                  em none
+            ul.typeface
+              li
+                a.download(href="/myanmar-fonts/primary?font=Myanmar3_V1.358.ttf") Regular
+              li
+                a.download(href="/myanmar-fonts/primary?font=Myanmar3h_V1.358.ttf") 3h
+              li
+                a.download(href="/myanmar-fonts/primary?font=Myanmar3sh_V1.358.ttf") 3sh
+              li
+                a.download(href="/myanmar-fonts/primary?font=Mm3Web_V3.000.ttf") Mm3Web
+            p
+              | Myanmar Natural Language Processing (NLP) Research Center is a non-profit organization
+              | (NPO) as well as a non-government organization (NGO), mostly supported by Myanmar Computer Federation. It was formed with the aim...
+              a(href="http://www.myanmarnlp.net.mm/") myanmarnlp.net.mm
+
+          div.column.Zawgyi-One
+            h2 Zawgyi-One
+              span Version 3.1
+            ul.keyboard
+              li.apple
+                a.not(href="#")
+                  span.icon-apple Mac
+                  em none
+              li.linux
+                a.not(href="#")
+                  span.icon-linux Linux
+                  em none
+              li.windows
+                a.not(href="#")
+                  span.icon-windows Windows
+                  em none
+
+            ul.typeface
+              li
+                a.download(href="/myanmar-fonts/primary?font=Zawgyi-One_V3.1.ttf") Regular
+              li
+                a.download(href="/myanmar-fonts/primary?font=Zawgyi-One_V3.0.ttf") 3.0
+            p
+              | Zawgyi-One's Myanmar glyphs are designed by Zaw Win Myat of Art House. The font is produced and published by Zawgyi.net and Alpha Mandalay.
+              | It contains glyphs for English and other characters, which are from temporarily from Tahoma.
+              a(href="http://www.alpha.com.mm/") alpha.com.mm
+              a(href="http://www.zawgyi.net") zawgyi.net
+
+          div.column.Paduak
+            h2 Paduak
+              span Version 3.003
+            ul.keyboard
+              li.apple
+                a.download(href="http://software.sil.org/downloads/r/padauk/padauk-3.003.zip")
+                  span.icon-apple Mac
+                  em Download
+              li.linux
+                a.download(href="http://software.sil.org/downloads/r/padauk/padauk-3.003.zip")
+                  span.icon-linux Linux
+                  em Download
+              li.windows
+                a.download(href="http://software.sil.org/downloads/r/padauk/Padauk-3.003-win.exe")
+                  span.icon-windows Windows
+                  em Download
+
+              ul.typeface
+                li
+                  a.download(href="/myanmar-fonts/primary?font=Padauk-Regular.ttf") Regular
+                li
+                  a.download(href="/myanmar-fonts/primary?font=Padauk-Bold.ttf") Bold
+                li
+                  a.download(href="/myanmar-fonts/primary?font=PadaukBook-Regular.ttf") Book
+                li
+                  a.download(href="/myanmar-fonts/primary?font=PadaukBook-Bold.ttf") Book bold
+                li
+                  a.download(href="http://software.sil.org/downloads/r/padauk/padauk-3.002-web.zip") Web
+              p
+                | Padauk is a Unicode-based font family with broad support for writing systems that use the Myanmar script.
+                | Padauk includes full support for Unicode 9.0 Myanmar ranges...
+                a(href="https://software.sil.org/padauk/") scripts.sil.org
+
+          if ads
+            div.column.Commercial
+              p ads
+
+        if secondary
+          div.row.gallery.secondary
+            ul
+              each j in secondary
+                - var total = j.view + j.download;
+                li
+                  a.dt(href=`/myanmar-fonts/secondary?font=${j.file}` data-view=j.view data-download=j.download data-total=total class=total ? 'y':'n')= j.name
+                  if !j.restrict
+                    a.dl.icon-floppy(href=j.restrict ? '#':`/myanmar-fonts/download/secondary?font=${j.file}` title="Download") Download
+                  p.f2= j.version
+                  p.f5= j.family
+
+        if external
+          div.row.gallery.external
+            ul
+              each j in external
+                - var total = j.view + j.download;
+                li
+                  a.dt(href=`/myanmar-fonts/external?font=${j.file}` data-view=j.view data-download=j.download data-total=total class=total ? 'y':'n')= j.name
+                  if !j.restrict
+                    a.dl.icon-floppy(href=j.restrict ? '#':`/myanmar-fonts/download/external?font=${j.file}` title="Download") Download
+                  p.f2= j.version
+                  p.f5= j.family
+
+
+block footer
+  include footer
