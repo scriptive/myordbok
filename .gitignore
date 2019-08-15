@@ -1,5 +1,8 @@
 *.v[0-9]*.*
-test/
+/test
+/static
+/static/*.json
+*-lock.json
 
 # Logs
 logs

@@ -1,4 +1,6 @@
-var path = require('path');
+const path = require('path');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+
 module.exports = {
   mode: 'development',
   devtool: 'inline-source-map',
@@ -11,6 +13,7 @@ module.exports = {
     publicPath: '/'
   },
   plugins: [
+    new MiniCssExtractPlugin({filename: 'style.css'}),
   ],
   module: {
     rules: [
@@ -29,6 +32,16 @@ module.exports = {
         }
       },
       {
+        // test: /\.s?css$/,
+        test: /\.(sa|sc|c)ss$/,
+        use: [
+          MiniCssExtractPlugin.loader,
+          'style-loader',
+          "css-loader",
+          "sass-loader"
+        ]
+      },
+      {
         test: /Myanmar3.*$/,
         loader: 'file-loader',
         query: {
@@ -36,7 +49,7 @@ module.exports = {
         }
       },
       {
-        test: /favicon.png$/,
+        test: /\.png$/,
         // NOTE: file-loader?name=[name].[ext] retain original file name
         loader: 'file-loader',
         // loader: 'url-loader?limit=1024&name=[name].[ext]',
@@ -51,21 +64,10 @@ module.exports = {
         test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
         // NOTE: file-loader or url-loader
         loader: 'file-loader',
-        exclude: [/Myanmar3.*$/,/favicon.png$/],
+        exclude: [/Myanmar3.*$/],
         options: {
           limit: 10000
         }
-      },
-      {
-        test: /\.(sa|sc|c)ss$/,
-        use: [
-          // {
-          //   loader: 'style-loader',
-          // },
-          'style-loader',
-          'css-loader',
-          'sass-loader'
-        ]
       }
     ]
   }

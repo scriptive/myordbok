@@ -1,8 +1,7 @@
-var path = require('path'),
-    webpack = require('webpack'),
-    merge = require('webpack-merge'),
-    MiniCssExtractPlugin = require('mini-css-extract-plugin'),
-    configuration = require('./webpack.config.js');
+const path = require('path');
+const webpack = require('webpack');
+const merge = require('webpack-merge');
+const configuration = require('./webpack.config.js');
 
 module.exports = merge(configuration, {
   mode: 'development',
@@ -10,27 +9,17 @@ module.exports = merge(configuration, {
   context: __dirname,
   entry: [
     'webpack-hot-middleware/client?path=/__webpack_hmr&timeout=20000',
-    path.resolve(__dirname, 'assets/webpack/middleware.js')
+    path.resolve(__dirname, 'assets/webpack/development.js')
   ],
   output: {
     filename:'script.js',
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoEmitOnErrorsPlugin(),
-    new MiniCssExtractPlugin({filename: 'style.css'})
+    new webpack.NoEmitOnErrorsPlugin()
   ],
   module:{
     rules:[
-      {
-        test: /middleware.css$/,
-        use: [
-          {
-            loader: MiniCssExtractPlugin.loader
-          },
-          'css-loader'
-        ]
-      }
     ]
   }
 });
