@@ -14,8 +14,11 @@ html(lang='en')
       base(href='/')
       link(rel='api', href='api')
       link(rel='icon', href='favicon.png' type='image/png')
-      //- script(src='https://code.jquery.com/jquery-3.3.1.min.js')
-      script(src='/jquery.js')
+      //- if isDevelopment
+      //-   script(src='/jquery.js')
+      //- else
+      //-   script(src='https://code.jquery.com/jquery-3.3.1.min.js')
+      script(src=isDevelopment?'/jquery.js':'https://code.jquery.com/jquery-3.3.1.min.js')
       script(type='text/javascript', src='/script.js')
       link(rel='stylesheet', href='/style.css')
       script.

@@ -1,13 +1,9 @@
 const app = require('./');
+const path = require('path');
 const {dictionaries} = app.Config;
-const {utility} = app.Common;
+const {fs,utility} = app.Common;
 
 app.Core.use('/jquery.js',app.Common.express.static(__dirname + '/node_modules/jquery/dist/jquery.min.js'));
-
-// var qs = require('qs');
-// app.Core.set('query parser', function (str) {
-//   return qs.parse(str, { decode: function (s) { return decodeURIComponent(s); } });
-// });
 
 app.Core.use(function(req, res, next){
   //Expires after 360000 ms from the time it is set.
@@ -22,8 +18,8 @@ app.Core.use(function(req, res, next){
 
   // res.locals.app_locale = locale;
   // var solId, solName;
-  res.locals.appName = app.Config.name;
-  res.locals.appVersion = app.Config.version;
+  // res.locals.appName = app.Config.name;
+  // res.locals.appVersion = app.Config.version;
   let solId='en', solName = 'English';
   if (req.cookies.solId || req.cookies.solId != undefined || req.cookies.solName || req.cookies.solName != undefined) {
     solId=req.cookies.solId;

@@ -39,6 +39,6 @@ require('./index.js');
 if (module.hot) {
   module.hot.accept();
   module.hot.dispose(function() {
-    clearInterval(timer);
+    // clearInterval(timer);
   });
 }

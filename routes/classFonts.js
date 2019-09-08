@@ -23,10 +23,11 @@ class ttf {
     } else {
       let file = this.fileJSON(fileName);
       var data = fs.readJsonSync(file,{throws:false});
+      this.store[fileName]=[];
       if (data && data instanceof Array) {
         return this.store[fileName] = data;
       }
-      return [];
+      return data;
     }
   }
 
@@ -221,11 +222,27 @@ class ttf {
             if (this.store.restrict.indexOf(item.name)>=0){
               item.restrict=true;
             }
-            var tmp = json[json.findIndex(x => x.file == fileName)];
-            if (tmp && tmp instanceof Object){
-              item.view=tmp.view;
-              item.download=tmp.download;
+            if (json instanceof Array){
+              var tmp = json[json.findIndex(x => x.file == fileName)];
+              if (tmp && tmp instanceof Object){
+                item.view=tmp.view;
+                item.download=tmp.download;
+              }
+            } else if (json instanceof Object && json[fileName]) {
+              // NOTE previous version only apply here
+              item.view=json[fileName].view;
+              item.download=json[fileName].download;
             }
+            // var tmp = json[json.findIndex(x => x.file == fileName)];
+            // if (tmp && tmp instanceof Object){
+            //   item.view=tmp.view;
+            //   item.download=tmp.download;
+            // } else if (json[fileName]) {
+            //   // NOTE previous version only apply here
+            //   console.log(fileName);
+            //   item.view=json[fileName].view;
+            //   item.download=json[fileName].download;
+            // }
             this.store[this.type].push(item);
           }
         },function(e){
