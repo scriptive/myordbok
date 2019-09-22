@@ -14,7 +14,7 @@ routes.get('/', function(req, res, next) {
     res.locals.dictionaries_total += Object.keys(dictionaries[continental]).length;
   }
   // console.log(res.locals.dictionaries_total);
-  new visits(req.ip).init(res.locals).then(()=> res.render('about', { title: 'About', dictionaries:dictionaries}))
+  new visits(req.ip).init(res.locals).then(()=> res.render('about', {title:'About', keywords:'Myanmar dictionary, Burmesisk ordbok, Myanmar definition, Burmese, norsk ordbok, burmissk', description: 'About MyOrdbok, Free online Myanmar dictionaries', dictionaries:dictionaries}))
 });
 
 module.exports = routes;

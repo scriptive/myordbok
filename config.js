@@ -1,19 +1,9 @@
 module.exports = {
-  // styleMiddleWare: {
-  //   // prefix: '/css',
-  //   // indentedSyntax: false,
-  //   // debug: true,
-  //   // response:false,
-  //   // NOTE: nested, expanded, compact, compressed
-  //   // outputStyle: 'compressed',
-  //   // sourceMap: false
-  // },
-  // scriptMiddleWare: {
-  //   // prefix:'/jsmiddlewareoutput'
-  // },
-  styleMiddleWare:false,
-  scriptMiddleWare:false,
   config:{
+    name: 'MyOrdbok',
+    description: 'online Myanmar dictionary',
+    version: '1.5.3',
+    visitsPrevious: 889993835240704,
     locale:{
       en:{
         name:'English'

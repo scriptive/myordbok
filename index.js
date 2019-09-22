@@ -1,3 +1,3 @@
 const Common = require.main.exports;
-const {essence} = Common;
+// const {essence} = Common;
 module.exports = {Common};

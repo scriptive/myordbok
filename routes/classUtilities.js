@@ -17,7 +17,7 @@ class visits {
         if (raw.length > 0) {
             res.visits_count = raw[0].visits_count;
             res.visits_created = raw[0].created;
-            res.visits_total = raw[0].visits_total;
+            res.visits_total = raw[0].visits_total+app.Config.visitsPrevious;
         }
       })
     })

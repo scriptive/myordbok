@@ -23,8 +23,8 @@ block content
                 if license
                   li(class='license' data-toggle='license') License
                 if download
-                  li.download
-                    a(href=`/myanmar-fonts/download/${type}?font=${download}`) Download
+                  li.get
+                    a.download(href=`/myanmar-fonts/download/${type}?font=${download}`) Download
 
               div.container
                 if definition
@@ -144,7 +144,7 @@ block content
                 li
                   a.dt(href=`/myanmar-fonts/secondary?font=${j.file}` data-view=j.view data-download=j.download data-total=total class=total ? 'y':'n')= j.name
                   if !j.restrict
-                    a.dl.icon-floppy(href=j.restrict ? '#':`/myanmar-fonts/download/secondary?font=${j.file}` title="Download") Download
+                    a.dl.download.icon-floppy(href=j.restrict ? '#':`/myanmar-fonts/download/secondary?font=${j.file}` title="Download") Download
                   p.f2= j.version
                   p.f5= j.family
 
@@ -156,7 +156,7 @@ block content
                 li
                   a.dt(href=`/myanmar-fonts/external?font=${j.file}` data-view=j.view data-download=j.download data-total=total class=total ? 'y':'n')= j.name
                   if !j.restrict
-                    a.dl.icon-floppy(href=j.restrict ? '#':`/myanmar-fonts/download/external?font=${j.file}` title="Download") Download
+                    a.dl.download.icon-floppy(href=j.restrict ? '#':`/myanmar-fonts/download/external?font=${j.file}` title="Download") Download
                   p.f2= j.version
                   p.f5= j.family
 

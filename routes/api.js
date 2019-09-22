@@ -5,9 +5,21 @@ var https = require('https');
 var querystring = require('querystring');
 
 routes.get('/', (req, res, next) => {
-  res.send({
-    name:app.Config.name,
-    version:app.Config.version
+  // app.mongo.collection('documents').find({}).toArray(function(err,doc) {
+  //   console.log(doc)
+  // });
+  // console.log(app)
+  // res.send({
+  //   name:app.Config.name,
+  //   version:app.Config.version
+  // })
+  // app.mongo.db.collection('documents').find({}).toArray(function(err,doc) {
+  //   res.send(doc)
+  // });
+  app.mongo.db().then(e=>{
+    e.collection('documents').find({}).toArray(function(err,doc) {
+      res.send(doc)
+    });
   })
 });
 

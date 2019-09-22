@@ -1,17 +1,12 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
-/test export-ignore
-# /static export-ignore
 /assets export-ignore
-# /assets/psd export-ignore
-# /assets/icon/*.json export-ignore
-webpack.*.js export-ignore
 /test.js export-ignore
 /ttf.js export-ignore
+webpack.*.js export-ignore
 *.md export-ignore
 .env export-ignore
-
 
 .editorconfig export-ignore
 .gitattributes export-ignore

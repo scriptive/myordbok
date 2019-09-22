@@ -1,25 +1,30 @@
 const app = require('./');
-const path = require('path');
+// const path = require('path');
 const {dictionaries} = app.Config;
 const {fs,utility} = app.Common;
+
+module.exports = {
+  // style: {
+  //   // prefix: '/css',
+  //   // indentedSyntax: false,
+  //   // debug: true,
+  //   // response:false,
+  //   // NOTE: nested, expanded, compact, compressed
+  //   // outputStyle: 'compressed',
+  //   // sourceMap: false
+  // },
+  // script: {
+  //   // prefix:'/jsmiddlewareoutput'
+  // },
+  restrictMiddleWare(req, res){
+    if (res.locals.referer)
+      if (req.xhr || req.headers.range) return true
+  }
+};
 
 app.Core.use('/jquery.js',app.Common.express.static(__dirname + '/node_modules/jquery/dist/jquery.min.js'));
 
 app.Core.use(function(req, res, next){
-  //Expires after 360000 ms from the time it is set.
-  // res.cookie(name, 'value', {expire: 360000 + Date.now()});
-  //This cookie also expires after 360000 ms from the time it is set.
-  // res.cookie(name, 'value', {maxAge: 360000});
-  // res.clearCookie('foo');
-  // res.cookie('sol', {id:'en',name:'English'});
-  // res.clearCookie('solId');
-  // console.log(Object.values(dictionaries));
-  // console.log(app.Config);
-
-  // res.locals.app_locale = locale;
-  // var solId, solName;
-  // res.locals.appName = app.Config.name;
-  // res.locals.appVersion = app.Config.version;
   let solId='en', solName = 'English';
   if (req.cookies.solId || req.cookies.solId != undefined || req.cookies.solName || req.cookies.solName != undefined) {
     solId=req.cookies.solId;

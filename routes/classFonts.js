@@ -1,6 +1,6 @@
 const {Config,Common} = require('../');
-const path = require('path');
-const {fs} = Common;
+// const path = require('path');
+const {fs,path} = Common;
 const ttfInfo = require('ttfinfo');
 var util = require('util');
 
@@ -8,7 +8,8 @@ class ttf {
   constructor(type) {
     this.store = {};
     this.type = type;
-    this.fontDir = path.join(Config.storage,'media','fonts');
+    // this.fontDir = path.join(Config.storage,'media','fonts');
+    this.fontDir = path.join(Config.media,'fonts');
   }
 
   fileJSON(e) {

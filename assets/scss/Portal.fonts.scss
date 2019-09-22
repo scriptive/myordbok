@@ -311,7 +311,7 @@
             &[data-toggle] {
               cursor: default;
             }
-            &.download{
+            &.get{
               border-top-color:lighten($ColorMain,20%);
               border-bottom-color:lighten($ColorMain,20%);
               a {

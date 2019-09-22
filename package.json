@@ -1,18 +1,11 @@
 {
   "name": "myordbok",
-  "version": "1.0.0",
+  "version": "1.5.3",
   "description": "online Myanmar dictionary",
   "main": "index.js",
   "scripts": {
     "build": "webpack -p --config webpack.production.js",
     "test": "webpack-dev-server --open --config webpack.development.js"
-  },
-  "scriptive": {
-    "name": "MyOrdbok",
-    "version": "4.1.14",
-    "copyright": "2018",
-    "build": "18.10.06.9.37",
-    "description": "online Myanmar dictionary"
   },
   "repository": {
     "type": "git",
