@@ -8,6 +8,8 @@ webpack.*.js export-ignore
 *.md export-ignore
 .env export-ignore
 
+/package.json export-ignore
+
 .editorconfig export-ignore
 .gitattributes export-ignore
 .gitignore export-ignore

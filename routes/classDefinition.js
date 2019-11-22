@@ -14,24 +14,20 @@ utility.check.isNumeric(k);
 utility.word.explode(k);
 utility.word.count(k);
 */
-let config={
-  track_limit:30
-},
-registry={
+let registry={
   pos:{},
   math:{}
 },
 table={
   word:'en_word',
+  wordCurrent:null,
   sense:'en_sense',
   exam:'en_exam',
   type:'en_type',
   kind:'en_kind'
 },
-wordTable=null,
 solDefault='en',
 solActive='test';
-// source, target
 
 class search {
   constructor(requestURL) {
@@ -307,18 +303,19 @@ class search {
     return sense;
   }
   querySuggestion(word) {
-    return this.database.query('SELECT word FROM ?? WHERE word LIKE ? ORDER BY word ASC LIMIT 10',[wordTable,word]);
+    return this.database.query('SELECT word FROM ?? WHERE word LIKE ? ORDER BY word ASC LIMIT 10',[table.wordCurrent,word]);
   }
   queryMean(word) {
-    return this.database.query("SELECT w.`word`, d.*, s.`exam`, g.`name` AS type FROM ?? w	JOIN ?? d JOIN ?? s JOIN ?? g ON s.`id` = d.`id` AND d.`wid` = w.`id` AND g.`id` = d.`tid` WHERE w.`word` LIKE ? ORDER BY d.`tid`, d.`sid` ASC", [
-          table.word, table.sense, table.exam, table.type, word
-        ]);
+    return this.database.query("SELECT w.`word`, d.*, s.`exam`, g.`name` AS type \
+       FROM ?? w \
+         JOIN ?? d JOIN ?? s JOIN ?? g ON s.`id` = d.`id` AND d.`wid` = w.`id` AND g.`id` = d.`tid` \
+          WHERE w.`word` LIKE ? ORDER BY d.`tid`, d.`sid` ASC", [table.word, table.sense, table.exam, table.type, word]);
   }
   queryTranslate(word) {
-    return this.database.query("SELECT * FROM ?? WHERE word = ?", [wordTable,word]);
+    return this.database.query("SELECT * FROM ?? WHERE word = ?", [table.wordCurrent,word]);
   }
   queryInsertDump() {
-    return this.database.query("INSERT INTO ?? (id,word,sense) VALUES (1,'love','orange,apple'),(2,'love','last')",[wordTable]);
+    return this.database.query("INSERT INTO ?? (id,word,sense) VALUES (1,'love','orange,apple'),(2,'love','last')",[table.wordCurrent]);
   }
   // queryDelete(word) {
   //   // return this.database.query("DELETE FROM ?? WHERE word=?", ['no_word',word]);
@@ -326,13 +323,13 @@ class search {
   // }
   queryDeleteHighest(word) {
     // AND word IN (?)
-    return this.database.query("DELETE FROM ?? WHERE word IN (?) AND id NOT IN (SELECT * FROM (SELECT MAX(n.id) FROM ?? n GROUP BY n.word) x)", [wordTable,word,wordTable]);
+    return this.database.query("DELETE FROM ?? WHERE word IN (?) AND id NOT IN (SELECT * FROM (SELECT MAX(n.id) FROM ?? n GROUP BY n.word) x)", [table.wordCurrent,word,table.wordCurrent]);
   }
   // queryInsert(word,sense) {
   //   return this.database.query("INSERT INTO ?? (word, sense) VALUES (?,?)", ['no_word',word,sense]);
   // }
   queryUpdate(word,sense) {
-    return this.database.query("UPDATE ?? SET sense=? WHERE word IN (?)", [wordTable,sense,word]);
+    return this.database.query("UPDATE ?? SET sense=? WHERE word IN (?)", [table.wordCurrent,sense,word]);
   }
   queryPOS(word) {
     return this.database.query("SELECT w.`word` AS word, d.`word` AS derive, wt.`name` AS wame, dt.`derivation` AS dame FROM `ww_derive` AS d INNER JOIN `ww_word` w ON w.`word_id`=d.`root_id` INNER JOIN `ww_derive_type` dt ON dt.`derived_type`=d.`derived_type` INNER JOIN `ww_word_type` wt ON wt.`word_type`=d.`word_type` WHERE (d.`word`=? OR w.`word`=?) and (d.`derived_type` <> 0 OR d.`word_type` = 0);", [word,word]);
@@ -353,8 +350,13 @@ class search {
     return this.database.query('SELECT * FROM ?? ORDER BY id ASC',[table.type]);
   }
   tableName() {
-    solActive=this.requestURL.cookies.solId;
-    wordTable=table.word.replace('en',solActive);
+    if (this.requestURL.cookies.solId){
+      solActive=this.requestURL.cookies.solId;
+    } else {
+      // NOTE: possibly highjack
+      solActive=solDefault;
+    }
+    table.wordCurrent=table.word.replace('en',solActive);
   }
   requestMath(q){
     /*
