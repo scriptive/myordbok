@@ -2,6 +2,7 @@
 * text=auto
 
 /assets export-ignore
+/docs export-ignore
 /test.js export-ignore
 /ttf.js export-ignore
 webpack.*.js export-ignore

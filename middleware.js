@@ -1,7 +1,6 @@
-const app = require('./');
-// const path = require('path');
+const app = require('.');
 const {dictionaries} = app.Config;
-const {fs,utility} = app.Common;
+const {utility} = app.Common;
 
 module.exports = {
   // style: {
@@ -18,7 +17,7 @@ module.exports = {
   // },
   restrictMiddleWare(req, res){
     if (res.locals.referer)
-      if (req.xhr || req.headers.range) return true
+      if (req.xhr || req.headers.range) return true;
   }
 };
 

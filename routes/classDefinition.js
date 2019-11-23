@@ -55,11 +55,7 @@ class search {
   }
   suggestion(callback) {
     this.tableName();
-    this.querySuggestion(this.requestURL.query.q+'%').then(raw => {
-      return raw.map(row=>row.word)
-    }).then(function(words){
-      callback(words);
-    });
+    this.querySuggestion(this.requestURL.query.q+'%').then(e => e.map(i=>i.word)).then((w) => callback(w));
   }
   definition(callback) {
     // NOTE: the search() property is only for temporarily, and when using search_NEXT() uncomment database connection from constructor!
@@ -87,7 +83,7 @@ class search {
 
     const formatSense = (s) => {
       // TODO: ???
-      return s;
+      // return s;
       return s.replace(/<b>(.*?)<\/b>/, function(s,t) {
         return '{-*-}'.replace(/\*/g,t);
       });
@@ -246,6 +242,7 @@ class search {
                     result.data[q]=r0;
                   }
                 } else {
+                  console.log('wrd:',q)
                   result.meta.type='notfound';
                   result.data[q]=this.requestNone(q);
                 }
@@ -276,6 +273,7 @@ class search {
                 result.data=resultRow;
               });
             } else {
+              console.log('wrd:',q,'-t')
               result.meta.type='notfound';
               result[q]=this.requestNone(q);
             }
@@ -303,7 +301,7 @@ class search {
     return sense;
   }
   querySuggestion(word) {
-    return this.database.query('SELECT word FROM ?? WHERE word LIKE ? ORDER BY word ASC LIMIT 10',[table.wordCurrent,word]);
+    return app.sql.query('SELECT word FROM ?? WHERE word LIKE ? ORDER BY word ASC LIMIT 10',[table.wordCurrent,word]);
   }
   queryMean(word) {
     return this.database.query("SELECT w.`word`, d.*, s.`exam`, g.`name` AS type \
@@ -353,7 +351,7 @@ class search {
     if (this.requestURL.cookies.solId){
       solActive=this.requestURL.cookies.solId;
     } else {
-      // NOTE: possibly highjack
+      // NOTE: possibly attack
       solActive=solDefault;
     }
     table.wordCurrent=table.word.replace('en',solActive);

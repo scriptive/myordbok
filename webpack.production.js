@@ -5,7 +5,8 @@ const configuration = require('./webpack.config.js');
 
 module.exports = merge(configuration, {
   mode: 'production',
-  devtool: 'source-map',
+  // devtool: 'source-map',
+  devtool: false,
   entry: {},
   output: {},
   plugins: [
