@@ -1,6 +1,6 @@
 const update = require("@scriptive/evh/upgrade");
 
-update('test/_tmp').then(
+update().then(
   e=>console.log('>',e)
 ).catch(
   e=>console.log('>',e)
