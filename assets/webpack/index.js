@@ -1,5 +1,12 @@
 // NOTE: favicon
-require('../img/favicon.png');
+require('../img/favicon.ico');
+require('../img/apple-touch-icon.png');
+require('../img/android-chrome-192x192.png');
+require('../img/android-chrome-512x512.png');
+require('../img/favicon-32x32.png');
+require('../img/favicon-16x16.png');
+require('../img/app.webmanifest');
+
 
 // NOTE: icons && loader animation
 require('../icon/myordbok.css');

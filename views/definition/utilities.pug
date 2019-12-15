@@ -5,81 +5,95 @@ mixin example(eg)
   //- eg.replace(/{-/g,'<a href="definition?q=').replace(/-:-/g,'">').replace(/-}/g,'</a>')
   eg
 
-mixin translation(o)
+mixin result(o)
+  each raw, w in o
+    if raw.hasOwnProperty('_formOf')
+      +definition(raw, w)
+    else
+      +translation(raw, w)
+
+mixin translation(raw, w)
   dl.definition.sentence
-    each raw, w in o
-      dt.dt
-        p= w
-          span.speech(class=solActive).zA.icon-sound
-      dd.dd
-        +definition(raw)
+    dt
+      p= w
+        span.speech(class=lang.tar).zA.icon-sound
+    dd
+      each e, s in raw
+        +definition(e, s)
 
-mixin definition(o)
+mixin definition(raw, w)
   dl.definition.word
-    each raw, w in o
-      dt.dt
-        p= w
-          span.speech.en.zA.icon-volume-up
-      dd.dd
-        if raw.row
-          each define,grammar in raw.row
-            dl(class=grammar.toLowerCase())
-              dt
-                span= grammar
-              dd
-                each mean,type in define
-                  p!= mean.sense
-                  if mean.exam
-                    ul.eg
-                      each eg in mean.exam
-                        li!= eg.replace(/\{-(.*?)\-}/g, '<a href="definition?q=$1">$1</a>')
+    dt
+      p= w
+        span.speech.en.zA.icon-volume-up
+    dd
+      if raw._definition
+        each define,grammar in raw._definition
+          dl(class=grammar.toLowerCase())
+            dt
+              span= grammar
+            dd
+              each mean,ty in define
+                p!= mean.v
+                if mean.exam
+                  ul.eg
+                    each eg in mean.exam
+                      li!= eg.replace(/\{-(.*?)\-}/g, '<a href="definition?q=$1">$1</a>')
 
-        if raw.pos
-          if raw.pos.length
-            dl.thesaurus.pos
-              dt
-                span Part of speech
-              dd.dd
-                ul
-                  each k in raw.pos
-                    li(class=k.wame.toLowerCase()) #[a(href='definition?q='+k.word)= k.word] #[span= k.wame] #[em= k.dame]
+      if raw.pos
+        if raw.pos.length
+          dl.thesaurus.pos
+            dt
+              span Part of speech
+            dd
+              ul
+                each k in raw.pos
+                  li(class=k.wame.toLowerCase()) #[a(href='definition?q='+k.word)= k.word] #[span= k.wame] #[em= k.dame]
 
-        if raw.antonym
-          if raw.antonym.length
-            dl.thesaurus.antonym
-              dt
-                span Antonym
-              dd.dd
-                p
-                  each k in raw.antonym
-                    +link(k)
+      //- if raw._number
+      //-   dl.number.a1
+      //-     dt
+      //-       span= raw._number.number
+      //-     dd
+      //-       ul
+      //-         each k in raw._number.notation
+      //-           li= k.sense
 
-        if raw.synonym
-          if raw.synonym.length
-            dl.thesaurus.synonym
-              dt
-                span Synonym
-              dd.dd
-                p
-                  each k in raw.synonym
-                    +link(k)
+      if raw._math
+        each o,name in raw._math
+          dl.math.a1
+            dt
+              span= name
+            dd
+              ul
+                each v,k in o
+                  li #[em #{k}]: #{v}!
 
-        if raw.mobyNormal
-          if raw.mobyNormal.length
-            dl.thesaurus.moby
-              dt
-                span Moby
-              dd.dd
-                p
-                  each k in raw.mobyNormal
-                    +link(k)
+      if raw._thesaurus
+        if raw._thesaurus.length
+          dl.thesaurus.a1
+            dt
+              span Thesaurus
+            dd
+              p
+                each k in raw._thesaurus
+                  +link(k)
+      if raw.antonym
+        if raw.antonym.length
+          dl.thesaurus.antonym
+            dt
+              span Antonym
+            dd
+              p
+                each k in raw.antonym
+                  +link(k)
 
-        if raw.mobyReverse
-          if raw.mobyReverse.length
-            dl.thesaurus.mobyReverse
-              dt
-                span Thesaurus
-              dd.dd
-                p
-                  each k in raw.mobyReverse
-                    +link(k)
+      if raw.synonym
+        if raw.synonym.length
+          dl.thesaurus.synonym
+            dt
+              span Synonym
+            dd
+              p
+                each k in raw.synonym
+                  +link(k)

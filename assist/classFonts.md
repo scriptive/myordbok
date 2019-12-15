@@ -1,3 +1,41 @@
+# pre Fonts class
+
+Usages...
+
+```js
+// read
+new ttf(fontType).scan(fontName).then(function(e){
+  res.send(e);
+});
+// download
+new ttf(fontType).download(fontName).then(function(file){
+  if (file){
+
+  } else {
+    res.status(500).send('restricted').end();
+  }
+}).catch(function(){
+
+});
+
+// type
+var o = new ttf(fontType);
+await o.view(fontName).then(function(e){
+  if (e instanceof Object){
+    context = e;
+    if (e.unrestrict){
+      context.type=fontType;
+      context.download=fontName;
+    }
+  }
+});
+await o.read('secondary');
+await o.read('external');
+```
+
+...
+
+```js
 const {Config,Common} = require('../');
 // const path = require('path');
 const {fs,path} = Common;

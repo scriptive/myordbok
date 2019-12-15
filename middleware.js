@@ -1,65 +1,44 @@
 const app = require('.');
-const {dictionaries} = app.Config;
-const {utility} = app.Common;
+const {locale} = app.Config;
+// const {utility} = app.Common;
+const assist = require('./assist');
 
 module.exports = {
-  // style: {
-  //   // prefix: '/css',
-  //   // indentedSyntax: false,
-  //   // debug: true,
-  //   // response:false,
-  //   // NOTE: nested, expanded, compact, compressed
-  //   // outputStyle: 'compressed',
-  //   // sourceMap: false
-  // },
-  // script: {
-  //   // prefix:'/jsmiddlewareoutput'
-  // },
   restrictMiddleWare(req, res){
     if (res.locals.referer)
       if (req.xhr || req.headers.range) return true;
   }
 };
-
-app.Core.use('/jquery.js',app.Common.express.static(__dirname + '/node_modules/jquery/dist/jquery.min.js'));
+// var reqCounter = 0;
 
 app.Core.use(function(req, res, next){
-  let solId='en', solName = 'English';
-  if (req.cookies.solId || req.cookies.solId != undefined || req.cookies.solName || req.cookies.solName != undefined) {
-    solId=req.cookies.solId;
-    solName=req.cookies.solName;
+  const l0 = assist.getLangDefault();
+  var Id=l0.id;
+
+  // reqCounter++;
+  // console.log('reqCounter',reqCounter)
+
+  if (req.cookies.solId || req.cookies.solId != undefined) {
+    Id=req.cookies.solId;
   } else {
-    res.cookie('solId', solId);
-    res.cookie('solName', solName);
+    res.cookie('solId', Id);
   }
 
-  // '/dictionary/english?s'.match(/dictionary\/([a-z]+)/i);
-  let sol = req.path.split('/');
-  if (sol.length > 2 && sol[1] =='dictionary') {
-    let Id, Name = sol[2];
-     // && req.cookies.solName && Name.toLowerCase() !== req.cookies.solName.toLowerCase()
-    if (Name) {
-      for (var continental in dictionaries) {
-        if (dictionaries.hasOwnProperty(continental)) {
-          Id = utility.objects.getKeybyValue(dictionaries[continental],Name,'i');
-          if (Id) {
-            solId=Id;
-            solName = utility.objects.getValuebyKey(dictionaries[continental],solId);
-            res.cookie('solId', solId);
-            res.cookie('solName', solName);
-          }
-        }
-      }
+  const [name,solName] = req.path.split('/').filter(e=>e);
+  if (name == 'dictionary' && solName) {
+    var l1 = assist.getLangByName(solName);
+    if (l1 && l1.id != Id) {
+      Id = l1.id;
+      res.cookie('solId', Id);
     }
   }
-  res.locals.solId=solId;
-  res.locals.solName=solName;
-  // sol,sil
-  // res.cookie('name', 'express');//.send('cookie set'); //Sets name = express
+  // res.locals.app_locale = locale;
+
+  res.locals.sol=assist.getLangById(Id)||l0;
   next();
 });
 
-
+// app.Core.use('/jquery.js',app.Common.express.static(__dirname + '/node_modules/jquery/dist/jquery.min.js'));
 if (app.Config.development) {
   var webpack = require('webpack');
   var webpackConfig = require('./webpack.middleware');

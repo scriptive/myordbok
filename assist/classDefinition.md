@@ -1,3 +1,28 @@
+# SQL version Definition class
+
+Usages...
+
+```js
+new search(req).suggestion(
+  raw => res.send(raw)
+)
+new search(req).definition(
+  raw => res.send(raw)
+)
+new search(req).thesaurus(
+  raw => res.send(raw)
+)
+new search(req).notation(
+  raw => res.send(raw)
+)
+new search(req).dictionaries(
+  raw => res.send(raw)
+)
+```
+
+...
+
+```js
 const app = require('../');
 const {dictionaries} = app.Config;
 const {utility} = app.Common;

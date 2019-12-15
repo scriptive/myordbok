@@ -68,7 +68,8 @@ module.exports = {
       //   }
       // }
       {
-        test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
+        // test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
+        test: /\.(png|ico|jpg|gif|svg|eot|ttf|woff|woff2|webmanifest)$/,
         loader: 'file-loader',
         options: {
           name: '[name].[ext]',

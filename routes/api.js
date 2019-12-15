@@ -1,6 +1,6 @@
 const app = require('../');
 const routes = app.Router();
-const {search} = require('./classDefinition');
+const assist = require('../assist');
 var https = require('https');
 var querystring = require('querystring');
 
@@ -9,52 +9,54 @@ routes.get('/', (req, res, next) => {
   //   console.log(doc)
   // });
   // console.log(app)
-  // res.send({
-  //   name:app.Config.name,
-  //   version:app.Config.version
-  // })
+  res.send({
+    name:app.Config.name,
+    version:app.Config.version
+  })
   // app.mongo.db.collection('documents').find({}).toArray(function(err,doc) {
   //   res.send(doc)
   // });
-  app.mongo.db().then(e=>{
-    e.collection('documents').find({}).toArray(function(err,doc) {
-      res.send(doc)
-    });
-  })
+  // app.mongo.db().then(e=>{
+  //   e.collection('documents').find({}).toArray(function(err,doc) {
+  //     res.send(doc)
+  //   });
+  // })
 });
 
-routes.get('/dictionaries', (req, res, next) => {
-  new search(req).dictionaries(raw => {
-    return res.send(raw)
-  });
+routes.get('/suggestion', (req, res) => {
+  // req.cookies.solId
+  assist.suggestion(req.query.q,req.cookies.solId).then(
+    raw=> res.send(raw)
+  ).catch(
+    ()=>res.status(404).end()
+  )
 });
+routes.get('/definition', function(req, res, next) {
+  assist.search(req).then(
+    raw=> res.send(raw)
+  ).catch(next)
+});
+// routes.get('/dictionaries', (req, res, next) => {
+//   new search(req).dictionaries(raw => {
+//     return res.send(raw)
+//   });
+// });
 /*
 https://www.googleapis.com/language/translate/v2?
 https://translate.google.com/translate_a/single?
 https://translation.googleapis.com/language/translate/v2?
 https://translation.googleapis.com/language/translate/v2?source=en&target=my&q=love
 */
-routes.get('/translate', (req, res, next) => {
-  res.send({working:'translate'})
-});
-
-// NOTE: api/post
-// routes.get('/post', (req, res, next) => {
-//   res.send({working:'post'});
-// });
-// routes.get('/import', (req, res, next) => {
-//   res.send({working:'import'})
-// });
-// routes.get('/editor', (req, res, next) => {
-//   res.send({working:'editor'})
+// routes.get('/translate', (req, res, next) => {
+//   res.send({working:'translate'})
 // });
 
-routes.get('/thesaurus', (req, res, next) => {
-  // TODO: req.query
-  new search(req).thesaurus(raw => {
-    return res.send(raw)
-  })
-});
+// routes.get('/thesaurus', (req, res, next) => {
+//   // TODO: req.query
+//   new search(req).thesaurus(raw => {
+//     return res.send(raw)
+//   })
+// });
 // NOTE: main
 routes.get('/speech', (req, res, next) => {
   // querystring.escape('One two');
@@ -84,87 +86,12 @@ routes.get('/speech', (req, res, next) => {
     res.sendStatus(404);
   });
 });
-routes.get('/notation', (req, res, next) => {
-  // TODO: req.query
-  new search(req).notation(raw => {
-    return res.send(raw)
-  })
-});
-routes.get('/suggestion', (req, res, next) => {
-  // TODO: req.query
-  new search(req).suggestion(raw => {
-    return res.send(raw)
-  })
-});
-routes.get('/definition', (req, res, next) => {
-  // TODO: req.query
-  new search(req).definition(raw => {
-    return res.send(raw)
-  })
-});
-// routes.get('/audio', (req, res, next) => {
-//   var key = req.params.key;
-//   // var music = '../../leyts/dist/mp/' + key + '.mp3';
-//   var music = '../leyts/dist/mp3/25/1032.mp3';
-//   var stat = fs.statSync(music);
-//   range = req.headers.range;
-//   var readStream;
-
-//   if (range !== undefined) {
-//       var parts = range.replace(/bytes=/, "").split("-");
-
-//       var partial_start = parts[0];
-//       var partial_end = parts[1];
-
-//       if ((isNaN(partial_start) && partial_start.length > 1) || (isNaN(partial_end) && partial_end.length > 1)) {
-//           return res.sendStatus(500); //ERR_INCOMPLETE_CHUNKED_ENCODING
-//       }
-
-//       var start = parseInt(partial_start, 10);
-//       var end = partial_end ? parseInt(partial_end, 10) : stat.size - 1;
-//       var content_length = (end - start) + 1;
-
-//       res.status(206).header({
-//           'Content-Type': 'audio/mpeg',
-//           'Content-Length': content_length,
-//           'Content-Range': "bytes " + start + "-" + end + "/" + stat.size
-//       });
-
-//       readStream = fs.createReadStream(music, {start: start, end: end});
-//   } else {
-//       res.header({
-//           'Content-Type': 'audio/mpeg',
-//           'Content-Length': stat.size
-//       });
-//       readStream = fs.createReadStream(music);
-//   }
-//   readStream.pipe(res);
+// routes.get('/notation', (req, res, next) => {
+//   // TODO: req.query
+//   new search(req).notation(raw => {
+//     return res.send(raw)
+//   })
 // });
 
-// routes.get('/music', function(req,res){
-// 	let file = 'music.mp3'
-// 	fs.exists(file,function(exists){
-// 		if(exists){
-// 			var rstream = fs.createReadStream(file);
-// 			rstream.pipe(res);
-// 		} else {
-// 			res.send("Its a 404");
-// 			res.end();
-// 		}
-// 	});
-// });
-// routes.get('/music', function(req,res){
-// 	let file = 'music.mp3'
-// 	fs.exists(file,function(exists){
-// 		if(exists){
-//       res.setHeader('Content-disposition', 'attachment; filename=' + file);
-// 			res.setHeader('Content-Type', 'application/audio/mpeg3')
-// 			var rstream = fs.createReadStream(file);
-// 			rstream.pipe(res);
-// 		} else {
-// 			res.send("Its a 404");
-// 			res.end();
-// 		}
-// 	});
-// });
+
 module.exports = routes;

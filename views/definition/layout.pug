@@ -9,21 +9,11 @@ block content
         include utilities
         case meta.type
           when 'pleaseenter'
-            p working for pleaseenter
+            include ./pleaseenter
           when 'notfound'
-            p working for notfound
-          when 'partofspeech'
-            p working for partofspeech
-          when 'numeric'
-            p working for numeric
-          when 'math'
-            p working for math
-          when 'roman'
-            p working for roman
-          when 'translate'
-            +translation(data)
+            include ./notfound
           default
-            +definition(data)
+            +result(data)
 
 block footer
   include ../footer

@@ -9,7 +9,7 @@ block content
           div
             p
               | Ordbok ဆိုသည့် စကားလုံးသည် နော်ဝေစကားလုံးဖြစ်ပြီး အဘိဓါန်ဟု အဓိပ္ပာယ်သက်ရောက်သည်။ ဒါ့ကြောင့် #{appName} ကို မြန်မာအဘိဓါန်လို့လည်း ဆိုလိုနိုင်ပါသည်။
-              | ၂၀၁၀ မှစ ယခုလက်ရှိအချိန်ထိ မြန်မာအွန်လိုင်းအဘိဓါန်များမှ အသုံးများဆုံးအဘိဓါန် တစ်ခုလည်းဖြစ်သည်။ အဘိဓါန် (ဘာသာ) #{dictionaries_total} ခုနှင့် ဆိုက်(ဘာသာ) {locale.total} ခုကို အသုံးပြုနိုင်ပါသည်။
+              | ၂၀၁၀ မှစ ယခုလက်ရှိအချိန်ထိ မြန်မာအွန်လိုင်းအဘိဓါန်များမှ အသုံးများဆုံးအဘိဓါန် တစ်ခုလည်းဖြစ်သည်။ အဘိဓါန် (ဘာသာ) #{dictionaries_total} ခုနှင့် ဆိုက်(ဘာသာ) #{locale_total} ခုကို အသုံးပြုနိုင်ပါသည်။
 
         div.row
           div.header
@@ -21,14 +21,13 @@ block content
         div.row
           div.dictionaries
             ol.dictionary
-              each v, conti in dictionaries
-                li(class=conti.toLowerCase() class={active: v.hasOwnProperty(solId)})
-                  h3 #{conti}
+              each conti in dictionaries
+                li(class=conti.name.toLowerCase() class={active: conti.lang.find(e=>e.id == sol.id)})
+                  h3 #{conti.name}
                   ol
-                    each name, id in v
-                      li(class=id class={active: id == solId})
-                        a(data-lag=id href='/dictionary/'+name.toLowerCase()) #{name}
-
+                    each lang in conti.lang
+                      li(class=lang.id class={active: lang.id == sol.id})
+                        a(data-lag=lang.id href='/dictionary/'+lang.name.toLowerCase()) #{lang.name}
 
         div.row
           div.data.social.text-center

@@ -382,6 +382,8 @@
         }
       }
     }
+    &.notfound{}
+    &.pleaseenter{}
   }
   @media #{$media-mobile} {
     >dl {

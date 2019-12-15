@@ -1,15 +1,18 @@
 # table
+
 word, mean, exam, sequence
 wo, me, ex, se
+
 ## Create
+
 ```sql
 -- word
 CREATE TABLE `en_word` (
-	`id` INT(10) NOT NULL AUTO_INCREMENT,
-	`word` VARCHAR(250) NULL DEFAULT NULL,
-	`ipa` TEXT NULL,
-	PRIMARY KEY (`id`),
-	UNIQUE INDEX `key` (`word`)
+  `id` INT(10) NOT NULL AUTO_INCREMENT,
+  `word` VARCHAR(250) NULL DEFAULT NULL,
+  `ipa` TEXT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE INDEX `key` (`word`)
 )
 COLLATE='utf8_general_ci'
 ENGINE=InnoDB
@@ -17,13 +20,13 @@ ROW_FORMAT=DYNAMIC;
 
 -- define
 CREATE TABLE `en_sense` (
-	`id` INT(30) NOT NULL AUTO_INCREMENT,
-	`wid` INT(10) NULL DEFAULT NULL,
-	`sense` TEXT NULL,
-	`seq` INT(5) NULL DEFAULT NULL,
+  `id` INT(30) NOT NULL AUTO_INCREMENT,
+  `wid` INT(10) NULL DEFAULT NULL,
+  `sense` TEXT NULL,
+  `seq` INT(5) NULL DEFAULT NULL,
   `tid` INT(3) NULL DEFAULT NULL,
-	`kid` INT(5) NULL DEFAULT NULL,
-	PRIMARY KEY (`id`)
+  `kid` INT(5) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
 )
 COLLATE='utf8_general_ci'
 ENGINE=InnoDB
@@ -31,12 +34,12 @@ ROW_FORMAT=DYNAMIC;
 
 -- describe
 CREATE TABLE `en_exam` (
-	`id` INT(30) NOT NULL AUTO_INCREMENT,
-	`sid` INT(10) NULL DEFAULT NULL,
-	`exam` TEXT NULL,
-	`seq` INT(5) NOT NULL DEFAULT '0',
-	`kid` INT(5) NOT NULL DEFAULT '0',
-	PRIMARY KEY (`id`)
+  `id` INT(30) NOT NULL AUTO_INCREMENT,
+  `sid` INT(10) NULL DEFAULT NULL,
+  `exam` TEXT NULL,
+  `seq` INT(5) NOT NULL DEFAULT '0',
+  `kid` INT(5) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
 )
 COLLATE='utf8_general_ci'
 ENGINE=InnoDB
@@ -44,16 +47,16 @@ ROW_FORMAT=DYNAMIC;
 
 -- suggest table
 CREATE TABLE `en_suggest` (
-	`id` INT(10) NOT NULL AUTO_INCREMENT,
-	`word` VARCHAR(250) NOT NULL,
-	`type` INT(3) NULL DEFAULT '0',
-	`mean` TEXT NOT NULL COLLATE 'utf8_unicode_ci',
-	`exam` TEXT NULL COLLATE 'utf8_unicode_ci',
-	`lang` VARCHAR(5) NOT NULL DEFAULT 'en',
-	`kid` INT(5) NOT NULL DEFAULT '0',
-	`uid` INT(30) NOT NULL DEFAULT '0',
-	`dates` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-	PRIMARY KEY (`id`)
+  `id` INT(10) NOT NULL AUTO_INCREMENT,
+  `word` VARCHAR(250) NOT NULL,
+  `type` INT(3) NULL DEFAULT '0',
+  `mean` TEXT NOT NULL COLLATE 'utf8_unicode_ci',
+  `exam` TEXT NULL COLLATE 'utf8_unicode_ci',
+  `lang` VARCHAR(5) NOT NULL DEFAULT 'en',
+  `kid` INT(5) NOT NULL DEFAULT '0',
+  `uid` INT(30) NOT NULL DEFAULT '0',
+  `dates` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
 )
 COLLATE='utf8_general_ci'
 ENGINE=InnoDB
@@ -61,6 +64,7 @@ ROW_FORMAT=DYNAMIC;
 ```
 
 ## Reset ID
+
 ```sql
 -- Reset id
 ALTER TABLE `en_src` DROP COLUMN `id`;
@@ -79,8 +83,8 @@ SET o.`wid` = s.`id`
 SELECT * FROM en_src WHERE source = 'love'
 ```
 
-
 ## Import
+
 ```sql
 -- Import word: word from source
 -- en_sense -> sense means def, clue, cue, sense
@@ -93,16 +97,19 @@ SELECT * FROM en_src WHERE source = 'love'
 DELETE FROM `en_word`;
 INSERT INTO `en_word` (`id`,`word`)
   SELECT `wid`,`word` FROM `en_src` WHERE `word` !='' GROUP BY `wid` ORDER BY `wid` ASC;
+-- JSON --> SELECT wid AS w, word AS v FROM en_src GROUP BY wid ORDER BY wid ASC;
 
 -- Import define: Definition
 DELETE FROM `en_sense`;
 INSERT INTO `en_sense` (`id`,`sense`,`wid`,`tid`,`sid`,`kid`)
   SELECT o.`id`, o.`sense`, o.`wid`, o.`tid`, o.`seq`,  o.`kid` FROM `en_src` o WHERE o.`sense` IS NOT NULL;
+-- JSON --> SELECT id AS d, wid AS w, tid AS t, sense AS v FROM en_src WHERE sense IS NOT NULL;
 
 -- Import describe: Usage/Example
 DELETE FROM `en_exam`;
 INSERT INTO `en_exam` (`id`,`exam`)
   SELECT o.`id`, o.`exam` FROM `en_src` o WHERE o.`exam` IS NOT NULL;
+-- JSON --> SELECT id AS d, exam AS v FROM en_src o WHERE exam IS NOT NULL;
 
 -- Testing by word
 SELECT d.*,s.`exam` FROM `en_word` w
@@ -117,6 +124,7 @@ WHERE d.`wid` LIKE '1' ORDER BY d.`tid`, d.`sid` ASC
 ```
 
 ## Prepare
+
 ```sql
 -- Clean source
 UPDATE `en_src` SET `word` = REPLACE(LTRIM(RTRIM(`word`)), '  ', ' ') WHERE `word` IS NOT NULL;
@@ -196,6 +204,7 @@ INSERT INTO `en_exam` (`sid`,`exam`,`seq`) SELECT `id`,`exam`,`seq` FROM `en_sen
 ```
 
 ## exam to be replace
+
 ```sql
 [pos:*]
 [with:*]
@@ -240,6 +249,7 @@ UPDATE `en_src` SET `exam` =
     "<i>", "(!")
 WHERE `exam` IS NOT NULL;
 ```
+
 (abbr <b>TB </b>)
 -> [abbr:TB,AC]
 (also <b>TB </b>)
@@ -293,20 +303,21 @@ She lives locally (ie near).
 My secretary will see you out (ie of the building).
 
 ## Change
+
 ```sql
 -- Define table
 ALTER TABLE en_sense
-	CHANGE COLUMN `tid` `tid` INT(3),
-	CHANGE COLUMN `sense` `sense` TEXT,
-	CHANGE COLUMN `exam` `exam` TEXT,
-	CHANGE COLUMN `seq` `seq` INT(5),
-	CHANGE COLUMN `kid` `kid` INT(5),
-	CHANGE COLUMN `word_id` `wid` INT(10) AFTER `id`,
-	CHANGE COLUMN `word` `word` VARCHAR(250) AFTER `uid`,
-	DROP COLUMN `pron`,
-	DROP COLUMN `type_id`,
-	DROP COLUMN `definition_id`,
-	DROP COLUMN `mdate`;
+  CHANGE COLUMN `tid` `tid` INT(3),
+  CHANGE COLUMN `sense` `sense` TEXT,
+  CHANGE COLUMN `exam` `exam` TEXT,
+  CHANGE COLUMN `seq` `seq` INT(5),
+  CHANGE COLUMN `kid` `kid` INT(5),
+  CHANGE COLUMN `word_id` `wid` INT(10) AFTER `id`,
+  CHANGE COLUMN `word` `word` VARCHAR(250) AFTER `uid`,
+  DROP COLUMN `pron`,
+  DROP COLUMN `type_id`,
+  DROP COLUMN `definition_id`,
+  DROP COLUMN `mdate`;
 
 -- Rename table
 ALTER TABLE `db_ar` RENAME `ar_word`;
@@ -345,16 +356,16 @@ ALTER TABLE `en_word_type` RENAME `ww_word_type`;
 
 -- Other table(NOT en)
 ALTER TABLE `*_word`
-	CHANGE COLUMN `word` `word` VARCHAR(250),
-	CHANGE COLUMN `tid` `sense` TEXT,
-	CHANGE COLUMN `sense` `exam` TEXT AFTER `sense`,
-	CHANGE COLUMN `kid` `kid` INT(5),
-	DROP COLUMN `uid`,
-	DROP COLUMN `mdate`;
-
+  CHANGE COLUMN `word` `word` VARCHAR(250),
+  CHANGE COLUMN `tid` `sense` TEXT,
+  CHANGE COLUMN `sense` `exam` TEXT AFTER `sense`,
+  CHANGE COLUMN `kid` `kid` INT(5),
+  DROP COLUMN `uid`,
+  DROP COLUMN `mdate`;
 ```
 
 ## Import Old version
+
 ```sql
 -- Import word
 INSERT INTO mo_en_word (word) SELECT source FROM mo_en_sense GROUP BY source ORDER BY source ASC;
@@ -402,10 +413,13 @@ SELECT  bird_name, member_id
   LEFT JOIN bird_likes ON birds.bird_id = bird_likes.bird_id
 WHERE member_id = 2;
 ```
+
 mo_define, mo_describe
 en_sense, en_exam
 en_word
+
 ## Utilities
+
 ```sql
 UPDATE en_src SET source = replace(source, '\\', '');
 UPDATE en_src set source = TRIM(source);

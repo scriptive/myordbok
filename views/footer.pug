@@ -3,10 +3,10 @@ div.portal#footer
     div.responsive
       if app_locale
         ol.menu.locale
-          each o, id in app_locale
-            li(class=id class={active: o.active})
-              a(href="?language="+id)
-                span= id.toUpperCase()
+          each o in app_locale
+            li(class=o.id class={active: o.active})
+              a(href="?language="+o.id)
+                span= o.id.toUpperCase()
 
       if visits_total || visits_count
         ol.served

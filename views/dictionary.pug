@@ -13,18 +13,18 @@ block content
 
         div.row.social
           div.text-center
-            div working #{solId}
+            div working #{sol.id}
 
         div.row
           div.dictionaries
             ol.dictionary
-              each v, conti in dictionaries
-                li(class=conti.toLowerCase() class={active: v.hasOwnProperty(solId)})
-                  h3 #{conti}
+              each conti in dictionaries
+                li(class=conti.name.toLowerCase() class={active: conti.lang.find(e=>e.id == sol.id)})
+                  h3 #{conti.name}
                   ol
-                    each name, id in v
-                      li(class=id class={active: id == solId})
-                        a(data-lag=id href='/dictionary/'+name.toLowerCase()) #{name}
+                    each lang in conti.lang
+                      li(class=lang.id class={active: lang.id == sol.id})
+                        a(data-lag=lang.id href='/dictionary/'+lang.name.toLowerCase()) #{lang.name}
 
 block footer
   include footer

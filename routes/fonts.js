@@ -9,14 +9,14 @@
 // gsutil -r gs://storage.lethil.me/media/fonts
 
 const app = require('../');
-const {fs,utility} = app.Common;
+const fs = require('fs');
 const routes = app.Router();
-const {ttf} = require('./classFonts');
+const fonts = require('../assist/fonts');
 
 routes.get('/scan-:type', function(req, res, next) {
   var fontType = req.params.type;
   var fontName = req.query.font;
-  new ttf(fontType).scan(fontName).then(function(e){
+  new fonts(fontType).scan(fontName).then(function(e){
     res.send(e);
   });
 });
@@ -24,7 +24,7 @@ routes.get('/scan-:type', function(req, res, next) {
 routes.get('/download/:type', function(req, res, next) {
   var fontType = req.params.type;
   var fontName = req.query.font;
-  new ttf(fontType).download(fontName).then(function(file){
+  new fonts(fontType).download(fontName).then(function(file){
     if (file){
       fs.exists(file,function(exists){
         if(exists){
@@ -32,14 +32,14 @@ routes.get('/download/:type', function(req, res, next) {
           res.setHeader('Content-Type', 'application')
           fs.createReadStream(file).pipe(res);
         } else {
-          res.status(500).send("Not Found").end();
+          res.status(500).end();
         }
       });
     } else {
-      res.status(500).send('restricted').end();
+      res.status(500).end();
     }
   }).catch(function(){
-    res.send('Its a 404').end();
+    res.status(404).end();
   });
 });
 
@@ -47,7 +47,7 @@ routes.get('/:type?', async function(req, res, next) {
   var fontType = req.params.type;
   var fontName = req.query.font;
   var context = {title:'Myanmar fonts',description:'Myanmar Unicode and fonts',keywords:'Myanmar fonts'};
-  var o = new ttf(fontType);
+  var o = new fonts(fontType);
 
   await o.view(fontName).then(function(e){
     if (e instanceof Object){

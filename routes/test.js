@@ -1,25 +1,24 @@
-const app = require('../');
+const app = require('..');
 const routes = app.Router();
-const {visits} = require('./classUtilities');
 
-var url = require('url');
+routes.get('/', function(req, res) {
+  // res.setHeader('Content-Type', 'application/event-stream')
+  res.setHeader('Content-Type', 'text/event-stream')
+  // res.setHeader('Cache-Control', 'no-cache')
 
-routes.get('/', function(req, res, next) {
-  // res.send(url.parse(req.url));
-  // res.send();
-  res.send({working:true});
-  // new visits(req.ip).init(res.locals).then(function(){
-  //   res.send(res.locals);
-  // })
+  // send a ping approx every 2 seconds
+  var timer = setInterval(function () {
+    res.write(JSON.stringify({count:1}))
+
+    // !!! this is the important part
+    res.flush()
+  }, 2000)
+
+  res.on('close', function () {
+    console.log('close')
+    clearInterval(timer)
+  })
 });
-routes.get('/test', function(req, res, next) {
-  // res.send('respond zaideih with a resource');
-  app.sql.query('SELECT * FROM ?? WHERE ip LIKE ? ORDER BY ip ASC',['visits','127.0.0.1']).then(raw=>{
-    if (raw.length > 0) {
-      console.log(raw);
-    }
-    res.send('respond zaideih with a resource');
-  });
-});
+
 
 module.exports = routes;

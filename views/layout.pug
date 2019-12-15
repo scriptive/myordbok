@@ -13,7 +13,11 @@ html(lang='en')
       meta(name="application-name" content=appName data-version=appVersion)
       base(href='/')
       link(rel='api', href='api')
-      link(rel='icon', href='favicon.png' type='image/png')
+      //- link(rel='icon', href='favicon.png' type='image/png')
+      link(rel="apple-touch-icon", sizes="180x180" href="/apple-touch-icon.png")
+      link(rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png")
+      link(rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png")
+      link(rel="manifest" href="/app.webmanifest")
       //- if isDevelopment
       //-   script(src='/jquery.js')
       //- else
@@ -34,7 +38,8 @@ html(lang='en')
       //-   gtag('js', new Date());
       //-   gtag('config', 'UA-18578545-1');
 
-      script(src=isDevelopment?'/jquery.js':'https://code.jquery.com/jquery-3.3.1.min.js')
+      script(src='https://code.jquery.com/jquery-3.3.1.min.js')
+      //- script(src=isDevelopment?'/jquery.js':'https://code.jquery.com/jquery-3.3.1.min.js')
       script(type='text/javascript', src='/script.js')
       link(rel='stylesheet', href='/style.css')
       //- script.
