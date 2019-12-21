@@ -1,7 +1,7 @@
-const update = require("@scriptive/evh/upgrade");
+const upgrade = require("@scriptive/evh/upgrade");
 
-update().then(
+upgrade().then(
   e=>console.log('>',e)
 ).catch(
-  e=>console.log('>',e)
+  e=>console.error('>',e)
 )
