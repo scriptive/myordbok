@@ -7,7 +7,11 @@
     "build": "webpack -p --config webpack.production.js",
     "test": "webpack-dev-server --open --config webpack.development.js",
     "update-repository": "node update-repository",
-    "pm2": "pm2 start pm2.json"
+    "test-port": "set PORT=5000 && node serve",
+    "test-listen": "set LISTEN= && node serve",
+    "test-production": "set NODE_ENV=production && node serve",
+    "pm2:kill": "pm2 kill",
+    "pm2:start": "pm2 start pm2.json"
   },
   "repository": {
     "type": "git",
@@ -22,7 +26,7 @@
   "dependencies": {
     "@scriptive/evh": "file:../evh",
     "mathjs": "^6.2.5",
-    "myanmar-notation": "^1.3.8",
+    "myanmar-notation": "^1.4.0",
     "mysql": "^2.17.1",
     "pluralize": "^8.0.0",
     "thesaurus": "0.0.1",
@@ -30,25 +34,24 @@
     "wordpos": "^1.2.0"
   },
   "devDependencies": {
-    "moby": "^1.1.2",
-    "@babel/core": "^7.1.2",
+    "@babel/core": "^7.7.5",
     "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.4",
+    "babel-loader": "^8.0.6",
     "babel-preset-env": "^1.7.0",
-    "clean-webpack-plugin": "^0.1.19",
-    "css-loader": "^1.0.0",
-    "file-loader": "^2.0.0",
-    "jquery": "^3.4.1",
-    "mini-css-extract-plugin": "^0.4.3",
-    "node-sass": "^4.9.3",
-    "sass-loader": "^7.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.4.0",
+    "file-loader": "^5.0.2",
+    "mini-css-extract-plugin": "^0.8.2",
+    "moby": "^1.1.2",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
     "script-loader": "^0.7.2",
-    "style-loader": "^0.23.0",
-    "url-loader": "^1.1.1",
-    "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.1",
-    "webpack-dev-middleware": "^3.4.0",
+    "style-loader": "^1.0.2",
+    "url-loader": "^3.0.0",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-middleware": "^3.7.2",
     "webpack-hot-middleware": "^2.24.2",
-    "webpack-merge": "^4.1.4"
+    "webpack-merge": "^4.2.2"
   }
 }
