@@ -1,5 +1,6 @@
 const dictionary = require('./dictionary');
 const search = require('./search');
+const visits = require('./visits');
 const thesaurus = require("thesaurus");
 const pluralize = require("pluralize");
 
@@ -28,3 +29,8 @@ exports.isSingular = async (e) => pluralize.isSingular(e);
 // NOTE: wordpos getPos findPos
 exports.pos = async (e) => wordpos.getPOS(e);
 exports.lookup = async (e) => wordpos.lookup(e);
+
+// NOTE: visits
+exports.visitsTotal = visits.total();
+exports.visitsCreated = visits.created;
+exports.visitsRestart = visits.restart();
