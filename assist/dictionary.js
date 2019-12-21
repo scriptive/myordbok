@@ -1,4 +1,4 @@
-const app = require('../');
+const app = require('..');
 const {glossary,dictionaries} = app.Config;
 const fs = require('fs');
 // const util = require('util');
