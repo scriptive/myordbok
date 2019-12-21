@@ -3,12 +3,16 @@ module.exports = {
     name: 'MyOrdbok',
     // description: 'package.description',
     // version: 'package.version',
-    visitsPrevious: 889993835240704,
+    visits:{
+      counts:0,
+      previous:0
+      // previous:889993835240704
+    },
     locale:[
       {id:'en',name:'English',default:true},
-      {id:'no',name:'Norwegian'},
-      {id:'my',name:'Myanmar'},
-      {id:'zo',name:'Zolai'}
+      // {id:'no',name:'Norwegian'},
+      // {id:'my',name:'Myanmar'},
+      // {id:'zo',name:'Zolai'}
     ],
     dictionaries:[
       {
