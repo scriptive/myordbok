@@ -8,7 +8,7 @@
 // gsutil cp -r gs://storage.lethil.me/media/fonts .
 // gsutil -r gs://storage.lethil.me/media/fonts
 
-const app = require('../');
+const app = require('..');
 const fs = require('fs');
 const routes = app.Router();
 const fonts = require('../assist/fonts');

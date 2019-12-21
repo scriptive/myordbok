@@ -1,4 +1,4 @@
-const app = require('../');
+const app = require('..');
 const routes = app.Router();
 const assist = require('../assist');
 

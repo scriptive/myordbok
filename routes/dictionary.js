@@ -1,4 +1,4 @@
-const app = require('../');
+const app = require('..');
 const {dictionaries} = app.Config;
 const routes = app.Router();
 
