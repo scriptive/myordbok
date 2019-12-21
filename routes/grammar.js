@@ -1,4 +1,4 @@
-const app = require('../');
+const app = require('..');
 const path = require('path');
 // const {dictionaries,locale} = app.Config;
 const {readFilePromise} = app.Common;
