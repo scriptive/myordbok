@@ -50,14 +50,14 @@ mixin definition(raw, w)
                 each k in raw.pos
                   li(class=k.wame.toLowerCase()) #[a(href='definition?q='+k.word)= k.word] #[span= k.wame] #[em= k.dame]
 
-      //- if raw._number
-      //-   dl.number.a1
-      //-     dt
-      //-       span= raw._number.number
-      //-     dd
-      //-       ul
-      //-         each k in raw._number.notation
-      //-           li= k.sense
+      if raw._number
+        dl.number.a1
+          dt
+            span= raw._number.number
+          dd
+            ul
+              each k in raw._number.notation
+                li= k.sense
 
       if raw._math
         each o,name in raw._math

@@ -1,3 +1,6 @@
+# template
+
+```pug
 mixin word(v)
   dl.definition.word
     each v, route in navPage

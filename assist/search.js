@@ -164,12 +164,16 @@ async function getDefinition(raw,wordNormal,is_sentence){
   if (utility.check.isNumeric(wordNormal)){
     status=true;
     row._number=requestNumeric(wordNormal);
+  } else {
+    delete row._number;
   }
 
   if (requestMath(wordUnescape)){
     status=true;
     id = wordUnescape;
     row._math=registry.math;
+  } else {
+    delete row._math;
   }
 
   var wordNormalThesaurus=thesaurus.find(wordNormal);
