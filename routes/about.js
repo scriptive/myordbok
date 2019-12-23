@@ -4,14 +4,13 @@ const assist = require('../assist');
 const {dictionaries,locale} = app.Config;
 const routes = app.Router();
 
+assist.visits();
+
 routes.get('/', function(req, res,next) {
   // var start = utility.timeCheck();
   // res.locals.dictionaries_total = Object.keys(dictionaries_delete).map(continental => Object.keys(dictionaries_delete[continental]).length).reduce((a, b) => a + b,0);
   res.locals.dictionaries_total = dictionaries.map(continental => continental.lang.length).reduce((a, b) => a + b,0);
-  res.locals.locale_total = locale.length;
-  res.locals.visits_created = assist.visitsCreated;
-  res.locals.visits_restart = assist.visitsRestart;
-  res.locals.visits_total = assist.visitsTotal;
+  res.locals.visits = app.Config.visits;
 
   res.render('about', {
     title:'About',
