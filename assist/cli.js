@@ -1,9 +1,10 @@
-const dictionary = require('./dictionary');
-const search = require('./search');
-const thesaurus = require("thesaurus");
-const pluralize = require("pluralize");
+// const dictionary = require('./dictionary');
+// const search = require('./search');
+const visits = require('./visits');
+// const thesaurus = require("thesaurus");
+// const pluralize = require("pluralize");
 
-const WordPOS = require('wordpos'), wordpos = new WordPOS();
+// const WordPOS = require('wordpos'), wordpos = new WordPOS();
 
 exports.main = async () => '?';
 // node run export_definition
