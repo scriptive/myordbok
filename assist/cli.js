@@ -1,6 +1,5 @@
 // const dictionary = require('./dictionary');
 // const search = require('./search');
-const visits = require('./visits');
 // const thesaurus = require("thesaurus");
 // const pluralize = require("pluralize");
 
