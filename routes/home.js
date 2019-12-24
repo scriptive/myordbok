@@ -1,7 +1,7 @@
 const app = require('..');
 const routes = app.Router();
 
-routes.get('/', function(req, res, next) {
+routes.get('/', function(req, res) {
   res.render('home', {
     title: 'MyOrdbok',
     keywords: 'Myanmar dictionary, Myanmar definition, Burmese, norsk ordbok, burmissk',

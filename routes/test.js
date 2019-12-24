@@ -19,6 +19,21 @@ routes.get('/', function(req, res) {
     clearInterval(timer)
   })
 });
-
+/*
+routes.get('/mongo', (req, res, next) => {
+  app.mongo.collection('documents').find({}).toArray(function(err,doc) {
+    console.log(doc)
+  });
+  console.log(app)
+  app.mongo.db.collection('documents').find({}).toArray(function(err,doc) {
+    res.send(doc)
+  });
+  app.mongo.db().then(e=>{
+    e.collection('documents').find({}).toArray(function(err,doc) {
+      res.send(doc)
+    });
+  })
+});
+*/
 
 module.exports = routes;
