@@ -1,6 +1,6 @@
 const dictionary = require('./dictionary');
 const search = require('./search');
-// const visits = require('./visits');
+// const speech = require('./speech');
 const thesaurus = require("thesaurus");
 const pluralize = require("pluralize");
 
@@ -16,6 +16,16 @@ exports.search = async (e) => search(e);
 exports.getLangDefault = () => dictionary.getLangDefault;
 exports.getLangByName = (e) => dictionary.getLangByName(e);
 exports.getLangById = (e) => dictionary.getLangById(e);
+exports.getLangList = () => dictionary.getLangList;
+exports.getLangCount = () => dictionary.getLangCount;
+
+// NOTE: visits
+exports.visits = require('./visits');
+
+// NOTE: grammar
+exports.grammar = require('./grammar');
+// NOTE: speech
+exports.speech = require('./speech');
 
 // NOTE: thesaurus
 exports.thesaurus = async (e) => thesaurus.find(e);
@@ -29,8 +39,3 @@ exports.isSingular = async (e) => pluralize.isSingular(e);
 // NOTE: wordpos getPos findPos
 exports.pos = async (e) => wordpos.getPOS(e);
 exports.lookup = async (e) => wordpos.lookup(e);
-
-// NOTE: visits
-exports.visits = require('./visits');
-// exports.visitsCreated = visits.created;
-// exports.visitsRestart = visits.restart();
