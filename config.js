@@ -3,11 +3,6 @@ module.exports = {
     name: 'MyOrdbok',
     // description: 'package.description',
     // version: 'package.version',
-    visits:{
-      counts:0,
-      previous:0
-      // previous:889993835240704
-    },
     locale:[
       {id:'en',name:'English',default:true},
       // {id:'no',name:'Norwegian'},
