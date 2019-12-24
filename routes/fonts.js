@@ -13,7 +13,7 @@ const fs = require('fs');
 const routes = app.Router();
 const fonts = require('../assist/fonts');
 
-routes.get('/scan-:type', function(req, res, next) {
+routes.get('/scan-:type', function(req, res) {
   var fontType = req.params.type;
   var fontName = req.query.font;
   new fonts(fontType).scan(fontName).then(function(e){
@@ -21,7 +21,7 @@ routes.get('/scan-:type', function(req, res, next) {
   });
 });
 
-routes.get('/download/:type', function(req, res, next) {
+routes.get('/download/:type', function(req, res) {
   var fontType = req.params.type;
   var fontName = req.query.font;
   new fonts(fontType).download(fontName).then(function(file){
@@ -43,7 +43,7 @@ routes.get('/download/:type', function(req, res, next) {
   });
 });
 
-routes.get('/:type?', async function(req, res, next) {
+routes.get('/:type?', async function(req, res) {
   var fontType = req.params.type;
   var fontName = req.query.font;
   var context = {title:'Myanmar fonts',description:'Myanmar Unicode and fonts',keywords:'Myanmar fonts'};
