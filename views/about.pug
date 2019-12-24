@@ -5,17 +5,17 @@ block content
       div.wrapper
         div.row
           div.header
-            h2 မိုင်အိုလ်ဗို့
+            h1 မိုင်အိုလ်ဗို့
           div
             p
-              | Ordbok ဆိုသည့် စကားလုံးသည် နော်ဝေစကားလုံးဖြစ်ပြီး အဘိဓါန်ဟု အဓိပ္ပာယ်သက်ရောက်သည်။ ဒါ့ကြောင့် #{appName} ကို မြန်မာအဘိဓါန်လို့လည်း ဆိုလိုနိုင်ပါသည်။
+              | Ordbok ဆိုသည့် စကားလုံးသည် နော်ဝေစကားလုံးဖြစ်ပြီး အဘိဓါန်ဟု အဓိပ္ပာယ်သက်ရောက်သည်။ ဒါ့ကြောင့် #{appName} ကို မြန်မာအဘိဓါန်လို့လည်း ဆိုလိုနိုင်သည်။
               | ၂၀၁၀ မှစ ယခုလက်ရှိအချိန်ထိ မြန်မာအွန်လိုင်းအဘိဓါန်များမှ အသုံးများဆုံးအဘိဓါန် တစ်ခုလည်းဖြစ်သည်။ အဘိဓါန် (ဘာသာ) #{dictionaries_total} ခုနှင့် ဆိုက်(ဘာသာ) #{locale_total} ခုကို အသုံးပြုနိုင်ပါသည်။
 
         div.row
           div.header
            h3.ico လာရောက်လည်ပတ်မှုအချက်အလက်
           div.data
-            p မိုင်အိုလ်ဗို့ လာရောက်လည်ပတ်မှုအချက်အလက်များကို ပြီးခဲ့သည့် #{visits.created} မှ ပြန်လည်တွက်ချက်အရ ဧည့်သည် #{visits.user} ဦးနှင့် လာရောက်လည်ပတ်မှု #{visits.request} ကြိမ်ရှိပါသည်။ စုစုပေါင်း လာရောက်လည်ပတ်သူ #{visits.by} ဦး၏ လာရောက်လည်ပတ်ကြိမ် #{visits.total} ရှိပါသည်။
+            p မိုင်အိုလ်ဗို့ လာရောက်လည်ပတ်မှုအချက်အလက်များကို ပြီးခဲ့သည့် #{visits.created} မှ ပြန်လည်တွက်ချက်အရ ဧည့်သည် #{visits.user} ဦးနှင့် လာရောက်လည်ပတ်မှု #{visits.request} ကြိမ်ရှိသည်။ စုစုပေါင်း လာရောက်သူ #{visits.by} ဦး၏ အလည်အပတ်ပေါင်း #{visits.total} ကြိမ်ရှိပါသည်။
 
 
         div.row
@@ -31,13 +31,13 @@ block content
 
         div.row
           div.data.social.text-center
-            a.icon-google-plus(href="https://plus.google.com/+Myordbok-dictionary" target="_blank" title="+MyOrdbok dictionary")
+            a.icon-google-plus(title="+MyOrdbok dictionary")
               span +MyOrdbok dictionary
-            a.icon-google-circles( href="https://plus.google.com/share?url={http}/{uriCurrent}" target="_blank" title="share on Google+")
+            a.icon-google-circles(title="share on Google+")
               span ...share on Google+
-            a.icon-facebook(href="http://www.facebook.com/sharer.php?u={http}/{uriCurrent}" target="_blank")
+            a.icon-facebook(href="http://www.facebook.com/sharer.php?u=//www.myordbok.com" target="_blank")
               span ...share on Facebook
-            a.icon-twitter(href="http://twitter.com/share?url={http}/{uriCurrent}&amp;text=online Myanmar dictionary&amp;hashtags=MyOrdbok" target="_blank" )
+            a.icon-twitter(href="http://twitter.com/share?url=//www.myordbok.com&amp;text=online Myanmar dictionary&amp;hashtags=MyOrdbok" target="_blank" )
               span ...share on Twitter
 
         div.row
@@ -95,8 +95,8 @@ block content
             h3.ico.function(title="Version") မိုင်အိုလ်ဗို့ #{appVersion}
           div.data
             p
-              | ပထမနံပါတ်သည် မိုင်အိုလ်ဗို့ မည်မျှအပြောင်းအလဲလုပ်ထားခြင်းကိုဆိုလိုပြီး၊
-              | ဒုတိယနံပါတ်သည် ပထမနံပါတ်၏အပြောင်းအလဲနဲ့ဆက်စပ်ပြီး မည်မျှထိန်းသိမ်းပြုပြင်ခဲ့ခြင်းကိုဆိုလိုသည်။
+              | ပထမနံပါတ်သည် မည်မျှအပြောင်းအလဲ လုပ်ထားခြင်းကိုဆိုလိုပြီး၊
+              | ဒုတိယနံပါတ်သည် အဓိက အပြောင်းအလဲနဲ့ဆက်စပ်ပြီး မည်မျှထိန်းသိမ်းပြုပြင်ခဲ့ခြင်း ကိုဆိုလိုသည်။
               | တတိယနံပါတ်သည် အခြေခံလိုအပ်ချက်များ ပြုပြင်မွမ်းမံခြင်း အဆင့်ဖြစ်ပြီး၊ အဓိက လုပ်ဆောင်ချက်မှာ
               | cookie အချက်အလက်များ၏ သော့အဖြစ်သုံးထားသည်။ ထိုကြောင့် အမှတ်စဉ်များအပြောင်းအလဲရှိတိုင်း cookie အသစ်ပြုလုပ်ပါလိမ့်မည်။
 
