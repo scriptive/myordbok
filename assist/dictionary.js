@@ -80,6 +80,9 @@ exports.getLangById = (e) => dictionaries.map(
   )
 ).reduce((prev, next) => prev.concat(next),[]).find(l=>l.id);
 
+exports.getLangList = dictionaries;
+exports.getLangCount = dictionaries.map(continental => continental.lang.length).reduce((a, b) => a + b,0);
+// exports.getLangCount = Object.keys(dictionaries_delete).map(continental => Object.keys(dictionaries_delete[continental]).length).reduce((a, b) => a + b,0);)
 
 // exports.suggestion = (keyword) => dataJSON.en.filter(e=>e.v.toLowerCase().startsWith(keyword.toLowerCase())).map(e=>e.v).slice(0,10);
 exports.suggestion = (q,l=getLangDefault.id) => getJSON(getWordFile(l)).then(e=>e.filter(e=>e.v.toLowerCase().startsWith(q.toLowerCase())).map(e=>e.v).slice(0,10)).catch(()=>[]);
@@ -111,7 +114,6 @@ exports.translation = async function(keyword,lang=getLangDefault.id){
   var result = [];
   if (lang == getLangDefault.id) return result;
   const raw = await getJSON(getWordFile(lang));
-  // console.log('translate',raw.length);
 
   raw.filter(e=> hasWordMatch(keyword,e.v)).forEach(function(w){
     var i = result.findIndex(e=>e.hasOwnProperty('v') && hasWordMatch(w.v,e.v)), src = w.e.split(',');
@@ -124,6 +126,7 @@ exports.translation = async function(keyword,lang=getLangDefault.id){
   return result;
 }
 
+// NOTE: admin words
 exports.exportDefinition = async function(){
   await app.sql.query('SELECT wid AS w, word AS v FROM ?? GROUP BY wid ORDER BY word ASC;',[table.source]).then(
     raw=>{
