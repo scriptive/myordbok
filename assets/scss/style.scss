@@ -138,7 +138,7 @@ div.portal {
       // NOTE: header
       @import 'Portal.row';
       // @import 'Portal.responsive';
-      // NOTE: home
+      // NOTE: home, dictionary
       @import 'Portal.modest';
       // NOTE: privacy, terms
       @import 'Portal.docs';
@@ -201,12 +201,12 @@ div.portal {
     &#header{
       @import 'header.Tablet';
     }
-    &#board{
-      // @import 'board.Tablet';
-    }
-    &#content{
-      // @import 'content.Tablet';
-    }
+    // &#board{
+    //   @import 'board.Tablet';
+    // }
+    // &#content{
+    //   @import 'content.Tablet';
+    // }
     &#footer{
       @import 'footer.Tablet';
     }
@@ -218,14 +218,14 @@ div.portal {
     &#header{
       @import 'header.Desktop';
     }
-    &#board{
-      // @import 'board.Desktop';
-    }
-    &#content{
-      // @import 'content.Desktop';
-    }
-    &#footer{
-    }
+    // &#board{
+    //   @import 'board.Desktop';
+    // }
+    // &#content{
+    //   @import 'content.Desktop';
+    // }
+    // &#footer{
+    // }
   }
 }
 .text-center {

@@ -3,6 +3,7 @@ form[name=search]{
   display:table;
   z-index:0;
   width: 100%;
+  // margin: 0 auto;
   background-color: #fff;
   // @include box-shadow(0px, 0px, 1px, 1px, darken(#ccc,10%));
   @include box-shadow(0px, 0px, 0px, 1px, darken(#ccc,5%));
@@ -69,6 +70,7 @@ form[name=search]{
       @include box-shadow(0px, 1px, 0px, 1px, darken(#ccc,10%));
       border-radius: 0 0 2px 2px;
       overflow: hidden;
+      z-index: 9999;
       p{
         display:block;padding:1px 2%;color:#666;cursor:pointer; line-height: 24px;
         b{

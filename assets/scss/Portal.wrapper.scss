@@ -56,14 +56,15 @@
           }
         }
         &.dictionaries {
-          ol.dictionary {
+          >ol {
             // background-color: lighten($ColorMain,30%);
             // box-shadow:inset 0px -1px 1px 1px lighten(#666,30%);
             // border-radius: 5px;
             overflow: hidden;
             text-align: center;
             display: table;
-            width: 100%;
+            width: 80%;
+            margin: 0 auto;
             table-layout:fixed;
             >li {
               display: table-cell;
@@ -71,22 +72,22 @@
               h3 {
                 margin: 3%;
                 font-weight: normal;
-                color: #666;
+                // color: #666;
               }
               ol {
                 li {
-                  padding: 1%;
                   list-style: none;
+                  padding: 1%;
                   a{
-                    display: block;
+                    display: inline-block;
                     overflow: hidden;
                     text-overflow: ellipsis;
                     white-space: nowrap;
-                    padding: 7px 10%;
+                    padding: 3px 20px;
+                    line-height: 23px;
                     background-color: lighten($ColorMain,15%);
                     border-radius: 20px;
                     font-weight: normal;
-                    line-height: 23px;
                     color: #fff;
                     text-shadow: 1px 0px 1px #ccc;
                     &:hover {
@@ -101,19 +102,38 @@
                 }
               }
             }
+            &.dictionary{
+              width: 100%;
+              >li{
+                h3{
+                  color: #666;
+                }
+                ol{
+                  li{
+                    a{
+                      display: block;
+                      padding: 7px 10%;
+                    }
+                  }
+                }
+              }
+            }
             @media #{$media-mobile} {
               background-color: lighten($ColorMain,30%);
               // box-shadow:inset 0px 1px 1px 1px lighten(#666,30%);
               border-radius: 3px;
+              width: 100%;
               >li {
                 display: table-row;
-                h3{}
+                // h3{}
                 ol{
                   li{
-                    padding: 0;
+                    padding: 0px;
                     a{
-                      background-color: lighten($ColorMain,15%);
+                      // background-color: lighten($ColorMain,15%);
                       border-radius: 0px;
+                      padding: 7px 10%;
+                      display: block;
                     }
                   }
                 }
