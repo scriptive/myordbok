@@ -47,11 +47,31 @@ module.exports = {
         ]
       }
     ],
+    synset:[
+      'Noun','Verb','Adjective','Adverb',
+      'Preposition','Conjunction','Pronoun','Interjection','Abbreviation','Prefix',
+      'Combining form','Phrase','Contraction',
+      'Adjective suffix','Noun suffix','Verb suffix',
+      'Acronym','Article','Int'
+    ],
+    synmap:[
+      { id: 1, type: 0, name: "Plural"},
+      { id: 2, type: 1, name: "3rd Person"},
+      { id: 3, type: 1, name: "Past Tense" },
+      { id: 4, type: 1, name: "Past Participle"},
+      { id: 5, type: 1, name: "Present Participle"},
+      { id: 6, type: 2, name: "Comparitive"},
+      { id: 7, type: 2, name: "Superlative"},
+      { id: 8, type: 1, name: "1st Person"},
+      { id: 9, type: 1, name: "2nd Person"},
+      { id: 10, type: 1, name: "Plural Past"}
+    ],
     glossary:{
       word:'en.json',
       sense:'sense.json',
       usage:'usage.json',
-      grammar:'grammar.json'
+      synset:'synset.json', // words
+      synmap:'synmap.json' //derives
     }
   }
 };
