@@ -14,6 +14,3 @@ SELECT * FROM `db_en` WHERE `exam` LIKE '%[%' ORDER BY `word_id`, `state`, `seq`
 #UPDATE `db_en` SET `exam` = REPLACE(`exam`, "/", "/") WHERE `exam` IS NOT NULL;
 #UPDATE `db_en` SET `exam` = REPLACE(LTRIM(RTRIM(`exam`)), '  ', ' ') WHERE `exam` IS NOT NULL;
 ```
-
-အချို့သောအဘိဓါန်များတွင်
-အချို့သောအများဆုံးအဘိဓါန်
