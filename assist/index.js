@@ -1,16 +1,16 @@
 const dictionary = require('./dictionary');
-const search = require('./search');
+// const search = require('./search');
 // const speech = require('./speech');
 const thesaurus = require("thesaurus");
 const pluralize = require("pluralize");
 
-const WordPOS = require('wordpos'), wordpos = new WordPOS();
+// const WordPOS = require('wordpos'), wordpos = new WordPOS();
 
 // NOTE: mean
-exports.suggestion = async (e,l) => dictionary.suggestion(e,l);
+exports.suggestion = async (e,l) => dictionary.word(e,l);
 exports.definition = async (e) => dictionary.definition(e);
 exports.translation = async (e,l) => dictionary.translation(e,l);
-exports.search = async (e) => search(e);
+exports.search = require('./search');
 
 // NOTE: lang
 exports.getLangDefault = () => dictionary.getLangDefault;
@@ -18,6 +18,7 @@ exports.getLangByName = (e) => dictionary.getLangByName(e);
 exports.getLangById = (e) => dictionary.getLangById(e);
 exports.getLangList = () => dictionary.getLangList;
 exports.getLangCount = () => dictionary.getLangCount;
+exports.getGrammar = async () => dictionary.getGrammar();
 
 // NOTE: visits
 exports.visits = require('./visits');
@@ -37,5 +38,5 @@ exports.isPlural = async (e) => pluralize.isPlural(e);
 exports.isSingular = async (e) => pluralize.isSingular(e);
 
 // NOTE: wordpos getPos findPos
-exports.pos = async (e) => wordpos.getPOS(e);
-exports.lookup = async (e) => wordpos.lookup(e);
+// exports.pos = async (e) => wordpos.getPOS(e);
+// exports.lookup = async (e) => wordpos.lookup(e);

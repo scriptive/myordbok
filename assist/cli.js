@@ -1,4 +1,3 @@
-const working = require('./working');
 const dictionary = require('./dictionary');
 // const search = require('./search');
 // const thesaurus = require("thesaurus");
@@ -6,8 +5,6 @@ const pluralize = require("pluralize");
 // const WordPOS = require('wordpos'), wordpos = new WordPOS();
 
 exports.main = async () => '?';
-exports.working = async (e) => working.main(e);
-
 
 exports.wordPos =  async (e) => await dictionary.wordPos(e);
 exports.wordBase =  async (e) => await dictionary.wordBase(e);
