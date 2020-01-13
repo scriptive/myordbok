@@ -29,6 +29,14 @@ routes.get('/suggestion', (req, res) => {
   )
 });
 
+routes.get('/grammar', (req, res) => {
+  assist.getGrammar().then(
+    raw=> res.send(raw)
+  ).catch(
+    ()=>res.status(404).end()
+  )
+});
+
 routes.get('/speech', (req, res) => {
   res.set({
     'Content-Type': 'audio/mpeg',
