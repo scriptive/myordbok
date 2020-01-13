@@ -8,116 +8,105 @@ mixin example(eg)
   //- eg.replace(/{-/g,'<a href="definition?q=').replace(/-:-/g,'">').replace(/-}/g,'</a>')
   eg
 
-mixin testing(o)
+mixin result(o)
   each raw, w in o
-    if raw.hasOwnProperty('_formOf')
-      //- p.def= w
-      +testing_definition(raw, w)
+    if raw.hasOwnProperty('formOf')
+      +definition(raw, w)
     else
-      //- p.tra= w
-      +testing_translation(raw, w)
+      +translation(raw, w)
 
-mixin testing_translation(raw, w)
+mixin translation(raw, w)
   dl.definition.sentence
-    dt.dt
+    dt
       p= w
         span.speech(class=lang.tar).zA.icon-sound
-    dd.dd
+    dd
       each e, s in raw
-        +testing_definition(e, s)
+        +definition(e, s)
 
-mixin testing_definition(raw, w)
+mixin definition(raw, w)
   dl.definition.word
-    dt.dt
+    dt
       p= w
         span.speech.en.zA.icon-volume-up
-    dd.dd
-      p working definition
+    dd
+      if raw.meaning
+        each define,grammar in raw.meaning
+          dl(class=grammar.toLowerCase())
+            dt
+              span= grammar
+            dd
+              each mean,ty in define
+                p!= mean.v.replace(/\{-(.*?)\-}/g, '<a href="definition?q=$1">$1</a>')
+                if mean.exam
+                  ul.eg
+                    each eg in mean.exam
+                      li!= eg.replace(/\{-(.*?)\-}/g, '<a href="definition?q=$1">$1</a>')
 
-mixin translation(o)
-  dl.definition.sentence
-    each raw, w in o
-      dt.dt
-        p= w
-          span.speech(class=lang.tar).zA.icon-sound
-      dd.dd
-        +definition(raw)
+      if raw.pos
+        if raw.pos.length
+          dl.thesaurus.pos
+            dt
+              span Part of speech
+            dd
+              ul
+                each k in raw.pos
+                  li(class=k.wame.toLowerCase()) #[a(href='definition?q='+k.word)= k.word] #[span= k.wame] #[em= k.dame]
 
-mixin definition(o)
-  dl.definition.word
-    each raw, w in o
-      dt.dt
-        p= w
-          span.speech.en.zA.icon-volume-up
-      dd.dd
-        if raw._definition
-          each define,grammar in raw._definition
-            dl(class=grammar.toLowerCase())
-              dt
-                span= grammar
-              dd
-                each mean,ty in define
-                  p!= mean.v
-                  if mean.exam
-                    ul.eg
-                      each eg in mean.exam
-                        li!= eg.replace(/\{-(.*?)\-}/g, '<a href="definition?q=$1">$1</a>')
+      if raw.formOf
+        if raw.formOf.length
+          dl.thesaurus.pos
+            dt
+              span ...form Of
+            dd
+              ul
+                each k in raw.formOf
+                  li!= k.replace(/\{-(.*?)\-}/g, '<a href="definition?q=$1">$1</a>')
 
-        if raw.pos
-          if raw.pos.length
-            dl.thesaurus.pos
-              dt
-                span Part of speech
-              dd.dd
-                ul
-                  each k in raw.pos
-                    li(class=k.wame.toLowerCase()) #[a(href='definition?q='+k.word)= k.word] #[span= k.wame] #[em= k.dame]
+      if raw.notation
+        dl.number.a1
+          dt
+            span= raw.notation.number
+          dd
+            ul
+              each k in raw.notation.notation
+                li= k.sense
 
-        if raw._thesaurus
-          if raw._thesaurus.length
-            dl.thesaurus.a1
-              dt
-                span Thesaurus
-              dd.dd
-                p
-                  each k in raw._thesaurus
-                    +link(k)
-        if raw.antonym
-          if raw.antonym.length
-            dl.thesaurus.antonym
-              dt
-                span Antonym
-              dd.dd
-                p
-                  each k in raw.antonym
-                    +link(k)
+      if raw._math
+        each o,name in raw._math
+          dl.math.a1
+            dt
+              span= name
+            dd
+              ul
+                each v,k in o
+                  li #[em #{k}]: #{v}!
 
-        if raw.synonym
-          if raw.synonym.length
-            dl.thesaurus.synonym
-              dt
-                span Synonym
-              dd.dd
-                p
-                  each k in raw.synonym
-                    +link(k)
+      if raw.thesaurus
+        if raw.thesaurus.length
+          dl.thesaurus.a1
+            dt
+              span Thesaurus
+            dd
+              p
+                each k in raw.thesaurus
+                  +link(k)
+      if raw.antonym
+        if raw.antonym.length
+          dl.thesaurus.antonym
+            dt
+              span Antonym
+            dd
+              p
+                each k in raw.antonym
+                  +link(k)
 
-        if raw.mobyNormal
-          if raw.mobyNormal.length
-            dl.thesaurus.moby
-              dt
-                span Moby
-              dd.dd
-                p
-                  each k in raw.mobyNormal
-                    +link(k)
-
-        if raw.mobyReverse
-          if raw.mobyReverse.length
-            dl.thesaurus.mobyReverse
-              dt
-                span Thesaurus
-              dd.dd
-                p
-                  each k in raw.mobyReverse
-                    +link(k)
+      if raw.synonym
+        if raw.synonym.length
+          dl.thesaurus.synonym
+            dt
+              span Synonym
+            dd
+              p
+                each k in raw.synonym
+                  +link(k)
