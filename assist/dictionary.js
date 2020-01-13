@@ -5,15 +5,13 @@ const fs = require('fs');
 const path = require('path');
 const {utility,readFilePromise,writeFilePromise} = app.Common;
 
-const table={ source:'en_src', grammar:'en_type', other:'0_word'};
-// const readFilePromise = util.promisify(fs.readFile);
-// const writeFilePromise = util.promisify(fs.writeFile);
+const table={ senses:'senses', other:'ord_0', synset:'words', synmap:'derives'};
 
-// var folder = 'glossary';
 glossary.word = path.join(app.Config.media,'glossary',glossary.word);
 glossary.sense = path.join(app.Config.media,'glossary',glossary.sense);
 glossary.usage = path.join(app.Config.media,'glossary',glossary.usage);
-glossary.grammar = path.join(app.Config.media,'glossary',glossary.grammar);
+glossary.synset = path.join(app.Config.media,'glossary',glossary.synset);
+glossary.synmap = path.join(app.Config.media,'glossary',glossary.synmap);
 
 // getJSON,  writeJSON, readJSON watchJSON  dataJSON,
 const dataJSON={};
@@ -33,25 +31,25 @@ async function getJSON(file,watch){
     return [];
   }
 }
-
-
-const formatExam = (exam) => {
-  // return exam;
-  return exam.replace(/<b>(.*?)<\/b>/g, function(s,t) {
-
-  }).replace(/\[(.*?)\]/g, function(s,t) {
-    let e = t.split(':');
-    if (e.length > 1) {
-      return e[1].split('/').map(function(word){
-        // return '<a href="definition?q=*">*</a>'.replace(/\*/g,word);
-        // li!= eg.replace(/\{-(.*?)\-}/g, '<a href="definition?q=$1">$1</a>')
-        return '{-*-}'.replace(/\*/g,word);
-      }).join('/');
+const formatLink = (str) => {
+  return str.replace(/\[(.*?)\]/g, function(s,t) {
+    var [name,e] = t.split(':');
+    // NOTE: [also:creative]
+    if (e) {
+      var links = e.split('/').map((word) => '{-*-}'.replace(/\*/g,word)).join('/');
+      if (name == 'list'){
+        return links;
+      } else {
+        return '0: 1'.replace(0,name).replace(1,links);
+      }
     } else {
       return s;
     }
-  }).split("\r\n").map(e=>e.trim());
-};
+  });
+}
+const formatUsage = (exam) => formatLink(exam).split("\r\n").map(e=>e.trim());
+
+const formatSense = (str) => formatLink(str);
 
 const getLangDefault = dictionaries.map(
   continental => continental.lang.filter(
@@ -65,8 +63,6 @@ const hasWordMatch = (s,t) => s.toLowerCase() == t.toLowerCase();
 // getJSON(glossary.word,true);
 // getJSON(glossary.sense,true);
 // getJSON(glossary.usage,true);
-// getJSON(glossary.grammar,true);
-
 
 exports.getLangDefault = getLangDefault;
 exports.getLangByName = (e) => dictionaries.map(
@@ -84,85 +80,168 @@ exports.getLangList = dictionaries;
 exports.getLangCount = dictionaries.map(continental => continental.lang.length).reduce((a, b) => a + b,0);
 // exports.getLangCount = Object.keys(dictionaries_delete).map(continental => Object.keys(dictionaries_delete[continental]).length).reduce((a, b) => a + b,0);)
 
-// exports.suggestion = (keyword) => dataJSON.en.filter(e=>e.v.toLowerCase().startsWith(keyword.toLowerCase())).map(e=>e.v).slice(0,10);
-exports.suggestion = (q,l=getLangDefault.id) => getJSON(getWordFile(l)).then(e=>e.filter(e=>e.v.toLowerCase().startsWith(q.toLowerCase())).map(e=>e.v).slice(0,10)).catch(()=>[]);
+// exports.word = (keyword) => dataJSON.en.filter(e=>e.v.toLowerCase().startsWith(keyword.toLowerCase())).map(e=>e.v).slice(0,10);
+exports.word = (q,l=getLangDefault.id) => getJSON(getWordFile(l)).then(e=>e.filter(e=>e.v.toLowerCase().startsWith(q.toLowerCase())).map(e=>e.v).slice(0,10)).catch(()=>[]);
+exports.wordFind = (q,l=getLangDefault.id) => getJSON(getWordFile(l)).then(e=>e.find(e=>e.v.toLowerCase() == q.toLowerCase())).catch(()=>'');
 
-// NOTE: definition
-exports.definition = async function(keyword){
-  await getJSON(glossary.word,true);
-  await getJSON(glossary.sense,true);
-  await getJSON(glossary.usage,true);
-  await getJSON(glossary.grammar,true);
-
-  var result = null;
-  var word = dataJSON.en.find(e=> hasWordMatch(keyword,e.v));
-  if (word){
-    var row = dataJSON.sense.filter(d=> d.w == word.w).map(function(d){
-      d.pos = dataJSON.grammar.find(m=> m.i == d.t).v;
-      var exam = dataJSON.usage.filter(m=> m.i == d.i).map(y=>formatExam(y.v));
-      d.exam = [].concat.apply([], exam);
-      return d;
-    });
-    result = utility.arrays.group(row, 'pos');
-  }
-  // writeJSON(path.join(app.Config.media,folder,'delete_result.json'),result); return `result for: ${keyword} written in file`;
-  return result;
-}
+exports.getGrammar = () => app.Config.synset.map((v,index) => ({id:index,name:v}));
 
 // NOTE: translation
 exports.translation = async function(keyword,lang=getLangDefault.id){
-  var result = [];
-  if (lang == getLangDefault.id) return result;
-  const raw = await getJSON(getWordFile(lang));
+  var raw = [];
+  if (lang == getLangDefault.id) return raw;
+  const row = await getJSON(getWordFile(lang));
 
-  raw.filter(e=> hasWordMatch(keyword,e.v)).forEach(function(w){
-    var i = result.findIndex(e=>e.hasOwnProperty('v') && hasWordMatch(w.v,e.v)), src = w.e.split(',');
+  row.filter(e=> hasWordMatch(keyword,e.v)).forEach(function(w){
+    var i = raw.findIndex(e=>e.hasOwnProperty('v') && hasWordMatch(w.v,e.v)), src = w.e.split(',');
     if (i >= 0){
-      result[i].e = utility.arrays.unique(result[i].e.concat(src));
+      raw[i].e = utility.arrays.unique(raw[i].e.concat(src));
     } else {
-      result.push({v:w.v,e:utility.arrays.unique(src)})
+      raw.push({v:w.v,e:utility.arrays.unique(src)})
     }
   });
+  return raw;
+}
+
+async function wordMeanJSON(word){
+  await getJSON(glossary.word,true);
+  await getJSON(glossary.sense,true);
+  await getJSON(glossary.usage,true);
+
+  var raw = dataJSON.en.find(e=> hasWordMatch(word,e.v));
+  if (raw){
+    var row = dataJSON.sense.filter(d=> d.w == raw.w).map(function(d){
+      d.pos = app.Config.synset[d.t];
+      var exam = dataJSON.usage.filter(m=> m.i == d.i).map(y=>formatUsage(y.v));
+      d.exam = [].concat.apply([], exam);
+      return (({ v, pos, exam }) => ({ v, pos, exam }))(d);
+    });
+    return utility.arrays.group(row, 'pos',true);
+  }
+  return null;
+}
+async function wordMeanMySQL(word){
+  var raw = await app.sql.query("SELECT word AS w, tid AS pos, sense AS v,exam FROM ?? WHERE word LIKE ? ORDER BY tid, seq;",[table.senses,word]);
+  if (raw.length){
+    var row = raw.map(function(d){
+      d.pos = app.Config.synset[d.pos];
+      d.v = formatSense(d.v);
+      if (d.exam) {
+        d.exam = formatUsage(d.exam);
+      } else {
+        d.exam = [];
+      }
+      return (({ v, pos, exam }) => ({ v, pos, exam }))(d);
+    });
+    return utility.arrays.group(row, 'pos',true);
+  }
+  return null;
+}
+
+// NOTE: definition
+exports.definition = async function(word,_liveData){
+  try {
+    if (_liveData){
+      return await wordMeanMySQL(word);
+    } else {
+      return await wordMeanJSON(word);
+    }
+  } catch (error) {
+    return null;
+  }
+}
+
+exports.wordBase = async function(word){
+  var result = {};
+  const synset = await getJSON(glossary.synset);
+  const synmap = await getJSON(glossary.synmap);
+
+  result.pos = synmap.filter(
+    s => hasWordMatch(s.v,word) && s.t < 10 && synset.filter(e=>e.w == s.w).length
+  );
+
+  result.root = result.pos.map(
+    e => synset.find(s=>s.w == e.w)
+  ).map(e=>e.v).filter((v, i, a) => a.indexOf(v) === i);
   return result;
 }
 
-// NOTE: admin words
+exports.wordPos = async function(word){
+  var result = {};
+  const synset = await getJSON(glossary.synset);
+  const synmap = await getJSON(glossary.synmap);
+
+  var root = synset.filter(
+    s => hasWordMatch(s.v,word)
+  );
+
+  result.pos = synmap.filter(
+    m => m.d > 0 && root.filter(e=>e.w == m.w).length
+  );
+  result.root = root.map(e=>e.v).filter((v, i, a) => a.indexOf(v) === i);
+  return result;
+}
+
+// NOTE: admin
+exports.exportWord = async function(){
+  // id AS w, word AS v, derived AS d  LIMIT 10;
+  throw '...needed to enable manually';
+  // await app.sql.query("SELECT id AS w, word AS v FROM ??;",[table.synset]).then(
+  //   async raw=>{
+  //     await writeJSON(glossary.synset,raw);
+  //     // await writeJSON('./test/words.json',raw);
+  //     console.info('words->synset',raw.length)
+  //   }
+  // ).catch(
+  //   e=>console.error(e)
+  // );
+  // await app.sql.query("SELECT word_id AS w, derive AS v, derive_type AS d, word_type AS t FROM ??;",[table.synmap]).then(
+  //   async raw=>{
+  //     // await writeJSON('./test/derives.json',raw);
+  //     await writeJSON(glossary.synmap,raw);
+  //     console.info('derives->synmap',raw.length)
+  //   }
+  // ).catch(
+  //   e=>console.error(e)
+  // );
+}
+
 exports.exportDefinition = async function(){
-  await app.sql.query('SELECT wid AS w, word AS v FROM ?? GROUP BY wid ORDER BY word ASC;',[table.source]).then(
-    raw=>{
-      writeJSON(glossary.word,raw);
+  // NOTE: reset wid
+  await app.sql.query('UPDATE ?? AS o INNER JOIN (select id,word from ?? GROUP BY word ) AS i ON o.word = i.word SET o.wid = i.id;',[table.senses,table.senses]).then(
+    ()=>{
+      console.log('reset wid')
+    }
+  ).catch(
+    e=>console.error(e)
+  );
+  await app.sql.query('SELECT wid AS w, word AS v FROM ?? GROUP BY wid ORDER BY word ASC;',[table.senses]).then(
+    async raw=>{
+      await writeJSON(glossary.word,raw);
       console.log('word',raw.length)
     }
   ).catch(
     e=>console.error(e)
   );
-  await app.sql.query('SELECT id AS i, wid AS w, tid AS t, sense AS v FROM en_src WHERE sense IS NOT NULL',[table.source]).then(
-    raw=>{
-      writeJSON(glossary.sense,raw);
+  await app.sql.query('SELECT id AS i, wid AS w, tid AS t, sense AS v FROM ?? WHERE sense IS NOT NULL',[table.senses]).then(
+    async raw=>{
+      await writeJSON(glossary.sense,raw);
       console.log('sense',raw.length)
     }
   ).catch(
     e=>console.error(e)
   );
-  await app.sql.query("SELECT id AS i, exam AS v FROM ?? WHERE exam IS NOT NULL AND exam <> '';",[table.source]).then(
-    raw=>{
-      writeJSON(glossary.usage,raw);
+  await app.sql.query("SELECT id AS i, exam AS v FROM ?? WHERE exam IS NOT NULL AND exam <> '';",[table.senses]).then(
+    async raw=>{
+      await writeJSON(glossary.usage,raw);
       console.log('example',raw.length)
-    }
-  ).catch(
-    e=>console.error(e)
-  );
-  await app.sql.query("SELECT id AS i, name AS v FROM ?? WHERE name IS NOT NULL;",[table.grammar]).then(
-    raw=>{
-      writeJSON(glossary.grammar,raw);
-      console.log('grammar',raw.length);
     }
   ).catch(
     e=>console.error(e)
   );
 }
 
-exports.exportWord = async function(e){
+exports.exportTranslation = async function(e){
   for (const continental of dictionaries) {
     for (const lang of continental.lang) {
       if (!lang.hasOwnProperty('default')) {
@@ -179,5 +258,5 @@ exports.exportWord = async function(e){
       }
     }
   }
-  return Object.keys(dataJSON);
+  return Object.keys(dataJSON).length;
 }
