@@ -16,5 +16,6 @@ require('../icon/animation.css');
 require('../scss/style.scss');
 
 // NOTE: script
+require('../script/analytics.js');
 require('../script/index.js');
 // import exec from '../script/test.js';

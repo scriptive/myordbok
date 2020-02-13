@@ -1,5 +1,6 @@
 const dictionary = require('./dictionary');
 // const search = require('./search');
+// const check = require('./check');
 // const thesaurus = require("thesaurus");
 const pluralize = require("pluralize");
 // const WordPOS = require('wordpos'), wordpos = new WordPOS();
@@ -11,9 +12,14 @@ exports.wordBase =  async (e) => await dictionary.wordBase(e);
 exports.definition =  async (e) => await dictionary.definition(e,true);
 
 // NOTE: admin
+// node run export_definition
+// synset synmap
 exports.export_word = async () => await dictionary.exportWord();
+// ar da de el no ja... except en
 exports.export_translation = async (e) => await dictionary.exportTranslation(e);
+// en sense usage
 exports.export_definition = async () => await dictionary.exportDefinition();
+
 
 // node run suggestion "l"
 // exports.suggestion = async (e,l) => dictionary.word(e,l);
@@ -27,8 +33,12 @@ exports.export_definition = async () => await dictionary.exportDefinition();
 // exports.getLangByName = (e) => dictionary.getLangByName(e);
 // exports.getLangById = (e) => dictionary.getLangById(e);
 
+// NOTE: testing
 // node run search
-// exports.search = async (e) => search(e);
+exports.search = async (e) => require('./search')(e);
+exports.wordbreak = async (e) => require('./wordbreak')(e);
+exports.check_keyword = async (e) => await require('./check').keyword(e);
+exports.check_wordbreak = async (e) => await require('./check').wordbreak(e);
 
 // NOTE: thesaurus
 // node run thesaurus "love"
@@ -39,10 +49,3 @@ exports.plural = async (e) => pluralize.plural(e);
 exports.singular = async (e) => pluralize.singular(e);
 exports.isPlural = async (e) => pluralize.isPlural(e);
 exports.isSingular = async (e) => pluralize.isSingular(e);
-
-// NOTE: wordpos
-// exports.pos = async (e) => wordpos.getPOS(e);
-// exports.lookup = async (e) => wordpos.lookup(e);
-// exports.seek = async (e) => wordpos.seek(1285602, 'a');
-// exports.seek = async (e) => wordpos.seek(1285602, 'a');
-// exports.getAdjectives = async (e) => wordpos.lookupAdjective(e,console.log);
