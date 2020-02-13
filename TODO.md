@@ -1,27 +1,27 @@
 # Todo
 
 - Lookup
-  - [ ] get rootWord when no definition found
+  - [x] get rootWord when no definition found
+  - [x] unexpected error on [dialer]
 
--  Template
-  - [ ] definition
+- Template
+  - [x] definition
   - [ ] translation
   - [ ] pleaseenter,
   - [ ] notfound
   - [ ] numeric
   - [ ] math
-  - [ ] notation
+  - [x] notation
   - [ ] roman
 
 - Grammar
-  - [ ] Grammar
+  - [x] Grammar
 
 - Font
-  - [ ] Font
+  - [x] Font
 
 - Admin
-  - [ ] import
-  - [ ] export
+  - [x] import
+  - [x] export
 
-
-- [ ] You should not have pug tags with multiple attributes.
+- [x] You should not have pug tags with multiple attributes.

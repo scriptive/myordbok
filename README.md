@@ -6,8 +6,6 @@
 
 ... is online [Myanmar dictionary][home]!
 
-
-
 ## Definition
 
 - read temporary sessions: source words list, definition, type, usage but watch

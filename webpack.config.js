@@ -23,7 +23,12 @@ module.exports = {
       },
       {
         test: /\.js$/,
+        // exclude: /analytics\.js$/,
         exclude: /(node_modules|bower_components)/,
+        // exclude: [
+        //   /(node_modules|bower_components)/,
+        //   /analytics\.js$/,
+        // ],
         loader: "babel-loader",
         options: {
           presets: []
