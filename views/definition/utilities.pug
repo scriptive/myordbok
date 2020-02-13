@@ -48,6 +48,16 @@ mixin formOf(row)
           each k in row
             li!= k.replace(/\{-(.*?)\-}/g, '<a href="definition?q=$1">$1</a>')
 
+mixin Pos(row)
+  if row.length
+    dl.thesaurus.pos
+      dt
+        span ...Pos tmp ???
+      dd
+        ul
+          each k in row
+            li!= k.v.replace(/\{-(.*?)\-}/g, '<a href="definition?q=$1">$1</a>')
+
 mixin result(o)
   each row in o
     if Array.isArray(row.clue)

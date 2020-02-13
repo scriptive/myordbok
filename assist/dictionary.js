@@ -36,11 +36,11 @@ const formatLink = (str) => {
     var [name,e] = t.split(':');
     // NOTE: [also:creative]
     if (e) {
-      var links = e.split('/').map((word) => '{-*-}'.replace(/\*/g,word)).join('/');
+      var links = e.split('/').map((word) => '{-*-}'.replace(/\*/g,word)).join(', ');
       if (name == 'list'){
         return links;
       } else {
-        return '0: 1'.replace(0,name).replace(1,links);
+        return '0 1'.replace(0,name).replace(1,links);
       }
     } else {
       return s;
@@ -103,27 +103,27 @@ exports.translation = async function(keyword,lang=getLangDefault.id){
   return raw;
 }
 
-async function wordMeanJSON(word){
-  await getJSON(glossary.word,true);
-  await getJSON(glossary.sense,true);
-  await getJSON(glossary.usage,true);
+async function wordMeanJSON(word,_watchData){
+  await getJSON(glossary.word,_watchData);
+  await getJSON(glossary.sense,_watchData);
+  await getJSON(glossary.usage,_watchData);
 
   var raw = dataJSON.en.find(e=> hasWordMatch(word,e.v));
   if (raw){
-    var row = dataJSON.sense.filter(d=> d.w == raw.w).map(function(d){
+    return dataJSON.sense.filter(d=> d.w == raw.w).map(function(d){
       d.pos = app.Config.synset[d.t];
       var exam = dataJSON.usage.filter(m=> m.i == d.i).map(y=>formatUsage(y.v));
       d.exam = [].concat.apply([], exam);
       return (({ v, pos, exam }) => ({ v, pos, exam }))(d);
     });
-    return utility.arrays.group(row, 'pos',true);
+    // return utility.arrays.group(row, 'pos',true);
   }
   return null;
 }
 async function wordMeanMySQL(word){
   var raw = await app.sql.query("SELECT word AS w, tid AS pos, sense AS v,exam FROM ?? WHERE word LIKE ? ORDER BY tid, seq;",[table.senses,word]);
   if (raw.length){
-    var row = raw.map(function(d){
+    return raw.map(function(d){
       d.pos = app.Config.synset[d.pos];
       d.v = formatSense(d.v);
       if (d.exam) {
@@ -133,7 +133,7 @@ async function wordMeanMySQL(word){
       }
       return (({ v, pos, exam }) => ({ v, pos, exam }))(d);
     });
-    return utility.arrays.group(row, 'pos',true);
+    // return utility.arrays.group(row, 'pos',true);
   }
   return null;
 }
@@ -144,7 +144,7 @@ exports.definition = async function(word,_liveData){
     if (_liveData){
       return await wordMeanMySQL(word);
     } else {
-      return await wordMeanJSON(word);
+      return await wordMeanJSON(word,false);
     }
   } catch (error) {
     return null;
@@ -152,7 +152,10 @@ exports.definition = async function(word,_liveData){
 }
 
 exports.wordBase = async function(word){
-  var result = {};
+  var result = {
+    // root, pos, form
+    form:[]
+  };
   const synset = await getJSON(glossary.synset);
   const synmap = await getJSON(glossary.synmap);
 
@@ -160,14 +163,31 @@ exports.wordBase = async function(word){
     s => hasWordMatch(s.v,word) && s.t < 10 && synset.filter(e=>e.w == s.w).length
   );
 
-  result.root = result.pos.map(
+  var form = utility.arrays.group(result.pos, 't');
+  for (const id in form) {
+    if (form.hasOwnProperty(id)) {
+      var row = {};
+      row.pos = app.Config.synset[id];
+      row.v = form[id].map(
+        e => '~ {-*-} (?)'.replace('*',e.v).replace('?',app.Config.synmap.find(i=> i.id == e.d).name)
+      ).join('; ');
+      row.exam=[];
+      result.form.push(row)
+    }
+  }
+
+  result.root =  result.pos.map(
     e => synset.find(s=>s.w == e.w)
   ).map(e=>e.v).filter((v, i, a) => a.indexOf(v) === i);
   return result;
 }
 
 exports.wordPos = async function(word){
-  var result = {};
+  var result = {
+    // root, pos, form
+    form:[]
+  };
+
   const synset = await getJSON(glossary.synset);
   const synmap = await getJSON(glossary.synmap);
 
@@ -178,6 +198,19 @@ exports.wordPos = async function(word){
   result.pos = synmap.filter(
     m => m.d > 0 && root.filter(e=>e.w == m.w).length
   );
+
+  var form = utility.arrays.group(result.pos, 't');
+  for (const id in form) {
+    if (form.hasOwnProperty(id)) {
+      var row = {};
+      row.pos = app.Config.synset[id];
+      row.v = form[id].map(
+        e => '~ {-*-} (?)'.replace('*',e.v).replace('?',app.Config.synmap.find(i=> i.id == e.d).name)
+      ).join('; ');
+      row.exam=[];
+      result.form.push(row)
+    }
+  }
   result.root = root.map(e=>e.v).filter((v, i, a) => a.indexOf(v) === i);
   return result;
 }

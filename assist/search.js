@@ -146,27 +146,37 @@ async function hasDefinition(raw,wordNormal){
 }
 
 async function getDefinition(raw,wordNormal){
-  var formOf=null, status=false;
+  var formOf=null, status=false, testingPos =  [{v:'test',pos:'Adjective'}];
   if (raw.find(e=>e.word == wordNormal)) {
     // NOTE: clue for current word is already push!
     return status;
   }
   var wordSyns = await dictionary.wordPos(wordNormal);
   if (wordSyns.pos.length) {
-    formOf = wordSyns.pos.map(
-      e => '!:{-*-} (?)'.replace('*',e.v).replace('!',app.Config.synset[e.t]).replace('?',app.Config.synmap.find(i=> i.id == e.d).name)
-    );
+    // formOf = wordSyns.pos.map(
+    //   e => '!:{-*-} (?)'.replace('*',e.v).replace('!',app.Config.synset[e.t]).replace('?',app.Config.synmap.find(i=> i.id == e.d).name)
+    // );
+    // testingPos = wordSyns.pos.map(e=>{
+    //   e.pos=app.Config.synset[e.t];
+    //   e.d = app.Config.synmap.find(i=> i.id == e.d).name;
+    //   e.v='{-*-} ({-?-})'.replace('*',e.v).replace('?',e.d);
+    //   // return (({ v, pos }) => ({ v, pos }))(e);
+    //   return e;
+    // });
+
   } else {
     wordSyns = await dictionary.wordBase(wordNormal);
-    if (wordSyns.pos.length) {
-      formOf = wordSyns.pos.map(
-        e => '!, ?: {-*-}'.replace('*',e.v).replace('!',app.Config.synset[e.t]).replace('?',app.Config.synmap.find(i=> i.id == e.d).name)
-      );
-    }
+    // console.log(wordSyns)
+    // if (wordSyns.pos.length) {
+    //   formOf = wordSyns.pos.map(
+    //     e => '!, ?: {-*-}'.replace('*',e.v).replace('!',app.Config.synset[e.t]).replace('?',app.Config.synmap.find(i=> i.id == e.d).name)
+    //   );
+    // }
   }
 
+
   // var tsst = {meaning:null,formOf:formOf,notation:null};
-  var wordMeaning = await rowDefinition({meaning:null,formOf:formOf,notation:null},wordNormal);
+  var wordMeaning = await rowDefinition({Pos:wordSyns.form,meaning:null,formOf:formOf,notation:null},wordNormal);
 
   if (wordMeaning.meaning || wordMeaning.notation){
     // NOTE: found meaning directly on such as love,apple
@@ -211,7 +221,7 @@ async function getDefinition(raw,wordNormal){
     }
     // MIND: coloring material
     for (const word of wordSyns.root) {
-      var row = await rowDefinition({formOf:formOf,meaning:null,notation:null},word);
+      var row = await rowDefinition({Pos:wordSyns.form,formOf:formOf,meaning:null,notation:null},word);
       if (row.meaning || row.notation){
         status=true;
         if (hasMultiRoot){
@@ -258,7 +268,13 @@ async function rowDefinition(row,word){
   // var rowMeaning = await dictionary.definition(word,true);
   var rowMeaning = await dictionary.definition(word);
   if (rowMeaning){
-    row.meaning = rowMeaning;
+
+    if (row.Pos && row.Pos.length) {
+      rowMeaning = rowMeaning.concat(row.Pos);
+      // rowMeaning = row.Pos.concat(rowMeaning);
+      delete row.Pos;
+    }
+    row.meaning = utility.arrays.group(rowMeaning, 'pos',true);
   }
 
   if (utility.check.isNumeric(word)){
