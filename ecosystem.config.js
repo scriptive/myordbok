@@ -6,9 +6,9 @@ module.exports = {
       script: "./serve.js",
       // watch: true,
       // ignore_watch:["[\\/\\\\]\\./", "node_modules"],
-      // env: {
-      //   "NODE_ENV": "development",
-      // },
+      env: {
+        "NODE_ENV": "production",
+      },
       env_production : {
         "NODE_ENV": "production"
       },
