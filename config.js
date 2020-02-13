@@ -55,6 +55,7 @@ module.exports = {
       'Acronym','Article','Int'
     ],
     synmap:[
+      { id: 0, type: 0, name: "er/ly??"},
       { id: 1, type: 0, name: "Plural"},
       { id: 2, type: 1, name: "3rd Person"},
       { id: 3, type: 1, name: "Past Tense" },
