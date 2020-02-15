@@ -1,6 +1,5 @@
-var path = require('path'),
-    merge = require('webpack-merge'),
-    configuration = require('./webpack.config.js');
+const merge = require('webpack-merge');
+const configuration = require('./webpack.config.js');
 
 module.exports = merge(configuration, {
   mode: 'development',
@@ -11,7 +10,7 @@ module.exports = merge(configuration, {
   },
   entry: {},
   output: {
-    filename: '[name].bundle.js',
+    filename: '[name].bundle.js'
   },
   plugins: [
   ],

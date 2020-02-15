@@ -1,10 +1,13 @@
 const path = require('path');
-
 module.exports = {
   mode: 'development',
   devtool: 'inline-source-map',
   entry: {
-    script: path.resolve(__dirname, 'assets/webpack/index.js')
+    // script: path.resolve(__dirname, 'assets/webpack/index.js')
+    script:[
+      path.resolve(__dirname, 'assets/webpack/index.js'),
+      // path.resolve(__dirname, 'assets/script/analytics.js')
+    ]
   },
   output: {
     path: path.resolve(__dirname, 'static'),
@@ -23,12 +26,7 @@ module.exports = {
       },
       {
         test: /\.js$/,
-        // exclude: /analytics\.js$/,
         exclude: /(node_modules|bower_components)/,
-        // exclude: [
-        //   /(node_modules|bower_components)/,
-        //   /analytics\.js$/,
-        // ],
         loader: "babel-loader",
         options: {
           presets: []
@@ -43,14 +41,6 @@ module.exports = {
           "sass-loader"
         ]
       },
-      // {
-      //   test: /Myanmar3.*$/,
-      //   // loader: 'file-loader',
-      //   loader: 'file-loader?name=[name].[ext]',
-      //   // query: {
-      //   //   name: '[name].[ext]'
-      //   // }
-      // },
       // {
       //   test: /\.png$/,
       //   // NOTE: file-loader?name=[name].[ext] retain original file name
