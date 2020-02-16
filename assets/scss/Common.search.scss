@@ -7,13 +7,16 @@ form[name=search]{
   background-color: #fff;
   // @include box-shadow(0px, 0px, 1px, 1px, darken(#ccc,10%));
   @include box-shadow(0px, 0px, 0px, 1px, darken(#ccc,5%));
+  // border-radius: 50px;
   >p{
     display:table-cell;vertical-align:middle;
     height:100%;
+    // overflow: hidden;
     input,button{
       display: block;
       outline: none;border: 0px;
       font-size: 16px; height:34px; line-height: 34px;
+      background-color: transparent;
       &[type=search]{
         font-weight: normal;
         width: 98%; margin: 0 auto; padding-left:3px;
@@ -47,7 +50,7 @@ form[name=search]{
         font-size: 20px;
         text-shadow: #666 0px 1px 1px;
         color: $ColorMain;
-        background-color: #fff;
+        // background-color: #fff;
         font-family: "myordbok";
         text-shadow: #ccc 1px 1px 1px;
         width: 50px;

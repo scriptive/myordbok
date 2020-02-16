@@ -77,7 +77,8 @@ ol{
       >li{
         border-bottom:1px solid $ColorMain;
         >a{
-          border-left:1px solid #d6d4d4; font-weight: bold;
+          border-left:1px solid #d6d4d4;
+          font-weight: 500;
         }
         &:first-child{
           >a{

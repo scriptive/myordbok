@@ -1,11 +1,11 @@
 @charset "charset";
 @import 'Config';
-@import 'font.Face';
+// @import 'font.Face';
 html{
-  padding:0;margin:0;
+  // padding:0;margin:0;
   -ms-touch-action: manipulation; touch-action: manipulation;
-  &.landscape{}
-  &.portrait{}
+  // &.landscape{}
+  // &.portrait{}
 }
 // COMMON
 // .cursor-hand{cursor:pointer;}
@@ -38,7 +38,11 @@ form{
 textarea{}
 button{}
 body {
-  @extend html; font-family:$Font; color:$Color;font-size:$FontSize; background-color: $ColorBackground;
+  @extend html;
+  font-family:$Font;
+  color:$Color;
+  font-size:$FontSize;
+  // background-color: $ColorBackground;
   &#home{
     // background-image: url("/src/img/bg/noise.png");
     // background-size: contain;
@@ -51,9 +55,9 @@ body {
     @import 'Portal.editor';
   }
   // TODO: remove
-  h1{
-    color:blue;
-  }
+  // h1{
+  //   color:blue;
+  // }
 }
 div.portal {
   // NOTE: Common

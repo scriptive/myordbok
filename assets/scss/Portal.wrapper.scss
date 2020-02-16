@@ -55,6 +55,15 @@
             text-shadow: 1px 1px 1px #666;
           }
         }
+        strong{
+          color: $ColorMain;
+        }
+        em{
+          // color:$ColorRed;
+          color: lighten($Color, 32%);
+          font-style: normal;
+          font-size: 90%;
+        }
         &.dictionaries {
           >ol {
             // background-color: lighten($ColorMain,30%);
