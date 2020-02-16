@@ -1,15 +1,45 @@
 // var zolai='zolai',zozum='zozum',cur='cur',act='act',btn='btn';
+// const click=('ontouchstart' in doc.documentElement)? 'touchend' : 'click';
 export const doc = document,
-click=('ontouchstart' in doc.documentElement)? 'touchend' : 'click',
+config = {
+	// api,
+	// tagsss:{
+	// 	// f:'<form>',p:'<p>',i:'<input>',l:'<label>',t:'<textarea>',d:'<div>',u:'<ul>',o:'<ol>',li:'<li>',a:'<a>',s:'<span>',e:'<em>',strong:'<strong>',bold:'<b>',img:'<img>',h4:'<h4>'
+  //   form:'<form>',input:'<input>',label:'<label>',textarea:'<textarea>',
+  //   div:'<div>',p:'<p>',
+  //   ul:'<ul>',ol:'<ol>',li:'<li>',
+  //   a:'<a>',
+  //   span:'<span>',em:'<em>',strong:'<strong>',bold:'<b>',
+  //   img:'<img>',
+  //   h1:'<h1>',
+  //   h2:'<h2>',
+  //   h3:'<h3>',
+  //   h4:'<h4>',
+  //   h5:'<h5>'
+  // },
+  // ids  0      1       2         3       4    5   6    7    8    9    10    11     12    13   14    15   16   17   18   19
+  // tag:['form','input','label','textarea','div','p','ul','ol','li','a','span','em','strong','b','img','h1','h2','h3','h4','h5'],
+  // ids   0        1         2           3         4      5     6       7     8      9      10      11       12      13     14      15     16     17     18    19
+  tag:['<form>','<input>','<label>','<textarea>','<div>','<p>','<ul>','<ol>','<li>','<a>','<span>','<em>','<strong>','<b>','<img>','<h1>','<h2>','<h3>','<h4>','<h5>'],
+	// data:{
+	// 	fn:'form[name="*"]',in:'input[name="*"]',mn:'meta[name="*"]',c:'.*',i:'#*',t:'<*>'
+	// },
+	name:{
+    // form:'form[name="*"]',input:'input[name="*"]',button:'button[name="*"]',meta:'meta[name="*"]',
+    tag:'<*>',class:'.',id:'#'
+	}
+},
 root = {
+	Click:('ontouchstart' in doc.documentElement)?'touchend':'click',
+	// Click,Class,Element
 	check:function(e){
 		return typeof e != 'undefined'?e:'';
 	},
 	form:function(e){
-		return config.name.form.replace('*',e);
+		return 'form[name="*"]'.replace('*',e);
 	},
 	input:function(e){
-		return config.name.input.replace('*',e);
+		return 'input[name="*"]'.replace('*',e);
 	},
 	char:function(e){
 		return $.map(e,function(v){return($.isNumeric(v))?String.fromCharCode(v):v;}).join('');
@@ -24,29 +54,18 @@ root = {
 		}).join('/').replace('/?','?');
 	},
 	trim:function(e){
-		var m=/[^a-zA-Z0-9 ]/g; if(e.match(m)){e=e.replace(m,'')};return e.replace(/ /g,'');
-	},
-	Click:click
-	// Click,Class,Element
-},
-config = {
-	// api,
-	tag:{
-		f:'<form>',p:'<p>',i:'<input>',l:'<label>',t:'<textarea>',d:'<div>',u:'<ul>',o:'<ol>',li:'<li>',a:'<a>',s:'<span>',e:'<em>',strong:'<strong>',bold:'<b>',img:'<img>',h4:'<h4>'
-	},
-	// data:{
-	// 	fn:'form[name="*"]',in:'input[name="*"]',mn:'meta[name="*"]',c:'.*',i:'#*',t:'<*>'
-	// },
-	name:{
-		form:'form[name="*"]',input:'input[name="*"]',button:'button[name="*"]',meta:'meta[name="*"]',tag:'<*>',class:'.',id:'#'
+    var m=/[^a-zA-Z0-9]/g;
+    if(e.match(m)){e=e.replace(m,'')};
+    return e.replace(/ /g,'');
 	}
 },
+
 utilities={
 	link:function(e){
 		$.each(e,function(k,v){config[v]=$('link[rel="*"]'.replace('*',v)).attr('href');});
 	},
 	meta:function(e){
-		$.each(e,function(k,v){config[v]=$(config.name.meta.replace('*',v)).attr('content');});
+		$.each(e,function(k,v){config[v]=$('meta[name="*"]'.replace('*',v)).attr('content');});
 	},
 	store:{
 		s:function(e,v,d){

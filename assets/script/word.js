@@ -10,25 +10,26 @@ export default {
   },
 
   form:function(word){
-    return $('<form>',{method:'POST'}).append(
-      $('<div>').append(
-        $('<input>',{type:'text',name:'word',value:word})
+   var tN = config.tag;
+    return $(tN[0],{method:'POST'}).append(
+      $(tN[4]).append(
+        $(tN[1],{type:'text',name:'word',value:word})
       ),
-      $('<div>').append(
-        $('<span>').html('Meaning'),
-        $('<textarea>',{name:'sense'})
+      $(tN[4]).append(
+        $(tN[10]).html('Meaning'),
+        $(tN[3],{name:'sense'})
       ),
-      $('<div>').append(
-        $('<span>').html('Example'),
-        $('<textarea>',{name:'exam'})
+      $(tN[4]).append(
+        $(tN[10]).html('Example'),
+        $(tN[3],{name:'exam'})
       ),
-      $('<p>').html(''),
-      $('<div>',{class:'submit'}).append(
-        $('<input>',{type:'submit',name:'submit',value:'Post'}),
-        $('<input>',{type:'reset',value:'Reset'})
+      $(tN[5]).html(''),
+      $(tN[4],{class:'submit'}).append(
+        $(tN[1],{type:'submit',name:'submit',value:'Post'}),
+        $(tN[1],{type:'reset',value:'Reset'})
       )
-      // $('<div>',{class:'cancel'}).append(
-      //   $('<input>',{type:'reset',value:'Cancel'})
+      // $(tN[4],{class:'cancel'}).append(
+      //   $(tN[1],{type:'reset',value:'Cancel'})
       // ),
     ).on('submit',this.submit);
   },
@@ -44,7 +45,7 @@ export default {
     // form.children('div').hide();
 
 
-    var jqxhr = $.post(root.url([config.api,'post']),utilities.serializeObject($(this)), function() {
+    $.post(root.url([config.api,'post']),utilities.serializeObject($(this)), function() {
       // console.log( "success" );
     }).done(function(response) {
       msgContainer.html(response.msg).addClass(response.status);

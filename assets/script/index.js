@@ -3,14 +3,14 @@
  */
 // require('./analytics.js');
 (function($){
-	$.fn.MyOrdbok=function(is){
-		const {root,doc,utilities} = require('./root.Config');
+  const {root,doc,utilities} = require('./root.Config');
+  $.fn.MyOrdbok=function(is){
 		utilities.link(['api']);
 		let app={
 			suggest:require('./suggest').default,
 			toggle:require('./toggle').default,
-			word:require('./word.js').default,
-			admin:require('./admin.js').default,
+			word:require('./word').default,
+			// admin:require('./admin.js').default,
 			speech:require('./speech').default,
 	    zA:function(){
 				$(doc).on(root.Click,'.zA', function(event){
@@ -37,7 +37,7 @@
     $.each(is,(i,x)=>appInitiate(x.split(' ')));
   };
   $(function(){
-    $(document).MyOrdbok(['suggest ready','toggle menu','zA','zO']);
+    $(doc).MyOrdbok(['suggest ready','toggle menu','zA','zO']);
   });
 })(jQuery);
 
