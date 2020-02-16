@@ -8,51 +8,50 @@ mixin wordlink(q)
 
 mixin meaning(row)
   each define,grammar in row
-    dl(class=grammar.toLowerCase())
-      dt
-        span= grammar
-      dd
+    div.pos(class=grammar.toLowerCase())
+      h2= grammar
+      div
         each mean,ty in define
-          p!= mean.v.replace(/\{-(.*?)\-}/g, '<a href="definition?q=$1">$1</a>')
+          p!= mean.v.replace(/\((.*?)\)/g, '<em>$1</em>').replace(/\{-(.*?)\-}/g, '<a href="definition?q=$1">$1</a>').replace(/\[(.*?)\]/g, '<b>$1</b>')
           if mean.exam
             ul.eg
               each eg in mean.exam
-                li!= eg.replace(/\{-(.*?)\-}/g, '<a href="definition?q=$1">$1</a>')
+                li!= eg.replace(/\((.*?)\)/g, '<em>$1</em>').replace(/\{-(.*?)\-}/g, '<a href="definition?q=$1">$1</a>')
 
 mixin notation(row)
-  dl.number.a1
-    dt
-      span= row.number
-    dd
-      ul
-        each k in row.notation
-          li= k.sense
+  div.notation
+    h2= row.number
+    div
+      each k in row.notation
+        p= k.sense
+          if row.alpha
+            each num in row.alpha
+              +wordlink(num)
 
 mixin thesaurus(row)
   if row.length
-    dl.thesaurus.synonym
-      dt
-        span Thesaurus
-      dd
-        p
+    div.thesaurus.synonym
+      h3 Thesaurus
+      //- dt
+      div
+        ol.tmp1
           each word in row
-            +wordlink(word)
+            li
+              +wordlink(word)
 
 mixin formOf(row)
   if row.length
-    dl.thesaurus.formOf
-      dt
-        span ...form Of
-      dd
-        ul
-          each k in row
-            li!= k.replace(/\{-(.*?)\-}/g, '<a href="definition?q=$1">$1</a>')
+    div.thesaurus.formOf
+      h3 ...form Of
+      div
+        each k in row
+          p!= k.replace(/\{-(.*?)\-}/g, '<a href="definition?q=$1">$1</a>')
 
 mixin Pos(row)
   if row.length
     dl.thesaurus.pos
       dt
-        span ...Pos tmp ???
+        h3 ...Pos tmp ???
       dd
         ul
           each k in row
@@ -66,19 +65,17 @@ mixin result(o)
       +definition(row)
 
 mixin translation(row, w)
-  dl.definition.sentence
-    dt
-      p= row.word
-        span.speech(class=lang.tar).zA.icon-sound
-    dd
+  div.translation(data-lang=lang.tar)
+    p= row.word
+      span.speech(class=lang.tar).zA.icon-volume-up
+    div
       each e in row.clue
         +definition(e)
 
 mixin definition(raw)
-  dl.definition.word
-    dt
-      p= raw.word
-        span.speech.en.zA.icon-volume-up
-    dd
+  div.definition(data-lang=lang.src)
+    h1= raw.word
+      span.speech.en.zA.icon-volume-up
+    div.meaning
       each row, name in raw.clue
         +#{name}(row)
