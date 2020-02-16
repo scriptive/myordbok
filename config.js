@@ -72,7 +72,8 @@ module.exports = {
       sense:'sense.json',
       usage:'usage.json',
       synset:'synset.json', // words
-      synmap:'synmap.json' //derives
+      synmap:'synmap.json', //derives
+      zero:'zero.0.csv' //no result
     }
   }
 };

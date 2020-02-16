@@ -12,6 +12,7 @@ glossary.sense = path.join(app.Config.media,'glossary',glossary.sense);
 glossary.usage = path.join(app.Config.media,'glossary',glossary.usage);
 glossary.synset = path.join(app.Config.media,'glossary',glossary.synset);
 glossary.synmap = path.join(app.Config.media,'glossary',glossary.synmap);
+glossary.zero = path.join(app.Config.media,'glossary',glossary.zero);
 
 // getJSON,  writeJSON, readJSON watchJSON  dataJSON,
 const dataJSON={};
@@ -101,6 +102,46 @@ exports.translation = async function(keyword,lang=getLangDefault.id){
     }
   });
   return raw;
+}
+
+// NOTE: save
+exports.save = async function(keyword,lang){
+  var file = glossary.zero.replace('0',lang).replace(/(csv)$/,'tmp.$1');
+  var addWord = true;
+  keyword = keyword.replace(/\W/g, '').toLowerCase();
+  function setLine(){
+    var createStream = fs.createWriteStream(file,{flags:'a',encoding:'utf8'});
+    createStream.write(keyword);
+    createStream.write('\n');
+    createStream.end();
+    // fs.open(file, 'a', 666, function( e, id ) {
+    //   fs.write(id, keyword + "\n", null, 'utf8', function(){
+    //     fs.close(id);
+    //   });
+    // });
+  }
+  function getLine(){
+    return require('readline').createInterface({
+      input: fs.createReadStream(file)
+    });
+  }
+
+  fs.access(file, (e) => {
+    if (e) {
+      setLine();
+    } else {
+      var reader = getLine();
+      reader.on('line', (word) => {
+        if (word == keyword){
+          addWord = false;
+          reader.close();
+          reader.removeAllListeners();
+        }
+      }).on('close', () => {
+        if (addWord) setLine();
+      });
+    }
+  });
 }
 
 async function wordMeanJSON(word,_watchData){
@@ -251,7 +292,7 @@ exports.exportDefinition = async function(){
   await app.sql.query('SELECT wid AS w, word AS v FROM ?? GROUP BY wid ORDER BY word ASC;',[table.senses]).then(
     async raw=>{
       await writeJSON(glossary.word,raw);
-      console.log('word',raw.length)
+      console.log('en(word):',raw.length)
     }
   ).catch(
     e=>console.error(e)
@@ -259,7 +300,7 @@ exports.exportDefinition = async function(){
   await app.sql.query('SELECT id AS i, wid AS w, tid AS t, sense AS v FROM ?? WHERE sense IS NOT NULL',[table.senses]).then(
     async raw=>{
       await writeJSON(glossary.sense,raw);
-      console.log('sense',raw.length)
+      console.log('sense:',raw.length)
     }
   ).catch(
     e=>console.error(e)
@@ -267,7 +308,7 @@ exports.exportDefinition = async function(){
   await app.sql.query("SELECT id AS i, exam AS v FROM ?? WHERE exam IS NOT NULL AND exam <> '';",[table.senses]).then(
     async raw=>{
       await writeJSON(glossary.usage,raw);
-      console.log('example',raw.length)
+      console.log('usage:',raw.length)
     }
   ).catch(
     e=>console.error(e)

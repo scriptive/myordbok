@@ -17,20 +17,16 @@ const setting={
     tar:'en', src:dictionary.getLangDefault.id
   },
   type:[
-    "notfound", "pleaseenter", "translation", "definition" //"numeric", "math", "sentence", "roman",
-  ],
-  formPlural:'{-0-} is plural form of {-1-}???',
-  formSingular:'{-0-} is singular form of {-1-}???'
+    "notfound", "pleaseenter", "result", "definition", "translation"
+  ]
 };
 var result={};
-// var registry={};
 var param={query:{q:''},cookies:{solId:''},originalUrl:''};
 
 module.exports = async function(e){
   result={
     meta:{
-      q:'', type:setting.type[0]
-      // sentence:false, translate:false
+      q:'', type:setting.type[0],name:null
     },
     lang:{
       tar:setting.lang.tar, src:setting.lang.src
@@ -74,7 +70,7 @@ module.exports = async function(e){
           };
           for (const word of row.e) {
             if (await hasDefinition(raw.clue,word)){
-              setPageProperty(2);
+              setPageProperty(4);
             }
           }
           result.data.push(raw)
@@ -95,13 +91,13 @@ module.exports = async function(e){
                 };
                 for (const word of row.e) {
                   if (await hasDefinition(raw.clue,word)){
-                    setPageProperty(2);
+                    setPageProperty(4);
                   }
                 }
                 result.data.push(raw)
               }
             } else if (await hasDefinition(result.data,word)) {
-              setPageProperty(2);
+              setPageProperty(4);
             }
           }
         } else if (await hasDefinition(result.data,keyword)){
@@ -114,11 +110,21 @@ module.exports = async function(e){
     // NOTE: pleaseenter
     setPageProperty(1);
   }
+
   return result;
 };
 
 function setPageProperty(id){
-  if(id && result.meta.type == setting.type[0]) result.meta.type=setting.type[id];
+  if(result.meta.type == setting.type[0]) {
+    if (setting.type[id]){
+      result.meta.type=setting.type[id];
+      if (id > 2) {
+        // NOTE: pug requested
+        result.meta.type=setting.type[2];
+        result.meta.name=setting.type[id];
+      }
+    }
+  }
 }
 
 async function hasDefinition(raw,wordNormal){
@@ -130,53 +136,40 @@ async function hasDefinition(raw,wordNormal){
   } else {
     // NOTE: is_sentence
     // EXAM: NO -> Administratortilgang
-    var words = utility.word.explode(wordNormal);
-    if (words.length > 1) {
-      // Note: sentence
-      for (const word of utility.arrays.unique(words)) {
+    var words = wordNormal.match(/[a-zA-Z]+|[0-9]+(?:\.[0-9]+|)/g);
+    // console.log(words)
+    if (words && words.length) {
+      // EXAM: wind[2] good!
+      // EXAM: 1900th 10times
+      // NOTE: sentence
+      // superscripts 1st, 2nd, 3rd, 4th ??
+      for (const word of words.filter(e=> e && e != wordNormal)) {
         if (await getDefinition(raw,word)){
           // NOTE: has meaning
           status=true;
         }
       }
+    } else {
+      // NOTE: save on single word based on language
+      dictionary.save(wordNormal,result.lang.tar);
+      // if (result.lang.tar == result.lang.src)
     }
-
   }
   return status;
 }
 
 async function getDefinition(raw,wordNormal){
-  var formOf=null, status=false, testingPos =  [{v:'test',pos:'Adjective'}];
+  var status=false;
   if (raw.find(e=>e.word == wordNormal)) {
     // NOTE: clue for current word is already push!
     return status;
   }
   var wordSyns = await dictionary.wordPos(wordNormal);
-  if (wordSyns.pos.length) {
-    // formOf = wordSyns.pos.map(
-    //   e => '!:{-*-} (?)'.replace('*',e.v).replace('!',app.Config.synset[e.t]).replace('?',app.Config.synmap.find(i=> i.id == e.d).name)
-    // );
-    // testingPos = wordSyns.pos.map(e=>{
-    //   e.pos=app.Config.synset[e.t];
-    //   e.d = app.Config.synmap.find(i=> i.id == e.d).name;
-    //   e.v='{-*-} ({-?-})'.replace('*',e.v).replace('?',e.d);
-    //   // return (({ v, pos }) => ({ v, pos }))(e);
-    //   return e;
-    // });
-
-  } else {
+  if (!wordSyns.pos.length) {
     wordSyns = await dictionary.wordBase(wordNormal);
-    // console.log(wordSyns)
-    // if (wordSyns.pos.length) {
-    //   formOf = wordSyns.pos.map(
-    //     e => '!, ?: {-*-}'.replace('*',e.v).replace('!',app.Config.synset[e.t]).replace('?',app.Config.synmap.find(i=> i.id == e.d).name)
-    //   );
-    // }
   }
 
-
-  // var tsst = {meaning:null,formOf:formOf,notation:null};
-  var wordMeaning = await rowDefinition({Pos:wordSyns.form,meaning:null,formOf:formOf,notation:null},wordNormal);
+  var wordMeaning = await rowDefinition({Pos:wordSyns.form,meaning:null,notation:null},wordNormal);
 
   if (wordMeaning.meaning || wordMeaning.notation){
     // NOTE: found meaning directly on such as love,apple
@@ -221,10 +214,11 @@ async function getDefinition(raw,wordNormal){
     }
     // MIND: coloring material
     for (const word of wordSyns.root) {
-      var row = await rowDefinition({Pos:wordSyns.form,formOf:formOf,meaning:null,notation:null},word);
+      var row = await rowDefinition({Pos:wordSyns.form,meaning:null,notation:null},word);
       if (row.meaning || row.notation){
         status=true;
         if (hasMultiRoot){
+          // TODO: avoid delete
           delete row.formOf;
         }
         raw.push({
@@ -246,10 +240,8 @@ async function getDefinition(raw,wordNormal){
     // NOTE: britains -> britain
     var wordSingular = pluralize.singular(wordNormal);
     if (pluralize.isPlural(wordNormal) && wordSingular != wordNormal) {
-      // console.log(wordSingular,wordNormal)
       var row = await rowDefinition({},wordSingular);
       if (row.meaning || row.notation){
-        // formOf = '{-*-} as in ?'.replace('*',wordNormal).replace('?',app.Config.synmap.find(i=> i.id == 1).name);
         raw.push({
           word: wordSingular,
           type:5,
@@ -272,12 +264,12 @@ async function rowDefinition(row,word){
     if (row.Pos && row.Pos.length) {
       rowMeaning = rowMeaning.concat(row.Pos);
       // rowMeaning = row.Pos.concat(rowMeaning);
-      delete row.Pos;
+      row.Pos=null;
     }
     row.meaning = utility.arrays.group(rowMeaning, 'pos',true);
   }
-
   if (utility.check.isNumeric(word)){
+    // EXAM: 10 50
     var rowNotation = notation.get(word);
     if (rowNotation.number) row.notation = rowNotation;
   }
