@@ -23,11 +23,11 @@ block content
             ol.dictionary
               each conti in dictionaries
                 li(class=conti.name.toLowerCase() class={active: conti.lang.find(e=>e.id == sol.id)})
-                  h3 #{conti.name}
+                  h3 #{conti.my}
                   ol
                     each lang in conti.lang
                       li(class=lang.id class={active: lang.id == sol.id})
-                        a(data-lag=lang.id href='/dictionary/'+lang.name.toLowerCase()) #{lang.name}
+                        a(data-lag=lang.id href='/dictionary/'+lang.name.toLowerCase() title=lang.name) #{lang.my}
 
         div.row
           div.data.social.text-center
@@ -35,9 +35,9 @@ block content
               span +MyOrdbok dictionary
             a.icon-google-circles(title="share on Google+")
               span ...share on Google+
-            a.icon-facebook(href="http://www.facebook.com/sharer.php?u=//www.myordbok.com" target="_blank")
+            a.icon-facebook(href="http://www.facebook.com/sharer.php?u=https://www.myordbok.com" target="_blank")
               span ...share on Facebook
-            a.icon-twitter(href="http://twitter.com/share?url=//www.myordbok.com&amp;text=online Myanmar dictionary&amp;hashtags=MyOrdbok" target="_blank" )
+            a.icon-twitter(href="http://twitter.com/share?url=https://www.myordbok.com&amp;text=online Myanmar dictionary&amp;hashtags=MyOrdbok" target="_blank" )
               span ...share on Twitter
 
         div.row
@@ -70,7 +70,13 @@ block content
           div.data
             p
               | အချက်အလက်များထည့်သွင်းနေဆဲဖြစ်ပါသဖြင့်အမှားအယှင်းများတွေ့ရှိပါက အကြောင်းကြားပေးရန်နှင့် ရည်ရွယ်ချက်များနှင့်ကိုက်ညီသည့် သင့်ထင်မြင်ချက်အသစ်များ
-              | (သို့) ရည်ရွယ်ချက်များနှင့်မကိုက်ညီသည့် လုပ်ဆောင်မှုများကို အသိပေးအကြောင်းကြားပေးရန် ဖိတ်ခေါ်လိုပါသည်။
+              | (သို့) ရည်ရွယ်ချက်များနှင့်မကိုက်ညီသည့် လုပ်ဆောင်မှုများကို အသိပေးအကြောင်းကြားရန်
+              |
+              a(href="https://docs.google.com/forms/d/e/1FAIpQLScSyBRtQrEc1YGh3m0O96vy6YNlCtJZR5T6NIJ9hYJRfcnV2g/viewform" title="Feedback") Google form
+              | မှတစ်ဆင့် ဖိတ်ခေါ်လိုပါသည်။
+              |
+              a(href="https://docs.google.com/forms/d/e/1FAIpQLSceWwVrtH5KivCR3wuvKqMn8U238-aCxOJIIWs1gK4pt994oA/viewform" title="Suggestion") ဝေါဟာရနှင့် အနက်
+              | များကိုလည်း အကြံပေးနိုင်ပါသည်။
 
         div.row
           div.header
@@ -106,6 +112,7 @@ block content
           div.data
             p အဘိဓါန်ကိုအဓိကထားပြီး အနက်အဓိပ္ပာယ်များကို နေ့စဉ်နှင့်အမျှရှာဖွေစုဆောင်းနေပါသည်။
             p ငွေကြေးထောက်ပံ့မှုနှင့်ပတ်သက်သည့် အလှူဒါနများကို #[strong=appName] တိုးတက်ဖွံ့ဖြိုးမှု အရေး၌သာ အသုံးပြုသွားမည်ဖြစ်ပါသည်။
+            p သဒ္ဒါကို မြန်မာသဒ္ဒါ အတွဲ (၁) နှင့် (၂) မှ တိုက်ရိုက်ကူးယူထားခြင်းဖြစ်သော်လည်း သာဓကအချို့နှင့် လေ့ကျင့်ခန်းများ ချန်ထားပါသည်။
 
 
 block footer
