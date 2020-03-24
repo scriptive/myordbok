@@ -19,6 +19,8 @@ exports.export_word = async () => await dictionary.exportWord();
 exports.export_translation = async (e) => await dictionary.exportTranslation(e);
 // en sense usage
 exports.export_definition = async () => await dictionary.exportDefinition();
+// myanmar grammar
+exports.export_grammar = async () => await require('./grammar').exportGrammar();
 
 
 // node run suggestion "l"

@@ -19,12 +19,14 @@ exports.getLangById = (e) => dictionary.getLangById(e);
 exports.getLangList = () => dictionary.getLangList;
 exports.getLangCount = () => dictionary.getLangCount;
 exports.getGrammar = async () => dictionary.getGrammar();
+exports.getInfo = dictionary.getInfo;
 
 // NOTE: visits
 exports.visits = require('./visits');
 
 // NOTE: grammar
-exports.grammar = require('./grammar');
+exports.grammarMain = require('./grammar').main;
+exports.grammarPos = require('./grammar').pos;
 // NOTE: speech
 exports.speech = require('./speech');
 
