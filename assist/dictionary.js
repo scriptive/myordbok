@@ -85,7 +85,8 @@ exports.getLangCount = dictionaries.map(continental => continental.lang.length).
 // exports.getLangCount = Object.keys(dictionaries_delete).map(continental => Object.keys(dictionaries_delete[continental]).length).reduce((a, b) => a + b,0);)
 
 // exports.word = (keyword) => dataJSON.en.filter(e=>e.v.toLowerCase().startsWith(keyword.toLowerCase())).map(e=>e.v).slice(0,10);
-exports.word = (q,l=getLangDefault.id) => getJSON(getWordFile(l)).then(e=>e.filter(e=>e.v.toLowerCase().startsWith(q.toLowerCase())).map(e=>e.v).slice(0,10)).catch(()=>[]);
+// exports.word = (q,l=getLangDefault.id) => getJSON(getWordFile(l)).then(e=>e.filter(e=>e.v.toLowerCase().startsWith(q.toLowerCase())).map(e=>e.v).slice(0,10)).catch(()=>[]);
+exports.word = (q,l=getLangDefault.id) => [q,'testing'];
 exports.wordFind = (q,l=getLangDefault.id) => getJSON(getWordFile(l)).then(e=>e.find(e=>e.v.toLowerCase() == q.toLowerCase())).catch(()=>'');
 
 exports.getGrammar = () => app.Config.synset.map((v,index) => ({id:index,name:v}));
