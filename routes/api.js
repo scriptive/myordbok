@@ -22,7 +22,8 @@ routes.get('/', (req, res, next) => {
 // });
 
 routes.get('/suggestion', (req, res) => {
-  assist.suggestion(req.query.q,req.cookies.solId).then(
+  // req.cookies.solId
+  assist.suggestion(req.query.q,res.locals.sol.id).then(
     raw=> res.send(raw)
   ).catch(
     ()=>res.status(404).end()
