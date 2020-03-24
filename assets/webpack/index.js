@@ -5,6 +5,7 @@ import '../img/android-chrome-192x192.png';
 import '../img/android-chrome-512x512.png';
 import '../img/favicon-32x32.png';
 import '../img/favicon-16x16.png';
+import '../img/screenshot-home.png';
 import '../img/app.webmanifest';
 
 // NOTE: icons && loader animation
