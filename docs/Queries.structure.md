@@ -20,13 +20,20 @@ wo, me, ex, se
 [asin:Mathematics]
 [asin:Grammar]
 
+### asin
+
+[~:Grammar]
+[~:British]
+[~:American]
+
+### joiner (with,see,also)
+
 unrespectability [see:un-/respectability] ၏ (အငြင်းရှေ့ဆက်)
 nonopening [see:non-/opening] ၏ (ပဋိသေဓ အနက်ပြ ရှေ့ဆက်)
 whiteness [see:white/-ness] ၏ (နာမ်ပြောင်း နောက်ဆက်)။
 ([with:adjective/adverb/noun/verb]) (ပဋိသေဓဖြစ်ကြောင်း ပြသော ရှေ့ဆက်)။ မ …။
 
 [~:abjurer]
-
 
 ## Create
 
