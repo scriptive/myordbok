@@ -1,13 +1,19 @@
 @charset "utf-8";
 // $Font: Arial, 'Myanmar3', Helvetica, sans-serif;
-// $Font: 'Roboto', 'Lato', sans-serif;
-$Font: 'Roboto', sans-serif;
+$Font: 'Roboto', 'Lato', sans-serif;
+// $Font: 'Roboto', sans-serif;
+// $Font: mm3web, "Myanmar Text", Myanmar3, TharLon, "Noto Sans Myanmar", "Masterpiece Uni Sans", Parabaik, Yunghkio, Thanlwin, "Win Uni Innwa", Padauk,  "WinUni Innwa", Myanmar2;
 $FontSize: 100%;//11pt
 $Color: #333;
 // $Color: #000;
 $ColorBackground:#fff;//#F8F8F8;
 $ColorMain:#318ED7;
 $ColorSecond:#7A7A7A;
+
+$ColorLinkStandard:#0000EE;
+$ColorLinkVisited:#551A8B;
+$ColorLinkActive:#EE0000;
+
 $ColorRed:#d34836;
 $WidthMobile:500px;
 $WidthTablet:820px;
@@ -17,7 +23,8 @@ $ColorGooglePlus:#d34836;
 $ColorTwitter:#3b5998;
 $ColorFacebook:#0084b4;
 
-$media-mobile: "(min-width:150px) and (max-width:641px)";
+$media-mobile: "(max-width:641px)";
+// $media-mobile: "(min-width:150px) and (max-width:641px)";
 $media-tablet: "(min-width:641px) and (max-width:961px)";
 $media-desktop: "(min-width:961px)";
 

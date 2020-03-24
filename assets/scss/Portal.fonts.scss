@@ -41,11 +41,19 @@
           li {
             display:block; margin:5px 0; color: #666666;
             a{
-              display: table; color: #039;
+              // display: block;
+              display: table;
+              color: #039;
               margin: 0 auto;
-              font-size: 90%;
+              font-size: 1em;
+              line-height: 1em;
+
               span,em{
-                display:table-cell;  white-space: nowrap; text-overflow: ellipsis; overflow: hidden;
+                display:table-cell;
+                // display: inline-block;
+                white-space: nowrap; text-overflow: ellipsis; overflow: hidden;
+                vertical-align: middle;
+                padding:2px 7px;
               }
               span{
                 padding-right: 4px;
@@ -54,8 +62,13 @@
                 }
               }
               em {
-                font-size: 75%;font-style: normal;
-                min-width:30px; padding:2px 7px; border-radius:20px; color: #FFF; text-shadow: #666 0px 0px 1px; background-color: $ColorMain;
+                // display: inline-block;
+                font-size: 0.7em;
+                font-style: normal;
+                // line-height: 2em;
+                // height: 10px;
+                min-width:30px;  border-radius:50px; color: #FFF; text-shadow: #666 0px 0px 1px; background-color: $ColorMain;
+                // padding:2px 7px 0px 7px;
               }
               &:hover em{ background-color: #74AEDE; }
               &.not {
@@ -116,7 +129,8 @@
           background-color:lighten(#ccc,17%);
           // background-color: #f9f9f9;
           position: relative;
-          border-radius: 2px;  line-height: 19px;box-shadow:inset 0px 0px 1px 1px #ccc;
+          border-radius: 2px;  box-shadow:inset 0px 0px 1px 1px #ccc;
+          // line-height: 19px;
           a{
             display: inline-block;
             &.dt{
@@ -136,7 +150,7 @@
                   padding: 2px 5px;
                   border-radius: 100px;
                   font-size: 65%;
-                  line-height:14px;
+                  // line-height:14px;
                   color: #fff;
                   margin-left: 2px;
                   text-shadow: #666 0px -1px 1px;
@@ -160,7 +174,8 @@
             }
           }
           p{
-            font-size: 80%; line-height: 15px; padding: 0px 5px;
+            font-size: 80%; padding: 0px 5px;
+            // line-height: 15px;
             &.f2{
               font-size: 70%;
               color: #666;
@@ -203,9 +218,10 @@
         h1{
           // NOTE: font-family
           font-size:calc(3vw + 110%);
-          line-height: 130%;
+          // line-height: 130%;
           // text-shadow: #000 0px 1px 1px; color: #ccc;
           text-shadow: #000 0px -1px 1px; color: lighten(#666,25%);
+          // padding: 5% 0;
         }
         h2{
           // NOTE: font-subfamily
@@ -335,9 +351,17 @@
           padding:5%;
           width: 90%;
           display: none;
+          transition: 1s;
           // text-align: justify;
+          &.active{
+            display: block;
+          }
           div {
             display: none;
+            &.active{
+              display: block;
+
+            }
             h3{
               padding:3%;
               color: lighten(#666,15%);

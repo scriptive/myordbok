@@ -5,6 +5,7 @@
   max-width: 600px;
   padding-top:12vh;
   margin: 0 auto;
+  z-index: 9999;
   >div {
     // position: relative;
     // position: inherit;
@@ -21,35 +22,36 @@
       }
     }
     &.search{
+      position: inherit;
       form[name=search]{
-        @include box-shadow(0px, 0px, 1px, 1px, lighten($ColorSecond,20%));
+        // @include box-shadow(0px, 0px, 1px, 1px, lighten($ColorSecond,20%));
         // @include box-shadow(0px, 0px, 0px, 1px, darken($ColorSecond,10%));
         >p{
           input,button{
-            height: 40px; line-height: 40px;
+            height: 40px;
+            // line-height: 40px;
             &[type=search]{
               // padding-left:10px;
             }
             &[type=submit]{
               border:0px;
-              background-color: #fff;
+              // background-color: #fff;
             }
           }
         }
-        div{
-          &#suggest{
-            @include box-shadow(0px, 1px, 1px, 1px, darken(#ccc,10%));
-            p{
-              padding:1px 2%;
-            }
-          }
-        }
+        // div{
+        //   &#suggest{
+        //     @include box-shadow(0px, 1px, 1px, 1px, darken(#ccc,10%));
+        //     p{
+        //       padding:1px 2%;
+        //     }
+        //   }
+        // }
       }
     }
   }
   @media #{$media-mobile} {
-
-    margin-left: 7px;
-    margin-right: 7px;
+    // margin-left: 7px;
+    // margin-right: 7px;
   }
 }

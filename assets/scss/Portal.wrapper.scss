@@ -17,8 +17,6 @@
         }
       }
       >div {
-        display:table-cell; vertical-align: inherit;
-        vertical-align: middle;
         padding: 1%;
         &.width-wide{
           // width: auto;
@@ -26,14 +24,73 @@
           // background-color: lighten(#ccc,10%);
           padding: 3%;
         }
+        &.table-cell{
+          display:table-cell; vertical-align: inherit;
+          vertical-align: middle;
+        }
         &.width-fixed{
           width: 30%;
         }
+        // NOTE progess
+        &.progress{
+          text-align: center;
+          max-width:600px;
+          margin: 5px auto;
+          padding: 0;
+          height:35px;
+          border-radius: 20px;
+          line-height: 30px;
+          >div{
+            padding: 5px 10px;
+            color: lighten($ColorMain,0%);
+            transition:all 2s;
+            -webkit-transition:all 2s;
+            padding: 3px 10px;
+            line-height: 28px;
+          }
+          span{
+            padding-right: 5px;
+            font-size: 0.9em;
+            // background-color: #fff;
+            // display: inline-block;
+            // padding: 0 10px;
+            // margin: 0 5px;
+            // border-radius: 20px;
+            &:last-child{
+              // padding-right: 0;
+              color: lighten($Color,10%);
+              text-shadow: 1px 0px 1px #fff;
+            }
+          }
+          &.percentage{
+            color: #fff;
+            overflow: hidden;
+            background-color: lighten($ColorMain,30%);
+            position: relative;
+            overflow: hidden;
+            >div{
+              position: absolute;
+              top: 0; bottom: 0;
+              left: 0; right: 0;
+              &:first-child{
+                z-index: 1;
+              }
+              &:last-child{
+                z-index: 0;
+                background-color: lighten($ColorMain,25%);
+                border-right: 1px solid lighten($ColorMain,15%);
+              }
+            }
+          }
+          &.status{
+            background-color: lighten($ColorSecond,40%);
+          }
+        }
         &.header{
-          width: 26%;
-          text-align: right;
+          // width: 26%;
+          // text-align: right;
           h1,h2 {
-            display: inline-block;
+            // display: inline-block;
             padding: 2px 5%;
             border-radius: 4px;
             color: #569ed7;
@@ -65,6 +122,14 @@
           font-size: 90%;
         }
         &.dictionaries {
+          h1{
+            color: lighten($ColorMain,15%);
+            text-align: center;
+            padding: 2%;
+            em {
+              color: darken($ColorMain,0%);
+            }
+          }
           >ol {
             // background-color: lighten($ColorMain,30%);
             // box-shadow:inset 0px -1px 1px 1px lighten(#666,30%);
@@ -93,14 +158,15 @@
                     text-overflow: ellipsis;
                     white-space: nowrap;
                     padding: 3px 20px;
-                    line-height: 23px;
+                    line-height: 30px;
                     background-color: lighten($ColorMain,15%);
                     border-radius: 20px;
                     font-weight: normal;
                     color: #fff;
                     text-shadow: 1px 0px 1px #ccc;
+                    transition: 1s;
                     &:hover {
-                      background-color: lighten($ColorMain,20%);
+                      background-color: lighten($ColorMain,1%);
                     }
                   }
                   &.active {
@@ -222,7 +288,7 @@
         }
 
         @media #{$media-mobile} {
-          display: table-row;
+          // display: table-row;
           &.header {
             text-align: center;
             h3{
@@ -230,6 +296,21 @@
             }
           }
         }
+      }
+      >p{
+        padding:20px 10px;
+        max-width: 600px;
+        margin: 20px auto;
+
+        border-radius: 10px;
+        // background-color: lighten($ColorMain,30%);
+      }
+      >h1{
+        color: lighten($ColorMain,10%);
+        display: inline-block;
+        border-radius: 100px;
+        // padding: 5px 25px;
+        // background-color: lighten($ColorMain,20%);
       }
     }
     &.administration {

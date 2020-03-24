@@ -1,13 +1,18 @@
-form[name=search]{
+search-engine,form[name=search]{
   position:  inherit;
-  display:table;
+  // display:table;
   z-index:0;
-  width: 100%;
-  // margin: 0 auto;
+  // width: 100%;
+  margin: 0 10px;
+  // padding: 0;
   background-color: #fff;
   // @include box-shadow(0px, 0px, 1px, 1px, darken(#ccc,10%));
   @include box-shadow(0px, 0px, 0px, 1px, darken(#ccc,5%));
-  // border-radius: 50px;
+  border-radius: 20px;
+  &.focus{
+    // @include box-shadow(0px, 0px, 2px, 1px, darken($ColorMain,0%));
+    @include box-shadow(0px, 0px, 2px, 1px, darken(#ccc,10%));
+  }
   >p{
     display:table-cell;vertical-align:middle;
     height:100%;
@@ -15,11 +20,16 @@ form[name=search]{
     input,button{
       display: block;
       outline: none;border: 0px;
-      font-size: 16px; height:34px; line-height: 34px;
+      font-size: 16px; height:34px;
+      // line-height: 34px;
       background-color: transparent;
+      overflow: hidden;
       &[type=search]{
         font-weight: normal;
-        width: 98%; margin: 0 auto; padding-left:3px;
+        width: 98%; margin: 0 auto;
+        // padding-left:3px;
+        padding-left:15px;
+        // padding: 0 15px;
         appearance: none;
           -moz-appearance: none;
           -webkit-appearance: none;
@@ -48,15 +58,17 @@ form[name=search]{
       }
       &[type=submit]{
         font-size: 20px;
-        text-shadow: #666 0px 1px 1px;
-        color: $ColorMain;
+        // text-shadow: #666 0px 1px 1px;
+        color: $ColorSecond;
         // background-color: #fff;
+        // background-color: red;
         font-family: "myordbok";
-        text-shadow: #ccc 1px 1px 1px;
+        // text-shadow: #ccc 1px 1px 1px;
         width: 50px;
         // border-left:1px solid lighten($ColorMain,30%);
         border-left:1px solid lighten(#ccc,2%);
-        background-color: lighten(#ccc,16%);
+        // background-color: lighten(#ccc,16%);
+        border-radius:  0 50px 50px 0;
         &:hover{
           color: darken($ColorMain,10%);
         }
@@ -66,25 +78,66 @@ form[name=search]{
        width:100%;
     }
   }
-  div{
-    &#suggest{
+  ul{
+    display:none;
+    position:absolute;
+    left:0px;
+    right: 0px;
+    // width:100%;
+    // top:calc(100% + 1px);
+    top:calc(100% + 1px);
+    // padding-top: 50px;
+    background-color:#fff;
+    // line-height:30px;
+    font-size:15px;
+    // z-index: 9999;
+    @include box-shadow(0px, 3px, 5px, 1px, darken(#ccc,5%));
+
+    // border-radius: 0 0 2px 2px;
+    overflow: hidden;
+
+    // border-radius: 20px;
+    border-radius:  0  0 10px 10px;
+    li{
       display:block;
-      position:absolute;width:100%;left:0px;top:calc(100% + 1px);  background-color:#fff;line-height:19px;font-size:14px;
-      @include box-shadow(0px, 1px, 0px, 1px, darken(#ccc,10%));
-      border-radius: 0 0 2px 2px;
-      overflow: hidden;
-      z-index: 9999;
-      p{
-        display:block;padding:1px 2%;color:#666;cursor:pointer; line-height: 24px;
-        b{
-          color:darken($ColorMain,10%);text-shadow:#ccc 0px 0px 1px;font-weight:normal;
-        }
-        &.selected{ color: #0661a9;background-color: lighten($ColorMain,40%); }
-        &:last-child{margin-bottom:1px;}
+      padding:10px 20px;
+      color:#666;transition: 0.2s;
+      cursor:default;
+      // line-height: 30px;
+      mark{
+        color:darken($ColorMain,0%);
+        // color:$ColorLinkStandard;
+
+        // text-shadow:#ccc 1px 0px 1px;
+        font-weight:normal;
+        // background-color: lighten($ColorMain,50%);
+        background-color: transparent;
+        // font-weight: normal;
+        // color: $ColorRed;
       }
-      &:empty{
-        display: none;
+      &.selected{
+        color: #0661a9;background-color: lighten($ColorMain,35%);
       }
+      // &:last-child{margin-bottom:1px;}
+    }
+    &:empty{
+      display: none;
+    }
+    @media #{$media-mobile} {
+      // padding: 3px 0;
+      li{
+        // padding:15px 10px;
+        font-size: 1.2em;
+        &:first-child{padding-top:15px;}
+        &:last-child{padding-bottom:15px;}
+      }
+    }
+  }
+  &.active{
+    border-radius: 10px 10px 0 0;
+    @include box-shadow(0px, 0px, 5px, 2px, darken(#ccc,5%));
+    >ul{
+      display: block;
     }
   }
 }

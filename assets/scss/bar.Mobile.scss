@@ -1,20 +1,68 @@
+>div{
+  padding:0px;
+}
 ul{
   >li{
     padding: 7px 0;
-    display: inline-block;
     >div{
-      font-size: 20px;
-      // background-color: red;
-      // text-align: center;
-      max-width: 30px;
-      padding: 2px 7px;
-      color: $ColorMain;
-      // z-index: 99;
+      position: relative;
+      height: 35px;
+      margin-top: 3px;
+      margin-bottom: 3px;
+      >div{
+        height: 30px;
+        &.name{
+          // display: none;
+          // background-image: url(../img/MyOrdbok.png);
+          background-image: url(../img/MyOrdbok.logo.png);
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: contain;
+          margin: 0px 35px;
+        }
+        &.toggle{
+          // float: right;
+          position: absolute;
+          // background-color: red;
+          top: 0;
+          right: 10px;
+          font-size: 24px;
+          // color: $ColorMain;
+          color: $ColorSecond;
+          &::before{
+            padding-top: 3px;
+          }
+          &.active{
+            color: $ColorMain;
+          }
+        }
+      }
     }
     // @include user-select();
     >ol{
-      display: none;
-      -webkit-overflow-scrolling: auto;
+      text-align: center;
+      display:none;
+      &.active{
+        display: block;
+      }
+      // background-color: aliceblue;
+      >li{
+        // display: inline-block;
+        padding:3px 5px;
+        a {
+          display: block;
+          background-color: lighten($ColorMain,35%);
+          color: $ColorMain;
+          padding: 15px 7px;
+          border-radius: 2px;
+        }
+        &.active{
+          a{
+            background-color: lighten($ColorMain,20%);
+            color: #fff;
+          }
+        }
+      }
     }
     // &.active, &:hover{
     //   >ol{
@@ -35,8 +83,16 @@ ul{
     //     }
     //   }
     // }
+    &.active{
+      background-color: lighten($ColorMain,20%);
+      >ol{
+        display: block;
+      }
+    }
   }
 }
+
+/*
 ol{
   >li{
     >a{
@@ -112,6 +168,7 @@ ul {
     }
   }
 }
+*/
 // @at-root body >div {
 //   position: fixed;
 //   left:250px;

@@ -1,4 +1,106 @@
 &.grammar {
+  ol.mynum {
+    list-style: none;
+    li:nth-child(1):before {content: "၁";}
+    li:nth-child(2):before {content: "၂";}
+    li:nth-child(3):before {content: "၃";}
+    li:nth-child(4):before {content: "၄";}
+    li:nth-child(5):before {content: "၅";}
+    li:nth-child(6):before {content: "၆";}
+    li:nth-child(7):before {content: "၇";}
+    li:nth-child(8):before {content: "၈";}
+    li:nth-child(9):before {content: "၉";}
+    li:nth-child(10):before {content: "၁၀";}
+    li:nth-child(11):before {content: "၁၁";}
+    li:nth-child(12):before {content: "၁၂";}
+    li:nth-child(13):before {content: "၁၃";}
+    li:nth-child(14):before {content: "၁၄";}
+    li:nth-child(15):before {content: "၁၅";}
+    li:nth-child(16):before {content: "၁၆";}
+    li:nth-child(17):before {content: "၁၇";}
+  }
+  table{
+    border-collapse: collapse;
+    // border: 1px solid black;
+    vertical-align: middle;
+    padding: 5px;
+    margin: 10px 2px;
+    // min-width: 400px;
+    width: 90%;
+    thead{
+      background-color: lighten(grey, 45%);
+      // padding: 5px;
+      // border-bottom: 1px solid lighten(grey, 20%);
+    }
+    th{
+      font-size: 90%;
+      &.chain{
+        color: lighten($ColorMain,10%);
+      }
+    }
+    // tr{
+    //   // border-left: 1px solid black;
+    // }
+    // th,td {
+    //   // padding: 5px 7px;
+    //   padding: 5px;
+    //   border: 1px solid lighten(grey, 20%);
+    //   &:first-child{
+    //     // border-left:0;
+    //   }
+    // }
+    th,td{
+      padding: 5px;
+      border: 1px dotted lighten(grey, 20%);
+      line-height: 30px;
+      &:first-child{
+        border-left: 0;
+      }
+      &:last-child{
+        border-right: 0;
+      }
+
+    }
+    td.chain{
+      color: darken($ColorMain,0%);
+      background-color: lighten(grey, 47%);
+    }
+  }
+  section{
+    padding: 15px;
+    p{
+      color: $ColorSecond;
+      font-weight: lighter;
+      font-size: 95%;
+    }
+    ol {
+      padding-left: 15px;
+      li {
+        margin: 2px;
+        &::before{
+          display: inline-block;
+          width: 30px;
+          text-align: center;
+          margin-right: 5px;
+          // font-size: 90%;
+          // color: $ColorSecond;
+          background-color: lighten($ColorMain,35%);
+          border-radius: 100%;
+        }
+        a {
+          // background-color: lighten($ColorMain,40%);
+          border-radius: 3px;
+          display: inline-block;
+          padding: 2px 7px;
+          color: darken($ColorMain,20%);
+          &:hover{
+            // background-color: lighten($ColorMain,20%);
+            color: darken($ColorRed,0%);
+          }
+        }
+      }
+    }
+  }
   >div.row{
     &.primary{
       padding:1%;
@@ -15,7 +117,7 @@
     }
     div {
       &.detail{
-        ul.word{
+        ol.word{
           margin:1px 2%;
           padding:5px 3%;
           line-height: 160%;
@@ -25,8 +127,8 @@
             content: attr(data-name);
             background-color: lighten($ColorMain,10%);
             color: #fff;
-            padding: 1px 4px;
-            line-height: 100%;
+            padding: 3px 10px;
+            line-height: 150%;
             border-radius: 3px;
           }
           li{
@@ -44,8 +146,30 @@
             }
           }
         }
+        ul.worddesc{
+          margin:1px 2%;
+          padding:5px 3%;
+          line-height: 160%;
+          list-style: circle;
+          white-space: break-spaces;
+          // white-space: pre-line;
+          // white-space: pre;
+          li{
+            // display: inline-block;
+            margin: 1px 3px;
+            // white-space: break-spaces;
+            // white-space: nowrap;
+            // white-space: pre-line;
+            // color: darken($ColorMain,25%);
+            // color: darken(#ccc,26%);
+            strong{
+              color: darken($ColorMain,10%);
+              font-weight: lighter;
+            }
+          }
+        }
 
-        ol.exam{
+        ul.exam{
           margin:1px 3%;
           padding:1px 3%;
           list-style: none;
@@ -82,7 +206,7 @@
                 }
               }
             }
-            ol{
+            >ol{
               &:empty{
                 display: none;
               }
@@ -107,6 +231,74 @@
                 }
               }
             }
+            /*
+            dl{
+              border: 1px solid lighten(grey, 20%);
+              border-radius: 3px;
+              // padding: 20px 20px;
+              color:lighten(grey, 30%);
+              span{
+                margin-right: 10px;
+                color:lighten(grey, 1%);
+              }
+              mark{
+                margin-left: 10px;
+                color: darken($ColorMain,0%);
+                background-color: transparent;
+              }
+              dt{
+                // color: darken($ColorMain,22%);
+                background-color: lighten(grey, 45%);
+                padding: 5px;
+                border-bottom: 1px solid lighten(grey, 20%);
+                span, mark {
+                  font-weight: bold;
+                }
+                span {
+                  padding-left:5px;
+                  padding-right:5px;
+                }
+              }
+              dd{
+                padding: 5px 10px;
+              }
+            }
+            */
+            /*
+            >ul{
+              // NOTE: form
+              // display: inline-block;
+              border: 1px solid lighten(grey, 20%);
+              border-radius: 3px;
+              padding: 0;
+              li{
+                &.header{
+                  // font-weight: bold;
+                  color: darken($ColorMain,22%);
+                  background-color: lighten(grey, 45%);
+                  span {
+                   padding-left:5px;
+                   padding-right:5px;
+                  }
+                }
+                border-bottom: 1px solid lighten(grey, 30%);
+                padding: 5px 7px;
+                // margin: 5px 7px;
+                // margin: 2px;
+                line-height: 160%;
+                strong{
+                  color: darken($ColorMain,12%);
+                  font-weight: normal;
+                }
+                span{
+                  color: lighten(grey, 30%);
+                }
+                &:last-child{
+                  border-bottom-width: 0;
+                }
+              }
+            }
+            */
           }
         }
         >ol{
@@ -284,13 +476,13 @@
           margin: 1%;
           background-color: lighten(#ccc,16%);
           border-radius: 3px;
-          strong, p {
+          a,strong, p {
             display: table-cell;
             padding: 5px 15px;
             vertical-align: middle;
             font-weight: normal;
           }
-          strong{
+          a,strong{
             font-size: 120%;
             color: #666;
             text-shadow: #ccc 0px 1px 1px;

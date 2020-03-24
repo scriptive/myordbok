@@ -11,16 +11,17 @@
       content: attr(data-lang);
       // font-size: 14px;
       font-size: 100%;
-      // line-height: 150%;
+      // line-height: 190%;
+      // line-height: 100%;
       // margin-top: 3px;
       text-align: center;
       // vertical-align: text-bottom;
       text-transform: uppercase;
-      line-height: 190%;
       color: lighten($ColorSecond,15%);
       width: 30px; height: 30px; border-radius: 50%;
       // background-color: lighten($ColorMain,40%);
-      background-color: $ColorBackground;
+      // background-color: $ColorBackground;
+      // background-color: red;
       border: 1px solid lighten($ColorSecond,15%);
       position: absolute; top: 0px; left: -16px;
     }
@@ -104,6 +105,21 @@
       padding-left: 25px;
       font-size: 150%;
       line-height: 100%;
+      span {
+        display: inline-block;
+        color: lighten(#666,17%);
+
+        &:hover{
+          &::before{
+            color: $ColorMain;
+          }
+        }
+        &.playing{
+          &::before{
+            color: red;
+          }
+        }
+      }
     }
     >div{
       // border: 1px solid blue;
@@ -195,7 +211,7 @@
           }
           >p{
             font-size: 110%;
-            line-height: 160%;
+            // line-height: 160%;
             // line-height: 1.8;
             // font-weight: normal;
             display: inline-block;
@@ -236,7 +252,7 @@
             // padding:0 3%;
             list-style: none;
             font-size: 95%;
-            padding-left: 30px;
+            padding: 2px 0 7px 30px;
             // border-left: 1px dotted lighten(#ccc,1%);
             border-left: 1px dotted lighten($ColorMain,25%);
             // background-color: lighten(#ccc,17%);
@@ -262,7 +278,7 @@
             >li{
               position: relative;
               padding-left:5px;
-              line-height: 150%;
+              // line-height: 150%;
               color: darken($ColorSecond,5%);
               // em{
               //   // color:darken($ColorSecond,15%);
@@ -284,7 +300,7 @@
                 // border: 1px solid darken(#ccc,6%);
                 background-color: darken(#ccc,5%);
                 // border: 1px solid lighten($ColorMain,15%);
-                position: absolute; top: 9px; left: -11px;
+                position: absolute; top: 7px; left: -11px;
               }
             }
           }
@@ -389,6 +405,13 @@
           &.thesaurus{
             >div{
               border-left-width: 0px;
+              ol{
+                li {
+                  a {
+                    font-size: 1.3em;
+                  }
+                }
+              }
             }
           }
           >h2{
