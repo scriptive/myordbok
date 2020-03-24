@@ -136,21 +136,24 @@ async function hasDefinition(raw,wordNormal){
   } else {
     // NOTE: is_sentence
     // EXAM: NO -> Administratortilgang
-    var words = wordNormal.match(/[a-zA-Z]+|[0-9]+(?:\.[0-9]+|)/g);
-    // console.log(words)
-    if (words && words.length) {
+    var words = wordNormal.match(/[a-zA-Z]+|[0-9]+(?:\.[0-9]+|)/g).filter(e=> e && e != wordNormal);
+    if (words.length) {
       // EXAM: wind[2] good!
       // EXAM: 1900th 10times
       // NOTE: sentence
       // superscripts 1st, 2nd, 3rd, 4th ??
-      for (const word of words.filter(e=> e && e != wordNormal)) {
+      // .filter(e=> e && e != wordNormal)
+      for (const word of words) {
         if (await getDefinition(raw,word)){
           // NOTE: has meaning
           status=true;
+        } else {
+          dictionary.save(word,result.lang.tar);
         }
       }
     } else {
       // NOTE: save on single word based on language
+      // squawker
       dictionary.save(wordNormal,result.lang.tar);
       // if (result.lang.tar == result.lang.src)
     }
@@ -257,8 +260,8 @@ async function getDefinition(raw,wordNormal){
 
 async function rowDefinition(row,word){
   // NOTE: works
-  // var rowMeaning = await dictionary.definition(word,true);
-  var rowMeaning = await dictionary.definition(word);
+  var rowMeaning = await dictionary.definition(word,true);
+  // var rowMeaning = await dictionary.definition(word);
   if (rowMeaning){
 
     if (row.Pos && row.Pos.length) {

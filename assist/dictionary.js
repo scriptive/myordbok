@@ -13,6 +13,7 @@ glossary.usage = path.join(app.Config.media,'glossary',glossary.usage);
 glossary.synset = path.join(app.Config.media,'glossary',glossary.synset);
 glossary.synmap = path.join(app.Config.media,'glossary',glossary.synmap);
 glossary.zero = path.join(app.Config.media,'glossary',glossary.zero);
+glossary.info = path.join(app.Config.media,'glossary',glossary.info);
 
 // getJSON,  writeJSON, readJSON watchJSON  dataJSON,
 const dataJSON={};
@@ -66,11 +67,13 @@ const hasWordMatch = (s,t) => s.toLowerCase() == t.toLowerCase();
 // getJSON(glossary.usage,true);
 
 exports.getLangDefault = getLangDefault;
+
 exports.getLangByName = (e) => dictionaries.map(
   continental => continental.lang.filter(
     lang => new RegExp(e, 'i').test(lang.name)
   )
 ).reduce((prev, next) => prev.concat(next),[]).find(l=>l.id);
+
 exports.getLangById = (e) => dictionaries.map(
   continental => continental.lang.filter(
     lang => lang.id == e
@@ -106,21 +109,16 @@ exports.translation = async function(keyword,lang=getLangDefault.id){
 
 // NOTE: save
 exports.save = async function(keyword,lang){
-  var file = glossary.zero.replace('0',lang).replace(/(csv)$/,'tmp.$1');
   var addWord = true;
+  var file = glossary.zero.replace('0',lang);//.replace(/(csv)$/,'tmp.$1');
   keyword = keyword.replace(/\W/g, '').toLowerCase();
-  function setLine(){
+  function write(){
     var createStream = fs.createWriteStream(file,{flags:'a',encoding:'utf8'});
     createStream.write(keyword);
     createStream.write('\n');
     createStream.end();
-    // fs.open(file, 'a', 666, function( e, id ) {
-    //   fs.write(id, keyword + "\n", null, 'utf8', function(){
-    //     fs.close(id);
-    //   });
-    // });
   }
-  function getLine(){
+  function read(){
     return require('readline').createInterface({
       input: fs.createReadStream(file)
     });
@@ -128,9 +126,9 @@ exports.save = async function(keyword,lang){
 
   fs.access(file, (e) => {
     if (e) {
-      setLine();
+      write();
     } else {
-      var reader = getLine();
+      var reader = read();
       reader.on('line', (word) => {
         if (word == keyword){
           addWord = false;
@@ -138,10 +136,20 @@ exports.save = async function(keyword,lang){
           reader.removeAllListeners();
         }
       }).on('close', () => {
-        if (addWord) setLine();
+        if (addWord) write();
       });
     }
   });
+}
+
+// NOTE: info
+exports.getInfo = async function(res){
+  // glossary.info
+  // return 'Ok'
+  // return glossary.info.replace('0',lang);
+  // async (file) => await readFilePromise(file).then(e=>JSON.parse(e)).catch(()=>[]);
+  return await readFilePromise(glossary.info.replace('0',res.sol.id)).then(e=>JSON.parse(e)).catch(()=>new Object());
+
 }
 
 async function wordMeanJSON(word,_watchData){
