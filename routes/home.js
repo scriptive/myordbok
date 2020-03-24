@@ -3,9 +3,10 @@ const routes = app.Router();
 
 routes.get('/', function(req, res) {
   res.render('home', {
-    title: 'MyOrdbok',
-    keywords: 'Myanmar dictionary, Myanmar definition, Burmese, norsk ordbok, burmissk',
-    description: 'online Myanmar dictionaries, available in 24 languages.'
+    title: 'Myanmar dictionary',
+    keywords: 'Myanmar, dictionary, grammar, font, definition, Burmese, online',
+    description: 'A comprehensive online Myanmar dictionary, grammar, and fonts at MyOrdbok',
+    pageClass:'home'
   });
 });
 
