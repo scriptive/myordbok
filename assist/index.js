@@ -7,8 +7,7 @@ const pluralize = require("pluralize");
 // const WordPOS = require('wordpos'), wordpos = new WordPOS();
 
 // NOTE: mean
-// exports.suggestion = async (e,l) => dictionary.word(e,l);
-exports.suggestion = async (e,l) => [e,'tests'];
+exports.suggestion = async (e,l) => await dictionary.word(e,l);
 exports.definition = async (e) => dictionary.definition(e);
 exports.translation = async (e,l) => dictionary.translation(e,l);
 exports.search = require('./search');
