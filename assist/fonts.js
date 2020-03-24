@@ -151,6 +151,8 @@ module.exports = class fonts {
           if (/^s?https?:\/\/[-_.!~*'()a-zA-Z0-9;\/?:\@&=+\$,%#]+$/.test(context)){
             if (!response.hasOwnProperty('url'))response.url=[];
             response.url.push({href:context,text:context});
+            // response.url = [...new Set(response.url)];
+            // response.url = response.url.filter((v, i, a) => a.indexOf(v) === i);
           } else if (i > 0 && i < 6) {
             var className = abc[i].replace(' ','-').toLowerCase();
             var tagName = 'h'+i;

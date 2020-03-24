@@ -19,21 +19,21 @@ block content
             div.toggle
               ul.menu
                 if definition
-                  li(class='definition' data-toggle='definition') Description
+                  li(class='definition' data-toggle='definition' @click = "fontToggle(1)" v-bind:class = "{'active': fontActive(1)}") Description
                 if license
-                  li(class='license' data-toggle='license') License
+                  li(class='license' data-toggle='license' @click = "fontToggle(2)" v-bind:class = "{'active': fontActive(2)}") License
                 if download
                   li.get
                     a.download(href=`/myanmar-fonts/download/${type}?font=${download}`) Download
 
-              div.container
+              div.container(v-bind:class = "{'active': activeFontToggle}")
                 if definition
-                  div.definition
+                  div.definition(v-bind:class = "{'active': fontActive(1)}")
                     each o in definition
                       #{o.tag}= o.text
 
                 if license
-                  div.license
+                  div.license(v-bind:class = "{'active': fontActive(2)}")
                     each o in license
                       #{o.tag}= o.text
 
