@@ -11,39 +11,39 @@ module.exports = {
     ],
     dictionaries:[
       {
-        name:'International',lang:[
-          {id:"en",name:"English",default:true},
-          {id:"iw",name:"Hebrew"},
-          {id:"el",name:"Greek"},
-          {id:"pt",name:"Portuguese"},
-          {id:"fr",name:"French"},
-          {id:"nl",name:"Dutch"},
-          {id:"ar",name:"Arabic"},
-          {id:"es",name:"Spanish"}
+        name:'International',my:'အပြည်ပြည်ဆိုင်ရာ',lang:[
+          {id:"en",name:"English",my:'အင်္ဂလိပ်',default:true},
+          {id:"iw",name:"Hebrew",my:'ဟေဗြဲ'},
+          {id:"el",name:"Greek",my:'ဂရိ'},
+          {id:"pt",name:"Portuguese",my:'ပေါ်တူဂီ'},
+          {id:"fr",name:"French",my:'ပြင်သစ်'},
+          {id:"nl",name:"Dutch",my:'ဒတ်ချ်'},
+          {id:"ar",name:"Arabic",my:'အာရဗီ'},
+          {id:"es",name:"Spanish",my:'စပိန်'}
         ]
       },
       {
-        name:'Europe',lang:[
-          {id:"no",name:"Norwegian"},
-          {id:"fi",name:"Finnish"},
-          {id:"ro",name:"Romanian"},
-          {id:"pl",name:"Polish"},
-          {id:"sv",name:"Swedish"},
-          {id:"da",name:"Danish"},
-          {id:"de",name:"German"},
-          {id:"ru",name:"Russian"}
+        name:'Europe',my:'ဥရောပ',lang:[
+          {id:"no",name:"Norwegian",my:'နော်ဝေ'},
+          {id:"fi",name:"Finnish",my:'ဖင်လန်'},
+          {id:"ro",name:"Romanian",my:'ရိုမေးနီးယား'},
+          {id:"pl",name:"Polish",my:'ပိုလန်'},
+          {id:"sv",name:"Swedish",my:'ဆွီဒင်'},
+          {id:"da",name:"Danish",my:'ဒိန်းမတ်'},
+          {id:"de",name:"German",my:'ဂျာမန်'},
+          {id:"ru",name:"Russian",my:'ရုရှ'}
         ]
       },
       {
-        name:'Asia',lang:[
-          {id:"ja",name:"Japanese"},
-          {id:"zh",name:"Chinese"},
-          {id:"ko",name:"Korean"},
-          {id:"ms",name:"Malay"},
-          {id:"tl",name:"Filipion"},
-          {id:"vi",name:"Vietnamese"},
-          {id:"th",name:"Thai"},
-          {id:"hi",name:"Hindi"}
+        name:'Asia',my:'အာရှ',lang:[
+          {id:"ja",name:"Japanese",my:'ဂျပန်'},
+          {id:"zh",name:"Chinese",my:'တရုတ်'},
+          {id:"ko",name:"Korean",my:'ကိုရီးယား'},
+          {id:"ms",name:"Malay",my:'မလေးရှား'},
+          {id:"tl",name:"Filipion",my:'ဖိလစ်ပိုင်'},
+          {id:"vi",name:"Vietnamese",my:'ဗီယက်နမ်'},
+          {id:"th",name:"Thai",my:'ယိုးဒယား'},
+          {id:"hi",name:"Hindi",my:'ဟိန္ဒီ'}
         ]
       }
     ],
@@ -69,11 +69,17 @@ module.exports = {
     ],
     glossary:{
       word:'en.json',
-      sense:'sense.json',
-      usage:'usage.json',
+      sense:'sense.json', // definition
+      usage:'usage.json', // example
       synset:'synset.json', // words
       synmap:'synmap.json', //derives
-      zero:'zero.0.csv' //no result
+      zero:'zero.0.csv', //no result
+      info:'info.0.json'
     }
+    // grammar:{
+    //   live:'live.json',
+    //   pos:'pos-*.json',
+    //   context:'*.json'
+    // }
   }
 };
