@@ -188,9 +188,10 @@ async function wordMeanMySQL(word){
 }
 
 // NOTE: definition
-exports.definition = async function(word,_liveData){
+exports.definition = async function(word){
+  // OPTION: app.Config.development, app.Config.mysqlConnection
   try {
-    if (_liveData){
+    if (app.Config.mysqlConnection){
       return await wordMeanMySQL(word);
     } else {
       return await wordMeanJSON(word,false);
