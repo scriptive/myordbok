@@ -34,7 +34,7 @@ mixin thesaurus(row)
       h3 Thesaurus
       //- dt
       div
-        ol.tmp1
+        ol
           each word in row
             li
               +wordlink(word)
@@ -75,7 +75,8 @@ mixin translation(row, w)
 mixin definition(raw)
   div.definition(data-lang=lang.src)
     h1= raw.word
-      span.speech.en.zA.icon-volume-up
+      //- span.speech.en.zA.icon-volume-up
+      speech-engine(word=raw.word lang='en')
     div.meaning
       each row, name in raw.clue
         +#{name}(row)

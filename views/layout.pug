@@ -2,8 +2,8 @@ doctype html
 html(lang='my' dir='ltr')
   head
     block head
-      meta(charset='utf-8')
-      meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+      meta(charset='UTF-8')
+      meta(name="viewport" content="width=device-width, initial-scale=1.0")
       meta(name='robots' content='index, follow')
       meta(name='author' content='Khen Solomon Lethil')
       if title
@@ -16,6 +16,9 @@ html(lang='my' dir='ltr')
       base(href='/')
       link(rel='api', href='api')
       //- link(rel='icon', href='favicon.png' type='image/png')
+
+      meta(property="og:image", content="/screenshot-home.png")
+
       link(rel="apple-touch-icon", sizes="180x180" href="/apple-touch-icon.png")
       link(rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png")
       link(rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png")
@@ -39,20 +42,36 @@ html(lang='my' dir='ltr')
       //-   gtag('js', new Date());
       //-   gtag('config', 'UA-18578545-1');
 
-      script(src='https://code.jquery.com/jquery-3.3.1.min.js')
+      script(src='https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js')
+      script(src='https://cdn.jsdelivr.net/npm/vue-resource@1.5.1/dist/vue-resource.min.js')
+      //- script(src='https://cdn.jsdelivr.net/npm/vue-router@3.1.2/dist/vue-router.min.js')
+      //- script(src='https://code.jquery.com/jquery-3.3.1.min.js')
       //- script(src=isDevelopment?'/jquery.js':'https://code.jquery.com/jquery-3.3.1.min.js')
-      script(type='text/javascript', src='/script.js')
-      link(rel='stylesheet', href='/style.css')
+      //- script(type='text/javascript', src='/script.js')
+      //- link(rel='stylesheet', href='/style.css')
       //- script.
       //-   $(function(){
       //-     $(document).MyOrdbok(['suggest ready','toggle menu','zA','zO']);
       //-   });
-  body.home
+  body(class=pageClass)
     //- Google Tag Manager (noscript)
     noscript
       iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-WMP5B6F' height=0 width=0 style='display:none;visibility:hidden')
 
-    div.primary
+    div#myordbok.primary
+      //- div(v-if="isLoading" ref="hey") Loading...
+      //- div(v-if="isDone") Done
+      //- <div v-if="isLoading" ref="hey">
+      //-   Loading...
+      //- </div>
+
+      //- <button @click="loadIt">
+      //-   Load it
+      //- </button>
+
+      //- <div v-if="isDone">
+      //-   Done
+      //- </div>
       block bar
         div.portal#bar
           div
@@ -62,3 +81,6 @@ html(lang='my' dir='ltr')
       block header
       block content
       block footer
+
+    script(src='/script.js')
+    link(rel='stylesheet', href='/style.css')

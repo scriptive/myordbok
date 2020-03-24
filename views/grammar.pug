@@ -1,4 +1,12 @@
 extends layout
+
+mixin linkName(o)
+  //- a(href="/grammar/"+o.info.unique)= o.root.name
+  a(href="/grammar/"+o.info.name.replace(/\s/g,'.').toLowerCase())= o.root.name
+
+mixin rootDesc(o)
+  p!= o.desc.replace(/\'(.*?)\'/g, "<q>$1</q>")
+
 block content
   div.portal#content
     div.resize
@@ -6,7 +14,7 @@ block content
         div.row.primary.text-centers
           div
             h1= grammar.context.name
-            p= grammar.context.desc
+            +rootDesc(grammar.context)
             ul.note
               each o in grammar.context.kind
                 li
@@ -16,16 +24,16 @@ block content
         div.row.secondary.text-centers
           div.pos
             ul.partsofspeech
-              each o,id in grammar.pos
+              each o in grammar.pos
                 li
-                  a(href="/grammar/pos-"+id)= o.root.name
-                  p= o.root.desc
+                  +linkName(o)
+                  +rootDesc(o.root)
           div.grammar
             ul.summary
-              each o,id in grammar.grammar
+              each o in grammar.other
                 li
-                  strong= o.name
-                  p= o.desc
+                  +linkName(o)
+                  +rootDesc(o.root)
 
 block footer
   include footer

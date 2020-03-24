@@ -10,9 +10,6 @@ div.portal#header
                 span Myanmar
       div.column.wide
         each v, route in navDefinition
-          form(name='search' method='get' action=v.url)
+          search-engine(name='search' method='get' action=v.url query=meta.q)
             p
-              input(type="search" name="q" placeholder=" ...Search" autocomplete="off")
-            p
-              button(type="submit" id="search") &#xe83d;
-            div#suggest
+              input(type="search" name="q" placeholder=" ...Search")

@@ -4,16 +4,10 @@ div.modest
       each v, route in navDictionary
         li(class=v.route class={active: v.active})
           a(href=v.url.replace(':id',sol.name.toLowerCase()).replace('?',''))
-            span #{sol.name}
-            span Myanmar
-  //- div.test
-  //-   p=visits_count
-  //-   p=visits_total
+            span #{sol.my}
+            span မြန်မာ
   div.search
     each v, route in navDefinition
-      form(name='search' method='get' action=v.url)
+      search-engine(name='search' method='get' action=v.url)
         p
-          input(type="search" name="q" value="" placeholder=" ...Search" autocomplete="off")
-        p
-          button(type="submit" id="search") &#xe83d;
-        div#suggest
+          input(type="search" name="q" placeholder=" ...Search")

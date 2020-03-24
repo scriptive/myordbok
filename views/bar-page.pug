@@ -1,6 +1,6 @@
 ul
-  li.actives
-    div.toggle.panel.zA.icon-panel
+  li(v-bind:class = "{'active': showMobileMenu}").actives
+    nav-engine
 
     mixin li(v)
       li(class=v.route class={active: v.active} class={hasChild: v.child})
