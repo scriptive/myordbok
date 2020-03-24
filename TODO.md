@@ -7,21 +7,41 @@
 - Template
   - [x] definition
   - [ ] translation
-  - [ ] pleaseenter,
-  - [ ] notfound
-  - [ ] numeric
+  - [x] pleaseenter,
+  - [x] notfound
+  - [x] numeric
   - [ ] math
   - [x] notation
   - [ ] roman
 
 - Grammar
   - [x] Grammar
+    - [ ] download (pdf,epub,json)
+    - [x] toggle (example, keywords, description)
+
+- Definition
+  - [ ] meta
 
 - Font
   - [x] Font
+
+- Client
+  - [x] Vue.js
+  - Search Engine
+    - [x] autofocus
+    - [x] suggestion
+    - [x] history
+    - [ ] remove history
+  - [x] Speech
+  - [x] Font description and license toggle
+  - [x] Nav
 
 - Admin
   - [x] import
   - [x] export
 
-- [x] You should not have pug tags with multiple attributes.
+- [x] should not have pug tags with multiple attributes.
+
+- SEO
+  - [ ] description
+  - [x] meta->og:image

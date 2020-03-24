@@ -1,12 +1,13 @@
 const path = require('path');
+
+const VueLoaderPlugin = require('vue-loader/lib/plugin');
+
 module.exports = {
   mode: 'development',
   devtool: 'inline-source-map',
   entry: {
-    // script: path.resolve(__dirname, 'assets/webpack/index.js')
-    script:[
-      path.resolve(__dirname, 'assets/webpack/index.js'),
-      // path.resolve(__dirname, 'assets/script/analytics.js')
+    script: [
+      path.resolve(__dirname, 'assets/webpack/index.js')
     ]
   },
   output: {
@@ -14,10 +15,21 @@ module.exports = {
     filename:'[name].js',
     publicPath: '/'
   },
+  resolve: {
+    extensions: ['.js', '.vue', '.json','.css','.scss'],
+    alias: {
+      'vue$': 'vue/dist/vue.esm.js'
+    }
+  },
   plugins: [
+    new VueLoaderPlugin()
   ],
   module: {
     rules: [
+      {
+        test: /\.vue$/,
+        loader: 'vue-loader'
+      },
       {
         test: /\.exec\.js$/,
         use: [
@@ -33,8 +45,8 @@ module.exports = {
         }
       },
       {
-        // test: /\.s?css$/,
-        test: /\.(sa|sc|c)ss$/,
+        test: /\.s?css$/,
+        // test: /\.(sa|sc|c)ss$/,
         use: [
           'style-loader',
           "css-loader",
@@ -42,16 +54,20 @@ module.exports = {
         ]
       },
       // {
+      //   test: /Myanmar3.*$/,
+      //   loader: 'file-loader',
+      //   query: {
+      //     name: '[name].[ext]'
+      //   }
+      // },
+      // {
       //   test: /\.png$/,
       //   // NOTE: file-loader?name=[name].[ext] retain original file name
-      //   // loader: 'file-loader',
-      //   // loader: 'url-loader?limit=1024&name=[name].[ext]',
-      //   // loader: 'url-loader?limit=1024&name=/assets/[name].[ext]',
-      //   loader: 'file-loader?name=[name].[ext]',
-      //   // query: {
-      //   //   mimetype: 'image/x-png',
-      //   //   // name: '[name].[ext]'
-      //   // }
+      //   loader: 'file-loader',
+      //   query: {
+      //     mimetype: 'image/x-png',
+      //     name: '[name].[ext]'
+      //   }
       // },
       // {
       //   test: /\.(jpg|gif|svg|eot|ttf|woff|woff2)$/,
@@ -63,7 +79,6 @@ module.exports = {
       //   }
       // }
       {
-        // test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
         test: /\.(png|ico|jpg|gif|svg|eot|ttf|woff|woff2|webmanifest)$/,
         loader: 'file-loader',
         options: {
@@ -71,11 +86,6 @@ module.exports = {
           limit: 10000
         }
       }
-      // NOTE for production
-      // {
-      //   test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
-      //   loader: 'file-loader?name=[name].[ext]'
-      // }
     ]
   }
 };
