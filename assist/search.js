@@ -260,8 +260,8 @@ async function getDefinition(raw,wordNormal){
 
 async function rowDefinition(row,word){
   // NOTE: works
-  var rowMeaning = await dictionary.definition(word,true);
-  // var rowMeaning = await dictionary.definition(word);
+  // var rowMeaning = await dictionary.definition(word,true);
+  var rowMeaning = await dictionary.definition(word);
   if (rowMeaning){
 
     if (row.Pos && row.Pos.length) {
