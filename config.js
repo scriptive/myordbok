@@ -68,13 +68,13 @@ module.exports = {
       { id: 10, type: 1, name: "Plural Past"}
     ],
     glossary:{
-      word:'en.json',
+      word:'EN.json',
       sense:'sense.json', // definition
       usage:'usage.json', // example
       synset:'synset.json', // words
       synmap:'synmap.json', //derives
-      zero:'zero.0.csv', //no result
-      info:'info.0.json'
+      zero:'zero.EN.csv', //no result
+      info:'info.EN.json'
     }
     // grammar:{
     //   live:'live.json',
