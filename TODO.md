@@ -36,6 +36,13 @@
   - [x] Font description and license toggle
   - [x] Nav
 
+- Post
+  - [ ] the most commonly used words
+    - အသုံးများဆုံးဝေါဟာရများ
+    - [ ] noun
+    - [ ] verb
+    - [ ] adjective
+
 - Admin
   - [x] import
   - [x] export
