@@ -17,7 +17,7 @@ glossary.info = path.join(app.Config.media,'glossary',glossary.info);
 
 // getJSON,  writeJSON, readJSON watchJSON  dataJSON,
 const dataJSON={};
-const writeJSON = async (file,raw) => await writeFilePromise(file, JSON.stringify(raw,null,0)).then(()=>true).catch(()=>false);
+const writeJSON = async (file,raw,ind=0) => await writeFilePromise(file, JSON.stringify(raw,null,ind)).then(()=>true).catch(()=>false);
 const readJSON = async (file) => await readFilePromise(file).then(e=>JSON.parse(e)).catch(()=>[]);
 const watchJSON = (file,id) => fs.watchFile(file, async () => dataJSON[id]=await readJSON(file));
 
@@ -49,9 +49,8 @@ const formatLink = (str) => {
     }
   });
 }
-const formatUsage = (exam) => formatLink(exam).split("\r\n").map(e=>e.trim());
-
 const formatSense = (str) => formatLink(str);
+const formatUsage = (exam) => formatLink(exam).split("\r\n").map(e=>e.trim());
 
 const getLangDefault = dictionaries.map(
   continental => continental.lang.filter(
@@ -59,7 +58,11 @@ const getLangDefault = dictionaries.map(
   )
 ).reduce((prev, next) => prev.concat(next),[]).find(l=>l.id);
 
-const getWordFile = (lang) => glossary.word.replace('en',lang);
+const getFileName = (file,name=getLangDefault.id) => file.replace(/EN/, name);
+// const getWordFile = (lang) => glossary.word.replace('en',lang);
+const getWordFile = (lang) => getFileName(glossary.word,lang);
+const getInfoFile = (lang) => getFileName(glossary.info,lang);
+const getZeroFile = (lang) => getFileName(glossary.zero,lang);
 const hasWordMatch = (s,t) => s.toLowerCase() == t.toLowerCase();
 
 // getJSON(glossary.word,true);
@@ -85,8 +88,9 @@ exports.getLangCount = dictionaries.map(continental => continental.lang.length).
 // exports.getLangCount = Object.keys(dictionaries_delete).map(continental => Object.keys(dictionaries_delete[continental]).length).reduce((a, b) => a + b,0);)
 
 // exports.word = (keyword) => dataJSON.en.filter(e=>e.v.toLowerCase().startsWith(keyword.toLowerCase())).map(e=>e.v).slice(0,10);
-exports.word = async (q,l=getLangDefault.id) => await getJSON(getWordFile(l)).then(e=>e.filter(e=>e.v.toLowerCase().startsWith(q.toLowerCase())).map(e=>e.v).slice(0,10)).catch(()=>[]);
-exports.wordFind = (q,l=getLangDefault.id) => getJSON(getWordFile(l)).then(e=>e.find(e=>e.v.toLowerCase() == q.toLowerCase())).catch(()=>'');
+exports.word = async (q,l) => await getJSON(getWordFile(l)).then(e=>e.filter(e=>e.v.toLowerCase().startsWith(q.toLowerCase())).map(e=>e.v).slice(0,10)).catch(()=>[]);
+// exports.wordFind = (q,l) => getJSON(getWordFile(l)).then(e=>e.find(e=>e.v.toLowerCase() == q.toLowerCase())).catch(()=>null);
+exports.wordFind = (q,l) => getJSON(getWordFile(l)).then(e=>e.find(e=>hasWordMatch(e.v,q))).catch(()=>null);
 
 exports.getGrammar = () => app.Config.synset.map((v,index) => ({id:index,name:v}));
 
@@ -107,10 +111,10 @@ exports.translation = async function(keyword,lang=getLangDefault.id){
   return raw;
 }
 
-// NOTE: save
+// NOTE: save (zero)
 exports.save = async function(keyword,lang){
   var addWord = true;
-  var file = glossary.zero.replace('0',lang);//.replace(/(csv)$/,'tmp.$1');
+  var file = getZeroFile(lang);
   keyword = keyword.replace(/\W/g, '').toLowerCase();
   function write(){
     var createStream = fs.createWriteStream(file,{flags:'a',encoding:'utf8'});
@@ -142,14 +146,9 @@ exports.save = async function(keyword,lang){
   });
 }
 
-// NOTE: info
+// NOTE: read (info)
 exports.getInfo = async function(res){
-  // glossary.info
-  // return 'Ok'
-  // return glossary.info.replace('0',lang);
-  // async (file) => await readFilePromise(file).then(e=>JSON.parse(e)).catch(()=>[]);
-  return await readFilePromise(glossary.info.replace('0',res.sol.id)).then(e=>JSON.parse(e)).catch(()=>new Object());
-
+  return await readFilePromise(getInfoFile(res.sol.id)).then(e=>JSON.parse(e)).catch(()=>new Object());
 }
 
 async function wordMeanJSON(word,_watchData){
@@ -290,6 +289,20 @@ exports.exportWord = async function(){
 }
 
 exports.exportDefinition = async function(){
+  // NOTE: info record
+  // var infoFile = getFileName(glossary.info);
+  var infoFile = getInfoFile();
+  var infoRaw = await readJSON(infoFile);
+  function _record_info(identity,digit){
+    infoRaw.info.progress.map(
+      e=> {
+        if (e.id && e.id == identity){
+          e.status = digit;
+        }
+      }
+    )
+  }
+
   // NOTE: reset wid
   await app.sql.query('UPDATE ?? AS o INNER JOIN (select id,word from ?? GROUP BY word ) AS i ON o.word = i.word SET o.wid = i.id;',[table.senses,table.senses]).then(
     ()=>{
@@ -300,8 +313,11 @@ exports.exportDefinition = async function(){
   );
   await app.sql.query('SELECT wid AS w, word AS v FROM ?? GROUP BY wid ORDER BY word ASC;',[table.senses]).then(
     async raw=>{
-      await writeJSON(glossary.word,raw);
-      console.log('en(word):',raw.length)
+      // var _wi = getFileName(glossary.word);
+      var _wi = getWordFile();
+      await writeJSON(_wi,raw);
+      _record_info('word',raw.length);
+      console.log('en(word):',raw.length,_wi)
     }
   ).catch(
     e=>console.error(e)
@@ -309,7 +325,8 @@ exports.exportDefinition = async function(){
   await app.sql.query('SELECT id AS i, wid AS w, tid AS t, sense AS v FROM ?? WHERE sense IS NOT NULL',[table.senses]).then(
     async raw=>{
       await writeJSON(glossary.sense,raw);
-      console.log('sense:',raw.length)
+      _record_info('sense',raw.length);
+      console.log('sense:',raw.length,glossary.sense)
     }
   ).catch(
     e=>console.error(e)
@@ -317,25 +334,40 @@ exports.exportDefinition = async function(){
   await app.sql.query("SELECT id AS i, exam AS v FROM ?? WHERE exam IS NOT NULL AND exam <> '';",[table.senses]).then(
     async raw=>{
       await writeJSON(glossary.usage,raw);
-      console.log('usage:',raw.length)
+      _record_info('usage',raw.length);
+      console.log('usage:',raw.length,glossary.usage)
     }
   ).catch(
     e=>console.error(e)
   );
+  await writeJSON(infoFile,infoRaw,2);
+  console.log('info:',infoFile)
 }
 
 exports.exportTranslation = async function(e){
   for (const continental of dictionaries) {
     for (const lang of continental.lang) {
       if (!lang.hasOwnProperty('default')) {
+        var infoFile = getInfoFile(lang.id);
+        var infoRaw = await readJSON(infoFile);
         await app.sql.query("SELECT word AS v, sense AS e FROM ?? WHERE word IS NOT NULL AND sense IS NOT NULL AND sense <> '';",[table.other.replace(0,lang.id)]).then(
           raw=>{
             writeJSON(getWordFile(lang.id),raw);
             console.info('done',lang.id,raw.length)
+
+            infoRaw.info.progress.map(
+              e=> {
+                if (e.id && e.id == 'word'){
+                  e.status = raw.length;
+                }
+              }
+            )
+            // console.info('done',lang.id,raw.length)
           }
         ).catch(
           e=>console.error(e)
         );
+        await writeJSON(infoFile,infoRaw,2);
       } else {
         console.info('skip',lang.id)
       }
