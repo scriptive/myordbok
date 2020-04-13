@@ -1,6 +1,6 @@
 {
   "name": "myordbok",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "online Myanmar dictionary",
   "main": "index.js",
   "scripts": {
@@ -45,6 +45,8 @@
     "file-loader": "^5.0.2",
     "mini-css-extract-plugin": "^0.8.2",
     "node-sass": "^4.13.1",
+    "parse5": "^5.1.1",
+    "request": "^2.88.2",
     "sass-loader": "^8.0.2",
     "script-loader": "^0.7.2",
     "style-loader": "^1.1.3",

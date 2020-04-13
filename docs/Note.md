@@ -82,6 +82,48 @@ Filipion
 
 ဖြစ်သည့်အလျက်
 
+http://sealang.net/lab/predict.pl?query=က
+http://sealang.net/burmese/search.pl?dict=burmese&orth=က
+http://sealang.net/burmese/search.pl?dict=burmese&orth=က&matchEntry=any&matchPosition=any&matchLength=word
+
+
+dict: burmese
+hasFocus: orth
+approx:
+orth: က
+phone:
+def:
+matchEntry: any
+matchLength: whole
+matchPosition: any
+anon: on
+approxBurmese: 1
+ety:
+pos:
+usage:
+subject:
+useTags: 1
+
+http://sealang.net/burmese/search.pl?dict=burmese&def=chubby
+
+dict: burmese
+hasFocus: def
+approx:
+orth:
+phone:
+def: chubby
+matchEntry: any
+matchLength: word
+matchPosition: any
+anon: on
+approxBurmese: 1
+ety:
+pos:
+usage:
+subject:
+useTags: 1
+
+
 အကြံပြုလိုပါက
 အကြံပေးပါရစေ
 အကြံပေးနိုင်ပါသည်

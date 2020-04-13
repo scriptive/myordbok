@@ -36,6 +36,7 @@ new Vue({
     activeFontToggle:'',
     api:{
       suggestion:'noitseggus/ipa/',
+      orthword:'drow-htro/ipa/',
       speech:'hceeps/ipa/'
     }
   },
@@ -45,6 +46,9 @@ new Vue({
   methods: {
     async suggestion(q){
       return await axios.get(this.reverse(this.api.suggestion),{ params:{q:q}}).then(response=>response.data, ()=>new Array());
+    },
+    async orthword(ord){
+      return await axios.get(this.reverse(this.api.orthword),{ params:{ord:ord}}).then(response=>response.data, ()=>new Array());
     },
     reverse(str){
       return str.split("").reverse().join("");

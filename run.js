@@ -1,4 +1,4 @@
-// NOTE please mind the reserved keywords (sql,mongo,Config,args,etc) in module.exports
+// NOTE: Please mind the reserved keywords (sql,mongo,Config,args,etc) in module.exports
 // node command myordbok
 // node run myordbok test
 // node run  myordbok

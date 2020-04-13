@@ -1,6 +1,6 @@
 const dictionary = require('./dictionary');
 // const search = require('./search');
-// const check = require('./check');
+const check = require('./check');
 // const thesaurus = require("thesaurus");
 const pluralize = require("pluralize");
 // const WordPOS = require('wordpos'), wordpos = new WordPOS();
@@ -9,7 +9,7 @@ exports.main = async () => '?';
 
 exports.wordPos =  async (e) => await dictionary.wordPos(e);
 exports.wordBase =  async (e) => await dictionary.wordBase(e);
-exports.definition =  async (e) => await dictionary.definition(e,true);
+exports.definition =  async (e) => await dictionary.definition(e,false);
 
 // NOTE: admin
 // node run export_definition
@@ -38,9 +38,17 @@ exports.export_grammar = async () => await require('./grammar').exportGrammar();
 // NOTE: testing
 // node run search
 exports.search = async (e) => require('./search')(e);
-exports.wordbreak = async (e) => require('./wordbreak')(e);
-exports.check_keyword = async (e) => await require('./check').keyword(e);
-exports.check_wordbreak = async (e) => await require('./check').wordbreak(e);
+exports.wordbreak = async (e) => require('./wordbreak/')(e);
+exports.wordbreak_test = async (e) => require('./wordbreak/test')(e);
+
+exports.check_definition = check.definition;
+// exports.check_keyword = async (e) => await check.keyword(e);
+// exports.check_wordbreak = async (e) => await check.wordbreak(e);
+// node run orthography
+exports.orth_sea = async (e) => await require('./orthCliSea')(e);
+exports.orth_ord = async (e) => await require('./orthCliOrd')(e);
+// exports.orthography = async (e) => await require('./orthWorkWord')(e);
+// exports.visits = async () => require('./visits')();
 
 // NOTE: thesaurus
 // node run thesaurus "love"

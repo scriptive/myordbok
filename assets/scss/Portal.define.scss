@@ -388,6 +388,25 @@
             // }
           }
         }
+        &.suggestion{
+          // background-color: #ccc;
+          p {
+            &::before {
+              content:'...';
+              padding-right: 7px;
+              color: lighten($ColorSecond,10%);
+            }
+            // background-color: #ccc;
+            a {
+              padding:2px 10px;
+              border-radius: 2px;
+              background-color: lighten($ColorMain,30%);
+              // color: #fff;
+              color: lighten($ColorSecond,1%);
+              font-size: 150%;
+            }
+          }
+        }
       }
     }
 

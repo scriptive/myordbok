@@ -16,7 +16,7 @@ glossary.zero = path.join(app.Config.media,'glossary',glossary.zero);
 glossary.info = path.join(app.Config.media,'glossary',glossary.info);
 
 // getJSON,  writeJSON, readJSON watchJSON  dataJSON,
-const dataJSON={};
+var dataJSON={};
 const writeJSON = async (file,raw,ind=0) => await writeFilePromise(file, JSON.stringify(raw,null,ind)).then(()=>true).catch(()=>false);
 const readJSON = async (file) => await readFilePromise(file).then(e=>JSON.parse(e)).catch(()=>[]);
 const watchJSON = (file,id) => fs.watchFile(file, async () => dataJSON[id]=await readJSON(file));
@@ -24,6 +24,7 @@ const watchJSON = (file,id) => fs.watchFile(file, async () => dataJSON[id]=await
 async function getJSON(file,watch){
   var id = path.parse(file).name;
   if (dataJSON.hasOwnProperty(id)){
+
     return dataJSON[id];
   } else if (fs.existsSync(file)) {
     dataJSON[id] = await readJSON(file);
@@ -92,7 +93,8 @@ exports.word = async (q,l) => await getJSON(getWordFile(l)).then(e=>e.filter(e=>
 // exports.wordFind = (q,l) => getJSON(getWordFile(l)).then(e=>e.find(e=>e.v.toLowerCase() == q.toLowerCase())).catch(()=>null);
 exports.wordFind = (q,l) => getJSON(getWordFile(l)).then(e=>e.find(e=>hasWordMatch(e.v,q))).catch(()=>null);
 
-exports.getGrammar = () => app.Config.synset.map((v,index) => ({id:index,name:v}));
+// exports.getGrammar = () => app.Config.synset.map((v,index) => ({id:index,name:v}));
+exports.getGrammar = () => app.Config.synset.map((v,index) =>(v.id=index,v));
 
 // NOTE: translation
 exports.translation = async function(keyword,lang=getLangDefault.id){
@@ -152,14 +154,15 @@ exports.getInfo = async function(res){
 }
 
 async function wordMeanJSON(word,_watchData){
-  await getJSON(glossary.word,_watchData);
+  // await getJSON(glossary.word,_watchData);
+  await getJSON(getWordFile('en'),_watchData);
   await getJSON(glossary.sense,_watchData);
   await getJSON(glossary.usage,_watchData);
 
   var raw = dataJSON.en.find(e=> hasWordMatch(word,e.v));
   if (raw){
     return dataJSON.sense.filter(d=> d.w == raw.w).map(function(d){
-      d.pos = app.Config.synset[d.t];
+      d.pos = app.Config.synset[d.t].name;
       var exam = dataJSON.usage.filter(m=> m.i == d.i).map(y=>formatUsage(y.v));
       d.exam = [].concat.apply([], exam);
       return (({ v, pos, exam }) => ({ v, pos, exam }))(d);
@@ -172,7 +175,7 @@ async function wordMeanMySQL(word){
   var raw = await app.sql.query("SELECT word AS w, tid AS pos, sense AS v,exam FROM ?? WHERE word LIKE ? ORDER BY tid, seq;",[table.senses,word]);
   if (raw.length){
     return raw.map(function(d){
-      d.pos = app.Config.synset[d.pos];
+      d.pos = app.Config.synset[d.pos].name;
       d.v = formatSense(d.v);
       if (d.exam) {
         d.exam = formatUsage(d.exam);
@@ -187,10 +190,10 @@ async function wordMeanMySQL(word){
 }
 
 // NOTE: definition
-exports.definition = async function(word){
+exports.definition = async function(word,liveData=true){
   // OPTION: app.Config.development, app.Config.mysqlConnection
   try {
-    if (app.Config.mysqlConnection){
+    if (app.Config.mysqlConnection && liveData == true){
       return await wordMeanMySQL(word);
     } else {
       return await wordMeanJSON(word,false);
@@ -216,7 +219,7 @@ exports.wordBase = async function(word){
   for (const id in form) {
     if (form.hasOwnProperty(id)) {
       var row = {};
-      row.pos = app.Config.synset[id];
+      row.pos = app.Config.synset[id].name;
       row.v = form[id].map(
         e => '~ {-*-} (?)'.replace('*',e.v).replace('?',app.Config.synmap.find(i=> i.id == e.d).name)
       ).join('; ');
@@ -252,7 +255,7 @@ exports.wordPos = async function(word){
   for (const id in form) {
     if (form.hasOwnProperty(id)) {
       var row = {};
-      row.pos = app.Config.synset[id];
+      row.pos = app.Config.synset[id].name;
       row.v = form[id].map(
         e => '~ {-*-} (?)'.replace('*',e.v).replace('?',app.Config.synmap.find(i=> i.id == e.d).name)
       ).join('; ');
@@ -267,25 +270,25 @@ exports.wordPos = async function(word){
 // NOTE: admin
 exports.exportWord = async function(){
   // id AS w, word AS v, derived AS d  LIMIT 10;
-  throw '...needed to enable manually';
-  // await app.sql.query("SELECT id AS w, word AS v FROM ??;",[table.synset]).then(
-  //   async raw=>{
-  //     await writeJSON(glossary.synset,raw);
-  //     // await writeJSON('./test/words.json',raw);
-  //     console.info('words->synset',raw.length)
-  //   }
-  // ).catch(
-  //   e=>console.error(e)
-  // );
-  // await app.sql.query("SELECT word_id AS w, derive AS v, derive_type AS d, word_type AS t FROM ??;",[table.synmap]).then(
-  //   async raw=>{
-  //     // await writeJSON('./test/derives.json',raw);
-  //     await writeJSON(glossary.synmap,raw);
-  //     console.info('derives->synmap',raw.length)
-  //   }
-  // ).catch(
-  //   e=>console.error(e)
-  // );
+  // throw '...needed to enable manually';
+  await app.sql.query("SELECT id AS w, word AS v FROM ??;",[table.synset]).then(
+    async raw=>{
+      await writeJSON(glossary.synset,raw);
+      // await writeJSON('./test/words.json',raw);
+      console.info('words->synset',raw.length)
+    }
+  ).catch(
+    e=>console.error(e)
+  );
+  await app.sql.query("SELECT root_id AS w, word AS v, derived_type AS d, word_type AS t FROM ??;",[table.synmap]).then(
+    async raw=>{
+      // await writeJSON('./test/derives.json',raw);
+      await writeJSON(glossary.synmap,raw);
+      console.info('derives->synmap',raw.length)
+    }
+  ).catch(
+    e=>console.error(e)
+  );
 }
 
 exports.exportDefinition = async function(){

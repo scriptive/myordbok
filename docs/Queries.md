@@ -10,6 +10,30 @@ select word,name,sense_no,definition,example
 
 ```
 
+## tmp
+
+table
+
+derives -> derived (word_id -> id, word, derived -> is_derived)
+derivetype -> derived_type
+unique_words -> words
+word_types -> word_type
+
+```sql
+DELETE FROM `words` WHERE word REGEXP '^[0-9]+$';
+SELECT * FROM `words` WHERE word REGEXP '[^0-9].+';
+SELECT * FROM `words` WHERE word REGEXP '^[0-9]+$';
+
+SELECT *
+  FROM derives AS d, derivetype AS t
+    WHERE d.word LIKE '%ed' AND d.derived_type=t.derived_type;
+
+SELECT *
+  FROM derives AS d
+  INNER JOIN words w ON w.id = d.root_id
+    WHERE d.word LIKE '%tion';
+```
+
 ## Derived forms
 
 ```sql

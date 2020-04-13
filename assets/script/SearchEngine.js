@@ -62,6 +62,13 @@ export default {
       this.wordInput = this.q;
       if (this.q){
         this.suggestion = await this.$parent.suggestion(this.q);
+        // if (/[\u1000-\u109F]/.test(this.q)) {
+        //   // console.log('?',this.q)
+        //   this.suggestion = await this.$parent.orthword(this.q);
+        // } else {
+        //   this.suggestion = await this.$parent.suggestion(this.q);
+        // }
+        this.suggestion = await this.$parent.suggestion(this.q);
       } else {
         this.suggestion = this.history.slice(0, 10);
       }

@@ -21,6 +21,46 @@ routes.get('/', (req, res, next) => {
 //   ).catch(next)
 // });
 
+
+
+// /orths-:name
+routes.get('/orth', (req, res) => {
+  // req.params.name req.query.name
+  assist.orthCharacter(req.query.name).then(
+    raw=> res.send(raw)
+  ).catch(
+    ()=>res.status(404).end()
+  )
+});
+// orthword orthord orthnse orthble ortheak
+routes.get('/orth-word', (req, res) => {
+  assist.orthWord(req.query.ord).then(
+    raw=> res.send(raw)
+  ).catch(
+    ()=>res.status(404).end()
+  )
+});
+routes.get('/orth-sense', (req, res) => {
+  assist.orthSense(req.query.ord).then(
+    raw=> res.send(raw)
+  ).catch(
+    ()=>res.status(404).end()
+  )
+});
+routes.get('/orth-syllable', (req, res) => {
+  assist.orthSyllable(req.query.str).then(
+    raw=> res.send(raw)
+  ).catch(
+    ()=>res.status(404).end()
+  )
+});
+routes.get('/orth-break', (req, res) => {
+  assist.orthBreak(req.query.str).then(
+    raw=> res.send(raw)
+  ).catch(
+    ()=>res.status(404).end()
+  )
+});
 routes.get('/suggestion', (req, res) => {
   // req.cookies.solId
   assist.suggestion(req.query.q,res.locals.sol.id).then(

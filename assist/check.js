@@ -1,6 +1,6 @@
 const app = require('..');
 // const dictionary = require('./dictionary');
-const wordbreak = require('./wordbreak');
+const wordbreak = require('./wordbreak/');
 const search = require('./search');
 // const {glossary,dictionaries} = app.Config;
 // const fs = require('fs');
@@ -13,7 +13,7 @@ const dataJSON={
   result:[]
 };
 const readJSON = async (file) => await readFilePromise(file).then(e=>JSON.parse(e)).catch(()=>[]);
-const writeJSON = async (file,raw) => await writeFilePromise(file, JSON.stringify(raw,null,1)).then(()=>true).catch(()=>false);
+const writeJSON = async (file,raw) => await writeFilePromise(file, JSON.stringify(raw,null,2)).then(()=>true).catch(()=>false);
 
 const wordJSONAll = path.join(app.Config.media,'log','myordbok.word-all.json');
 const wordJSONTodo = path.join(app.Config.media,'log','myordbok.word-todo.json');
@@ -41,6 +41,12 @@ const searching = async function() {
 }
 
 
+exports.definition = async function(word){
+  var file = path.join(app.Config.media,'test','_definition_result.json');
+  dataJSON.result = await search(word);
+  await writeJSON(file,dataJSON.result);
+  return file;
+}
 exports.keyword = async function(e){
   var data = await readJSON(wordJSONAll);
   dataJSON.all = data.filter(w=>!/\s/.test(w) && !/\d/.test(w));

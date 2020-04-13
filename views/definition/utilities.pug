@@ -28,11 +28,17 @@ mixin notation(row)
             each num in row.alpha
               +wordlink(num)
 
-mixin thesaurus(row)
+mixin suggestion(row)
   if row.length
+    div.suggestion
+      p
+        each word in row
+          +wordlink(word)
+
+mixin thesaurus(row)
+  if row && row.length
     div.thesaurus.synonym
       h3 Thesaurus
-      //- dt
       div
         ol
           each word in row

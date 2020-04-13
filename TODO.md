@@ -42,6 +42,9 @@
     - [ ] noun
     - [ ] verb
     - [ ] adjective
+  - irregular
+    - [ ] noun
+    - [ ] verb
 
 - Admin
   - [x] import

@@ -1,10 +1,8 @@
 const dictionary = require('./dictionary');
-// const search = require('./search');
-// const speech = require('./speech');
+const orthography = require('./orthography');
 const thesaurus = require("thesaurus");
 const pluralize = require("pluralize");
-
-// const WordPOS = require('wordpos'), wordpos = new WordPOS();
+const grammar = require("./grammar");
 
 // NOTE: mean
 exports.suggestion = async (e,l) => await dictionary.word(e,l);
@@ -14,8 +12,8 @@ exports.search = require('./search');
 
 // NOTE: lang
 exports.getLangDefault = () => dictionary.getLangDefault;
-exports.getLangByName = (e) => dictionary.getLangByName(e);
-exports.getLangById = (e) => dictionary.getLangById(e);
+exports.getLangByName = dictionary.getLangByName;
+exports.getLangById = dictionary.getLangById;
 exports.getLangList = () => dictionary.getLangList;
 exports.getLangCount = () => dictionary.getLangCount;
 exports.getGrammar = async () => dictionary.getGrammar();
@@ -25,8 +23,16 @@ exports.getInfo = dictionary.getInfo;
 exports.visits = require('./visits');
 
 // NOTE: grammar
-exports.grammarMain = require('./grammar').main;
-exports.grammarPos = require('./grammar').pos;
+exports.grammarMain = grammar.main;
+exports.grammarPos = grammar.pos;
+
+// NOTE: myanmar Orthgraphy, etymology
+exports.orthCharacter = orthography.character;
+exports.orthWord = orthography.word;
+exports.orthSense = orthography.sense;
+exports.orthSyllable = orthography.syllable;
+exports.orthBreak = orthography.break;
+
 // NOTE: speech
 exports.speech = require('./speech');
 
@@ -38,7 +44,3 @@ exports.plural = async (e) => pluralize.plural(e);
 exports.singular = async (e) => pluralize.singular(e);
 exports.isPlural = async (e) => pluralize.isPlural(e);
 exports.isSingular = async (e) => pluralize.isSingular(e);
-
-// NOTE: wordpos getPos findPos
-// exports.pos = async (e) => wordpos.getPOS(e);
-// exports.lookup = async (e) => wordpos.lookup(e);

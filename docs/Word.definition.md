@@ -37,11 +37,12 @@ nou | -ness | မှု
 
 Phrase | regex
 ---|---
-another term for x | [~:x] နှင့် ကြောင်းတူစကားလုံး
-- | [~:word] နှင့် ကြောင်းတူစကားလုံး
-- | [~:word] နှင့်စပ်လျဉ်း
+of or relating/pertaining to sth | [~:sth]နှင့် ဆက်စပ်သော / သက်ဆိုင်သော
+another term/word for sth | [~:sth] နှင့် ကြောင်းတူစကားလုံး
+* | [~:word] နှင့် ကြောင်းတူစကားလုံး
+* | [~:word] နှင့်စပ်လျဉ်း
 or | (သို့)
-- | သို့မဟုတ်
+* | သို့မဟုတ်
 and | နှင့်
 it | ၏ ၎င်း
 un- | မ
@@ -80,7 +81,198 @@ Prefix | usage
 ရှင်းရှင်းလင်းလင်း ထုတ်ဖော်ပြောဆိုသူ
 
 > see
-task: VACCINE, criti, fates
+ing: ings,
+tive: tives
+ize: ize -ise
+? parcel
+task: VACCINE, criti, fates, palm, highlights, entering, hurts, hurting
+other: worded various turgid variable  hydroelectric sub
+
+a transverse beam.
+
+ကန့်လန့်ဖြတ်ရောင်ခြည်
+
+gnarly 2
+အဖုအဆစ်ပါသော
+ခက်ခဲသော
+ခက်ခဲ
+[see:energize]
+
+တားဆီးခြင်း
+နှောင့်ယှက်ခြင်း
+eager
+ardent
+fervent
+fervid
+ardently
+ထက်ထက်သန်သန်
+ရသစာပေ
+literature
+စာပေ
+evildoing
+ဒုစရိုက်အကျင့်ကိုကျင့်ကြံခြင်း
+stagey [see:stagy]
+evilness
+ယုတ်မာခြင်း
+ဆိုးခြင်း
+[see:laughing stock]
+laughing-stock
+subroutine
+subprogram
+ပရိုဂရမ်၏ အစိတ်အပိုင်း
+လုပ်ရိုးလုပ်စဉ်၏ အစိတ်အပိုင်း
+maturement
+ရင့်ကျက်ခြင်း
+မူလ။ အစ။ အကြောင်းရင်း။ ဇာစ်မြစ်။ အရင်းအမြစ်။
+
+သတ္တဗေဒနှင့်စပ်ဆိုင်သော။
+ဇီဝဗေဒ
+ontogeny
+the branch of biology that deals with ontogenesis.
+ဇီဝဗေဒနှင့်ဆိုင်သော အင်္ဂါရပ်ဖွံ့ဖြိုးတိုးတက်မှု
+another term for ontogenesis.
+
+ontogenesis
+
+သတ္တဗေဒနှင့်စပ်ဆိုင်သော အင်္ဂါရပ်ဖွံ့ဖြိုးတိုးတက်မှု၏ အစောပိုင်းကာလ
+တစ် ဦး ချင်းသက်ရှိသို့မဟုတ်ရင့်ကျက်ဖို့အစောဆုံးအဆင့်ကနေခန္ဓာဗေဒသို့မဟုတ်အမူအကျင့်အင်္ဂါရပ်၏ဖွံ့ဖြိုးတိုးတက်မှု။
+
+florescence
+efflorescence
+ပန်းပွင့်စ ကာလ
+ပန်းပွင့်ဖြစ်စဉ်
+
+histrio
+histrion ဇာတ်သမား
+a theatrical performer
+motile
+
+သိမြင်သိမှတ်နားလည်ခြင်း
+
+အလိုအလျောက်ရွေ့လျားနိုင်ခြင်း
+သက်ရှိနှင့်ဆိုင်သော အလိုအလျောက်ရွေ့လျားနိုင်မှု
+motility
+potently
+locomotor
+ရွေ့လျားနိုင်မှုနှင့်ဆိုင်သော
+
+စွမ်းသန်မှု။ ပြင်းထန်မှု။ စွမ်းဆောင်နိုင်မှု။
+categorise
+categorize
+စိတ်ဝင်စားမူ
+
+အမျိုးမျိုးဖြစ်သော
+turgid 2
+ဟိတ်ဟန်များသော
+ရောင်ရမ်းသော၊ သိပ်သည်းသော
+distended သို့မဟုတ်သိပ်သည်းသော
+
+pompous ဟိတ်ဟန်များသော
+swollen
+bombastically
+စကားကြီးစကားကျယ်စွာ
+
+waxlike
+astringe
+excogitate
+/definition?q=contribution
+/definition?q=chemical+
+1
+/definition?q=encapsulated
+flatulate 0
+
+စအိုမှတဆင့်အူလမ်းကြောင်းဓာတ်ငွေ့ထုတ်ပယ်ခြင်း
+
+စအိုမှတဆင့် စအိုဝသို့ဓာတ်ငွေ့ထုတ်ပယ်ခြင်း
+
+anything silly, ridiculous, incredible
+1
+/definition?q=grave
+1
+tailored 2
+လိုက်ဖက်အောင် ချုပ်ထားခြင်း
+
+stagecoach
+မြင်းလှည်း
+
+intellection
+စိတ်ကူးစိတ်သန်းဆန့်ကျင်အဖြစ်နားလည်မှု၏အရေးယူဆောင်ရွက်မှုသို့မဟုတ်ဖြစ်စဉ်ကို။
+
+စိတ်ကူးစိတ်သန်းနှင့် ခြားနားသော အကောင်အထည်ဖော်ပြခြင်း
+ဆောင်ရွက်
+
+stagecoach
+(ရှေး) ပုံမှန်လမ်းကြောင်း ပြေးဆွဲသည့်ရထားလုံး။ ရထားလုံး။
+
+(မြင်းလှည်း) ရထားလုံး
+
+ယခင်ကခရီးသည်များသယ်ဆောင်ရန်နှင့်နေရာနှစ်ခုအကြားပုံမှန်လမ်းကြောင်းတလျှောက်စာပို့လေ့ရှိသည့်တံခါးပိတ်မြင်းဆွဲကားကြီးတစ်စင်း။
+
+လက်ကိုင်ပါသောသတ္တုပုံး
+
+COAL-SCUTTLE
+/definition?q=scuttle
+1
+/definition?q=shipment
+1
+
+
+enquire
+
+heartstring 0
+
+(ခံစားချက်)
+နှလုံးရောဂါ
+
+inebriant
+မူးမော်စေသော
+မူးမော်စေသော
+မူးစေသော အရာ
+
+မူးစေသော အရာ
+မူးမော်ခြင်း
+မူးခြင်း
+noun
+an intoxicant.
+adjective
+inebriating; intoxicating.
+
+Paso
+စဉ်းစား၊ စီစဉ်၊ ကြံစည်သည်
+
+lengthwise 2
+အလျားလိုက်ရွေ့လျားသော
+
+အဏုမြူစွမ်းအင်ကဲ့သို့ သေးငယ်သော
+
+[~:
+
+constatare
+သေချာစေ[သည်]၊ အတည်ပြု[သည်]
+administrable
+အုပ်ချုပ်နိုင်သော
+
+နိုင်သော။
+
+locomote
+နေရာရွေ့လျား[သည်]
+
+တင်းကျပ်၊ ချုံ့[စေသည်]
+constricted ချုံု့ထားသော။ constrictive ကျုံ့စေသော။
+တင်းကျပ်သည်
+
+ဖယောင်းကဲ့သို့ တောက်ပသော
+
+lipoid
+အဆီပုံနဲ့တူသော
+ဆက်စပ်သောသို့မဟုတ်အဆီပုံနဲ့တူ။
+ceraceous
+
+waxlike; waxy:
+
+မြက်နှင့် ဆက်စပ်သော
+မြက်(အပင်)နှင့် သက်ဆိုင်သော
+gramineous
 
 adjuvant
 antigen များအားဆန့်ကျင်။ ခုခံအားတုန့်ပြန်မှုများကိုမြှင့်တင်ပေးသည့်ပစ္စည်းဖြစ်သည်။
@@ -96,13 +288,10 @@ verticillus
 A whorl; a verticil.
 a [list:whorl\verticil]
 
-/definition?q=crisis
 davy
 ကျမ်းကျိန်လွှာ
 anent 4
 SCOTTISH
-
-
 
 (SCOTTISH) အကြောင်းအရာ၊ နှင့်ပတ်သက်၍
 အကြောင်း အကြောင်း။
