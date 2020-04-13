@@ -163,14 +163,23 @@ async function hasDefinition(raw,wordNormal){
 
 async function getDefinition(raw,wordNormal){
   var status=false;
+  var isBaseWord=false;
   if (raw.find(e=>e.word == wordNormal)) {
     // NOTE: clue for current word is already push!
     return status;
   }
   var wordSyns = await dictionary.wordPos(wordNormal);
+  // var wordSyns = {pos:[]};
   if (!wordSyns.pos.length) {
+    isBaseWord=true;
     wordSyns = await dictionary.wordBase(wordNormal);
   }
+  // raw.push({
+  //   word: 'tmp',
+  //   type:0,
+  //   clue: wordSyns
+  // });
+
 
   var wordMeaning = await rowDefinition({Pos:wordSyns.form,meaning:null,notation:null},wordNormal);
 
@@ -185,11 +194,13 @@ async function getDefinition(raw,wordNormal){
 
   } else if (wordSyns.root.length) {
     // NOTE: has root word found
+    // If has no definition -> parcelings parcellings ->
     var hasMultiRoot = wordSyns.root.length > 1;
+    // console.log('2?')
     if (hasMultiRoot){
       // NOTE: leaves -> leaf, leave
       var baseGrammar = wordSyns.pos.map(e=>e.t).filter((v, i, a) => a.indexOf(v) === i).map(
-        e=>app.Config.synset[e]
+        e=>app.Config.synset[e].name
       );
       var baseWords = wordSyns.pos.map(
         e=>e.v
@@ -201,29 +212,30 @@ async function getDefinition(raw,wordNormal){
         // NOTE: wind[2], gods Gods
         e=>e.replace(/\[(.+?)\]/g, "").toLowerCase()
       ).filter((v, i, a) => a.indexOf(v) === i);
-
-      raw.push({
-        word: wordNormal,
-        type:2,
-        clue: {
-          formOf:baseWords.map(
-            e => '<i>*</i> is derived from !, as in ?.'.replace('*',e).replace('!',wordSyns.root.map(
-              s=>'{-*-}'.replace('*',s)
-            ).join(', ')).replace('?',baseGrammar.join(', '))
-          )
-        }
-      });
+      // console.log('2')
+      // raw.push({
+      //   word: wordNormal,
+      //   type:2,
+      //   clue: {
+      //     formOf:baseWords.map(
+      //       e => '<i>*</i> is derived from !, as in ?.'.replace('*',e).replace('!',wordSyns.root.map(
+      //         s=>'{-*-}'.replace('*',s)
+      //       ).join(', ')).replace('?',baseGrammar.join(', '))
+      //     )
+      //   }
+      // });
 
     }
     // MIND: coloring material
     for (const word of wordSyns.root) {
+      // console.log('??',word)
       var row = await rowDefinition({Pos:wordSyns.form,meaning:null,notation:null},word);
       if (row.meaning || row.notation){
         status=true;
-        if (hasMultiRoot){
-          // TODO: avoid delete
-          delete row.formOf;
-        }
+        // if (hasMultiRoot){
+        //   // TODO: avoid delete
+        //   delete row.formOf;
+        // }
         raw.push({
           word: word,
           type:3,
@@ -232,7 +244,59 @@ async function getDefinition(raw,wordNormal){
       }
     }
 
-    if (wordMeaning.thesaurus){
+    // NOTE: suggestion
+    // false parceling parceling
+    // true parcelings parceling
+    // lovings
+    if (!raw.length){
+      var rawType = 6;
+      if (isBaseWord == true){
+        wordSyns = await dictionary.wordBase(wordSyns.root[0]);
+        // var tmp = await dictionary.wordPos(wordSyns.root[0]);
+        // wordMeaning.suggestion = wordSyns.root.map(e=>'~ {-*-}'.replace('*',e)).join('; ');
+
+        // wordMeaning.suggestion = wordSyns.root;
+      } else {
+        rawType = 7;
+        wordSyns = await dictionary.wordBase(wordNormal);
+        // var tmp = await dictionary.wordPos(wordSyns.root[0]);
+        // // wordMeaning.suggestion = utility.arrays.group(tmp.form, 'pos',true);
+        // // wordMeaning.suggestion = tmp.form.map(e=>e.v);
+        // var valu  = wordSyns.root.map(e=>'~ {-*-}'.replace('*',e)).join('; ');
+        // var exam = tmp.form.map(e=>e.v);
+        // wordMeaning.suggestion.push({v:valu,exam:exam})
+      }
+      // wordSyns = await dictionary.wordBase(wordNormal);
+      // raw.push({
+      //   word: 'tmp',
+      //   type:0,
+      //   clue: wordSyns
+      // });
+      // return await getDefinition(raw,wordSyns.root[0])
+      // status = true;
+      // raw.push({
+      //   word: wordNormal,
+      //   type:6,
+      //   tmp:true,
+      //   clue: {
+      //     suggestion:wordSyns.root,
+      //     meaning:utility.arrays.group(wordSyns.form, 'pos',true)
+      //   }
+      // });
+      // wordMeaning
+      // wordSyns.form = wordSyns.form.concat(wordMeaning.Pos);
+      if (wordSyns.root.length){
+        status = true;
+      }
+      wordSyns.form = wordSyns.form.concat(wordMeaning.Pos);
+      wordMeaning.suggestion = wordSyns.root;
+      wordMeaning.meaning = utility.arrays.group(wordSyns.form, 'pos',true);
+      raw.push({
+        word: wordNormal,
+        type:rawType,
+        clue: (({ suggestion, meaning, thesaurus }) => ({ suggestion, meaning, thesaurus }))(wordMeaning)
+      });
+    } else if (wordMeaning.thesaurus){
       raw.push({
         word: wordNormal,
         type:4,
@@ -251,10 +315,12 @@ async function getDefinition(raw,wordNormal){
           clue: row
         });
         status = true;
+      } else {
+        // NOTE lovings
+        return await getDefinition(raw,wordSingular)
       }
     }
   }
-
   return status;
 }
 
