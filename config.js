@@ -48,11 +48,25 @@ module.exports = {
       }
     ],
     synset:[
-      'Noun','Verb','Adjective','Adverb',
-      'Preposition','Conjunction','Pronoun','Interjection','Abbreviation','Prefix',
-      'Combining form','Phrase','Contraction',
-      'Adjective suffix','Noun suffix','Verb suffix',
-      'Acronym','Article','Int'
+      { name: "Noun", shortname: "n" },
+      { name: "Verb", shortname: "v" },
+      { name: "Adjective", shortname: "adj" },
+      { name: "Adverb", shortname: "adv" },
+      { name: "Preposition", shortname: "prep" },
+      { name: "Conjunction", shortname: "conj" },
+      { name: "Pronoun", shortname: "pron" },
+      { name: "Interjection", shortname: "int" },
+      { name: "Abbreviation", shortname: "abb" },
+      { name: "Prefix", shortname: null },
+      { name: "Combining form", shortname: null },
+      { name: "Phrase", shortname: 'phra' },
+      { name: "Contraction", shortname: null },
+      { name: "Punctuation", shortname: "punc" },
+      { name: "Particle", shortname: "part" },
+      { name: "Post-positional Marker", shortname: "ppm" },
+      { name: "Acronym", shortname: null },
+      { name: "Article", shortname: null },
+      { name: "Number", shortname: "tn" }
     ],
     synmap:[
       { id: 0, type: 0, name: "er/ly??"},
@@ -75,6 +89,11 @@ module.exports = {
       synmap:'synmap.json', //derives
       zero:'zero.EN.csv', //no result
       info:'info.EN.json'
+    },
+    orthography:{
+      character:'character.json',
+      word:'word.json',
+      sense:'sense.json'
     }
     // grammar:{
     //   live:'live.json',
