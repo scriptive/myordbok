@@ -1,109 +1,39 @@
 const app = require('..');
-const {glossary,dictionaries} = app.Config;
-const fs = require('fs');
+// const {glossary} = app.Config;
+
+// const fs = require('fs');
 // const util = require('util');
-const path = require('path');
-const {utility,readFilePromise,writeFilePromise} = app.Common;
+// const path = require('path');
 
-const table={ senses:'senses', other:'ord_0', synset:'words', synmap:'derives'};
+const {utility} = app.Common;
 
-glossary.word = path.join(app.Config.media,'glossary',glossary.word);
-glossary.sense = path.join(app.Config.media,'glossary',glossary.sense);
-glossary.usage = path.join(app.Config.media,'glossary',glossary.usage);
-glossary.synset = path.join(app.Config.media,'glossary',glossary.synset);
-glossary.synmap = path.join(app.Config.media,'glossary',glossary.synmap);
-glossary.zero = path.join(app.Config.media,'glossary',glossary.zero);
-glossary.info = path.join(app.Config.media,'glossary',glossary.info);
+const {table,docket,makeup,fileName,chat,language,information} = require("./dictionary.Config");
 
-// getJSON,  writeJSON, readJSON watchJSON  dataJSON,
-var dataJSON={};
-const writeJSON = async (file,raw,ind=0) => await writeFilePromise(file, JSON.stringify(raw,null,ind)).then(()=>true).catch(()=>false);
-const readJSON = async (file) => await readFilePromise(file).then(e=>JSON.parse(e)).catch(()=>[]);
-const watchJSON = (file,id) => fs.watchFile(file, async () => dataJSON[id]=await readJSON(file));
+const lID = language.default.id;
+const clue = require("./dictionary.clue");
+const save = require("./dictionary.save");
+const partOfSpeech = require("./dictionary.pos");
 
-async function getJSON(file,watch){
-  var id = path.parse(file).name;
-  if (dataJSON.hasOwnProperty(id)){
+// docket.get(glossary.word,true);
+// docket.get(glossary.sense,true);
+// docket.get(glossary.usage,true);
 
-    return dataJSON[id];
-  } else if (fs.existsSync(file)) {
-    dataJSON[id] = await readJSON(file);
-    if (watch) watchJSON(file,id);
-    return dataJSON[id];
-  } else {
-    return [];
-  }
-}
-const formatLink = (str) => {
-  return str.replace(/\[(.*?)\]/g, function(s,t) {
-    var [name,e] = t.split(':');
-    // NOTE: [also:creative]
-    if (e) {
-      var links = e.split('/').map((word) => '{-*-}'.replace(/\*/g,word)).join(', ');
-      if (name == 'list'){
-        return links;
-      } else {
-        return '0 1'.replace(0,name).replace(1,links);
-      }
-    } else {
-      return s;
-    }
-  });
-}
-const formatSense = (str) => formatLink(str);
-const formatUsage = (exam) => formatLink(exam).split("\r\n").map(e=>e.trim());
+exports.lang = language;
 
-const getLangDefault = dictionaries.map(
-  continental => continental.lang.filter(
-    lang => lang.hasOwnProperty('default')
-  )
-).reduce((prev, next) => prev.concat(next),[]).find(l=>l.id);
+exports.grammar = () => app.Config.synset.map((v,index) =>(v.id=index,v));
+exports.wordFind = (q,l) => docket.get(fileName.word(l)).then(e=>e.find(e=>chat.compare(e.v,q))).catch(()=>null);
 
-const getFileName = (file,name=getLangDefault.id) => file.replace(/EN/, name);
-// const getWordFile = (lang) => glossary.word.replace('en',lang);
-const getWordFile = (lang) => getFileName(glossary.word,lang);
-const getInfoFile = (lang) => getFileName(glossary.info,lang);
-const getZeroFile = (lang) => getFileName(glossary.zero,lang);
-const hasWordMatch = (s,t) => s.toLowerCase() == t.toLowerCase();
-
-// getJSON(glossary.word,true);
-// getJSON(glossary.sense,true);
-// getJSON(glossary.usage,true);
-
-exports.getLangDefault = getLangDefault;
-
-exports.getLangByName = (e) => dictionaries.map(
-  continental => continental.lang.filter(
-    lang => new RegExp(e, 'i').test(lang.name)
-  )
-).reduce((prev, next) => prev.concat(next),[]).find(l=>l.id);
-
-exports.getLangById = (e) => dictionaries.map(
-  continental => continental.lang.filter(
-    lang => lang.id == e
-  )
-).reduce((prev, next) => prev.concat(next),[]).find(l=>l.id);
-
-exports.getLangList = dictionaries;
-exports.getLangCount = dictionaries.map(continental => continental.lang.length).reduce((a, b) => a + b,0);
-// exports.getLangCount = Object.keys(dictionaries_delete).map(continental => Object.keys(dictionaries_delete[continental]).length).reduce((a, b) => a + b,0);)
-
-// exports.word = (keyword) => dataJSON.en.filter(e=>e.v.toLowerCase().startsWith(keyword.toLowerCase())).map(e=>e.v).slice(0,10);
-exports.word = async (q,l) => await getJSON(getWordFile(l)).then(e=>e.filter(e=>e.v.toLowerCase().startsWith(q.toLowerCase())).map(e=>e.v).slice(0,10)).catch(()=>[]);
-// exports.wordFind = (q,l) => getJSON(getWordFile(l)).then(e=>e.find(e=>e.v.toLowerCase() == q.toLowerCase())).catch(()=>null);
-exports.wordFind = (q,l) => getJSON(getWordFile(l)).then(e=>e.find(e=>hasWordMatch(e.v,q))).catch(()=>null);
-
-// exports.getGrammar = () => app.Config.synset.map((v,index) => ({id:index,name:v}));
-exports.getGrammar = () => app.Config.synset.map((v,index) =>(v.id=index,v));
+// NOTE: suggestion (api)
+exports.suggestion = async (q,l) => await docket.get(fileName.word(l)).then(e=>e.filter(e=>e.v.toLowerCase().startsWith(q.toLowerCase())).map(e=>e.v).slice(0,10)).catch(()=>[]);
 
 // NOTE: translation
-exports.translation = async function(keyword,lang=getLangDefault.id){
+exports.translation = async function(keyword,lang=lID){
   var raw = [];
-  if (lang == getLangDefault.id) return raw;
-  const row = await getJSON(getWordFile(lang));
+  if (lang == lID) return raw;
+  const row = await docket.get(fileName.word(lang));
 
-  row.filter(e=> hasWordMatch(keyword,e.v)).forEach(function(w){
-    var i = raw.findIndex(e=>e.hasOwnProperty('v') && hasWordMatch(w.v,e.v)), src = w.e.split(',');
+  row.filter(e=> chat.compare(keyword,e.v)).forEach(function(w){
+    var i = raw.findIndex(e=>e.hasOwnProperty('v') && chat.compare(w.v,e.v)), src = w.e.split(',');
     if (i >= 0){
       raw[i].e = utility.arrays.unique(raw[i].e.concat(src));
     } else {
@@ -113,268 +43,38 @@ exports.translation = async function(keyword,lang=getLangDefault.id){
   return raw;
 }
 
-// NOTE: save (zero)
-exports.save = async function(keyword,lang){
-  var addWord = true;
-  var file = getZeroFile(lang);
-  keyword = keyword.replace(/\W/g, '').toLowerCase();
-  function write(){
-    var createStream = fs.createWriteStream(file,{flags:'a',encoding:'utf8'});
-    createStream.write(keyword);
-    createStream.write('\n');
-    createStream.end();
-  }
-  function read(){
-    return require('readline').createInterface({
-      input: fs.createReadStream(file)
-    });
-  }
-
-  fs.access(file, (e) => {
-    if (e) {
-      write();
-    } else {
-      var reader = read();
-      reader.on('line', (word) => {
-        if (word == keyword){
-          addWord = false;
-          reader.close();
-          reader.removeAllListeners();
-        }
-      }).on('close', () => {
-        if (addWord) write();
-      });
-    }
-  });
-}
-
-// NOTE: read (info)
-exports.getInfo = async function(res){
-  return await readFilePromise(getInfoFile(res.sol.id)).then(e=>JSON.parse(e)).catch(()=>new Object());
-}
-
-async function wordMeanJSON(word,_watchData){
-  // await getJSON(glossary.word,_watchData);
-  await getJSON(getWordFile('en'),_watchData);
-  await getJSON(glossary.sense,_watchData);
-  await getJSON(glossary.usage,_watchData);
-
-  var raw = dataJSON.en.find(e=> hasWordMatch(word,e.v));
-  if (raw){
-    return dataJSON.sense.filter(d=> d.w == raw.w).map(function(d){
-      d.pos = app.Config.synset[d.t].name;
-      var exam = dataJSON.usage.filter(m=> m.i == d.i).map(y=>formatUsage(y.v));
-      d.exam = [].concat.apply([], exam);
-      return (({ v, pos, exam }) => ({ v, pos, exam }))(d);
-    });
-    // return utility.arrays.group(row, 'pos',true);
-  }
-  return null;
-}
-async function wordMeanMySQL(word){
-  var raw = await app.sql.query("SELECT word AS w, tid AS pos, sense AS v,exam FROM ?? WHERE word LIKE ? ORDER BY tid, seq;",[table.senses,word]);
-  if (raw.length){
-    return raw.map(function(d){
-      d.pos = app.Config.synset[d.pos].name;
-      d.v = formatSense(d.v);
-      if (d.exam) {
-        d.exam = formatUsage(d.exam);
-      } else {
-        d.exam = [];
-      }
-      return (({ v, pos, exam }) => ({ v, pos, exam }))(d);
-    });
-    // return utility.arrays.group(row, 'pos',true);
-  }
-  return null;
-}
-
 // NOTE: definition
 exports.definition = async function(word,liveData=true){
   // OPTION: app.Config.development, app.Config.mysqlConnection
   try {
     if (app.Config.mysqlConnection && liveData == true){
-      return await wordMeanMySQL(word);
+      return await clue.fromMySQL(word);
     } else {
-      return await wordMeanJSON(word,false);
+      return await clue.fromJSON(word,false);
     }
   } catch (error) {
-    return null;
+    return [];
   }
 }
 
-exports.wordBase = async function(word){
-  var result = {
-    // root, pos, form
-    form:[]
-  };
-  const synset = await getJSON(glossary.synset);
-  const synmap = await getJSON(glossary.synmap);
-
-  result.pos = synmap.filter(
-    s => hasWordMatch(s.v,word) && s.t < 10 && synset.filter(e=>e.w == s.w).length
-  );
-
-  var form = utility.arrays.group(result.pos, 't');
-  for (const id in form) {
-    if (form.hasOwnProperty(id)) {
-      var row = {};
-      row.pos = app.Config.synset[id].name;
-      row.v = form[id].map(
-        e => '~ {-*-} (?)'.replace('*',e.v).replace('?',app.Config.synmap.find(i=> i.id == e.d).name)
-      ).join('; ');
-      row.exam=[];
-      result.form.push(row)
-    }
-  }
-
-  result.root =  result.pos.map(
-    e => synset.find(s=>s.w == e.w)
-  ).map(e=>e.v).filter((v, i, a) => a.indexOf(v) === i);
-  return result;
+exports.wordCategory = function(raw,arr){
+  // term.replace(/\[.*\]/g, ''),
+  utility.arrays.category(arr, o => o.term).forEach((row,term) => {
+    var data = {word: term,clue:{}};
+    utility.arrays.category(row, o => o.type).forEach((row,type) => {
+      data.clue[type]=utility.arrays.group(row, 'pos',true);
+    });
+    raw.push(data)
+  });
 }
 
-exports.wordPos = async function(word){
-  var result = {
-    // root, pos, form
-    form:[]
-  };
 
-  const synset = await getJSON(glossary.synset);
-  const synmap = await getJSON(glossary.synmap);
+exports.wordPos = partOfSpeech.main;
+exports.wordThesaurus = clue.wordThesaurus;
+exports.wordNumber = clue.wordNumber;
 
-  var root = synset.filter(
-    s => hasWordMatch(s.v,word)
-  );
+// NOTE: save (zero)
+exports.save = save;
 
-  result.pos = synmap.filter(
-    m => m.d > 0 && root.filter(e=>e.w == m.w).length
-  );
-
-  var form = utility.arrays.group(result.pos, 't');
-  for (const id in form) {
-    if (form.hasOwnProperty(id)) {
-      var row = {};
-      row.pos = app.Config.synset[id].name;
-      row.v = form[id].map(
-        e => '~ {-*-} (?)'.replace('*',e.v).replace('?',app.Config.synmap.find(i=> i.id == e.d).name)
-      ).join('; ');
-      row.exam=[];
-      result.form.push(row)
-    }
-  }
-  result.root = root.map(e=>e.v).filter((v, i, a) => a.indexOf(v) === i);
-  return result;
-}
-
-// NOTE: admin
-exports.exportWord = async function(){
-  // id AS w, word AS v, derived AS d  LIMIT 10;
-  // throw '...needed to enable manually';
-  await app.sql.query("SELECT id AS w, word AS v FROM ??;",[table.synset]).then(
-    async raw=>{
-      await writeJSON(glossary.synset,raw);
-      // await writeJSON('./test/words.json',raw);
-      console.info('words->synset',raw.length)
-    }
-  ).catch(
-    e=>console.error(e)
-  );
-  await app.sql.query("SELECT root_id AS w, word AS v, derived_type AS d, word_type AS t FROM ??;",[table.synmap]).then(
-    async raw=>{
-      // await writeJSON('./test/derives.json',raw);
-      await writeJSON(glossary.synmap,raw);
-      console.info('derives->synmap',raw.length)
-    }
-  ).catch(
-    e=>console.error(e)
-  );
-}
-
-exports.exportDefinition = async function(){
-  // NOTE: info record
-  // var infoFile = getFileName(glossary.info);
-  var infoFile = getInfoFile();
-  var infoRaw = await readJSON(infoFile);
-  function _record_info(identity,digit){
-    infoRaw.info.progress.map(
-      e=> {
-        if (e.id && e.id == identity){
-          e.status = digit;
-        }
-      }
-    )
-  }
-
-  // NOTE: reset wid
-  await app.sql.query('UPDATE ?? AS o INNER JOIN (select id,word from ?? GROUP BY word ) AS i ON o.word = i.word SET o.wid = i.id;',[table.senses,table.senses]).then(
-    ()=>{
-      console.log('reset wid')
-    }
-  ).catch(
-    e=>console.error(e)
-  );
-  await app.sql.query('SELECT wid AS w, word AS v FROM ?? GROUP BY wid ORDER BY word ASC;',[table.senses]).then(
-    async raw=>{
-      // var _wi = getFileName(glossary.word);
-      var _wi = getWordFile();
-      await writeJSON(_wi,raw);
-      _record_info('word',raw.length);
-      console.log('en(word):',raw.length,_wi)
-    }
-  ).catch(
-    e=>console.error(e)
-  );
-  await app.sql.query('SELECT id AS i, wid AS w, tid AS t, sense AS v FROM ?? WHERE sense IS NOT NULL',[table.senses]).then(
-    async raw=>{
-      await writeJSON(glossary.sense,raw);
-      _record_info('sense',raw.length);
-      console.log('sense:',raw.length,glossary.sense)
-    }
-  ).catch(
-    e=>console.error(e)
-  );
-  await app.sql.query("SELECT id AS i, exam AS v FROM ?? WHERE exam IS NOT NULL AND exam <> '';",[table.senses]).then(
-    async raw=>{
-      await writeJSON(glossary.usage,raw);
-      _record_info('usage',raw.length);
-      console.log('usage:',raw.length,glossary.usage)
-    }
-  ).catch(
-    e=>console.error(e)
-  );
-  await writeJSON(infoFile,infoRaw,2);
-  console.log('info:',infoFile)
-}
-
-exports.exportTranslation = async function(e){
-  for (const continental of dictionaries) {
-    for (const lang of continental.lang) {
-      if (!lang.hasOwnProperty('default')) {
-        var infoFile = getInfoFile(lang.id);
-        var infoRaw = await readJSON(infoFile);
-        await app.sql.query("SELECT word AS v, sense AS e FROM ?? WHERE word IS NOT NULL AND sense IS NOT NULL AND sense <> '';",[table.other.replace(0,lang.id)]).then(
-          raw=>{
-            writeJSON(getWordFile(lang.id),raw);
-            console.info('done',lang.id,raw.length)
-
-            infoRaw.info.progress.map(
-              e=> {
-                if (e.id && e.id == 'word'){
-                  e.status = raw.length;
-                }
-              }
-            )
-            // console.info('done',lang.id,raw.length)
-          }
-        ).catch(
-          e=>console.error(e)
-        );
-        await writeJSON(infoFile,infoRaw,2);
-      } else {
-        console.info('skip',lang.id)
-      }
-    }
-  }
-  return Object.keys(dataJSON).length;
-}
+// NOTE: read (info)
+exports.information = information;
