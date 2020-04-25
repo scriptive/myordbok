@@ -1,6 +1,8 @@
 const dictionary = require('./dictionary');
+const ship = require('./dictionary.export');
+const admin = require('./dictionary.admin');
 // const search = require('./search');
-const check = require('./check');
+const test = require('./test');
 // const thesaurus = require("thesaurus");
 const pluralize = require("pluralize");
 // const WordPOS = require('wordpos'), wordpos = new WordPOS();
@@ -8,19 +10,20 @@ const pluralize = require("pluralize");
 exports.main = async () => '?';
 
 exports.wordPos =  async (e) => await dictionary.wordPos(e);
-exports.wordBase =  async (e) => await dictionary.wordBase(e);
 exports.definition =  async (e) => await dictionary.definition(e,false);
 
 // NOTE: admin
 // node run export_definition
 // synset synmap
-exports.export_word = async () => await dictionary.exportWord();
+exports.export_word = async () => await ship.exportWord();
 // ar da de el no ja... except en
-exports.export_translation = async (e) => await dictionary.exportTranslation(e);
+exports.export_translation = async (e) => await ship.exportTranslation(e);
 // en sense usage
-exports.export_definition = async () => await dictionary.exportDefinition();
+exports.export_definition = async () => await ship.exportDefinition();
 // myanmar grammar
 exports.export_grammar = async () => await require('./grammar').exportGrammar();
+//  MySQL replace sense column format
+exports.admin_makeup_sense = async (e) => await admin.makeupSense(e);
 
 
 // node run suggestion "l"
@@ -36,14 +39,14 @@ exports.export_grammar = async () => await require('./grammar').exportGrammar();
 // exports.getLangById = (e) => dictionary.getLangById(e);
 
 // NOTE: testing
+exports.test_definition = test.definition;
+exports.test_match = test.match;
 // node run search
 exports.search = async (e) => require('./search')(e);
 exports.wordbreak = async (e) => require('./wordbreak/')(e);
 exports.wordbreak_test = async (e) => require('./wordbreak/test')(e);
-
-exports.check_definition = check.definition;
-// exports.check_keyword = async (e) => await check.keyword(e);
-// exports.check_wordbreak = async (e) => await check.wordbreak(e);
+// exports.test_keyword = async (e) => await test.keyword(e);
+// exports.test_wordbreak = async (e) => await test.wordbreak(e);
 // node run orthography
 exports.orth_sea = async (e) => await require('./orthCliSea')(e);
 exports.orth_ord = async (e) => await require('./orthCliOrd')(e);
