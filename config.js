@@ -69,17 +69,17 @@ module.exports = {
       { name: "Number", shortname: "tn" }
     ],
     synmap:[
-      { id: 0, type: 0, name: "er/ly??"},
-      { id: 1, type: 0, name: "Plural"},
-      { id: 2, type: 1, name: "3rd Person"},
-      { id: 3, type: 1, name: "Past Tense" },
-      { id: 4, type: 1, name: "Past Participle"},
-      { id: 5, type: 1, name: "Present Participle"},
-      { id: 6, type: 2, name: "Comparitive"},
-      { id: 7, type: 2, name: "Superlative"},
-      { id: 8, type: 1, name: "1st Person"},
-      { id: 9, type: 1, name: "2nd Person"},
-      { id: 10, type: 1, name: "Plural Past"}
+      { id: 0, type: 1, name: "past and past participle"}, //er/ly??
+      { id: 1, type: 0, name: "plural"},
+      { id: 2, type: 1, name: "3rd person"},
+      { id: 3, type: 1, name: "past tense" },
+      { id: 4, type: 1, name: "past participle"},
+      { id: 5, type: 1, name: "present participle"},
+      { id: 6, type: 2, name: "comparative"},
+      { id: 7, type: 2, name: "superlative"},
+      { id: 8, type: 1, name: "1st person"},
+      { id: 9, type: 1, name: "2nd person"},
+      { id: 10, type: 1, name: "plural past"}
     ],
     glossary:{
       word:'EN.json',
