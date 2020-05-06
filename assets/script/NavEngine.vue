@@ -7,22 +7,28 @@
 <script>
 export default {
   name: 'NavEngine',
-  // props: ['showMobileMenu'],
   data: () => ({
     show:false
   }),
   methods:{
     navToggle(){
       this.show = !this.show;
-      console.log('nav toggle',this.show)
-
-      this.$parent.showMobileMenu = this.show;
+      this.$parent.querySelector('li.showMobileMenu').classList.toggle('active');
     }
-  },
-  computed:{
-    // abc(){
-    //   return this.$parent.showMobileMenu;
+    // handler(rec) {
+    //   console.log('handler',rec)
     // }
-  }
+  },
+  // computed:{
+  //   abc(){
+  //     return this.$parent.showMobileMenu;
+  //   }
+  // },
+  // created() {
+  //   Events.on('trainingAddded', this.handler)
+  // },
+  // destroyed() {
+  //   Events.off('trainingAddded', this.handler) // assuming Events.off() removes the listener.
+  // },
 };
 </script>

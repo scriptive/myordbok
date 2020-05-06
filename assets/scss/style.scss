@@ -1,9 +1,13 @@
 @charset "charset";
 @import 'Config';
-// @import 'font.Face';
+@import 'font.Face';
 html{
-  // padding:0;margin:0;
   -ms-touch-action: manipulation; touch-action: manipulation;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background: linear-gradient(0deg, rgba(255,255,255,.5) 75%, rgba(49,142,215,0.6) 25%);
   // &.landscape{}
   // &.portrait{}
 }
@@ -26,28 +30,41 @@ a {
   padding:0;margin:0;
 }
 
-form{
-  input{
-    &[type="checkbox"]{
-      &:disabled{
-      }
-    }
-  }
-  textarea{}
-  select{}
-  button{}
-}
-textarea{}
-button{}
+// form{
+//   input{
+//     &[type="checkbox"]{
+//       &:disabled{}
+//     }
+//   }
+//   textarea{}
+//   select{}
+//   button{}
+// }
+// textarea{}
+// button{}
 body {
-  @extend html;
+  // @extend html;
   font-family:$Font;
   color:$Color;
   font-size:$FontSize;
+  // background-color: $ColorMain;
+  // background: $ColorBackground;
+  // background: linear-gradient(to top, $ColorBackground 50%, $ColorMain 50%);
+  // background: -webkit-gradient(linear, left top, left bottom, from($ColorMain), to($ColorBackground)) fixed;
+  overflow: auto;
+  height: 100%;
+  // background-image: url(../img/MyOrdbok.logo.png);
+  // background-repeat: no-repeat;
+  // background-position: top center;
+  // background-size: 90% auto;
+  //     position: relative;
+  //   margin: 0;
+  //   background-repeat: no-repeat;
+    // background-attachment: fixed;
+  // background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(49,142,215,1) 100%);
   // background-color: $ColorBackground;
+
   &.home{
-    // background-image: url("/src/img/bg/noise.png");
-    // background-size: contain;
     div.navMobile{
       display: none;
     }
@@ -58,18 +75,12 @@ body {
     }
   }
   >div{
-    >div{
-      >div{
-      }
-    }
+    background-color: $ColorBackground;
     @import 'Portal.editor';
   }
-  // TODO: remove
-  // h1{
-  //   color:blue;
-  // }
 }
-div.portal {
+// NOTE: portal ptl
+div.ptl {
   // NOTE: Common
   position: relative;
   &.bg-color {
@@ -128,20 +139,22 @@ div.portal {
       padding-bottom: 5%;
     }
   }
-  &.home{}
-  &.about{}
-  &.definition{}
-  &.dictionary{}
   >div{
     position: inherit;
-    padding:0px 2%;
-    &.resize {
-      // padding:0px 3%;
-      width: 96%;
-      max-width:950px;
+    // NOTE: resize
+    &.resz {
+      // width: 100%;
+      max-width:$max-width;
     }
-    &.center {
+    // NOTE: center
+    &.cetr {
       margin: 0px auto;
+    }
+    // NOTE: left and right padding
+    &.ltrt{
+      width: 96%;
+      padding-left: 2%;
+      padding-right: 2%;
     }
     >div{
       position: inherit;
@@ -167,7 +180,9 @@ div.portal {
     }
   }
   &#bar{
-    z-index:5;border-top:4px solid $ColorMain;
+    z-index:5;
+    // border-top:4px solid $ColorMain;
+    margin-top: 4px;
     ul{
       display:table; width: 100%;vertical-align: inherit;list-style: none; position: relative;
       >li{
@@ -179,33 +194,47 @@ div.portal {
     }
   }
   &#header{
-    z-index:4; padding: 1% 0px;
-  }
-  &#content{
-    z-index:3;
+    z-index:4; padding: 20px 0px;
   }
   &#content{
     z-index:2;
+    >div{
+      >div.message{
+        // display: none;
+      }
+      // >div.gads{
+      //   // background-color: red;
+      //   // height: 320px;
+      // }
+    }
   }
   &#footer{
-    z-index:1; padding: 2% 0;
-    @import 'footer.Common';
+    z-index:1;
+    >div{
+
+      @import 'footer.Common';
+    }
   }
   @media #{$media-mobile} {
     &#bar{
-      @import 'bar.Mobile';
+      >div{
+        @import 'bar.Mobile';
+      }
     }
     &#header{
       @import 'header.Mobile';
     }
-    &#board{
-      // @import 'board.Mobile';
-    }
-    &#content{
-      // @import 'content.Mobile';
-    }
+    // &#board{
+    //   @import 'board.Mobile';
+    // }
+    // &#content{
+    //   @import 'content.Mobile';
+    // }
     &#footer{
-      @import 'footer.Mobile';
+      >div{
+        padding: 20px 0;
+        @import 'footer.Mobile';
+      }
     }
   }
   @media #{$media-tablet} {
@@ -222,7 +251,9 @@ div.portal {
     //   @import 'content.Tablet';
     // }
     &#footer{
-      @import 'footer.Tablet';
+      >div{
+        @import 'footer.Tablet';
+      }
     }
   }
   @media #{$media-desktop} {

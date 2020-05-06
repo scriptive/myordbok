@@ -28,7 +28,7 @@
         // @include box-shadow(0px, 0px, 0px, 1px, darken($ColorSecond,10%));
         >p{
           input,button{
-            height: 40px;
+            // height: 40px;
             // line-height: 40px;
             &[type=search]{
               // padding-left:10px;
@@ -51,7 +51,7 @@
     }
   }
   @media #{$media-mobile} {
-    // margin-left: 7px;
-    // margin-right: 7px;
+    margin-left: 7px;
+    margin-right: 7px;
   }
 }

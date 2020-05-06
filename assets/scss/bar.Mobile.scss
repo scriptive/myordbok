@@ -1,14 +1,22 @@
->div{
-  padding:0px;
+// >div{
+//   padding:0px;
+// }
+&.ltrt{
+  padding: 0;
+  width: 100%;
 }
 ul{
+  padding-bottom: 10px;
   >li{
-    padding: 7px 0;
+    // padding: 20px 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    // margin-bottom: 50px;
     >div{
       position: relative;
       height: 35px;
-      margin-top: 3px;
-      margin-bottom: 3px;
+      // margin-top: 3px;
+      // margin-bottom: 3px;
       >div{
         height: 30px;
         &.name{
@@ -40,21 +48,24 @@ ul{
     }
     // @include user-select();
     >ol{
-      text-align: center;
       display:none;
+      text-align: center;
+      padding: 3%;
       &.active{
         display: block;
       }
       // background-color: aliceblue;
       >li{
         // display: inline-block;
-        padding:3px 5px;
+        padding:4px 4%;
         a {
           display: block;
-          background-color: lighten($ColorMain,35%);
+          // background-color: lighten($ColorMain,35%);
+          background-color: darken($ColorBackground,10%);
           color: $ColorMain;
-          padding: 15px 7px;
-          border-radius: 2px;
+          padding: 10px 20px;
+          font-size: 1.3em;
+          border-radius:50px;
         }
         &.active{
           a{
@@ -64,27 +75,11 @@ ul{
         }
       }
     }
-    // &.active, &:hover{
-    //   >ol{
-    //     display: block;
-    //     position: absolute;
-    //     width: 180px;
-    //     top:100%;
-    //     left:0px;
-    //     background-color:lighten($ColorMain,15%);border-top:1px solid $ColorMain;
-    //     &:after,&:before{
-    //       position:absolute;display:block;pointer-events:none;content:" ";width:0px;height:0px;text-align:center;border:solid transparent;
-    //     }
-    //     &:before{
-    //       border-bottom-color:darken($ColorMain,20%);border-width:5px;left:calc(10% - 1px);top:-10px;
-    //     }
-    //     &:after{
-    //       border-bottom-color:lighten($ColorMain,15%);border-width:4px;left:10%;top:-8px;
-    //     }
-    //   }
-    // }
     &.active{
-      background-color: lighten($ColorMain,20%);
+      // background-color: lighten($ColorMain,20%);
+      // @include box-shadow( 0px, 3px, 2px, 0px, darken($ColorMain,20%));
+      background-color: darken($ColorBackground,3%);
+      @include box-shadow(inset, 0px, -2px, 3px, 0px, darken($ColorBackground,20%));
       >ol{
         display: block;
       }
@@ -92,94 +87,7 @@ ul{
   }
 }
 
-/*
-ol{
-  >li{
-    >a{
-      display: block;padding: 10px;
-      color: #fff;font-size:105%;
-      border-bottom: 1px solid lighten($ColorMain,35%);
-    }
-    &:last-child, &.hasChild{
-      >a{
-        border-bottom: 0px;
-      }
-    }
-    >ol{
-      padding:2px;
-      border-top: 1px solid lighten($ColorMain,35%);
-      >li{
-        >a{
-          border-bottom: 1px solid lighten($ColorMain,35%);
-        }
-        &:last-child{
-          >a{
-            // border-bottom: 0px;
-          }
-        }
-      }
-    }
-  }
-  &.menu{
-    &.page{
-    }
-    &.user{
-      right:0px; left: auto;
-      &:before{
-        left:calc(87% - 1px);
-      }
-      &:after{
-        left:87%;
-      }
-    }
-  }
-}
-ul {
-  >li{
-    >ol.menu{
-      position: fixed;
-      // NOTE: display,width are handle by toggle.panel()
-      // display: block;
-      // width:250px;
-      height: 100%;
-      top: 0;
-      border-top:4px solid $ColorMain;
-      background-color:lighten($ColorMain,15%);
-      // background-color: $ColorMain;
-      overflow: scroll;
-      // z-index: 999;
-      border-radius: 0px;
-      &.page{
-        // display: block;
-        left: 0;
-        // border-right:1px solid $ColorMain;
-        box-shadow: 0px 2px 1px 1px darken($ColorMain,17%);
-        >li {
-          >a {
-            padding: 5%;
-          }
-        }
-      }
-      &.user{
-
-        right: 0;
-        box-shadow: 0px -2px 1px 1px darken($ColorMain,17%);
-      }
-    }
-  }
-}
-*/
 // @at-root body >div {
-//   position: fixed;
-//   left:250px;
+//   // padding-top: 50px;
+//   background-color: red;
 // }
-&#bar{
-  // position: fixed;
-  // top: 0; left: 0; right: 0;
-  // background-color: #fff;
-  // box-shadow: 2px 0px 1px 1px darken($ColorMain,17%);
-  // height: 45px;
-}
-@at-root body >div {
-  // padding-top: 50px;
-}

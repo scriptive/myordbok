@@ -1,5 +1,8 @@
 # Todo
 
+- Generall
+  - [ ] remove X-Powered-By
+
 - Lookup
   - [x] get rootWord when no definition found
   - [x] unexpected error on [dialer]

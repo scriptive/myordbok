@@ -80,14 +80,318 @@ Prefix | usage
 အရာ
 ရှင်းရှင်းလင်းလင်း ထုတ်ဖော်ပြောဆိုသူ
 
-> see
-ing: ings,
-tive: tives
-ize: ize -ise
-? parcel
-task: VACCINE, criti, fates, palm, highlights, entering, hurts, hurting
-other: worded various turgid variable  hydroelectric sub
+- [ ] tmp: tmp,
+- [x] ing: ings,
+- [x] tion: tions,
+- [x] tive: tives
+- [ ] ty: ties
+- [ ] ize: ize -ise
+- [ ] <b
+- [ ] (<b>-ier</b>/<b>-iest</b>)
+- [ ] past & past part
+- [ ] past
+- [ ] comparative of
+- [ ] superative of
+- [ ] ©
+- [ ] ⊂ BOTTLE
+- [ ] ); (
 
+rhet: rhetorical
+derog: derogatory
+> see
+? parcel
+? 170
+task: VACCINE, criti, fates, palm, highlights, entering, hurts, hurting
+other: worded various turgid variable  hydroelectric sub wound
+?: oqr-uv -> s,t saucepan
+?: meliorate, sylphlike
+
+devided into
+Supreme Being, spiritual being, supernatural being
+
+to deprive of sexual power
+ဆုံးရှုံးသည်
+
+(archaic past and past participle of <b>work</b>) (fml or rhet) (အတိတ်ကာလ ကြိယာ သဏ္ဍာန်နှင့်သာသုံး သည်။) ဖြစ်ပေါ် စေခဲ့သည်။ ပေါ်ပေါက် စေခဲ့သည်။
+incorporeal -> incorporeality
+discorporate
+ketamine
+malus pumila
+effectuation
+conceptualise
+declaration
+superordinate
+Chirurgiae Baccalaureus
+Bachelor of Surgery
+ကွဲပြားခြားနားစွာ
+
+(of films) parental guidance, ie containing scenes not suitable for young children.
+ကလေးသူငယ်များ ကြည့်ရှုရန်မသင့်သော အခန်းများပါသည့်အတွက် မိဘ၏ ထိန်းကျောင်းမှု လိုအပ်ကြောင်းပြသည့် (ရုပ်ရှင်) သညာ။
+
+သက်ဆိုင်သော
+တေးဂီတဆိုင်ရာ မှတ်တမ်း
+Columbia Broadcasting System
+
+ရေဒီယို၊ ရုပ်သံ ထုတ်လွှင့် ဌာန
+မော်တော်ဆိုင်ကယ်
+မော်တော်ကား
+
+စိတ် ပျော့သည့် အထက်တန်းစားလူရွယ်။ (Brit. informal derogatory)
+ဘမျိုးဘိုးတူ။	 (informal usu. approv)
+
+(also fml <b>tyrannous</b>) ဖိနှိပ်ညှဉ်းပန်းသော။ နိုင်လိုမင်းထက်ပြုမူသော။
+tyrannic
+နိုင်ငံရေးအာဏာ အပြည့်အ၀ ထိန်းချုပ်မှုရှိခြင်း
+
+နိုင်ငံရေးနှင့် အခွင့်အာဏာ အပြည့်အ၀ ထိန်းချုပ်မှုရှိခြင်း
+modal quality.
+
+unsex
+ကာမဆန္ဒနည်းသည်
+လိင်ပိုင်းဆိုင်ရာအားနည်းသည်
+Automatic Voltage Regulator. အလိုလျှောက် ဗို့အားချိန်ညှီ ကိရိယာ။
+
+ပြင်သည့်ပမာဏ။ ပြင်ရန်။ ပြင်ဆင်ချက်။ပြောင်းလဲချက်။ အပြောင်းအလဲ။ပြင်ဆင်မှု။
+ပြုပြင်ပြောင်းလဲခြင်း
+decrement
+
+လျော့နည်းသွားခြင်း။ ဆုတ်ယုတ်လာခြင်း
+relaxation produces a decrement in sympathetic nervous activity
+လျော့နည်းခြင်း
+
+(ကိန်းဂဏန်း၊ အရေအတွက်) လျှော့ချသည်
+the instruction decrements the accumulator by one
+[see:malodorous]
+ဂုဏ်ယူဝင့်ကြွားသော
+
+နူးညံ့သော။ နွေးထွေးသော။ ရှေးဆန်သော။
+ပုံစံအရည်အသွေး
+"the harmony had a touch of modality"
+2.
+a particular mode in which something exists or is experienced or expressed.
+
+livestock
+
+ခြံမွေးတိရစ္ဆာန် စောင့်ရှောက်သူ
+
+goatish
+of, like, or relating to a goat
+ဆိတ် (ကဲ့သို့၊ ဆက်စပ်သော၊ မျိုး)
+goatlike
+Like a goat; goatish.
+ဆိတ်နှင့်တူသော
+
+industrialize
+industrialized nation
+industrialized country
+စက်မှုနိုင်ငံ
+North American country
+North American nation
+
+a recipient of education
+Department of Education
+Education Department
+executive department
+
+ကျွန်တော်ကို (ပြော၊ ဆိုလို) တာလား?
+လူထု
+စီမံခန့်ခွဲရေးဌာန
+ပညာရေးဌာန
+လက်ခံပညာရေး
+
+semi-solid
+semisolid
+
+deracinate
+
+ဓမ္မတေး
+religious music
+
+ဓမ္မတေးသီချင်း
+ဂီတ
+ဂီတဟန်
+
+ခံစားမှုကိုဖော်ညွှန်းခြင်း
+
+ယုတ်မာသော။ ပြစ်မှုကျူးလွန်သော
+
+လူမှုရေး (သို့) ယဉ်ကျေးမှုနှင့်ဆိုင်ရာ အခြေဖြုတ်သည်
+
+Physical object
+
+[list:United States Ship]
+
+[list:Airborne Warning and Control System]. လေယာဉ်တင် ထောက်လှမ်းရေးနှင့် ထိန်းကျောင်းမှုစနစ်။ အေဝက်
+
+[list:European Monetary System]. ဥရောပငွေကြေးစနစ် [also:ERM]
+
+
+past participle of freeze. [frozen]
+past and past participle of weep. [wept]
+past part of
+past tense & past part of FEED
+past part of FLY
+past & past part of FORETELL
+
+past tense of SLAY
+
+A past tense and a past participle of
+United States government
+
+အမေရိကန်ပြည်ထောင်စုရေတပ်သင်္ဘော
+ဒြပ်ရှိအရာဝတ္ထု
+
+အလယ်ခေတ်သုံး အင်္ဂလိပ်ဘာသာစကား
+
+English language
+
+အင်္ဂလိပ်သုံး ဘာသာစကား
+
+West Germanic
+West Germanic language
+
+အနောက်ဂျာမန်
+အနောက်ဂျာမန်သုံး ဘာသာစကား
+
+Germanic language
+ဂျာမန်သုံး ဘာသာစကား
+
+ချိတ်ဆက်ခြင်း
+ချိတ်ဆက်သည်
+ဥရောပလူမျိုး
+geographic region
+ပထဝီနယ်ပယ်
+ပထဝီနယ်မြေ
+အသိပညာ
+အရင်းခံအသိပညာ
+အခြေပြု အသိပညာ
+အသိပညာနယ်ပယ်
+
+စိတ်ပိုင်းဆိုင်ရာအရာဝတ္ထု
+စိတ်ပိုင်းဆိုင်ရာ အပြုခံဝတ္ထု
+mental object
+cognitive content
+သိမြင်တတ်သော
+
+[~:federalism] ပြည်နယ်များဗဟိုအစိုးရ လက်အောက်တွင် စုပေါင်းဖွဲ့စည်းရမည်ဟူသောဝါဒ။ ပြည်ထောင်စုဝါဒ။ [~:federation] ကိုယ်ပိုင်အုပ်ချုပ်ရေးစနစ်ထား၍ ပြည်နယ်များ စုပေါင်းဖွဲ့စည်းတည်ထောင်ခြင်း။
+
+သိနားလည်နိုင်ခြင်း
+
+စိတ်ထင့်တတ်ခြင်း
+အလွန်စေးပျစ်သော
+
+highly viscous; slightly thicker than semi-fluid.
+noetic
+under control
+in line
+under control
+ထိန်းချုပ်ထားသည်
+in a queue
+တန်းစီသည်
+inline
+item-by-item
+မျိုးတူအလိုက်
+မျိုးတူစုခြင်း
+
+No one is good except God alone
+
+ခိုင်မာတောင့်တင်းသော။ အမာ။
+case-by-case
+အမှု
+တစ်ခုပြီးတစ်ခု
+
+အတူတူပင်မျိုးကိုအခြားသူများထံမှသီးခြားနှင့်ကွဲပြား
+
+အစိတ်အပိုင်းများတစ်လိုင်းအတွက်စီစဉ်ပေးခြင်း
+
+စိတ်ပိုင်းဆိုင်ရာလှုပ်ရှားမှု (သို့) ဉာဏ်နှင့်စပ်လျဉ်း
+ဒေသ
+မြောက်ဘက်။ မြောက်ပိုင်း။
+အမေရိကန် မြောက်ပိုင်းဒေသ
+အမေရိကန် မြောက်ပိုင်းလူမျိုး
+
+equiprobable
+(နှစ်ခုသို့မဟုတ်နှစ်ခုထက်ပိုသောအရာများမှ) ဖြစ်ပျက်အညီအမျှဖွယ်ရှိ; တူညီသောဖြစ်နိုင်ခြေရှိခြင်း။
+
+အညီအမျှဖြစ်နိုင်သော
+ညီမျှနိုင်သော
+သြဒီနိတ်
+မည်သည့်အချက်မှမဆိုမျဉ်းပြိုင်ဆွဲခြင်းနှင့်တူညီသောကိုသြဒီနိတ်ဝင်ရိုးသို့မျဉ်းဖြောင့်နှင့်မျဉ်းဖြောင့်နှင့်မျဉ်းဖြောင့်ကိုတိုင်းတာသည်။
+မျဉ်းဖြောင့်တိုင်းတာသည်။
+defrayal
+စရိတ်သက်သာစွာ
+သက်သာသော
+လူမှုစီးပွားရေးနှင့်ဆိုင်သော
+
+[~:tings]
+
+ကုန်ကျစရိတ်
+wormlike 2
+Similar to a worm.
+
+(တီကောင်၊ သန်ကောင် စသည်)
+
+vibe n,v
+စိတ်ခံစားမှုအခြေအနေ
+ထုတ်လွှတ်ပေးသည်
+
+cryptical
+လျှို့ဝှက်အဓိပ္ပာယ်ကိုရှိသော
+အဓိပ္ပာယ်လျှို့ဝှက်ထားသော
+အဓိပ္ပာယ်လျှို့ဝှက်ထားသော
+artiodactyl
+Artiodactyla
+taxonomic
+inhomogeneous
+[see:cyclic]
+miscellanea
+diverse
+inhomogeneous
+
+Getting married in Myanmar
+
+အမျိုးမျိုးကွဲပြားခြားနားသော။ ထွေပြားသော။
+
+အုပ်စုခွဲခြားခြင်း
+
+သက်ရှိများ၏ခွဲခြားနှင့်အတူသက်ဆိုင်ရာ
+သက်ရှိသတ္တဝါများ အစဉ်လိုက် ခွဲခြားခြင်း
+animal order
+တိရိစ္ဆာန်မျိုးရိုးလိုက်
+တိရိစ္ဆာန်မျိုးစဉ်
+
+မျိုးစဉ်
+သန္ဓေသားလောင်းပါဝင်သည့်နို့တိုက်သတ္တဝါများကိုအမိန့်ပေးသည်။
+
+(သန္ဓေသားလောင်းပါဝင်သည့်) နို့တိုက်သတ္တဝါမျိုး
+
+(နွား၊ သိုး၊ ကုလားအုတ်၊ ဝက်) နို့တိုက်သတ္တဝါအမျိုးအစား
+
+dreamless dreamy
+United States of America
+enlace
+ကျော့ကွင်း
+ချိတ်တွဲ
+
+ချိတ်တွဲသည်။ ရစ်ပတ်သည်။
+(often passive) ရစ်ပတ်သည်။ ငြိနေသည်။
+entwine or entangle.
+"a web of green enlaced the thorn trees"
+eristic
+adjective
+of or characterized by debate or argument.
+noun
+a person given to debate or argument.
+အ​ချေအတင်​ပြောဆိုသူ
+ငြင်းခုံဆွေးနွေးသူ
+
+အ​ချေအတင်​ပြောဆိုမှု လက္ခဏာဆောင်သော
+
+အငြင်းပွားဖွယ်ရာ သို့မဟုတ် ယုတ္တိတန်သောအငြင်းပွားမှုများကိုဖော်ပြခြင်း
+
+alimentation
+အာဟာရဖြစ်သောအရာ
+the provision of nourishment or other necessities of life.
 a transverse beam.
 
 ကန့်လန့်ဖြတ်ရောင်ခြည်

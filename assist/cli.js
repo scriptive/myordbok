@@ -23,7 +23,7 @@ exports.export_definition = async () => await ship.exportDefinition();
 // myanmar grammar
 exports.export_grammar = async () => await require('./grammar').exportGrammar();
 //  MySQL replace sense column format
-exports.admin_makeup_sense = async (e) => await admin.makeupSense(e);
+exports.admin = admin;
 
 
 // node run suggestion "l"

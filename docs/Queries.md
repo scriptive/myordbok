@@ -1,5 +1,17 @@
 # table
 
+```sql
+SELECT *
+  FROM derives AS d
+  INNER JOIN words w ON w.id = d.root_id
+    WHERE d.word = 'biggest' AND d.word_type < 10;
+
+SELECT *
+  FROM words AS w
+  JOIN derives AS d ON d.root_id = w.id
+    WHERE w.word LIKE 'love';
+```
+
 ## Lookup
 
 ```sql

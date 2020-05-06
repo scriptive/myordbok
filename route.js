@@ -2,8 +2,9 @@
 const app = require('.');
 
 app.Navigation('navAPI')
+  .route({url: '/template',route: 'template', text: 'Design'})
+  // .route({url: '/test',route: 'test'})
   .route({url: '/api',route: 'api', text: 'API'});
-  // .route({url: '/test',route: 'test'});
 
 app.Navigation('navDictionary')
   .route({url: '/dictionary/:id?',route: 'dictionary', text: 'Dictionary'});

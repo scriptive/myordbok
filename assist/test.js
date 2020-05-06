@@ -1,6 +1,6 @@
 const app = require('..');
 // const dictionary = require('./dictionary');
-const wordbreak = require('./wordbreak/');
+const wordbreak = require('./wordbreak');
 const search = require('./search');
 // const {glossary,dictionaries} = app.Config;
 // const fs = require('fs');
@@ -47,6 +47,42 @@ exports.definition = async function(word){
   await writeJSON(file,dataJSON.result);
   return file;
 }
+
+exports.match = async function(){
+  var word = 'egg up'.trim();
+  var word_list = word.split(/[\s-]+/);
+  var result = [word_list.join('')];
+  if (word_list.length > 1) {
+    result.push(word_list.join('-'));
+    // NOTE: such as: under-
+    word_list = word_list.filter(e=>e);
+    if (word_list.length > 1){
+      result.push(word_list.join(' '));
+    }
+    // var joiner = [' ','-'], id = joiner.length;
+    // while (id--) {
+    //   // console.log(id,joiner[id])
+    //   if (id == 0) {
+
+    //   }
+    //   result.push(new RegExp(word_list.join(joiner[id]),'i'));
+    // }
+  }
+
+  // return [
+  //   'dining table', 'drinking water', 'egghead','in-Country','egg head',
+  // ].filter(
+  //   // w=> result.find(reg=>reg.test(w))
+  //   w=> result.find(reg=>new RegExp(reg,'i').test(w))
+  // );
+  // return [
+  //   'dining table', 'drinking water', 'Egghead','in-Country','egg head','egg.head.',
+  // ].filter(
+  //   w => result.find(reg=>new RegExp(reg,'i').test(w))
+  // );
+  return result;
+}
+
 exports.keyword = async function(e){
   var data = await readJSON(wordJSONAll);
   dataJSON.all = data.filter(w=>!/\s/.test(w) && !/\d/.test(w));

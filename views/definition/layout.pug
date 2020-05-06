@@ -2,11 +2,16 @@ extends ../layout
 block header
   include ../header
 
+include utilities
 block content
-  div.portal#content
-    div.resize
+  div.ptl#content
+    div
+      //- +message(meta.msg)
+      div.gads
+        amp-ad(width='100vw' height='320' type='adsense' data-ad-client='ca-pub-2986689390924566' data-ad-slot='2945716327' data-auto-format='rspv' data-full-width='')
+          div(overflow='')
+
       div.define(class=meta.type)
-        include utilities
         case meta.type
           when 'pleaseenter'
             include ./pleaseenter

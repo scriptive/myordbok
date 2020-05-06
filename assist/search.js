@@ -1,66 +1,243 @@
 const app = require('..');
 const {utility} = app.Common;
 
-const thesaurus = require("thesaurus");
 const pluralize = require("pluralize");
 const dictionary = require('./dictionary');
+const wordbreak = require('./wordbreak');
 
-const notation = require('myanmar-notation');
+// const notation = require('myanmar-notation');
 // const mathJs = require('mathjs');
 
-const url = require('url');
+// const url = require('url');
 // const util = require('util');
-const querystring = require('querystring');
+// const querystring = require('querystring');
 
 const setting={
   lang:{
-    tar:'en', src:dictionary.getLangDefault.id
+    tar:'en', src:dictionary.lang.default.id
   },
   type:[
     "notfound", "pleaseenter", "result", "definition", "translation"
   ]
 };
 var result={};
-var param={query:{q:''},cookies:{solId:''},originalUrl:''};
+
+
+function setPageProperty(id){
+  if(result.meta.type == setting.type[0]) {
+    if (setting.type[id]){
+      result.meta.type=setting.type[id];
+      if (id > 2) {
+        // NOTE: pug requested
+        result.meta.type=setting.type[2];
+        result.meta.name=setting.type[id];
+      }
+    }
+  }
+}
+
+async function hasDefinition(raw,wordNormal){
+  // NOTE: has_meaning, is_plural, is_number
+  // TEXT: unfading netlike
+  var status=false;
+  result.meta.msg.push({msg:'lookup',list:[wordNormal]});
+  if (await getDefinition(raw,wordNormal)){
+    // EXAM: NO -> adelsstand
+    result.meta.msg.push({msg:'okey'});
+    status=true;
+  } else if (/[a-zA-Z]+|[0-9]+(?:\.[0-9]+|)/.test(wordNormal)) {
+    // EXAM: NO -> Administratortilgang
+    // EXAM: wind[2] good!
+    // EXAM: 1900th 10times
+    // superscripts 1st, 2nd, 3rd, 4th ??
+    var words = wordNormal.match(/[a-zA-Z]+|[0-9]+(?:\.[0-9]+|)/g).filter(e=> e && e != wordNormal);
+    if (words.length) {
+      result.meta.msg.push({msg:'split',list:words});
+      for (const word of words) {
+        if (await getDefinition(raw,word)){
+          status=true;
+          result.meta.msg.push({msg:'partially',list:[word]});
+        } else {
+          dictionary.save(word,result.lang.tar);
+          result.meta.msg.push({msg:'save 1 ?'});
+          var rowThesaurus = dictionary.wordThesaurus(word);
+          if (rowThesaurus) {
+            result.meta.sug.push({
+              word:word,
+              list:rowThesaurus.v
+            })
+            result.meta.msg.push({msg:'0 to suggestion'.replace(0,word)})
+          }
+        }
+      }
+    } else {
+      // NOTE: single word
+      // skillfulness, utile
+      // decennary decennium
+      // EXAM: adeptness adroitness deftness "facility quickness skillfulness"
+      result.meta.msg.push({msg:'save 2 ?'});
+      dictionary.save(wordNormal,result.lang.tar);
+      var rowThesaurus = dictionary.wordThesaurus(wordNormal);
+      if (rowThesaurus) {
+        result.meta.sug.push({word:wordNormal,list:rowThesaurus.v})
+        result.meta.msg.push({msg:'0 to suggestion'.replace(0,wordNormal)})
+      }
+
+    }
+  } else {
+    // NOTE: å ø æ
+    result.meta.msg.push({msg:'is this a word?'});
+  }
+  return status;
+}
+
+async function getDefinition(raw,wordNormal){
+  // angle
+  // companies
+  var wordBase = {};
+  var wordPos = await dictionary.wordPos(wordNormal);
+  var form = wordPos.form;
+  var status = await rowDefinition(raw,wordNormal,form);
+  if (status == false) {
+    if (wordPos.root.length){
+      for (const row of wordPos.root) {
+        form = wordPos.kind.filter(e=>e.term == row.v);
+        if (await rowDefinition(raw,row.v,form)){
+          status = true;
+        } else if (form.length) {
+          dictionary.wordCategory(raw,form);
+        }
+      }
+    }
+  }
+  if (status == false) {
+    // EXAM: US
+    // EXAM: lovings -> loving
+    // EXAM: winds -> wound winding
+    // EXAM: britains -> britain, lovings -> loving
+    var wordSingular = pluralize.singular(wordNormal);
+    if (pluralize.isPlural(wordNormal) && wordSingular != wordNormal) {
+      result.meta.msg.push({msg:'pluralize',list:[wordSingular]});
+      wordBase = await dictionary.wordPos(wordSingular,true);
+      status = await rowDefinition(raw,wordSingular,wordBase.form);
+      if (status == false){
+        // EXAM: lovings->loving->love
+        for (const row of wordBase.root) {
+          form = wordBase.kind.filter(e=>e.term == row.v);
+          if (await rowDefinition(raw,row.v,form)){
+            status=true;
+          }
+        }
+      }
+    }
+  }
+  // if (status == false) {
+  //   result.meta.msg.push({msg:'save?'});
+  //   for (const row of wordPos.root) {
+  //     var abc = wordbreak(row.v);
+  //     console.log('save?',row.v,abc)
+  //   }
+  //   result.meta.msg.push({msg:'root',list:wordPos.root});
+  //   // console.log('save?',wordPos,wordBase)
+  // }
+  return status;
+}
+
+async function rowDefinition(raw,word,pos=[]){
+  var status = false;
+  var rowMeaning = await dictionary.definition(word);
+  if (rowMeaning.length){
+    // EXAM: us britian
+    var rowTerm = rowMeaning.map(
+      e => e.term
+    ).filter(
+      (v, i, a) => a.indexOf(v) === i
+    );
+    var sensitiveThesaurus = rowTerm.length > 1;
+    rowTerm.forEach(term => {
+      var rowThesaurus = dictionary.wordThesaurus(term,sensitiveThesaurus);
+      if (rowThesaurus) rowMeaning.push(rowThesaurus);
+    });
+
+    // rowMeaning = rowMeaning.concat(pos);
+    rowMeaning.push(...pos);
+    // dictionary.wordCategory(raw,rowMeaning.concat(pos));
+    status = true;
+  }
+  if (utility.check.isNumeric(word)){
+    // EXAM: 10 50
+    var rowNumber = dictionary.wordNumber(word);
+    if (rowNumber){
+      // result.meta.todo.push('notation');
+      result.meta.msg.push({msg:'notation',list:[word]});
+      rowMeaning.push(rowNumber);
+      if (!rowMeaning.find(e=>e.pos=='thesaurus')) {
+        var rowThesaurus = dictionary.wordThesaurus(word);
+        if (rowThesaurus) rowMeaning.push(rowThesaurus);
+      }
+      status = true;
+    }
+  }
+  // if (status == false) {
+  //   var rowThesaurus = dictionary.wordThesaurus(word);
+  //   if (rowThesaurus) rowMeaning.push(rowThesaurus);
+  // }
+
+  dictionary.wordCategory(raw,rowMeaning);
+
+  return status;
+}
 
 module.exports = async function(e){
+  var param={query:{q:''},cookies:{solId:''},originalUrl:''};
   result={
     meta:{
-      q:'', type:setting.type[0],name:null
+      q:'', type:setting.type[0],name:null,msg:[],todo:[],sug:[]
     },
     lang:{
       tar:setting.lang.tar, src:setting.lang.src
     },
+    pageClass:'definition',
     data:[]
   };
 
   if (e) {
     if (utility.check.isObject(e)) {
+      // NOTE: gui
       param = e;
     } else if (utility.check.isString(e)) {
+      // NOTE: cli
       param.query.q = e;
     }
   }
 
-  if (param.query.q) result.meta.q=param.query.q.replace(/\s\s+/g, ' ').trim();
+  if (param.query.q) {
+    result.meta.q=param.query.q.replace(/\s+/g, ' ').trim();
+  }
   if (param.cookies.solId){
     result.lang.tar=param.cookies.solId;
   } else {
     // NOTE: possibly attacks
   }
-  result.meta.w=getWordUnescape();
+
+  // NOTE: test purpose ?language=no,en,ja
+  if (param.query.language){
+    result.lang.tar = param.query.language;
+  }
+
   var keyword = result.meta.q;
-  if (keyword){
-    if (param.query.language){
-      // NOTE: test purpose ?language=no,en,ja
-      result.lang.tar = param.query.language;
-    }
+  if (/[\u1000-\u109F]/.test(keyword)) {
+    // NOTE: from Myanmar
+    result.meta.unicode=true;
+  } else if (keyword){
+    // NOTE: to Myanmar
     if (result.lang.tar == result.lang.src) {
+      // NOTE: definition
       if (await hasDefinition(result.data,keyword)){
         setPageProperty(3);
       }
     } else {
-      // NOTE: is_translate,
+      // NOTE: translation,
       var t1 = await dictionary.translation(keyword,result.lang.tar);
       if (t1.length){
         for (const row of t1) {
@@ -101,7 +278,7 @@ module.exports = async function(e){
             }
           }
         } else if (await hasDefinition(result.data,keyword)){
-          // NOTE: result from src
+          // NOTE: definition from src
           setPageProperty(3);
         }
       }
@@ -112,253 +289,4 @@ module.exports = async function(e){
   }
 
   return result;
-};
-
-function setPageProperty(id){
-  if(result.meta.type == setting.type[0]) {
-    if (setting.type[id]){
-      result.meta.type=setting.type[id];
-      if (id > 2) {
-        // NOTE: pug requested
-        result.meta.type=setting.type[2];
-        result.meta.name=setting.type[id];
-      }
-    }
-  }
-}
-
-async function hasDefinition(raw,wordNormal){
-  // NOTE: has_meaning, is_plural, is_number
-  var status=false;
-  if (await getDefinition(raw,wordNormal)){
-    // EXAM: NO -> adelsstand
-    status=true;
-  } else {
-    // NOTE: is_sentence
-    // EXAM: NO -> Administratortilgang
-    var words = wordNormal.match(/[a-zA-Z]+|[0-9]+(?:\.[0-9]+|)/g).filter(e=> e && e != wordNormal);
-    if (words.length) {
-      // EXAM: wind[2] good!
-      // EXAM: 1900th 10times
-      // NOTE: sentence
-      // superscripts 1st, 2nd, 3rd, 4th ??
-      // .filter(e=> e && e != wordNormal)
-      for (const word of words) {
-        if (await getDefinition(raw,word)){
-          // NOTE: has meaning
-          status=true;
-        } else {
-          dictionary.save(word,result.lang.tar);
-        }
-      }
-    } else {
-      // NOTE: save on single word based on language
-      // squawker
-      dictionary.save(wordNormal,result.lang.tar);
-      // if (result.lang.tar == result.lang.src)
-    }
-  }
-  return status;
-}
-
-async function getDefinition(raw,wordNormal){
-  var status=false;
-  var isBaseWord=false;
-  if (raw.find(e=>e.word == wordNormal)) {
-    // NOTE: clue for current word is already push!
-    return status;
-  }
-  var wordSyns = await dictionary.wordPos(wordNormal);
-  // var wordSyns = {pos:[]};
-  if (!wordSyns.pos.length) {
-    isBaseWord=true;
-    wordSyns = await dictionary.wordBase(wordNormal);
-  }
-  // raw.push({
-  //   word: 'tmp',
-  //   type:0,
-  //   clue: wordSyns
-  // });
-
-
-  var wordMeaning = await rowDefinition({Pos:wordSyns.form,meaning:null,notation:null},wordNormal);
-
-  if (wordMeaning.meaning || wordMeaning.notation){
-    // NOTE: found meaning directly on such as love,apple
-    status = true;
-    raw.push({
-      word: wordNormal,
-      type:1,
-      clue: wordMeaning
-    });
-
-  } else if (wordSyns.root.length) {
-    // NOTE: has root word found
-    // If has no definition -> parcelings parcellings ->
-    var hasMultiRoot = wordSyns.root.length > 1;
-    // console.log('2?')
-    if (hasMultiRoot){
-      // NOTE: leaves -> leaf, leave
-      var baseGrammar = wordSyns.pos.map(e=>e.t).filter((v, i, a) => a.indexOf(v) === i).map(
-        e=>app.Config.synset[e].name
-      );
-      var baseWords = wordSyns.pos.map(
-        e=>e.v
-      ).filter(
-        (v, i, a) => a.indexOf(v) === i
-      );
-
-      wordSyns.root = wordSyns.root.map(
-        // NOTE: wind[2], gods Gods
-        e=>e.replace(/\[(.+?)\]/g, "").toLowerCase()
-      ).filter((v, i, a) => a.indexOf(v) === i);
-      // console.log('2')
-      // raw.push({
-      //   word: wordNormal,
-      //   type:2,
-      //   clue: {
-      //     formOf:baseWords.map(
-      //       e => '<i>*</i> is derived from !, as in ?.'.replace('*',e).replace('!',wordSyns.root.map(
-      //         s=>'{-*-}'.replace('*',s)
-      //       ).join(', ')).replace('?',baseGrammar.join(', '))
-      //     )
-      //   }
-      // });
-
-    }
-    // MIND: coloring material
-    for (const word of wordSyns.root) {
-      // console.log('??',word)
-      var row = await rowDefinition({Pos:wordSyns.form,meaning:null,notation:null},word);
-      if (row.meaning || row.notation){
-        status=true;
-        // if (hasMultiRoot){
-        //   // TODO: avoid delete
-        //   delete row.formOf;
-        // }
-        raw.push({
-          word: word,
-          type:3,
-          clue: row
-        });
-      }
-    }
-
-    // NOTE: suggestion
-    // false parceling parceling
-    // true parcelings parceling
-    // lovings
-    if (!raw.length){
-      var rawType = 6;
-      if (isBaseWord == true){
-        wordSyns = await dictionary.wordBase(wordSyns.root[0]);
-        // var tmp = await dictionary.wordPos(wordSyns.root[0]);
-        // wordMeaning.suggestion = wordSyns.root.map(e=>'~ {-*-}'.replace('*',e)).join('; ');
-
-        // wordMeaning.suggestion = wordSyns.root;
-      } else {
-        rawType = 7;
-        wordSyns = await dictionary.wordBase(wordNormal);
-        // var tmp = await dictionary.wordPos(wordSyns.root[0]);
-        // // wordMeaning.suggestion = utility.arrays.group(tmp.form, 'pos',true);
-        // // wordMeaning.suggestion = tmp.form.map(e=>e.v);
-        // var valu  = wordSyns.root.map(e=>'~ {-*-}'.replace('*',e)).join('; ');
-        // var exam = tmp.form.map(e=>e.v);
-        // wordMeaning.suggestion.push({v:valu,exam:exam})
-      }
-      // wordSyns = await dictionary.wordBase(wordNormal);
-      // raw.push({
-      //   word: 'tmp',
-      //   type:0,
-      //   clue: wordSyns
-      // });
-      // return await getDefinition(raw,wordSyns.root[0])
-      // status = true;
-      // raw.push({
-      //   word: wordNormal,
-      //   type:6,
-      //   tmp:true,
-      //   clue: {
-      //     suggestion:wordSyns.root,
-      //     meaning:utility.arrays.group(wordSyns.form, 'pos',true)
-      //   }
-      // });
-      // wordMeaning
-      // wordSyns.form = wordSyns.form.concat(wordMeaning.Pos);
-      if (wordSyns.root.length){
-        status = true;
-      }
-      wordSyns.form = wordSyns.form.concat(wordMeaning.Pos);
-      wordMeaning.suggestion = wordSyns.root;
-      wordMeaning.meaning = utility.arrays.group(wordSyns.form, 'pos',true);
-      raw.push({
-        word: wordNormal,
-        type:rawType,
-        clue: (({ suggestion, meaning, thesaurus }) => ({ suggestion, meaning, thesaurus }))(wordMeaning)
-      });
-    } else if (wordMeaning.thesaurus){
-      raw.push({
-        word: wordNormal,
-        type:4,
-        clue: (({ thesaurus }) => ({ thesaurus }))(wordMeaning)
-      });
-    }
-  } else {
-    // NOTE: britains -> britain
-    var wordSingular = pluralize.singular(wordNormal);
-    if (pluralize.isPlural(wordNormal) && wordSingular != wordNormal) {
-      var row = await rowDefinition({},wordSingular);
-      if (row.meaning || row.notation){
-        raw.push({
-          word: wordSingular,
-          type:5,
-          clue: row
-        });
-        status = true;
-      } else {
-        // NOTE lovings
-        return await getDefinition(raw,wordSingular)
-      }
-    }
-  }
-  return status;
-}
-
-async function rowDefinition(row,word){
-  var rowMeaning = await dictionary.definition(word);
-  if (rowMeaning){
-
-    if (row.Pos && row.Pos.length) {
-      rowMeaning = rowMeaning.concat(row.Pos);
-      // rowMeaning = row.Pos.concat(rowMeaning);
-      row.Pos=null;
-    }
-    row.meaning = utility.arrays.group(rowMeaning, 'pos',true);
-  }
-  if (utility.check.isNumeric(word)){
-    // EXAM: 10 50
-    var rowNotation = notation.get(word);
-    if (rowNotation.number) row.notation = rowNotation;
-  }
-
-  var rowThesaurus = thesaurus.find(word.toLowerCase());
-  if (rowThesaurus.length) {
-    row.thesaurus = rowThesaurus;
-  }
-
-  return Object.keys(row).filter(
-    e => row[e] !== null
-  ).reduce((o, e) => {
-    o[e] = row[e];
-    return o;
-  }, {});
-}
-
-function getWordUnescape(){
-  try {
-    var parsedUrl = url.parse(param.originalUrl);
-    return querystring.unescape(parsedUrl.query.match(/q=([^&]+)/)[1]);
-  } catch (error) {
-    return null;
-  }
 }

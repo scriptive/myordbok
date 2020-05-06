@@ -1,12 +1,33 @@
-div
-  .notice
-    h1 In order to get the most relevant definition...
-    ul
-      li try with general words!
-      li check the spelling!
-      li make sure that you are defining #[q(id=1)=meta.q] in #[em=lang.tar]!
+include utilities
 
+div
+  div.notice
+    if meta.sug.length
+      //- h1 ...related word for
+      h1 ...ဆက်စပ်သော စကားလုံးများ
+      each row in meta.sug
+        h2 ~~#[em= row.word]~~
+        ul
+          each word in row.list
+            li
+              +wordlink(word)
+    else
+      h1 ...ဆီလျော်သော
+      h2 အနက်ဖွင့်ဆိုနိုင်ရန်
+      //- h2 ...အဓိပ္ပာယ်ဖွင့်ဆိုချက်အတွက်
+      ul
+        li ယေဘုယျစကားလုံး #[q(id=1)=meta.q] အားဖြင့်သော်၎င်း
+        li စာလုံးပေါင်းစစ်ဆေးပေးခြင်းသော်၎င်း
+        li ဆက်စပ်သော #[em=lang.tar] ဘာသာစကား ရွေးချယ်ခြင်းဖြင့်
+        //- li try with general words!
+        //- li check the spelling!
+        //- li make sure that you are defining #[q(id=1)=meta.q] in #[em=lang.tar]!
+      p အဓိပ္ပါယ်ဖွင့်ဆို ရှင်းလင်းဖော်ပြ နိုင်ပါသည်။
+
+  //- h1 In order to get the most relevant definition...
   //- .helps
   //-   div
   //-     span Help us!
   //-   div.word.help.zO(data-word=meta.q)
+  //- မှန်ကန်သောဘာသာစကား
+  //- ဆက်စပ်သော ဘာသာစကား ရွေးချယ်ခြင်းဖြင့်

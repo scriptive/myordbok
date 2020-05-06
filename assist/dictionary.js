@@ -33,7 +33,7 @@ exports.translation = async function(keyword,lang=lID){
   const row = await docket.get(fileName.word(lang));
 
   row.filter(e=> chat.compare(keyword,e.v)).forEach(function(w){
-    var i = raw.findIndex(e=>e.hasOwnProperty('v') && chat.compare(w.v,e.v)), src = w.e.split(',');
+    var i = raw.findIndex(e=>e.hasOwnProperty('v') && chat.compare(w.v,e.v)), src = w.e.split(';');
     if (i >= 0){
       raw[i].e = utility.arrays.unique(raw[i].e.concat(src));
     } else {

@@ -15,11 +15,11 @@ routes.get('/', (req, res, next) => {
 // routes.get('/config', (req, res, next) => {
 //   res.send(app.Config)
 // });
-// routes.get('/definition', function(req, res, next) {
-//   assist.search(req).then(
-//     raw=> res.send(raw)
-//   ).catch(next)
-// });
+routes.get('/definition', function(req, res, next) {
+  assist.search(req).then(
+    raw=> res.send(raw)
+  ).catch(next)
+});
 
 
 

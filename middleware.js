@@ -9,9 +9,12 @@ module.exports = {
       if (req.xhr || req.headers.range) return true;
   }
 };
+app.Core.disable('x-powered-by');
+// app.Core.disable('X-Powered-By');
 // var reqCounter = 0;
 
 app.Core.use(function(req, res, next){
+  // res.setHeader( 'X-Powered-By', '@scriptive/evh' );
   const l0 = assist.getLangDefault();
   var Id=l0.id;
 

@@ -1,5 +1,5 @@
-div.portal#footer
-  div
+div.ptl#footer
+  div.ltrt
     div.responsive
       //- if app_locale
       //-   ol.menu.locale
@@ -18,7 +18,7 @@ div.portal#footer
       //-       span served
 
       ol.copyright
-        li.copyright &copy; 2020 MyOrdbok
+        li.copyright &copy; #[em 2020] #[strong= appName]
       ol.menu.privacy
         each v, route in navTerms
           li(class=v.route class={active: v.active})

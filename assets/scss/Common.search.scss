@@ -20,16 +20,24 @@ search-engine,form[name=search]{
     input,button{
       display: block;
       outline: none;border: 0px;
-      font-size: 16px; height:34px;
-      // line-height: 34px;
+      // font-size: 16px;
+      // for IE
+      // height:40px;
+      // font-size:1.2em;
+      // line-height: 1.1em;
+      // height:40px;
+
+      font-size:1.1em;
+      line-height:2em;
       background-color: transparent;
       overflow: hidden;
       &[type=search]{
         font-weight: normal;
         width: 98%; margin: 0 auto;
         // padding-left:3px;
-        padding-left:15px;
+        // padding-left:15px;
         // padding: 0 15px;
+        padding:3px 0px 3px 15px;
         appearance: none;
           -moz-appearance: none;
           -webkit-appearance: none;
@@ -58,6 +66,7 @@ search-engine,form[name=search]{
       }
       &[type=submit]{
         font-size: 20px;
+        line-height:2em;
         // text-shadow: #666 0px 1px 1px;
         color: $ColorSecond;
         // background-color: #fff;
@@ -85,11 +94,12 @@ search-engine,form[name=search]{
     right: 0px;
     // width:100%;
     // top:calc(100% + 1px);
-    top:calc(100% + 1px);
+    top:calc(100% + 0.5px);
     // padding-top: 50px;
     background-color:#fff;
     // line-height:30px;
     font-size:15px;
+    line-height: 1.5em;
     // z-index: 9999;
     @include box-shadow(0px, 3px, 5px, 1px, darken(#ccc,5%));
 
@@ -104,6 +114,7 @@ search-engine,form[name=search]{
       color:#666;transition: 0.2s;
       cursor:default;
       // line-height: 30px;
+      // line-height: 1.5em;
       mark{
         color:darken($ColorMain,0%);
         // color:$ColorLinkStandard;
@@ -122,15 +133,6 @@ search-engine,form[name=search]{
     }
     &:empty{
       display: none;
-    }
-    @media #{$media-mobile} {
-      // padding: 3px 0;
-      li{
-        // padding:15px 10px;
-        font-size: 1.2em;
-        &:first-child{padding-top:15px;}
-        &:last-child{padding-bottom:15px;}
-      }
     }
   }
   &.active{

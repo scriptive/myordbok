@@ -1,10 +1,24 @@
 mixin wordlink(q)
-  a(href='definition?q='+q.toLowerCase())= q
+  a(href='definition?q='+encodeURI(q))= q
 //- mixin test(q)
 //-   q.replace(/\{-(.*?)\-}/g, '<a href="definition?q=$1">$1</a>')
 
 //- mixin example(eg)
   //- eg.replace(/{-/g,'<a href="definition?q=').replace(/-:-/g,'">').replace(/-}/g,'</a>')
+mixin format(tagName,e)
+  #{tagName}(class!=attributes.class)!= e.replace(/\"(.+?)\"/g, '<q>$1</q>').replace(/\(-(.+?)-\)/g, '<small>$1</small>').replace(/\((.+?)\)/g, '<em>$1</em>').replace(/\{-(.+?)-\}/g, (_,q)=>'<a href="definition?q='+encodeURI(q)+'">'+q+'</a>').replace(/\[(.*?)\]/g, '<b>$1</b>')
+
+mixin message(raw)
+  div.message
+    ol
+      each row in raw
+        li
+          p= row.msg
+            if row.list && row.list.length
+              | :
+              each word in row.list
+                | ~
+                +wordlink(word)
 
 mixin meaning(row)
   each define,grammar in row
@@ -12,56 +26,55 @@ mixin meaning(row)
       h2= grammar
       div
         each mean,ty in define
-          p!= mean.v.replace(/\((.*?)\)/g, '<em>$1</em>').replace(/\{-(.*?)\-}/g, '<a href="definition?q=$1">$1</a>').replace(/\[(.*?)\]/g, '<b>$1</b>')
-          if mean.exam
-            ul.eg
-              each eg in mean.exam
-                li!= eg.replace(/\((.*?)\)/g, '<em>$1</em>').replace(/\{-(.*?)\-}/g, '<a href="definition?q=$1">$1</a>')
+          div(class=mean.kind)
+            +format('p',mean.v)
+            if mean.exam
+              ul
+                each eg in mean.exam
+                  +format('li',eg)
 
-mixin notation(row)
-  div.notation
-    h2= row.number
-    div
-      each k in row.notation
-        p= k.sense
-          if row.alpha
-            each num in row.alpha
-              +wordlink(num)
-
-mixin suggestion(row)
-  if row.length
-    div.suggestion
-      p
-        each word in row
-          +wordlink(word)
-
-mixin thesaurus(row)
-  if row && row.length
-    div.thesaurus.synonym
-      h3 Thesaurus
+mixin suggestion(raw)
+  each row,name in raw
+    div.suggestion(class=name.toLowerCase())
+      h3= name
       div
+        +#{name}(row)
+
+mixin thesaurus(raw)
+  if raw && raw.length
+    each row in raw
+      div(class=row.kind)
         ol
-          each word in row
+          each word in row.v
             li
               +wordlink(word)
 
-mixin formOf(row)
-  if row.length
-    div.thesaurus.formOf
-      h3 ...form Of
-      div
-        each k in row
-          p!= k.replace(/\{-(.*?)\-}/g, '<a href="definition?q=$1">$1</a>')
+//- mixin notation(row)
+//-   div.notation
+//-     h2= row.number
+//-     div
+//-       each k in row.notation
+//-         p= k.sense
+//-           if row.alpha
+//-             each num in row.alpha
+//-               +wordlink(num)
 
-mixin Pos(row)
-  if row.length
-    dl.thesaurus.pos
-      dt
-        h3 ...Pos tmp ???
-      dd
-        ul
-          each k in row
-            li!= k.v.replace(/\{-(.*?)\-}/g, '<a href="definition?q=$1">$1</a>')
+//- mixin suggestion(row)
+//-   if row.length
+//-     div.suggestion
+//-       p
+//-         each word in row
+//-           +wordlink(word)
+
+//- mixin thesaurus(row)
+//-   if row && row.length
+//-     div.thesaurus.synonym
+//-       h3 Thesaurus
+//-       div
+//-         ol
+//-           each word in row
+//-             li
+//-               +wordlink(word)
 
 mixin result(o)
   each row in o
@@ -73,7 +86,8 @@ mixin result(o)
 mixin translation(row, w)
   div.translation(data-lang=lang.tar)
     p= row.word
-      span.speech(class=lang.tar).zA.icon-volume-up
+      //- span.speech(class=lang.tar).zA.icon-volume-up
+      speech-engine(word=row.word lang=lang.tar)
     div
       each e in row.clue
         +definition(e)
@@ -82,7 +96,7 @@ mixin definition(raw)
   div.definition(data-lang=lang.src)
     h1= raw.word
       //- span.speech.en.zA.icon-volume-up
-      speech-engine(word=raw.word lang='en')
+      speech-engine(word=raw.word lang=lang.src)
     div.meaning
       each row, name in raw.clue
         +#{name}(row)

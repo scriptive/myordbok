@@ -2,8 +2,8 @@ extends layout
 block content
 
   if info
-    div.portal.detail
-      div.center
+    div.ptl.detail
+      div.cetr.ltrt
         div.fonts
           div.row.info
             each o in info
@@ -37,8 +37,8 @@ block content
                     each o in license
                       #{o.tag}= o.text
 
-  div.portal#content
-    div
+  div.ptl#content
+    div.ltrt
       div.fonts
         div.row.primary
           div.column.Myanmar3

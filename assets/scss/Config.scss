@@ -1,19 +1,23 @@
 @charset "utf-8";
-// $Font: Arial, 'Myanmar3', Helvetica, sans-serif;
-$Font: 'Roboto', 'Lato', sans-serif;
-// $Font: 'Roboto', sans-serif;
+// $Font: 'Roboto', 'Lato', sans-serif;
+$Font: "Roboto", "Lato", "Masterpiece Uni Sans,Padauk,Myanmar Text,Noto Sans Myanmar", Parabaik, Yunghkio, Thanlwin, "Myanmar3, Win Uni Innwa", "WinUni Innwa",sans-serif;
+// $Font: 'Roboto', 'Lato', sans-serif;
+// $Font: 'Roboto', 'Lato', sans-serif,mm3web,"Myanmar Text", Myanmar3, TharLon, Noto Sans Myanmar, "Masterpiece Uni Sans", Parabaik, Yunghkio, Thanlwin, "Win Uni Innwa", Padauk , "MyMyanmar Unicode", "WinUni Innwa", Myanmar2;
 // $Font: mm3web, "Myanmar Text", Myanmar3, TharLon, "Noto Sans Myanmar", "Masterpiece Uni Sans", Parabaik, Yunghkio, Thanlwin, "Win Uni Innwa", Padauk,  "WinUni Innwa", Myanmar2;
 $FontSize: 100%;//11pt
 $Color: #333;
 // $Color: #000;
 $ColorBackground:#fff;//#F8F8F8;
+// $ColorBackground:rgb(255,255,255);
 $ColorMain:#318ED7;
+// $ColorMain:rgba(49,142,215,1);
 $ColorSecond:#7A7A7A;
 
 $ColorLinkStandard:#0000EE;
 $ColorLinkVisited:#551A8B;
 $ColorLinkActive:#EE0000;
 
+$ColorGold:goldenrod;
 $ColorRed:#d34836;
 $WidthMobile:500px;
 $WidthTablet:820px;
@@ -24,9 +28,11 @@ $ColorTwitter:#3b5998;
 $ColorFacebook:#0084b4;
 
 $media-mobile: "(max-width:641px)";
-// $media-mobile: "(min-width:150px) and (max-width:641px)";
-$media-tablet: "(min-width:641px) and (max-width:961px)";
+$media-tablet: "(min-width:642px) and (max-width:960px)";
 $media-desktop: "(min-width:961px)";
+$media-tablet-desktop: "(min-width:642px)";
+$media-mobile-tablet: "(max-width:960px)";
+$max-width: 950px;
 
 @mixin text-size-adjust($value: none) {
     -webkit-text-size-adjust: $value;
@@ -59,7 +65,7 @@ $media-desktop: "(min-width:961px)";
 }
 @mixin scrollbar($bar:10,$border:10,$color:#bdbdbd){
     ::-webkit-scrollbar { width:#{$bar}px;}
-    ::-webkit-scrollbar-track {}
+    // ::-webkit-scrollbar-track {}
     ::-webkit-scrollbar-thumb { background-color:#{$color};border-top-left-radius:#{$border}px;border-top-right-radius:#{$border}px;border-bottom-right-radius:#{$border}px;border-bottom-left-radius:#{$border}px;}
     ::-webkit-scrollbar-thumb:window-inactive {background-color:#{$color};}
 }

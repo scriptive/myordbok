@@ -47,4 +47,25 @@ My curiosity is that if you were using MyOrdbok with your current system configu
 Please let me know if it is help, or if I can assist you any further.
 
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- larbar -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2986689390924566"
+     data-ad-slot="2945716327"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
 https://docs.google.com/forms/d/e/1FAIpQLScSyBRtQrEc1YGh3m0O96vy6YNlCtJZR5T6NIJ9hYJRfcnV2g/viewform
+<amp-ad width="100vw" height="320"
+          type="adsense"
+          data-ad-client="ca-pub-2986689390924566"
+          data-ad-slot="2945716327"
+          data-auto-format="rspv"
+          data-full-width="">
+        <div overflow=""></div>
+      </amp-ad>

@@ -1,3 +1,9 @@
+
+// &.ltrt {
+//   background-color: red;
+// }
+
+
 ol {
   display: inline-block;position: inherit;
   margin: 1% 1px;
@@ -78,6 +84,18 @@ ol {
         &:hover{
           text-decoration: underline;
         }
+      }
+    }
+  }
+  &.copyright{
+    li{
+      em{
+        font-style: normal;
+        color:lighten($ColorSecond,5%);
+      }
+      strong{
+        font-weight: normal;
+        color:lighten($ColorSecond,10%);
       }
     }
   }

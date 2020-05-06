@@ -14,8 +14,8 @@ html(lang='my' dir='ltr')
         meta(name="description" content=description)
       meta(name="application-name" content=appName data-version=appVersion)
       base(href='/')
-      link(rel='api', href='api')
-      //- link(rel='icon', href='favicon.png' type='image/png')
+      //- link(rel='api', href='api')
+      link(rel='icon', href='favicon.png' type='image/png')
 
       meta(property="og:image", content="/screenshot-home.png")
 
@@ -42,6 +42,9 @@ html(lang='my' dir='ltr')
       //-   gtag('js', new Date());
       //-   gtag('config', 'UA-18578545-1');
 
+      script(data-ad-client="ca-pub-2986689390924566" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
+      //- script(async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js")
+
       script(src='https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js')
       script(src='https://cdn.jsdelivr.net/npm/vue-resource@1.5.1/dist/vue-resource.min.js')
       //- script(src='https://cdn.jsdelivr.net/npm/vue-router@3.1.2/dist/vue-router.min.js')
@@ -59,25 +62,14 @@ html(lang='my' dir='ltr')
       iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-WMP5B6F' height=0 width=0 style='display:none;visibility:hidden')
 
     div#myordbok.primary
-      //- div(v-if="isLoading" ref="hey") Loading...
-      //- div(v-if="isDone") Done
-      //- <div v-if="isLoading" ref="hey">
-      //-   Loading...
-      //- </div>
-
-      //- <button @click="loadIt">
-      //-   Load it
-      //- </button>
-
-      //- <div v-if="isDone">
-      //-   Done
-      //- </div>
       block bar
-        div.portal#bar
-          div
+        div.ptl#bar
+          div.ltrt
             div.navigate
               div.column
                 include bar-page
+              //- div.column
+              //-   include bar-user
       block header
       block content
       block footer

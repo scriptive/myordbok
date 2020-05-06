@@ -11,17 +11,18 @@ ol#MyOrdbok-logo{
   li{
     a{
       display: block;
-      padding-top:35px;
+      padding-top:30px;
       span{
         // display: inline-block; font-size: 12px;margin-top:30px; color:#318ed7; text-align: center; text-shadow: #BBB 0px 0px 1px; padding: 0px 1px;
         // display: inline-block; font-size:100%;margin-top:65px; color:#318ed7; text-align: center; text-shadow: #BBB 0px 0px 1px; padding: 0px 1px;
 
         display: inline-block; color:#318ed7; text-shadow: #BBB 0px 0px 1px;
-        font-size:80%;
+        font-size:100%;
+        font-weight: lighter;
         &:last-child{
           &:before{
             display: inline-block;
-            padding: 2px;
+            padding: 2px 3px;
             content: " - ";
             color: #ccc;
           }

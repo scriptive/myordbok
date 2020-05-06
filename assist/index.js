@@ -5,19 +5,26 @@ const pluralize = require("pluralize");
 const grammar = require("./grammar");
 
 // NOTE: mean
-exports.suggestion = async (e,l) => await dictionary.word(e,l);
+exports.suggestion = async (e,l) => await dictionary.suggestion(e,l);
 exports.definition = async (e) => dictionary.definition(e);
 exports.translation = async (e,l) => dictionary.translation(e,l);
 exports.search = require('./search');
 
 // NOTE: lang
-exports.getLangDefault = () => dictionary.getLangDefault;
-exports.getLangByName = dictionary.getLangByName;
-exports.getLangById = dictionary.getLangById;
-exports.getLangList = () => dictionary.getLangList;
-exports.getLangCount = () => dictionary.getLangCount;
-exports.getGrammar = async () => dictionary.getGrammar();
-exports.getInfo = dictionary.getInfo;
+
+exports.getLangDefault = () => dictionary.lang.default;
+exports.getLangByName = dictionary.lang.byName;
+exports.getLangById =  dictionary.lang.byId;
+exports.getLangList = () => dictionary.lang.list;
+exports.getLangCount = () => dictionary.lang.count;
+
+// exports.getLangDefault = () => dictionary.getLangDefault;
+// exports.getLangByName = dictionary.getLangByName;
+// exports.getLangById = dictionary.getLangById;
+// exports.getLangList = () => dictionary.getLangList;
+// exports.getLangCount = () => dictionary.getLangCount;
+exports.getGrammar = async () => dictionary.grammar();
+exports.getInfo = dictionary.information;
 
 // NOTE: visits
 exports.visits = require('./visits');

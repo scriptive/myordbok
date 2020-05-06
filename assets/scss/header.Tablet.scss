@@ -1,7 +1,8 @@
 div.column {
   vertical-align: top;
   ol#MyOrdbok-logo{
-    height:40px; width: 40px;background-image: url(../img/MyOrdbok.png);
+    height:45px; width: 45px;background-image: url(../img/MyOrdbok.png);
+    // background-position: center center;
     &::before{
       content: attr(data-lang);
       display: inline-block; font-size: 12px; color:#fff; text-align: center; text-shadow: 0px 0px 1px #BBB;
@@ -15,7 +16,7 @@ div.column {
     }
     li{
       a{
-        padding-top:40px;
+        // padding-top:40px;
         span{
           display: none;
         }
@@ -23,6 +24,6 @@ div.column {
     }
   }
   form[name=search]{
-    width: 99%; margin:2px 0 2px 1%;
+    // width: 99%; margin:2px 0 2px 1%;
   }
 }

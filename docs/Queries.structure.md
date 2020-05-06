@@ -109,8 +109,10 @@ UPDATE `senses` SET `wid` = 0;
 -- Create word_id
 -- UPDATE `senses` o INNER JOIN `senses` s ON s.`word` = o.`word` SET o.`wid` = s.`id`
 UPDATE senses AS o
-INNER JOIN (select id,word from senses GROUP BY word ) AS i ON o.word = i.word
-SET o.wid = i.id;
+  INNER JOIN (
+    select id,word from senses GROUP BY word
+  ) AS i ON o.word = i.word
+  SET o.wid = i.id;
 
 -- Clean testing
 SELECT * FROM en_src WHERE source = 'love'
@@ -478,4 +480,12 @@ en_word
 ```sql
 UPDATE en_src SET source = replace(source, '\\', '');
 UPDATE en_src set source = TRIM(source);
+
+
+SELECT * from senses WHERE word IS NULL;
+UPDATE `senses` SET `tid` = 0, `sense` = NULL, `exam` = NULL, `seq` = 0, `kid` = 0, `wid` = 0 WHERE `word` IS NULL;
+
+SELECT * from senses WHERE LOWER(word) LIKE LOWER('%tions');
+SELECT * from senses WHERE LOWER(word) LIKE LOWER('%tives');
+SELECT * from senses WHERE LOWER(word) LIKE LOWER('%ings');
 ```

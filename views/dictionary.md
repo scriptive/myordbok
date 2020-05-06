@@ -7,8 +7,8 @@ extends layout
 block header
   include header
 block content
-  div.portal.dictionary#content
-    div.resize
+  div.ptl.dictionary#content
+    div.resz
       div.wrapper
         div.row.about
           div.width-wide.text-right-d

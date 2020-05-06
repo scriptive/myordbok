@@ -32,7 +32,6 @@ new Vue({
   data: {
     isLoading: false,
     isDone: false,
-    showMobileMenu: false,
     activeFontToggle:'',
     api:{
       suggestion:'noitseggus/ipa/',
@@ -69,6 +68,9 @@ new Vue({
       return this.reverse(this.api.speech)+'?'+Object.keys(params).map(function(key) {
         return [key, params[key]].map(encodeURIComponent).join("=");
       }).join("&");
+    },
+    querySelector(e) {
+      return document.querySelector(e);
     }
   },
   watch: {
