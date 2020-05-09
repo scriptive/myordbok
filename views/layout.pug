@@ -42,7 +42,7 @@ html(lang='my' dir='ltr')
       //-   gtag('js', new Date());
       //-   gtag('config', 'UA-18578545-1');
 
-      script(data-ad-client="ca-pub-2986689390924566" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
+      //- script(data-ad-client="ca-pub-2986689390924566" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js")
       //- script(async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js")
 
       script(src='https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js')
@@ -51,7 +51,7 @@ html(lang='my' dir='ltr')
       //- script(src='https://code.jquery.com/jquery-3.3.1.min.js')
       //- script(src=isDevelopment?'/jquery.js':'https://code.jquery.com/jquery-3.3.1.min.js')
       //- script(type='text/javascript', src='/script.js')
-      link(rel='stylesheet', href='/style.css')
+      link(rel='stylesheet', href='/style.css?v='+appVersion)
       //- script.
       //-   $(function(){
       //-     $(document).MyOrdbok(['suggest ready','toggle menu','zA','zO']);
@@ -74,4 +74,4 @@ html(lang='my' dir='ltr')
       block content
       block footer
 
-    script(src='/script.js')
+    script(src='/script.js?v='+appVersion)
