@@ -14,7 +14,7 @@ require('../icon/animation.css');
 
 // NOTE: layout and design
 require('../scss/style.scss');
-
+// require('./middleware.css');
 // NOTE: script
 require('../script/index.js');
 // import exec from '../script/test.js';

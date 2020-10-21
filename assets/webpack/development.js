@@ -1,8 +1,13 @@
 // NOTE: helps to prevent -> 404 Not Found (style.css)
-require('./middleware.css');
+// import './middleware.css';
+// import middleware from './middleware.css';
+// @import 'middleware.css' => require('./middleware.css')
 
 // NOTE: Main
 require('./index.js');
+require('./middleware.css');
+
+// import './index.js';
 
 // var h1 = document.getElementById('delete');
 // h1.style.color = 'red';
@@ -35,7 +40,7 @@ require('./index.js');
 // require('Assert');
 // require('./middlewareChild');
 // require('assert');
-//
+
 if (module.hot) {
   module.hot.accept();
   module.hot.dispose(function() {
