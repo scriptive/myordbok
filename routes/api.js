@@ -21,8 +21,6 @@ routes.get('/definition', function(req, res, next) {
   ).catch(next)
 });
 
-
-
 // /orths-:name
 routes.get('/orth', (req, res) => {
   // req.params.name req.query.name
