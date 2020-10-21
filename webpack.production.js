@@ -1,5 +1,6 @@
 const path = require('path');
-const merge = require('webpack-merge');
+const { merge } = require('webpack-merge')
+// const merge = require('webpack-merge');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 // const CleanWebpackPlugin = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -17,6 +18,7 @@ module.exports = merge(configuration, {
   output: {},
   plugins: [
     new CleanWebpackPlugin(),
+    // new MiniCssExtractPlugin()
     new MiniCssExtractPlugin({filename: 'style.css'})
   ],
   module:{
@@ -28,7 +30,16 @@ module.exports = merge(configuration, {
           "css-loader",
           "sass-loader"
         ]
-      }
+      },
+      // {
+      //   test: /middleware\.css$/i,
+      //   use: [
+      //     MiniCssExtractPlugin.loader,
+      //     // 'style-loader',
+      //     "css-loader",
+      //     "sass-loader"
+      //   ]
+      // }
     ]
   }
 });

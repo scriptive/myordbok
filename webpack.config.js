@@ -1,7 +1,7 @@
 const path = require('path');
 
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
-
+// const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
   mode: 'development',
   devtool: 'inline-source-map',
@@ -22,7 +22,8 @@ module.exports = {
     }
   },
   plugins: [
-    new VueLoaderPlugin()
+    new VueLoaderPlugin(),
+    // new MiniCssExtractPlugin({filename: 'style.css'})
   ],
   module: {
     rules: [
@@ -48,10 +49,12 @@ module.exports = {
         test: /\.s?css$/,
         // test: /\.(sa|sc|c)ss$/,
         use: [
+          // MiniCssExtractPlugin.loader,
           'style-loader',
           "css-loader",
           "sass-loader"
-        ]
+        ],
+        exclude: /middleware\.css$/
       },
       // {
       //   test: /Myanmar3.*$/,
