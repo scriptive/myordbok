@@ -1,45 +1,23 @@
-const path = require('path');
-const { merge } = require('webpack-merge')
-// const merge = require('webpack-merge');
+// const path = require('path');
+const { merge } = require('webpack-merge');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
-// const CleanWebpackPlugin = require('clean-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const configuration = require('./webpack.config.js');
 
 module.exports = merge(configuration, {
   mode: 'production',
   // devtool: 'source-map',
   devtool: false,
-  entry: {
-    script:[
-      path.resolve(__dirname, 'assets/script/analytics.js')
-    ]
-  },
-  output: {},
   plugins: [
     new CleanWebpackPlugin(),
-    // new MiniCssExtractPlugin()
-    new MiniCssExtractPlugin({filename: 'style.css'})
   ],
+  entry: {
+    script:[
+      // path.resolve(__dirname, 'assets/script/analytics.js')
+      './assets/script/analytics.js'
+    ]
+  },
   module:{
     rules:[
-      {
-        test: /\.s?css$/,
-        use: [
-          MiniCssExtractPlugin.loader,
-          "css-loader",
-          "sass-loader"
-        ]
-      },
-      // {
-      //   test: /middleware\.css$/i,
-      //   use: [
-      //     MiniCssExtractPlugin.loader,
-      //     // 'style-loader',
-      //     "css-loader",
-      //     "sass-loader"
-      //   ]
-      // }
     ]
   }
 });

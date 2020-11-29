@@ -42,14 +42,30 @@ app.Core.use(function(req, res, next){
 });
 
 // app.Core.use('/jquery.js',app.Common.express.static(__dirname + '/node_modules/jquery/dist/jquery.min.js'));
+
 if (app.Config.development) {
-  var webpack = require('webpack');
-  var webpackConfig = require('./webpack.middleware');
-  var compiler = webpack(webpackConfig);
-  app.Core.use(require('webpack-dev-middleware')(compiler, {
-    logLevel: 'warn', publicPath: webpackConfig.output.publicPath
+  // console.log('app.Config.development',app.Config.development)
+  const webpack = require('webpack');
+  const webpackDevMiddleware = require('webpack-dev-middleware');
+  const webpackHotMiddleware = require('webpack-hot-middleware');
+  // const config = require('./webpack.config.js');
+  const config = require('./webpack.middleware');
+
+  //reload=true:Enable auto reloading when changing JS files or content
+  //timeout=1000:Time from disconnecting from server to reconnecting
+  // config.entry.app.unshift('webpack-hot-middleware/client?path=/__webpack_hmr&reload=true&timeout=1000');
+
+  //Add HMR plugin
+  // config.plugins.push(new webpack.HotModuleReplacementPlugin());
+
+  const compiler = webpack(config);
+
+  //Enable "webpack-dev-middleware"
+  app.Core.use(webpackDevMiddleware(compiler, {
+    publicPath: config.output.publicPath
   }));
-  app.Core.use(require('webpack-hot-middleware')(compiler, {
-    log: console.log, path: '/__webpack_hmr', heartbeat: 10 * 1000
-  }));
+
+  //Enable "webpack-hot-middleware"
+  app.Core.use(webpackHotMiddleware(compiler));
+
 }
