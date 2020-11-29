@@ -22,6 +22,7 @@ exports.exportWord = async function(){
   ).catch(
     e=>console.error(e)
   );
+
   await app.sql.query("SELECT root_id AS w, word AS v, derived_type AS d, word_type AS t FROM ??;",[table.synmap]).then(
     async raw=>{
       // await docket.write('./test/derives.json',raw);

@@ -131,6 +131,7 @@ exports.admin_pos = async function(keyword){
   );
   return result;
 }
+
 exports.admin_base = async function(keyword){
   const synset = await docket.get(glossary.synset);
   const synmap = await docket.get(glossary.synmap);

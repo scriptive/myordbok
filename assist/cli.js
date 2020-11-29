@@ -1,5 +1,6 @@
 const dictionary = require('./dictionary');
 const ship = require('./dictionary.export');
+const CSVImport = require('./dictionary.csv.import');
 const admin = require('./dictionary.admin');
 // const search = require('./search');
 const test = require('./test');
@@ -56,6 +57,10 @@ exports.orth_ord = async (e) => await require('./orthCliOrd')(e);
 // NOTE: thesaurus
 // node run thesaurus "love"
 // exports.thesaurus = async (e) => thesaurus.find(e);
+
+
+exports.csv = CSVImport.testing;
+// exports.csv = async () => await CSVImport.testing();
 
 // NOTE: pluralize
 exports.plural = async (e) => pluralize.plural(e);
