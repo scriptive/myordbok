@@ -8,12 +8,10 @@ const {glossary,dictionaries} = app.Config;
 const fs = require('fs');
 // const util = require('util');
 const path = require('path');
-const {utility,readFilePromise,writeFilePromise} = app.Common;
+const {utility,Burglish} = app.Common;
 
 const table={ senses:'senses', grammar:'wordtype', other:'ord_0', words:'words', derives:'derives'};
 
-// const readFilePromise = util.promisify(fs.readFile);
-// const writeFilePromise = util.promisify(fs.writeFile);
 
 // var folder = 'glossary';
 glossary.word = path.join(app.Config.media,'glossary',glossary.word);
@@ -25,8 +23,8 @@ glossary.synmap = path.join(app.Config.media,'glossary',glossary.synmap);
 
 // getJSON,  writeJSON, readJSON watchJSON  dataJSON,
 const dataJSON={};
-const writeJSON = async (file,raw) => await writeFilePromise(file, JSON.stringify(raw,null,0)).then(()=>true).catch(()=>false);
-const readJSON = async (file) => await readFilePromise(file).then(e=>JSON.parse(e)).catch(()=>[]);
+const writeJSON = async (file,raw) => await fs.promises.writeFile(file, JSON.stringify(raw,null,0)).then(()=>true).catch(()=>false);
+const readJSON = async (file) => await fs.promises.readFile(file).then(e=>JSON.parse(e)).catch(()=>[]);
 const watchJSON = (file,id) => fs.watchFile(file, async () => dataJSON[id]=await readJSON(file));
 
 async function getJSON(file,watch){

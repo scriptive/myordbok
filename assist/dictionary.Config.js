@@ -4,8 +4,7 @@ const {glossary,dictionaries} = app.Config;
 const fs = require('fs');
 // const util = require('util');
 const path = require('path');
-
-const {readFilePromise,writeFilePromise} = app.Common;
+// const {utility,Burglish} = app.Common;
 
 const table = { senses:'senses', other:'ord_0', synset:'words', synmap:'derives'};
 
@@ -20,8 +19,8 @@ glossary.info = path.join(app.Config.media,'glossary',glossary.info);
 // getJSON,  writeJSON, readJSON watchJSON  dataJSON,
 var dataJSON={};
 
-const writeJSON = async (file,raw,ind=0) => await writeFilePromise(file, JSON.stringify(raw,null,ind)).then(()=>true).catch(()=>false);
-const readJSON = async (file) => await readFilePromise(file).then(e=>JSON.parse(e)).catch(()=>[]);
+const writeJSON = async (file,raw,ind=0) => await fs.promises.writeFile(file, JSON.stringify(raw,null,ind)).then(()=>true).catch(()=>false);
+const readJSON = async (file) => await fs.promises.readFile(file).then(e=>JSON.parse(e)).catch(()=>[]);
 const watchJSON = (file,id) => fs.watchFile(file, async () => dataJSON[id]=await readJSON(file));
 
 const getJSON = async function(file,watch){
@@ -130,6 +129,6 @@ const language = {
   byName:getLangByName,
 };
 
-const information = async (res) => await readFilePromise(fileName.info(res.sol.id)).then(e=>JSON.parse(e)).catch(()=>new Object());
+const information = async (res) => await fs.promises.readFile(fileName.info(res.sol.id)).then(e=>JSON.parse(e)).catch(()=>new Object());
 
 module.exports = {table,docket,makeup,fileName,chat,language,information};

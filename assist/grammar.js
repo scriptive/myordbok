@@ -1,7 +1,7 @@
 const app = require('..');
 const path = require('path');
 const {media} = app.Config;
-const {readFilePromise,writeFilePromise} = app.Common;
+// const {utility,Burglish} = app.Common;
 
 const directory = path.join(media,'grammar');
 
@@ -9,8 +9,8 @@ const filePos = 'pos-*.json';
 const fileContext = '*.json';
 const online = fileContext.replace('*','_live');
 
-const writeJSON = async (file,raw) => await writeFilePromise(path.join(directory,file), JSON.stringify(raw,null,2)).then(()=>true).catch(()=>false);
-const readJSON = async (file) => await readFilePromise(path.join(directory,file)).then(JSON.parse).catch(()=>{});
+const writeJSON = async (file,raw) => await fs.promises.writeFile(path.join(directory,file), JSON.stringify(raw,null,2)).then(()=>true).catch(()=>false);
+const readJSON = async (file) => await fs.promises.readFile(path.join(directory,file)).then(JSON.parse).catch(()=>{});
 const uniqueName = (name) => name.match(/[a-zA-Z]+|[0-9]+(?:\.[0-9]+|)/g).join('.').toLowerCase();
 
 exports.main = async () => await readJSON(online);

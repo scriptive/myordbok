@@ -1,5 +1,5 @@
 const {Config,Common} = require('../');
-const {readFilePromise,writeFilePromise} = Common;
+// const {utility,Burglish} = app.Common;
 const path = require('path');
 const fs = require('fs');
 const ttfInfo = require('ttfinfo');
@@ -25,7 +25,7 @@ module.exports = class fonts {
     } else {
       let file = this.fileJSON(fileName);
       this.store[fileName]=[];
-      return readFilePromise(file).then(
+      return fs.promises.readFile(file).then(
         e=>{
           return this.store[fileName] = JSON.parse(e);
         }
@@ -42,7 +42,7 @@ module.exports = class fonts {
   write(fileName) {
     if (this.store.hasOwnProperty(fileName)){
       let file = this.fileJSON(fileName);
-      writeFilePromise(file,JSON.stringify(this.store[fileName])).then(()=>true).catch(()=>false);
+      fs.promises.writeFile(file,JSON.stringify(this.store[fileName])).then(()=>true).catch(()=>false);
     }
   }
 

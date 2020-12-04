@@ -7,7 +7,6 @@ const axios = require('axios');
 const parse5 = require("parse5");
 
 const {orthography} = app.Config;
-const {readFilePromise,writeFilePromise} = app.Common;
 
 const cliTask = {};
 const seaCorpusList = 'sea-corpus-list.json';
@@ -18,10 +17,10 @@ const compareWord = (a,b) => a.ord < b.ord?-1:(a.ord > b.ord)?1:0;
 const trimString = (e) => e.replace(/(?:\\r\\n|\\r|\\n)/g, ' ').replace(/\s\s+/g, ' ').trim();
 
 const fileHTML = (file) => path.join(orthography.root,'sea-corpus',file+'.html');
-const readHTML = async (file) => await readFilePromise(fileHTML(file)).then(e=>trimString(e.toString())).catch(()=>'');
-const writeHTML = async (file,raw) => await writeFilePromise(fileHTML(file), raw).then(()=>true).catch(()=>false);
-const readJSON = async (file) => await readFilePromise(path.join(orthography.root,file)).then(JSON.parse).catch(()=>[]);
-const writeJSON = async (file,raw) => await writeFilePromise(path.join(orthography.root,file), JSON.stringify(raw,null,1)).then(()=>true).catch(()=>false);
+const readHTML = async (file) => await fs.promises.readFile(fileHTML(file)).then(e=>trimString(e.toString())).catch(()=>'');
+const writeHTML = async (file,raw) => await fs.promises.writeFile(fileHTML(file), raw).then(()=>true).catch(()=>false);
+const readJSON = async (file) => await fs.promises.readFile(path.join(orthography.root,file)).then(JSON.parse).catch(()=>[]);
+const writeJSON = async (file,raw) => await fs.promises.writeFile(path.join(orthography.root,file), JSON.stringify(raw,null,1)).then(()=>true).catch(()=>false);
 
 const requestWord = async (o) => await axios.get('http://sealang.net/lab/predict.pl',{params:o}).then(res => trimString(res.data)).catch(()=>null);
 const requestSense = async (o) => await axios.get('http://sealang.net/burmese/search.pl',{params:o}).then(res => trimString(res.data)).catch(()=>null);

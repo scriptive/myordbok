@@ -3,17 +3,17 @@ const app = require('..');
 const wordbreak = require('./wordbreak');
 const search = require('./search');
 // const {glossary,dictionaries} = app.Config;
-// const fs = require('fs');
+const fs = require('fs');
 // const util = require('util');
 const path = require('path');
-const {utility,readFilePromise,writeFilePromise} = app.Common;
+// const {utility} = app.Common;
 
 const dataJSON={
   all:[],
   result:[]
 };
-const readJSON = async (file) => await readFilePromise(file).then(e=>JSON.parse(e)).catch(()=>[]);
-const writeJSON = async (file,raw) => await writeFilePromise(file, JSON.stringify(raw,null,2)).then(()=>true).catch(()=>false);
+const readJSON = async (file) => await fs.promises.readFile(file).then(e=>JSON.parse(e)).catch(()=>[]);
+const writeJSON = async (file,raw) => await fs.promises.writeFile(file, JSON.stringify(raw,null,2)).then(()=>true).catch(()=>false);
 
 const wordJSONAll = path.join(app.Config.media,'log','myordbok.word-all.json');
 const wordJSONTodo = path.join(app.Config.media,'log','myordbok.word-todo.json');

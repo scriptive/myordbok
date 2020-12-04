@@ -1,19 +1,19 @@
 const app = require('..');
 const path = require('path');
+const fs = require('fs');
 
 const main = require("./orthography");
 const dictionary = require("./dictionary");
 
 const {orthography} = app.Config;
-const {readFilePromise,writeFilePromise} = app.Common;
 
 const cliTask = {};
 const wordCollection = 'word-collection.json';
 
-const readText = async (file) => await readFilePromise(path.join(orthography.root,'corpus',file)).then(e=>e.toString().replace(/\n/g,' ').split(' ')).catch(()=>new Array());
-// const writeText = async (file,raw) => await writeFilePromise(path.join(orthography.root,'html',file+'.html'), raw).then(()=>true).catch(()=>false);
-const readJSON = async (file) => await readFilePromise(path.join(orthography.root,file)).then(JSON.parse).catch(()=>[]);
-const writeJSON = async (file,raw) => await writeFilePromise(path.join(orthography.root,file), JSON.stringify(raw,null,1)).then(()=>true).catch(()=>false);
+const readText = async (file) => await fs.promises.readFile(path.join(orthography.root,'corpus',file)).then(e=>e.toString().replace(/\n/g,' ').split(' ')).catch(()=>new Array());
+// const writeText = async (file,raw) => await fs.promises.writeFile(path.join(orthography.root,'html',file+'.html'), raw).then(()=>true).catch(()=>false);
+const readJSON = async (file) => await fs.promises.readFile(path.join(orthography.root,file)).then(JSON.parse).catch(()=>[]);
+const writeJSON = async (file,raw) => await fs.promises.writeFile(path.join(orthography.root,file), JSON.stringify(raw,null,1)).then(()=>true).catch(()=>false);
 
 const posIndex = (id) => app.Config.synset.findIndex(e=>e.shortname == id);
 const compareWord = (a,b) => a.w < b.w?-1:(a.w > b.w)?1:0;

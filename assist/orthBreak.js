@@ -1,12 +1,12 @@
 const app = require('..');
 const path = require('path');
+const fs = require('fs');
 
 const main = require("./orthography");
 
 const {orthography} = app.Config;
-const {readFilePromise} = app.Common;
 
-const readCSV = async (file) => await readFilePromise(path.join(orthography.root,file)).then(e=>e.toString().split("\n")).catch(()=>[]);
+const readCSV = async (file) => await fs.promises.readFile(path.join(orthography.root,file)).then(e=>e.toString().split("\n")).catch(()=>[]);
 const removeSpace = (e) => e.replace(/\s/g, '').trim();
 
 module.exports = async (str) => {

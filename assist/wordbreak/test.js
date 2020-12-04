@@ -1,17 +1,17 @@
 const app = require('../..');
 const wordbreak = require('.');
 
-// const fs = require('fs');
+const fs = require('fs');
 // const util = require('util');
 const path = require('path');
 
 const {glossary} = app.Config;
-const {utility,readFilePromise,writeFilePromise} = app.Common;
+// const {utility} = app.Common;
 
 // const mediaTest = path.join(app.Config.media,'test');
 
-const readJSON = async (file) => await readFilePromise(file).then(e=>JSON.parse(e)).catch(()=>[]);
-const writeJSON = async (file,raw) => await writeFilePromise(path.join(app.Config.media,'test',file), JSON.stringify(raw,null,1)).then(()=>true).catch(()=>false);
+const readJSON = async (file) => await fs.promises.readFile(file).then(e=>JSON.parse(e)).catch(()=>[]);
+const writeJSON = async (file,raw) => await fs.promises.writeFile(path.join(app.Config.media,'test',file), JSON.stringify(raw,null,1)).then(()=>true).catch(()=>false);
 const cliActive = (name) => Object.keys(cliTask).find(e=>e==name)||'default';
 
 const cliTask = {

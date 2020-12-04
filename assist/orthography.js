@@ -1,8 +1,8 @@
 const app = require('..');
 const path = require('path');
+const fs = require('fs');
 // const {media,orthography} = app.Config;
 const {orthography} = app.Config;
-const {readFilePromise} = app.Common;
 
 /*
 orthography
@@ -28,7 +28,7 @@ const unicodeRange = [
   ["\u1040","\u101D",true]
 ];
 
-const readJSON = async (file) => await readFilePromise(path.join(orthography.root,file)).then(JSON.parse).catch(()=>[]);
+const readJSON = async (file) => await fs.promises.readFile(path.join(orthography.root,file)).then(JSON.parse).catch(()=>[]);
 exports.unicodeRange = unicodeRange;
 // const unicodeFormat = (str) => str.replace(/\u1037\u103A/g,'\u103A\u1037').replace(/\u1026/g,'\u1025\u102E');
 exports.unicodeCorrection = function(str,all=true) {
