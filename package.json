@@ -1,38 +1,57 @@
 {
   "name": "myordbok",
-  "version": "1.6.5",
+  "version": "1.7.0",
   "description": "online Myanmar dictionary",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "build": "webpack --config ./webpack.production.js",
-    "test": "webpack-dev-server --open --config webpack.development.js",
-    "update-package": "node update-package",
-    "update-repository": "node update-repository",
-    "dev-local": "node serve",
+    "build": "node webpack.build.js",
+    "serve": "node serve.js",
+    "task": "node task.js",
+    "start": "node serve.js",
     "test-port": "set PORT=5000 && node serve",
     "test-listen": "set LISTEN= && node serve",
     "test-production": "set NODE_ENV=production && node serve",
-    "pm2:kill": "pm2 kill",
-    "pm2:startJSON": "pm2 start pm2.json",
     "pm2:start": "pm2 start",
-    "install:webpack": "npm install --save-dev webpack webpack-cli"
+    "pm2:startJSON": "pm2 start pm2.json",
+    "pm2:reload": "pm2 reload MyOrdbok",
+    "pm2:reloadJSON": "pm2 reload pm2.json",
+    "pm2:stop": "pm2 stop MyOrdbok",
+    "pm2:delete": "pm2 delete MyOrdbok",
+    "pm2:kill": "pm2 kill",
+    "pm2:list": "pm2 list"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ],
+    "plugins": []
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scriptive/myordbok.git"
+    "url": "git+https://github.com/khensolomon/myordbok.git"
   },
   "author": "Khen Solomon Lethil",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/scriptive/myordbok/issues"
+    "url": "https://github.com/khensolomon/myordbok/issues"
   },
-  "homepage": "https://github.com/scriptive/myordbok#readme",
+  "homepage": "https://github.com/khensolomon/myordbok#readme",
   "dependencies": {
-    "@scriptive/evh": "file:../evh",
-    "mysql": "^2.18.1",
+    "lethil": "file:../lethil",
     "mathjs": "^8.0.1",
     "myanmar-notation": "^1.4.0",
+    "mysql": "^2.18.1",
     "pluralize": "^8.0.0",
+    "pug": "^3.0.0",
+    "tar": "^6.1.0",
     "thesaurus": "0.0.1",
     "ttfinfo": "^0.2.0"
   },
@@ -45,7 +64,6 @@
     "css-loader": "^5.0.1",
     "file-loader": "^6.2.0",
     "mini-css-extract-plugin": "^1.3.1",
-    "parse5": "^6.0.1",
     "postcss-loader": "^4.1.0",
     "sass": "^1.29.0",
     "sass-loader": "^10.1.0",
@@ -58,11 +76,14 @@
     "vue-router": "^3.4.9",
     "vue-template-compiler": "^2.6.12",
     "vue-template-loader": "^1.1.0",
-    "webpack": "^5.9.0",
-    "webpack-cli": "^4.2.0",
+    "webpack": "^5.17.0",
     "webpack-dev-middleware": "^4.0.2",
-    "webpack-dev-server": "^3.11.0",
     "webpack-hot-middleware": "^2.25.0",
     "webpack-merge": "^5.4.0"
+  },
+  "used-in": {
+    "?": [
+      "parse5"
+    ]
   }
 }
