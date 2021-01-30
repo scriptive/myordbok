@@ -41,6 +41,14 @@ npm uninstall (Get-ChildItem).Name
 mysql > SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
 ```
 
+## webpack
+
+- webpack.*.js
+  - [x] middleware
+  - [x] production
+  - [x] development
+  - [ ] dev server
+
 [home]: //www.myordbok.com
 [grammar]: //www.myordbok.com/grammar
 [fonts]: //www.myordbok.com/myanmar-fonts
