@@ -11,11 +11,11 @@ const config = merge(common, {
   entry: {
     script: [
       path.resolve('./assets/script/analytics.js'),
-      path.resolve('./assets/script/sw.register.js')
+      // path.resolve('./assets/script/sw.register.js')
     ],
-    sw:[
-      path.resolve('./assets/script/sw.js')
-    ]
+    // sw:[
+    //   path.resolve('./assets/script/sw.js')
+    // ]
   },
   plugins: [
     new CleanWebpackPlugin(),
