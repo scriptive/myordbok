@@ -1,3 +1,54 @@
+import {route} from 'lethil';
+import {thuddar} from '../assist/index.js';
+
+const routes = route('navPage','/grammar');
+
+routes.get(
+  {url: '/',route: 'grammar', text: 'Grammar'},
+  /**
+   * @param {*} req
+   * @param {*} res
+   */
+  async function(req, res) {
+    // var grammar = await assist.grammarMain();
+    var result = await thuddar.main();
+    res.render('grammar', {
+      title: result.context.name,
+      description: result.context.desc,
+      keywords: result.pos.map(e=>e.root.name).join(','),
+      grammar: result
+    });
+  }
+);
+
+routes.get(
+  '/:id',
+  /**
+   * @param {*} req
+   * @param {*} res
+   */
+  function(req, res) {
+    thuddar.pos(req.params.id).then(function(result){
+      if (Object.keys(result).length) {
+        var keywords = result.kind.map(e=>e.root.name);
+        keywords.unshift(result.root.name,result.info.name);
+
+        res.render('grammar-pos', {
+          title: result.root.name,
+          keywords: keywords.join(','),
+          description: result.root.desc.replace(/'/g,""),
+          grammar: result
+        });
+      } else {
+        res.status('404');
+      }
+    }).catch(function(){
+      res.status('404');
+    });
+  }
+);
+
+/*
 const app = require('..');
 const assist = require('../assist');
 const routes = app.Router();
@@ -42,7 +93,7 @@ routes.get('/:id', async function(req, res) {
   });
 
 });
-/*
+
 routes.get('/pos-:id', async function(req, res) {
   var id = req.params.id;
   var grammar = await assist.grammarPos(id);
@@ -73,7 +124,7 @@ routes.get('/pos-:id', async function(req, res) {
   //   res.send({'pos-not-found':id});
   // }
 });
-*/
+
 routes.get('/', async function(req, res) {
   var grammar = await assist.grammarMain();
   res.render('grammar', {
@@ -83,5 +134,4 @@ routes.get('/', async function(req, res) {
     grammar: grammar
   });
 });
-
-module.exports = routes;
+*/

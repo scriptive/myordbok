@@ -9,12 +9,16 @@ import '../img/screenshot-home.png';
 import '../img/app.webmanifest';
 
 // NOTE: icons && loader animation
-require('../icon/myordbok.css');
-require('../icon/animation.css');
+// require('../icon/myordbok.css');
+// require('../icon/animation.css');
+import '../icon/myordbok.css';
+import '../icon/animation.css';
 
 // NOTE: layout and design
-require('../scss/style.scss');
+// require('../scss/style.scss');
+import '../scss/style.scss';
 // require('./middleware.css');
 // NOTE: script
-require('../script/index.js');
+// require('../script/index.js');
+import '../script/index.js';
 // import exec from '../script/test.js';

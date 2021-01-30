@@ -2,7 +2,7 @@ const prefix_pattern= /^(^:?over|un|non|re|dis)(.{2,})/;
 // re lation location
 const prefix_pattern_skip = /^(?:disru|dist|re(p|v|q|c|t|s|w|f|l(?!o))|uni)/;
 const suffix_pattern= /(.*)(ly|tory|ful|ness|less|able|ed|ing|tion)s?$/;
-var test = /(re)/
+var test = /(re)/;
 /*
 amiable
 comply family apply daily holy imply jolly only empty molly
@@ -357,10 +357,16 @@ const suffix_root =[
 ];
 var result = [];
 
+/**
+ * @param {RegExp|string} str
+ */
 function testCase(str){
   return new RegExp(str, "i");
 }
 
+/**
+ * @param {string} str
+ */
 function prefixes(str){
   // var re = new RegExp(prefix_pattern);
   var re = testCase(prefix_pattern);
@@ -369,6 +375,10 @@ function prefixes(str){
   }
   return []
 }
+
+/**
+ * @param {string} str
+ */
 function suffixes(str){
   var re = testCase(suffix_pattern);
   if (re.test(str)){
@@ -381,6 +391,9 @@ function suffixes(str){
   return []
 }
 
+/**
+ * @param {string} str
+ */
 function joiner(str){
   var [word,suffix] = suffixes(str);
   // && e.k.test(word) == false
@@ -399,7 +412,7 @@ function joiner(str){
           s=>testCase(s[0]).test(word)
         )
       ).filter(x => x).forEach(function(w){
-        word = word.replace(testCase(w[0]),w[1]);
+        word = word.replace(testCase(w[0]),w[1].toString());
       });
       // suffix_root.filter(
       //   e=> e.w.test(suffix)
@@ -419,7 +432,11 @@ function joiner(str){
     result.push({word:str,id:1,skip:skip_test});
   }
 }
-function start(str){
+
+/**
+ * @param {string} str
+ */
+export default function start(str){
   result =[];
   var [prefix,word] = prefixes(str);
   if (testCase(prefix_pattern_skip).test(str) == false && prefix){
@@ -433,4 +450,4 @@ function start(str){
 // Bob begin breaking Bubby broken bed
 
 // module.exports = (str) => start(str.toLowerCase());
-module.exports = start;
+// module.exports = start;

@@ -1,24 +1,22 @@
-const path = require('path');
-const VueLoaderPlugin = require('vue-loader/lib/plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+import path from 'path';
+import VueLoaderPlugin from 'vue-loader/lib/plugin.js';
+import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 
-module.exports = {
+export default {
+  // target: "node",
   mode: 'development',
   devtool: 'inline-source-map',
-
   // devServer: {
-  //   contentBase: path.join(__dirname, 'static'),
-  //   port: 8081,
-  //   host: `localhost`,
+  //   compress: true,
+  //   public: path.resolve('./static')
   // },
-
   entry: {
     script: [
-      path.resolve(__dirname, 'assets/webpack/index.js')
-    ],
+      path.resolve('./assets/webpack/index.js')
+    ]
   },
   output: {
-    path: path.resolve(__dirname, 'static'),
+    path: path.resolve('./static'),
     publicPath: '/',
     filename:'[name].js'
   },

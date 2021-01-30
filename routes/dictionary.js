@@ -1,35 +1,27 @@
-const app = require('..');
-const assist = require('../assist');
-const routes = app.Router();
+// import {seek,route} from 'lethil';
+import {route} from 'lethil';
 
-routes.get('/', function(req, res) {
-  // req.cookies.solId
-  // var abc = assist.getInfo(res.locals.sol.id);
-  // console.log(abc);
-  // console.log(res.locals.sol);
-  // res.render('dictionary', {
-  //   title: res.locals.sol.name,
-  //   keywords:'0, Myanmar, dictionary'.replace(0,res.locals.sol.name),
-  //   description:'0 to Myanmar dictionary'.replace(0,res.locals.sol.name),
-  //   pageClass:'dictionary',
-  //   dictionaries: assist.getLangList(),
-  //   info: []
-  // });
+import {language,glossary} from '../assist/index.js';
+const routes = route('navDictionary');
 
-  assist.getInfo(res.locals).then(
-    raw=>{
-      res.render('dictionary', {
+routes.get(
+  {url: '/dictionary/:id?',route: 'dictionary', text: 'Dictionary'},
+  /**
+   * @param {*} req
+   * @param {*} res
+   */
+  function(req, res) {
+    glossary.stats(res.locals.sol.id).then(
+      raw => res.render('dictionary', {
         title: raw.title,
         keywords:raw.keyword,
         description:raw.description,
         pageClass:'dictionary',
-        dictionaries: assist.getLangList(),
+        dictionaries: language.list,
         info: raw.info
-      });
-    }
-  ).catch(
-    ()=>res.status(404).end()
-  )
-});
-
-module.exports = routes;
+      })
+    ).catch(
+      () => res.status(404).send()
+    );
+  }
+);

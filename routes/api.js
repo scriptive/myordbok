@@ -1,89 +1,116 @@
-const app = require('..');
-const routes = app.Router();
-const assist = require('../assist');
+import {route} from 'lethil';
+import {config,search,speech,suggestion} from '../assist/index.js';
 
-routes.get('/', (req, res, next) => {
-  res.send({
-    name:app.Config.name,
-    version:app.Config.version,
-    development:app.Config.development
-  })
-});
-// routes.get('/locals', (req, res, next) => {
-//   res.send(res.locals)
-// });
-// routes.get('/config', (req, res, next) => {
-//   res.send(app.Config)
-// });
-routes.get('/definition', function(req, res, next) {
-  assist.search(req).then(
-    raw=> res.send(raw)
-  ).catch(next)
-});
+const routes = route('_','/api');
 
-// /orths-:name
-routes.get('/orth', (req, res) => {
-  // req.params.name req.query.name
-  assist.orthCharacter(req.query.name).then(
-    raw=> res.send(raw)
-  ).catch(
-    ()=>res.status(404).end()
-  )
-});
-// orthword orthord orthnse orthble ortheak
-routes.get('/orth-word', (req, res) => {
-  assist.orthWord(req.query.ord).then(
-    raw=> res.send(raw)
-  ).catch(
-    ()=>res.status(404).end()
-  )
-});
-routes.get('/orth-sense', (req, res) => {
-  assist.orthSense(req.query.ord).then(
-    raw=> res.send(raw)
-  ).catch(
-    ()=>res.status(404).end()
-  )
-});
-routes.get('/orth-syllable', (req, res) => {
-  assist.orthSyllable(req.query.str).then(
-    raw=> res.send(raw)
-  ).catch(
-    ()=>res.status(404).end()
-  )
-});
-routes.get('/orth-break', (req, res) => {
-  assist.orthBreak(req.query.str).then(
-    raw=> res.send(raw)
-  ).catch(
-    ()=>res.status(404).end()
-  )
-});
-routes.get('/suggestion', (req, res) => {
+routes.get('/',
+  /**
+   * @param {any} req
+   * @param {any} res
+   */
+  (req, res) => {
+    res.send({
+      name:config.name,
+      version:config.version,
+      development:config.development
+    })
+  }
+);
+
+routes.get('/search',
+  /**
+   * @param {any} req
+   * @param {any} res
+   * @param {any} next
+   */
+  (req, res,next) => {
+    search(req).then(
+      raw=> res.send(raw)
+    ).catch(next)
+  }
+);
+
+routes.get('/speech',
+  /**
+   * @param {any} req
+   * @param {any} res
+   */
+  (req, res) => {
+    res.set({
+      "Content-Type": "audio/mpeg",
+      "Accept-Ranges": "bytes",
+      "Content-Transfer-Encoding": "binary",
+      "Pragma": "cache"
+    });
+    // res.setHeader("Content-Type", "audio/mpeg");
+    // res.setHeader("Accept-Ranges", "bytes");
+    // res.setHeader("Content-Transfer-Encoding", "binary");
+    // res.setHeader("Pragma", "cache");
+    speech(req.query).then(
+      e => e.pipe(res)
+    )
+  }
+);
+
+routes.get('/suggestion',
+  /**
+   * @param {any} req
+   * @param {any} res
+   */
+  (req, res) => {
   // req.cookies.solId
-  assist.suggestion(req.query.q,res.locals.sol.id).then(
-    raw=> res.send(raw)
-  ).catch(
-    ()=>res.status(404).end()
-  )
-});
 
-routes.get('/grammar', (req, res) => {
-  assist.getGrammar().then(
-    raw=> res.send(raw)
-  ).catch(
-    ()=>res.status(404).end()
-  )
-});
+    suggestion(req.query.q,res.locals.sol.id).then(
+      raw => res.json(raw)
+    ).catch(
+      (e)=>res.status(404).end(e.message)
+    )
+  }
+);
 
-routes.get('/speech', (req, res) => {
-  res.set({
-    'Content-Type': 'audio/mpeg',
-    'Accept-Ranges': 'bytes',
-    'Content-Transfer-Encoding': 'binary',
-    'Pragma': 'cache'
-  });
-  assist.speech(req.query).pipe(res)
-});
+// routes.get('/grammar', (req, res) => {
+//   assist.getGrammar().then(
+//     raw=> res.send(raw)
+//   ).catch(
+//     ()=>res.status(404).end()
+//   )
+// });
 
-module.exports = routes;
+// // /orths-:name
+// routes.get('/orth', (req, res) => {
+//   // req.params.name req.query.name
+//   assist.orthCharacter(req.query.name).then(
+//     raw=> res.send(raw)
+//   ).catch(
+//     ()=>res.status(404).end()
+//   )
+// });
+// // orthword orthord orthnse orthble ortheak
+// routes.get('/orth-word', (req, res) => {
+//   assist.orthWord(req.query.ord).then(
+//     raw=> res.send(raw)
+//   ).catch(
+//     ()=>res.status(404).end()
+//   )
+// });
+// routes.get('/orth-sense', (req, res) => {
+//   assist.orthSense(req.query.ord).then(
+//     raw=> res.send(raw)
+//   ).catch(
+//     ()=>res.status(404).end()
+//   )
+// });
+// routes.get('/orth-syllable', (req, res) => {
+//   assist.orthSyllable(req.query.str).then(
+//     raw=> res.send(raw)
+//   ).catch(
+//     ()=>res.status(404).end()
+//   )
+// });
+// routes.get('/orth-break', (req, res) => {
+//   assist.orthBreak(req.query.str).then(
+//     raw=> res.send(raw)
+//   ).catch(
+//     ()=>res.status(404).end()
+//   )
+// });

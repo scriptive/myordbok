@@ -1,11 +1,22 @@
-const scriptive = require("@scriptive/evh");
-module.exports = scriptive;
-scriptive.server().then(
-  e=> {
-    if (e) console.log(e);
+import pug from 'pug';
+import core from './core.js';
+import './middleware.js';
+import './route.js';
+
+core.set("pug",pug);
+
+const app = core.server();
+const config = app.config;
+
+app.listen(config.listen, () => {
+  if (typeof app.address == 'object') {
+    console.log(config.name,app.address.address,app.address.port);
+  } else {
+    console.log(config.name,app.address);
   }
-).catch(
-  e=> {
-    if (e) console.error(e)
-  }
-);
+  // app.close();
+});
+
+app.on('error',function(e){
+  console.log('...',e);
+});

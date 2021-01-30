@@ -1,8 +1,14 @@
-const app = require('..');
-const routes = app.Router();
+import {route} from 'lethil';
 
-routes.get('/', function(req, res) {
-  res.render('terms', { title: 'Terms' });
-});
+const routes = route('navTerms','/terms');
 
-module.exports = routes;
+routes.get(
+  {url: '/',route: 'terms', text: 'Terms'},
+  /**
+   * @param {*} req
+   * @param {*} res
+   */
+  function(req, res) {
+    res.render('terms', { title: 'Terms' });
+  }
+);

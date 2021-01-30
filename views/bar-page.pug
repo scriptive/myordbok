@@ -2,8 +2,8 @@ ul
   li.activ--.showMobileMenu
     nav-engine
     mixin li(v)
-      li(class=v.route class={active: v.active} class={hasChild: v.child})
-        a(href=(v.url=='*' ? '/' : v.url))
+      li(class=v.route class={active: v.active || v.parent} class={hasChild: v.child})
+        a(href=(v.url=='*' ? '/' : v.url.replace(/:\w+\?/g,'')))
           span #{v.text}
         if v.child
           ol.child

@@ -1,62 +1,84 @@
-const {Config,Common} = require('../');
-// const {utility,Burglish} = app.Common;
-const path = require('path');
-const fs = require('fs');
-const ttfInfo = require('ttfinfo');
-var util = require('util');
+import path from 'path';
+import {config,seek} from 'lethil';
+import util from 'util';
+import ttfInfo from 'ttfinfo';
 
-module.exports = class fonts {
+const {media} = config;
+
+export default class fonts {
+  /**
+   * @property {{[k: string]:any}}
+   * @type {{[k: string]:{[k: string]:any}}}
+   */
+  store={};
+  /**
+   * @param {string} type
+   */
   constructor(type) {
-    this.store = {};
     this.type = type;
-    // this.fontDir = path.join(Config.storage,'media','fonts');
-    this.fontDir = path.join(Config.media,'fonts');
   }
 
-  fileJSON(e) {
-    e = e || this.type;
-    return path.join(this.fontDir,e+'.json');
+  /**
+   * @param {...string} fileName
+   */
+  root(...fileName) {
+    return path.join(media,'fonts',fileName.join('/'));
   }
 
-  read(fileName) {
-    fileName = fileName || this.type;
+  /**
+   * @param {string} fileName
+   */
+  fileJSON(fileName=this.type) {
+    return this.root(fileName+'.json');
+  }
+
+  /**
+   * @param {string} fileName
+   */
+  read(fileName=this.type) {
     if (this.store.hasOwnProperty(fileName)){
       return this.store[fileName];
     } else {
       let file = this.fileJSON(fileName);
       this.store[fileName]=[];
-      return fs.promises.readFile(file).then(
-        e=>{
-          return this.store[fileName] = JSON.parse(e);
-        }
-      ).catch(
-        ()=>{}
-      )
-      // if (data && data instanceof Array) {
-      //   return this.store[fileName] = data;
-      // }
 
+      return seek.read(file).then(
+        e => this.store[fileName] = JSON.parse(e.toString())
+      ).catch(
+        () => {}
+      )
     }
   }
 
+  /**
+   * @param {string} fileName
+   */
   write(fileName) {
     if (this.store.hasOwnProperty(fileName)){
       let file = this.fileJSON(fileName);
-      fs.promises.writeFile(file,JSON.stringify(this.store[fileName])).then(()=>true).catch(()=>false);
+      seek.write(file,JSON.stringify(this.store[fileName])).then(()=>true).catch(()=>false);
     }
   }
 
+  /**
+   * @param {string} name
+   */
   fileFont(name) {
-    return path.join(this.fontDir,this.type,name);
+    return this.root(this.type,name);
   }
 
+  /**
+   * @param {string} fileName
+   */
   async view(fileName) {
-    var response = null;
+    var response = {};
     var item = null;
     if (this.type && fileName){
-      var reader = util.promisify(ttfInfo);
+
       var file = this.fileFont(fileName);
+      var reader = util.promisify(ttfInfo);
       await this.read(this.type);
+
       if (this.store.hasOwnProperty(this.type)){
         var index = this.store[this.type].findIndex(x => x.file == fileName);
         if (index >= 0){
@@ -68,6 +90,7 @@ module.exports = class fonts {
           }
         }
       }
+      // @ts-ignore
       await reader(file).then(async (e)=>{
         if (e && e.hasOwnProperty('tables')) {
           response = await this.view_response(e.tables.name);
@@ -75,13 +98,15 @@ module.exports = class fonts {
             response.unrestrict = true;
           }
         }
-      }).catch(function(){
-        return true;
       });
+
     }
     return response;
   }
 
+  /**
+   * @param {string} fileName
+   */
   async download(fileName) {
     if (this.type && fileName){
       await this.read(this.type);
@@ -101,6 +126,9 @@ module.exports = class fonts {
     return null;
   }
 
+  /**
+   * @param {{[k:string]:any}} e
+   */
   async view_response(e) {
     var abc = {
       0: 'Copyright',
@@ -132,8 +160,10 @@ module.exports = class fonts {
       // license:[],
       // url:[]
     };
-    for (const i in e) {
-      if (e.hasOwnProperty(i)) {
+
+    for (const key in e) {
+      if (e.hasOwnProperty(key)) {
+        const i = parseInt(key);
         const context = e[i].trim();
         var paragraphs = context.replace('~\r\n?~', "\n").split('\n').map(i=>i.trim()).filter( i => i != null && i != "" );
         if (paragraphs.length > 1) {
@@ -197,72 +227,6 @@ module.exports = class fonts {
       }
     }
     return response;
-  }
-
-  async scan(fontParam) {
-    var json = this.read();
-    var directory = path.join(this.fontDir,this.type);
-    var read_dir = util.promisify(fs.readdir);
-    var read_ttf = util.promisify(ttfInfo);
-    this.read('restrict');
-
-    var asyncFile = async (files) => {
-      this.store[this.type]=[];
-      for(const fileName of files){
-        await read_ttf(path.join(directory,fileName)).then(o=>{
-          if (o && o.hasOwnProperty('tables')) {
-            var item = {
-              file:fileName,
-              name:o.tables.name[1],
-              version:o.tables.name[5] || o.tables.name[3],
-              family:o.tables.name[2],
-              view:0,
-              download:0
-            };
-            if (fontParam == fileName){
-              var indexRestrict = this.store.restrict.indexOf(item.name);
-              if (indexRestrict>=0){
-                this.store.restrict.splice(indexRestrict, 1);
-              } else {
-                this.store.restrict.push(item.name);
-              }
-            }
-            if (this.store.restrict.indexOf(item.name)>=0){
-              item.restrict=true;
-            }
-            if (json instanceof Array){
-              var tmp = json[json.findIndex(x => x.file == fileName)];
-              if (tmp && tmp instanceof Object){
-                item.view=tmp.view;
-                item.download=tmp.download;
-              }
-            } else if (json instanceof Object && json[fileName]) {
-              // NOTE previous version only apply here
-              item.view=json[fileName].view;
-              item.download=json[fileName].download;
-            }
-            // var tmp = json[json.findIndex(x => x.file == fileName)];
-            // if (tmp && tmp instanceof Object){
-            //   item.view=tmp.view;
-            //   item.download=tmp.download;
-            // } else if (json[fileName]) {
-            //   // NOTE previous version only apply here
-            //   console.log(fileName);
-            //   item.view=json[fileName].view;
-            //   item.download=json[fileName].download;
-            // }
-            this.store[this.type].push(item);
-          }
-        },function(e){
-          console.log(e);
-        });
-      }
-      this.sortable();
-      this.write(this.type);
-      this.write('restrict');
-      return this.store[this.type];
-    };
-    return read_dir(directory).then(files=>asyncFile(files));
   }
 
   sortable() {

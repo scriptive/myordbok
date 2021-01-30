@@ -1,18 +1,23 @@
-const app = require('..');
-const assist = require('../assist');
-const {locale} = app.Config;
-const routes = app.Router();
+import {route} from 'lethil';
+import {config,visits,language} from '../assist/index.js';
 
-routes.get('/', function(req, res,next) {
-  res.render('about', {
-    title:'About',
-    keywords:'Myanmar dictionary, Burmesisk ordbok, Myanmar definition, Burmese, norsk ordbok, burmissk',
-    description: 'About MyOrdbok, Free online Myanmar dictionaries',
-    dictionaries: assist.getLangList(),
-    visits: assist.visits(),
-    locale_total: locale.length,
-    dictionaries_total: assist.getLangCount()
-  })
-});
+const routes = route('navPage','/');
 
-module.exports = routes;
+routes.get(
+  {url: '/about',route: 'about', text: 'About'},
+  /**
+   * @param {*} req
+   * @param {*} res
+   */
+  function(req, res) {
+    res.render('about', {
+      title:'About',
+      keywords:'Myanmar dictionary, Burmesisk ordbok, Myanmar definition, Burmese, norsk ordbok, burmissk',
+      description: 'About MyOrdbok, Free online Myanmar dictionaries',
+      dictionaries: language.list,
+      visits: visits(),
+      locale_total: config.locale.length,
+      dictionaries_total: language.count
+    })
+  }
+);

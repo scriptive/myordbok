@@ -1,71 +1,73 @@
-const app = require('.');
-const {locale} = app.Config;
-// const {utility} = app.Common;
-const assist = require('./assist');
+import {config,route,parse} from 'lethil';
+import {language} from './assist/index.js';
 
-module.exports = {
-  restrictMiddleWare(req, res){
-    if (res.locals.referer)
-      if (req.xhr || req.headers.range) return true;
-  }
-};
-app.Core.disable('x-powered-by');
-// app.Core.disable('X-Powered-By');
-// var reqCounter = 0;
+const routes = route();
 
-app.Core.use(function(req, res, next){
-  // res.setHeader( 'X-Powered-By', '@scriptive/evh' );
-  const l0 = assist.getLangDefault();
-  var Id=l0.id;
+if (config.development){
+  import('./webpack.middleware.js').then(
+    mwa => {
+      routes.use(mwa.dev);
+      routes.use(mwa.hot);
+    }
+  )
+}
 
-  // reqCounter++;
-  // console.log('reqCounter',reqCounter)
+routes.use(
+  /**
+   * @param {*} req
+   * @param {*} res
+   * @param {*} next
+   */
+  function(req, res, next){
+    // res.setHeader( 'X-Powered-By', 'lethil' );
+    const l0 = language.primary;
+    var Id=l0.id;
 
-  if (req.cookies.solId || req.cookies.solId != undefined) {
-    Id=req.cookies.solId;
-  } else {
-    res.cookie('solId', Id);
-  }
-
-  const [name,solName] = req.path.split('/').filter(e=>e);
-  if (name == 'dictionary' && solName) {
-    var l1 = assist.getLangByName(solName);
-    if (l1 && l1.id != Id) {
-      Id = l1.id;
+    if (req.cookies.solId || req.cookies.solId != undefined) {
+      Id=req.cookies.solId;
+    } else {
       res.cookie('solId', Id);
     }
+
+    const [name,solName] = req.url.split('/').filter(e=>e);
+    if (name == 'dictionary' && solName) {
+      var l1 = language.byName(solName);
+      if (l1 && l1.id != Id) {
+        Id = l1.id;
+        res.cookie('solId', Id);
+      }
+    }
+    // res.locals.app_locale = locale;
+
+    res.locals.appName = config.name;
+    res.locals.appVersion = config.version;
+    res.locals.appDescription = config.description;
+
+    if (req.headers.referer){
+      var ref = parse.url(req.headers.referer);
+      res.locals.referer = req.headers.host == ref.host;// || config.user.referer.filter((e)=>e.exec(ref.host)).length > 0;
+      res.locals.host = ref.protocol+'//'+req.headers.host;
+    }
+
+    res.locals.sol=language.byId(Id)||l0;
+    next();
   }
-  // res.locals.app_locale = locale;
+);
 
-  res.locals.sol=assist.getLangById(Id)||l0;
-  next();
-});
+/**
+ * org: restrictMiddleWare
+ */
+routes.use(
+  '/api',
+  /**
+   * @param {*} req
+   * @param {*} res
+   * @param {*} next
+   */
+  function(req, res, next){
 
-// app.Core.use('/jquery.js',app.Common.express.static(__dirname + '/node_modules/jquery/dist/jquery.min.js'));
-
-if (app.Config.development) {
-  // console.log('app.Config.development',app.Config.development)
-  const webpack = require('webpack');
-  const webpackDevMiddleware = require('webpack-dev-middleware');
-  const webpackHotMiddleware = require('webpack-hot-middleware');
-  // const config = require('./webpack.config.js');
-  const config = require('./webpack.middleware');
-
-  //reload=true:Enable auto reloading when changing JS files or content
-  //timeout=1000:Time from disconnecting from server to reconnecting
-  // config.entry.app.unshift('webpack-hot-middleware/client?path=/__webpack_hmr&reload=true&timeout=1000');
-
-  //Add HMR plugin
-  // config.plugins.push(new webpack.HotModuleReplacementPlugin());
-
-  const compiler = webpack(config);
-
-  //Enable "webpack-dev-middleware"
-  app.Core.use(webpackDevMiddleware(compiler, {
-    publicPath: config.output.publicPath
-  }));
-
-  //Enable "webpack-hot-middleware"
-  app.Core.use(webpackHotMiddleware(compiler));
-
-}
+    if (res.locals.referer) return next();
+    res.status(404).end();
+    // if (req.xhr || req.headers.range) next();
+  }
+);
