@@ -1,7 +1,8 @@
 # Todo
 
-- Generall
-  - [ ] remove X-Powered-By
+- General
+  - [ ] menu active vs child
+  - [ ] menu - {param} (:type?)
 
 - Lookup
   - [x] get rootWord when no definition found
