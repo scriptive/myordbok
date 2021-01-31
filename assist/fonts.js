@@ -1,7 +1,7 @@
 import path from 'path';
 import {config,seek} from 'lethil';
 import util from 'util';
-import ttfInfo from 'ttfinfo';
+import ttfMeta from 'ttfmeta';
 
 const {media} = config;
 
@@ -35,7 +35,7 @@ export default class fonts {
   /**
    * @param {string} fileName
    */
-  read(fileName=this.type) {
+  async read(fileName=this.type) {
     if (this.store.hasOwnProperty(fileName)){
       return this.store[fileName];
     } else {
@@ -76,7 +76,6 @@ export default class fonts {
     if (this.type && fileName){
 
       var file = this.fileFont(fileName);
-      var reader = util.promisify(ttfInfo);
       await this.read(this.type);
 
       if (this.store.hasOwnProperty(this.type)){
@@ -90,8 +89,7 @@ export default class fonts {
           }
         }
       }
-      // @ts-ignore
-      await reader(file).then(async (e)=>{
+      await ttfMeta.promise(file).then(async (e)=>{
         if (e && e.hasOwnProperty('tables')) {
           response = await this.view_response(e.tables.name);
           if (item instanceof Object && !item.hasOwnProperty('restrict')){

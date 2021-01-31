@@ -53,7 +53,7 @@
     "pug": "^3.0.0",
     "tar": "^6.1.0",
     "thesaurus": "0.0.1",
-    "ttfinfo": "^0.2.0"
+    "ttfmeta": "^1.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
