@@ -50,7 +50,7 @@
     "myanmar-notation": "^1.4.0",
     "mysql": "^2.18.1",
     "pluralize": "^8.0.0",
-    "pug": "^3.0.0",
+    "pug": "^3.0.1",
     "tar": "^6.1.0",
     "thesaurus": "0.0.1",
     "ttfmeta": "^1.0.1"
