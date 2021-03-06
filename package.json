@@ -46,11 +46,11 @@
   "homepage": "https://github.com/khensolomon/myordbok#readme",
   "dependencies": {
     "lethil": "file:../lethil",
-    "mathjs": "^8.0.1",
-    "myanmar-notation": "^1.4.0",
+    "mathjs": "^9.2.0",
+    "myanmar-notation": "^1.4.5",
     "mysql": "^2.18.1",
     "pluralize": "^8.0.0",
-    "pug": "^3.0.0",
+    "pug": "^3.0.2",
     "tar": "^6.1.0",
     "thesaurus": "0.0.1",
     "ttfmeta": "^1.0.1"
