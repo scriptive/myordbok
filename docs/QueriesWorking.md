@@ -4,6 +4,66 @@
 ”)
 
 ```sql
+
+
+UPDATE `list_sense` AS a set a.sense = TRIM(REPLACE(a.sense, '  ', ' ')) WHERE a.sense LIKE ' %';
+UPDATE `list_sense` AS a set a.sense = REPLACE(a.sense, '  ', ' ') WHERE a.sense LIKE '%  %';
+UPDATE `list_sense` AS a set a.exam = REPLACE(a.exam, '  ', ' ') WHERE a.exam LIKE '%  %';
+UPDATE `list_sense` AS a set a.exam = NULL WHERE a.exam LIKE '';
+
+SELECT * FROM list_sense WHERE sense LIKE '% ​%';
+UPDATE `list_sense` AS a set a.sense = REPLACE(a.sense, ' ​', ' ') WHERE a.sense LIKE '% ​%';
+UPDATE `list_sense` AS a set a.exam = REPLACE(a.exam, ' ​', ' ') WHERE a.exam LIKE '% ​%';
+
+SELECT * FROM list_sense WHERE exam LIKE '%​%';
+UPDATE `list_sense` AS a set a.sense = REPLACE(a.sense, '​', '') WHERE a.sense LIKE '%​%';
+
+SELECT * FROM list_sense WHERE exam LIKE '%(2)%';
+UPDATE `list_sense` AS a set a.exam = TRIM(REPLACE(a.exam, '(2)', ' ')) WHERE a.exam LIKE '%(2)%';
+UPDATE `list_sense` AS a set a.exam = TRIM(REPLACE(a.exam, ' .', '')) WHERE a.exam LIKE '% .%';
+
+SELECT * FROM list_sense WHERE exam LIKE '% ​%';
+
+UPDATE `list_sense` AS a
+  INNER JOIN (select id, word from `list_word` GROUP BY word) AS b ON a.word = b.word
+  SET a.wrid = b.id;
+
+-- CREATE TABLE "list_sense" (
+--   "id"	INTEGER,
+--   "word"	TEXT,
+--   "wrte"	INTEGER,
+--   "sense"	TEXT,
+--   "exam"	TEXT,
+--   "wseq"	INTEGER,
+-- 	PRIMARY KEY("id" AUTOINCREMENT)
+-- )
+
+-- INSERT INTO `list_sense` (`id`, `word`, `wrte`, `sense`, `exam`, `wseq`) VALUES
+-- 	(1, 'fat chance', 11, '(infml ironic) (often as an interj) အားကြီးရပါလိမ့်မယ်။', 'Maybe they'll let us in without tickets.\r\nFat chance (of that)!', 1),
+-- 	(2, 'all by herself', 11, 'တစ်ကိုယ်တည်း။ အထီးတည်း။ ကိုယ်တိုင်။ ကိုယ့်ဘာသာကိုယ်။', 'She lives by herself.', 1),
+-- 	(3, 'all by himself', 11, 'တစ်ကိုယ်တည်း။ အထီးတည်း။ ကိုယ်တိုင်။ သူ့ဘာသာသူ။', 'He lives all by himself in that large house.', 1),
+-- 	(4, 'all by myself', 11, 'တစ်ကိုယ်တည်း။ ကိုယ့် ဘာသာကိုယ်။', 'I sat by myself in the waiting- room.', 1),
+-- 	(5, 'all by oneself', 11, 'တစ်ဦးတည်း။ တစ်ကိုယ်တည်း။ ကိုယ်ထူး။ ကိုယ့်အားကိုယ်ကိုး။', NULL, 1);
+
+(
+  SELECT 'id', 'word', 'wrte', 'sense', 'exam', 'wseq'
+)
+UNION ALL
+(
+  SELECT
+    a.id, a.word, a.wrte, REPLACE(a.sense, '\r\n', '\n'), REPLACE(COALESCE(a.exam,''), '\r\n', '\n'), a.wseq
+  FROM `list_sense` AS a
+    WHERE a.word IS NOT NULL AND a.sense IS NOT NULL
+      ORDER BY a.word, a.wseq ASC LIMIT 10
+)
+INTO OUTFILE '/tmp/myordbok/list-sense-v5.csv'
+FIELDS ENCLOSED BY '"'
+TERMINATED BY '\t'
+ESCAPED BY '"'
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n';
+
+
 UPDATE `senses` SET `sense` = REPLACE(`sense`, '“', '"') WHERE `sense` LIKE '“';
 UPDATE `senses` SET `sense` = REPLACE(REPLACE(`sense`, '”', '"'), '“', '"') WHERE `sense` LIKE '%“%';
 UPDATE `senses` SET `exam` = REPLACE(REPLACE(`exam`, '”', '"'), '“', '"') WHERE `exam` LIKE '%“%';
@@ -11,6 +71,8 @@ UPDATE `senses` SET `exam` = REPLACE(REPLACE(`exam`, '”', '"'), '“', '"') WH
 SELECT * FROM `senses` WHERE `sense` NOT LIKE '% %' AND `sense` NOT LIKE '%[%' AND `sense` LIKE '%a%';
 SELECT * FROM `senses` WHERE LENGTH(REPLACE(`sense`, ')', '')) <> LENGTH(REPLACE(`sense`, '(', ''))
 ```
+
+၄၅လက်မကျည်သုံး စက်သေနတ်ငယ်။
 
 
 ```sql
@@ -122,6 +184,9 @@ UPDATE `senses` SET `sense` = REPLACE(`sense`, "~ sb (", "(~ sb ") WHERE `sense`
 
 UPDATE `ord_ar` SET `sense` = REPLACE(`sense`, ",", ";") WHERE `sense` LIKE '%,%';
 ```
+
+46893
+inguinal
 
 [fml]
 [infml]

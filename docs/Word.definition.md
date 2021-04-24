@@ -22,6 +22,38 @@
 18: "Int"
 ```
 
+## Usage
+
+[pos:*]
+[with:*]
+[list:*]
+[list:-er/-est]
+[list:-ier/-iest]
+[list:-eries]
+[abbr:*]
+[also:*]
+[Brit:]
+[US:]
+[asin:British]
+[asin:American]
+[asin:Mathematics]
+[asin:Grammar]
+
+### asin
+
+[~:Grammar]
+[~:British]
+[~:American]
+
+### joiner (with,see,also)
+
+unrespectability [see:un-/respectability] ၏ (အငြင်းရှေ့ဆက်)
+nonopening [see:non-/opening] ၏ (ပဋိသေဓ အနက်ပြ ရှေ့ဆက်)
+whiteness [see:white/-ness] ၏ (နာမ်ပြောင်း နောက်ဆက်)။
+([with:adjective/adverb/noun/verb]) (ပဋိသေဓဖြစ်ကြောင်း ပြသော ရှေ့ဆက်)။ မ …။
+
+[~:abjurer]
+
 Punctuation | en | my
 ---|---|---
 full stop | . | ။
@@ -108,6 +140,10 @@ other: worded various turgid variable  hydroelectric sub wound
 
 devided into
 Supreme Being, spiritual being, supernatural being
+
+စိတ်ခံစားမှု အခြေအနေ
+
+စိတ်ပိုင်းဆိုင်ရာ ခံစားမှု အခြေအနေ
 
 to deprive of sexual power
 ဆုံးရှုံးသည်

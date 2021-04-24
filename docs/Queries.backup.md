@@ -1,4 +1,4 @@
-# BAckup
+# Backup
 
 ```sql
 CREATE TABLE en_sense AS SELECT * FROM en_define;
@@ -37,26 +37,31 @@ ALTER TABLE zh_word CHANGE `define` `sense` TEXT NULL, CHANGE `describe` `exam` 
 ```
 
 First create a blank database:
+
 ```sql
 CREATE DATABASE `myordbok_beta` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 ```
 
 Then use the command show tables;
+
 ```sql
 show source.tables;
  ```
 
 and then run the command for each DB table (Optimized Create table and inserting rows) as:
+
 ```sql
 create table destination.table select * from source.table;
 ```
 
 and other way is using like command:
+
 ```sql
   create table destination.table like source.table
 ```
 
 and then inserting rows;
+
 ```sql
 insert into destination.table select * from source.table
 ```
