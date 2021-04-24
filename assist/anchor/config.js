@@ -9,10 +9,10 @@ export const setting = {
     // {id:'zo',name:'Zolai'}
   ],
   table:{
-    senses:'senses',
+    senses:'list_sense',
     other:'ord_0',
-    synset:'words',
-    synmap:'derives'
+    synset:'list_word',
+    synmap:'map_derive'
   },
   dictionaries:[
     {
@@ -99,7 +99,8 @@ export const setting = {
     synset:'synset.json', // words
     synmap:'synmap.json', //derives
     zero:'zero.EN.csv', //no result
-    info:'info.EN.json'
+    info:'info.EN.json',
+    thesaurus:'thesaurus.json',
   },
   grammar:{
     live:'_live.json',

@@ -1,36 +1,7 @@
-import {db} from 'lethil';
+import {db,load} from 'lethil';
 import {config, json, glossary} from '../anchor/index.js';
 
 const {dictionaries, table} = config.setting;
-
-/**
- * export word [synmap,synset]
- * @param {any} req
- */
-export async function word(req){
-  // id AS w, word AS v, derived AS d  LIMIT 10;
-  // throw '...needed to enable manually';
-  await db.mysql.query("SELECT id AS w, word AS v FROM ??;",[table.synset]).then(
-    async raw=>{
-      await json.write(config.setting.glossary.synset,raw);
-      // await json.write('./test/words.json',raw);
-      console.info('words->synset',raw.length)
-    }
-  ).catch(
-    e=>console.error(e)
-  );
-
-  await db.mysql.query("SELECT root_id AS w, word AS v, derived_type AS d, word_type AS t FROM ??;",[table.synmap]).then(
-    async raw=>{
-      // await json.write('./test/derives.json',raw);
-      await json.write(config.setting.glossary.synmap,raw);
-      console.info('derives->synmap',raw.length)
-    }
-  ).catch(
-    e=>console.error(e)
-  );
-  return 'Done';
-}
 
 /**
  * export definition [en, sense, usage]
@@ -50,21 +21,21 @@ export async function definition(req){
     )
   }
 
-  // NOTE: reset wid
-  // UPDATE ?? AS o INNER JOIN (select id,word from ?? GROUP BY word ) AS i ON o.word = i.word SET o.wid = i.id;
-  // UPDATE ?? AS o INNER JOIN (select id,word from ?? GROUP BY word ) AS i ON o.word = i.word SET o.wid = i.id;'
-  // UPDATE ?? AS o INNER JOIN (select id, word from ?? GROUP BY word COLLATE UTF8_BIN) AS i ON o.word COLLATE UTF8_BIN = i.word SET o.wid = i.id;
-  await db.mysql.query('UPDATE ?? AS o INNER JOIN (select id, word from ?? GROUP BY word) AS i ON o.word = i.word SET o.wid = i.id;',
+  // NOTE: reset wrid
+  // UPDATE ?? AS o INNER JOIN (select id,word from ?? GROUP BY word ) AS i ON o.word = i.word SET o.wrid = i.id;
+  // UPDATE ?? AS o INNER JOIN (select id,word from ?? GROUP BY word ) AS i ON o.word = i.word SET o.wrid = i.id;'
+  // UPDATE ?? AS o INNER JOIN (select id, word from ?? GROUP BY word COLLATE UTF8_BIN) AS i ON o.word COLLATE UTF8_BIN = i.word SET o.wrid = i.id;
+  await db.mysql.query('UPDATE ?? AS o INNER JOIN (select id, word from ?? GROUP BY word) AS i ON o.word = i.word SET o.wrid = i.id;',
     [table.senses,table.senses]
   ).then(
     ()=>{
-      console.log('...','reset wid')
+      console.log('...','reset wrid')
     }
   ).catch(
     e=>console.error(e)
   );
-  // Change wid AS w to wid AS k
-  await db.mysql.query('SELECT wid AS w, word AS v FROM ?? WHERE word IS NOT NULL GROUP BY wid ORDER BY word ASC;',
+  // Change wrid AS w to wrid AS k
+  await db.mysql.query('SELECT wrid AS w, word AS v FROM ?? WHERE word IS NOT NULL GROUP BY wrid ORDER BY word ASC;',
     [table.senses]
   ).then(
     async raw=>{
@@ -76,7 +47,7 @@ export async function definition(req){
   ).catch(
     e=>console.error(e)
   );
-  await db.mysql.query('SELECT id AS i, wid AS w, tid AS t, sense AS v FROM ?? WHERE word IS NOT NULL AND sense IS NOT NULL ORDER BY tid, seq;',
+  await db.mysql.query('SELECT id AS i, wrid AS w, wrte AS t, sense AS v FROM ?? WHERE word IS NOT NULL AND sense IS NOT NULL ORDER BY wrte, wseq;',
     [table.senses]
   ).then(
     async raw=>{
@@ -87,7 +58,7 @@ export async function definition(req){
   ).catch(
     e=>console.error(e)
   );
-  await db.mysql.query("SELECT id AS i, exam AS v FROM ?? WHERE exam IS NOT NULL AND exam <> '' ORDER BY tid, seq;",
+  await db.mysql.query("SELECT id AS i, exam AS v FROM ?? WHERE exam IS NOT NULL AND exam <> '' ORDER BY wrte, wseq;",
     [table.senses]
   ).then(
     async raw=>{
@@ -139,4 +110,42 @@ export async function translation(req){
     }
   }
   return Object.keys(json.data).length;
+}
+
+/**
+ * export word [synset]
+ * @param {any} req
+ * id AS w, word AS v, derived AS d  LIMIT 10;
+ */
+ export async function wordSynset(req){
+  // id AS w, word AS v, derived AS d  LIMIT 10;
+  // throw '...needed to enable manually';
+  await db.mysql.query("SELECT id AS w, word AS v FROM ??;",[table.synset]).then(
+    async raw=>{
+      await json.write(config.setting.glossary.synset,raw);
+      // await json.write('./test/words.json',raw);
+      console.info('words->synset',raw.length)
+    }
+  ).catch(
+    e=>console.error(e)
+  );
+  return 'Done';
+}
+
+/**
+ * export word [synmap]
+ * @param {any} req
+ */
+export async function wordSynmap(req){
+  throw '...needed to enable manually, column have been changed, word into wordid (wrid)';
+  await db.mysql.query("SELECT root_id AS w, wrid AS v, derived_type AS d, word_type AS t FROM ??;",[table.synmap]).then(
+    async raw=>{
+      // await json.write('./test/derives.json',raw);
+      await json.write(config.setting.glossary.synmap,raw);
+      console.info('derives->synmap',raw.length)
+    }
+  ).catch(
+    e=>console.error(e)
+  );
+  return 'Done';
 }

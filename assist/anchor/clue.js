@@ -53,7 +53,8 @@ export async function fromJSON(word,watchIt=false){
   console.log('sql',word)
  */
 export async function fromMySQL(word){
-  var raw = await db.mysql.query("SELECT word AS term, tid AS pos, sense AS v,exam FROM ?? WHERE LOWER(word) LIKE LOWER(?) ORDER BY tid, seq;",[setting.table.senses,word]);
+  var raw = await db.mysql.query("SELECT word AS term, wrte AS pos, sense AS v,exam FROM ?? WHERE LOWER(word) LIKE LOWER(?) ORDER BY wrte, wseq;",
+  [setting.table.senses,word]);
   if (raw.length){
     return raw.map(function(o){
       o.pos = synset[o.pos].name;
