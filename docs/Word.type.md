@@ -28,6 +28,15 @@ https://my.wiktionary.org/wiki/?
 "17","Article"
 "18","Int"
 
+UPDATE list_sense SET wrte=27 WHERE wrte =16;
+UPDATE list_sense SET wrte=28 WHERE wrte =17;
+UPDATE list_sense SET wrte=29 WHERE wrte =18;
+
+UPDATE list_sense SET wrte=17 WHERE wrte =27;
+UPDATE list_sense SET wrte=18 WHERE wrte =28;
+UPDATE list_sense SET wrte=16 WHERE word LIKE '-%' AND wrte = 0;
+
+
 -- UPDATE sense SET tmp=0 WHERE tid =91;
 UPDATE sense SET tmp=6 WHERE tid =92;
 UPDATE sense SET tmp=2 WHERE tid =93;

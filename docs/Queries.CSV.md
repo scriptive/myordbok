@@ -21,7 +21,7 @@ LINES TERMINATED BY '\r\n';
 
 -- with header
 (
-  SELECT 'id', 'word', 'is_derived'
+  SELECT 'id', 'word', 'derived'
 )
 UNION ALL
 (
@@ -64,7 +64,7 @@ UNION ALL
   SELECT
     a.id, a.word, a.wrte, REPLACE(a.sense, '\r\n', '\n'), REPLACE(COALESCE(a.exam,''), '\r\n', '\n'), a.wseq
   FROM `list_sense` AS a
-    WHERE a.word IS NOT NULL AND a.sense IS NOT NULL
+    WHERE a.word IS NOT NULL AND a.sense IS NOT NULL AND DATE(dated) = '1981-07-08'
       ORDER BY a.word, a.wseq ASC LIMIT 10
 )
 INTO OUTFILE '/tmp/myordbok/list-sense.csv'

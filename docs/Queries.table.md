@@ -39,30 +39,54 @@ AUTO_INCREMENT=295908;
 
 CREATE TABLE `list_sense` (
   `id` INT(10) NOT NULL AUTO_INCREMENT,
-  `word` VARCHAR(250) NULL DEFAULT NULL COLLATE 'utf8_bin',
-  `wrte` INT(2) NULL DEFAULT '0',
+  `word` VARCHAR(250) NULL DEFAULT NULL COLLATE 'utf8_general_ci',
+  `wrte` INT(2) NOT NULL DEFAULT '0',
   `sense` TEXT NULL DEFAULT NULL COLLATE 'utf8_general_ci',
   `exam` TEXT NULL DEFAULT NULL COLLATE 'utf8_general_ci',
   `wseq` INT(2) NOT NULL DEFAULT '0',
   `wrkd` INT(2) NOT NULL DEFAULT '0',
   `wrid` INT(10) NOT NULL DEFAULT '0',
+  `dated` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`) USING BTREE,
-  INDEX `Index 3` (`word`) USING BTREE,
-  FULLTEXT INDEX `Fulltext` (`word`)
+  INDEX `indexed` (`id`, `word`) USING BTREE,
+  FULLTEXT INDEX `texted` (`word`)
 )
 COLLATE='utf8_general_ci'
 ENGINE=InnoDB
-ROW_FORMAT=DYNAMIC
-AUTO_INCREMENT=103582;
+AUTO_INCREMENT=93258
+-- AUTO_INCREMENT=94197
+-- AUTO_INCREMENT=103582
 
--- Sort by id
+-- Sort by word
 ALTER TABLE `list_sense` ORDER BY `word` ASC;
 
 -- Reset id
-ALTER TABLE `list_sense` DROP COLUMN `id`;
+ALTER TABLE `list_sense` DROP PRIMARY KEY,
+  DROP COLUMN `id`;
 ALTER TABLE `list_sense`
   ADD COLUMN `id` INT(10) NOT NULL AUTO_INCREMENT FIRST,
   ADD PRIMARY KEY (`id`);
+
+-- Sort by word
+
+
+-- Reset id
+ALTER TABLE `list_sense` DROP COLUMN `id`;
+ALTER TABLE `list_sense` ORDER BY `word` ASC;
+ALTER TABLE `list_sense`
+  ADD COLUMN `id` INT(10) NOT NULL AUTO_INCREMENT FIRST,
+  ADD PRIMARY KEY (`id`);
+
+
+ALTER TABLE `list_sense` DROP COLUMN `id`;
+ALTER TABLE `list_sense`
+  ADD COLUMN `id` int(10) NOT NULL PRIMARY KEY AUTO_INCREMENT FIRST,
+  ADD PRIMARY KEY (`id`);
+
+-- check
+SELECT COUNT(*) AS total FROM `list_sense`;
+93334
+93248
 
 ```
 
@@ -150,3 +174,59 @@ COLLATE='utf8_general_ci'
 ENGINE=InnoDB
 ROW_FORMAT=COMPACT
 AUTO_INCREMENT=2954;
+```
+
+## view
+
+```sql
+
+CREATE VIEW `todo` AS
+SELECT
+  w.*
+FROM `list_word` AS w
+WHERE w.word NOT IN (
+  SELECT word FROM `list_sense` GROUP BY word
+) AND w.is_derived = 0;
+```
+
+## SQLite
+
+```sql
+
+CREATE TABLE "list_sense" (
+  "id" INTEGER,
+  "word" TEXT,
+  "wrte" INTEGER,
+  "sense" TEXT,
+  "exam" TEXT,
+  "wseq" INTEGER
+);
+
+CREATE TABLE "list_word" (
+  "id" INTEGER,
+  "word" TEXT,
+  "derived" INTEGER
+);
+
+CREATE TABLE "map_derive" (
+  "id" INTEGER,
+  "wrid" INTEGER,
+  "wrte" INTEGER,
+  "dete" INTEGER,
+  "wirg" INTEGER
+);
+
+CREATE TABLE "map_thesaurus" (
+  "wrid" INTEGER,
+  "wlid" INTEGER
+);
+
+CREATE TABLE "updates" (
+  "id" INTEGER,
+  "param" INTEGER,
+  "note" TEXT,
+  "task" INTEGER DEFAULT 0,
+  PRIMARY KEY("id" AUTOINCREMENT)
+);
+
+INSERT INTO updates ("id","param","note","task") VALUES (1,19810708,"built-in",1);

@@ -10,18 +10,40 @@ UPDATE `list_sense` AS a SET a.wrid = 0 WHERE wrid > 0;
 
 UPDATE `list_sense` AS a
   INNER JOIN (select id, word from `list_word` GROUP BY word) AS b ON a.word = b.word
-  SET a.wrid = b.id;
+  SET a.wrid = b.id
+  WHERE a.word IS NOT NULL;
 
 -- update wrid(wordId) based on it own id
 
 UPDATE `list_sense` AS a
   INNER JOIN (select id, word from `list_sense` GROUP BY word) AS b ON a.word = b.word
   SET a.wrid = b.id;
+
+SELECT * FROM `list_sense` WHERE wrid = 0 ORDER BY word;
+
+DELETE FROM `list_sense` WHERE wrid = 0 AND wrte = 0 AND wrkd = 8
 ```
 
 ... search
 
 ```sql
+
+-- get thesaurus
+
+SELECT
+  *
+FROM `list_word` AS w
+  JOIN `map_thesaurus` c ON w.id = c.wrid
+    INNER JOIN `list_word` d ON c.wlid = d.id
+WHERE w.word = 'apples';
+
+SELECT
+  w.id AS root, c.wlid AS wrid, d.word AS word, d.is_derived AS is_derived
+FROM `list_word` AS w
+  JOIN `map_thesaurus` c ON w.id = c.wrid
+    INNER JOIN `list_word` d ON c.wlid = d.id
+WHERE w.word = 'loving';
+
 -- get root words
 
 SELECT
@@ -40,7 +62,7 @@ FROM `list_word` AS w
     INNER JOIN `list_word` d ON c.wrid = d.id
 WHERE w.word = 'apple';
 
--- get base and root words
+-- get base and root words (?)
 
 SELECT
   w.word AS word, d.word AS base, d.is_derived AS is_derived, c.dete AS derived_type, c.wrte AS word_type, c.wirg AS irreg

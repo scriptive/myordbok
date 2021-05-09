@@ -1,10 +1,138 @@
-# [usu. *.] [usu. *] [usu *]
-
-“direction”
-”)
+# ?
 
 ```sql
 
+
+UPDATE `list_sense` AS a
+  INNER JOIN (select id, word from `list_sense` GROUP BY word HAVING COUNT(*) = 1) AS b ON a.word = b.word
+  SET a.dated = '2021-04-30 10:00:00'
+  WHERE a.word NOT LIKE '% %' AND a.exam IS NOT NULL AND a.wrid > 0
+
+UPDATE `list_sense`
+  LEFT JOIN
+    (SELECT id FROM `list_sense` WHERE DATE(dated) = '2021-04-29' AND word NOT LIKE '% %' AND exam IS NOT NULL AND wrid > 0
+    GROUP BY word
+    HAVING COUNT(*) = 1) AS b ON a.id = b.id
+SET dated = CURRENT_TIMESTAMP
+
+UPDATE `list_sense` AS a
+  INNER JOIN (select id, word from `list_word` GROUP BY word) AS b ON a.word = b.word
+  SET a.dated = '2021-04-30 14:55:12'
+  WHERE DATE(dated) = '2021-05-02' AND a.wrte = 0;
+
+SELECT * FROM  `list_sense`
+  WHERE DATE(dated) = '2021-04-29' AND word NOT LIKE '% %' AND exam IS NOT NULL AND wrid > 0
+  GROUP BY word
+  HAVING COUNT(*) = 1;
+
+SELECT
+    CONCAT("[",
+         GROUP_CONCAT(
+              CONCAT('{"id":"',id,'",'),
+              CONCAT('"word":"',word,'"}\r\n')
+         )
+    ,"]")
+AS o FROM `list_sense` LIMIT 20
+INTO OUTFILE '/tmp/myordbok/list-sense.json'
+
+SELECT JSON_ARRAYAGG(
+  JSON_OBJECT('id', id, 'word', word, 'wrte', wrte, 'sense', sense, 'exam', exam, 'wseq', wseq)
+  )
+FROM `list_sense` LIMIT 20
+INTO OUTFILE '/tmp/myordbok/list-sense.json'
+
+SELECT JSON_OBJECT
+  ('id', id,
+    'word', word)
+FROM `list_sense` LIMIT 20
+INTO OUTFILE '/tmp/myordbok/list-sense.json'
+
+-- update sequence
+UPDATE `list_sense` tar
+  JOIN(
+    SELECT id
+      FROM `list_sense`
+      GROUP BY word
+    HAVING COUNT(*) = 1
+  ) src ON tar.id = src.id
+SET tar.wseq = 0
+WHERE tar.wseq != 0;
+
+UPDATE `list_sense` tar
+  JOIN(
+    SELECT id
+      FROM `list_sense`
+      GROUP BY word
+    HAVING COUNT(*) = 2
+  ) src ON tar.id = src.id
+SET tar.wseq = 0
+WHERE tar.wseq != 0;
+
+
+CREATE VIEW `word_root` AS
+SELECT
+  w.id AS roid, c.wrid, c.wrte, c.dete, c.wirg, d.word, d.is_derived
+FROM `list_word` AS w
+  INNER JOIN `map_derive` c ON w.id = c.wrid
+    INNER JOIN `list_word` d ON c.id = d.id
+WHERE w.word = 'loves';
+
+CREATE VIEW `word_base` AS
+SELECT
+  w.id AS roid, c.wrid, c.wrte, c.dete, c.wirg, d.word, d.is_derived
+FROM `list_word` AS w
+  JOIN `map_derive` c ON w.id = c.id
+    INNER JOIN `list_word` d ON c.wrid = d.id
+WHERE w.word = 'apple';
+
+
+CREATE VIEW `thesaurus` AS
+SELECT
+  w.id AS roid, w.word AS word, d.word AS term
+FROM `list_word` AS w
+  JOIN `map_thesaurus` c ON w.id = c.wrid
+    INNER JOIN `list_word` d ON c.wlid = d.id
+WHERE w.word = 'loving';
+
+CREATE VIEW `todo` AS
+SELECT
+  w.*
+FROM `list_word` AS w
+WHERE w.word NOT IN (
+  SELECT word FROM `list_sense` GROUP BY word
+) AND w.is_derived = 0;
+
+SELECT
+  w.*
+FROM `list_word` AS w
+WHERE NOT EXISTS (
+  SELECT word FROM `list_sense` WHERE word NOT LIKE w.word GROUP BY word
+) LIMIT 1;
+
+SELECT * FROM `list_sense` WHERE wrid = 0 AND word is not '% %' ORDER BY word;
+SELECT * FROM `list_word` WHERE word LIKE '';
+
+
+UPDATE `previous_synonym` AS o INNER JOIN (select id, word from `list_word` GROUP BY word) AS i ON o.word1 = i.word SET o.wrid = i.id;
+UPDATE `previous_synonym` AS o INNER JOIN (select id, word from `list_word` GROUP BY word) AS i ON o.word2 = i.word SET o.wlid = i.id;
+
+UPDATE `list_synonym` AS dest
+SET dest.wrid =
+INNER JOIN (select id, word from `list_word` GROUP BY word) AS i ON o.wrid = i.id
+
+UPDATE `list_synonym` AS dest
+    SET dest.wrid = (select id from `list_word` AS src where src.word1 = dest.id);
+
+INSERT IGNORE INTO `list_word` (word)
+SELECT src.word1
+FROM `list_synonym` AS src
+WHERE condition;
+
+INSERT INTO word (word)
+SELECT * FROM (SELECT 'name1', 'add', '022') AS tmp
+WHERE NOT EXISTS (
+    SELECT name FROM word WHERE name = 'name1'
+) LIMIT 1;
 
 UPDATE `list_sense` AS a set a.sense = TRIM(REPLACE(a.sense, '  ', ' ')) WHERE a.sense LIKE ' %';
 UPDATE `list_sense` AS a set a.sense = REPLACE(a.sense, '  ', ' ') WHERE a.sense LIKE '%  %';
@@ -28,40 +156,7 @@ UPDATE `list_sense` AS a
   INNER JOIN (select id, word from `list_word` GROUP BY word) AS b ON a.word = b.word
   SET a.wrid = b.id;
 
--- CREATE TABLE "list_sense" (
---   "id"	INTEGER,
---   "word"	TEXT,
---   "wrte"	INTEGER,
---   "sense"	TEXT,
---   "exam"	TEXT,
---   "wseq"	INTEGER,
--- 	PRIMARY KEY("id" AUTOINCREMENT)
--- )
 
--- INSERT INTO `list_sense` (`id`, `word`, `wrte`, `sense`, `exam`, `wseq`) VALUES
--- 	(1, 'fat chance', 11, '(infml ironic) (often as an interj) အားကြီးရပါလိမ့်မယ်။', 'Maybe they'll let us in without tickets.\r\nFat chance (of that)!', 1),
--- 	(2, 'all by herself', 11, 'တစ်ကိုယ်တည်း။ အထီးတည်း။ ကိုယ်တိုင်။ ကိုယ့်ဘာသာကိုယ်။', 'She lives by herself.', 1),
--- 	(3, 'all by himself', 11, 'တစ်ကိုယ်တည်း။ အထီးတည်း။ ကိုယ်တိုင်။ သူ့ဘာသာသူ။', 'He lives all by himself in that large house.', 1),
--- 	(4, 'all by myself', 11, 'တစ်ကိုယ်တည်း။ ကိုယ့် ဘာသာကိုယ်။', 'I sat by myself in the waiting- room.', 1),
--- 	(5, 'all by oneself', 11, 'တစ်ဦးတည်း။ တစ်ကိုယ်တည်း။ ကိုယ်ထူး။ ကိုယ့်အားကိုယ်ကိုး။', NULL, 1);
-
-(
-  SELECT 'id', 'word', 'wrte', 'sense', 'exam', 'wseq'
-)
-UNION ALL
-(
-  SELECT
-    a.id, a.word, a.wrte, REPLACE(a.sense, '\r\n', '\n'), REPLACE(COALESCE(a.exam,''), '\r\n', '\n'), a.wseq
-  FROM `list_sense` AS a
-    WHERE a.word IS NOT NULL AND a.sense IS NOT NULL
-      ORDER BY a.word, a.wseq ASC LIMIT 10
-)
-INTO OUTFILE '/tmp/myordbok/list-sense-v5.csv'
-FIELDS ENCLOSED BY '"'
-TERMINATED BY '\t'
-ESCAPED BY '"'
-OPTIONALLY ENCLOSED BY '"'
-LINES TERMINATED BY '\r\n';
 
 
 UPDATE `senses` SET `sense` = REPLACE(`sense`, '“', '"') WHERE `sense` LIKE '“';
@@ -71,9 +166,6 @@ UPDATE `senses` SET `exam` = REPLACE(REPLACE(`exam`, '”', '"'), '“', '"') WH
 SELECT * FROM `senses` WHERE `sense` NOT LIKE '% %' AND `sense` NOT LIKE '%[%' AND `sense` LIKE '%a%';
 SELECT * FROM `senses` WHERE LENGTH(REPLACE(`sense`, ')', '')) <> LENGTH(REPLACE(`sense`, '(', ''))
 ```
-
-၄၅လက်မကျည်သုံး စက်သေနတ်ငယ်။
-
 
 ```sql
 SELECT * FROM `db_en` WHERE `exam` LIKE '%[%' ORDER BY `word_id`, `state`, `seq` ASC
@@ -184,102 +276,3 @@ UPDATE `senses` SET `sense` = REPLACE(`sense`, "~ sb (", "(~ sb ") WHERE `sense`
 
 UPDATE `ord_ar` SET `sense` = REPLACE(`sense`, ",", ";") WHERE `sense` LIKE '%,%';
 ```
-
-46893
-inguinal
-
-[fml]
-[infml]
-
-[latin:exempli gratia] သာဓကအနေဖြင့်။
-(usu. <b>Chase</b>) = STEEPLECHASE ၁
-
-(Brit infml) 	VACATION
-
-~ sth ( -> (~ sth
-(Brit., also <b>baulk</b>)
-formal fml
-informal infml
-~ (for/in sth); ~ (to do sth) (fml) -> (~ for/in sth; ~ to do sth) (fml)
-
-); (~
-
-forming names of [list:organic compounds/pharmaceutical products/proteins] etc. : <i>insulin | penicillin | dioxin.</i>
-[list:insulin/penicillin/dioxin]
-[~:insulin]
-ဝှေးစေ့။ လစေ့။ (also <b>ballocks</b> or <b>bollix</b>) [ in pl. ] (Brit., vulgar slang )
-
-(also <b>doggie-paddle</b>) ခွေးကူး။
-( <b>dog-eared</b>) ထောင့်လိပ်နေသော၊ ပေလိပ်နေသော (စာရွက်များ)။
-(also <b>-spherical</b> (forming adjs) : <i>atmospheric.</i>
-(US <b>- meter</b>) 	(တစ်မီတာ၏ အစိတ် အပိုင်း/ပမာဏကို ဖော်ပြသော နောက်ဆက်)။
-See <b>analytic</b>
-
-
-<b>the House</b> [sing] (Brit) = THE HOUSE OF COMMONS or THE HOUSE OF LORDS: <i>enter the House (ie become an MP).</i>
-
-[list:INCORPORATED]
-(also <b>inc</b>) INCORPORATED: <i>Manhattan Drugstores Inc. </i>
-[list:MILE] [US:mi]
-
-cms?
-
-distance to village 3mls
-[list:metre/meter]
-[list:INDEPENDENT] (candidate)
-[list:CAPE]
-[latin:circa]
-[list:Her ROYAL HIGHNESS/His ROYAL HIGHNESS]
-[latin:nota bene]
-
-[italian:gran turismo]
-(italian) အားကောင်း၍ အလွန်ဆွဲသောကား
-
-[list:PAIR] (giving position or direction)
-giving position or direction (L to R: Gordon, Anthony, Jerry, and Mark.)
-[list:kilometres per hour]
-[list:Personal Equity Plan]
-[UK:police constable]
-
-[UK:postal order]
-
-[list:pint] ပိုင့် (ချင့်ဝန်)
-[list:vanadium] (ကဗျာ) အပိုဒ်
-(US <b>Pvt</b>) private (soldier). တပ်သား (ရာထူးအဆင့်)
-(also <b>Sergt</b>) sergeant
-(pl <b>vv</b>) (ကဗျာ) အပိုဒ်။
-[list:versus] (ယှဉ်ပြိုင်ဘက်၊ ဆန့်ကျင်ဘက်အဖြစ်ပြသည့်စကား)။ …နှင့်…(ပွဲ) (သို့) (တရားလို)နှင့် (တရားခံ၊ တရားပြိုင်)။
-
-the chemical element (vanadium).
-
-Søkeresultater
-Nettresultater
-
-[list:also known as] (as a courtesy title of priests)
-[latin:et alii/alia]
-
-နံနက်ပိုင်း
-(Latin ante meridiam) It starts at 10 am.
-[latin:Ante meridiem] နံနက်ပိုင်း
-[esp Brit:annual general meeting] နှစ်ပတ်လည်အထွေထွေအစည်းအဝေး
-နှစ်ပတ်လည်အစည်းအဝေး
-annual meeting
-
-[radio:amplitude modulation]
-[radio:Amplitude Modulation]
-(radio) Amplitude Modulation.
-ရေဒီယိုလှိုင်း၏ အစောက်ပမာဏကို ပြုပြင်ပေးခြင်းဖြင့် လွှင့်ထုတ်သည့် အသံလွှင့်နည်း
-1. လွှဲခွင် Modulation
-[list:physical training]
-ဘယ်ရွန်ဘွဲ့
-
-British Broadcasting Corporation
-[list:United Nations Organization]
-
-United Nations High Commissioner for Refugees
-
-ကုလသမဂ္ဂ ဒုက္ခသည်များဆိုင်ရာမဟာမင်းကြီးရုံး
-
-physical training ကိုယ်လက်ကြံ့ခိုင်ရေး လေ့ကျင့်ခန်း
-
-SELECT * FROM `senses` WHERE `sense` LIKE 'comparative%';
