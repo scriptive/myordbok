@@ -10,7 +10,7 @@ const {table} = config.setting;
  export async function words(){
   await db.mysql.query("SELECT * FROM ??;",['listword']).then(
     async raw=>{
-      await json.write('C:/tmp/myordbok/just-words.json',raw,2);
+      await json.write('/tmp/myordbok/just-words.json',raw,2);
       console.info('words->list',raw.length)
     }
   ).catch(
@@ -36,7 +36,7 @@ export async function thesaurus(){
   //   [33,555],
   //   [343,5545]
   // ];
-  // var src = await load.json('C:/tmp/myordbok/just-words.json');
+  // var src = await load.json('/tmp/myordbok/just-words.json');
   // var data = await load.json('./assets/data','thesaurus.json');
 
   // for (const a in data) {
@@ -47,11 +47,11 @@ export async function thesaurus(){
   //   }
   //   console.log(word.id);
   // }
-  // await json.write('C:/tmp/myordbok/just-thesaurus-map.json',raw,2);
+  // await json.write('/tmp/myordbok/just-thesaurus-map.json',raw,2);
 
-  var raw = await load.json('C:/tmp/myordbok/just-thesaurus-map.json');
+  var raw = await load.json('/tmp/myordbok/just-thesaurus-map.json');
   var src = raw.map(e=>e.join(', ')).join('\r\n');
-  await seek.write('C:/tmp/myordbok/just-thesaurus-map.csv',src);
+  await seek.write('/tmp/myordbok/just-thesaurus-map.csv',src);
   return `done ${raw.length}`;
 }
 
@@ -60,8 +60,8 @@ export async function thesaurus(){
  * check the different and merge
  */
 export async function checkDifferentAndMerge(){
-  var raw = await load.json('C:/tmp/myordbok/just-words-with-thesaurus.json');
-  var src = await load.json('C:/tmp/myordbok/just-derives.json');
+  var raw = await load.json('/tmp/myordbok/just-words-with-thesaurus.json');
+  var src = await load.json('/tmp/myordbok/just-derives.json');
 
   // {
   //   "id": 13,
@@ -80,8 +80,8 @@ export async function checkDifferentAndMerge(){
         console.log(index,word);
       }
   }
-  await json.write('C:/tmp/myordbok/just-words-with-thesaurus-derives.json',raw,2);
-  await json.write('C:/tmp/myordbok/just-derives-different.json',different,2);
+  await json.write('/tmp/myordbok/just-words-with-thesaurus-derives.json',raw,2);
+  await json.write('/tmp/myordbok/just-derives-different.json',different,2);
   return 'done';
 }
 
@@ -89,7 +89,7 @@ export async function checkDifferentAndMerge(){
  * insert the different
  */
 export async function insertDifferent(){
-  var src = await load.json('C:/tmp/myordbok/just-words-with-thesaurus-derives.json');
+  var src = await load.json('/tmp/myordbok/just-words-with-thesaurus-derives.json');
   var raw = src.filter(e=>e.id =='').map((e)=>{
     return [e.word,e.is_derived];
   });
@@ -111,13 +111,25 @@ export async function insertDifferent(){
  * @param {any} req
  */
 export async function main(req){
-  await db.mysql.query('UPDATE ?? AS o INNER JOIN (select id, word from ??) AS i ON o.word = i.word SET o.wrid = i.id;',
-    [table.senses,table.synset]
-  ).then(
-    ()=>{
-      console.log('...','reset wrid')
+  // await db.mysql.query('UPDATE ?? AS o INNER JOIN (select id, word from ??) AS i ON o.word = i.word SET o.wrid = i.id;',
+  //   [table.senses,table.synset]
+  // ).then(
+  //   ()=>{
+  //     console.log('...','reset wrid')
+  //   }
+  // ).catch(
+  //   e=>console.error(e)
+  // );
+  await db.mysql.query("SELECT o.id AS id, o.word AS word, o.wrte AS wrte, o.sense AS sense, o.exam AS exam, o.wseq AS wseq FROM ?? AS o WHERE DATE(o.dated) > '2021-05-01';",
+  [table.senses]).then(
+    async raw=>{
+
+      // await json.write('/tmp/myordbok/list-sense-all.json',raw);
+      await json.write('/tmp/myordbok/list-sense-update.json',raw.map(e=>Object.values(e)));
+      console.info('sense->list',raw.length)
     }
   ).catch(
     e=>console.error(e)
   );
+  return 'Done';
 }
