@@ -38,7 +38,7 @@ FROM `list_word` AS w
 WHERE w.word = 'apples';
 
 SELECT
-  w.id AS root, c.wlid AS wrid, d.word AS word, d.is_derived AS is_derived
+  w.id AS root, c.wlid AS wrid, d.word AS word, d.derived AS derived
 FROM `list_word` AS w
   JOIN `map_thesaurus` c ON w.id = c.wrid
     INNER JOIN `list_word` d ON c.wlid = d.id
@@ -65,7 +65,7 @@ WHERE w.word = 'apple';
 -- get base and root words (?)
 
 SELECT
-  w.word AS word, d.word AS base, d.is_derived AS is_derived, c.dete AS derived_type, c.wrte AS word_type, c.wirg AS irreg
+  w.word AS word, d.word AS base, d.derived AS derived, c.dete AS derived_type, c.wrte AS word_type, c.wirg AS irreg
 FROM `list_word` AS w
   INNER JOIN `map_derive` c ON w.id = c.id OR w.id = c.wrid AND c.wrte < 10
     JOIN `list_word` d ON c.wrid = d.id OR c.id = d.id AND d.word != w.word
@@ -278,7 +278,7 @@ select word,name,sense_no,definition,example
 
 table
 
-derives -> derived (word_id -> id, word, derived -> is_derived)
+derives -> derived (word_id -> id, word, derived -> derived)
 derivetype -> derived_type
 unique_words -> words
 word_types -> word_type

@@ -71,7 +71,7 @@ WHERE tar.wseq != 0;
 
 CREATE VIEW `word_root` AS
 SELECT
-  w.id AS roid, c.wrid, c.wrte, c.dete, c.wirg, d.word, d.is_derived
+  w.id AS roid, c.wrid, c.wrte, c.dete, c.wirg, d.word, d.derived
 FROM `list_word` AS w
   INNER JOIN `map_derive` c ON w.id = c.wrid
     INNER JOIN `list_word` d ON c.id = d.id
@@ -79,7 +79,7 @@ WHERE w.word = 'loves';
 
 CREATE VIEW `word_base` AS
 SELECT
-  w.id AS roid, c.wrid, c.wrte, c.dete, c.wirg, d.word, d.is_derived
+  w.id AS roid, c.wrid, c.wrte, c.dete, c.wirg, d.word, d.derived
 FROM `list_word` AS w
   JOIN `map_derive` c ON w.id = c.id
     INNER JOIN `list_word` d ON c.wrid = d.id
@@ -100,7 +100,7 @@ SELECT
 FROM `list_word` AS w
 WHERE w.word NOT IN (
   SELECT word FROM `list_sense` GROUP BY word
-) AND w.is_derived = 0;
+) AND w.derived = 0;
 
 SELECT
   w.*

@@ -4,13 +4,13 @@
 
 ... all words
 
-| RootId |   Word   | is_derived |
+| RootId |   Word   | derived |
 |--------|:--------:|-----------:|
-|   id   |   word   | is_derived |
+|   id   |   word   | derived |
 
 ```sql
 SELECT
-  a.id, a.word, a.is_derived
+  a.id, a.word, a.derived
 FROM
   `list_word` AS a
 INTO OUTFILE '/tmp/myordbok/list-word.csv'
@@ -26,11 +26,11 @@ LINES TERMINATED BY '\r\n';
 UNION ALL
 (
   SELECT
-    a.id, a.word, a.is_derived
+    a.id, a.word, a.derived
   FROM
     `list_word` AS a
 )
-INTO OUTFILE '/tmp/myordbok/list-word.csv'
+INTO OUTFILE '/tmp/myordbok/list_word.csv'
 FIELDS ENCLOSED BY '"'
 TERMINATED BY '\t'
 ESCAPED BY '"'
@@ -64,10 +64,10 @@ UNION ALL
   SELECT
     a.id, a.word, a.wrte, REPLACE(a.sense, '\r\n', '\n'), REPLACE(COALESCE(a.exam,''), '\r\n', '\n'), a.wseq
   FROM `list_sense` AS a
-    WHERE a.word IS NOT NULL AND a.sense IS NOT NULL AND DATE(dated) = '1981-07-08'
-      ORDER BY a.word, a.wseq ASC LIMIT 10
+    WHERE a.word IS NOT NULL AND a.sense IS NOT NULL
+      ORDER BY a.word, a.wseq ASC
 )
-INTO OUTFILE '/tmp/myordbok/list-sense.csv'
+INTO OUTFILE '/tmp/myordbok/list_sense.csv'
 FIELDS ENCLOSED BY '"'
 TERMINATED BY '\t'
 ESCAPED BY '"'
@@ -103,7 +103,7 @@ UNION ALL
   FROM `map_derive` AS a
     ORDER BY a.wrid, a.wrte ASC
 )
-INTO OUTFILE '/tmp/myordbok/map-derive.csv'
+INTO OUTFILE '/tmp/myordbok/map_derive.csv'
 FIELDS ENCLOSED BY '"'
 TERMINATED BY '\t'
 ESCAPED BY '"'
@@ -136,7 +136,7 @@ UNION ALL
     a.wrid, a.wlid
   FROM `map_thesaurus` AS a
 )
-INTO OUTFILE '/tmp/myordbok/map-thesaurus.csv'
+INTO OUTFILE '/tmp/myordbok/map_thesaurus.csv'
 FIELDS ENCLOSED BY '"'
 TERMINATED BY '\t'
 ESCAPED BY '"'

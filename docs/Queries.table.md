@@ -24,7 +24,7 @@ derive Type -> dete
 CREATE TABLE `list_word` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
   `word` VARCHAR(250) NULL DEFAULT NULL COLLATE 'utf8_bin',
-  `is_derived` INT(1) NULL DEFAULT '0',
+  `derived` INT(1) NULL DEFAULT '0',
   `fr_thesaurus` INT(1) NULL DEFAULT '0',
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `Key` (`id`, `word`) USING BTREE,
@@ -186,12 +186,14 @@ SELECT
 FROM `list_word` AS w
 WHERE w.word NOT IN (
   SELECT word FROM `list_sense` GROUP BY word
-) AND w.is_derived = 0;
+) AND w.derived = 0;
 ```
 
 ## SQLite
 
 ```sql
+
+-- list_sense
 
 CREATE TABLE "list_sense" (
   "id" INTEGER,
@@ -199,14 +201,19 @@ CREATE TABLE "list_sense" (
   "wrte" INTEGER,
   "sense" TEXT,
   "exam" TEXT,
-  "wseq" INTEGER
+  "wseq" INTEGER,
+  PRIMARY KEY("id" AUTOINCREMENT)
 );
+
+-- list_word
 
 CREATE TABLE "list_word" (
   "id" INTEGER,
   "word" TEXT,
   "derived" INTEGER
 );
+
+-- map_derive
 
 CREATE TABLE "map_derive" (
   "id" INTEGER,
@@ -215,6 +222,8 @@ CREATE TABLE "map_derive" (
   "dete" INTEGER,
   "wirg" INTEGER
 );
+
+-- map_thesaurus
 
 CREATE TABLE "map_thesaurus" (
   "wrid" INTEGER,
