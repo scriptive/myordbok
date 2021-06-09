@@ -31,8 +31,12 @@ export async function get(req){
  */
 export async function list(req){
   var abc = await gist.get();
+  var result =[];
+  for (const item in abc.files) {
+    result.push({item:abc.files[item].filename,truncated:abc.files[item].truncated,url:abc.files[item].raw_url})
+  }
+  return result;
 
-  return abc;
 }
 
 /**
